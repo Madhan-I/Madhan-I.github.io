@@ -41,7 +41,7 @@ layout: default
 {% unless th.show.about == false %}
 <section id="about">
   <div class="wrap">
-    <div class="sec-head"><span class="label">About</span><h2>{{ p.about_title }}</h2></div>
+    <div class="sec-head"><span class="label">About</span><h2 class="split">{% assign t = p.about_title | split: "|" %}{% for line in t %}<span class="line">{{ line }}</span>{% endfor %}</h2></div>
     <div class="about">
       <div class="copy">
         {% for para in p.about %}<p>{{ para }}</p>{% endfor %}
