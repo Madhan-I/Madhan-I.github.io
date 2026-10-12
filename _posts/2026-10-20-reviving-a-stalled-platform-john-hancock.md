@@ -1,5 +1,6 @@
 ---
 title: "400 tickets, two lost years, nine months to recover"
+teaser: "How a frozen programme got moving again in nine months"
 summary: How release governance brought a frozen John Hancock platform programme back to life.
 tags: [Release Train, Recovery, Leadership]
 ---

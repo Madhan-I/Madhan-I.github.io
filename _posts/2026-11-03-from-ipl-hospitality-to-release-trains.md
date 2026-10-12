@@ -1,5 +1,6 @@
 ---
 title: "From IPL hospitality boxes to release trains"
+teaser: "What live events taught me before I ever ran a sprint"
 summary: What event management and healthcare claims taught me before I ever ran a sprint.
 tags: [Career, Leadership]
 ---
