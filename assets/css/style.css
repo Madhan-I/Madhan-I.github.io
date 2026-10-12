@@ -452,3 +452,7 @@ h1, .stage h1 { font-size: clamp(40px, 6.4vw, 88px); line-height: .95; letter-sp
 /* contact cards: 2 x 2 (Email + GitHub, then LinkedIn + Resume) */
 @media (min-width: 601px) { .contact-row { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (min-width: 1000px) { .contact-row .card .v { white-space: nowrap; } }
+
+/* hero name on one line */
+.stage h1 .last { display: inline; }
+@media (min-width: 600px) { .stage h1 { white-space: nowrap; font-size: clamp(36px, 5.6vw, 76px); } }
