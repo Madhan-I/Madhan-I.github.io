@@ -1,5 +1,6 @@
 ---
 title: "2,000 requests, zero-defect releases"
+teaser: "How automated testing made every release a clean one"
 summary: How a multi-tier automated testing framework made every TruStage release clean, and schedules 35% shorter.
 tags: [Quality, Scrum, Testing]
 ---

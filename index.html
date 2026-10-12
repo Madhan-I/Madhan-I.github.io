@@ -138,7 +138,7 @@ layout: default
 {% if site.posts.size > 0 %}
 <section id="writing" class="flush-top">
   <div class="wrap">
-    <div class="sec-head"><span class="label">Writing</span><h2>Notes from the release train</h2></div>
+    <div class="sec-head"><span class="label">Writing</span>{% assign latest = site.posts.first %}<h2>{% if latest.teaser %}{{ latest.teaser }}{% else %}{{ latest.title }}{% endif %}</h2></div>
     <div class="post-list">
       {% for post in site.posts limit:3 %}
       <a class="post-card" href="{{ post.url | relative_url }}">
