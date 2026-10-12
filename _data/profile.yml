@@ -61,9 +61,9 @@ metrics:
     suffix: "10–15%"
     text: onboarding false positives after a hybrid AI and RAG compliance engine went live
   - tag: People
-    number: "500"
+    number: "2,000"
     suffix: "+"
-    text: mentees and 30+ guest lectures through Atos Prayas Foundation
+    text: people trained, with 75+ guest lectures and 500+ mentees since 2020
 
 about_title: Delivery leader. Engineer by training. Teacher by habit.
 about:
@@ -144,9 +144,9 @@ training_note: Recent sessions include an Azure Cognitive Services workshop for 
 training_facts:
   - number: "6 yrs"
     label: Microsoft Certified Trainer
-  - number: "500+"
-    label: mentees since 2020
-  - number: "30+"
+  - number: "2,000+"
+    label: people trained
+  - number: "75+"
     label: guest lectures
 training_topics:
   - name: SAFe® & Agile Release Trains
