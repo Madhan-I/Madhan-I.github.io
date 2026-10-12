@@ -72,7 +72,8 @@ metrics:
     suffix: "+"
     text: people trained, with 75+ guest lectures and 500+ mentees since 2020
 
-about_title: Delivery leader. Engineer by training. Teacher by habit.
+# Use | to start a new line in the heading.
+about_title: Delivery leader. Engineer by training.|Teacher by habit.
 about:
   - I lead programmes where the stakes are real. Millions of policyholders, regulated data, and executives who need a straight answer on whether a release will land.
   - "Right now I run release governance for Manulife's Core API, Customer Engagement and Compliance AI products and report portfolio health straight to executive leadership. The portfolio holds a High health rating with under 5% sprint variance and zero critical security issues. Before that I spent three years on-site in Boston for John Hancock, where I restarted a platform programme that had been frozen for two years and ran five modernization initiatives across 20+ business divisions. I'm used to leading onshore and offshore teams across time zones, and I'm ready to do that wherever the work is."
