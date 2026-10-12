@@ -370,3 +370,8 @@ section.flush-top { padding-top: 0; }
 /* Badges: logo only, no tile */
 .cg .badge { background: none; box-shadow: none; padding: 0; border-radius: 0; width: 48px; height: 48px; object-fit: contain; }
 .cg li.cert:not(:has(.badge)) .cbody { padding-left: 60px; }
+
+/* Role labels: a glowing dot before every role, so wrapped lines stay consistent */
+.roles { gap: 8px 22px; }
+.roles span + span::before { content: none; }
+.roles span::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: var(--glow-2); margin-right: 12px; box-shadow: 0 0 10px var(--glow-2); flex: none; }
