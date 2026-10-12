@@ -16,7 +16,6 @@ azure-administrator.png https://images.credly.com/size/160x160/images/336eebfc-0
 azure-ai-engineer.png https://images.credly.com/size/160x160/images/61f56aa4-16fd-403c-90bc-1d90dba1fa99/image.png
 ibm-data-ai.png https://images.credly.com/size/160x160/images/7481cfd9-3956-4b6b-8dc5-edbabb2fd98f/Data_-_AI_Essentials_CP4D_Journey.png
 cisco-iot.png https://images.credly.com/size/160x160/images/fce226c2-0f13-4e17-b60c-24fa6ffd88cb/Intro2IoT.png
-vmware.png https://images.credly.com/size/160x160/images/8ca28f8d-5ac0-49d7-b783-608cd4a61072/image.png
 ibm-hybrid-cloud.png https://images.credly.com/size/160x160/images/47069d6e-35c4-46ce-9cf6-12cc92e09a48/Hybrid_Cloud_Conf_-_Pipeline_Builder.png
 ibm-devsecops.png https://images.credly.com/size/160x160/images/01d39c6e-56b8-41d2-b994-fb9d4587240f/Cloud_Native_Sec_Conf_-_DevSecOps_Security.png
 aviatrix.png https://images.credly.com/size/160x160/images/e3c001fd-161d-433a-a7a4-049556d6112d/blob
@@ -35,11 +34,6 @@ gremlin.png https://media.licdn.com/dms/image/v2/D4E0BAQGS6ZemRTLr2w/company-log
 scrum-institute.png https://media.licdn.com/dms/image/v2/C560BAQH15_8r7VSipw/company-logo_100_100/company-logo_100_100/0/1630606741388/international_scrum_institute_logo?e=1793232000&v=beta&t=DbeH5Iua6QQf5ma2S-lCkjXKxV-gFVHklaRpziSboIk
 vmedu.png https://media.licdn.com/dms/image/v2/D560BAQF6BwdpVzrNvA/company-logo_100_100/B56Z6C2VhhHAAM-/0/1780311742762/vabro_vmedu_logo?e=1793232000&v=beta&t=nrh1EbXxD-OsGfIzu6lf5-t78EYtj5bqgTQuO5rihK4
 alibaba-cloud.png https://media.licdn.com/dms/image/v2/D560BAQEZecjjDTVXJA/company-logo_100_100/company-logo_100_100/0/1723709190350/alibaba_cloud_computing_company_logo?e=1793232000&v=beta&t=HdKKD4NTgVmYFiCqbKeygbuK2im50GWbMlWzwMuIjw8
-gc-devops.png https://cdn.qwiklabs.com/e6mPJW553J0Kq4Xfz9FwPHEijcrJx15e8B%2FR5qc%2BMOY%3D
-gc-kubernetes.png https://cdn.qwiklabs.com/d3%2FXEgAy%2BUqECXqNRrszWcIim%2B00PJBkoJfTctGdphk%3D
-gc-network.png https://cdn.qwiklabs.com/dSWcl7S0A7ugT%2FhWCw2ASLYslLNp%2FYFys9VL%2BfGfUpo%3D
-gc-observability.png https://cdn.qwiklabs.com/hGYMBUgND9LUofKoth6kH0x962Q2MbSYWm%2BBbkfYoHY%3D
-gc-ml-data.png https://cdn.qwiklabs.com/Z9RnG0DZDYJa%2BuUUC4NNASbN%2F8q4Ay6Bi4AUpLARkJM%3D
 mie-expert.png https://images.credly.com/size/340x340/images/f2fcdaf4-c289-48f7-a5b6-e367fe64e29d/blob
 google-cloud-logo.png https://media.licdn.com/dms/image/v2/D4E0BAQFrZn5P9fEf9A/company-logo_100_100/B4EZ22TKwAJ4AU-/0/1776879971686/google_cloud_logo?e=1793232000&v=beta&t=SBUdUdrWd9Y-yZh-NitVWzZn-WZavLO1LLriAAyWbXs
 vmware-logo.png https://media.licdn.com/dms/image/v2/D560BAQEzpbXCUplXJw/company-logo_100_100/company-logo_100_100/0/1716485708320/vmware_logo?e=1793232000&v=beta&t=1VFMPKt035yFBjfgReAduqKrcFsYEmyIm4jqYeKeU-o
