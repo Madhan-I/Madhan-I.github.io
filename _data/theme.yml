@@ -4,12 +4,13 @@
 # =====================================================================
 
 # 1. COLOUR STYLE: pick one word.
-#    dawn   = night sky with an orange-to-rose sunrise (current)
+#    harbor = deep navy with a burnt-orange glow (current, job-search look)
+#    dawn   = night sky with an orange-to-rose sunrise
 #    ocean  = deep navy with teal and aqua
 #    forest = dark green with emerald and lime
 #    royal  = deep violet with gold
 #    steel  = charcoal with silver and electric blue (most corporate)
-preset: dawn
+preset: harbor
 
 # 2. FONT STYLE for big headings: pick one word.
 #    bold    = wide, modern, strong (current)
@@ -43,6 +44,20 @@ colors:
 #  Preset definitions. You don't need to edit below this line.
 # ---------------------------------------------------------------------
 presets:
+  harbor:
+    glow_1: "#FDBA74"
+    glow_2: "#F97316"
+    glow_3: "#C2410C"
+    sky_top: "#06122A"
+    sky_bottom: "#0B1F3A"
+    band_1: "#081A33"
+    band_2: "#0B2445"
+    band_3: "#102D52"
+    accent_dark: "#FDBA74"
+    signal_dark: "#FB923C"
+    accent_light: "#B4400B"
+    signal_light: "#C2410C"
+    on_glow: "#1A0A02"
   dawn:
     glow_1: "#FF8A4C"
     glow_2: "#FF5A6E"
