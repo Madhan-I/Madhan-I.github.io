@@ -26,6 +26,9 @@ social:
     - https://github.com/Madhan-I
 
 permalink: /blog/:year/:month/:title/
+# Posts dated in the future stay hidden until their date.
+# A daily GitHub job (.github/workflows/weekly-publish.yml) rebuilds the site so they appear on time.
+future: false
 timezone: Asia/Kolkata
 
 plugins:

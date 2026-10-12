@@ -87,6 +87,8 @@ Your article starts here. Leave a blank line between paragraphs.
 
 4. Click **Commit changes**. The newest three posts also appear on the home page.
 
+**Schedule a post for later:** give the file a future date, e.g. `2026-12-08-my-post.md`. It stays hidden and goes live automatically on that morning (around 06:15 India time). The 8 experience stories are already scheduled one per week, every Tuesday until 1 December 2026.
+
 ---
 
 ## Part 4 — Change how it looks
