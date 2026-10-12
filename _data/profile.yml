@@ -202,6 +202,7 @@ certifications:
       - name: ITIL® Foundation in IT Service Management (EXIN)
         year: "2016"
         status: Active
+        badge: exin.png
       - name: Certified SAFe® 5 Scrum Master
         year: "2022"
         status: Active
@@ -215,9 +216,11 @@ certifications:
       - name: Scrum Associate & Kanban Associate (Scrum Institute)
         year: "2020"
         status: Active
+        badge: scrum-institute.png
       - name: Scrum Fundamentals Certified (VMEdu)
         year: "2020"
         status: Active
+        badge: vmedu.png
   - group: Microsoft
     items:
       - name: Microsoft Certified Trainer
@@ -225,6 +228,10 @@ certifications:
         status: Active
         badge: mct-2026.png
         url: https://www.credly.com/badges/f5fd3e5a-519d-4d25-9cb0-ef6a57e7c3b0
+      - name: Microsoft Innovative Educator (MIE) Expert 2025–2026
+        year: "2025"
+        status: Active
+        badge: mie-expert.png
       - name: Azure AI Engineer Associate
         year: "2021"
         status: Active
@@ -254,6 +261,7 @@ certifications:
         year: "2021"
         status: Active
         url: https://www.credential.net/1198d435-0704-4613-9e67-0d774c86723f
+        badge: jenkins.png
       - name: GitLab Certified CI/CD Associate
         year: "2022"
         status: Active
@@ -283,6 +291,7 @@ certifications:
         year: "2021"
         status: Active
         url: https://www.credential.net/3ac90335-5487-458a-8a5b-ecdf7ce21b52
+        badge: gremlin.png
   - group: Cloud, Data & AI
     items:
       - name: IBM Build Smart on Kubernetes
@@ -315,26 +324,29 @@ certifications:
         status: Active
         badge: cisco-iot.png
         url: https://www.credly.com/badges/2e25f340-a699-4b71-9e32-8be1d5a1e2ae
-  - group: Google Cloud · 29 skill badges
+  - group: Google Cloud · 29 skill badges (top 5 shown)
     link: https://www.skills.google/public_profiles/f79f24ba-fe04-4792-b301-a8b152fd4dd5
     items:
       - name: Implement DevOps Workflows in Google Cloud
         year: "2020"
         status: Active
+        badge: gc-devops.png
       - name: Deploy Kubernetes Applications on Google Cloud
         year: "2020"
         status: Active
+        badge: gc-kubernetes.png
       - name: Develop Your Google Cloud Network
         year: "2021"
         status: Active
+        badge: gc-network.png
       - name: Monitor and Log with Google Cloud Observability
         year: "2020"
         status: Active
+        badge: gc-observability.png
       - name: Prepare Data for ML APIs on Google Cloud
         year: "2020"
         status: Active
-      - name: Anthos Service Mesh, Security & Identity, BigQuery ML and 22 more
-        year: "2020"
+        badge: gc-ml-data.png
   - group: Earlier credentials
     muted: true
     items:
@@ -351,6 +363,7 @@ certifications:
       - name: Alibaba Cloud Associate × 4 (Cloud Computing, Big Data, Security, Cloud Native)
         year: "2020"
         status: Expired
+        badge: alibaba-cloud.png
       - name: Istio Essentials & Intermediate (Solo.io)
         year: "2021"
         status: Expired
