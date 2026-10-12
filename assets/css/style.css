@@ -373,5 +373,4 @@ section.flush-top { padding-top: 0; }
 
 /* Role labels: a glowing dot before every role, so wrapped lines stay consistent */
 .roles { gap: 8px 22px; }
-.roles span + span::before { content: none; }
-.roles span::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: var(--glow-2); margin-right: 12px; box-shadow: 0 0 10px var(--glow-2); flex: none; }
+.roles span::before, .roles span + span::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: var(--glow-2); margin: 0 12px 0 0; box-shadow: 0 0 10px var(--glow-2); flex: none; }
