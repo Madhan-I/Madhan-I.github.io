@@ -1,0 +1,37 @@
+# Config for Pages CMS (https://pagescms.org), a free visual editor for this site.
+# Sign in there with GitHub, pick this repository, and you get a simple form
+# to write blog posts and upload images. No code needed.
+
+media:
+  input: assets/images
+  output: /assets/images
+
+content:
+  - name: posts
+    label: Blog posts
+    type: collection
+    path: _posts
+    filename: "{year}-{month}-{day}-{primary}.md"
+    view:
+      fields: [title, date]
+    fields:
+      - name: title
+        label: Title
+        type: string
+        required: true
+      - name: date
+        label: Publish date
+        type: date
+      - name: summary
+        label: One-line summary (shown on cards and when shared)
+        type: string
+      - name: tags
+        label: Tags
+        type: string
+        list: true
+      - name: cover
+        label: Cover image (optional)
+        type: image
+      - name: body
+        label: Article
+        type: rich-text
