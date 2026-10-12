@@ -497,7 +497,7 @@ section.band { padding-top: 48px; }
 
 /* fill the empty space at the bottom of the hero: same hero height, content sits lower */
 @media (min-width: 761px) {
-  .hero { padding-bottom: 56px; }
+  .stage .hero { padding-bottom: 56px; }
   .stage .roles { margin-top: 32px; }
   .stage .role { margin-top: 44px; }
   .stage .lede { margin-top: 34px; }
