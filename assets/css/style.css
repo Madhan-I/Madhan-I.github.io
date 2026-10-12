@@ -374,3 +374,9 @@ section.flush-top { padding-top: 0; }
 /* Role labels: a glowing dot before every role, so wrapped lines stay consistent */
 .roles { gap: 8px 22px; }
 .roles span::before, .roles span + span::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: var(--glow-2); margin: 0 12px 0 0; box-shadow: 0 0 10px var(--glow-2); flex: none; }
+
+/* Fix: include borders in pseudo-element sizes so timeline dots sit centred on the line */
+*::before, *::after { box-sizing: border-box; }
+
+/* Contact heading: calmer size */
+.contact h2 { font-size: clamp(30px, 4.6vw, 60px); max-width: 20ch; line-height: 1.02; }
