@@ -2,6 +2,7 @@
 # Your page content is in _data/profile.yml. Blog posts are in _posts/.
 
 title: Madhan Irulandi
+tagline: Senior Release Train Engineer & Program Manager
 description: Senior Release Train Engineer and Program Manager in Chennai. SAFe 6, Azure AI, Microsoft Certified Trainer. Available for leadership roles and corporate training.
 author: Madhan Irulandi
 lang: en
@@ -11,9 +12,12 @@ url: "https://madhanirulandi.com"
 # Leave empty if your repository is named <username>.github.io
 baseurl: ""
 
-# Shown when someone shares your link on LinkedIn, WhatsApp or X.
-# Put a 1200x630 image in assets/images/ and set the path, e.g. /assets/images/share.png
-image: /assets/images/madhan.jpg
+# Picture shown when someone shares your link on LinkedIn, WhatsApp or X.
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/madhan.jpg
 
 social:
   name: Madhan Irulandi
