@@ -1,0 +1,34 @@
+---
+title: "Migrating 4,500 documents without a single defect"
+summary: The MetLife move to OpenText xPression saved 2,500 engineering hours a quarter and $150,000 a year.
+tags: [Migration, Quality, Insurance]
+---
+
+Legacy migrations have a reputation, and it's not a good one. Everyone has a story about the one that ran late, went over budget, or broke something nobody noticed until a customer did.
+
+From July 2017 to January 2020 I was Technology Lead and Senior Analyst at Cognizant on a MetLife migration that needed to avoid all three.
+
+## The scope
+
+MetLife's policy documents lived on a legacy publishing platform. Our job was to move them to OpenText xPression: **more than 4,500 policy documents**, each of which had to come out the other side exactly right.
+
+## How we kept it clean
+
+A migration of this size is really thousands of small migrations. The risk is in the details. So the most important decision we made was to treat testing as a first-class part of the work, not something squeezed in at the end.
+
+I worked closely with QA to build comprehensive test cases for the migrated assets. Every document was checked against what it was supposed to be, not just whether it opened.
+
+Along the way we also standardised the documents themselves, delivering **more than 500 standardised document applications**. Fewer one-off variations meant fewer places for errors to hide and far less work to maintain them afterwards.
+
+## The results
+
+- **4,500+ policy documents** migrated with a **zero-defect standard**.
+- **2,500 engineering hours saved every quarter** after moving to xPression.
+- Remediation costs **reduced by $150,000 a year**.
+- A **Certificate of Excellence** in May 2019 for my support and contributions to migrating publisher data to xPression.
+
+## What made the difference
+
+The best migrations are boring on go-live day. Ours was, because the hard thinking happened earlier: test cases written before they were needed, standards agreed before the volume arrived, and QA treated as a partner rather than a gate.
+
+*Planning a platform migration? I'd be glad to help you make go-live day a quiet one.*
