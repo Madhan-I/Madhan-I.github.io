@@ -1,0 +1,305 @@
+# =====================================================================
+#  YOUR WEBSITE CONTENT LIVES HERE.
+#  Edit any text below, save, and the site updates in about a minute.
+#  Rules: keep the indentation (spaces, never tabs). Text with a colon
+#  or a # inside it must be wrapped in "double quotes".
+#
+#  Source of truth used to fill this file (Oct 2026): your LinkedIn profile,
+#  certification emails from Credly / Microsoft in Gmail, and your resumes.
+#  Keep this file and LinkedIn saying the same thing. Recruiters compare them.
+# =====================================================================
+
+name_first: Madhan
+name_last: Irulandi
+location: Chennai, India
+status: Open to leadership roles and training engagements
+
+# Big line under your name. Text inside highlight is shown in orange.
+headline: Senior Release Train Engineer & Program Manager who
+headline_highlight: gets stalled programmes shipping again.
+
+intro: >-
+  12+ years in delivery for Manulife, John Hancock, Allstate, MetLife, Anthem
+  and Walmart. I run Agile Release Trains and portfolio governance for
+  AI-enabled platforms, and I've trained engineers as a Microsoft Certified
+  Trainer since 2020.
+
+email: irulandi.madhan@gmail.com
+linkedin: https://www.linkedin.com/in/madhanirulandi
+linkedin_label: linkedin.com/in/madhanirulandi
+# Type your GitHub username between the quotes, for example "madhan-i".
+# Leave it empty ("") and the GitHub link stays hidden.
+github: "Madhan-I"
+
+# Put your resume PDF in assets/resume/ and type its file name here.
+# Leave it empty ("") to show "Request by email" instead of a download button.
+resume_file: ""
+
+# Optional: put a square photo in assets/images/ and type its file name here.
+photo: "madhan.jpg"
+
+expertise:
+  - SAFe® 6 · Release Train Engineering
+  - Program & Portfolio Governance
+  - Technical Product Management
+  - Azure AI · RAG
+  - AKS · Apigee · DevOps
+  - Microsoft Certified Trainer
+
+# The four big numbers under the hero. Keep it to four.
+metrics:
+  - tag: Recovery
+    number: "400"
+    suffix: "+"
+    text: tickets cleared in 9 months on a platform stalled for two years by COVID
+  - tag: Predictability
+    number: "100"
+    suffix: "%"
+    text: ART predictability and story-point completion across my current portfolio
+  - tag: AI in production
+    number: "30→"
+    suffix: "10–15%"
+    text: onboarding false positives after a hybrid AI and RAG compliance engine went live
+  - tag: People
+    number: "500"
+    suffix: "+"
+    text: mentees and 30+ guest lectures through Atos Prayas Foundation
+
+about_title: Delivery leader. Engineer by training. Teacher by habit.
+about:
+  - I lead programmes where the stakes are real. Millions of policyholders, regulated data, and executives who need a straight answer on whether a release will land.
+  - "Right now I run release governance for Manulife's Core API, Customer Engagement and Compliance AI products and report portfolio health straight to executive leadership. The portfolio holds a High health rating with under 5% sprint variance. Before that I spent three years on-site in Boston for John Hancock, where I restarted a platform programme that had been frozen for two years and ran five modernization initiatives across 20+ business divisions."
+  - I hold a BE in Electrical & Electronics Engineering and I'm now studying for an MS in Computer Science with a focus on AI & ML at Woolf University. That mix lets me sit with architects on AKS migrations and OAuth design, then walk into a steering committee and explain it in plain language.
+
+clients:
+  - Manulife
+  - John Hancock
+  - Allstate
+  - MetLife
+  - Anthem / Elevance
+  - Walmart
+  - TruStage
+
+# Newest first. Set current: true on the job you hold now.
+# Titles match LinkedIn exactly. Change both together.
+experience:
+  - dates: Sep 2025 – Present
+    title: Senior Release Train Engineer / Program Manager
+    company: Atos
+    detail: Chennai (Hybrid) · Manulife
+    current: true
+    points:
+      - Lead end-to-end governance for Manulife's Core API, Customer Engagement and Compliance AI products, reporting portfolio health and roadmap decisions to executive leadership.
+      - Kept the portfolio at a High health rating with under 5% sprint variance.
+      - Reached 100% ART predictability and story-point completion on multi-million-dollar roadmaps through disciplined PI planning.
+      - Directed a hybrid AI and RAG compliance engine that cut onboarding false positives from 30% to 10–15%.
+      - Moved 15 core services to AKS and 7 microservices to Gradle.
+  - dates: Sep 2022 – Aug 2025
+    title: Technical Product Manager / Release Train Engineer
+    company: Atos
+    detail: Boston (On-site) · John Hancock
+    points:
+      - Revived a multi-million-dollar platform programme after a two-year COVID delay and cleared 400+ tickets in 9 months.
+      - Ran 5 modernization initiatives at once across 20+ business divisions.
+      - Turned a fragmented roadmap into sprint-ready schedules with Function Point capacity models.
+      - Presented release roadmaps to executives and kept runbooks current, with zero delivery gaps through team transitions.
+  - dates: Sep 2020 – Aug 2022
+    title: Senior Scrum Master / Agile Project Manager
+    company: Atos
+    detail: Chennai (Hybrid) · Allstate
+    points:
+      - Delivered communications to 20M+ Allstate and 400K Encompass policyholders across 750+ document templates.
+      - Raised velocity 30% and cut programme cost 25% without adding headcount.
+      - Primary escalation point between engineering and client executives. 100% client satisfaction over multiple years.
+  - dates: Jan 2020 – Aug 2020
+    title: Scrum Master / Agile Delivery Lead
+    company: Syntel
+    detail: Acquired by Atos · TruStage
+    points:
+      - Completed 2,000+ document requests on OpenText xPression with zero-defect releases. Schedules down 35%.
+  - dates: Jul 2014 – Jan 2020
+    title: Technology Lead · Systems Engineer · Production Support
+    company: Cognizant
+    detail: Chennai · MetLife, Anthem, Walmart
+    points:
+      - MetLife. Migrated 4,500+ policy documents to xPression, saving 2,500 hours a quarter and $150K a year. Certificate of Excellence, May 2019.
+      - Anthem. Part of a 60-developer team that cut opex $300K a year and added $400K a year in revenue.
+      - Walmart. Cut manual effort 30% (25 hours a week) and MTTR 20% across 50+ P1/P2 outages.
+  - dates: Aug 2013 – May 2014
+    title: Senior Customer Care Representative
+    company: Dell Technologies
+    detail: Healthcare claims · BCBS, Humana, Aetna
+    points:
+      - Led a 15-person team. CSAT above 90% and average handle time down 33%.
+  - dates: 2009 – 2013
+    title: Client Relations & Event Coordination
+    company: Wizcraft · Encompass Event Group
+    detail: Freelance, alongside engineering studies
+    points:
+      - Ran guest relations for IPL (Chennai Super Kings), India's first Formula 1 Grand Prix and the 100 Years of Indian Cinema celebration, with crews of 15–40.
+
+training_title: I train the teams I'd want to work with
+training_intro: Microsoft Certified Trainer every year since 2020. I run workshops for delivery teams, Scrum Masters and engineers who need to apply a framework on Monday, not just pass an exam.
+training_note: Recent sessions include an Azure Cognitive Services workshop for Sri Ramakrishna Engineering College, a guest lecture on Azure ML and AI for Jeppiaar Engineering College, and Google Cloud and AWS training with NIIT Foundation and EduBridge that earned an Atos Spot Award.
+training_facts:
+  - number: "6 yrs"
+    label: Microsoft Certified Trainer
+  - number: "500+"
+    label: mentees since 2020
+  - number: "30+"
+    label: guest lectures
+training_topics:
+  - name: SAFe® & Agile Release Trains
+    note: PI planning · RTE practice
+  - name: Scrum & Kanban for real teams
+    note: Ceremonies · metrics
+  - name: Azure AI & RAG in production
+    note: AI-102 track
+  - name: Azure administration
+    note: AZ-104 track
+  - name: CI/CD with GitLab & Jenkins
+    note: Pipelines · release
+  - name: Incident response & ITIL®
+    note: PagerDuty · MTTR
+  - name: Kubernetes, service mesh & cloud
+    note: AKS · Istio · IBM · VMware
+
+# year  = when you first earned it.
+# url    = optional link to the certificate so people can verify it.
+# status = shown as a green tag. Only write "Active" when you can prove it
+#          (a renewal email, Credly or Microsoft Learn shows it as current).
+certifications_title: 80+ certifications and badges since 2016
+# Links shown under the certificates so recruiters can verify them.
+certifications_links:
+  - label: Verify on Credly
+    url: https://www.credly.com/users/madhan-i
+  - label: Accredible wallet
+    url: https://www.credential.net/profile/madhani834770/wallet
+  - label: Google Skills profile
+    url: https://www.skills.google/public_profiles/f79f24ba-fe04-4792-b301-a8b152fd4dd5
+certifications:
+  - group: Agile & Service Management
+    featured: true
+    items:
+      - name: Certified SAFe® 6 Scrum Master
+        year: "2023"
+        status: Active
+      - name: Certified SAFe® 6 Product Owner / Product Manager
+        year: "2023"
+        status: Active
+      - name: Certified SAFe® 5 Scrum Master
+        year: "2022"
+        status: Active
+      - name: Certified SAFe® 5 Product Owner / Product Manager
+        year: "2022"
+        status: Active
+      - name: ITIL® Foundation in IT Service Management (EXIN)
+        year: "2016"
+      - name: Scrum Master Professional Certificate (CertiProf)
+        year: "2022"
+  - group: Microsoft
+    items:
+      - name: Microsoft Certified Trainer
+        year: "2020"
+        status: Active
+      - name: Azure AI Engineer Associate
+        year: "2021"
+        status: Active
+      - name: Azure Administrator Associate
+        year: "2020"
+        status: Active
+      - name: Azure Fundamentals
+        year: "2020"
+      - name: Azure AI Fundamentals
+        year: "2020"
+      - name: Azure Data Fundamentals
+        year: "2020"
+  - group: DevOps & Reliability
+    items:
+      - name: GitLab Certified Git Associate
+        year: "2022"
+      - name: GitLab Certified CI/CD Associate
+        year: "2022"
+      - name: Certified Jenkins Engineer (CloudBees)
+        year: "2021"
+        url: https://www.credential.net/1198d435-0704-4613-9e67-0d774c86723f
+      - name: PagerDuty Foundational Practitioner
+        year: "2020"
+      - name: PagerDuty Incident Management
+        year: "2020"
+      - name: PagerDuty API Certification
+        year: "2021"
+      - name: Gremlin Certified Chaos Engineering Practitioner
+        year: "2021"
+        url: https://www.credential.net/3ac90335-5487-458a-8a5b-ecdf7ce21b52
+  - group: Cloud & Networking
+    items:
+      - name: Aviatrix Multicloud Network Associate
+        year: "2020"
+      - name: Alibaba Cloud Associate × 4 (Cloud Computing, Big Data, Security, Cloud Native)
+        year: "2020"
+      - name: Istio Essentials & Intermediate (Solo.io)
+        year: "2021"
+      - name: VMware IT Academy × 3 (Cloud, Network & Storage Virtualization)
+        year: "2020"
+      - name: Introduction to IoT (Cisco)
+        year: "2020"
+  - group: Google Cloud · 29 skill badges
+    items:
+      - name: Implement DevOps Workflows in Google Cloud
+        year: "2020"
+      - name: Deploy Kubernetes Applications on Google Cloud
+        year: "2020"
+      - name: Develop Your Google Cloud Network
+        year: "2021"
+      - name: Monitor and Log with Google Cloud Observability
+        year: "2020"
+      - name: Prepare Data for ML APIs on Google Cloud
+        year: "2020"
+      - name: Anthos Service Mesh, Security & Identity, BigQuery ML and 22 more
+        year: "2020"
+  - group: IBM · Data, AI & Hybrid Cloud
+    items:
+      - name: IBM Data & AI Essentials
+        year: "2020"
+      - name: Build Smart on Kubernetes
+        year: "2021"
+      - name: Hybrid Cloud × 6 (Microservices, Pipelines, Service Mesh, Serverless, App Security, App Dev)
+        year: "2020"
+      - name: Cloud Native Security · DevSecOps
+        year: "2020"
+  - group: Scrum, Kanban & Security Foundations
+    items:
+      - name: Scrum Foundation Professional (CertiProf SFPC)
+        year: "2020"
+      - name: Kanban Foundation (CertiProf KIKF)
+        year: "2020"
+      - name: Cyber Security Foundation (CertiProf CSFPC)
+        year: "2021"
+      - name: Scrum Associate & Kanban Associate (Scrum Institute)
+        year: "2020"
+      - name: Scrum Fundamentals Certified (VMEdu)
+        year: "2020"
+
+education:
+  - title: MS Computer Science, AI & ML
+    detail: Woolf University · Aug 2026 – Mar 2028 (in progress)
+  - title: BE Electrical & Electronics Engineering
+    detail: VELS University, Chennai · 2009 – 2013 · First Class
+
+awards:
+  - title: Team Leadership Excellence Award
+    detail: Scrum and release management
+  - title: Atos Excellence Award
+    detail: Graduate Development Programme and interviewing
+  - title: Atos Spot Award
+    detail: CSR cloud training on Google Cloud and AWS with NIIT Foundation and EduBridge
+  - title: Certificate of Excellence
+    detail: Cognizant · MetLife xPression migration · May 2019
+  - title: Star Volunteer
+    detail: Recognised by ed-tech NGOs for mentoring
+
+contact_title: Have a programme that needs to
+contact_highlight: ship?
+contact_intro: Email me for leadership roles, delivery consulting, or corporate training.
+contact_note: Based in Chennai, India. Open to hybrid, remote and on-site roles, including relocation, and to training engagements in India and abroad.
