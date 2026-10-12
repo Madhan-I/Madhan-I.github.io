@@ -202,6 +202,7 @@ certifications:
         status: Active
       - name: ITIL® Foundation in IT Service Management (EXIN)
         year: "2016"
+        status: Active
       - name: Scrum Master Professional Certificate (CertiProf)
         year: "2022"
   - group: Microsoft
@@ -228,20 +229,27 @@ certifications:
     items:
       - name: GitLab Certified Git Associate
         year: "2022"
+        status: Active
       - name: GitLab Certified CI/CD Associate
         year: "2022"
+        status: Active
       - name: Certified Jenkins Engineer (CloudBees)
         year: "2021"
         url: https://www.credential.net/1198d435-0704-4613-9e67-0d774c86723f
+        status: Active
       - name: PagerDuty Foundational Practitioner
         year: "2020"
+        status: Active
       - name: PagerDuty Incident Management
         year: "2020"
+        status: Active
       - name: PagerDuty API Certification
         year: "2021"
+        status: Active
       - name: Gremlin Certified Chaos Engineering Practitioner
         year: "2021"
         url: https://www.credential.net/3ac90335-5487-458a-8a5b-ecdf7ce21b52
+        status: Active
   - group: Cloud & Networking
     items:
       - name: Aviatrix Multicloud Network Associate
@@ -252,32 +260,43 @@ certifications:
         year: "2021"
       - name: VMware IT Academy × 3 (Cloud, Network & Storage Virtualization)
         year: "2020"
+        status: Active
       - name: Introduction to IoT (Cisco)
         year: "2020"
+        status: Active
   - group: Google Cloud · 29 skill badges
     items:
       - name: Implement DevOps Workflows in Google Cloud
         year: "2020"
+        status: Active
       - name: Deploy Kubernetes Applications on Google Cloud
         year: "2020"
+        status: Active
       - name: Develop Your Google Cloud Network
         year: "2021"
+        status: Active
       - name: Monitor and Log with Google Cloud Observability
         year: "2020"
+        status: Active
       - name: Prepare Data for ML APIs on Google Cloud
         year: "2020"
+        status: Active
       - name: Anthos Service Mesh, Security & Identity, BigQuery ML and 22 more
         year: "2020"
   - group: IBM · Data, AI & Hybrid Cloud
     items:
       - name: IBM Data & AI Essentials
         year: "2020"
+        status: Active
       - name: Build Smart on Kubernetes
         year: "2021"
+        status: Active
       - name: Hybrid Cloud × 6 (Microservices, Pipelines, Service Mesh, Serverless, App Security, App Dev)
         year: "2020"
+        status: Active
       - name: Cloud Native Security · DevSecOps
         year: "2020"
+        status: Active
   - group: Scrum, Kanban & Security Foundations
     items:
       - name: Scrum Foundation Professional (CertiProf SFPC)
@@ -288,8 +307,10 @@ certifications:
         year: "2021"
       - name: Scrum Associate & Kanban Associate (Scrum Institute)
         year: "2020"
+        status: Active
       - name: Scrum Fundamentals Certified (VMEdu)
         year: "2020"
+        status: Active
 
 education:
   - title: MS Computer Science, AI & ML
