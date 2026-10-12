@@ -456,3 +456,7 @@ h1, .stage h1 { font-size: clamp(40px, 6.4vw, 88px); line-height: .95; letter-sp
 /* hero name on one line */
 .stage h1 .last { display: inline; }
 @media (min-width: 600px) { .stage h1 { white-space: nowrap; font-size: clamp(36px, 5.6vw, 76px); } }
+
+/* tighter gap above the Experience band */
+#about { padding-bottom: 32px; }
+section.band { padding-top: 48px; }
