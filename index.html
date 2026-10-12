@@ -164,16 +164,16 @@ layout: default
         <span class="k">Email</span>
         <div class="row"><a class="v" href="mailto:{{ p.email }}">{{ p.email }}</a><button class="copy-btn" type="button" data-copy="{{ p.email }}">Copy</button></div>
       </div>
-      <div class="card">
-        <span class="k">LinkedIn</span>
-        <div class="row"><a class="v" href="{{ p.linkedin }}" target="_blank" rel="noopener">{{ p.linkedin_label }} ↗</a></div>
-      </div>
       {% if p.github != "" %}
       <div class="card">
         <span class="k">GitHub</span>
         <div class="row"><a class="v" href="https://github.com/{{ p.github }}" target="_blank" rel="noopener">github.com/{{ p.github }} ↗</a></div>
       </div>
       {% endif %}
+      <div class="card">
+        <span class="k">LinkedIn</span>
+        <div class="row"><a class="v" href="{{ p.linkedin }}" target="_blank" rel="noopener">{{ p.linkedin_label }} ↗</a></div>
+      </div>
       <div class="card">
         <span class="k">Resume</span>
         <div class="row">
