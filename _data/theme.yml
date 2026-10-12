@@ -4,7 +4,7 @@
 # =====================================================================
 
 # 1. COLOUR STYLE: pick one word.
-#    dawn   = night sky with an orange-pink sunrise (current)
+#    dawn   = night sky with an orange-to-rose sunrise (current)
 #    ocean  = deep navy with teal and aqua
 #    forest = dark green with emerald and lime
 #    royal  = deep violet with gold
@@ -44,16 +44,16 @@ colors:
 # ---------------------------------------------------------------------
 presets:
   dawn:
-    glow_1: "#FFC46B"
-    glow_2: "#FF8A3D"
-    glow_3: "#FF4F70"
+    glow_1: "#FF8A4C"
+    glow_2: "#FF5A6E"
+    glow_3: "#E0408A"
     sky_top: "#060918"
     sky_bottom: "#101741"
     band_1: "#160B2E"
     band_2: "#2A0F3A"
     band_3: "#3A1430"
-    accent_dark: "#FFA24C"
-    signal_dark: "#FF4F70"
+    accent_dark: "#FF8A5C"
+    signal_dark: "#FF5A7A"
     accent_light: "#D2560A"
     signal_light: "#D9244A"
     on_glow: "#160B14"

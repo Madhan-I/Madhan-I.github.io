@@ -258,7 +258,6 @@ section.flush-top { padding-top: 0; }
   .dawn .sun { animation: sunrise 2.4s cubic-bezier(.16,.8,.24,1) both; }
   .dawn .sky { animation: skyglow 2.4s ease-out both; }
   .dawn .horizon { animation: horizon 1.6s .5s cubic-bezier(.2,.8,.2,1) both; }
-  .stage h1 .last { background-size: 220% 100%; animation: sunsweep 3s 1s ease-in-out both; }
   .stage .hero > * { animation: rise .9s cubic-bezier(.2,.7,.2,1) both; }
   .stage .hero > *:nth-child(1) { animation-delay: .15s; }
   .stage .hero > *:nth-child(2) { animation-delay: .3s; }
