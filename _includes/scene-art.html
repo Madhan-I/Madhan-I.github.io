@@ -1,0 +1,51 @@
+<svg class="art art-{{ include.art }}" viewBox="0 0 240 150" focusable="false">
+  <rect class="art-floor" x="0" y="128" width="240" height="22"/>
+  <line class="art-horizon" x1="0" y1="128" x2="240" y2="128"/>
+{%- case include.art -%}
+{%- when "shield" %}
+  <circle class="art-sun" cx="168" cy="54" r="30"/>
+  <path class="art-ln draw" pathLength="1" d="M92 26 L132 40 V74 C132 98 114 114 92 124 C70 114 52 98 52 74 V40 Z"/>
+  <path class="art-fill pop" d="M92 40 L120 50 V74 C120 92 108 104 92 111 C76 104 64 92 64 74 V50 Z"/>
+  <path class="art-ln-dark draw" pathLength="1" d="M76 74 L88 86 L110 62"/>
+  <path class="art-ln draw" pathLength="1" d="M150 116 h60 M150 104 h44 M150 92 h52"/>
+{%- when "skyline" %}
+  <circle class="art-sun" cx="176" cy="60" r="28"/>
+  <path class="art-fill pop" d="M28 128 V84 h22 V128 Z M58 128 V60 h18 V128 Z M84 128 V40 l12 -14 l12 14 V128 Z M116 128 V72 h24 V128 Z M148 128 V92 h20 V128 Z M176 128 V80 h16 V128 Z M200 128 V98 h18 V128 Z"/>
+  <path class="art-ln draw" pathLength="1" d="M28 128 V84 h22 V128 M58 128 V60 h18 V128 M84 128 V40 l12 -14 l12 14 V128 M116 128 V72 h24 V128"/>
+  <path class="art-win" d="M90 50 h4 v6 h-4 Z M98 50 h4 v6 h-4 Z M90 64 h4 v6 h-4 Z M98 64 h4 v6 h-4 Z M62 70 h4 v6 h-4 Z M68 70 h4 v6 h-4 Z M122 82 h4 v6 h-4 Z M130 82 h4 v6 h-4 Z"/>
+{%- when "umbrella" %}
+  <circle class="art-sun" cx="60" cy="48" r="24"/>
+  <path class="art-fill pop" d="M60 84 C64 46 176 46 180 84 C166 76 150 76 140 84 C130 76 110 76 100 84 C90 76 74 76 60 84 Z"/>
+  <path class="art-ln draw" pathLength="1" d="M120 54 V116 C120 124 108 124 108 116"/>
+  <path class="art-rain draw" pathLength="1" d="M50 20 l-6 14 M86 14 l-6 14 M150 12 l-6 14 M190 22 l-6 14 M210 50 l-6 14 M30 60 l-6 14"/>
+  <path class="art-ln draw" pathLength="1" d="M40 128 c20 -10 40 -10 60 0 M140 128 c20 -10 40 -10 60 0"/>
+{%- when "documents" %}
+  <circle class="art-sun" cx="182" cy="48" r="26"/>
+  <rect class="art-card" x="58" y="40" width="64" height="80" rx="6"/>
+  <rect class="art-card" x="72" y="30" width="64" height="80" rx="6"/>
+  <rect class="art-fill pop" x="86" y="20" width="64" height="80" rx="6"/>
+  <path class="art-ln-dark draw" pathLength="1" d="M98 40 h40 M98 52 h40 M98 64 h28"/>
+  <path class="art-ln-dark draw" pathLength="1" d="M104 82 l8 8 l18 -18"/>
+{%- when "migrate" %}
+  <rect class="art-card" x="22" y="44" width="58" height="70" rx="6"/>
+  <rect class="art-fill pop" x="160" y="44" width="58" height="70" rx="6"/>
+  <path class="art-ln draw" pathLength="1" d="M88 64 H146 M134 54 L146 64 L134 74"/>
+  <path class="art-ln draw" pathLength="1" d="M88 96 H146 M134 86 L146 96 L134 106"/>
+  <path class="art-ln-dark draw" pathLength="1" d="M172 62 h34 M172 76 h34 M172 90 h22"/>
+  <path class="art-ln draw" pathLength="1" d="M34 62 h34 M34 76 h34 M34 90 h22"/>
+{%- when "headset" %}
+  <circle class="art-sun" cx="120" cy="72" r="44"/>
+  <path class="art-ln draw" pathLength="1" d="M84 82 V70 C84 30 156 30 156 70 V82"/>
+  <rect class="art-fill pop" x="74" y="72" width="18" height="30" rx="6"/>
+  <rect class="art-fill pop" x="148" y="72" width="18" height="30" rx="6"/>
+  <path class="art-ln draw" pathLength="1" d="M157 102 C157 116 140 120 126 120"/>
+  <path class="art-ln draw" pathLength="1" d="M20 112 h20 l6 -14 l8 26 l8 -36 l8 24 h20 M164 112 h56"/>
+{%- when "floodlight" %}
+  <path class="art-beam" d="M60 34 L10 128 H120 Z M180 34 L120 128 H230 Z"/>
+  <path class="art-ln draw" pathLength="1" d="M60 128 V40 M180 128 V40"/>
+  <rect class="art-fill pop" x="44" y="18" width="32" height="20" rx="3"/>
+  <rect class="art-fill pop" x="164" y="18" width="32" height="20" rx="3"/>
+  <path class="art-ln draw" pathLength="1" d="M90 128 c10 -24 50 -24 60 0"/>
+  <path class="art-win" d="M112 104 l8 -6 l8 6 l-8 6 Z"/>
+{%- endcase %}
+</svg>

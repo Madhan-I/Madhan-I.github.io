@@ -14,6 +14,9 @@ name_last: Irulandi
 location: Chennai, India
 status: Open to leadership roles worldwide · Ready to relocate
 
+# Main button in the hero. It opens an email to you.
+cta_primary: Hire me
+
 # Big line under your name. Text inside highlight is shown in orange.
 headline: Senior Release Train Engineer & Program Manager who
 headline_highlight: gets stalled programmes shipping again.
@@ -88,7 +91,13 @@ clients:
   - Walmart
   - TruStage
 
+experience_title: Every stop on the line
+experience_intro: "Thirteen years, seven clients, one habit: getting releases out the door. Scroll through each stop."
+
 # Newest first. Set current: true on the job you hold now.
+# scene: the picture and big number shown beside each job.
+#   art: shield, skyline, umbrella, documents, migrate, headset or floodlight
+#   number: digits only (commas are fine). prefix/suffix wrap it, e.g. "$" and "K".
 # Titles match LinkedIn exactly. Change both together.
 experience:
   - dates: Sep 2025 – Present
@@ -96,6 +105,13 @@ experience:
     company: Atos
     detail: Hybrid · Manulife
     current: true
+    scene:
+      client: "Manulife · Life insurance"
+      art: shield
+      prefix: ""
+      number: "100"
+      suffix: "%"
+      label: "ART predictability on multi-million-dollar roadmaps"
     points:
       - Lead end-to-end governance for Manulife's Core API, Customer Engagement and Compliance AI products, reporting portfolio health and roadmap decisions to executive leadership.
       - Kept the portfolio at a High health rating with more than 95% availability, under 5% sprint variance and zero critical security issues.
@@ -106,6 +122,13 @@ experience:
     title: Technical Product Manager / Release Train Engineer
     company: Atos
     detail: Boston (On-site) · John Hancock
+    scene:
+      client: "John Hancock · Boston, on-site"
+      art: skyline
+      prefix: ""
+      number: "400"
+      suffix: "+"
+      label: "tickets cleared in 9 months on a programme frozen for two years"
     points:
       - Revived a multi-million-dollar platform programme after a two-year COVID delay and cleared 400+ tickets in 9 months.
       - Ran 5 modernization initiatives at once across 20+ business divisions.
@@ -115,6 +138,13 @@ experience:
     title: Senior Scrum Master / Agile Project Manager
     company: Atos
     detail: Hybrid · Allstate
+    scene:
+      client: "Allstate · Property & casualty insurance"
+      art: umbrella
+      prefix: ""
+      number: "20"
+      suffix: "M+"
+      label: "policyholders reached across 750+ document templates"
     points:
       - Delivered communications to 20M+ Allstate and 400K Encompass policyholders across 750+ document templates.
       - Raised velocity 30% and cut programme cost 25% without adding headcount.
@@ -123,12 +153,26 @@ experience:
     title: Scrum Master / Agile Delivery Lead
     company: Syntel
     detail: Acquired by Atos · TruStage
+    scene:
+      client: "TruStage · Financial services"
+      art: documents
+      prefix: ""
+      number: "2,000"
+      suffix: "+"
+      label: "document requests shipped with zero-defect releases"
     points:
       - Completed 2,000+ document requests on OpenText xPression with zero-defect releases. Schedules down 35%.
   - dates: Jul 2014 – Jan 2020
     title: Technology Lead · Systems Engineer · Production Support
     company: Cognizant
     detail: MetLife, Anthem, Walmart
+    scene:
+      client: "MetLife · Anthem · Walmart"
+      art: migrate
+      prefix: "$"
+      number: "150"
+      suffix: "K"
+      label: "saved every year by migrating 4,500+ MetLife policy documents"
     points:
       - MetLife. Migrated 4,500+ policy documents to xPression, saving 2,500 hours a quarter and $150K a year. Certificate of Excellence, May 2019.
       - Anthem. Part of a 60-developer team that cut opex $300K a year and added $400K a year in revenue.
@@ -137,12 +181,26 @@ experience:
     title: Senior Customer Care Representative
     company: Dell Technologies
     detail: Healthcare claims · BCBS, Humana, Aetna
+    scene:
+      client: "Dell · Healthcare claims"
+      art: headset
+      prefix: ""
+      number: "90"
+      suffix: "%+"
+      label: "customer satisfaction while leading a 15-person team"
     points:
       - Led a 15-person team. CSAT above 90% and average handle time down 33%.
   - dates: 2009 – 2013
     title: Client Relations & Event Coordination
     company: Wizcraft · Encompass Event Group
     detail: Freelance, alongside engineering studies
+    scene:
+      client: "IPL · Formula 1 · Indian Cinema"
+      art: floodlight
+      prefix: ""
+      number: "40"
+      suffix: ""
+      label: "people in the largest guest-relations crew I ran"
     points:
       - Ran guest relations for IPL (Chennai Super Kings), India's first Formula 1 Grand Prix and the 100 Years of Indian Cinema celebration, with crews of 15–40.
 
@@ -407,5 +465,5 @@ awards:
 
 contact_title: Have a programme that needs to
 contact_highlight: ship?
-contact_intro: Email me about leadership roles, delivery consulting or corporate training, anywhere in the world.
+contact_intro: Email me about Release Train Engineer, Program Manager and delivery leadership roles, anywhere in the world. Corporate training enquiries are welcome too.
 contact_note: Based in Chennai, India. Open to on-site, hybrid and remote roles worldwide and ready to relocate, with three years of on-site delivery in the United States behind me.
