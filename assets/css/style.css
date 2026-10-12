@@ -494,3 +494,13 @@ section.band { padding-top: 48px; }
 .stage .lede { margin-top: 26px; line-height: 1.7; }
 .stage .ctas { margin-top: 48px; }
 .stage .hire-for { margin-top: 36px; gap: 12px; }
+
+/* fill the empty space at the bottom of the hero: same hero height, content sits lower */
+@media (min-width: 761px) {
+  .hero { padding-bottom: 56px; }
+  .stage .roles { margin-top: 32px; }
+  .stage .role { margin-top: 44px; }
+  .stage .lede { margin-top: 34px; }
+  .stage .ctas { margin-top: 75px; }
+  .stage .hire-for { margin-top: 48px; }
+}
