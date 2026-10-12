@@ -1,0 +1,27 @@
+---
+layout: default
+title: Writing
+description: Articles by Madhan Irulandi on agile delivery, release trains, AI in production and training teams.
+---
+<div class="wrap hero hero-sm">
+  <div class="eyebrow">Writing</div>
+  <h1 class="page-title">Notes from the <span class="last">release train</span></h1>
+  <p class="lede">Short pieces on running delivery, coaching teams and putting AI into production.</p>
+</div>
+<section class="flush-top">
+  <div class="wrap">
+    {% if site.posts.size > 0 %}
+    <div class="post-list">
+      {% for post in site.posts %}
+      <a class="post-card" href="{{ post.url | relative_url }}">
+        <span class="k">{{ post.date | date: "%d %b %Y" }}</span>
+        <b>{{ post.title }}</b>
+        {% if post.summary %}<span class="s">{{ post.summary }}</span>{% endif %}
+      </a>
+      {% endfor %}
+    </div>
+    {% else %}
+    <p class="lede">First post coming soon.</p>
+    {% endif %}
+  </div>
+</section>
