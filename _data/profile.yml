@@ -316,7 +316,7 @@ certifications:
       - name: VMware IT Academy × 3 (Cloud, Network & Storage Virtualization)
         year: "2020"
         status: Active
-        badge: vmware.png
+        badge: vmware-logo.png
         url: https://www.credly.com/badges/bd9e36a6-eaa9-4500-8347-d637d19ab539
       - name: Introduction to IoT (Cisco)
         year: "2020"
@@ -329,23 +329,23 @@ certifications:
       - name: Implement DevOps Workflows in Google Cloud
         year: "2020"
         status: Active
-        badge: gc-devops.png
+        badge: google-cloud-logo.png
       - name: Deploy Kubernetes Applications on Google Cloud
         year: "2020"
         status: Active
-        badge: gc-kubernetes.png
+        badge: google-cloud-logo.png
       - name: Develop Your Google Cloud Network
         year: "2021"
         status: Active
-        badge: gc-network.png
+        badge: google-cloud-logo.png
       - name: Monitor and Log with Google Cloud Observability
         year: "2020"
         status: Active
-        badge: gc-observability.png
+        badge: google-cloud-logo.png
       - name: Prepare Data for ML APIs on Google Cloud
         year: "2020"
         status: Active
-        badge: gc-ml-data.png
+        badge: google-cloud-logo.png
   - group: Earlier credentials
     muted: true
     items:
