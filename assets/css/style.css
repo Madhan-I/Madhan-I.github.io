@@ -487,3 +487,10 @@ section.band { padding-top: 48px; }
   .contact .wrap > .lede { margin: 0; max-width: 62ch; }
 }
 @media (min-width: 1000px) { .contact .wrap > .lede { max-width: none; white-space: nowrap; } }
+
+/* hero breathing room */
+.stage .roles { margin-top: 28px; }
+.stage .role { margin-top: 36px; }
+.stage .lede { margin-top: 26px; line-height: 1.7; }
+.stage .ctas { margin-top: 48px; }
+.stage .hire-for { margin-top: 36px; gap: 12px; }
