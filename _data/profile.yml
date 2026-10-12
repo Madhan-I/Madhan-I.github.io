@@ -18,11 +18,17 @@ status: Open to leadership roles and training engagements
 headline: Senior Release Train Engineer & Program Manager who
 headline_highlight: gets stalled programmes shipping again.
 
+# Three short role labels shown under your name.
+roles:
+  - Release Train Engineer
+  - Senior Scrum Master
+  - Microsoft Certified Trainer
+
 intro: >-
   12+ years in delivery for Manulife, John Hancock, Allstate, MetLife, Anthem
-  and Walmart. I run Agile Release Trains and portfolio governance for
-  AI-enabled platforms, and I've trained engineers as a Microsoft Certified
-  Trainer since 2020.
+  and Walmart. As a Release Train Engineer and Senior Scrum Master I run Agile
+  Release Trains and coach Scrum teams on AI-enabled platforms. As a Microsoft
+  Certified Trainer since 2020, I've trained more than 2,000 people.
 
 email: irulandi.madhan@gmail.com
 linkedin: https://www.linkedin.com/in/madhanirulandi
@@ -39,12 +45,13 @@ resume_file: ""
 photo: "madhan.jpg"
 
 expertise:
-  - SAFe® 6 · Release Train Engineering
+  - Release Train Engineer (RTE) · SAFe® 6
+  - Senior Scrum Master · Agile Coaching
+  - Microsoft Certified Trainer since 2020
   - Program & Portfolio Governance
   - Technical Product Management
   - Azure AI · RAG
   - AKS · Apigee · DevOps
-  - Microsoft Certified Trainer
 
 # The four big numbers under the hero. Keep it to four.
 metrics:

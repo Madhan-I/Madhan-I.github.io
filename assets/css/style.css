@@ -318,3 +318,9 @@ section.flush-top { padding-top: 0; }
 .chip { font-family: var(--body); font-size: 14px; font-weight: 600; letter-spacing: .01em; padding: 8px 15px; }
 .stage .chip { color: #FFFFFF; background: rgba(255,255,255,.12); border-color: color-mix(in srgb, var(--glow-2) 45%, rgba(255,255,255,.25)); box-shadow: inset 0 1px 0 rgba(255,255,255,.08); }
 .stage .chip:hover { background: rgba(255,255,255,.18); border-color: var(--glow-2); }
+
+/* Role labels under the name */
+.roles { display: flex; flex-wrap: wrap; gap: 6px 0; margin: 18px 0 0; font-family: var(--mono); font-size: clamp(12px, 1.3vw, 14px); font-weight: 500; letter-spacing: .1em; text-transform: uppercase; color: #F4F2EC; }
+.roles span { display: inline-flex; align-items: center; }
+.roles span + span::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: var(--glow-2); margin: 0 14px; box-shadow: 0 0 10px var(--glow-2); }
+.stage .role { margin-top: 22px; }
