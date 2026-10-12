@@ -380,3 +380,14 @@ section.flush-top { padding-top: 0; }
 
 /* Contact heading: calmer size */
 .contact h2 { font-size: clamp(30px, 4.6vw, 60px); max-width: 20ch; line-height: 1.02; }
+
+/* Remove the empty left column: labels sit above headings, content uses full width */
+.sec-head { grid-template-columns: 1fr; gap: 12px; margin-bottom: 32px; }
+.about { grid-template-columns: 1fr; }
+.about > .spacer { display: none; }
+.about .copy { max-width: 72ch; }
+@media (min-width: 761px) {
+  .track { padding-left: 170px; }
+  .track::before { left: 178px; }
+  .when { left: -170px; width: 150px; }
+}
