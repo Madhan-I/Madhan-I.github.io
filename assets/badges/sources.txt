@@ -41,3 +41,5 @@ gc-network.png https://cdn.qwiklabs.com/dSWcl7S0A7ugT%2FhWCw2ASLYslLNp%2FYFys9VL
 gc-observability.png https://cdn.qwiklabs.com/hGYMBUgND9LUofKoth6kH0x962Q2MbSYWm%2BBbkfYoHY%3D
 gc-ml-data.png https://cdn.qwiklabs.com/Z9RnG0DZDYJa%2BuUUC4NNASbN%2F8q4Ay6Bi4AUpLARkJM%3D
 mie-expert.png https://images.credly.com/size/340x340/images/f2fcdaf4-c289-48f7-a5b6-e367fe64e29d/blob
+google-cloud-logo.png https://media.licdn.com/dms/image/v2/D4E0BAQFrZn5P9fEf9A/company-logo_100_100/B4EZ22TKwAJ4AU-/0/1776879971686/google_cloud_logo?e=1793232000&v=beta&t=SBUdUdrWd9Y-yZh-NitVWzZn-WZavLO1LLriAAyWbXs
+vmware-logo.png https://media.licdn.com/dms/image/v2/D560BAQEzpbXCUplXJw/company-logo_100_100/company-logo_100_100/0/1716485708320/vmware_logo?e=1793232000&v=beta&t=1VFMPKt035yFBjfgReAduqKrcFsYEmyIm4jqYeKeU-o
