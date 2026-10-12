@@ -1,5 +1,6 @@
 ---
 title: "Fewer templates, lower costs, happier clients"
+teaser: "How fewer templates cut costs and lifted revenue"
 summary: How consolidating legacy layouts at Anthem cut $300,000 a year in operating costs and supported $400,000 in revenue.
 tags: [Efficiency, Healthcare, Quality]
 ---

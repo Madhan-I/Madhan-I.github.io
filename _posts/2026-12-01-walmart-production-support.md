@@ -1,5 +1,6 @@
 ---
 title: "Keeping Walmart's systems up when it mattered most"
+teaser: "Lessons in reliability from my first job in tech"
 summary: My first IT role, in production support for Walmart's Item File and Order Management System, and what it taught me about reliability.
 tags: [Reliability, Operations, Retail]
 ---
