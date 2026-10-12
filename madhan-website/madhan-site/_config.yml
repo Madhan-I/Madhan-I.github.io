@@ -1,0 +1,37 @@
+# Site settings. You rarely need to touch this file.
+# Your page content is in _data/profile.yml. Blog posts are in _posts/.
+
+title: Madhan Irulandi
+description: Senior Release Train Engineer and Program Manager in Chennai. SAFe 6, Azure AI, Microsoft Certified Trainer. Available for leadership roles and corporate training.
+author: Madhan Irulandi
+lang: en
+
+# After you publish, put your live address here, e.g. https://madhan-i.github.io
+url: "https://madhanirulandi.com"
+# Leave empty if your repository is named <username>.github.io
+baseurl: ""
+
+# Shown when someone shares your link on LinkedIn, WhatsApp or X.
+# Put a 1200x630 image in assets/images/ and set the path, e.g. /assets/images/share.png
+image: /assets/images/madhan.jpg
+
+social:
+  name: Madhan Irulandi
+  links:
+    - https://www.linkedin.com/in/madhanirulandi
+    - https://github.com/Madhan-I
+
+permalink: /blog/:year/:month/:title/
+timezone: Asia/Kolkata
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+feed:
+  path: blog/feed.xml
+
+exclude:
+  - README.md
+  - .pagescms.yml
