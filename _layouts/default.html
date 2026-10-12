@@ -27,9 +27,10 @@
   <footer>
     <div class="wrap">
       <span>© {{ 'now' | date: '%Y' }} {{ site.data.profile.name_first }} {{ site.data.profile.name_last }}</span>
-      <span><a href="{{ '/blog/feed.xml' | relative_url }}">RSS</a> · {{ site.data.profile.location }}</span>
+      <span><a href="{{ '/blog/feed.xml' | relative_url }}">RSS</a> · Open to roles worldwide</span>
     </div>
   </footer>
+  <dialog class="lightbox" id="lightbox" aria-label="Certificate"><button type="button" class="lb-close" aria-label="Close">×</button><img alt=""><p class="lb-cap"></p></dialog>
   <script src="{{ '/assets/js/main.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
 </body>
 </html>

@@ -13,3 +13,21 @@ document.querySelectorAll('.copy-btn').forEach(function (b) {
     }
   });
 });
+
+// Lightbox: click a certificate picture to view it full size.
+(function () {
+  var dlg = document.getElementById('lightbox');
+  if (!dlg || typeof dlg.showModal !== 'function') return;
+  var img = dlg.querySelector('img'), cap = dlg.querySelector('.lb-cap');
+  document.querySelectorAll('[data-lightbox]').forEach(function (a) {
+    a.addEventListener('click', function (e) {
+      e.preventDefault();
+      img.src = a.getAttribute('href');
+      img.alt = a.getAttribute('data-caption') || '';
+      cap.textContent = a.getAttribute('data-caption') || '';
+      dlg.showModal();
+    });
+  });
+  dlg.querySelector('.lb-close').addEventListener('click', function () { dlg.close(); });
+  dlg.addEventListener('click', function (e) { if (e.target === dlg) dlg.close(); });
+})();
