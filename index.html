@@ -12,7 +12,7 @@ layout: default
   <p class="role">{{ p.headline }} <em>{{ p.headline_highlight }}</em></p>
   <p class="lede">{{ p.intro }}</p>
   <div class="ctas">
-    <a class="btn signal" href="mailto:{{ p.email }}?subject=Opportunity%20for%20{{ p.name_first }}">Hire me or book a training</a>
+    <a class="btn signal" href="mailto:{{ p.email }}?subject=Role%20for%20{{ p.name_first }}">{{ p.cta_primary | default: "Hire me" }}</a>
     {% if p.resume_file != "" %}<a class="btn" href="{{ '/assets/resume/' | append: p.resume_file | relative_url }}" download>Download resume</a>{% endif %}
     <a class="btn ghost" href="{{ p.linkedin }}" target="_blank" rel="noopener">LinkedIn ↗</a>
     {% if p.github != "" %}<a class="btn ghost" href="https://github.com/{{ p.github }}" target="_blank" rel="noopener">GitHub ↗</a>{% endif %}
@@ -63,17 +63,35 @@ layout: default
 {% unless th.show.experience == false %}
 <section id="experience" class="band">
   <div class="wrap">
-    <div class="sec-head"><span class="label">Experience</span><h2>Every stop on the line</h2></div>
-    <ol class="track">
+    <div class="sec-head"><span class="label">Experience</span><h2>{{ p.experience_title | default: "Every stop on the line" }}</h2></div>
+    <p class="scene-intro">{{ p.experience_intro }}</p>
+    <div class="scenes-wrap" data-scenes>
+    <div class="track-progress" aria-hidden="true"><span></span></div>
+    <ol class="track scenes">
       {% for job in p.experience %}
-      <li class="stop{% if job.current %} now{% endif %}">
+      <li class="stop scene{% if job.current %} now{% endif %}">
         <span class="when">{{ job.dates }}</span>
-        <h3>{{ job.title }}</h3>
-        <p class="org">{{ job.company }} <span>· {{ job.detail }}</span></p>
-        <ul>{% for pt in job.points %}<li>{{ pt }}</li>{% endfor %}</ul>
+        <div class="scene-body">
+          {% if job.scene %}
+          <figure class="scene-art" aria-hidden="true">
+            {% include scene-art.html art=job.scene.art %}
+            <figcaption class="scene-stat">
+              <b class="count" data-to="{{ job.scene.number }}" data-prefix="{{ job.scene.prefix }}" data-suffix="{{ job.scene.suffix }}">{{ job.scene.prefix }}{{ job.scene.number }}{{ job.scene.suffix }}</b>
+              <span>{{ job.scene.label }}</span>
+            </figcaption>
+          </figure>
+          {% endif %}
+          <div class="scene-copy">
+            {% if job.scene.client %}<span class="scene-client">{{ job.scene.client }}</span>{% endif %}
+            <h3>{{ job.title }}</h3>
+            <p class="org">{{ job.company }} <span>· {{ job.detail }}</span></p>
+            <ul>{% for pt in job.points %}<li>{{ pt }}</li>{% endfor %}</ul>
+          </div>
+        </div>
       </li>
       {% endfor %}
     </ol>
+    </div>
   </div>
 </section>
 {% endunless %}
@@ -87,6 +105,7 @@ layout: default
         <p class="big">{{ p.training_intro }}</p>
         <p class="train-note">{{ p.training_note }}</p>
         {% if p.training_photo %}<a class="train-photo" href="{{ '/assets/badges/' | append: p.training_photo | relative_url }}" data-lightbox data-caption="{{ p.training_photo_caption }}"><img src="{{ '/assets/badges/' | append: p.training_photo | relative_url }}" alt="{{ p.training_photo_caption }}" loading="lazy" width="120" height="120"><span>{{ p.training_photo_caption }}</span></a>{% endif %}
+        <a class="btn ghost train-cta" href="mailto:{{ p.email }}?subject=Training%20enquiry">Ask about a training</a>
         <div class="facts">
           {% for f in p.training_facts %}<div><b>{{ f.number }}</b><span>{{ f.label }}</span></div>{% endfor %}
         </div>
