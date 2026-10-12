@@ -29,3 +29,9 @@ award-excellence.jpg https://media.licdn.com/dms/image/v2/D4E2DAQHTCYyvU2BZzw/pr
 award-spot.jpg https://media.licdn.com/dms/image/v2/C5622AQEH7AAyi0z1gQ/feedshare-shrink_480/feedshare-shrink_480/0/1644629656475?e=1793232000&v=beta&t=g7nnH1KhP7zwQPo1uVbq1s2vsWgReGBMGARO_DALAvo
 training-jeppiaar.jpg https://media.licdn.com/dms/image/v2/C5622AQHS-m_xyNJaNQ/feedshare-shrink_480/feedshare-shrink_480/0/1642863116281?e=1793232000&v=beta&t=77rFdHCn7wtiJGqV8DvOB__Fw_TSC2M63I0uUSYnu30
 training-cognitive.jpg https://media.licdn.com/dms/image/sync/v2/D4E27AQG_rLi3nkA9_w/articleshare-shrink_480/articleshare-shrink_480/0/1712778148724?e=1792440000&v=beta&t=B-FbSTC-Lt5scYeFuxyJUGVFGEBrNuYnKmchteojkLU
+exin.png https://media.licdn.com/dms/image/v2/C4E0BAQFi8TgZbeVOXw/company-logo_100_100/company-logo_100_100/0/1656919652964/exin_logo?e=1793232000&v=beta&t=rLlc0UzXu750qZ5hDYjcSQcOYfm9w7mNPrsyqCxYxnc
+jenkins.png https://media.licdn.com/dms/image/v2/C4D0BAQHz5WZZdYSaBQ/company-logo_100_100/company-logo_100_100/0/1630570851144?e=1793232000&v=beta&t=M42EfPe58vOHuV3fP2OwXnqtEVIWXBDKpQ1cMQHyyYI
+gremlin.png https://media.licdn.com/dms/image/v2/D4E0BAQGS6ZemRTLr2w/company-logo_100_100/company-logo_100_100/0/1665836881128/gremlin_inc_logo?e=1793232000&v=beta&t=DwcjaTBunedRJ7A-a0fjLCnVXxqxdtQBFbqipT6ZHSE
+scrum-institute.png https://media.licdn.com/dms/image/v2/C560BAQH15_8r7VSipw/company-logo_100_100/company-logo_100_100/0/1630606741388/international_scrum_institute_logo?e=1793232000&v=beta&t=DbeH5Iua6QQf5ma2S-lCkjXKxV-gFVHklaRpziSboIk
+vmedu.png https://media.licdn.com/dms/image/v2/D560BAQF6BwdpVzrNvA/company-logo_100_100/B56Z6C2VhhHAAM-/0/1780311742762/vabro_vmedu_logo?e=1793232000&v=beta&t=nrh1EbXxD-OsGfIzu6lf5-t78EYtj5bqgTQuO5rihK4
+alibaba-cloud.png https://media.licdn.com/dms/image/v2/D560BAQEZecjjDTVXJA/company-logo_100_100/company-logo_100_100/0/1723709190350/alibaba_cloud_computing_company_logo?e=1793232000&v=beta&t=HdKKD4NTgVmYFiCqbKeygbuK2im50GWbMlWzwMuIjw8
