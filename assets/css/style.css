@@ -486,3 +486,4 @@ section.band { padding-top: 48px; }
   .contact h2 { max-width: none; white-space: nowrap; margin-bottom: 14px; }
   .contact .wrap > .lede { margin: 0; max-width: 62ch; }
 }
+@media (min-width: 1000px) { .contact .wrap > .lede { max-width: none; white-space: nowrap; } }
