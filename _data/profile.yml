@@ -210,10 +210,13 @@ certifications:
         status: Active
       - name: Azure Fundamentals
         year: "2020"
+        status: Active
       - name: Azure AI Fundamentals
         year: "2020"
+        status: Active
       - name: Azure Data Fundamentals
         year: "2020"
+        status: Active
   - group: DevOps & Reliability
     items:
       - name: GitLab Certified Git Associate
