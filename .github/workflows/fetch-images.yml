@@ -18,6 +18,7 @@ jobs:
           cd assets/badges
           while read -r name url; do
             [ -z "$name" ] && continue
+            [ -f "$name" ] && continue
             curl -fsSL -A "Mozilla/5.0" -o "$name" "$url" && echo "ok $name" || echo "FAILED $name"
           done < sources.txt
           ls -la
