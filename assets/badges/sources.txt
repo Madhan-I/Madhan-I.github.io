@@ -35,3 +35,9 @@ gremlin.png https://media.licdn.com/dms/image/v2/D4E0BAQGS6ZemRTLr2w/company-log
 scrum-institute.png https://media.licdn.com/dms/image/v2/C560BAQH15_8r7VSipw/company-logo_100_100/company-logo_100_100/0/1630606741388/international_scrum_institute_logo?e=1793232000&v=beta&t=DbeH5Iua6QQf5ma2S-lCkjXKxV-gFVHklaRpziSboIk
 vmedu.png https://media.licdn.com/dms/image/v2/D560BAQF6BwdpVzrNvA/company-logo_100_100/B56Z6C2VhhHAAM-/0/1780311742762/vabro_vmedu_logo?e=1793232000&v=beta&t=nrh1EbXxD-OsGfIzu6lf5-t78EYtj5bqgTQuO5rihK4
 alibaba-cloud.png https://media.licdn.com/dms/image/v2/D560BAQEZecjjDTVXJA/company-logo_100_100/company-logo_100_100/0/1723709190350/alibaba_cloud_computing_company_logo?e=1793232000&v=beta&t=HdKKD4NTgVmYFiCqbKeygbuK2im50GWbMlWzwMuIjw8
+gc-devops.png https://cdn.qwiklabs.com/e6mPJW553J0Kq4Xfz9FwPHEijcrJx15e8B%2FR5qc%2BMOY%3D
+gc-kubernetes.png https://cdn.qwiklabs.com/d3%2FXEgAy%2BUqECXqNRrszWcIim%2B00PJBkoJfTctGdphk%3D
+gc-network.png https://cdn.qwiklabs.com/dSWcl7S0A7ugT%2FhWCw2ASLYslLNp%2FYFys9VL%2BfGfUpo%3D
+gc-observability.png https://cdn.qwiklabs.com/hGYMBUgND9LUofKoth6kH0x962Q2MbSYWm%2BBbkfYoHY%3D
+gc-ml-data.png https://cdn.qwiklabs.com/Z9RnG0DZDYJa%2BuUUC4NNASbN%2F8q4Ay6Bi4AUpLARkJM%3D
+mie-expert.png https://images.credly.com/size/340x340/images/f2fcdaf4-c289-48f7-a5b6-e367fe64e29d/blob
