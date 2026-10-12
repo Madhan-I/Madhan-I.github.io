@@ -460,3 +460,16 @@ h1, .stage h1 { font-size: clamp(40px, 6.4vw, 88px); line-height: .95; letter-sp
 /* tighter gap above the Experience band */
 #about { padding-bottom: 32px; }
 section.band { padding-top: 48px; }
+
+/* Writing: its own colour, different from Education / Recognition */
+#writing { position: relative; margin-top: clamp(40px, 5vw, 64px); padding-top: clamp(48px, 6vw, 72px);
+  background: radial-gradient(120% 90% at 100% 0%, color-mix(in srgb, var(--glow-1) 16%, transparent), transparent 60%),
+              linear-gradient(180deg, var(--surface) 0%, color-mix(in srgb, var(--surface) 55%, var(--bg)) 100%); }
+#writing::before { content: ""; position: absolute; left: 0; right: 0; top: 0; height: 2px; background: linear-gradient(90deg, transparent, var(--glow-3) 30%, var(--glow-1) 70%, transparent); opacity: .7; }
+@media (prefers-color-scheme: light) { :root:not([data-theme="dark"]) #writing { background: linear-gradient(180deg, color-mix(in srgb, var(--glow-1) 9%, var(--bg)) 0%, var(--bg) 100%); } }
+
+/* contact intro: two lines beside the heading */
+@media (min-width: 1000px) {
+  .contact h2 { font-size: clamp(36px, 3.6vw, 50px); }
+  .contact .wrap > .lede { max-width: none; }
+}
