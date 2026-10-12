@@ -476,3 +476,6 @@ section.band { padding-top: 48px; }
 
 /* one size for every section heading */
 .sec-head h2, #about h2.split { font-size: clamp(26px, 2.6vw, 38px); line-height: 1.1; max-width: none; }
+
+/* contact heading matches section headings */
+.contact h2, .contact h2 { font-size: clamp(26px, 2.6vw, 38px); line-height: 1.1; }

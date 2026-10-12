@@ -1,6 +1,6 @@
 ---
 title: "Migrating 4,500 documents without a single defect"
-teaser: "Why a 4,500-document migration landed without a single defect"
+teaser: "A 4,500-document migration with zero defects"
 summary: The MetLife move to OpenText xPression saved 2,500 engineering hours a quarter and $150,000 a year.
 tags: [Migration, Quality, Insurance]
 ---

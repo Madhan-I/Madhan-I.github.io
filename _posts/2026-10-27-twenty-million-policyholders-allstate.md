@@ -1,6 +1,6 @@
 ---
 title: "Delivering for 20 million policyholders without adding headcount"
-teaser: "Coaching teams to deliver more for 20 million policyholders"
+teaser: "Coaching teams to serve 20 million policyholders"
 summary: How Agile coaching raised velocity 30% and cut cost 25% on the Allstate communications programme.
 tags: [Scrum, Coaching, Insurance]
 ---
