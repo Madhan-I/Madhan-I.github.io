@@ -360,3 +360,9 @@ section.flush-top { padding-top: 0; }
 .lightbox img { display: block; max-width: 100%; max-height: 82vh; border-radius: 10px; margin: 0 auto; }
 .lb-cap { color: #F4F2EC; text-align: center; margin: 12px 0 0; font-size: 14px; }
 .lb-close { position: absolute; top: 6px; right: 6px; width: 40px; height: 40px; border-radius: 50%; border: 0; background: rgba(6,9,24,.8); color: #fff; font-size: 24px; line-height: 1; cursor: pointer; }
+
+/* Uniform badge tiles */
+.cg .badge { box-sizing: border-box; width: 46px; height: 46px; padding: 4px; border-radius: 10px; background: #FFFFFF; box-shadow: 0 1px 2px rgba(0,0,0,.12); }
+.cg .badge.ph { display: inline-flex; align-items: center; justify-content: center; font: 700 18px/1 var(--body); color: #1FB36B; }
+.cg.muted .badge.ph { color: var(--muted); }
+.cg li.cert { align-items: center; }
