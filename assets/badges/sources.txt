@@ -34,6 +34,5 @@ gremlin.png https://media.licdn.com/dms/image/v2/D4E0BAQGS6ZemRTLr2w/company-log
 scrum-institute.png https://media.licdn.com/dms/image/v2/C560BAQH15_8r7VSipw/company-logo_100_100/company-logo_100_100/0/1630606741388/international_scrum_institute_logo?e=1793232000&v=beta&t=DbeH5Iua6QQf5ma2S-lCkjXKxV-gFVHklaRpziSboIk
 vmedu.png https://media.licdn.com/dms/image/v2/D560BAQF6BwdpVzrNvA/company-logo_100_100/B56Z6C2VhhHAAM-/0/1780311742762/vabro_vmedu_logo?e=1793232000&v=beta&t=nrh1EbXxD-OsGfIzu6lf5-t78EYtj5bqgTQuO5rihK4
 alibaba-cloud.png https://media.licdn.com/dms/image/v2/D560BAQEZecjjDTVXJA/company-logo_100_100/company-logo_100_100/0/1723709190350/alibaba_cloud_computing_company_logo?e=1793232000&v=beta&t=HdKKD4NTgVmYFiCqbKeygbuK2im50GWbMlWzwMuIjw8
-mie-expert.png https://images.credly.com/size/340x340/images/f2fcdaf4-c289-48f7-a5b6-e367fe64e29d/blob
 google-cloud-logo.png https://media.licdn.com/dms/image/v2/D4E0BAQFrZn5P9fEf9A/company-logo_100_100/B4EZ22TKwAJ4AU-/0/1776879971686/google_cloud_logo?e=1793232000&v=beta&t=SBUdUdrWd9Y-yZh-NitVWzZn-WZavLO1LLriAAyWbXs
 vmware-logo.png https://media.licdn.com/dms/image/v2/D560BAQEzpbXCUplXJw/company-logo_100_100/company-logo_100_100/0/1716485708320/vmware_logo?e=1793232000&v=beta&t=1VFMPKt035yFBjfgReAduqKrcFsYEmyIm4jqYeKeU-o
