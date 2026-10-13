@@ -361,3 +361,10 @@ button { font-family: var(--body); }
 .mark-name { font: 800 18px/1 var(--display); color: var(--navy); letter-spacing: -0.01em; }
 .mark-name b { color: var(--brand); font-weight: 800; }
 .mark span.mark-name { color: var(--navy); }
+
+/* header name shows only once the big hero name has scrolled away (home page) */
+.mark-name { transition: opacity .3s ease, transform .3s ease; }
+nav.name-hidden .mark-name { opacity: 0; transform: translateX(-8px); pointer-events: none; }
+/* menu links: stronger, brighter */
+nav ul a { color: var(--navy); font-weight: 600; }
+nav ul a:hover { color: var(--brand); background: color-mix(in srgb, var(--brand) 10%, #FFFFFF); }
