@@ -24,8 +24,6 @@ istio.png https://images.credly.com/size/160x160/images/7a5401a6-01eb-4f48-bbcd-
 certiprof-kikf.png https://images.credly.com/size/160x160/images/82e6c305-31ca-4ea2-a82a-87deca12092e/CertiProf-Logo-Kanban_Foundations-KIKF.png
 certiprof-sfpc.png https://images.credly.com/size/160x160/images/4e3d6f9f-55d7-4ea7-b0e6-f4d4ff543e22/image.png
 certiprof-csfpc.png https://images.credly.com/size/160x160/images/8a0fb550-4d51-41d0-be50-6c1f54526539/Cybersecurity-Foundation-Professional-Certificate-CSFPC.png
-award-excellence.jpg https://media.licdn.com/dms/image/v2/D4E2DAQHTCYyvU2BZzw/profile-treasury-image-shrink_480_480/profile-treasury-image-shrink_480_480/0/1714207898601?e=1792440000&v=beta&t=kpuEg1rs_nGk0AtP_jcYl8FqBrbQlzHcOJVUEb2oBk4
-award-spot.jpg https://media.licdn.com/dms/image/v2/C5622AQEH7AAyi0z1gQ/feedshare-shrink_480/feedshare-shrink_480/0/1644629656475?e=1793232000&v=beta&t=g7nnH1KhP7zwQPo1uVbq1s2vsWgReGBMGARO_DALAvo
 training-jeppiaar.jpg https://media.licdn.com/dms/image/v2/C5622AQHS-m_xyNJaNQ/feedshare-shrink_480/feedshare-shrink_480/0/1642863116281?e=1793232000&v=beta&t=77rFdHCn7wtiJGqV8DvOB__Fw_TSC2M63I0uUSYnu30
 training-cognitive.jpg https://media.licdn.com/dms/image/sync/v2/D4E27AQG_rLi3nkA9_w/articleshare-shrink_480/articleshare-shrink_480/0/1712778148724?e=1792440000&v=beta&t=B-FbSTC-Lt5scYeFuxyJUGVFGEBrNuYnKmchteojkLU
 exin.png https://media.licdn.com/dms/image/v2/C4E0BAQFi8TgZbeVOXw/company-logo_100_100/company-logo_100_100/0/1656919652964/exin_logo?e=1793232000&v=beta&t=rLlc0UzXu750qZ5hDYjcSQcOYfm9w7mNPrsyqCxYxnc

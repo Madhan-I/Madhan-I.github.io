@@ -471,13 +471,13 @@ award_groups:
         image: award-interview.jpg
       - title: Certificate of Excellence
         detail: MetLife & Cognizant · May 2019 · for outstanding support on the Publisher to xPression migration
-        image: award-excellence.jpg
+        image: award-metlife.jpg
   - group: Training & Mentoring Recognition
     icon: board
     items:
       - title: Atos Spot Recognition, Cloud Training
         detail: Atos · Feb 2022 · Cloud Technologies session for 215 graduates, Skill Development and Employability Initiative
-        image: award-spot.jpg
+        image: award-cloud-training.jpg
       - title: Star Volunteer
         detail: Recognised by ed-tech NGOs for mentoring
 
