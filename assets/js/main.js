@@ -67,3 +67,13 @@ document.querySelectorAll('.copy-btn').forEach(function (b) {
   window.addEventListener('resize', size);
   if (document.fonts && document.fonts.ready) document.fonts.ready.then(size);
 })();
+
+// Home page: hide the header name while the large hero name is on screen, so it never appears twice.
+(function () {
+  var nav = document.querySelector('nav'), big = document.querySelector('.hero-copy h1');
+  if (!nav || !big || !('IntersectionObserver' in window)) return;
+  nav.classList.add('name-hidden');
+  new IntersectionObserver(function (es) {
+    es.forEach(function (e) { nav.classList.toggle('name-hidden', e.isIntersecting); });
+  }, { rootMargin: '-64px 0px 0px 0px' }).observe(big);
+})();
