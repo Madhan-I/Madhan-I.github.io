@@ -122,8 +122,9 @@ experience:
     detail: Hybrid · Allstate
     points:
       - Delivered communications to 20M+ Allstate and 400K Encompass policyholders across 750+ document templates.
-      - Raised velocity 30% and cut programme cost 25% without adding headcount.
-      - Primary escalation point between engineering and client executives. 100% client satisfaction over multiple years.
+      - Raised delivery velocity 30% and cut programme cost 25% through Agile coaching and SDLC improvements, without adding headcount.
+      - Restored on-time delivery as the primary escalation point between engineering and client executives, clearing multi-week release blockers.
+      - Sustained delivery governance that earned a 100% client satisfaction rating over multiple years.
   - dates: Jan 2020 – Aug 2020
     title: Scrum Master / Agile Delivery Lead
     sector: "Financial services · Credit unions"
@@ -131,7 +132,10 @@ experience:
     company: Syntel
     detail: Acquired by Atos · TruStage
     points:
-      - Completed 2,000+ document requests on OpenText xPression with zero-defect releases. Schedules down 35%.
+      - Led Agile delivery for TruStage Financial Group (formerly CUNA Mutual Group) on OpenText xPression, before Syntel was acquired by Atos.
+      - Completed 2,000+ document requests, managing design and delivery with xAdmin and xDashboard.
+      - Achieved zero-defect production releases with a multi-tier automated testing framework for regression, smoke and schema checks.
+      - Cut project schedules 35% by mentoring onsite and offshore teams and leading sprint retrospectives.
   - dates: Jul 2017 – Jan 2020
     title: Technology Lead / Senior Analyst
     sector: "Insurance · Document platform migration"
@@ -151,8 +155,9 @@ experience:
     detail: Chennai · Anthem Blue Cross Blue Shield (now Elevance Health)
     points:
       - Consolidated legacy layouts into dynamic master templates with OpenText Exstream and xPression, cutting operating costs by $300K a year.
-      - Part of a 60-developer team that sped up bug resolution by 15% and supported a $400K annual revenue increase through client retention.
-      - Cut post-implementation defects by 25% with automated pre-flight QA checklists and standard knowledge transfer.
+      - Worked in a 60-developer cross-functional team that sped up bug resolution cycles by 15%.
+      - Helped deliver a $400K annual revenue increase through stronger client retention.
+      - Cut post-implementation defects 25% with automated pre-flight QA checklists and standard knowledge transfer.
   - dates: Jul 2014 – Jun 2015
     title: Production Support Engineer / Systems Analyst Trainee
     sector: "Retail · Order management & item data"
@@ -171,9 +176,10 @@ experience:
     company: Dell Technologies
     detail: Chennai · Blue Cross Blue Shield, Humana, Aetna
     points:
-      - Led a 15-member team auditing client and hospital payments, adding more than $150K in quarterly revenue.
-      - Built Tableau and Salesforce tracking that lifted the team's monthly financial results by over $100K.
-      - Cut average call handling time 33% and raised CSAT above 90%.
+      - As Operations Project Lead, ran a 15-member team auditing client and hospital payments, adding more than $150K in quarterly revenue.
+      - Built Tableau and Salesforce tracking with procedures to fix root-cause errors, lifting the team's monthly financial results by over $100K.
+      - Cut average call handling time 33% with Salesforce Service Cloud tools and simpler communication steps.
+      - Raised CSAT above 90% with a first-contact resolution framework, team-lead training and a weekly QA audit loop.
   - dates: Aug 2013 – Dec 2013
     title: Customer Care Representative
     sector: "Healthcare · Claims"
@@ -182,8 +188,9 @@ experience:
     detail: Chennai · Conifer Health Solutions
     points:
       - Processed 180+ high-value claims a month with a consistent 5-day reimbursement turnaround.
-      - Cut overdue payments 20%, safeguarding about $150K in outstanding balances every month.
-      - Reduced disputed claims by more than 35 a month through data cleansing and cross-system reconciliation.
+      - Cut overdue payments 20% with payer relations and finance, safeguarding about $150K in outstanding balances every month.
+      - Reduced disputed claims by more than 35 a month through data cleansing and reconciliation across the ACE Tool and VIMS mainframe.
+      - Captured the fixes in workflow playbooks and handed them to the permanent operations team.
   - dates: Apr 2010 – Oct 2013
     title: Client Relations Specialist
     sector: "Sports & entertainment events"
@@ -193,7 +200,8 @@ experience:
     points:
       - Ran VIP hospitality in the Commentators' Box at Chepauk for Chennai Super Kings during the IPL, leading crews of 15–40 and cutting guest complaints by nearly a third.
       - Managed celebrity guest relations at the IPL Season 5 opening ceremony and the 100 Years of Indian Cinema celebration.
-      - Coordinated artists, guests and backstage schedules for the Mirchi Music Awards South and events for Star Sports and Radio Mirchi.
+      - Built security plans for high-profile guests with private access points, staff vetting and regular briefings.
+      - Coordinated artists, guests and backstage schedules for the Mirchi Music Awards South and live shows for Star Sports and Radio Mirchi.
   - dates: Jun 2009 – Jul 2012
     title: Event Coordinator
     sector: "Automotive, sports & entertainment events"
@@ -202,8 +210,9 @@ experience:
     detail: Freelance · alongside engineering studies
     points:
       - Led Chennai promotions for India's first Formula 1 Grand Prix in 2011, lifting ticket sales.
-      - Managed media, podium ceremonies and hospitality for the JK Tyre Volkswagen Polo R Cup 2012, and guest logistics for the Renault Duster media launch, which earned formal client appreciation.
-      - Handled client relations for the Chennai Rhinos in the first Celebrity Cricket League season.
+      - Managed media, podium ceremonies and hospitality for the JK Tyre Volkswagen Polo R Cup 2012.
+      - Ran guest and VIP logistics for the Renault Duster media launch, which earned formal client appreciation.
+      - Handled client relations and match-day hospitality for the Chennai Rhinos in the first Celebrity Cricket League season, resolving vendor and scheduling issues on the day.
 
 training_title: I love helping teams learn, grow and deliver together
 training_intro: Microsoft Certified Trainer every year since 2020. I run workshops for delivery teams, Scrum Masters and engineers who need to apply a framework on Monday, not just pass an exam.
