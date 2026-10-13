@@ -21,7 +21,7 @@ layout: default
     </div>
     {% if p.photo != "" %}
     <figure class="portrait">
-      <img src="{{ '/assets/images/' | append: p.photo | relative_url }}" alt="{{ p.name_first }} {{ p.name_last }}" width="960" height="960" fetchpriority="high">
+      <img src="{{ '/assets/images/' | append: p.photo | relative_url }}" alt="{{ p.name_first }} {{ p.name_last }}" width="1200" height="1200" fetchpriority="high">
       <figcaption><span class="dot" aria-hidden="true"></span> {{ p.status }}</figcaption>
     </figure>
     {% endif %}
