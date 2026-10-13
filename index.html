@@ -8,7 +8,6 @@ layout: default
   <div class="hero-bg" aria-hidden="true"></div>
   <div class="wrap hero{% if p.photo != "" %} has-photo{% endif %}">
     <div class="hero-copy">
-      <div class="eyebrow"><span class="dot" aria-hidden="true"></span><span>{{ p.status }}</span></div>
       <h1>{{ p.name_first }} <span class="last">{{ p.name_last }}</span></h1>
       {% if p.roles %}<p class="roles">{% for r in p.roles %}<span>{{ r }}</span>{% endfor %}</p>{% endif %}
       <p class="role">{{ p.headline }} <em>{{ p.headline_highlight }}</em></p>
@@ -23,7 +22,7 @@ layout: default
     {% if p.photo != "" %}
     <figure class="portrait">
       <img src="{{ '/assets/images/' | append: p.photo | relative_url }}" alt="{{ p.name_first }} {{ p.name_last }}" width="640" height="640" fetchpriority="high">
-      <figcaption><svg class="ic" aria-hidden="true"><use href="#i-globe"/></svg> Open worldwide · Ready to relocate</figcaption>
+      <figcaption><span class="dot" aria-hidden="true"></span> {{ p.status }}</figcaption>
     </figure>
     {% endif %}
     <div class="hire-for" aria-label="Areas of expertise">
