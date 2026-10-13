@@ -143,10 +143,10 @@ experience:
     company: Cognizant
     detail: Chennai · MetLife
     points:
-      - Led MetLife's move from a legacy publisher to OpenText xPression, migrating 4,500+ policy documents.
-      - Held a zero-defect standard across every migrated asset by building test cases with QA.
-      - Delivered 500+ standardised document applications and cut remediation costs by $150K a year.
-      - Saved 2,500 engineering hours a quarter. Certificate of Excellence, May 2019.
+      - "Led MetLife's move from a legacy publisher to OpenText xPression, migrating 4,500+ policy documents and saving 2,500 engineering hours a quarter."
+      - "Delivered 500+ standardised document applications, cutting remediation costs by $150K a year."
+      - "Held a zero-defect standard across all 4,500+ migrated assets by building test cases with QA."
+      - "Earned a Certificate of Excellence from MetLife and Cognizant in May 2019 for the migration to xPression."
   - dates: Jul 2015 – Jun 2017
     title: Systems Engineer / Application Analyst
     sector: "Healthcare · Health insurance"
