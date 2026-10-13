@@ -3,50 +3,60 @@ layout: default
 ---
 {%- assign p = site.data.profile -%}
 {%- assign th = site.data.theme -%}
-<header class="stage">
-<div class="dawn" aria-hidden="true"><div class="sky"></div><div class="stars"></div><div class="grid"></div><div class="sun"></div><div class="horizon"></div></div>
-<div class="wrap hero{% if p.photo != "" %} has-photo{% endif %}">
-  <div class="eyebrow"><span class="dot" aria-hidden="true"></span> {{ p.status }}</div>
-  <h1>{{ p.name_first }} <span class="last">{{ p.name_last }}</span></h1>
-  {% if p.roles %}<p class="roles">{% for r in p.roles %}<span>{{ r }}</span>{% endfor %}</p>{% endif %}
-  <p class="role">{{ p.headline }} <em>{{ p.headline_highlight }}</em></p>
-  <p class="lede">{{ p.intro }}</p>
-  <div class="ctas">
-    <a class="btn signal" href="mailto:{{ p.email }}?subject=Opportunity%20for%20{{ p.name_first }}">Hire me or book a training</a>
-    {% if p.resume_file != "" %}<a class="btn" href="{{ '/assets/resume/' | append: p.resume_file | relative_url }}" download>Download resume</a>{% endif %}
-    <a class="btn ghost" href="{{ p.linkedin }}" target="_blank" rel="noopener">LinkedIn ↗</a>
-    {% if p.github != "" %}<a class="btn ghost" href="https://github.com/{{ p.github }}" target="_blank" rel="noopener">GitHub ↗</a>{% endif %}
+{%- assign n = 0 -%}
+<header class="hero-wrap">
+  <div class="hero-bg" aria-hidden="true"></div>
+  <div class="wrap hero{% if p.photo != "" %} has-photo{% endif %}">
+    <div class="hero-copy">
+      <div class="eyebrow"><span class="dot" aria-hidden="true"></span><span>{{ p.status }}</span></div>
+      <h1>{{ p.name_first }} <span class="last">{{ p.name_last }}</span></h1>
+      {% if p.roles %}<p class="roles">{% for r in p.roles %}<span>{{ r }}</span>{% endfor %}</p>{% endif %}
+      <p class="role">{{ p.headline }} <em>{{ p.headline_highlight }}</em></p>
+      <p class="lede">{{ p.intro }}</p>
+      <div class="ctas">
+        <a class="btn primary" href="mailto:{{ p.email }}?subject=Opportunity%20for%20{{ p.name_first }}">Hire me or book a training <svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        {% if p.resume_file != "" %}<a class="btn" href="{{ '/assets/resume/' | append: p.resume_file | relative_url }}" download>Download resume</a>{% endif %}
+        <a class="btn ghost" href="{{ p.linkedin }}" target="_blank" rel="noopener">LinkedIn ↗</a>
+        {% if p.github != "" %}<a class="btn ghost" href="https://github.com/{{ p.github }}" target="_blank" rel="noopener">GitHub ↗</a>{% endif %}
+      </div>
+    </div>
+    {% if p.photo != "" %}
+    <figure class="portrait">
+      <img src="{{ '/assets/images/' | append: p.photo | relative_url }}" alt="{{ p.name_first }} {{ p.name_last }}" width="640" height="640" fetchpriority="high">
+      <figcaption><svg class="ic" aria-hidden="true"><use href="#i-globe"/></svg> Open worldwide · Ready to relocate</figcaption>
+    </figure>
+    {% endif %}
+    <div class="hire-for" aria-label="Areas of expertise">
+      {% for e in p.expertise %}<span class="chip">{{ e }}</span>{% endfor %}
+    </div>
   </div>
-  <div class="hire-for" aria-label="Areas of expertise">
-    {% for e in p.expertise %}<span class="chip">{{ e }}</span>{% endfor %}
-  </div>
-  {% if p.photo != "" %}<figure class="portrait"><img src="{{ '/assets/images/' | append: p.photo | relative_url }}" alt="{{ p.name_first }} {{ p.name_last }}" width="640" height="640" fetchpriority="high"></figure>{% endif %}
-</div>
 </header>
 
 {% unless th.show.metrics == false %}
-<div class="wrap">
-  <div class="board" role="list" aria-label="Career highlights">
-    {% for m in p.metrics %}
-    <div class="metric" role="listitem">
-      <div class="tag">{{ m.tag }}</div>
-      <div class="n">{{ m.number }}<small>{{ m.suffix }}</small></div>
-      <p>{{ m.text }}</p>
+<section class="metrics-band reveal" aria-label="Career highlights">
+  <div class="wrap">
+    <div class="board" role="list">
+      {% for m in p.metrics %}
+      <div class="metric" role="listitem">
+        <div class="tag">{{ m.tag }}</div>
+        <div class="n">{{ m.number }}<small>{{ m.suffix }}</small></div>
+        <p>{{ m.text }}</p>
+      </div>
+      {% endfor %}
     </div>
-    {% endfor %}
   </div>
-</div>
+</section>
 {% endunless %}
 
-{% unless th.show.about == false %}
-<section id="about">
+{% unless th.show.about == false %}{% assign n = n | plus: 1 %}
+<section id="about" class="slide tone-white">
   <div class="wrap">
-    <div class="sec-head"><span class="label">About</span><h2 class="split">{% assign t = p.about_title | split: "|" %}{% for line in t %}<span class="line">{{ line }}</span>{% endfor %}</h2></div>
+    <div class="sec-head reveal"><span class="label"><span class="num">0{{ n }}</span><svg class="ic" aria-hidden="true"><use href="#i-user"/></svg>About</span><h2>{{ p.about_title | replace: "|", " " }}</h2></div>
     <div class="about">
-      <div class="copy">
+      <div class="copy reveal">
         {% for para in p.about %}<p>{{ para }}</p>{% endfor %}
       </div>
-      <aside class="about-side">
+      <aside class="about-side reveal">
         <div class="clients">
           <h3>Clients I've delivered for</h3>
           <ul>{% for c in p.clients %}<li>{{ c }}</li>{% endfor %}</ul>
@@ -60,17 +70,25 @@ layout: default
 </section>
 {% endunless %}
 
-{% unless th.show.experience == false %}
-<section id="experience" class="band">
+{% unless th.show.experience == false %}{% assign n = n | plus: 1 %}
+<section id="experience" class="slide tone-tint">
   <div class="wrap">
-    <div class="sec-head"><span class="label">Experience</span><h2>Every stop on the line</h2></div>
-    <ol class="track">
+    <div class="sec-head reveal"><span class="label"><span class="num">0{{ n }}</span><svg class="ic" aria-hidden="true"><use href="#i-route"/></svg>Experience</span><h2>Every stop on the line</h2></div>
+    <ol class="deck">
       {% for job in p.experience %}
-      <li class="stop{% if job.current %} now{% endif %}">
-        <span class="when">{{ job.dates }}</span>
-        <h3>{{ job.title }}</h3>
-        <p class="org">{{ job.company }} <span>· {{ job.detail }}</span></p>
-        <ul>{% for pt in job.points %}<li>{{ pt }}</li>{% endfor %}</ul>
+      <li class="job{% if job.current %} now{% endif %}">
+        <div class="job-side">
+          <span class="job-icon" aria-hidden="true"><svg class="ic"><use href="#i-{{ job.icon | default: 'route' }}"/></svg></span>
+          <span class="when">{{ job.dates }}</span>
+          {% if job.sector %}<span class="sector">{{ job.sector }}</span>{% endif %}
+          {% if job.current %}<span class="now-tag">Current</span>{% endif %}
+        </div>
+        <div class="job-body">
+          <h3>{{ job.title }}</h3>
+          <p class="org"><b>{{ job.company }}</b> · {{ job.detail }}</p>
+          <ul>{% for pt in job.points %}<li>{{ pt }}</li>{% endfor %}</ul>
+        </div>
+        <svg class="job-art" aria-hidden="true"><use href="#i-{{ job.icon | default: 'route' }}"/></svg>
       </li>
       {% endfor %}
     </ol>
@@ -78,20 +96,19 @@ layout: default
 </section>
 {% endunless %}
 
-{% unless th.show.training == false %}
-<section id="training" class="train">
+{% unless th.show.training == false %}{% assign n = n | plus: 1 %}
+<section id="training" class="slide tone-navy">
   <div class="wrap">
-    <div class="sec-head"><span class="label">Training &amp; Speaking</span><h2>{{ p.training_title }}</h2></div>
+    <div class="sec-head reveal"><span class="label"><span class="num">0{{ n }}</span><svg class="ic" aria-hidden="true"><use href="#i-board"/></svg>Training &amp; Speaking</span><h2>{{ p.training_title }}</h2></div>
     <div class="train-grid">
-      <div>
+      <div class="reveal">
         <p class="big">{{ p.training_intro }}</p>
         <p class="train-note">{{ p.training_note }}</p>
-        {% if p.training_photo %}<a class="train-photo" href="{{ '/assets/badges/' | append: p.training_photo | relative_url }}" data-lightbox data-caption="{{ p.training_photo_caption }}"><img src="{{ '/assets/badges/' | append: p.training_photo | relative_url }}" alt="{{ p.training_photo_caption }}" loading="lazy" width="120" height="120"><span>{{ p.training_photo_caption }}</span></a>{% endif %}
         <div class="facts">
           {% for f in p.training_facts %}<div><b>{{ f.number }}</b><span>{{ f.label }}</span></div>{% endfor %}
         </div>
       </div>
-      <ul class="topics" aria-label="Training topics">
+      <ul class="topics reveal" aria-label="Training topics">
         {% for t in p.training_topics %}<li><b>{{ t.name }}</b><span>{{ t.note }}</span></li>{% endfor %}
       </ul>
     </div>
@@ -99,65 +116,73 @@ layout: default
 </section>
 {% endunless %}
 
-{% unless th.show.certifications == false %}
-<section id="certifications">
+{% unless th.show.certifications == false %}{% assign n = n | plus: 1 %}
+<section id="certifications" class="slide tone-white">
   <div class="wrap">
-    <div class="sec-head"><span class="label">Certifications</span><h2>{{ p.certifications_title }}</h2></div>
+    <div class="sec-head reveal"><span class="label"><span class="num">0{{ n }}</span><svg class="ic" aria-hidden="true"><use href="#i-award"/></svg>Certifications</span><h2>{{ p.certifications_title }}</h2></div>
     <div class="cert-groups">
       {% for g in p.certifications %}
-      <div class="cg{% if g.featured %} featured{% endif %}{% if g.muted %} muted{% endif %}">
+      <div class="cg reveal{% if g.featured %} featured{% endif %}{% if g.muted %} muted{% endif %}">
         <h3>{{ g.group }}</h3>
-        <ul>{% for c in g.items %}<li class="cert has-badge">{% if c.badge %}<img class="badge" src="{{ '/assets/badges/' | append: c.badge | relative_url }}" alt="" width="44" height="44" loading="lazy">{% endif %}<span class="cbody"><span class="cn">{% if c.url %}<a href="{{ c.url }}" target="_blank" rel="noopener">{{ c.name }}</a>{% else %}{{ c.name }}{% endif %}</span><span class="meta">{% if c.year %}<span class="yr">{% if c.status == "Active" %}Since {% endif %}{{ c.year }}</span>{% endif %}{% if c.status == "Active" %}<span class="live">Active</span>{% elsif c.status == "Expired" %}<span class="expired">Expired</span>{% endif %}{% if c.url %}<span class="verify-link">Verify ↗</span>{% endif %}</span></span></li>{% endfor %}</ul>
+        <ul>{% for c in g.items %}<li class="cert">{% if c.badge %}<img class="badge" src="{{ '/assets/badges/' | append: c.badge | relative_url }}" alt="" width="44" height="44" loading="lazy">{% endif %}<span class="cbody"><span class="cn">{% if c.url %}<a href="{{ c.url }}" target="_blank" rel="noopener">{{ c.name }}</a>{% else %}{{ c.name }}{% endif %}</span><span class="meta">{% if c.year %}<span class="yr">{% if c.status == "Active" %}Since {% endif %}{{ c.year }}</span>{% endif %}{% if c.status == "Active" %}<span class="live">Active</span>{% elsif c.status == "Expired" %}<span class="expired">Expired</span>{% endif %}{% if c.url %}<span class="verify-link">Verify ↗</span>{% endif %}</span></span></li>{% endfor %}</ul>
         {% if g.link %}<a class="group-link" href="{{ g.link }}" target="_blank" rel="noopener">See all badges ↗</a>{% endif %}
       </div>
       {% endfor %}
     </div>
-    {% if p.certifications_links %}<p class="verify">{% for l in p.certifications_links %}<a href="{{ l.url }}" target="_blank" rel="noopener">{{ l.label }} ↗</a>{% endfor %}</p>{% endif %}
+    {% if p.certifications_links %}<p class="verify reveal">{% for l in p.certifications_links %}<a href="{{ l.url }}" target="_blank" rel="noopener">{{ l.label }} ↗</a>{% endfor %}</p>{% endif %}
   </div>
 </section>
 {% endunless %}
 
-{% unless th.show.education == false %}
-<section class="flush-top">
-  <div class="wrap two">
-    <div>
-      <h3>Education</h3>
-      <ul class="rows">{% for e in p.education %}<li><b>{{ e.title }}</b><span>{{ e.detail }}</span></li>{% endfor %}</ul>
-    </div>
-    <div>
-      <h3>Recognition</h3>
-      <ul class="rows">{% for a in p.awards %}<li class="award{% if a.image %} has-image{% endif %}">{% if a.image %}<a class="thumb" href="{{ '/assets/badges/' | append: a.image | relative_url }}" data-lightbox data-caption="{{ a.title }}"><img src="{{ '/assets/badges/' | append: a.image | relative_url }}" alt="{{ a.title }} certificate" loading="lazy" width="96" height="96"><span class="zoom">View</span></a>{% endif %}<span class="abody"><b>{{ a.title }}</b><span>{{ a.detail }}</span></span></li>{% endfor %}</ul>
+{% unless th.show.education == false %}{% assign n = n | plus: 1 %}
+<section id="recognition" class="slide tone-tint">
+  <div class="wrap">
+    <div class="sec-head reveal"><span class="label"><span class="num">0{{ n }}</span><svg class="ic" aria-hidden="true"><use href="#i-cap"/></svg>Education &amp; Recognition</span><h2>Learning that never stopped</h2></div>
+    <div class="two">
+      <div class="panel reveal">
+        <h3>Education</h3>
+        <ul class="rows">{% for e in p.education %}<li><b>{{ e.title }}</b><span>{{ e.detail }}</span></li>{% endfor %}</ul>
+      </div>
+      <div class="panel reveal">
+        <h3>Recognition</h3>
+        <ul class="rows">{% for a in p.awards %}<li class="award{% if a.image %} has-image{% endif %}">{% if a.image %}<a class="thumb" href="{{ '/assets/badges/' | append: a.image | relative_url }}" data-lightbox data-caption="{{ a.title }}"><img src="{{ '/assets/badges/' | append: a.image | relative_url }}" alt="{{ a.title }} certificate" loading="lazy" width="96" height="96"><span class="zoom">View</span></a>{% endif %}<span class="abody"><b>{{ a.title }}</b><span>{{ a.detail }}</span></span></li>{% endfor %}</ul>
+      </div>
     </div>
   </div>
 </section>
 {% endunless %}
 
 {% unless th.show.writing == false %}
-{% if site.posts.size > 0 %}
-<section id="writing" class="flush-top">
+{% if site.posts.size > 0 %}{% assign n = n | plus: 1 %}
+<section id="writing" class="slide tone-white">
   <div class="wrap">
-    <div class="sec-head"><span class="label">Writing</span>{% assign latest = site.posts.first %}<h2>{% if latest.teaser %}{{ latest.teaser }}{% else %}{{ latest.title }}{% endif %}</h2></div>
-    <div class="post-list">
+    {% assign latest = site.posts.first %}
+    <div class="sec-head reveal"><span class="label"><span class="num">0{{ n }}</span><svg class="ic" aria-hidden="true"><use href="#i-pen"/></svg>Writing</span><h2>{% if latest.teaser %}{{ latest.teaser }}{% else %}{{ latest.title }}{% endif %}</h2></div>
+    <div class="post-list reveal">
       {% for post in site.posts limit:3 %}
       <a class="post-card" href="{{ post.url | relative_url }}">
         <span class="k">{{ post.date | date: "%d %b %Y" }}</span>
         <b>{{ post.title }}</b>
         {% if post.summary %}<span class="s">{{ post.summary }}</span>{% endif %}
+        <span class="read">Read the story <svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></span>
       </a>
       {% endfor %}
     </div>
-    <p><a class="more" href="{{ '/blog/' | relative_url }}">All writing →</a></p>
+    <p class="reveal"><a class="more" href="{{ '/blog/' | relative_url }}">All writing →</a></p>
   </div>
 </section>
 {% endif %}
 {% endunless %}
 
 {% unless th.show.contact == false %}
-<section id="contact" class="contact">
+<section id="contact" class="slide tone-navy contact">
   <div class="wrap">
-    <h2>{{ p.contact_title }} <span>{{ p.contact_highlight }}</span></h2>
-    <p class="lede">{{ p.contact_intro }}</p>
-    <div class="contact-row">
+    <div class="reveal">
+      <span class="label"><svg class="ic" aria-hidden="true"><use href="#i-send"/></svg>Contact</span>
+      <h2>{{ p.contact_title }} <span>{{ p.contact_highlight }}</span></h2>
+      <p class="lede">{{ p.contact_intro }}</p>
+    </div>
+    <div class="contact-row reveal">
       <div class="card">
         <span class="k">Email</span>
         <div class="row"><a class="v" href="mailto:{{ p.email }}">{{ p.email }}</a><button class="copy-btn" type="button" data-copy="{{ p.email }}">Copy</button></div>
@@ -180,7 +205,7 @@ layout: default
         </div>
       </div>
     </div>
-    <p class="note">{{ p.contact_note }}</p>
+    <p class="note reveal">{{ p.contact_note }}</p>
   </div>
 </section>
 {% endunless %}

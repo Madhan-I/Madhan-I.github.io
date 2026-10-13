@@ -4,17 +4,17 @@
 # =====================================================================
 
 # 1. COLOUR STYLE: pick one word.
-#    dawn   = night sky with an orange-to-rose sunrise (current)
-#    ocean  = deep navy with teal and aqua
-#    forest = dark green with emerald and lime
-#    royal  = deep violet with gold
-#    steel  = charcoal with silver and electric blue (most corporate)
-preset: dawn
+#    navy     = deep navy with corporate blue and a warm amber highlight (current)
+#    teal     = deep teal with ocean blue-green
+#    graphite = charcoal with bright blue (most minimal)
+#    emerald  = dark green with emerald
+#    burgundy = deep wine with rose
+preset: navy
 
 # 2. FONT STYLE for big headings: pick one word.
-#    bold    = wide, modern, strong (current)
+#    modern  = clean, strong sans-serif (current)
 #    classic = elegant serif, more traditional
-display_font: bold
+display_font: modern
 
 # 3. ANIMATION when someone opens the site. true or false.
 animate_hero: true
@@ -31,85 +31,20 @@ show:
   contact: true
 
 # 5. OPTIONAL: your own colours. Leave a line empty ("") to use the preset.
-#    Use hex colour codes, e.g. "#FF8A3D". Find codes at htmlcolorcodes.com
+#    Use hex colour codes, e.g. "#1D5FD1". Find codes at htmlcolorcodes.com
 colors:
-  glow_1: ""        # gradient start (name, main button)
-  glow_2: ""        # gradient middle
-  glow_3: ""        # gradient end
-  sky_top: ""       # top of the hero background
-  sky_bottom: ""    # bottom of the hero background
+  navy: ""      # dark sections, headings
+  brand: ""     # buttons, links, highlights
+  brand_2: ""   # second highlight colour
+  accent: ""    # small warm highlights (numbers, tags)
+  tint: ""      # light background of alternate sections
 
 # ---------------------------------------------------------------------
 #  Preset definitions. You don't need to edit below this line.
 # ---------------------------------------------------------------------
 presets:
-  dawn:
-    glow_1: "#FF8A4C"
-    glow_2: "#FF5A6E"
-    glow_3: "#E0408A"
-    sky_top: "#060918"
-    sky_bottom: "#101741"
-    band_1: "#160B2E"
-    band_2: "#2A0F3A"
-    band_3: "#3A1430"
-    accent_dark: "#FF8A5C"
-    signal_dark: "#FF5A7A"
-    accent_light: "#D2560A"
-    signal_light: "#D9244A"
-    on_glow: "#160B14"
-  ocean:
-    glow_1: "#7CF2E4"
-    glow_2: "#2EC4D6"
-    glow_3: "#3A7BFF"
-    sky_top: "#03101C"
-    sky_bottom: "#06263F"
-    band_1: "#04192B"
-    band_2: "#062B45"
-    band_3: "#0A3A55"
-    accent_dark: "#4FD8E0"
-    signal_dark: "#6E9BFF"
-    accent_light: "#0A7F8C"
-    signal_light: "#2456D6"
-    on_glow: "#021118"
-  forest:
-    glow_1: "#E4F57A"
-    glow_2: "#7EDB6A"
-    glow_3: "#1FB58A"
-    sky_top: "#04110C"
-    sky_bottom: "#0B2A1D"
-    band_1: "#06180F"
-    band_2: "#0C2A1A"
-    band_3: "#123722"
-    accent_dark: "#8FE07A"
-    signal_dark: "#2FCB98"
-    accent_light: "#2F7D1F"
-    signal_light: "#0E7F5E"
-    on_glow: "#06140C"
-  royal:
-    glow_1: "#FFE7A3"
-    glow_2: "#F5C04E"
-    glow_3: "#D98A2B"
-    sky_top: "#0B0618"
-    sky_bottom: "#24104A"
-    band_1: "#140A2C"
-    band_2: "#22113F"
-    band_3: "#30174D"
-    accent_dark: "#F2C25A"
-    signal_dark: "#E79A3C"
-    accent_light: "#9A6A08"
-    signal_light: "#A9541A"
-    on_glow: "#1A1006"
-  steel:
-    glow_1: "#F2F5FA"
-    glow_2: "#A9B8D0"
-    glow_3: "#4F8BFF"
-    sky_top: "#0B0D12"
-    sky_bottom: "#1A1F2B"
-    band_1: "#11141B"
-    band_2: "#181D27"
-    band_3: "#202634"
-    accent_dark: "#7FA8FF"
-    signal_dark: "#B8C4D8"
-    accent_light: "#1F55C9"
-    signal_light: "#3D4A63"
-    on_glow: "#0B0D12"
+  navy:     { navy: "#0B2545", brand: "#1D5FD1", brand_2: "#14A3B8", accent: "#F2A541", tint: "#F2F6FC" }
+  teal:     { navy: "#0A2E33", brand: "#0F7F86", brand_2: "#2FB3C4", accent: "#F2A541", tint: "#EFF7F7" }
+  graphite: { navy: "#181C24", brand: "#2F6FED", brand_2: "#6B7A90", accent: "#E4A11B", tint: "#F3F4F6" }
+  emerald:  { navy: "#0C2A20", brand: "#0F7F57", brand_2: "#2FB58A", accent: "#E7B53C", tint: "#F0F7F3" }
+  burgundy: { navy: "#2A0F1C", brand: "#9C1F46", brand_2: "#D4566F", accent: "#E2B04A", tint: "#FBF3F5" }
