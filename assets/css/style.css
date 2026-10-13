@@ -338,3 +338,7 @@ button { font-family: var(--body); }
 .label .ic { width: 20px; height: 20px; }
 .tone-navy .label .num { background: linear-gradient(135deg, #FFFFFF, color-mix(in srgb, var(--brand-2) 60%, #FFFFFF)); -webkit-background-clip: text; background-clip: text; color: transparent; border-right-color: rgba(255, 255, 255, .25); }
 .sec-head h2 { margin-top: 14px; }
+/* clients heading styled like the section labels (02 EXPERIENCE) */
+.clients h3 { display: flex; align-items: center; gap: 10px; font: 700 14px/1.2 var(--body); letter-spacing: .1em; text-transform: uppercase; color: var(--brand); margin: 0 0 14px; padding-bottom: 14px; border-bottom: 2px solid color-mix(in srgb, var(--brand) 20%, transparent); }
+.clients h3 .ic { width: 18px; height: 18px; }
+.quick dt { font: 700 14px/1.2 var(--body); letter-spacing: .1em; }
