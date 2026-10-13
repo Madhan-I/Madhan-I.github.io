@@ -45,7 +45,7 @@ All page text is in **one file: `_data/profile.yml`**.
 
 | What you want | What to change in `profile.yml` |
 |---|---|
-| Add a new job | Copy one block under `experience:` and paste it at the top |
+| Add a new job | Copy one block under `experience:` and paste it at the top. Set `sector:` and `icon:` (chart, shield, mail, bank, layers, health, ticket) |
 | Add a certification | Copy a `- name:` block in the right group, change name and year |
 | Mark a certificate as current | Add `status: Active` under it (only if Credly or the issuer shows it as current) |
 | Link a certificate | Add `url: https://…` under it |
@@ -97,11 +97,11 @@ Open **`_data/theme.yml`** and change a word:
 
 | Setting | Options |
 |---|---|
-| `preset:` | `dawn` (sunrise, current) · `ocean` · `forest` · `royal` · `steel` (most corporate) |
-| `display_font:` | `bold` (wide modern headings) · `classic` (elegant serif) |
-| `animate_hero:` | `true` · `false` (turns off the sunrise animation) |
+| `preset:` | `navy` (corporate blue, current) · `teal` · `graphite` (most minimal) · `emerald` · `burgundy` |
+| `display_font:` | `modern` (clean sans-serif headings) · `classic` (elegant serif) |
+| `animate_hero:` | `true` · `false` (turns off the opening animation and slide-in transitions) |
 | `show:` | set any section to `false` to hide it; its menu link hides too |
-| `colors:` | type your own hex codes (e.g. `"#FF8A3D"`) to override the preset |
+| `colors:` | type your own hex codes (e.g. `"#1D5FD1"`) to override the preset |
 
 Commit, wait a minute, refresh. To undo, open the file's **History** and restore the previous version.
 
