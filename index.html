@@ -79,7 +79,7 @@ layout: default
         <div class="job-side">
           <span class="job-icon" aria-hidden="true"><svg class="ic"><use href="#i-{{ job.icon | default: 'route' }}"/></svg></span>
           <span class="when">{{ job.dates }}</span>
-          {% if job.sector %}<span class="sector">{{ job.sector }}</span>{% endif %}
+          {% if job.sector %}<span class="sector">{% assign parts = job.sector | split: " · " %}{% for part in parts %}<span>{{ part }}</span>{% endfor %}</span>{% endif %}
           {% if job.current %}<span class="now-tag">Current</span>{% endif %}
         </div>
         <div class="job-body">

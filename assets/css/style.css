@@ -162,7 +162,8 @@ h1 .last { color: var(--brand); }
 .job-icon { width: 56px; height: 56px; border-radius: 14px; display: grid; place-items: center; color: #FFFFFF; background: linear-gradient(135deg, var(--brand), var(--brand-2)); box-shadow: 0 10px 22px color-mix(in srgb, var(--brand) 30%, transparent); }
 .job-icon .ic { width: 28px; height: 28px; }
 .when { font: 600 13px/1.3 var(--mono); color: var(--navy); margin-top: 6px; }
-.sector { font-size: 13.5px; line-height: 1.45; color: var(--muted); }
+.sector { display: flex; flex-direction: column; gap: 2px; font-size: 13.5px; line-height: 1.45; color: var(--muted); }
+.sector span:first-child { color: var(--navy); font-weight: 600; }
 .now-tag { font: 700 11px/1 var(--mono); letter-spacing: .08em; text-transform: uppercase; color: #FFFFFF; background: #1AA563; padding: 6px 9px; border-radius: 6px; }
 .job-body h3 { margin: 0; font-weight: 800; font-size: clamp(20px, 2vw, 26px); line-height: 1.2; letter-spacing: -0.01em; }
 .org { margin: 8px 0 0; color: var(--muted); font-size: 15px; }
