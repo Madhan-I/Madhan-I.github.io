@@ -478,8 +478,12 @@ award_groups:
       - title: Atos Spot Recognition, Cloud Training
         detail: Atos · Feb 2022 · Cloud Technologies session for 215 graduates, Skill Development and Employability Initiative
         image: award-cloud-training.jpg
-      - title: Star Volunteer
-        detail: Recognised by ed-tech NGOs for mentoring
+        extra_image: award-cloud-feedback.jpg
+        extra_label: Read the session feedback
+      - title: Star Volunteer, Atos Prayas Foundation
+        detail: Atos CSR · Mar 2023 · for outstanding contribution towards enriching young minds
+        image: award-star-volunteer.jpg
+        note: Certificate issued under the name "Madhan E"
 
 contact_title: Have a programme that needs to
 contact_highlight: ship?
