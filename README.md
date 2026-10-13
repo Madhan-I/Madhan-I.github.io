@@ -51,6 +51,7 @@ All page text is in **one file: `_data/profile.yml`**.
 | Link a certificate | Add `url: https://…` under it |
 | Add a resume download | Upload the PDF to `assets/resume/` and set `resume_file: "Madhan_Irulandi_Resume.pdf"` |
 | Add your photo | Upload a square image to `assets/images/` and set `photo: "madhan-headshot.jpg"` |
+| Turn on visitor counts | Create a free GoatCounter account, then set `goatcounter: "yourcode"` in `_config.yml` |
 
 **Keep LinkedIn and this file saying the same thing.** Recruiters compare them.
 
