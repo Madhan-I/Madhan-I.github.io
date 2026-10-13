@@ -154,10 +154,10 @@ experience:
     company: Cognizant
     detail: Chennai · Anthem Blue Cross Blue Shield (now Elevance Health)
     points:
-      - Consolidated legacy layouts into dynamic master templates with OpenText Exstream and xPression, cutting operating costs by $300K a year.
-      - Improved bug resolution cycles 15% as part of a 60-developer cross-functional team.
-      - Contributed to a $400K annual revenue increase by improving client retention.
-      - Cut post-implementation defects 25% with automated pre-flight QA checklists and standard knowledge transfer.
+      - "Consolidated legacy layouts into dynamic master templates with OpenText Exstream and xPression, cutting operating costs by $300K a year."
+      - "Cut post-implementation defects 25% with automated pre-flight QA checklists and standardised knowledge transfer."
+      - "Sped up bug resolution cycles 15% within a 60-developer cross-functional team."
+      - "Contributed to a $400K annual revenue increase by improving client retention."
   - dates: Jul 2014 – Jun 2015
     title: Production Support Engineer / Systems Analyst Trainee
     sector: "Retail · Order management & item data"
