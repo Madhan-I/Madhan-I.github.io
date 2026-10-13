@@ -3,8 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <!-- Security: only files from this site may load. No outside scripts, trackers or fonts. -->
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; font-src 'self'; img-src 'self' data:; connect-src 'self'; media-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'; upgrade-insecure-requests">
+  <!-- Security: only files from this site may load. If goatcounter is set in _config.yml, GoatCounter (cookie-free visitor counts) is the single exception. -->
+  {% assign gc = site.goatcounter | strip %}{% if gc != "" %}{% assign gc_host = "https://" | append: gc | append: ".goatcounter.com" %}{% endif %}
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'{% if gc != "" %} https://gc.zgo.at{% endif %}; style-src 'self'; font-src 'self'; img-src 'self' data:{% if gc != "" %} {{ gc_host }}{% endif %}; connect-src 'self'{% if gc != "" %} {{ gc_host }}{% endif %}; media-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'; upgrade-insecure-requests">
   <meta name="referrer" content="strict-origin-when-cross-origin">
   <meta name="color-scheme" content="light">
   {% seo %}
@@ -33,5 +34,6 @@
   </footer>
   <dialog class="lightbox" id="lightbox" aria-label="Certificate"><button type="button" class="lb-close" aria-label="Close">×</button><img alt=""><p class="lb-cap"></p></dialog>
   <script src="{{ '/assets/js/main.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
+  {% if gc != "" %}<script data-goatcounter="{{ gc_host }}/count" async src="https://gc.zgo.at/count.js"></script>{% endif %}
 </body>
 </html>
