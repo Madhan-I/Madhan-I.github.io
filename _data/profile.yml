@@ -64,9 +64,9 @@ metrics:
     suffix: "%"
     text: ART predictability and story-point completion across my current portfolio
   - tag: AI in production
-    number: "30→"
-    suffix: "10–15%"
-    text: onboarding false positives after a hybrid AI and RAG compliance engine went live
+    number: "10–15"
+    suffix: "%"
+    text: onboarding false positives, down from 30%, after a hybrid AI and RAG compliance engine went live
   - tag: People
     number: "2,000"
     suffix: "+"
