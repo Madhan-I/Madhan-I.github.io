@@ -287,16 +287,6 @@ certifications:
         status: Active
         badge: mct-2026.png
         url: https://www.credly.com/badges/f5fd3e5a-519d-4d25-9cb0-ef6a57e7c3b0
-      - name: Certified Microsoft Innovative Educator (MIE)
-        year: "2021"
-        status: Active
-        badge: mie-certified.png
-        url: https://learn.microsoft.com/api/achievements/share/en-au/Madhan-irulandi/WXD78KVN?sharingId=5EED7EABB794DB0
-      - name: Minecraft Education Teacher Academy
-        year: "2022"
-        status: Active
-        badge: minecraft-teacher.png
-        url: https://learn.microsoft.com/api/achievements/share/en-au/Madhan-irulandi/99LY6UVK?sharingId=5EED7EABB794DB0
       - name: Azure AI Engineer Associate
         year: "2021"
         status: Active
@@ -322,6 +312,16 @@ certifications:
         status: Active
         badge: azure-fundamentals.png
         url: https://www.credly.com/badges/0aeb3386-e6a0-4b11-b7a9-39a252d892e2
+      - name: Certified Microsoft Innovative Educator (MIE)
+        year: "2021"
+        status: Active
+        badge: mie-certified.png
+        url: https://learn.microsoft.com/api/achievements/share/en-au/Madhan-irulandi/WXD78KVN?sharingId=5EED7EABB794DB0
+      - name: Minecraft Education Teacher Academy
+        year: "2022"
+        status: Active
+        badge: minecraft-teacher.png
+        url: https://learn.microsoft.com/api/achievements/share/en-au/Madhan-irulandi/99LY6UVK?sharingId=5EED7EABB794DB0
   - group: DevOps & Reliability
     items:
       - name: Certified Jenkins Engineer (CloudBees)
