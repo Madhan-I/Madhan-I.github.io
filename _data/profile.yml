@@ -449,7 +449,7 @@ education:
     detail: VELS University · 2009 – 2013 · First Class
 
 award_groups:
-  - group: Work awards
+  - group: Delivery Recognition
     icon: award
     items:
       - title: Team Leadership Excellence Award in Scrum/Release Management
@@ -459,7 +459,7 @@ award_groups:
       - title: Certificate of Excellence
         detail: Cognizant · MetLife · May 2019 · Publisher to xPression migration
         image: award-excellence.jpg
-  - group: Teaching awards
+  - group: Training & Mentoring Recognition
     icon: board
     items:
       - title: Atos Graduate Development Programme recognition
