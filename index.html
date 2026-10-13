@@ -50,7 +50,7 @@ layout: default
 {% unless th.show.about == false %}{% assign n = n | plus: 1 %}
 <section id="about" class="slide tone-white">
   <div class="wrap">
-    <div class="sec-head reveal"><span class="label"><span class="num">0{{ n }}</span><svg class="ic" aria-hidden="true"><use href="#i-user"/></svg>About</span><h2>{{ p.about_title | replace: "|", " " }}</h2></div>
+    <div class="sec-head reveal"><span class="label"><svg class="ic" aria-hidden="true"><use href="#i-user"/></svg>About</span><h2>{{ p.about_title | replace: "|", " " }}</h2></div>
     <div class="about">
       <div class="copy reveal">
         {% for para in p.about %}<p>{{ para }}</p>{% endfor %}
@@ -72,7 +72,7 @@ layout: default
 {% unless th.show.experience == false %}{% assign n = n | plus: 1 %}
 <section id="experience" class="slide tone-tint">
   <div class="wrap">
-    <div class="sec-head reveal"><span class="label"><span class="num">0{{ n }}</span><svg class="ic" aria-hidden="true"><use href="#i-route"/></svg>Experience</span><h2>Every stop on the line</h2></div>
+    <div class="sec-head reveal"><span class="label"><svg class="ic" aria-hidden="true"><use href="#i-route"/></svg>Experience</span><h2>Every stop on the line</h2></div>
     <ol class="deck">
       {% for job in p.experience %}
       <li class="job{% if job.current %} now{% endif %}">
@@ -98,7 +98,7 @@ layout: default
 {% unless th.show.training == false %}{% assign n = n | plus: 1 %}
 <section id="training" class="slide tone-navy">
   <div class="wrap">
-    <div class="sec-head reveal"><span class="label"><span class="num">0{{ n }}</span><svg class="ic" aria-hidden="true"><use href="#i-board"/></svg>Training &amp; Speaking</span><h2>{{ p.training_title }}</h2></div>
+    <div class="sec-head reveal"><span class="label"><svg class="ic" aria-hidden="true"><use href="#i-board"/></svg>Training &amp; Speaking</span><h2>{{ p.training_title }}</h2></div>
     <div class="train-grid">
       <div class="reveal">
         <p class="big">{{ p.training_intro }}</p>
@@ -118,7 +118,7 @@ layout: default
 {% unless th.show.certifications == false %}{% assign n = n | plus: 1 %}
 <section id="certifications" class="slide tone-white">
   <div class="wrap">
-    <div class="sec-head reveal"><span class="label"><span class="num">0{{ n }}</span><svg class="ic" aria-hidden="true"><use href="#i-award"/></svg>Certifications</span><h2>{{ p.certifications_title }}</h2></div>
+    <div class="sec-head reveal"><span class="label"><svg class="ic" aria-hidden="true"><use href="#i-award"/></svg>Certifications</span><h2>{{ p.certifications_title }}</h2></div>
     <div class="cert-groups">
       {% for g in p.certifications %}
       <div class="cg reveal{% if g.featured %} featured{% endif %}{% if g.muted %} muted{% endif %}">
@@ -136,7 +136,7 @@ layout: default
 {% unless th.show.education == false %}{% assign n = n | plus: 1 %}
 <section id="recognition" class="slide tone-tint">
   <div class="wrap">
-    <div class="sec-head reveal"><span class="label"><span class="num">0{{ n }}</span><svg class="ic" aria-hidden="true"><use href="#i-cap"/></svg>Education &amp; Recognition</span><h2>Learning that never stopped</h2></div>
+    <div class="sec-head reveal"><span class="label"><svg class="ic" aria-hidden="true"><use href="#i-cap"/></svg>Education &amp; Recognition</span><h2>Learning that never stopped</h2></div>
     <div class="three">
       <div class="panel reveal">
         <h3><svg class="ic" aria-hidden="true"><use href="#i-cap"/></svg>Education</h3>
@@ -158,7 +158,7 @@ layout: default
 <section id="writing" class="slide tone-white">
   <div class="wrap">
     {% assign latest = site.posts.first %}
-    <div class="sec-head reveal"><span class="label"><span class="num">0{{ n }}</span><svg class="ic" aria-hidden="true"><use href="#i-pen"/></svg>Writing</span><h2>{% if latest.teaser %}{{ latest.teaser }}{% else %}{{ latest.title }}{% endif %}</h2></div>
+    <div class="sec-head reveal"><span class="label"><svg class="ic" aria-hidden="true"><use href="#i-pen"/></svg>Writing</span><h2>{% if latest.teaser %}{{ latest.teaser }}{% else %}{{ latest.title }}{% endif %}</h2></div>
     <div class="post-list reveal">
       {% for post in site.posts limit:3 %}
       <a class="post-card" href="{{ post.url | relative_url }}">
