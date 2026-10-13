@@ -1,7 +1,7 @@
 ---
 title: "Migrating 4,500 documents without a single defect"
 teaser: "A 4,500-document migration with zero defects"
-summary: The MetLife move to OpenText xPression saved 2,500 engineering hours a quarter and $150,000 a year.
+summary: The MetLife move to OpenText xPression saved 2,000 engineering hours a quarter and cut annual remediation costs.
 tags: [Migration, Quality, Insurance]
 ---
 
@@ -24,8 +24,8 @@ Along the way we also standardised the documents themselves, delivering **more t
 ## The results
 
 - **4,500+ policy documents** migrated with a **zero-defect standard**.
-- **2,500 engineering hours saved every quarter** after moving to xPression.
-- Remediation costs **reduced by $150,000 a year**.
+- **2,000 engineering hours saved every quarter** after moving to xPression.
+- **Lower annual remediation costs** across 500+ standardised document applications.
 - A **Certificate of Excellence** in May 2019 for my support and contributions to migrating publisher data to xPression.
 
 ## What made the difference
