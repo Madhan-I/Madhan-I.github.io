@@ -133,32 +133,78 @@ experience:
     detail: Acquired by Atos · TruStage
     points:
       - Completed 2,000+ document requests on OpenText xPression with zero-defect releases. Schedules down 35%.
-  - dates: Jul 2014 – Jan 2020
-    title: Technology Lead · Systems Engineer · Production Support
-    sector: "Insurance · Healthcare · Retail"
-    icon: layers
+  - dates: Jul 2017 – Jan 2020
+    title: Technology Lead / Senior Analyst
+    sector: "Insurance · Document platform migration"
+    icon: doc
     company: Cognizant
-    detail: MetLife, Anthem, Walmart
+    detail: Chennai · MetLife
     points:
-      - MetLife. Migrated 4,500+ policy documents to xPression, saving 2,500 hours a quarter and $150K a year. Certificate of Excellence, May 2019.
-      - Anthem. Part of a 60-developer team that cut opex $300K a year and added $400K a year in revenue.
-      - Walmart. Cut manual effort 30% (25 hours a week) and MTTR 20% across 50+ P1/P2 outages.
-  - dates: Aug 2013 – May 2014
-    title: Senior Customer Care Representative
-    sector: "Healthcare · Claims"
+      - Led MetLife's move from a legacy publisher to OpenText xPression, migrating 4,500+ policy documents.
+      - Held a zero-defect standard across every migrated asset by building test cases with QA.
+      - Delivered 500+ standardised document applications and cut remediation costs by $150K a year.
+      - Saved 2,500 engineering hours a quarter. Certificate of Excellence, May 2019.
+  - dates: Jul 2015 – Jun 2017
+    title: Systems Engineer / Application Analyst
+    sector: "Healthcare · Health insurance"
     icon: health
+    company: Cognizant
+    detail: Chennai · Anthem Blue Cross Blue Shield (now Elevance Health)
+    points:
+      - Consolidated legacy layouts into dynamic master templates with OpenText Exstream and xPression, cutting operating costs by $300K a year.
+      - Part of a 60-developer team that sped up bug resolution by 15% and supported a $400K annual revenue increase through client retention.
+      - Cut post-implementation defects by 25% with automated pre-flight QA checklists and standard knowledge transfer.
+  - dates: Jul 2014 – Jun 2015
+    title: Production Support Engineer / Systems Analyst Trainee
+    sector: "Retail · Order management & item data"
+    icon: cart
+    company: Cognizant
+    detail: Chennai · Walmart
+    points:
+      - Led the resolution of 50+ critical P1/P2 outages and 120 high-priority incidents, beating SLA targets through peak retail periods.
+      - Automated competitive ("Comp") reporting in the Order Management System, cutting manual effort 30% and saving 25 hours a week.
+      - Made SVIST supplier reporting 200% faster with the DBA team and cut production maintenance costs 17% in five months.
+      - Reduced Walmart Item File incident resolution time 20% in six months, with on-time milestones every quarter.
+  - dates: Jan 2014 – May 2014
+    title: Senior Customer Care Representative
+    sector: "Healthcare · Revenue cycle & claims"
+    icon: headset
     company: Dell Technologies
-    detail: Healthcare claims · BCBS, Humana, Aetna
+    detail: Chennai · Blue Cross Blue Shield, Humana, Aetna
     points:
-      - Led a 15-person team. CSAT above 90% and average handle time down 33%.
-  - dates: 2009 – 2013
-    title: Client Relations & Event Coordination
-    sector: "Live events · Sports & entertainment"
+      - Led a 15-member team auditing client and hospital payments, adding more than $150K in quarterly revenue.
+      - Built Tableau and Salesforce tracking that lifted the team's monthly financial results by over $100K.
+      - Cut average call handling time 33% and raised CSAT above 90%.
+  - dates: Aug 2013 – Dec 2013
+    title: Customer Care Representative
+    sector: "Healthcare · Claims"
+    icon: headset
+    company: Dell Technologies
+    detail: Chennai · Conifer Health Solutions
+    points:
+      - Processed 180+ high-value claims a month with a consistent 5-day reimbursement turnaround.
+      - Cut overdue payments 20%, safeguarding about $150K in outstanding balances every month.
+      - Reduced disputed claims by more than 35 a month through data cleansing and cross-system reconciliation.
+  - dates: Apr 2010 – Oct 2013
+    title: Client Relations Specialist
+    sector: "Sports & entertainment events"
     icon: ticket
-    company: Wizcraft · Encompass Event Group
-    detail: Freelance, alongside engineering studies
+    company: Wizcraft International Entertainment
+    detail: Freelance · alongside engineering studies
     points:
-      - Ran guest relations for IPL (Chennai Super Kings), India's first Formula 1 Grand Prix and the 100 Years of Indian Cinema celebration, with crews of 15–40.
+      - Ran VIP hospitality in the Commentators' Box at Chepauk for Chennai Super Kings during the IPL, leading crews of 15–40 and cutting guest complaints by nearly a third.
+      - Managed celebrity guest relations at the IPL Season 5 opening ceremony and the 100 Years of Indian Cinema celebration.
+      - Coordinated artists, guests and backstage schedules for the Mirchi Music Awards South and events for Star Sports and Radio Mirchi.
+  - dates: Jun 2009 – Jul 2012
+    title: Event Coordinator
+    sector: "Automotive, sports & entertainment events"
+    icon: flag
+    company: Encompass Event Group
+    detail: Freelance · alongside engineering studies
+    points:
+      - Led Chennai promotions for India's first Formula 1 Grand Prix in 2011, lifting ticket sales.
+      - Managed media, podium ceremonies and hospitality for the JK Tyre Volkswagen Polo R Cup 2012, and guest logistics for the Renault Duster media launch, which earned formal client appreciation.
+      - Handled client relations for the Chennai Rhinos in the first Celebrity Cricket League season.
 
 training_title: I love helping teams learn, grow and deliver together
 training_intro: Microsoft Certified Trainer every year since 2020. I run workshops for delivery teams, Scrum Masters and engineers who need to apply a framework on Monday, not just pass an exam.
@@ -405,19 +451,27 @@ education:
   - title: BE Electrical & Electronics Engineering
     detail: VELS University · 2009 – 2013 · First Class
 
-awards:
-  - title: Team Leadership Excellence Award
-    detail: Scrum and release management
-  - title: Atos Excellence Award
-    detail: Graduate Development Programme and interviewing
-  - title: Atos Spot Recognition
-    detail: Cloud technologies training for 215 graduates, Atos Skill Development and Employability initiative · Feb 2022
-    image: award-spot.jpg
-  - title: Certificate of Excellence
-    detail: MetLife & Cognizant · Publisher to xPression migration · May 2019
-    image: award-excellence.jpg
-  - title: Star Volunteer
-    detail: Recognised by ed-tech NGOs for mentoring
+award_groups:
+  - group: Work awards
+    icon: award
+    items:
+      - title: Team Leadership Excellence Award in Scrum/Release Management
+        detail: Eviden (Atos) · Apr 2024 · for guiding teams past deployment impediments to successful releases
+      - title: Recognised for Interviewing Excellence
+        detail: Atos · Oct 2022 · timely, valuable feedback and a positive candidate experience
+      - title: Certificate of Excellence
+        detail: Cognizant · MetLife · May 2019 · Publisher to xPression migration
+        image: award-excellence.jpg
+  - group: Teaching awards
+    icon: board
+    items:
+      - title: Atos Graduate Development Programme recognition
+        detail: Atos · Nov 2022 · cloud technology trainer for 215 graduates
+      - title: Atos Spot Recognition
+        detail: Atos · Feb 2022 · cloud technologies training for 215 graduates, Skill Development and Employability initiative
+        image: award-spot.jpg
+      - title: Star Volunteer
+        detail: Recognised by ed-tech NGOs for mentoring
 
 contact_title: Have a programme that needs to
 contact_highlight: ship?
