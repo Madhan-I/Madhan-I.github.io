@@ -368,3 +368,16 @@ nav.name-hidden .mark-name { opacity: 0; transform: translateX(-8px); pointer-ev
 /* menu links: stronger, brighter */
 nav ul a { color: var(--navy); font-weight: 600; }
 nav ul a:hover { color: var(--brand); background: color-mix(in srgb, var(--brand) 10%, #FFFFFF); }
+
+/* logo: weighs both sides, always settles level (balanced judgement) */
+.mark:hover img, .mark:focus-visible img { transform: none; animation: weigh 1.6s cubic-bezier(.36,.07,.19,.97) both; }
+@keyframes weigh {
+  0% { transform: rotate(0); }
+  15% { transform: rotate(-14deg); }
+  32% { transform: rotate(11deg); }
+  48% { transform: rotate(-7deg); }
+  63% { transform: rotate(4deg); }
+  78% { transform: rotate(-1.5deg); }
+  100% { transform: rotate(0); }
+}
+@media (prefers-reduced-motion: reduce) { .mark:hover img { animation: none; } }
