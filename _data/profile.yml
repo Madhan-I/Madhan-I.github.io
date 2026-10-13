@@ -225,6 +225,7 @@ training_topics:
     note: AZ-104 track
   - name: CI/CD with GitLab & Jenkins
     note: Pipelines · release
+  - name: Incident response & ITIL®
     note: PagerDuty · MTTR
   - name: Kubernetes, service mesh & cloud
     note: AKS · Istio · IBM · VMware
@@ -244,7 +245,6 @@ certifications_links:
   - label: Google Skills profile
     url: https://www.skills.google/public_profiles/f79f24ba-fe04-4792-b301-a8b152fd4dd5
 certifications:
-  - name: Incident response & ITIL®
   - group: Agile, SAFe® & Service Management
     featured: true
     items:
@@ -258,10 +258,6 @@ certifications:
         status: Active
         badge: safe6-popm.png
         url: https://www.credly.com/badges/2df805da-0318-47fb-99d8-93b9d03a7c65
-      - name: ITIL® Foundation in IT Service Management (EXIN)
-        year: "2016"
-        status: Active
-        badge: exin.png
       - name: Certified SAFe® 5 Scrum Master
         year: "2022"
         status: Active
@@ -280,6 +276,10 @@ certifications:
         year: "2020"
         status: Active
         badge: vmedu.png
+      - name: ITIL® Foundation in IT Service Management (EXIN)
+        year: "2016"
+        status: Active
+        badge: exin.png
   - group: Microsoft
     featured: true
     items:
@@ -341,6 +341,11 @@ certifications:
         status: Active
         badge: gitlab-git.png
         url: https://www.credly.com/badges/9e780dce-e80c-4c83-bc9e-51929b3562d5
+      - name: Gremlin Certified Chaos Engineering Practitioner
+        year: "2021"
+        status: Active
+        url: https://www.credential.net/3ac90335-5487-458a-8a5b-ecdf7ce21b52
+        badge: gremlin.png
       - name: PagerDuty Incident Management
         year: "2020"
         status: Active
@@ -356,11 +361,6 @@ certifications:
         status: Active
         badge: pagerduty-foundational.png
         url: https://www.credly.com/badges/999463e4-1a89-4991-a145-2e646e019843
-      - name: Gremlin Certified Chaos Engineering Practitioner
-        year: "2021"
-        status: Active
-        url: https://www.credential.net/3ac90335-5487-458a-8a5b-ecdf7ce21b52
-        badge: gremlin.png
   - group: Google Cloud · 29 skill badges (top 5 shown)
     link: https://www.skills.google/public_profiles/f79f24ba-fe04-4792-b301-a8b152fd4dd5
     items:
