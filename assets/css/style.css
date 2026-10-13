@@ -226,7 +226,11 @@ h1 .last { color: var(--brand); }
 /* ---------- education & recognition ---------- */
 .two { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px; align-items: start; }
 .panel { background: #FFFFFF; border: 1px solid var(--line); border-radius: var(--radius); padding: clamp(20px, 2.6vw, 30px); box-shadow: var(--shadow); }
-.panel h3 { margin: 0 0 6px; font-weight: 800; font-size: 22px; }
+.panel h3 { margin: 0 0 6px; font-weight: 800; font-size: 21px; display: flex; align-items: center; gap: 10px; }
+.panel h3 .ic { color: var(--brand); width: 24px; height: 24px; }
+.three { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; align-items: start; }
+@media (max-width: 1000px) { .three { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 680px) { .three { grid-template-columns: 1fr; } }
 .rows { list-style: none; margin: 0; padding: 0; }
 .rows li { padding: 16px 0; border-bottom: 1px solid var(--line); }
 .rows li:last-child { border-bottom: 0; padding-bottom: 0; }
