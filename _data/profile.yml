@@ -102,7 +102,7 @@ experience:
       - Kept the portfolio at a High health rating with under 5% sprint variance.
       - Reached 100% ART predictability and story-point completion on multi-million-dollar roadmaps through disciplined PI planning.
       - Directed a hybrid AI and RAG compliance engine that cut onboarding false positives from 30% to 10–15%.
-      - Moved 15 core services to AKS and 7 microservices to Gradle.
+      - Reduced technical debt and strengthened platform security by moving 15 core services to AKS and 7 microservices to Gradle.
   - dates: Sep 2022 – Aug 2025
     title: Technical Product Manager / Release Train Engineer
     sector: "Life insurance · Platform modernisation"
@@ -111,9 +111,9 @@ experience:
     detail: Boston (On-site) · John Hancock
     points:
       - Revived a multi-million-dollar platform programme after a two-year COVID delay and cleared 400+ tickets in 9 months.
-      - Ran 5 modernization initiatives at once across 20+ business divisions.
-      - Turned a fragmented roadmap into sprint-ready schedules with Function Point capacity models.
-      - Presented release roadmaps to executives and kept runbooks current, with zero delivery gaps through team transitions.
+      - Coached teams through coordinated upgrades so 5 modernization initiatives could run at once across 20+ business divisions.
+      - Improved resource planning with Function Point capacity models, turning a fragmented roadmap into sprint-ready schedules.
+      - Kept zero delivery gaps through team transitions by presenting release roadmaps to executives and keeping runbooks current.
   - dates: Sep 2020 – Aug 2022
     title: Senior Scrum Master / Agile Project Manager
     sector: "Insurance · Customer communications"
@@ -123,7 +123,7 @@ experience:
     points:
       - Delivered communications to 20M+ Allstate and 400K Encompass policyholders across 750+ document templates.
       - Raised delivery velocity 30% and cut programme cost 25% through Agile coaching and SDLC improvements, without adding headcount.
-      - Restored on-time delivery as the primary escalation point between engineering and client executives, clearing multi-week release blockers.
+      - Restored on-time delivery by clearing multi-week release blockers as the main escalation point between engineering and client executives.
       - Sustained delivery governance that earned a 100% client satisfaction rating over multiple years.
   - dates: Jan 2020 – Aug 2020
     title: Scrum Master / Agile Delivery Lead
@@ -155,8 +155,8 @@ experience:
     detail: Chennai · Anthem Blue Cross Blue Shield (now Elevance Health)
     points:
       - Consolidated legacy layouts into dynamic master templates with OpenText Exstream and xPression, cutting operating costs by $300K a year.
-      - Worked in a 60-developer cross-functional team that sped up bug resolution cycles by 15%.
-      - Helped deliver a $400K annual revenue increase through stronger client retention.
+      - Improved bug resolution cycles 15% as part of a 60-developer cross-functional team.
+      - Contributed to a $400K annual revenue increase by improving client retention.
       - Cut post-implementation defects 25% with automated pre-flight QA checklists and standard knowledge transfer.
   - dates: Jul 2014 – Jun 2015
     title: Production Support Engineer / Systems Analyst Trainee
@@ -190,7 +190,7 @@ experience:
       - Processed 180+ high-value claims a month with a consistent 5-day reimbursement turnaround.
       - Cut overdue payments 20% with payer relations and finance, safeguarding about $150K in outstanding balances every month.
       - Reduced disputed claims by more than 35 a month through data cleansing and reconciliation across the ACE Tool and VIMS mainframe.
-      - Captured the fixes in workflow playbooks and handed them to the permanent operations team.
+      - Kept error rates low after handover by documenting the fixes in workflow playbooks for the permanent operations team.
   - dates: Apr 2010 – Oct 2013
     title: Client Relations Specialist
     sector: "Sports & entertainment events"
@@ -199,9 +199,9 @@ experience:
     detail: Freelance · alongside engineering studies
     points:
       - Ran VIP hospitality in the Commentators' Box at Chepauk for Chennai Super Kings during the IPL, leading crews of 15–40 and cutting guest complaints by nearly a third.
-      - Managed celebrity guest relations at the IPL Season 5 opening ceremony and the 100 Years of Indian Cinema celebration.
-      - Built security plans for high-profile guests with private access points, staff vetting and regular briefings.
-      - Coordinated artists, guests and backstage schedules for the Mirchi Music Awards South and live shows for Star Sports and Radio Mirchi.
+      - Gave celebrities a smooth experience at the IPL Season 5 opening ceremony and the 100 Years of Indian Cinema celebration, resolving VIP concerns quickly and discreetly.
+      - Kept high-profile guests safe with tailored security plans, private access points, staff vetting and regular briefings.
+      - Kept live shows on schedule for the Mirchi Music Awards South, Star Sports and Radio Mirchi by coordinating artists, guests and last-minute backstage changes.
   - dates: Jun 2009 – Jul 2012
     title: Event Coordinator
     sector: "Automotive, sports & entertainment events"
@@ -209,10 +209,10 @@ experience:
     company: Encompass Event Group
     detail: Freelance · alongside engineering studies
     points:
-      - Led Chennai promotions for India's first Formula 1 Grand Prix in 2011, lifting ticket sales.
-      - Managed media, podium ceremonies and hospitality for the JK Tyre Volkswagen Polo R Cup 2012.
+      - Led Chennai promotions for India's first Formula 1 Grand Prix in 2011, boosting ticket sales and box-office conversions.
+      - Ran media, podium ceremonies and hospitality for the JK Tyre Volkswagen Polo R Cup 2012, earning high stakeholder satisfaction.
       - Ran guest and VIP logistics for the Renault Duster media launch, which earned formal client appreciation.
-      - Handled client relations and match-day hospitality for the Chennai Rhinos in the first Celebrity Cricket League season, resolving vendor and scheduling issues on the day.
+      - Kept Celebrity Cricket League match days running for the Chennai Rhinos by resolving vendor delays and scheduling clashes, earning positive reviews and invitations to future events.
 
 training_title: I love helping teams learn, grow and deliver together
 training_intro: Microsoft Certified Trainer every year since 2020. I run workshops for delivery teams, Scrum Masters and engineers who need to apply a framework on Monday, not just pass an exam.
