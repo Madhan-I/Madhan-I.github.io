@@ -347,3 +347,5 @@ button { font-family: var(--body); }
 /* section labels: icon tile + title (no numbers) */
 .label .ic { width: 34px; height: 34px; padding: 8px; border-radius: 10px; color: #FFFFFF; background: linear-gradient(135deg, var(--brand), var(--brand-2)); box-shadow: 0 6px 16px color-mix(in srgb, var(--brand) 28%, transparent); }
 .tone-navy .label .ic { background: rgba(255, 255, 255, .14); box-shadow: none; }
+/* sector text and Current tag line up with the text inside the date pill */
+@media (min-width: 761px) { .job-side .sector, .job-side .now-tag { margin-left: 11px; } }
