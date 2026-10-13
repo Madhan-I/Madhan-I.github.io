@@ -50,8 +50,8 @@ expertise:
   - Microsoft Certified Trainer since 2020
   - Program & Portfolio Governance
   - Technical Product Management
-  - Azure AI · RAG
-  - AKS · Apigee · DevOps
+  - Azure AI
+  - DevOps
 
 # The four big numbers under the hero. Keep it to four.
 metrics:
@@ -93,6 +93,8 @@ clients:
 experience:
   - dates: Sep 2025 – Present
     title: Senior Release Train Engineer / Program Manager
+    sector: "Financial services · Wealth & insurance"
+    icon: chart
     company: Atos
     detail: Hybrid · Manulife
     current: true
@@ -104,6 +106,8 @@ experience:
       - Moved 15 core services to AKS and 7 microservices to Gradle.
   - dates: Sep 2022 – Aug 2025
     title: Technical Product Manager / Release Train Engineer
+    sector: "Life insurance · Platform modernisation"
+    icon: shield
     company: Atos
     detail: Boston (On-site) · John Hancock
     points:
@@ -113,6 +117,8 @@ experience:
       - Presented release roadmaps to executives and kept runbooks current, with zero delivery gaps through team transitions.
   - dates: Sep 2020 – Aug 2022
     title: Senior Scrum Master / Agile Project Manager
+    sector: "Insurance · Customer communications"
+    icon: mail
     company: Atos
     detail: Hybrid · Allstate
     points:
@@ -121,12 +127,16 @@ experience:
       - Primary escalation point between engineering and client executives. 100% client satisfaction over multiple years.
   - dates: Jan 2020 – Aug 2020
     title: Scrum Master / Agile Delivery Lead
+    sector: "Financial services · Credit unions"
+    icon: bank
     company: Syntel
     detail: Acquired by Atos · TruStage
     points:
       - Completed 2,000+ document requests on OpenText xPression with zero-defect releases. Schedules down 35%.
   - dates: Jul 2014 – Jan 2020
     title: Technology Lead · Systems Engineer · Production Support
+    sector: "Insurance · Healthcare · Retail"
+    icon: layers
     company: Cognizant
     detail: MetLife, Anthem, Walmart
     points:
@@ -135,12 +145,16 @@ experience:
       - Walmart. Cut manual effort 30% (25 hours a week) and MTTR 20% across 50+ P1/P2 outages.
   - dates: Aug 2013 – May 2014
     title: Senior Customer Care Representative
+    sector: "Healthcare · Claims"
+    icon: health
     company: Dell Technologies
     detail: Healthcare claims · BCBS, Humana, Aetna
     points:
       - Led a 15-person team. CSAT above 90% and average handle time down 33%.
   - dates: 2009 – 2013
     title: Client Relations & Event Coordination
+    sector: "Live events · Sports & entertainment"
+    icon: ticket
     company: Wizcraft · Encompass Event Group
     detail: Freelance, alongside engineering studies
     points:
