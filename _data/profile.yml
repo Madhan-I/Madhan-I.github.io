@@ -225,7 +225,6 @@ training_topics:
     note: AZ-104 track
   - name: CI/CD with GitLab & Jenkins
     note: Pipelines · release
-  - name: Incident response & ITIL®
     note: PagerDuty · MTTR
   - name: Kubernetes, service mesh & cloud
     note: AKS · Istio · IBM · VMware
@@ -245,6 +244,7 @@ certifications_links:
   - label: Google Skills profile
     url: https://www.skills.google/public_profiles/f79f24ba-fe04-4792-b301-a8b152fd4dd5
 certifications:
+  - name: Incident response & ITIL®
   - group: Agile, SAFe® & Service Management
     featured: true
     items:
