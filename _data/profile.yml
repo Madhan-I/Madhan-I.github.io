@@ -294,6 +294,11 @@ certifications:
         status: Active
         badge: mie-certified.png
         url: https://learn.microsoft.com/api/achievements/share/en-au/Madhan-irulandi/WXD78KVN?sharingId=5EED7EABB794DB0
+      - name: Minecraft Education Teacher Academy
+        year: "2022"
+        status: Active
+        badge: minecraft-teacher.png
+        url: https://learn.microsoft.com/api/achievements/share/en-au/Madhan-irulandi/99LY6UVK?sharingId=5EED7EABB794DB0
       - name: Azure AI Engineer Associate
         year: "2021"
         status: Active
