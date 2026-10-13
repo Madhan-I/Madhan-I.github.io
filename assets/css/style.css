@@ -322,3 +322,12 @@ section.flush-top { padding-block: 10px clamp(56px, 7vw, 96px); }
 .topics span { font: 600 12.5px/1.4 var(--body); }
 .eyebrow { font-family: var(--body); font-weight: 700; }
 button { font-family: var(--body); }
+
+/* headline: title on line one, promise on line two */
+.role { max-width: none; font-size: clamp(20px, 2vw, 27px); }
+.role-1, .role-2 { display: block; }
+@media (min-width: 700px) { .role-1 { white-space: nowrap; } }
+/* "Clients I've delivered for" matches the "Experience" label exactly */
+.clients h3, .quick dt { font: 700 12.5px/1.2 var(--body); letter-spacing: .08em; text-transform: uppercase; }
+.clients h3 { color: var(--muted); margin-bottom: 12px; }
+.quick dt { color: rgba(255, 255, 255, .72); }
