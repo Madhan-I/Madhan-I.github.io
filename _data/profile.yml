@@ -293,10 +293,12 @@ certifications:
         year: "2021"
         status: Active
         badge: azure-ai-engineer.png
+        url: https://learn.microsoft.com/api/credentials/share/en-us/Madhan-irulandi/E326A1F605AB3983?sharingId=5EED7EABB794DB0
       - name: Azure Administrator Associate
         year: "2020"
         status: Active
         badge: azure-administrator.png
+        url: https://learn.microsoft.com/api/credentials/share/en-us/Madhan-irulandi/8421723C2BD389EA?sharingId=5EED7EABB794DB0
       - name: Azure AI Fundamentals
         year: "2020"
         status: Active
