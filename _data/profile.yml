@@ -281,6 +281,7 @@ certifications:
         status: Active
         badge: vmedu.png
   - group: Microsoft
+    featured: true
     items:
       - name: Microsoft Certified Trainer
         year: "2020"
@@ -323,6 +324,7 @@ certifications:
         badge: minecraft-teacher.png
         url: https://learn.microsoft.com/api/achievements/share/en-au/Madhan-irulandi/99LY6UVK?sharingId=5EED7EABB794DB0
   - group: DevOps & Reliability
+    featured: true
     items:
       - name: Certified Jenkins Engineer (CloudBees)
         year: "2021"
