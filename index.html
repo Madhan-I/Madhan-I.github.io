@@ -138,15 +138,17 @@ layout: default
 <section id="recognition" class="slide tone-tint">
   <div class="wrap">
     <div class="sec-head reveal"><span class="label"><span class="num">0{{ n }}</span><svg class="ic" aria-hidden="true"><use href="#i-cap"/></svg>Education &amp; Recognition</span><h2>Learning that never stopped</h2></div>
-    <div class="two">
+    <div class="three">
       <div class="panel reveal">
-        <h3>Education</h3>
+        <h3><svg class="ic" aria-hidden="true"><use href="#i-cap"/></svg>Education</h3>
         <ul class="rows">{% for e in p.education %}<li><b>{{ e.title }}</b><span>{{ e.detail }}</span></li>{% endfor %}</ul>
       </div>
+      {% for g in p.award_groups %}
       <div class="panel reveal">
-        <h3>Recognition</h3>
-        <ul class="rows">{% for a in p.awards %}<li class="award{% if a.image %} has-image{% endif %}">{% if a.image %}<a class="thumb" href="{{ '/assets/badges/' | append: a.image | relative_url }}" data-lightbox data-caption="{{ a.title }}"><img src="{{ '/assets/badges/' | append: a.image | relative_url }}" alt="{{ a.title }} certificate" loading="lazy" width="96" height="96"><span class="zoom">View</span></a>{% endif %}<span class="abody"><b>{{ a.title }}</b><span>{{ a.detail }}</span></span></li>{% endfor %}</ul>
+        <h3><svg class="ic" aria-hidden="true"><use href="#i-{{ g.icon | default: 'award' }}"/></svg>{{ g.group }}</h3>
+        <ul class="rows">{% for a in g.items %}<li class="award{% if a.image %} has-image{% endif %}">{% if a.image %}<a class="thumb" href="{{ '/assets/badges/' | append: a.image | relative_url }}" data-lightbox data-caption="{{ a.title }}"><img src="{{ '/assets/badges/' | append: a.image | relative_url }}" alt="{{ a.title }} certificate" loading="lazy" width="96" height="96"><span class="zoom">View</span></a>{% endif %}<span class="abody"><b>{{ a.title }}</b><span>{{ a.detail }}</span></span></li>{% endfor %}</ul>
       </div>
+      {% endfor %}
     </div>
   </div>
 </section>
