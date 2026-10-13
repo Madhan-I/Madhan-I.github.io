@@ -236,6 +236,8 @@ training_topics:
 # status = Active (green) or Expired (grey). Most important first; expired go last.
 certifications_title: 80+ certifications and badges since 2016
 certifications_links:
+  - label: Microsoft Learn profile
+    url: https://learn.microsoft.com/en-us/users/madhan-irulandi/
   - label: Verify on Credly
     url: https://www.credly.com/users/madhan-i
   - label: Accredible wallet
