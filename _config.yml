@@ -17,7 +17,7 @@ defaults:
   - scope:
       path: ""
     values:
-      image: /assets/images/madhan.jpg
+      image: /assets/images/madhan-headshot.jpg
 
 social:
   name: Madhan Irulandi

@@ -39,7 +39,7 @@ github: "Madhan-I"
 resume_file: ""
 
 # Optional: put a square photo in assets/images/ and type its file name here.
-photo: "madhan.jpg"
+photo: "madhan-headshot.jpg"
 
 expertise:
   - Release Train Engineer (RTE) · SAFe® 6
@@ -491,4 +491,4 @@ award_groups:
 contact_title: Have a programme that needs to
 contact_highlight: ship?
 contact_intro: Email me about leadership roles, delivery consulting or corporate training, anywhere in the world.
-contact_note: "Based in Chennai, India, and available for on-site, hybrid or remote roles worldwide. I spent three years delivering on-site in Boston for John Hancock and am ready to relocate."
+contact_note: "Based in Chennai, India. Open to on-site, hybrid or remote roles worldwide, with three years on-site in Boston for John Hancock and ready to relocate."
