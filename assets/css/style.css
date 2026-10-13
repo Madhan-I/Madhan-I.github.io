@@ -331,3 +331,10 @@ button { font-family: var(--body); }
 .clients h3, .quick dt { font: 700 12.5px/1.2 var(--body); letter-spacing: .08em; text-transform: uppercase; }
 .clients h3 { color: var(--muted); margin-bottom: 12px; }
 .quick dt { color: rgba(255, 255, 255, .72); }
+
+/* section labels: presentation-style slide numbers */
+.label { font: 700 15px/1 var(--body); letter-spacing: .1em; gap: 12px; align-items: center; }
+.label .num { font: 800 clamp(34px, 3.4vw, 44px)/1 var(--display); letter-spacing: -0.02em; padding: 0 14px 0 0; border-radius: 0; background: linear-gradient(135deg, var(--brand), var(--brand-2)); -webkit-background-clip: text; background-clip: text; color: transparent; border-right: 2px solid color-mix(in srgb, var(--brand) 25%, transparent); }
+.label .ic { width: 20px; height: 20px; }
+.tone-navy .label .num { background: linear-gradient(135deg, #FFFFFF, color-mix(in srgb, var(--brand-2) 60%, #FFFFFF)); -webkit-background-clip: text; background-clip: text; color: transparent; border-right-color: rgba(255, 255, 255, .25); }
+.sec-head h2 { margin-top: 14px; }
