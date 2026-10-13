@@ -462,10 +462,8 @@ award_groups:
   - group: Training & Mentoring Recognition
     icon: board
     items:
-      - title: Atos Graduate Development Programme recognition
-        detail: Atos · Nov 2022 · cloud technology trainer for 215 graduates
       - title: Atos Spot Recognition
-        detail: Atos · Feb 2022 · cloud technologies training for 215 graduates, Skill Development and Employability initiative
+        detail: Atos · Feb 2022 · Cloud Technologies session for 215 graduates, Skill Development and Employability Initiative
         image: award-spot.jpg
       - title: Star Volunteer
         detail: Recognised by ed-tech NGOs for mentoring
