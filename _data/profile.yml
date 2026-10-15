@@ -48,18 +48,18 @@ expertise_rows:
 
 # The four big numbers under the hero. Keep it to four.
 metrics:
-  - tag: Recovery
-    number: "400"
-    suffix: "+"
-    text: tickets cleared in 9 months on a platform stalled for two years by COVID
   - tag: Predictability
     number: "100"
     suffix: "%"
     text: ART predictability and story-point completion across my current portfolio
   - tag: AI in production
-    number: "10–15"
-    suffix: "%"
-    text: onboarding false positives, down from 30%, after a hybrid AI and RAG compliance engine went live
+    number: "50"
+    suffix: "%+"
+    text: fewer onboarding false positives, from 30% down to 10–15%, after a hybrid AI and RAG compliance engine went live
+  - tag: Recovery
+    number: "400"
+    suffix: "+"
+    text: tickets cleared in 9 months on a platform stalled for two years by COVID
   - tag: People
     number: "3,000"
     suffix: "+"
