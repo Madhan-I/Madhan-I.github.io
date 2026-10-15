@@ -399,7 +399,12 @@ nav .wrap { padding-block: 10px; }
   .hero.has-photo { grid-template-columns: minmax(0, 1fr) clamp(220px, 20vw, 270px); }
   .portrait { max-width: 270px; }
 }
-.portrait::before { background: linear-gradient(135deg, #159BBB, #1386A6); opacity: 1; inset: -10px 10px auto -10px; aspect-ratio: 1; }
+.portrait::before { background: linear-gradient(135deg, #18A7C6, #1386A6); opacity: 1; inset: 0 0 auto 0; aspect-ratio: 1; border-radius: 24px; transform: translate(-12px, -12px); transition: transform .45s cubic-bezier(.2, .7, .2, 1); }
+.portrait img { transition: transform .45s cubic-bezier(.2, .7, .2, 1); }
+@media (hover: hover) and (prefers-reduced-motion: no-preference) {
+  .portrait:hover::before { transform: translate(-16px, -16px); }
+  .portrait:hover img { transform: translate(2px, 2px); }
+}
 .portrait img { box-shadow: 0 18px 40px -18px color-mix(in srgb, var(--navy) 35%, transparent); }
 @media (min-width: 861px) {
   .portrait figcaption { position: static; transform: none; display: flex; width: max-content; max-width: 100%; margin: 22px auto 0; white-space: nowrap; line-height: 1.35; }
