@@ -417,3 +417,13 @@ nav .wrap { padding-block: 10px; }
 /* Contact: three cards (no GitHub) sit on one row on wide screens; email spans the top row on tablets */
 @media (min-width: 641px) { .contact-row.three > .card:first-child { grid-column: 1 / -1; } }
 @media (min-width: 1000px) { .contact-row.three { grid-template-columns: 1.25fr 1fr .8fr; } .contact-row.three > .card:first-child { grid-column: auto; } }
+
+/* Keep the skill boxes on two rows on smaller laptops too */
+@media (min-width: 1000px) and (max-width: 1279px) {
+  .chip-row { gap: 6px; }
+  .chip-row .chip { font-size: 12px; padding: 8px 8px; }
+}
+@media (min-width: 900px) and (max-width: 1060px) {
+  .chip-row { gap: 5px; }
+  .chip-row .chip { font-size: 11px; padding: 7px 7px; }
+}
