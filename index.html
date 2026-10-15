@@ -22,7 +22,7 @@ layout: default
     {% if p.photo != "" %}
     <figure class="portrait">
       <img src="{{ '/assets/images/' | append: p.photo | relative_url }}" alt="{{ p.name_first }} {{ p.name_last }}" width="1200" height="1200" fetchpriority="high">
-      <figcaption><span class="dot" aria-hidden="true"></span> {{ p.status }}</figcaption>
+      <figcaption><span class="dot" aria-hidden="true"></span> <span class="st">{{ p.status | replace: " · ", '<span class="sep"> · </span>' }}</span></figcaption>
     </figure>
     {% endif %}
     <div class="hire-for" aria-label="Areas of expertise">
