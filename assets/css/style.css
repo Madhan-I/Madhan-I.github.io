@@ -434,3 +434,8 @@ nav .wrap { padding-block: 10px; }
   .chip-row { flex-wrap: nowrap; }
   .chip-row .chip { flex: 1 1 auto; text-align: center; white-space: nowrap; }
 }
+
+/* Education & awards: issuer · date on line 1, description on line 2 */
+.rows li > span.d2, .abody > span.d2 { margin-top: 2px; }
+.rows li > span.d2::first-letter, .abody > span.d2::first-letter { text-transform: uppercase; }
+.rows .nw, .abody .nw { white-space: nowrap; }
