@@ -23,7 +23,6 @@ social:
   name: Madhan Irulandi
   links:
     - https://www.linkedin.com/in/madhanirulandi
-    - https://github.com/Madhan-I
 
 permalink: /blog/:year/:month/:title/
 # Posts dated in the future stay hidden until their date.
