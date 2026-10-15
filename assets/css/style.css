@@ -447,3 +447,6 @@ nav .wrap { padding-block: 10px; }
 
 /* Hero intro: straight edges on both sides (justified) on wider screens */
 @media (min-width: 761px) { .hero-copy .lede { text-align: justify; text-justify: inter-word; } }
+
+/* Hero name one step smaller */
+.hero-copy h1 { font-size: clamp(40px, 5.6vw, 76px); }
