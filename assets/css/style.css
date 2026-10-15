@@ -394,9 +394,6 @@ nav .wrap { padding-block: 10px; }
   .portrait figcaption .st { text-align: left; }
 }
 
-/* Photo blends into the hero background: no frame, soft faded edges */
-.portrait::before { display: none; }
-.portrait img { border: 0; border-radius: 0; box-shadow: none;
-  -webkit-mask-image: radial-gradient(ellipse 50% 54% at 50% 46%, #000 62%, transparent 100%);
-          mask-image: radial-gradient(ellipse 50% 54% at 50% 46%, #000 62%, transparent 100%); }
-.portrait figcaption { bottom: 6px; }
+/* Photo frame: white border, soft tinted backing that matches the page's light blues */
+.portrait::before { background: linear-gradient(135deg, color-mix(in srgb, var(--brand) 34%, #FFFFFF), color-mix(in srgb, var(--brand-2) 30%, #FFFFFF)); opacity: 1; }
+.portrait img { box-shadow: 0 18px 40px -18px color-mix(in srgb, var(--navy) 35%, transparent); }
