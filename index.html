@@ -207,7 +207,7 @@ layout: default
         </div>
       </div>
     </div>
-    <p class="note reveal">{{ p.contact_note }}</p>
+    <p class="note reveal">{% if p.contact_note.first %}{{ p.contact_note | join: "<br>" }}{% else %}{{ p.contact_note }}{% endif %}</p>
   </div>
 </section>
 {% endunless %}

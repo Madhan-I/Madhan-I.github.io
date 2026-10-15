@@ -498,4 +498,7 @@ award_groups:
 contact_title: Have a programme that needs to
 contact_highlight: ship?
 contact_intro: Email me about leadership roles, delivery consulting or corporate training, anywhere in the world.
-contact_note: "Based in Chennai, India, and open to on-site, hybrid or remote roles worldwide. Ready to relocate, having already spent three years working in Boston for John Hancock."
+# Each line below is shown on its own line.
+contact_note:
+  - "Based in Chennai, India, and open to on-site, hybrid or remote roles worldwide."
+  - "Ready to relocate, having already spent three years working in Boston for John Hancock."
