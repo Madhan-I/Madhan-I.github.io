@@ -13,7 +13,7 @@ layout: default
       <p class="role"><span class="role-1">{{ p.headline }}</span> <span class="role-2">{% if p.headline_join != "" %}{{ p.headline_join }} {% endif %}<em>{{ p.headline_highlight }}</em></span></p>
       <p class="lede">{{ p.intro }}</p>
       <div class="ctas">
-        <a class="btn primary" data-goatcounter-click="click-hero-email" href="mailto:{{ p.email }}?subject=Opportunity%20for%20{{ p.name_first }}">Hire me or book a training <svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        <a class="btn primary" data-goatcounter-click="click-hero-email" href="mailto:{{ p.email }}?subject=Opportunity%20for%20{{ p.name_first }}">Let's work together <svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></a>
         {% if p.resume_file != "" %}<a class="btn" data-goatcounter-click="click-hero-resume" href="{{ '/assets/resume/' | append: p.resume_file | relative_url }}" download>Download resume</a>{% endif %}
         <a class="btn ghost" data-goatcounter-click="click-hero-linkedin" href="{{ p.linkedin }}" target="_blank" rel="noopener">LinkedIn ↗</a>
         {% if p.github != "" %}<a class="btn ghost" href="https://github.com/{{ p.github }}" target="_blank" rel="noopener">GitHub ↗</a>{% endif %}
