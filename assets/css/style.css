@@ -452,3 +452,8 @@ nav .wrap { padding-block: 10px; }
 .hero-copy h1 { font-size: clamp(40px, 5.6vw, 76px); }
 /* About paragraphs: justified on wider screens, matching the hero intro */
 @media (min-width: 761px) { .about .copy p { text-align: justify; text-justify: inter-word; } }
+/* Number band: each box centred */
+.metric, .metric:first-child { text-align: center; padding-left: clamp(16px, 2vw, 28px); padding-right: clamp(16px, 2vw, 28px); }
+.metric p { margin-left: auto; margin-right: auto; }
+@media (max-width: 900px) { .metric:nth-child(3) { padding-left: clamp(16px, 2vw, 28px); } }
+@media (max-width: 520px) { .metric { padding-left: 0; padding-right: 0; } }
