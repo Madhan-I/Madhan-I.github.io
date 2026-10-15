@@ -273,7 +273,7 @@ h1 .last { color: var(--brand); }
 .card .v { color: #FFFFFF; font-weight: 600; font-size: 17px; text-decoration: none; overflow-wrap: anywhere; }
 .card .v:hover { text-decoration: underline; }
 .copy-btn { font: 600 13px/1 var(--body); color: var(--navy); background: #FFFFFF; border: 0; border-radius: 8px; padding: 9px 12px; cursor: pointer; flex: none; }
-.note { margin: 22px 0 0; font-size: 14.5px; color: rgba(255, 255, 255, .65); max-width: 70ch; }
+.note { margin: 22px 0 0; font-size: 14.5px; line-height: 1.7; color: rgba(255, 255, 255, .65); max-width: 80ch; }
 @media (min-width: 1000px) { .card .v { white-space: nowrap; } }
 @media (max-width: 640px) { .contact-row { grid-template-columns: 1fr; } }
 
