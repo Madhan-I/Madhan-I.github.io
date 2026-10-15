@@ -438,7 +438,8 @@ nav .wrap { padding-block: 10px; }
 /* Education & awards: issuer · date on line 1, description on line 2 */
 .rows li > span.d2, .abody > span.d2 { margin-top: 2px; }
 .rows li > span.d2::first-letter, .abody > span.d2::first-letter { text-transform: uppercase; }
-.rows .nw, .abody .nw, .lede .nw { white-space: nowrap; }
+.rows .nw, .abody .nw { white-space: nowrap; }
+@media (min-width: 761px) { .lede .nw { white-space: nowrap; } }
 @media (min-width: 1280px) { .chip-row { gap: 3px; } .chip-row .chip { font-size: 18px; letter-spacing: -0.02em; padding: 10px 3px; } .chip-row .chip:first-child { padding: 10px 3px; } }
 @media (min-width: 900px) and (max-width: 1023px) { .chip-row { gap: 4px; } .chip-row .chip { font-size: 10.5px; padding: 7px 5px; } }
 /* First box in each row keeps its natural width, so both rows start their text at the same point */
@@ -456,3 +457,5 @@ nav .wrap { padding-block: 10px; }
 .metric, .metric:first-child, .metric:nth-child(3) { padding-left: clamp(20px, 2.4vw, 32px); padding-right: clamp(20px, 2.4vw, 32px); }
 @media (max-width: 520px) { .metric, .metric:first-child, .metric:nth-child(3) { padding-left: 0; padding-right: 0; } .metric p { text-align: justify; text-justify: inter-word; hyphens: auto; -webkit-hyphens: auto; } }
 @media (min-width: 521px) { .metric p { text-align: justify; text-justify: inter-word; hyphens: auto; -webkit-hyphens: auto; font-size: 14px; } }
+
+@media (max-width: 760px) { .hero-copy .lede, .about .copy p { text-align: justify; text-justify: inter-word; hyphens: auto; -webkit-hyphens: auto; max-width: none; } }
