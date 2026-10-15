@@ -459,3 +459,5 @@ nav .wrap { padding-block: 10px; }
 @media (min-width: 521px) { .metric p { text-align: justify; text-justify: inter-word; hyphens: manual; -webkit-hyphens: manual; font-size: 14px; } }
 
 @media (max-width: 760px) { .hero-copy .lede, .about .copy p { text-align: justify; text-justify: inter-word; hyphens: manual; -webkit-hyphens: manual; max-width: none; } }
+
+.job-body li { text-align: justify; text-justify: inter-word; }
