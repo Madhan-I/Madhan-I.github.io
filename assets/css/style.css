@@ -423,7 +423,7 @@ nav .wrap { padding-block: 10px; }
   .chip-row { gap: 6px; }
   .chip-row .chip { font-size: 12px; padding: 8px 8px; }
 }
-@media (min-width: 900px) and (max-width: 1060px) {
+@media (min-width: 900px) and (max-width: 1119px) {
   .chip-row { gap: 5px; }
   .chip-row .chip { font-size: 11px; padding: 7px 7px; }
 }
@@ -439,3 +439,7 @@ nav .wrap { padding-block: 10px; }
 .rows li > span.d2, .abody > span.d2 { margin-top: 2px; }
 .rows li > span.d2::first-letter, .abody > span.d2::first-letter { text-transform: uppercase; }
 .rows .nw, .abody .nw { white-space: nowrap; }
+@media (min-width: 1280px) { .chip-row .chip { font-size: 13px; padding: 9px 9px; } }
+@media (min-width: 900px) and (max-width: 1023px) { .chip-row { gap: 4px; } .chip-row .chip { font-size: 10.5px; padding: 7px 5px; } }
+/* First box in each row keeps its natural width, so both rows start their text at the same point */
+@media (min-width: 960px) { .chip-row .chip:first-child { flex-grow: 0; } }
