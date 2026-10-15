@@ -75,12 +75,12 @@ about:
   - "I hold a BE in Electrical & Electronics Engineering and I'm now studying for an MS in Computer Science, specialising in AI & ML, at Woolf University. That combination lets me work through AKS migrations and OAuth design with architects, then explain the trade-offs to a steering committee in plain language."
 
 clients:
-  - Manulife
-  - John Hancock
-  - Allstate
-  - MetLife
-  - Anthem / Elevance
   - Walmart
+  - MetLife
+  - Manulife
+  - Allstate
+  - Anthem / Elevance
+  - John Hancock
   - TruStage
 
 # Newest first. Set current: true on the job you hold now.
