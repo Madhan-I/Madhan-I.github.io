@@ -450,3 +450,5 @@ nav .wrap { padding-block: 10px; }
 
 /* Hero name one step smaller */
 .hero-copy h1 { font-size: clamp(40px, 5.6vw, 76px); }
+/* About paragraphs: justified on wider screens, matching the hero intro */
+@media (min-width: 761px) { .about .copy p { text-align: justify; text-justify: inter-word; } }
