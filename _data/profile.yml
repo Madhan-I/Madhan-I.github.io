@@ -41,19 +41,11 @@ resume_file: ""
 # Optional: put a square photo in assets/images/ and type its file name here.
 photo: "madhan-headshot-bright.jpg"
 
-expertise:
-  - Release Train Engineer · SAFe® 6
-  - Senior Scrum Master
-  - Agile Coaching
-  - Kanban
-  - Release Management
-  - Program & Portfolio Governance
-  - Technical Product Management
-  - Stakeholder Management
-  - Microsoft Certified Trainer
-  - Azure AI & RAG
-  - DevOps & CI/CD
-  - PI Planning
+# Skill boxes under the intro. Each group below is its own row on desktop.
+expertise_rows:
+  - [SAFe® 6, Release Train Engineer, Senior Scrum Master, Agile Coaching, PI Planning, Kanban]
+  - [Microsoft Certified Trainer, Technical Product Management, Program & Portfolio Governance, Stakeholder Management, Release Management]
+  - [Azure AI & RAG, DevOps & CI/CD]
 
 # The four big numbers under the hero. Keep it to four.
 metrics:

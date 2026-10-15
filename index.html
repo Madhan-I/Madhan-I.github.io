@@ -26,7 +26,8 @@ layout: default
     </figure>
     {% endif %}
     <div class="hire-for" aria-label="Areas of expertise">
-      {% for e in p.expertise %}<span class="chip">{{ e }}</span>{% endfor %}
+      {% if p.expertise_rows %}{% for row in p.expertise_rows %}<div class="chip-row">{% for e in row %}<span class="chip">{{ e }}</span>{% endfor %}</div>{% endfor %}
+      {% else %}{% for e in p.expertise %}<span class="chip">{{ e }}</span>{% endfor %}{% endif %}
     </div>
   </div>
 </header>
