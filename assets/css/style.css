@@ -427,3 +427,10 @@ nav .wrap { padding-block: 10px; }
   .chip-row { gap: 5px; }
   .chip-row .chip { font-size: 11px; padding: 7px 7px; }
 }
+
+/* Skill rows stretch edge to edge: boxes grow to fill the full width instead of leaving a gap on the right */
+@media (min-width: 960px) {
+  .hire-for:has(.chip-row) { align-items: stretch; }
+  .chip-row { flex-wrap: nowrap; }
+  .chip-row .chip { flex: 1 1 auto; text-align: center; white-space: nowrap; }
+}
