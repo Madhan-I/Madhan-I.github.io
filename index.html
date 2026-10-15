@@ -10,7 +10,7 @@ layout: default
     <div class="hero-copy">
       <h1>{{ p.name_first }} <span class="last">{{ p.name_last }}</span></h1>
       {% if p.roles %}<p class="roles">{% for r in p.roles %}<span>{{ r }}</span>{% endfor %}</p>{% endif %}
-      <p class="role"><span class="role-1">{{ p.headline }}</span> <span class="role-2">{{ p.headline_join }} <em>{{ p.headline_highlight }}</em></span></p>
+      <p class="role"><span class="role-1">{{ p.headline }}</span> <span class="role-2">{% if p.headline_join != "" %}{{ p.headline_join }} {% endif %}<em>{{ p.headline_highlight }}</em></span></p>
       <p class="lede">{{ p.intro }}</p>
       <div class="ctas">
         <a class="btn primary" data-goatcounter-click="click-hero-email" href="mailto:{{ p.email }}?subject=Opportunity%20for%20{{ p.name_first }}">Hire me or book a training <svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></a>
