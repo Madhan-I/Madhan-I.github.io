@@ -453,5 +453,5 @@ nav .wrap { padding-block: 10px; }
 /* About paragraphs: justified on wider screens, matching the hero intro */
 @media (min-width: 761px) { .about .copy p { text-align: justify; text-justify: inter-word; } }
 /* Number band: left-aligned; every box starts the same distance from its divider, first box lines up with the page text */
-.metric { padding-left: clamp(20px, 2.4vw, 32px); padding-right: clamp(12px, 1.6vw, 20px); }
-.metric:first-child { padding-left: 0; }
+.metric, .metric:first-child { padding-left: clamp(20px, 2.4vw, 32px); padding-right: clamp(20px, 2.4vw, 32px); }
+@media (min-width: 521px) { .metric p { text-align: justify; text-justify: inter-word; hyphens: auto; -webkit-hyphens: auto; font-size: 14px; } }
