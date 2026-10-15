@@ -183,7 +183,7 @@ layout: default
       <h2>{{ p.contact_title }} <span>{{ p.contact_highlight }}</span></h2>
       <p class="lede">{{ p.contact_intro }}</p>
     </div>
-    <div class="contact-row reveal">
+    <div class="contact-row reveal{% if p.github == "" %} three{% endif %}">
       <div class="card">
         <span class="k">Email</span>
         <div class="row"><a class="v" data-goatcounter-click="click-contact-email" href="mailto:{{ p.email }}">{{ p.email }}</a><button class="copy-btn" type="button" data-copy="{{ p.email }}">Copy</button></div>
