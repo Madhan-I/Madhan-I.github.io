@@ -37,7 +37,7 @@ colors:
   brand: ""     # buttons, links, highlights
   brand_2: ""   # second highlight colour
   accent: ""    # small warm highlights (numbers, tags)
-  tint: ""      # light background of alternate sections
+  tint: "#F8FAFE"      # light background of alternate sections (brighter than the navy preset default)
 
 # ---------------------------------------------------------------------
 #  Preset definitions. You don't need to edit below this line.
