@@ -399,7 +399,7 @@ nav .wrap { padding-block: 10px; }
   .hero.has-photo { grid-template-columns: minmax(0, 1fr) clamp(220px, 20vw, 270px); }
   .portrait { max-width: 270px; }
 }
-.portrait::before { background: linear-gradient(135deg, #22B4D4, #1597BC); opacity: 1; inset: 0 0 auto 0; aspect-ratio: 1; border-radius: 24px; transform: translate(-12px, -12px); transition: transform .45s cubic-bezier(.2, .7, .2, 1); }
+.portrait::before { background: linear-gradient(160deg, var(--brand), var(--brand-2)); opacity: 1; inset: 0 0 auto 0; aspect-ratio: 1; border-radius: 24px; transform: translate(-12px, -12px); transition: transform .45s cubic-bezier(.2, .7, .2, 1); }
 .portrait img { transition: transform .45s cubic-bezier(.2, .7, .2, 1); }
 @media (hover: hover) and (prefers-reduced-motion: no-preference) {
   .portrait:hover::before { transform: translate(-16px, -16px); }
