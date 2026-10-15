@@ -462,9 +462,11 @@ certifications:
         url: https://www.credly.com/badges/7603dff0-a874-4c8c-84e3-76b290b80a00
 
 education:
-  - title: MS Computer Science, AI & ML
+  - title: Master of Science
+    subject: Computer Science, AI & ML
     detail: Woolf University · Aug 2026 – Mar 2028 · In progress
-  - title: BE Electrical & Electronics Engineering
+  - title: Bachelor of Engineering
+    subject: Electrical & Electronics Engineering
     detail: VELS University · 2009 – 2013 · First Class
 
 award_groups:
