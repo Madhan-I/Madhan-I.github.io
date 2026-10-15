@@ -463,7 +463,7 @@ certifications:
 
 education:
   - title: MS Computer Science, AI & ML
-    detail: Woolf University · Aug 2026 – Mar 2028 (in progress)
+    detail: Woolf University · Aug 2026 – Mar 2028 · In progress
   - title: BE Electrical & Electronics Engineering
     detail: VELS University · 2009 – 2013 · First Class
 
@@ -478,7 +478,7 @@ award_groups:
         detail: Atos · Feb 2022 · for going beyond the call of duty in taking interviews and sharing timely feedback
         image: award-interview.jpg
       - title: Certificate of Excellence
-        detail: MetLife & Cognizant · May 2019 · for outstanding support on the Publisher to xPression migration
+        detail: MetLife · May 2019 · Jointly from MetLife and Cognizant, for outstanding support on the Publisher to xPression migration
         image: award-metlife.jpg
   - group: Training & Mentoring Recognition
     icon: board
