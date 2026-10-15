@@ -444,3 +444,6 @@ nav .wrap { padding-block: 10px; }
 /* First box in each row keeps its natural width, so both rows start their text at the same point */
 @media (min-width: 960px) { .chip-row .chip:first-child { flex-grow: 0; } }
 .rows li > span.subj { color: var(--ink); font-weight: 500; font-size: 15px; margin-top: 2px; }
+
+/* Hero intro: straight edges on both sides (justified) on wider screens */
+@media (min-width: 761px) { .hero-copy .lede { text-align: justify; text-justify: inter-word; } }
