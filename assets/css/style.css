@@ -462,3 +462,5 @@ nav .wrap { padding-block: 10px; }
 
 .job-body li { text-align: justify; text-justify: inter-word; }
 @media (max-width: 600px) { .portrait figcaption { display: none; } }
+.org .proj { color: var(--brand-2); font-weight: 600; }
+@media (max-width: 760px) { .org .proj { display: block; margin-top: 2px; } .org .proj .sep { display: none; } }
