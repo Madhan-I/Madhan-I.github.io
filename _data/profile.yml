@@ -88,10 +88,11 @@ clients:
 experience:
   - dates: Sep 2025 – Present
     title: Senior Release Train Engineer / Program Manager
-    sector: "Financial services · Core API, Customer Engagement & Compliance AI"
+    sector: "Financial services · Wealth & insurance"
     icon: chart
     company: Atos
     detail: Hybrid · Manulife
+    project: "Core API, Customer Engagement & Compliance AI"
     current: true
     points:
       - Lead end-to-end governance for Manulife's Core API, Customer Engagement and Compliance AI products, reporting portfolio health and roadmap decisions to executive leadership.
@@ -101,10 +102,11 @@ experience:
       - Reduced technical debt and strengthened security by moving 15 core services to AKS and 7 microservices to Gradle, and hardening the Apigee API gateway with JWT and OAuth 2.0.
   - dates: Sep 2022 – Aug 2025
     title: Technical Product Manager / Release Train Engineer
-    sector: "Life insurance · AWD workflow platform modernisation"
+    sector: "Life insurance · Platform modernisation"
     icon: shield
     company: Atos
     detail: Boston (On-site) · John Hancock
+    project: "AWD workflow platform modernisation"
     points:
       - "Restarted a multi-million-dollar platform programme stalled for two years by COVID, restructuring release governance and clearing 400+ backlog tickets in 9 months."
       - "Took all 5 modernisation initiatives live across 20+ business divisions by coaching teams through coordinated platform upgrades."
@@ -112,10 +114,11 @@ experience:
       - "Delivered the AWD workflow platform's first upgrades since 2019, completing most of them by Q2 2023, within a year of taking over the programme."
   - dates: Sep 2020 – Aug 2022
     title: Senior Scrum Master / Agile Project Manager
-    sector: "Insurance · Customer communications platform"
+    sector: "Insurance · Customer communications"
     icon: mail
     company: Atos
     detail: Hybrid · Allstate
+    project: "Customer communications platform"
     points:
       - "Delivered customer communications to 20M+ Allstate and 400K Encompass Insurance policyholders by deploying 750+ document templates."
       - "Cut programme cost 25% by streamlining the SDLC, without adding headcount."
@@ -123,10 +126,11 @@ experience:
       - "Raised delivery velocity 30% through hands-on Agile coaching of the delivery teams."
   - dates: Jan 2020 – Aug 2020
     title: Scrum Master / Agile Delivery Lead
-    sector: "Financial services · xPression document project"
+    sector: "Financial services · Credit unions"
     icon: bank
     company: Syntel
     detail: Acquired by Atos · TruStage
+    project: "xPression document project"
     points:
       - "Delivered half of the completed work on TruStage's (formerly CUNA Mutual Group) xPression document project within two months, leading a team a third the size of the existing vendor's."
       - "Achieved zero-defect production releases by building a multi-tier automated testing framework covering regression, smoke and schema checks."
@@ -134,10 +138,11 @@ experience:
       - "Delivered 2,000+ document requests end to end, from design to release, using xAdmin and xDashboard."
   - dates: Jul 2017 – Jan 2020
     title: Technology Lead / Senior Analyst
-    sector: "Insurance · Publisher to xPression migration"
+    sector: "Insurance · Document platform migration"
     icon: doc
     company: Cognizant
     detail: Chennai · MetLife
+    project: "Publisher to xPression migration"
     points:
       - "Led MetLife's move from a legacy publisher to OpenText xPression, migrating 4,500+ policy documents and saving 2,000 engineering hours a quarter."
       - "Delivered 500+ standardised document applications, cutting annual remediation costs."
@@ -145,10 +150,11 @@ experience:
       - "Earned a Certificate of Excellence from MetLife and Cognizant in May 2019 for the migration to xPression."
   - dates: Jul 2015 – Jun 2017
     title: Systems Engineer / Application Analyst
-    sector: "Healthcare · Exstream & xPression template consolidation"
+    sector: "Healthcare · Health insurance"
     icon: health
     company: Cognizant
     detail: Chennai · Anthem Blue Cross Blue Shield (now Elevance Health)
+    project: "Exstream & xPression template consolidation"
     points:
       - "Consolidated legacy layouts into dynamic master templates with OpenText Exstream and xPression, cutting operating costs by $300K a year."
       - "Cut post-implementation defects 25% with automated pre-flight QA checklists and standardised knowledge transfer."
@@ -156,10 +162,11 @@ experience:
       - "Contributed to a $400K annual revenue increase by improving client retention."
   - dates: Jul 2014 – Jun 2015
     title: Production Support Engineer / Systems Analyst Trainee
-    sector: "Retail · Item File & Order Management System"
+    sector: "Retail · Order management & item data"
     icon: cart
     company: Cognizant
     detail: Chennai · Walmart
+    project: "Item File & Order Management System"
     points:
       - "Led the resolution of 50+ critical P1/P2 outages and 120 high-priority incidents, beating SLA targets through peak retail periods."
       - "Reduced Walmart Item File incident resolution time 20% in six months, improving production stability and data consistency."
