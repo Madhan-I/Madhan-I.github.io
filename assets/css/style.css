@@ -467,3 +467,4 @@ nav .wrap { padding-block: 10px; }
 .org.has-client .client { color: var(--brand); font-size: 16px; font-weight: 800; letter-spacing: -0.01em; }
 .org.has-client .via { display: block; margin-top: 4px; font-size: 15px; color: var(--muted); }
 .org.has-client .via .emp { color: var(--navy); font-weight: 700; }
+.job-body li::before { background: var(--brand); }
