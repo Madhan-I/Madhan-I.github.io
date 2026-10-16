@@ -128,10 +128,10 @@ experience:
     company: Syntel
     detail: Acquired by Atos · TruStage
     points:
-      - "Cut project schedules 35% by mentoring onsite and offshore teams and leading sprint retrospectives."
+      - "Matched a 10-person incumbent vendor team's output with a team of 3 within two months, delivering half of TruStage's (formerly CUNA Mutual Group) xPression workload during a competitive transition."
       - "Achieved zero-defect production releases by building a multi-tier automated testing framework covering regression, smoke and schema checks."
+      - "Cut project schedules 35% by mentoring onsite and offshore teams and leading sprint retrospectives."
       - "Delivered 2,000+ document requests end to end, from design to release, using xAdmin and xDashboard."
-      - "Led Agile delivery for TruStage Financial Group (formerly CUNA Mutual Group) on its OpenText xPression document platform."
   - dates: Jul 2017 – Jan 2020
     title: Technology Lead / Senior Analyst
     sector: "Insurance · Document platform migration"
