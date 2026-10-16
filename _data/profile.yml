@@ -117,10 +117,10 @@ experience:
     company: Atos
     detail: Hybrid · Allstate
     points:
-      - "Raised delivery velocity 30% and cut programme cost 25% through Agile coaching and SDLC improvements, without adding headcount."
       - "Delivered customer communications to 20M+ Allstate and 400K Encompass Insurance policyholders by deploying 750+ document templates."
-      - "Restored on-time delivery by clearing multi-week release blockers as the main escalation point between engineering and client executives."
-      - "Earned a 100% client satisfaction rating across the engagement through consistent delivery governance."
+      - "Cut programme cost 25% by streamlining the SDLC, without adding headcount."
+      - "Moved production releases from monthly to near-weekly cycles by clearing release blockers as the main escalation point between engineering and client executives."
+      - "Raised delivery velocity 30% through hands-on Agile coaching of the delivery teams."
   - dates: Jan 2020 – Aug 2020
     title: Scrum Master / Agile Delivery Lead
     sector: "Financial services · Credit unions"
