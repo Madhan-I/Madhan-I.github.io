@@ -88,7 +88,7 @@ clients:
 experience:
   - dates: Sep 2025 – Present
     title: Senior Release Train Engineer / Program Manager
-    sector: "Financial services · Wealth & insurance"
+    sector: "Financial services · Core API, Customer Engagement & Compliance AI"
     icon: chart
     company: Atos
     detail: Hybrid · Manulife
@@ -101,7 +101,7 @@ experience:
       - Reduced technical debt and strengthened security by moving 15 core services to AKS and 7 microservices to Gradle.
   - dates: Sep 2022 – Aug 2025
     title: Technical Product Manager / Release Train Engineer
-    sector: "Life insurance · Platform modernisation"
+    sector: "Life insurance · AWD workflow platform modernisation"
     icon: shield
     company: Atos
     detail: Boston (On-site) · John Hancock
@@ -112,7 +112,7 @@ experience:
       - "Delivered the AWD workflow platform's first upgrades since 2019, completing most of them by Q2 2023, within a year of taking over the programme."
   - dates: Sep 2020 – Aug 2022
     title: Senior Scrum Master / Agile Project Manager
-    sector: "Insurance · Customer communications"
+    sector: "Insurance · Customer communications platform"
     icon: mail
     company: Atos
     detail: Hybrid · Allstate
@@ -123,18 +123,18 @@ experience:
       - "Raised delivery velocity 30% through hands-on Agile coaching of the delivery teams."
   - dates: Jan 2020 – Aug 2020
     title: Scrum Master / Agile Delivery Lead
-    sector: "Financial services · Credit unions"
+    sector: "Financial services · xPression document project"
     icon: bank
     company: Syntel
     detail: Acquired by Atos · TruStage
     points:
-      - "Delivered half of the completed work on TruStage's (formerly CUNA Mutual Group) xPression document project within two months, leading a team of 3 against a 10-person incumbent vendor team."
+      - "Delivered half of the completed work on TruStage's (formerly CUNA Mutual Group) xPression document project within two months, leading a team of 3 against a 10-person existing vendor team."
       - "Achieved zero-defect production releases by building a multi-tier automated testing framework covering regression, smoke and schema checks."
       - "Cut project schedules 35% by mentoring onsite and offshore teams and leading sprint retrospectives."
       - "Delivered 2,000+ document requests end to end, from design to release, using xAdmin and xDashboard."
   - dates: Jul 2017 – Jan 2020
     title: Technology Lead / Senior Analyst
-    sector: "Insurance · Document platform migration"
+    sector: "Insurance · Publisher to xPression migration"
     icon: doc
     company: Cognizant
     detail: Chennai · MetLife
@@ -145,7 +145,7 @@ experience:
       - "Earned a Certificate of Excellence from MetLife and Cognizant in May 2019 for the migration to xPression."
   - dates: Jul 2015 – Jun 2017
     title: Systems Engineer / Application Analyst
-    sector: "Healthcare · Health insurance"
+    sector: "Healthcare · Exstream & xPression template consolidation"
     icon: health
     company: Cognizant
     detail: Chennai · Anthem Blue Cross Blue Shield (now Elevance Health)
@@ -156,7 +156,7 @@ experience:
       - "Contributed to a $400K annual revenue increase by improving client retention."
   - dates: Jul 2014 – Jun 2015
     title: Production Support Engineer / Systems Analyst Trainee
-    sector: "Retail · Order management & item data"
+    sector: "Retail · Item File & Order Management System"
     icon: cart
     company: Cognizant
     detail: Chennai · Walmart
