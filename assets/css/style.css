@@ -462,7 +462,7 @@ nav .wrap { padding-block: 10px; }
 
 .job-body li { text-align: justify; text-justify: inter-word; }
 @media (max-width: 600px) { .portrait figcaption { display: none; } }
-.org .proj { color: var(--brand-2); font-weight: 600; }
+.org .proj { color: var(--brand-2); font-weight: 600; font-size: 16px; }
 @media (max-width: 760px) { .org .proj { display: block; margin-top: 2px; } .org .proj .sep { display: none; } }
 .org.has-client .client { color: var(--brand); font-size: 17px; font-weight: 800; letter-spacing: -0.01em; }
 .org.has-client .via { display: block; margin-top: 4px; font-size: 15.5px; color: var(--muted); }
