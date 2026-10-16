@@ -59,11 +59,11 @@ metrics:
   - tag: Recovery
     number: "400"
     suffix: "+"
-    text: tickets cleared in 9 months on a platform stalled for two years by COVID
+    text: backlog tickets cleared in 9 months on a platform stalled for two years by COVID
   - tag: People
     number: "3,000"
     suffix: "+"
-    text: people trained, with 75+ guest lectures and 500+ mentees since 2020
+    text: people trained since 2020, plus 75+ guest lectures and 500+ mentees
 
 # Use | to start a new line in the heading.
 about_title: "Delivery leader. Engineer by training. Teacher by habit."
