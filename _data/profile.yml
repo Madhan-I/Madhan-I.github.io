@@ -69,8 +69,8 @@ metrics:
 about_title: "Delivery leader. Engineer by training. Teacher by habit."
 about:
   - "Programmes call me when delivery has stalled and the stakes are high: millions of policyholders, regulated data, and executives who need a straight answer on whether a release will land."
-  - "My path into delivery was unusual, and it shapes how I lead. I started in live events, running VIP hospitality at IPL matches, then moved through healthcare claims, production support and document platforms before leading Scrum teams and release trains across onshore and offshore teams. I spent three years on-site in Boston for John Hancock, restarting a platform programme that had been frozen for two years."
-  - "Today I run release governance at Atos for Manulife's Core API, Customer Engagement and Compliance AI products, reporting to executive leadership on a portfolio with a High health rating, under 5% sprint variance and zero critical security issues."
+  - "My path into delivery was unusual, and it shapes how I lead. I started in live events, running VIP hospitality at IPL matches, then moved through healthcare claims, production support and document platforms before leading Scrum teams and release trains across onshore and offshore delivery. I spent three years on-site in Boston for John Hancock, restarting a platform programme that had been frozen for two years."
+  - "Today I run release governance at Atos for Manulife's Core API, Customer Engagement and Compliance AI products, reporting straight to executive leadership. The portfolio holds a High health rating, with under 5% sprint variance and zero critical security issues."
   - "I work alongside engineering, business and leadership as one team. Every view gets a fair hearing, and together we land on the solution that's right for the work, not the one with the loudest voice."
   - "I hold a BE in Electrical & Electronics Engineering and I'm now studying for an MS in Computer Science, specialising in AI & ML, at Woolf University. That combination lets me work through AKS migrations and OAuth design with architects, then explain the trade-offs to a steering committee in plain language."
 
@@ -128,10 +128,10 @@ experience:
     company: Syntel
     detail: Acquired by Atos · TruStage
     points:
-      - "Led Agile delivery on OpenText xPression for TruStage Financial Group (formerly CUNA Mutual Group)."
       - "Cut project schedules 35% by mentoring onsite and offshore teams and leading sprint retrospectives."
       - "Achieved zero-defect production releases with a multi-tier automated testing framework for regression, smoke and schema checks."
-      - "Completed 2,000+ document requests, managing design and delivery with xPression's xAdmin and xDashboard tools."
+      - "Delivered 2,000+ document requests end to end, from design to release, on xPression (xAdmin, xDashboard)."
+      - "Led Agile delivery on OpenText xPression for TruStage Financial Group (formerly CUNA Mutual Group)."
   - dates: Jul 2017 – Jan 2020
     title: Technology Lead / Senior Analyst
     sector: "Insurance · Document platform migration"
@@ -152,7 +152,7 @@ experience:
     points:
       - "Consolidated legacy layouts into dynamic master templates with OpenText Exstream and xPression, cutting operating costs by $300K a year."
       - "Cut post-implementation defects 25% with automated pre-flight QA checklists and standardised knowledge transfer."
-      - "Sped up bug resolution cycles 15% within a 60-developer cross-functional team."
+      - "Sped up bug resolution 15% across a 60-developer cross-functional team."
       - "Contributed to a $400K annual revenue increase by improving client retention."
   - dates: Jul 2014 – Jun 2015
     title: Production Support Engineer / Systems Analyst Trainee
@@ -210,8 +210,8 @@ experience:
       - "Managed the media centre, podium ceremonies and hospitality suites for the JK Tyre Volkswagen Polo R Cup 2012, including live race telemetry for media partners and paddock access control."
       - "Resolved vendor delays and scheduling clashes on Celebrity Cricket League match days for the Chennai Rhinos, winning positive reviews and invitations to future events."
 
-training_title: I love helping teams learn, grow and deliver together
-training_intro: Microsoft Certified Trainer every year since 2020. I run workshops for delivery teams, Scrum Masters and engineers who need to apply a framework on Monday, not just pass an exam.
+training_title: I train teams to deliver, not just to pass exams
+training_intro: Microsoft Certified Trainer every year since 2020. I run hands-on workshops for delivery teams, Scrum Masters and engineers who need to apply a framework the next working day.
 training_note: "Delivered SAFe, Scrum, Azure AI, cloud and DevOps programmes for corporate teams, graduates and engineering colleges."
 training_facts:
   - number: "6 yrs"
@@ -474,10 +474,10 @@ award_groups:
     icon: award
     items:
       - title: Eviden Spot Award, Scrum Master / Release Manager
-        detail: Eviden (Atos) · Apr 2024 · for guiding the team past impediments during production deployments across business units
+        detail: Eviden (Atos) · Apr 2024 · For guiding the team past impediments during production deployments across business units
         image: award-eviden.jpg
       - title: Atos Spot Recognition, Interviewing
-        detail: Atos · Feb 2022 · for going beyond the call of duty in taking interviews and sharing timely feedback
+        detail: Atos · Feb 2022 · For going beyond the call of duty in interviewing candidates and giving timely feedback
         image: award-interview.jpg
       - title: Certificate of Excellence
         detail: MetLife · May 2019 · Jointly from MetLife and Cognizant, for outstanding support on the Publisher to xPression migration
@@ -491,7 +491,7 @@ award_groups:
         extra_image: award-cloud-feedback.jpg
         extra_label: Read the session feedback
       - title: Star Volunteer, Atos Prayas Foundation
-        detail: Atos CSR · Mar 2023 · for outstanding contribution towards enriching young minds
+        detail: Atos CSR · Mar 2023 · For outstanding contribution towards enriching young minds
         image: award-star-volunteer.jpg
         note: Certificate issued under the name "Madhan E"
 
@@ -501,4 +501,4 @@ contact_intro: Email me about leadership roles, delivery consulting or corporate
 # Each line below is shown on its own line.
 contact_note:
   - "Open to on-site, hybrid or remote roles worldwide."
-  - "Ready to relocate, having already spent three years working in Boston for John Hancock."
+  - "Ready to relocate, with three years already spent on-site in Boston for John Hancock."
