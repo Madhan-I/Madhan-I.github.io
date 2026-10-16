@@ -447,7 +447,7 @@ nav .wrap { padding-block: 10px; }
 .rows li > span.subj { color: var(--ink); font-weight: 500; font-size: 15px; margin-top: 2px; }
 
 /* Hero intro: straight edges on both sides (justified) on wider screens */
-@media (min-width: 761px) { .hero-copy .lede { text-align: justify; text-justify: inter-word; max-width: 720px; } }
+@media (min-width: 761px) { .hero-copy .lede { text-align: justify; text-justify: inter-word; max-width: 760px; } }
 
 /* Hero name one step smaller */
 .hero-copy h1 { font-size: clamp(40px, 5.6vw, 76px); }
