@@ -91,7 +91,8 @@ experience:
     sector: "Financial services · Wealth & insurance"
     icon: chart
     company: Atos
-    detail: Hybrid · Manulife
+    client: Manulife
+    detail: Hybrid
     project: "Core API, Customer Engagement & Compliance AI"
     current: true
     points:
@@ -105,7 +106,8 @@ experience:
     sector: "Life insurance · Platform modernisation"
     icon: shield
     company: Atos
-    detail: Boston (On-site) · John Hancock
+    client: John Hancock
+    detail: Boston (On-site)
     project: "AWD workflow platform modernisation"
     points:
       - "Restarted a multi-million-dollar platform programme stalled for two years by COVID, restructuring release governance and clearing 400+ backlog tickets in 9 months."
@@ -117,7 +119,8 @@ experience:
     sector: "Insurance · Customer communications"
     icon: mail
     company: Atos
-    detail: Hybrid · Allstate
+    client: Allstate
+    detail: Hybrid
     project: "Customer communications platform"
     points:
       - "Delivered customer communications to 20M+ Allstate and 400K Encompass Insurance policyholders by deploying 750+ document templates."
@@ -129,7 +132,8 @@ experience:
     sector: "Financial services · Credit unions"
     icon: bank
     company: Syntel
-    detail: Acquired by Atos · TruStage
+    client: TruStage
+    detail: Acquired by Atos
     project: "xPression document project"
     points:
       - "Delivered half of the completed work on TruStage's (formerly CUNA Mutual Group) xPression document project within two months, leading a team a third the size of the existing vendor's."
@@ -141,7 +145,8 @@ experience:
     sector: "Insurance · Document platform migration"
     icon: doc
     company: Cognizant
-    detail: Chennai · MetLife
+    client: MetLife
+    detail: Chennai
     project: "Publisher to xPression migration"
     points:
       - "Led MetLife's move from a legacy publisher to OpenText xPression, migrating 4,500+ policy documents and saving 2,000 engineering hours a quarter."
@@ -153,7 +158,8 @@ experience:
     sector: "Healthcare · Health insurance"
     icon: health
     company: Cognizant
-    detail: Chennai · Anthem Blue Cross Blue Shield (now Elevance Health)
+    client: "Anthem Blue Cross Blue Shield (now Elevance Health)"
+    detail: Chennai
     project: "Exstream & xPression template consolidation"
     points:
       - "Consolidated legacy layouts into dynamic master templates with OpenText Exstream and xPression, cutting operating costs by $300K a year."
@@ -165,7 +171,8 @@ experience:
     sector: "Retail · Order management & item data"
     icon: cart
     company: Cognizant
-    detail: Chennai · Walmart
+    client: Walmart
+    detail: Chennai
     project: "Item File & Order Management System"
     points:
       - "Led the resolution of 50+ critical P1/P2 outages and 120 high-priority incidents, beating SLA targets through peak retail periods."
@@ -177,7 +184,8 @@ experience:
     sector: "Healthcare · Revenue cycle & claims"
     icon: headset
     company: Dell Technologies
-    detail: Chennai · Blue Cross Blue Shield, Humana, Aetna
+    client: "Blue Cross Blue Shield, Humana, Aetna"
+    detail: Chennai
     points:
       - "Acting as Operations Project Lead, ran a 15-member team that resolved high-value payment discrepancies, recovering more than $150K a quarter."
       - "Improved collections and denial management with Tableau and Salesforce tracking and root-cause procedures, adding over $100K a month to team results."
@@ -188,7 +196,8 @@ experience:
     sector: "Healthcare · Claims"
     icon: headset
     company: Dell Technologies
-    detail: Chennai · Conifer Health Solutions
+    client: Conifer Health Solutions
+    detail: Chennai
     points:
       - "Cut overdue payments 20% by working with payer relations and finance, safeguarding about $150K in outstanding balances every month."
       - "Reduced disputed claims by more than 35 a month by cleansing and reconciling payment records across clearinghouse portals and the mainframe."
