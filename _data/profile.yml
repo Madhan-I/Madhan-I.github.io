@@ -129,9 +129,9 @@ experience:
     detail: Acquired by Atos · TruStage
     points:
       - "Cut project schedules 35% by mentoring onsite and offshore teams and leading sprint retrospectives."
-      - "Achieved zero-defect production releases with a multi-tier automated testing framework for regression, smoke and schema checks."
-      - "Delivered 2,000+ document requests end to end, from design to release, on xPression (xAdmin, xDashboard)."
-      - "Led Agile delivery on OpenText xPression for TruStage Financial Group (formerly CUNA Mutual Group)."
+      - "Achieved zero-defect production releases by building a multi-tier automated testing framework covering regression, smoke and schema checks."
+      - "Delivered 2,000+ document requests end to end, from design to release, using xAdmin and xDashboard."
+      - "Led Agile delivery for TruStage Financial Group (formerly CUNA Mutual Group) on its OpenText xPression document platform."
   - dates: Jul 2017 – Jan 2020
     title: Technology Lead / Senior Analyst
     sector: "Insurance · Document platform migration"
