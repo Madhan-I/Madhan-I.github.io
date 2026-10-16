@@ -55,7 +55,7 @@ metrics:
   - tag: AI in production
     number: "50"
     suffix: "%+"
-    text: fewer onboarding false positives, from 30% down to 10–15%, after a hybrid AI and RAG compliance engine went live
+    text: cut in onboarding false positives, from 30% to 10–15%, with a hybrid AI and RAG compliance engine
   - tag: Recovery
     number: "400"
     suffix: "+"
