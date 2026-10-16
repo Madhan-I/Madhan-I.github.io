@@ -85,7 +85,7 @@ layout: default
         </div>
         <div class="job-body">
           <h3>{{ job.title }}</h3>
-          {% if job.client %}<p class="org has-client"><b class="client">{{ job.client }}</b>{% if job.project %}<span class="proj"><span class="sep"> · </span>{{ job.project }}</span>{% endif %}<span class="via"><b class="emp">{{ job.company }}</b> · {{ job.detail }}</span></p>{% else %}<p class="org"><b>{{ job.company }}</b> · {{ job.detail }}</p>{% endif %}
+          {% if job.client %}<p class="org has-client"><b class="client">{{ job.client }}</b>{% if job.project %}<span class="proj"><span class="sep"> · </span>{{ job.project }}</span>{% endif %}<span class="via"><b class="emp">{{ job.company }}</b> · {{ job.detail }}</span></p>{% else %}<p class="org has-client"><b class="client">{{ job.company }}</b><span class="via">{{ job.detail }}</span></p>{% endif %}
           <ul>{% for pt in job.points %}<li>{{ pt }}</li>{% endfor %}</ul>
         </div>
         <svg class="job-art" aria-hidden="true"><use href="#i-{{ job.icon | default: 'route' }}"/></svg>
