@@ -95,10 +95,10 @@ experience:
     current: true
     points:
       - Lead end-to-end governance for Manulife's Core API, Customer Engagement and Compliance AI products, reporting portfolio health and roadmap decisions to executive leadership.
-      - Kept the portfolio at a High health rating with under 5% sprint variance.
-      - Reached 100% ART predictability and story-point completion on multi-million-dollar roadmaps through disciplined PI planning.
-      - Directed a hybrid AI and RAG compliance engine that cut onboarding false positives from 30% to 10–15%.
-      - Reduced technical debt and strengthened platform security by moving 15 core services to AKS and 7 microservices to Gradle.
+      - Maintain the portfolio at a High health rating, with under 5% sprint variance.
+      - Reached 100% ART predictability and story-point completion through disciplined PI planning.
+      - Directed delivery of a hybrid AI and RAG compliance engine that cut onboarding false positives from 30% to 10–15%.
+      - Reduced technical debt and strengthened security by moving 15 core services to AKS and 7 microservices to Gradle.
   - dates: Sep 2022 – Aug 2025
     title: Technical Product Manager / Release Train Engineer
     sector: "Life insurance · Platform modernisation"
