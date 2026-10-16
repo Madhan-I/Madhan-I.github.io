@@ -164,7 +164,7 @@ experience:
       - "Led the resolution of 50+ critical P1/P2 outages and 120 high-priority incidents, beating SLA targets through peak retail periods."
       - "Reduced Walmart Item File incident resolution time 20% in six months, improving production stability and data consistency."
       - "Automated competitive (\"Comp\") reporting in the Order Management System, cutting manual effort 30% and saving 25 hours a week."
-      - "Made supplier inventory and sales reports (SVIST) 200% faster by redesigning queries with the DBA team, and cut production maintenance costs 17% in five months."
+      - "Automated the previously manual supplier inventory and sales reports (SVIST) with the DBA team, producing them 3× faster and cutting production maintenance costs 17% in five months."
   - dates: Jan 2014 – May 2014
     title: Senior Customer Care Representative
     sector: "Healthcare · Revenue cycle & claims"
