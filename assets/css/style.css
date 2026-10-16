@@ -469,3 +469,4 @@ nav .wrap { padding-block: 10px; }
 .org.has-client .via .emp { color: var(--navy); font-weight: 700; }
 .job-body li::before { background: var(--brand); }
 .clients h3 { font-size: 15px; }
+.quick dt { color: #FFFFFF; }
