@@ -461,3 +461,4 @@ nav .wrap { padding-block: 10px; }
 @media (max-width: 760px) { .hero-copy .lede, .about .copy p { text-align: justify; text-justify: inter-word; hyphens: manual; -webkit-hyphens: manual; max-width: none; } }
 
 .job-body li { text-align: justify; text-justify: inter-word; }
+@media (max-width: 600px) { .portrait figcaption { display: none; } }
