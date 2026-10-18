@@ -11,7 +11,7 @@ People are sometimes surprised that my career didn't start in technology. Alongs
 
 From 2009 to 2013 I worked freelance in client relations and event coordination with Encompass Event Group and Wizcraft International Entertainment. The work included guest relations in the commentators' hospitality box at Chepauk for Chennai Super Kings during the IPL, the IPL Season 5 opening ceremony, the 100 Years of Indian Cinema celebration, promotions in Chennai for India's first Formula 1 Grand Prix, and the first season of the Celebrity Cricket League.
 
-I coordinated crews of **15 to 40 people** depending on the event. And live events taught me lessons that apply directly to delivery:
+On peak IPL match days I led a **40-strong hospitality crew**. And live events taught me lessons that apply directly to delivery:
 
 - **The deadline is real.** The show starts on time whether you're ready or not.
 - **Plans change constantly.** Guest lists shift, equipment fails, schedules move. What matters is how fast you adapt.
@@ -21,7 +21,7 @@ I coordinated crews of **15 to 40 people** depending on the event. And live even
 
 After graduating I joined Dell Technologies in 2013, working on healthcare claims for Conifer Health Solutions, then Blue Cross Blue Shield, Humana and Aetna. By 2014 I was a Senior Customer Care Representative leading a **15-member team**.
 
-There I learned to manage with data. Using Excel models, Tableau and Salesforce, we improved accounts receivable and denial management, contributing more than **$150,000 in quarterly revenue** and over **$100,000 a month** in improved team results. We cut average call handling time by **33%** and lifted CSAT **above 90%**.
+There I learned to manage with data. Using Excel models, Tableau and Salesforce, we tightened denial management, adding over **$100,000 a month** to collections, and as acting Operations Project Lead my team recovered more than **$150,000 a quarter** in payment discrepancies. We cut average call handling time by **33%** and lifted CSAT **above 90%**.
 
 ## Then technology
 

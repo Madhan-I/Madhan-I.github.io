@@ -18,7 +18,7 @@ During my year on the team I helped resolve **more than 50 critical P1 and P2 ou
 Firefighting is necessary. But the real wins came from reducing how often we had to fight fires at all.
 
 - **Automation.** I automated the competitive ("Comp") reporting in the Order Management System, cutting manual effort by 30% and saving **25 engineering hours every week**.
-- **Performance.** Working with the database team to redesign query execution, we improved Supplier Volume Inventory Sales Tracking (SVIST) reporting performance by **200%**, which shortened supplier response times.
+- **Performance.** Supplier Volume Inventory Sales Tracking (SVIST) reports were produced by hand. Working with the database team, I replaced them with automated reports that ran **3× faster**, which shortened supplier response times.
 - **Cost.** Operational efficiency measures across the platform reduced production maintenance costs by **17% within five months**.
 - **Speed of recovery.** We reduced incident resolution time for the Walmart Item File system by **20% within six months**.
 
