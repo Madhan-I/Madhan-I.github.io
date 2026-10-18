@@ -477,4 +477,4 @@ nav .wrap { padding-block: 10px; }
 @media (min-width: 641px) { .cg { display: flex; flex-direction: column; } .cg ul { flex: 1; align-content: start; } }
 @media (min-width: 641px) { .cert-groups { gap: 12px; } .cg { padding: 20px 18px; } .cg h3 { margin-bottom: 12px; } .cg ul { gap: 10px; align-content: start; } .cert { gap: 12px; } }
 @media (min-width: 1001px) { #recognition .three { grid-template-columns: 0.7fr 1.15fr 1.15fr; } }
-.abody .d2 { text-align: justify; text-justify: inter-word; }
+.abody .d2 { text-align: left; text-wrap: balance; }
