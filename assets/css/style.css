@@ -480,3 +480,6 @@ nav .wrap { padding-block: 10px; }
 .abody .d2 { text-align: left; text-wrap: balance; }
 .rows li > span.who, .abody > span.who, .rows li > span.who-when { color: var(--brand); font-weight: 600; }
 .rows li > span.edu-when { margin: 6px 0 2px; }
+.rows li > span.who, .abody > span.who { color: var(--navy); font-weight: 600; }
+.abody .adate { color: #B45309; font-weight: 600; }
+.abody .who .sep { color: var(--muted); font-weight: 400; }
