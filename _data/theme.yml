@@ -35,7 +35,7 @@ show:
 colors:
   navy: ""      # dark sections, headings
   brand: ""     # buttons, links, highlights
-  brand_2: ""   # second highlight colour
+  brand_2: "#4F8BEA"   # second highlight colour
   accent: ""    # small warm highlights (numbers, tags)
   tint: "#F8FAFE"      # light background of alternate sections (brighter than the navy preset default)
 
