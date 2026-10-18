@@ -96,11 +96,11 @@ experience:
     project: "Core API, Customer Engagement & Compliance AI"
     current: true
     points:
-      - Lead end-to-end governance for Manulife's Core API, Customer Engagement and Compliance AI products, reporting progress and roadmap decisions to executive leadership.
-      - Maintain a High health rating across the products, with under 5% sprint variance.
-      - Delivered 100% of planned work every planning cycle (ART predictability) through disciplined PI planning.
       - Steered a hybrid AI and RAG compliance engine to production, lowering false alarms in customer onboarding from 30% to 10–15%.
+      - Delivered 100% of planned work every planning cycle (ART predictability) through disciplined PI planning.
+      - Maintain a High health rating across the products, with under 5% sprint variance.
       - Reduced technical debt and strengthened security by moving 15 core services to AKS and 7 microservices to Gradle.
+      - Lead end-to-end governance for Manulife's Core API, Customer Engagement and Compliance AI products, reporting progress and roadmap decisions to executive leadership.
   - dates: Sep 2022 – Aug 2025
     title: Technical Product Manager / Release Train Engineer
     sector: "Life insurance · Platform modernisation"
@@ -111,8 +111,8 @@ experience:
     project: "AWD workflow platform modernisation"
     points:
       - "Restarted a multi-million-dollar platform programme stalled for two years by COVID, rebuilding the release process and clearing 400+ backlog tickets in 9 months."
-      - "Took all 5 modernisation initiatives live across 20+ business divisions by guiding teams through coordinated upgrades."
       - "Brought effort estimates to within 10% of actual work in the first quarter by introducing structured capacity planning (Function Point analysis), trimming overtime and idle time."
+      - "Took all 5 modernisation initiatives live across 20+ business divisions by guiding teams through coordinated upgrades."
       - "Upgraded the AWD workflow system for the first time since 2019, finishing most of the work by Q2 2023, within a year of taking over."
   - dates: Sep 2020 – Aug 2022
     title: Senior Scrum Master / Agile Project Manager
@@ -124,8 +124,8 @@ experience:
     project: "Customer communications platform"
     points:
       - "Reached 20M+ Allstate and 400K Encompass Insurance policyholders with customer communications by deploying 750+ document templates."
-      - "Cut programme cost 25% by streamlining the SDLC, without hiring."
       - "Moved production deployments from monthly to near-weekly by clearing blockers as the main escalation point between engineering and client executives."
+      - "Cut programme cost 25% by streamlining the SDLC, without hiring."
       - "Raised team velocity 30% through hands-on Agile coaching."
   - dates: Jan 2020 – Aug 2020
     title: Scrum Master / Agile Delivery Lead
@@ -150,9 +150,9 @@ experience:
     project: "Publisher to xPression migration"
     points:
       - "Led MetLife's move from a legacy publisher to OpenText xPression, migrating 4,500+ policy documents and saving 2,000 engineering hours a quarter."
-      - "Delivered 500+ standardised document applications, cutting annual remediation costs."
       - "Held a zero-defect standard across all 4,500+ migrated assets by building test cases with QA."
       - "Earned a Certificate of Excellence from MetLife and Cognizant in May 2019 for the migration to xPression."
+      - "Delivered 500+ standardised document applications, cutting annual remediation costs."
   - dates: Jul 2015 – Jun 2017
     title: Systems Engineer / Application Analyst
     sector: "Healthcare · Health insurance"
@@ -164,8 +164,8 @@ experience:
     points:
       - "Consolidated legacy layouts into dynamic master templates with OpenText Exstream and xPression, cutting operating costs by $300K a year."
       - "Cut post-implementation defects 25% with automated pre-flight QA checklists and standardised knowledge transfer."
-      - "Sped up bug resolution 15% across a 60-developer cross-functional team."
       - "Contributed to a $400K annual revenue increase by improving client retention."
+      - "Sped up bug resolution 15% across a 60-developer cross-functional team."
   - dates: Jul 2014 – Jun 2015
     title: Production Support Engineer / Systems Analyst Trainee
     sector: "Retail · Order management & item data"
@@ -176,9 +176,9 @@ experience:
     project: "Item File & Order Management System"
     points:
       - "Led the resolution of 50+ critical P1/P2 outages and 120 high-priority incidents, beating SLA targets through peak retail periods."
-      - "Reduced Walmart Item File incident resolution time 20% in six months, improving production stability and data consistency."
       - "Automated competitive (\"Comp\") reporting in the Order Management System, cutting manual effort 30% and saving 25 hours a week."
       - "Automated the previously manual supplier inventory and sales reports (SVIST) with the DBA team, producing them 3× faster and cutting production maintenance costs 17% in five months."
+      - "Reduced Walmart Item File incident resolution time 20% in six months, improving production stability and data consistency."
   - dates: Jan 2014 – May 2014
     title: Senior Customer Care Representative
     sector: "Healthcare · Revenue cycle & claims"
@@ -211,8 +211,8 @@ experience:
     detail: Freelance · Part-time, during and after my BE
     points:
       - "Led a 40-strong hospitality crew on peak match days in the Commentators' Box at Chepauk for Chennai Super Kings during the IPL, cutting VIP guest complaints by nearly a third."
-      - "Kept live shows on schedule for the Mirchi Music Awards South and Radio Mirchi by coordinating artists, guests, stage crews and production through last-minute changes."
       - "Managed celebrity guest relations at the IPL Season 5 opening ceremony and the 100 Years of Indian Cinema celebration, resolving VIP concerns quickly and discreetly."
+      - "Kept live shows on schedule for the Mirchi Music Awards South and Radio Mirchi by coordinating artists, guests, stage crews and production through last-minute changes."
       - "Protected high-profile guests with tailored security plans, private access points, staff vetting and regular briefings."
   - dates: Jun 2009 – Jul 2012
     title: Event Coordinator
