@@ -387,7 +387,7 @@ certifications:
         status: Active
         badge: pagerduty-foundational.png
         url: https://www.credly.com/badges/999463e4-1a89-4991-a145-2e646e019843
-  - group: Google Cloud · 29 skill badges (top 5 shown)
+  - group: Google Cloud · 29 skill badges (top 7 shown)
     link: https://www.skills.google/public_profiles/f79f24ba-fe04-4792-b301-a8b152fd4dd5
     items:
       - name: Implement DevOps Workflows in Google Cloud
@@ -407,6 +407,14 @@ certifications:
         status: Active
         badge: google-cloud-logo.png
       - name: Prepare Data for ML APIs on Google Cloud
+        year: "2020"
+        status: Active
+        badge: google-cloud-logo.png
+      - name: "Anthos: Service Mesh"
+        year: "2020"
+        status: Active
+        badge: google-cloud-logo.png
+      - name: Security & Identity Fundamentals
         year: "2020"
         status: Active
         badge: google-cloud-logo.png
@@ -451,11 +459,13 @@ certifications:
         status: Expired
         badge: certiprof-smpc.png
         url: https://www.credly.com/badges/8364dc6a-146c-4a55-97a1-5714cfc5057b
+        expired: "2024"
       - name: Aviatrix Multicloud Network Associate
         year: "2020"
         status: Expired
         badge: aviatrix.png
         url: https://www.credly.com/badges/caf2a25f-f886-438b-9aae-8e0397a051ef
+        expired: "2024"
       - name: Alibaba Cloud Associate × 4 (Cloud Computing, Big Data, Security, Cloud Native)
         year: "2020"
         status: Expired
@@ -465,21 +475,25 @@ certifications:
         status: Expired
         badge: istio.png
         url: https://www.credly.com/badges/2f8a2132-6249-44fc-9a9e-0ef5103e7fdd
+        expired: "2023"
       - name: Kanban Foundation (CertiProf KIKF)
         year: "2020"
         status: Expired
         badge: certiprof-kikf.png
         url: https://www.credly.com/badges/e5b0a069-7f56-4ed0-8aa8-07a7fe653347
+        expired: "2022"
       - name: Scrum Foundation Professional (CertiProf SFPC)
         year: "2020"
         status: Expired
         badge: certiprof-sfpc.png
         url: https://www.credly.com/badges/b09aaae9-5b1f-49a7-9391-69d46730f809
+        expired: "2022"
       - name: Cyber Security Foundation (CertiProf CSFPC)
         year: "2021"
         status: Expired
         badge: certiprof-csfpc.png
         url: https://www.credly.com/badges/7603dff0-a874-4c8c-84e3-76b290b80a00
+        expired: "2023"
 
 education:
   - title: Master of Science
