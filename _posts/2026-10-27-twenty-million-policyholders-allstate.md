@@ -21,14 +21,14 @@ As Senior Scrum Master and Agile Project Manager, I focused on two things.
 
 **Coaching the team, not just running ceremonies.** We tightened how work was refined, sized and pulled, and improved the parts of the delivery lifecycle where work was waiting rather than moving.
 
-**Owning escalations.** I became the primary escalation point between engineering and client executives. Multi-week release blockers stopped bouncing between teams because there was one person responsible for clearing them.
+**Owning escalations.** I became the primary escalation point between engineering and client executives. Release blockers stopped bouncing between teams because there was one person responsible for clearing them. That's what let us move production deployments from monthly to near-weekly.
 
 ## The results
 
 - Delivery velocity **up 30%**.
 - Programme cost **down 25%**.
 - **No increase in headcount.**
-- A **100% client satisfaction** rating sustained over multiple years.
+- Production releases moved from **monthly to near-weekly**.
 
 ## Why it stuck
 

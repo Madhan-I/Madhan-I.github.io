@@ -7,6 +7,8 @@ tags: [Quality, Scrum, Testing]
 
 In January 2020 I joined Syntel, part of Atos, as Scrum Master and Agile Delivery Lead for TruStage Financial Group, then known as CUNA Mutual Group.
 
+We were a new team joining an established project. Within two months we were at full speed, completing half of the work on the xPression document project with a third of the existing vendor's headcount.
+
 ## The work
 
 We delivered customer documents on OpenText xPression, managing design and delivery through xAdmin and xDashboard. Over eight months the team completed **more than 2,000 document requests**.
@@ -29,6 +31,7 @@ The team spanned onsite and offshore locations. I mentored both sides and led sp
 
 ## The outcome
 
+- A new team at **full speed within two months**, doing **half the work with a third of the headcount**.
 - **2,000+ document requests** completed.
 - **Zero-defect production releases.**
 - Project schedules **reduced by 35%**.

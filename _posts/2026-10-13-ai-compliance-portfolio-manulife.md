@@ -28,8 +28,8 @@ Any one of those can derail a quarter. What kept them on track was disciplined P
 ## What changed
 
 - Onboarding false positives fell from **30% to 10–15%**, cutting compliance review cost.
-- The portfolio held a sustained **High** health rating, with **under 5% sprint variance**, **over 95% availability** and **zero critical security issues**.
-- We reached **100% ART predictability and story-point completion** on multi-million-dollar roadmaps.
+- The portfolio held a sustained **High** health rating, with **under 5% sprint variance** and **zero critical security issues**.
+- We delivered **100% of planned work every planning cycle** (ART predictability and story-point completion) on multi-million-dollar roadmaps.
 
 ## What I took from it
 
