@@ -149,10 +149,10 @@ experience:
     detail: Chennai
     project: "Publisher to xPression migration"
     points:
-      - "Led MetLife's move from a legacy publisher to OpenText xPression, migrating 4,500+ policy documents and saving 2,000 engineering hours a quarter."
-      - "Held a zero-defect standard across all 4,500+ migrated assets by building test cases with QA."
-      - "Earned a Certificate of Excellence from MetLife and Cognizant in May 2019 for the migration to xPression."
-      - "Delivered 500+ standardised document applications, cutting annual remediation costs."
+      - "Spearheaded MetLife's move from a legacy publisher to OpenText xPression, migrating 4,500+ policy documents and freeing up 2,000 engineering hours a quarter."
+      - "Ensured every migrated asset went live without a single defect by designing test cases with QA."
+      - "Earned a Certificate of Excellence jointly from MetLife and Cognizant (May 2019) for the migration."
+      - "Standardised 500+ document applications, shrinking annual remediation costs."
   - dates: Jul 2015 – Jun 2017
     title: Systems Engineer / Application Analyst
     sector: "Healthcare · Health insurance"
@@ -162,9 +162,9 @@ experience:
     detail: Chennai
     project: "Exstream & xPression template consolidation"
     points:
-      - "Consolidated legacy layouts into dynamic master templates with OpenText Exstream and xPression, cutting operating costs by $300K a year."
-      - "Cut post-implementation defects 25% with automated pre-flight QA checklists and standardised knowledge transfer."
-      - "Contributed to a $400K annual revenue increase by improving client retention."
+      - "Consolidated legacy layouts into dynamic master templates with OpenText Exstream and xPression, saving $300K a year in operating costs."
+      - "Decreased post-implementation defects 25% with automated pre-flight QA checklists and structured knowledge transfer."
+      - "Contributed to $400K in added annual revenue by strengthening client retention."
       - "Sped up bug resolution 15% across a 60-developer cross-functional team."
   - dates: Jul 2014 – Jun 2015
     title: Production Support Engineer / Systems Analyst Trainee
@@ -175,10 +175,10 @@ experience:
     detail: Chennai
     project: "Item File & Order Management System"
     points:
-      - "Led the resolution of 50+ critical P1/P2 outages and 120 high-priority incidents, beating SLA targets through peak retail periods."
-      - "Automated competitive (\"Comp\") reporting in the Order Management System, cutting manual effort 30% and saving 25 hours a week."
-      - "Automated the previously manual supplier inventory and sales reports (SVIST) with the DBA team, producing them 3× faster and cutting production maintenance costs 17% in five months."
-      - "Reduced Walmart Item File incident resolution time 20% in six months, improving production stability and data consistency."
+      - "Resolved 50+ critical P1/P2 outages and 120 high-priority incidents, beating SLA targets through peak retail periods."
+      - "Automated competitive (\"Comp\") reporting in the Order Management System, saving 25 hours of manual work a week (30% less effort)."
+      - "Replaced manual supplier inventory and sales reports (SVIST) with automated ones built with the DBA team, producing them 3× faster and cutting production maintenance costs 17% in five months."
+      - "Accelerated Walmart Item File incident resolution 20% in six months, strengthening production stability and data consistency."
   - dates: Jan 2014 – May 2014
     title: Senior Customer Care Representative
     sector: "Healthcare · Revenue cycle & claims"
