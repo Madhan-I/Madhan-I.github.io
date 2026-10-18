@@ -471,3 +471,6 @@ nav .wrap { padding-block: 10px; }
 .clients h3 { font-size: 15px; }
 .quick dt { color: #FFFFFF; }
 .metric .tag, .tone-navy .label, .contact .label { color: #F2A541; }
+.dot { background: #F2A541; box-shadow: 0 0 0 4px rgba(242, 165, 65, .22); }
+.now-tag, .live { background: var(--navy); color: #FFFFFF; display: inline-flex; align-items: center; gap: 5px; }
+.now-tag::before, .live::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: #F2A541; flex: none; }
