@@ -472,12 +472,6 @@ certifications:
         badge: istio.png
         url: https://www.credly.com/badges/2f8a2132-6249-44fc-9a9e-0ef5103e7fdd
         expired: "2023"
-      - name: Aviatrix Multicloud Network Associate
-        year: "2020"
-        status: Expired
-        badge: aviatrix.png
-        url: https://www.credly.com/badges/caf2a25f-f886-438b-9aae-8e0397a051ef
-        expired: "2024"
       - name: Cyber Security Foundation (CertiProf CSFPC)
         year: "2021"
         status: Expired
