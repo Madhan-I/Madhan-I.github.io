@@ -475,3 +475,4 @@ nav .wrap { padding-block: 10px; }
 .now-tag, .live { background: var(--navy); color: #FFFFFF; display: inline-flex; align-items: center; gap: 5px; }
 .now-tag::before, .live::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: #F2A541; flex: none; }
 @media (min-width: 641px) { .cg { display: flex; flex-direction: column; } .cg ul { flex: 1; align-content: space-between; } }
+@media (min-width: 641px) { .cert-groups { gap: 12px; } .cg { padding: 20px 18px; } .cg h3 { margin-bottom: 12px; } .cg ul { gap: 10px; align-content: center; } .cert { gap: 12px; } }
