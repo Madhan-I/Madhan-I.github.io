@@ -7,7 +7,7 @@
 :root {
   --navy: #0B2545;
   --brand: #1D5FD1;
-  --brand-2: #14A3B8;
+  --brand-2: #4F8BEA;
   --accent: #F2A541;
   --tint: #F2F6FC;
   --bg: #FFFFFF;
@@ -470,3 +470,4 @@ nav .wrap { padding-block: 10px; }
 .job-body li::before { background: var(--brand); }
 .clients h3 { font-size: 15px; }
 .quick dt { color: #FFFFFF; }
+.metric .tag, .tone-navy .label, .contact .label { color: #F2A541; }
