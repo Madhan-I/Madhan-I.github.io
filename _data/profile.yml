@@ -402,11 +402,7 @@ certifications:
         year: "2020"
         status: Active
         badge: google-cloud-logo.png
-      - name: Security & Identity Fundamentals
-        year: "2020"
-        status: Active
-        badge: google-cloud-logo.png
-      - name: Monitor and Log with Google Cloud Observability
+      - name: Prepare Data for ML APIs on Google Cloud
         year: "2020"
         status: Active
         badge: google-cloud-logo.png
@@ -414,7 +410,11 @@ certifications:
         year: "2021"
         status: Active
         badge: google-cloud-logo.png
-      - name: Prepare Data for ML APIs on Google Cloud
+      - name: Monitor and Log with Google Cloud Observability
+        year: "2020"
+        status: Active
+        badge: google-cloud-logo.png
+      - name: Security & Identity Fundamentals
         year: "2020"
         status: Active
         badge: google-cloud-logo.png
