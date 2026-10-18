@@ -186,6 +186,7 @@ experience:
     company: Dell Technologies
     client: "Blue Cross Blue Shield, Humana, Aetna"
     detail: Chennai
+    project: "Payment recovery & denial management"
     points:
       - "Added over $100K a month to collections by tightening denial management with Tableau and Salesforce tracking and root-cause procedures."
       - "Headed a 15-member team as acting Operations Project Lead, recovering more than $150K a quarter by settling high-value payment discrepancies."
@@ -198,6 +199,7 @@ experience:
     company: Dell Technologies
     client: Conifer Health Solutions
     detail: Chennai
+    project: "Claims reconciliation & overdue payments"
     points:
       - "Curbed overdue payments 20% by working with payer relations and finance, safeguarding about $150K in outstanding balances every month."
       - "Prevented 35+ disputed claims a month by cleansing and reconciling payment records across clearinghouse portals and the mainframe."
