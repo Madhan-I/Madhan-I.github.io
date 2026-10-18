@@ -387,7 +387,7 @@ certifications:
         status: Active
         badge: pagerduty-foundational.png
         url: https://www.credly.com/badges/999463e4-1a89-4991-a145-2e646e019843
-  - group: Google Cloud · 29 skill badges (top 7 shown)
+  - group: Google Cloud · 29 badges (top 7)
     link: https://www.skills.google/public_profiles/f79f24ba-fe04-4792-b301-a8b152fd4dd5
     items:
       - name: Implement DevOps Workflows in Google Cloud
