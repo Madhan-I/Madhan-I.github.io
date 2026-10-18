@@ -479,3 +479,4 @@ nav .wrap { padding-block: 10px; }
 @media (min-width: 1001px) { #recognition .three { grid-template-columns: 0.7fr 1.15fr 1.15fr; } }
 .abody .d2 { text-align: left; text-wrap: balance; }
 .rows li > span.who, .abody > span.who, .rows li > span.who-when { color: var(--brand); font-weight: 600; }
+.rows li > span.edu-when { margin: 6px 0 2px; }
