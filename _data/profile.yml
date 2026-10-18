@@ -398,23 +398,23 @@ certifications:
         year: "2020"
         status: Active
         badge: google-cloud-logo.png
-      - name: Develop Your Google Cloud Network
-        year: "2021"
+      - name: "Anthos: Service Mesh"
+        year: "2020"
+        status: Active
+        badge: google-cloud-logo.png
+      - name: Security & Identity Fundamentals
+        year: "2020"
         status: Active
         badge: google-cloud-logo.png
       - name: Monitor and Log with Google Cloud Observability
         year: "2020"
         status: Active
         badge: google-cloud-logo.png
+      - name: Develop Your Google Cloud Network
+        year: "2021"
+        status: Active
+        badge: google-cloud-logo.png
       - name: Prepare Data for ML APIs on Google Cloud
-        year: "2020"
-        status: Active
-        badge: google-cloud-logo.png
-      - name: "Anthos: Service Mesh"
-        year: "2020"
-        status: Active
-        badge: google-cloud-logo.png
-      - name: Security & Identity Fundamentals
         year: "2020"
         status: Active
         badge: google-cloud-logo.png
