@@ -474,3 +474,4 @@ nav .wrap { padding-block: 10px; }
 .dot { background: #F2A541; box-shadow: 0 0 0 4px rgba(242, 165, 65, .22); }
 .now-tag, .live { background: var(--navy); color: #FFFFFF; display: inline-flex; align-items: center; gap: 5px; }
 .now-tag::before, .live::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: #F2A541; flex: none; }
+@media (min-width: 641px) { .cg { display: flex; flex-direction: column; } .cg ul { flex: 1; align-content: space-between; } }
