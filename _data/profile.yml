@@ -421,16 +421,6 @@ certifications:
   - group: Cloud, Data & AI
     muted: true
     items:
-      - name: IBM Build Smart on Kubernetes
-        year: "2021"
-        status: Active
-        badge: ibm-kubernetes.png
-        url: https://www.credly.com/badges/fba182df-6cfe-4c45-90b1-dea7316b1e23
-      - name: IBM Data & AI Essentials
-        year: "2020"
-        status: Active
-        badge: ibm-data-ai.png
-        url: https://www.credly.com/badges/0c9659c8-c598-40ae-b4c3-a76cc9864635
       - name: IBM Hybrid Cloud × 6 (Microservices, Pipelines, Service Mesh, Serverless, App Security, App Dev)
         year: "2020"
         status: Active
@@ -441,6 +431,16 @@ certifications:
         status: Active
         badge: ibm-devsecops.png
         url: https://www.credly.com/badges/3c427773-44eb-4c9a-bea1-cd509c6ddbe9
+      - name: IBM Data & AI Essentials
+        year: "2020"
+        status: Active
+        badge: ibm-data-ai.png
+        url: https://www.credly.com/badges/0c9659c8-c598-40ae-b4c3-a76cc9864635
+      - name: IBM Build Smart on Kubernetes
+        year: "2021"
+        status: Active
+        badge: ibm-kubernetes.png
+        url: https://www.credly.com/badges/fba182df-6cfe-4c45-90b1-dea7316b1e23
       - name: VMware IT Academy × 3 (Cloud, Network & Storage Virtualization)
         year: "2020"
         status: Active
@@ -460,40 +460,40 @@ certifications:
         badge: certiprof-smpc.png
         url: https://www.credly.com/badges/8364dc6a-146c-4a55-97a1-5714cfc5057b
         expired: "2024"
-      - name: Aviatrix Multicloud Network Associate
-        year: "2020"
-        status: Expired
-        badge: aviatrix.png
-        url: https://www.credly.com/badges/caf2a25f-f886-438b-9aae-8e0397a051ef
-        expired: "2024"
-      - name: Alibaba Cloud Associate × 4 (Cloud Computing, Big Data, Security, Cloud Native)
-        year: "2020"
-        status: Expired
-        badge: alibaba-cloud.png
-      - name: Istio Essentials & Intermediate (Solo.io)
-        year: "2021"
-        status: Expired
-        badge: istio.png
-        url: https://www.credly.com/badges/2f8a2132-6249-44fc-9a9e-0ef5103e7fdd
-        expired: "2023"
       - name: Kanban Foundation (CertiProf KIKF)
         year: "2020"
         status: Expired
         badge: certiprof-kikf.png
         url: https://www.credly.com/badges/e5b0a069-7f56-4ed0-8aa8-07a7fe653347
         expired: "2022"
-      - name: Scrum Foundation Professional (CertiProf SFPC)
+      - name: Istio Essentials & Intermediate (Solo.io)
+        year: "2021"
+        status: Expired
+        badge: istio.png
+        url: https://www.credly.com/badges/2f8a2132-6249-44fc-9a9e-0ef5103e7fdd
+        expired: "2023"
+      - name: Aviatrix Multicloud Network Associate
         year: "2020"
         status: Expired
-        badge: certiprof-sfpc.png
-        url: https://www.credly.com/badges/b09aaae9-5b1f-49a7-9391-69d46730f809
-        expired: "2022"
+        badge: aviatrix.png
+        url: https://www.credly.com/badges/caf2a25f-f886-438b-9aae-8e0397a051ef
+        expired: "2024"
       - name: Cyber Security Foundation (CertiProf CSFPC)
         year: "2021"
         status: Expired
         badge: certiprof-csfpc.png
         url: https://www.credly.com/badges/7603dff0-a874-4c8c-84e3-76b290b80a00
         expired: "2023"
+      - name: Scrum Foundation Professional (CertiProf SFPC)
+        year: "2020"
+        status: Expired
+        badge: certiprof-sfpc.png
+        url: https://www.credly.com/badges/b09aaae9-5b1f-49a7-9391-69d46730f809
+        expired: "2022"
+      - name: Alibaba Cloud Associate × 4 (Cloud Computing, Big Data, Security, Cloud Native)
+        year: "2020"
+        status: Expired
+        badge: alibaba-cloud.png
 
 education:
   - title: Master of Science
