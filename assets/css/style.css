@@ -485,3 +485,5 @@ nav .wrap { padding-block: 10px; }
 .abody .who .sep { color: var(--muted); font-weight: 400; }
 .edu-when .when { color: #B45309; background: color-mix(in srgb, #B45309 9%, #FFFFFF); border-color: color-mix(in srgb, #B45309 25%, #FFFFFF); }
 .rows li > span.edu-when { color: #B45309; font-weight: 600; margin: 3px 0 0; }
+.rows li > span.who, .abody > span.who { color: var(--brand); font-weight: 700; }
+.abody .who .sep { color: var(--muted); font-weight: 400; }
