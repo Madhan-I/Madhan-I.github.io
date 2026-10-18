@@ -96,10 +96,10 @@ experience:
     project: "Core API, Customer Engagement & Compliance AI"
     current: true
     points:
-      - Lead end-to-end governance for Manulife's Core API, Customer Engagement and Compliance AI products, reporting portfolio health and roadmap decisions to executive leadership.
-      - Maintain the portfolio at a High health rating, with under 5% sprint variance and zero critical security issues.
-      - Reached 100% ART predictability and story-point completion through disciplined PI planning.
-      - Directed delivery of a hybrid AI and RAG compliance engine that cut onboarding false positives from 30% to 10–15%.
+      - Lead end-to-end governance for Manulife's Core API, Customer Engagement and Compliance AI products, reporting progress and roadmap decisions to executive leadership.
+      - Maintain a High health rating across the products, with under 5% sprint variance and zero critical security issues.
+      - Delivered 100% of planned work every planning cycle (ART predictability) through disciplined PI planning.
+      - Steered a hybrid AI and RAG compliance engine to production, lowering false alarms in customer onboarding from 30% to 10–15%.
       - Reduced technical debt and strengthened security by moving 15 core services to AKS and 7 microservices to Gradle, and hardening the Apigee API gateway with JWT and OAuth 2.0.
   - dates: Sep 2022 – Aug 2025
     title: Technical Product Manager / Release Train Engineer
@@ -110,10 +110,10 @@ experience:
     detail: Boston (On-site)
     project: "AWD workflow platform modernisation"
     points:
-      - "Restarted a multi-million-dollar platform programme stalled for two years by COVID, restructuring release governance and clearing 400+ backlog tickets in 9 months."
-      - "Took all 5 modernisation initiatives live across 20+ business divisions by coaching teams through coordinated platform upgrades."
-      - "Brought effort estimates to within 10% of actual work in the first quarter by introducing structured capacity planning (Function Point analysis), cutting overtime and idle resource time."
-      - "Delivered the AWD workflow platform's first upgrades since 2019, completing most of them by Q2 2023, within a year of taking over the programme."
+      - "Restarted a multi-million-dollar platform programme stalled for two years by COVID, rebuilding the release process and clearing 400+ backlog tickets in 9 months."
+      - "Took all 5 modernisation initiatives live across 20+ business divisions by guiding teams through coordinated upgrades."
+      - "Brought effort estimates to within 10% of actual work in the first quarter by introducing structured capacity planning (Function Point analysis), trimming overtime and idle time."
+      - "Upgraded the AWD workflow system for the first time since 2019, finishing most of the work by Q2 2023, within a year of taking over."
   - dates: Sep 2020 – Aug 2022
     title: Senior Scrum Master / Agile Project Manager
     sector: "Insurance · Customer communications"
@@ -123,10 +123,10 @@ experience:
     detail: Hybrid
     project: "Customer communications platform"
     points:
-      - "Delivered customer communications to 20M+ Allstate and 400K Encompass Insurance policyholders by deploying 750+ document templates."
-      - "Cut programme cost 25% by streamlining the SDLC, without adding headcount."
-      - "Moved production releases from monthly to near-weekly cycles by clearing release blockers as the main escalation point between engineering and client executives."
-      - "Raised delivery velocity 30% through hands-on Agile coaching of the delivery teams."
+      - "Reached 20M+ Allstate and 400K Encompass Insurance policyholders with customer communications by deploying 750+ document templates."
+      - "Cut programme cost 25% by streamlining the SDLC, without hiring."
+      - "Moved production deployments from monthly to near-weekly by clearing blockers as the main escalation point between engineering and client executives."
+      - "Raised team velocity 30% through hands-on Agile coaching."
   - dates: Jan 2020 – Aug 2020
     title: Scrum Master / Agile Delivery Lead
     sector: "Financial services · Credit unions"
@@ -136,10 +136,10 @@ experience:
     detail: Acquired by Atos
     project: "xPression document project"
     points:
-      - "Stood up a new team and ramped it to full speed within two months, completing half of the work on TruStage's (formerly CUNA Mutual Group) xPression document project with a third of the existing vendor's headcount."
-      - "Achieved zero-defect production releases by building a multi-tier automated testing framework covering regression, smoke and schema checks."
-      - "Cut project schedules 35% by mentoring onsite and offshore teams and leading sprint retrospectives."
-      - "Handled 2,000+ document requests end to end, from design to release, using xAdmin and xDashboard."
+      - "Stood up a new team and ramped it to full speed within two months, completing half of the work on TruStage's (formerly CUNA Mutual Group) xPression project with a third of the existing vendor's headcount."
+      - "Shipped every production release defect-free by building a layered automated test framework for regression, smoke and schema checks."
+      - "Shortened project schedules 35% by mentoring onsite and offshore engineers and running sprint retrospectives."
+      - "Owned 2,000+ document requests from design to go-live."
   - dates: Jul 2017 – Jan 2020
     title: Technology Lead / Senior Analyst
     sector: "Insurance · Document platform migration"
