@@ -1,7 +1,7 @@
 ---
 title: "Delivering with people who don't have to show up"
 teaser: "What civic tech volunteering in Boston taught me about delivery"
-summary: What I learned as a volunteer member of Code for Boston, helping newcomers get set up on a heat pump outreach app and an open police data platform.
+summary: What I learned as a volunteer member of Code for Boston, helping newcomers get set up across four civic tech projects.
 retro: "A look back at 2022–2025, published here when this site launched in 2026."
 tags: [Onboarding, Volunteering, Civic Tech]
 ---
@@ -9,6 +9,17 @@ tags: [Onboarding, Volunteering, Civic Tech]
 From September 2022 to August 2025 I was on-site in Boston for John Hancock. Alongside that work I joined Code for Boston, a volunteer group that builds free, open-source software for public-service organisations. Hack nights ran on Tuesday evenings, on Zoom every week and in person at the Cambridge Innovation Center once or twice a month.
 
 Each project had several teams, some technical and some not. I was a volunteer member on the non-technical side. My part was simple and, it turned out, important: helping newcomers who wanted to contribute get set up, from cloud accounts to the tools each team used, so they could start on real work instead of losing their first evening to setup.
+
+## Four projects, one job
+
+I was part of four projects during those years:
+
+- **MAPLE**, the Massachusetts Platform for Legislative Engagement, a live site where residents submit testimony to the state legislature and read what others have said
+- **Urban League Heat Pump Accelerator**, helping the Urban League of Eastern Massachusetts focus heat pump outreach across Boston
+- **National Police Data Coalition**, an open platform for police-conduct data, restarted in 2023
+- **HEAT**, the Home Energy Analysis Tool, which lets energy coaches check whether a proposed heat pump can heat a home, replacing a manual spreadsheet
+
+My job was the same on all four: get new people in and working.
 
 ## A heat pump app with five moving parts
 
