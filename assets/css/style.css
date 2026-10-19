@@ -513,3 +513,16 @@ nav.open .menu-btn span:nth-child(3) { transform: translateY(-7px) rotate(-45deg
 .toc a:hover, .toc a.on { color: var(--brand); }
 .copy-link { margin-top: 12px; font: 600 14px/1 var(--body); color: var(--brand); background: #FFFFFF; border: 1px solid var(--line); border-radius: 999px; padding: 10px 16px; cursor: pointer; }
 .copy-link:hover { border-color: var(--brand); }
+
+/* Speaking */
+.speak { margin-top: 36px; }
+.speak h3 { color: #F2A541; font: 700 13px/1.2 var(--mono); letter-spacing: .12em; text-transform: uppercase; margin: 0 0 14px; }
+.speak ul { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+.speak li { background: #FFFFFF; border-radius: 14px; padding: 16px 18px; display: flex; flex-direction: column; gap: 4px; box-shadow: 0 12px 30px rgba(0,0,0,.2); }
+.speak b { color: var(--brand); font-size: 16px; font-weight: 800; }
+.speak span { color: var(--text); font-size: 15px; line-height: 1.45; text-wrap: balance; }
+.speak i { font-style: normal; color: #B45309; font-weight: 600; font-size: 14px; margin-top: auto; padding-top: 4px; }
+@media (max-width: 900px) { .speak ul { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 560px) { .speak ul { grid-template-columns: 1fr; } }
+@media (min-width: 561px) { .speak.duo ul { grid-template-columns: repeat(2, 1fr); } }
+.speak.duo { margin-top: 28px; }
