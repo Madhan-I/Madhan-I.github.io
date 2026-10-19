@@ -616,3 +616,4 @@ footer .wrap.f-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1.2fr;
 .card .row.res .sep { color: rgba(255, 255, 255, .4); }
 .intent em { color: #F2A541; font-size: 20px; transition: transform .2s; }
 .intent:hover em { transform: translate(3px, -3px); }
+@media (min-width: 1101px) { .speak.duo ul { grid-template-columns: repeat(4, minmax(0, 1fr)); } .speak.duo .tk-desc { font-size: 14px; } }
