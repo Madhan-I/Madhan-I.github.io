@@ -1,7 +1,7 @@
 ---
 title: "A Friday at a visual AI hackathon"
 teaser: "What a delivery lead takes away from a room full of builders"
-summary: Taking part in Voxel51's Visual AI Hackathon at Northeastern University in March 2025, and the friendships that came out of it.
+summary: Building part of an image mapping and sentiment analysis project at Voxel51's Visual AI Hackathon at Northeastern University in March 2025, and the friendships that came out of it.
 retro: "A look back at March 2025, published here when this site launched in 2026."
 tags: [AI, Hackathons, Community]
 ---
@@ -10,9 +10,15 @@ On 21 March 2025 I spent the day at Northeastern University in Boston, at one of
 
 ## Why a delivery lead goes to a hackathon
 
-I run release trains for a living, not computer-vision models. That's exactly why I went.
+I run release trains for a living, not computer-vision models. That's exactly why I went, and why I wanted to build rather than watch.
 
 At work, AI arrives as a roadmap item: a compliance engine, a new model in production, a risk to manage. At a hackathon you see the other side. People take a dataset, a tool and a few hours, and find out what actually works. It's the fastest way I know to understand what engineers mean when they say something is "nearly done".
+
+## What we built
+
+My team's project combined image mapping with sentiment analysis: working out what an image shows, and the feeling it carries. I built part of it hands-on, which was a very different seat from the one I usually sit in, planning and governing the work of others.
+
+Doing the work myself, even for a day, was the point. It reminded me how much effort hides behind a single line on a roadmap like "add sentiment scoring".
 
 ## What I took away
 
