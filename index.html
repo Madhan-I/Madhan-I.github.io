@@ -114,13 +114,13 @@ layout: default
       </ul>
     </div>
     {% if p.speaking %}<div class="speak talks reveal"><h3>{{ p.speaking_title }}</h3><ul>
-      {% for s in p.speaking %}<li><div class="tk-top"><span class="tk-n">{% if forloop.index < 10 %}0{% endif %}{{ forloop.index }}</span>{% if s.topic %}<span class="tk-chip">{{ s.topic }}</span>{% endif %}</div><b>{{ s.who }}</b><strong class="tk-title">{{ s.what }}</strong>{% if s.where or s.when %}<span class="tk-meta">{% if s.where %}<svg class="ic" aria-hidden="true"><use href="#i-pin"/></svg>{{ s.where }}{% endif %}{% if s.when %} · {{ s.when }}{% endif %}</span>{% endif %}</li>{% endfor %}
+      {% for s in p.speaking %}<li><div class="tk-top"><span class="tk-meta">{% if s.where %}<svg class="ic" aria-hidden="true"><use href="#i-pin"/></svg>{{ s.where }}{% endif %}</span>{% if s.topic %}<span class="tk-chip">{{ s.topic }}</span>{% endif %}</div><b>{{ s.who }}</b><strong class="tk-title">{{ s.what }}</strong></li>{% endfor %}
     </ul></div>{% endif %}
     {% if p.community %}<div class="speak duo talks reveal"><h3>{{ p.community_title }}</h3><ul>
-      {% for s in p.community %}<li><div class="tk-top"><span class="tk-n">{% if forloop.index < 10 %}0{% endif %}{{ forloop.index }}</span>{% if s.topic %}<span class="tk-chip">{{ s.topic }}</span>{% endif %}</div><b>{{ s.who }}</b><span class="tk-desc">{{ s.what }}</span>{% if s.when %}<i>{{ s.when }}</i>{% endif %}</li>{% endfor %}
+      {% for s in p.community %}<li><div class="tk-top"><span class="tk-date">{{ s.when }}</span>{% if s.topic %}<span class="tk-chip">{{ s.topic }}</span>{% endif %}</div><b>{{ s.who }}</b><span class="tk-desc">{{ s.what }}</span></li>{% endfor %}
     </ul></div>{% endif %}
     {% if p.events %}<div class="speak duo talks reveal"><h3>{{ p.events_title }}</h3><ul>
-      {% for s in p.events %}<li><div class="tk-top"><span class="tk-n">{% if forloop.index < 10 %}0{% endif %}{{ forloop.index }}</span>{% if s.topic %}<span class="tk-chip">{{ s.topic }}</span>{% endif %}</div><b>{{ s.who }}</b><span class="tk-desc">{{ s.what }}</span>{% if s.when %}<i>{{ s.when }}</i>{% endif %}</li>{% endfor %}
+      {% for s in p.events %}<li><div class="tk-top"><span class="tk-date">{{ s.when }}</span>{% if s.topic %}<span class="tk-chip">{{ s.topic }}</span>{% endif %}</div><b>{{ s.who }}</b><span class="tk-desc">{{ s.what }}</span></li>{% endfor %}
     </ul></div>{% endif %}
   </div>
 </section>
