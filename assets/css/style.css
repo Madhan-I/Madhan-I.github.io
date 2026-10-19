@@ -786,3 +786,8 @@ section.flush-top .tag-filter { margin-top: 28px; }
 .bh-art .chip.c3 em { color: #B45309; }
 .bh-art .chip.c1 { top: -4px; right: 6px; } .bh-art .chip.c2 { bottom: 4px; right: -6px; } .bh-art .chip.c3 { bottom: -10px; left: 12px; }
 @media (max-width: 560px) { .bh-stats { gap: 8px; } .bh-stats div { padding: 12px 12px; min-width: 0; } .bh-stats dt { font-size: 21px; } .bh-stats div:last-child dt { font-size: 16px; } .bh-stats dd { font-size: 11px; letter-spacing: .06em; } }
+
+footer .f-bottom, footer .f-bottom span, footer .f-legal, footer .f-legal a { color: #FFFFFF; }
+footer .f-bottom { display: block; white-space: nowrap; }
+@media (max-width: 1279px) { footer .f-bottom { white-space: normal; } }
+footer .f-legal { font-size: 14px; }
