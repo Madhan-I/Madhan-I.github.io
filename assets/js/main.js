@@ -210,3 +210,15 @@ document.querySelectorAll('.copy-btn').forEach(function (b) {
     b.addEventListener('click', function () { var d = b.closest('details'); d.open = false; d.querySelector('summary').focus(); });
   });
 })();
+
+/* Certifications: core groups first, the rest on demand */
+(function () {
+  var btn = document.querySelector('.cert-toggle'), more = document.getElementById('cert-more'); if (!btn || !more) return;
+  btn.addEventListener('click', function () {
+    var show = more.hidden; more.hidden = !show;
+    more.querySelectorAll('.reveal').forEach(function (e) { e.classList.add('in'); });
+    btn.textContent = show ? 'Show fewer certifications' : 'Show all certifications';
+    btn.setAttribute('aria-expanded', show ? 'true' : 'false');
+    if (!show) document.getElementById('certifications').scrollIntoView({ behavior: 'smooth', block: 'start' });
+  });
+})();
