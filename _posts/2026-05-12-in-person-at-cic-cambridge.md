@@ -14,7 +14,7 @@ Then, while I was on-site in Boston for John Hancock, I started going to the in-
 
 CIC sits at One Broadway in Kendall Square, a short walk from MIT. It was founded in 1999 by two MIT graduates as shared space for start-ups, and it has housed hundreds of young companies since; HubSpot was a tenant in its early years. On a Tuesday evening the café floor fills with people who have finished their day jobs and stayed for something they care about.
 
-Code for Boston met there once or twice a month. The other weeks it met on Zoom. Same people, same projects, same agenda. The difference between those two kinds of evening is what stayed with me.
+It became my regular stop. Besides Code for Boston, I went to the Venture Café Thursday Gatherings in the same building, Boston Code Camp at Microsoft's NERD Center, and free public technical lectures at MIT and Harvard. Code for Boston met at CIC once or twice a month. The other weeks it met on Zoom. Same people, same projects, same agenda. The difference between those two kinds of evening is what stayed with me.
 
 ## What changed in the room
 
