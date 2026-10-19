@@ -14,7 +14,7 @@ On the last day of 2021 I wrote that one of the best things to happen to me that
 
 It didn't start on a stage. In my first year as a Microsoft Certified Trainer, from October 2020, I taught where I already was, at Atos Syntel:
 
-- **My technology tower.** I ran several sessions for our Customer Communications Management (CCM) group, a tower of more than 300 people, including sessions on the basics of AI and machine learning.
+- **My technology tower.** I ran several sessions for our Communication Content Management group (CCM, also known as ECM), a technology tower of more than 300 people, including sessions on the basics of AI and machine learning.
 - **The wider office.** Through the company's learning department I also trained colleagues from across the office.
 
 Teaching colleagues first gave me the practice and the confidence to take it outside.
