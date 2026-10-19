@@ -151,10 +151,19 @@ document.querySelectorAll('.copy-btn').forEach(function (b) {
   var bar = document.querySelector('.tag-filter');
   if (!bar) return;
   var cards = document.querySelectorAll('.post-list .post-card');
+  var q = document.querySelector('.bh-search input'), none = document.querySelector('.no-hits'), cur = '';
   function apply(tag) {
-    bar.querySelectorAll('button').forEach(function (b) { b.classList.toggle('on', b.dataset.tag === tag); });
-    cards.forEach(function (c) { c.hidden = !!tag && (c.dataset.tags || '').split('|').indexOf(tag) < 0; });
+    if (tag !== undefined) cur = tag;
+    var words = q ? q.value.toLowerCase().trim().split(/\s+/).filter(Boolean) : [], shown = 0;
+    bar.querySelectorAll('button').forEach(function (b) { b.classList.toggle('on', b.dataset.tag === cur); });
+    cards.forEach(function (c) {
+      var txt = c.textContent.toLowerCase();
+      var hide = (!!cur && (c.dataset.tags || '').split('|').indexOf(cur) < 0) || words.some(function (w) { return txt.indexOf(w) < 0; });
+      c.hidden = hide; if (!hide) shown++;
+    });
+    if (none) none.hidden = shown > 0;
   }
+  if (q) q.addEventListener('input', function () { apply(); });
   bar.addEventListener('click', function (e) {
     var b = e.target.closest('button'); if (!b) return;
     apply(b.dataset.tag);
