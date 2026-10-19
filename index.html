@@ -194,7 +194,15 @@ layout: default
       <span class="label"><svg class="ic" aria-hidden="true"><use href="#i-send"/></svg>Contact</span>
       <h2>{{ p.contact_title }} <span>{{ p.contact_highlight }}</span></h2>
       <p class="lede">{{ p.contact_intro }}</p>
-    <div class="contact-row stack">
+      <p class="note">{% if p.contact_note.first %}{{ p.contact_note | join: "<br>" }}{% else %}{{ p.contact_note }}{% endif %}</p>
+    </div>
+    <div class="intents reveal">
+      <a class="intent" href="mailto:{{ p.email }}?subject=Leadership%20role%20for%20{{ p.name_first }}" data-goatcounter-click="intent-role"><svg class="ic" aria-hidden="true"><use href="#i-route"/></svg><span><b>Discuss a leadership role</b><i>Release train, programme or delivery roles, anywhere in the world.</i></span><em aria-hidden="true">↗</em></a>
+      {% if p.calendly != "" %}<a class="intent" href="{{ p.calendly }}" target="_blank" rel="noopener" data-goatcounter-click="intent-call"><svg class="ic" aria-hidden="true"><use href="#i-cal"/></svg><span><b>Book a 30-minute call</b><i>Pick a time that suits you, straight into my calendar.</i></span><em aria-hidden="true">↗</em></a>{% endif %}
+      <a class="intent" href="mailto:{{ p.email }}?subject=Training%20or%20guest%20lecture" data-goatcounter-click="intent-training"><svg class="ic" aria-hidden="true"><use href="#i-board"/></svg><span><b>Plan training or a guest lecture</b><i>SAFe, Scrum, Azure AI and cloud sessions for teams and colleges.</i></span><em aria-hidden="true">↗</em></a>
+    </div>
+    </div>
+    <div class="contact-row duo-row reveal">
       <div class="card">
         <span class="k">Resume</span>
         <div class="row res">
@@ -202,24 +210,16 @@ layout: default
           {% else %}<a class="v" href="mailto:{{ p.email }}?subject=Resume%20request">Request by email</a>{% endif %}
         </div>
       </div>
+      <div class="card">
+        <span class="k">Email</span>
+        <div class="row"><a class="v" data-goatcounter-click="click-contact-email" href="mailto:{{ p.email }}">{{ p.email }}</a><button class="copy-btn" type="button" data-copy="{{ p.email }}">Copy</button></div>
+      </div>
       {% if p.github != "" %}
       <div class="card">
         <span class="k">GitHub</span>
         <div class="row"><a class="v" href="https://github.com/{{ p.github }}" target="_blank" rel="noopener">github.com/{{ p.github }} ↗</a></div>
       </div>
       {% endif %}
-    </div>
-    <p class="note">{% if p.contact_note.first %}{{ p.contact_note | join: "<br>" }}{% else %}{{ p.contact_note }}{% endif %}</p>
-    </div>
-    <div class="intents reveal">
-      <a class="intent" href="mailto:{{ p.email }}?subject=Leadership%20role%20for%20{{ p.name_first }}" data-goatcounter-click="intent-role"><svg class="ic" aria-hidden="true"><use href="#i-route"/></svg><span><b>Discuss a leadership role</b><i>Release train, programme or delivery roles, anywhere in the world.</i></span><em aria-hidden="true">↗</em></a>
-      {% if p.calendly != "" %}<a class="intent" href="{{ p.calendly }}" target="_blank" rel="noopener" data-goatcounter-click="intent-call"><svg class="ic" aria-hidden="true"><use href="#i-cal"/></svg><span><b>Book a 30-minute call</b><i>Pick a time that suits you, straight into my calendar.</i></span><em aria-hidden="true">↗</em></a>{% endif %}
-      <a class="intent" href="mailto:{{ p.email }}?subject=Training%20or%20guest%20lecture" data-goatcounter-click="intent-training"><svg class="ic" aria-hidden="true"><use href="#i-board"/></svg><span><b>Plan training or a guest lecture</b><i>SAFe, Scrum, Azure AI and cloud sessions for teams and colleges.</i></span><em aria-hidden="true">↗</em></a>
-      <div class="card intent-card">
-        <span class="k">Email</span>
-        <div class="row"><a class="v" data-goatcounter-click="click-contact-email" href="mailto:{{ p.email }}">{{ p.email }}</a><button class="copy-btn" type="button" data-copy="{{ p.email }}">Copy</button></div>
-      </div>
-    </div>
     </div>
   </div>
 </section>
