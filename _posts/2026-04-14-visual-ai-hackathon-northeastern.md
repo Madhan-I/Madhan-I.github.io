@@ -2,6 +2,7 @@
 title: "A Friday at a visual AI hackathon"
 teaser: "What a delivery lead takes away from a room full of builders"
 summary: Building part of an image mapping and sentiment analysis project at Voxel51's Visual AI Hackathon at Northeastern University in March 2025, and the friendships that came out of it.
+outcome: "A day building part of an image mapping and sentiment analysis project, a closer look at how AI work really gets done, and friendships that lasted."
 retro: "A look back at March 2025, published here when this site launched in 2026."
 tags: [AI, Community]
 ---

@@ -2,6 +2,7 @@
 title: "Restarting a stalled open-data platform"
 teaser: "Docker, Heroku and a wave of new volunteers at the National Police Data Coalition"
 summary: How I supported the restart of the National Police Data Coalition at Code for Boston, guiding new volunteers through Docker and Heroku setup.
+outcome: "New volunteers got through Docker and Heroku setup during the 2023 restart of a national police conduct data platform."
 retro: "A look back at 2023–2025, published here when this site launched in 2026."
 tags: [Community, Leadership]
 ---

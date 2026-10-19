@@ -2,6 +2,7 @@
 title: "Helping build a tool that sizes heat pumps"
 teaser: "HEAT, the Epic Stack and Fly.io, and first-time contributors"
 summary: How I supported HEAT, Code for Boston's Home Energy Analysis Tool, by helping first-time contributors get its stack, Docker and accounts running.
+outcome: "First-time contributors got HEAT's stack, Docker and accounts running on a live tool that checks whether a heat pump can heat a home."
 retro: "A look back at 2023–2025, published here when this site launched in 2026."
 tags: [Community, Delivery]
 ---
