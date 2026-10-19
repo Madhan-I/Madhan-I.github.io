@@ -267,6 +267,7 @@ speaking:
     what: Azure AI Custom Vision, hands-on lecture
   - who: Atos Graduate Programme
     topic: Cloud
+    where: Online
     what: Cloud computing workshop for 215 graduates
   - who: Jeppiaar Engineering College
     topic: AI & ML
@@ -274,6 +275,7 @@ speaking:
     what: Innovation methods for ML & AI, with an AutoML demo
   - who: NIIT Foundation & EduBridge India
     topic: Cloud
+    where: Online
     what: CSR training on Google Cloud and AWS
   - who: Microsoft Azure AI-900
     topic: Azure AI
@@ -281,6 +283,7 @@ speaking:
     what: Webinar on Azure AI services for certification
   - who: College Rotaract Clubs
     topic: Careers
+    where: Online
     what: Careers in IT services for final and third-year students
 
 community_title: Civic tech volunteering · Code for Boston
