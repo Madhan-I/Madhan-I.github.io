@@ -202,14 +202,10 @@ layout: default
       <a class="intent" href="mailto:{{ p.email }}?subject=Training%20or%20guest%20lecture" data-goatcounter-click="intent-training"><svg class="ic" aria-hidden="true"><use href="#i-board"/></svg><span><b>Plan training or a guest lecture</b><i>SAFe, Scrum, Azure AI and cloud sessions for teams and colleges.</i></span><em aria-hidden="true">↗</em></a>
     </div>
     </div>
-    <div class="contact-row duo-row reveal">
-      <div class="card">
-        <span class="k">Resume</span>
-        <div class="row res">
-          {% if p.resume_file != "" %}<a class="file-btn" href="{{ '/assets/resume/' | append: p.resume_file | relative_url }}" data-goatcounter-click="click-contact-resume" download aria-label="Download resume as PDF"><svg class="ic" aria-hidden="true"><use href="#i-file"/></svg><span>PDF</span><svg class="ic dl" aria-hidden="true"><use href="#i-down"/></svg></a><a class="file-btn" href="{{ '/assets/resume/Madhan-Irulandi-Resume.docx' | relative_url }}" data-goatcounter-click="click-contact-resume-word" download aria-label="Download resume as Word"><svg class="ic" aria-hidden="true"><use href="#i-file"/></svg><span>Word</span><svg class="ic dl" aria-hidden="true"><use href="#i-down"/></svg></a>
-          {% else %}<a class="v" href="mailto:{{ p.email }}?subject=Resume%20request">Request by email</a>{% endif %}
-        </div>
-      </div>
+    <div class="contact-row trio-row reveal">
+      {% if p.resume_file != "" %}<a class="card dl-card" href="{{ '/assets/resume/' | append: p.resume_file | relative_url }}" data-goatcounter-click="click-contact-resume" download><span class="dl-tile"><svg class="ic pdf" aria-hidden="true"><use href="#i-file"/></svg>PDF</span><span><span class="k">Resume</span><b>Download PDF</b></span></a>
+      <a class="card dl-card" href="{{ '/assets/resume/Madhan-Irulandi-Resume.docx' | relative_url }}" data-goatcounter-click="click-contact-resume-word" download><span class="dl-tile"><svg class="ic doc" aria-hidden="true"><use href="#i-file"/></svg>Word</span><span><span class="k">Resume</span><b>Download Word</b></span></a>
+      {% else %}<div class="card"><span class="k">Resume</span><div class="row"><a class="v" href="mailto:{{ p.email }}?subject=Resume%20request">Request by email</a></div></div>{% endif %}
       <div class="card">
         <span class="k">Email</span>
         <div class="row"><a class="v" data-goatcounter-click="click-contact-email" href="mailto:{{ p.email }}">{{ p.email }}</a><button class="copy-btn" type="button" data-copy="{{ p.email }}">Copy</button></div>
