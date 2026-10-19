@@ -570,3 +570,44 @@ footer .f-legal a { color: rgba(255, 255, 255, .75); }
 @media (max-width: 900px) { .more-grid { grid-template-columns: 1fr; } }
 @media (max-width: 560px) { .author-box { flex-direction: column; } .post-nav { grid-template-columns: 1fr; } .post-nav .next { grid-column: 1; text-align: left; } }
 .ab-actions .btn .ic { color: #FFFFFF; }
+
+/* Footer: four columns */
+footer .wrap.f-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1.2fr; gap: 32px; padding-block: 48px 24px; border-top: 0; }
+.f-name { font: 800 24px/1 var(--display); color: #FFFFFF; text-decoration: none; letter-spacing: -0.02em; }
+.f-name span { color: #4F8BEA; }
+.f-tag { margin: 14px 0 18px; font-size: 15px; line-height: 1.6; color: rgba(255, 255, 255, .7); }
+.f-col { display: flex; flex-direction: column; gap: 12px; }
+.f-col b { font: 700 12px/1 var(--body); letter-spacing: .12em; text-transform: uppercase; color: #F2A541; margin-bottom: 6px; }
+.f-col a { color: rgba(255, 255, 255, .8); text-decoration: none; font-size: 15px; }
+.f-col a:hover { color: #FFFFFF; text-decoration: underline; }
+.f-big { margin: 0; font: 800 26px/1.2 var(--display); color: #FFFFFF; }
+.f-big span { color: #4F8BEA; }
+.f-top { margin-top: 8px; color: #F2A541 !important; font-weight: 600; }
+.f-bottom { grid-column: 1 / -1; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 24px; padding-top: 20px; border-top: 1px solid rgba(255, 255, 255, .08); font-size: 13px; color: rgba(255, 255, 255, .55); }
+.f-bottom .f-legal { flex-basis: auto; }
+@media (max-width: 900px) { footer .wrap.f-grid { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 560px) { footer .wrap.f-grid { grid-template-columns: 1fr; gap: 28px; } }
+
+/* Contact: intent cards */
+.contact-top { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: start; }
+.intents { display: grid; gap: 12px; }
+.intent { display: flex; align-items: center; gap: 16px; padding: 18px 20px; border-radius: 14px; background: rgba(255, 255, 255, .06); border: 1px solid rgba(255, 255, 255, .14); color: #FFFFFF; text-decoration: none; transition: background .2s, border-color .2s, transform .2s; }
+.intent:hover { background: rgba(255, 255, 255, .1); border-color: #F2A541; transform: translateY(-2px); }
+.intent .ic { width: 26px; height: 26px; flex: none; color: #F2A541; }
+.intent span { display: flex; flex-direction: column; gap: 4px; flex: 1; }
+.intent b { font-size: 17px; font-weight: 700; }
+.intent i { font-style: normal; font-size: 14px; color: rgba(255, 255, 255, .7); line-height: 1.45; }
+.intent em { font-style: normal; font-size: 18px; color: #4F8BEA; }
+@media (max-width: 900px) { .contact-top { grid-template-columns: 1fr; gap: 24px; } }
+
+/* Talk cards */
+.speak.talks li { gap: 8px; padding: 20px 22px; }
+.tk-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; }
+.tk-n { font: 600 14px/1 var(--mono); color: var(--muted); letter-spacing: .04em; }
+.tk-chip { font-size: 12px; font-weight: 700; color: var(--navy); background: color-mix(in srgb, var(--brand) 9%, #FFFFFF); border: 1px solid color-mix(in srgb, var(--brand) 22%, #FFFFFF); border-radius: 999px; padding: 5px 11px; }
+.speak.talks b { font-size: 15px; font-weight: 700; color: var(--brand); }
+.tk-title { font: 800 18px/1.3 var(--display); color: var(--ink); }
+.tk-meta { display: inline-flex; align-items: center; gap: 6px; margin-top: auto; padding-top: 8px; font-size: 14px; color: var(--muted); }
+.tk-meta .ic { width: 15px; height: 15px; }
+.speak.talks .tk-desc { color: var(--text); font-size: 15px; line-height: 1.5; }
+.speak.talks i { margin-top: auto; padding-top: 8px; }
