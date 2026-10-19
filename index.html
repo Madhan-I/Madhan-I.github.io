@@ -187,7 +187,7 @@ layout: default
 <section id="writing" class="slide tone-white">
   <div class="wrap">
     {% assign latest = site.posts.first %}
-    <div class="sec-head reveal"><span class="label"><svg class="ic" aria-hidden="true"><use href="#i-pen"/></svg>Writing</span><h2>{% if latest.teaser %}{{ latest.teaser }}{% else %}{{ latest.title }}{% endif %}</h2></div>
+    <div class="sec-head reveal"><span class="label"><svg class="ic" aria-hidden="true"><use href="#i-pen"/></svg>Writing</span><h2>{{ p.writing_title | default: "Stories from 13 years of delivery" }}</h2></div>
     <div class="post-list reveal">
       {% for post in site.posts limit:3 %}
       <a class="post-card" href="{{ post.url | relative_url }}">

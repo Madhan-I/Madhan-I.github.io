@@ -53,19 +53,19 @@ metrics:
   - tag: Predictability
     number: "100"
     suffix: "%"
-    text: ART predictability and story-point completion across my current portfolio
+    text: ART predictability and story-point completion, sustained across my current portfolio
   - tag: AI in production
     number: "50"
     suffix: "%+"
-    text: cut in onboarding false positives, from 30% to 10–15%, with a hybrid AI and RAG compliance engine
+    text: fewer onboarding false positives, down from 30% to 10–15%, with a hybrid AI and RAG compliance engine in production
   - tag: Recovery
     number: "400"
     suffix: "+"
-    text: backlog tickets cleared in 9 months on a platform stalled for two years by COVID
+    text: stalled backlog tickets cleared in nine months, restarting a platform COVID had frozen for two years
   - tag: People
     number: "3,000"
     suffix: "+"
-    text: people trained since 2020, with 75+ guest lectures given and 1,000+ professionals mentored
+    text: people trained since 2020, with 75+ guest lectures delivered and 1,000+ professionals mentored
 
 # Use | to start a new line in the heading.
 about_title: "Delivery leader. Engineer by training. Teacher by habit."
