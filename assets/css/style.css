@@ -869,6 +869,12 @@ footer .f-tag { margin: 14px 0 0; }
 .early .e-card { position: static; border: 0; border-radius: 0; box-shadow: none; margin: 0; min-height: 0; transform: none; opacity: 1; }
 @media (max-width: 760px) { .early > summary { grid-template-columns: minmax(0, 1fr) 32px; padding: 16px 18px; } .e-when { grid-column: 1 / -1; } .e-head { flex-wrap: wrap; } }
 .earlier { scroll-margin-top: 100px; }
-.early .e-card .job-body > h3, .early .e-card .when { display: none; }
-.early .e-card .org .client, .early .e-card .org .proj .sep { display: none; }
 @media (max-width: 760px) { .early > summary { row-gap: 6px; } }
+/* Opened earlier role looks exactly like a full job card */
+.early[open] { border: 0; background: none; box-shadow: none; overflow: visible; }
+.early[open] > summary { position: absolute; width: 1px; height: 1px; padding: 0; overflow: hidden; clip: rect(0 0 0 0); border: 0; }
+.early .e-card { position: relative; border: 1px solid var(--line); border-radius: 20px; box-shadow: var(--shadow); }
+.e-close { position: absolute; top: 18px; right: 18px; z-index: 2; width: 36px; height: 36px; border-radius: 50%; border: 1px solid var(--line); background: #FFFFFF; cursor: pointer; }
+.e-close::before { content: ""; position: absolute; left: 50%; top: 50%; width: 14px; height: 2px; background: var(--brand); transform: translate(-50%, -50%); }
+.e-close:hover { border-color: var(--brand); }
+.early .e-card { top: auto; min-height: 0; transform: none; }
