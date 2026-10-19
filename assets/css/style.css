@@ -632,3 +632,12 @@ footer .wrap.f-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1.2fr;
 .speak.talks .tk-top { gap: 8px; }
 .speak.talks .tk-chip { font-size: 12px; padding: 4px 10px; white-space: nowrap; line-height: 1.3; }
 .speak.talks .tk-date { font-size: 13px; white-space: nowrap; }
+
+.tk-link { margin-top: 6px; font-size: 14px; font-weight: 600; color: var(--brand); text-decoration: none; }
+.tk-link:hover { text-decoration: underline; }
+/* Contact: email + resume under the intro, beside the intent cards */
+.contact-row.stack { grid-template-columns: 1fr; margin-top: 24px; gap: 12px; }
+.contact-top .intents { margin-top: 8px; }
+.intents .card { margin-top: 0; }
+.speak.talks .tk-link { margin-top: auto; padding-top: 8px; }
+.contact-top .note { margin-top: 20px; }
