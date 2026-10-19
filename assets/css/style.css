@@ -641,3 +641,5 @@ footer .wrap.f-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1.2fr;
 .intents .card { margin-top: 0; }
 .speak.talks .tk-link { margin-top: auto; padding-top: 8px; }
 .contact-top .note { margin-top: 20px; }
+.contact-row.duo-row { grid-template-columns: 1fr 1fr; margin-top: 28px; }
+@media (max-width: 640px) { .contact-row.duo-row { grid-template-columns: 1fr; } }
