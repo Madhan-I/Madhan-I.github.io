@@ -276,12 +276,12 @@ speaking:
 
 community_title: Civic tech volunteering · Code for Boston
 community:
-  - who: Urban League Heat Pump app
-    what: Contributed as a volunteer member, helping coordinate tasks and mentoring developers on a data app that shows the Urban League of Eastern Massachusetts where to focus heat pump outreach
-    when: Joined Aug 2022
+  - who: Urban League Heat Pump Accelerator
+    what: Supported the non-technical side of a data app that shows the Urban League of Eastern Massachusetts where to focus heat pump outreach, helping newcomers set up their accounts and tools
+    when: Sep 2022 – Aug 2025
   - who: National Police Data Coalition
-    what: Joined the volunteers restarting a paused national platform, mentoring developers so researchers, lawyers and policymakers get one transparent source of police conduct data
-    when: Joined Apr 2023
+    what: Welcomed new volunteers to the restart of a national police conduct data platform, guiding them through cloud account setup so they could contribute from their first evening
+    when: Apr 2023 – Aug 2025
 
 # year   = when you first earned it.
 # badge  = picture file in assets/badges/ (optional).

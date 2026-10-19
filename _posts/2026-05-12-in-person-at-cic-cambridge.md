@@ -2,7 +2,7 @@
 title: "What one evening a month in Kendall Square taught a remote-first leader"
 teaser: "In-person hack nights at CIC Cambridge, and why I still plan for face time"
 summary: Why the in-person Code for Boston nights at the Cambridge Innovation Center changed how I run distributed delivery.
-retro: "A look back at 2022–2023, published here when this site launched in 2026."
+retro: "A look back at 2022–2025, published here when this site launched in 2026."
 tags: [Leadership, Collaboration, Distributed Teams]
 ---
 
