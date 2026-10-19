@@ -843,3 +843,32 @@ footer .f-bottom { border-top: 1px solid var(--line); box-shadow: none; clip-pat
 
 footer .f-head { display: flex; align-items: center; gap: 14px; }
 footer .f-tag { margin: 14px 0 0; }
+
+/* Earlier career: compact rows that open into the full card */
+.earlier { margin-top: 36px; }
+.e-head { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-bottom: 14px; }
+.e-head h3 { margin: 0; font: 800 24px/1.2 var(--display); color: var(--navy); }
+.e-all { font: 700 14px/1 var(--body); color: var(--brand); background: #FFFFFF; border: 1px solid var(--line); border-radius: 999px; padding: 10px 16px; cursor: pointer; }
+.e-all:hover { border-color: var(--brand); }
+.early { background: #FFFFFF; border: 1px solid var(--line); border-radius: 16px; margin-bottom: 12px; box-shadow: var(--shadow); overflow: hidden; }
+.early > summary { list-style: none; cursor: pointer; display: grid; grid-template-columns: 150px minmax(0, 1fr) 32px; gap: 20px; align-items: center; padding: 18px 24px; }
+.early > summary::-webkit-details-marker { display: none; }
+.early > summary:hover { background: var(--tint); }
+.e-when { font-weight: 700; font-size: 14px; color: #B45309; }
+.e-main { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+.e-main b { font: 800 17px/1.3 var(--display); color: var(--navy); }
+.e-org { font-size: 15px; color: var(--muted); }
+.e-client { font-weight: 700; color: var(--brand); }
+.e-best { font-size: 14px; line-height: 1.5; color: var(--text); display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical; overflow: hidden; }
+.e-chev { width: 32px; height: 32px; border-radius: 50%; border: 1px solid var(--line); position: relative; }
+.e-chev::before, .e-chev::after { content: ""; position: absolute; left: 50%; top: 50%; width: 12px; height: 2px; background: var(--brand); transform: translate(-50%, -50%); transition: transform .2s; }
+.e-chev::after { transform: translate(-50%, -50%) rotate(90deg); }
+.early[open] .e-chev::after { transform: translate(-50%, -50%) rotate(0deg); }
+.early[open] > summary { border-bottom: 1px solid var(--line); }
+.early[open] .e-best { display: none; }
+.early .e-card { position: static; border: 0; border-radius: 0; box-shadow: none; margin: 0; min-height: 0; transform: none; opacity: 1; }
+@media (max-width: 760px) { .early > summary { grid-template-columns: minmax(0, 1fr) 32px; padding: 16px 18px; } .e-when { grid-column: 1 / -1; } .e-head { flex-wrap: wrap; } }
+.earlier { scroll-margin-top: 100px; }
+.early .e-card .job-body > h3, .early .e-card .when { display: none; }
+.early .e-card .org .client, .early .e-card .org .proj .sep { display: none; }
+@media (max-width: 760px) { .early > summary { row-gap: 6px; } }
