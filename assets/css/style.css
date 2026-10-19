@@ -526,3 +526,4 @@ nav.open .menu-btn span:nth-child(3) { transform: translateY(-7px) rotate(-45deg
 @media (max-width: 560px) { .speak ul { grid-template-columns: 1fr; } }
 @media (min-width: 561px) { .speak.duo ul { grid-template-columns: repeat(2, 1fr); } }
 .speak.duo { margin-top: 28px; }
+.retro { color: var(--muted); font-size: 15px; font-style: italic; margin: 8px 0 0; }
