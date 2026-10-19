@@ -527,3 +527,11 @@ nav.open .menu-btn span:nth-child(3) { transform: translateY(-7px) rotate(-45deg
 @media (min-width: 561px) { .speak.duo ul { grid-template-columns: repeat(2, 1fr); } }
 .speak.duo { margin-top: 28px; }
 .retro { color: var(--muted); font-size: 15px; font-style: italic; margin: 8px 0 0; }
+
+/* Footer: legal line + LinkedIn icon */
+footer .f-links { display: inline-flex; align-items: center; gap: 16px; }
+footer .f-in { display: inline-flex; color: #FFFFFF; opacity: .85; }
+footer .f-in:hover { opacity: 1; color: #F2A541; }
+footer .f-in .ic { width: 22px; height: 22px; }
+footer .f-legal { flex-basis: 100%; margin: 0; font-size: 13px; color: rgba(255, 255, 255, .5); }
+footer .f-legal a { color: rgba(255, 255, 255, .75); }
