@@ -1,7 +1,7 @@
 ---
-title: "From a first guest lecture to Star Volunteer"
+title: "From the team room to Star Volunteer"
 teaser: "What eighteen months of teaching students gave back to me"
-summary: In September 2021 I gave my first guest lecture. Eighteen months later my employer named me Star Volunteer. Here's what happened in between, and why I'd do it all again.
+summary: I started teaching inside my own team in my first year as a Microsoft Certified Trainer, and took it to universities in September 2021. Eighteen months later my employer named me Star Volunteer. Here's what happened in between, and why I'd do it all again.
 retro: "A look back at 2021–2023, published here when this site launched."
 outcome: "A first nervous lecture in 2021 grew into sessions for colleges and charities across India, a Spot award, a Star Volunteer award and 75+ guest lectures so far."
 hashtags: [GuestLecture, CSR, Volunteering, PublicSpeaking, CloudTraining]
@@ -12,11 +12,11 @@ tags: [Community, Leadership]
 
 On the last day of 2021 I wrote that one of the best things to happen to me that year was learning to speak in public. I had become a guest lecturer for universities and colleges, sharing what I knew with young people about to step into IT.
 
-It started with a single talk.
+It didn't start on a stage. In my first year as a Microsoft Certified Trainer, from October 2020, I taught where I already was: sessions on the basics of AI and machine learning for my own team at work. Teaching colleagues first gave me the practice and the confidence to take it outside.
 
-## The first one
+## Into the universities
 
-In September 2021 I gave my first guest lecture, on Microsoft Azure Conversational AI, at the Vellore Institute of Technology. Technical videos from experienced trainers in the community inspired me to take the leap, and Microsoft Learn gave students a way to keep going after the session. It was the first of many.
+In September 2021 I gave my first university guest lecture, on Microsoft Azure Conversational AI, at the Vellore Institute of Technology. Technical videos from experienced trainers in the community inspired me to take the leap, and Microsoft Learn gave students a way to keep going after the session. It was the first of many.
 
 ## It snowballed
 
@@ -45,4 +45,4 @@ That's still one of my favourite teaching moments. Nobody had to be there. They 
 
 Teaching students is the best training I've had for leading delivery. Students tell you immediately when you're not making sense. That pushes you to explain the why before the how, which is exactly what a release train needs when it's planning across ten teams.
 
-I've given more than 75 guest lectures since that first one. Every one of them still teaches me something.
+I've given more than 75 guest lectures since that first one at VIT. Every one of them still teaches me something.
