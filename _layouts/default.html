@@ -27,10 +27,35 @@
     {{ content }}
   </main>
   <footer>
-    <div class="wrap">
-      <span>© {{ 'now' | date: '%Y' }} {{ site.data.profile.name_first }} {{ site.data.profile.name_last }}. All rights reserved.</span>
-      <span class="f-links"><a class="f-in" href="{{ site.data.profile.linkedin }}" target="_blank" rel="noopener" aria-label="LinkedIn profile" data-goatcounter-click="click-footer-linkedin"><svg class="ic" aria-hidden="true"><use href="#i-linkedin"/></svg></a><a href="{{ '/blog/feed.xml' | relative_url }}">RSS</a></span>
-      <p class="f-legal">Official website: <a href="{{ site.url }}">madhanirulandi.com</a>. Independent personal website. Product names, logos and certification badges belong to their respective owners.</p>
+    <div class="wrap f-grid">
+      <div class="f-brand">
+        <a class="f-name" href="{{ '/' | relative_url }}">{{ site.data.profile.name_first }} <span>{{ site.data.profile.name_last }}</span></a>
+        <p class="f-tag">{{ site.data.profile.headline }}.<br>{{ site.data.profile.headline_highlight }}</p>
+        <a class="f-in" href="{{ site.data.profile.linkedin }}" target="_blank" rel="noopener" aria-label="LinkedIn profile" data-goatcounter-click="click-footer-linkedin"><svg class="ic" aria-hidden="true"><use href="#i-linkedin"/></svg></a>
+      </div>
+      <div class="f-col" role="navigation" aria-label="Explore">
+        <b>Explore</b>
+        <a href="{{ '/#about' | relative_url }}">About</a>
+        <a href="{{ '/#experience' | relative_url }}">Experience</a>
+        <a href="{{ '/#training' | relative_url }}">Training &amp; speaking</a>
+        <a href="{{ '/#certifications' | relative_url }}">Certifications</a>
+      </div>
+      <div class="f-col" role="navigation" aria-label="Read and connect">
+        <b>Read &amp; connect</b>
+        <a href="{{ '/blog/' | relative_url }}">Read the blog</a>
+        <a href="{{ '/blog/feed.xml' | relative_url }}">Follow via RSS ↗</a>
+        {% if site.data.profile.calendly != "" %}<a href="{{ site.data.profile.calendly }}" target="_blank" rel="noopener">Book a call ↗</a>{% endif %}
+        {% if site.data.profile.resume_file != "" %}<a href="{{ '/assets/resume/' | append: site.data.profile.resume_file | relative_url }}" download>Download resume ↓</a>{% endif %}
+      </div>
+      <div class="f-col f-end">
+        <b>Open to roles worldwide</b>
+        <p class="f-big">Let's ship <span>what's stalled.</span></p>
+        <a class="f-top" href="#top">Back to top ↑</a>
+      </div>
+      <div class="f-bottom">
+        <span>© {{ 'now' | date: '%Y' }} {{ site.data.profile.name_first }} {{ site.data.profile.name_last }}. All rights reserved.</span>
+        <span class="f-legal">Official website: <a href="{{ site.url }}">madhanirulandi.com</a>. Independent personal website. Product names, logos and certification badges belong to their respective owners.</span>
+      </div>
     </div>
   </footer>
   <dialog class="lightbox" id="lightbox" aria-label="Certificate"><button type="button" class="lb-close" aria-label="Close">×</button><img alt=""><p class="lb-cap"></p></dialog>
