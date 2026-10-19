@@ -263,10 +263,8 @@ speaking_title: Guest lectures & talks
 speaking:
   - who: VIT Chennai
     what: Azure AI Custom Vision, hands-on lecture
-    when: Apr 2023
   - who: Atos Graduate Programme
     what: Cloud computing workshop for 215 graduates
-    when: Feb 2022
   - who: Jeppiaar Engineering College
     what: Innovation methods for ML & AI, with an AutoML demo
   - who: NIIT Foundation & EduBridge India
