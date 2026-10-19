@@ -2,6 +2,7 @@
 title: "Opening the Massachusetts statehouse, one volunteer at a time"
 teaser: "MAPLE, Google Cloud and Firebase, and getting newcomers in the door"
 summary: How I supported MAPLE, Code for Boston's platform for testimony to the Massachusetts legislature, by getting new volunteers set up on its Google Cloud and Firebase project.
+outcome: "New volunteers got into MAPLE's Google Cloud and Firebase project faster, so they could help a live platform that lets Massachusetts residents speak to their legislature."
 retro: "A look back at 2022–2025, published here when this site launched in 2026."
 tags: [Community, Delivery]
 ---

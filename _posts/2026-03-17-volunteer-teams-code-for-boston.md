@@ -2,6 +2,7 @@
 title: "Delivering with people who don't have to show up"
 teaser: "What civic tech volunteering in Boston taught me about delivery"
 summary: What three years as a volunteer member of Code for Boston taught me about delivery, across four civic tech projects.
+outcome: "Three years as a non-technical volunteer across four civic tech projects, getting newcomers set up so they could start on real work from their first evening."
 retro: "A look back at 2022–2025, published here when this site launched in 2026."
 tags: [Community, Leadership]
 ---
