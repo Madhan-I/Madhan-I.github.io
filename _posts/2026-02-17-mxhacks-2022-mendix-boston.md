@@ -8,7 +8,9 @@ retro: "A look back at September 2022, published here when this site launched in
 tags: [Community, Delivery]
 ---
 
-I arrived in Boston in September 2022 to start on-site work for John Hancock. Within a few weeks I was at my first hackathon in the city: MxHacks 2022, "Low-Code for Good", run by Mendix, the low-code platform company that's part of Siemens.
+I arrived in Boston in September 2022 to start on-site work for John Hancock. When I announced the move on LinkedIn at the end of August, it drew more congratulations than anything I'd ever posted. A week or so later my first goodie in the United States arrived: a Google Cloud book from Packt, which I went on to review on LinkedIn.
+
+Within a few weeks I was at my first hackathon in the city: MxHacks 2022, "Low-Code for Good", run by Mendix, the low-code platform company that's part of Siemens.
 
 ## The event
 
