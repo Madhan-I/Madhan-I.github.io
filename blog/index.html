@@ -3,10 +3,21 @@ layout: default
 title: Writing
 description: Articles by Madhan Irulandi on agile delivery, release trains, AI in production and training teams.
 ---
-<div class="wrap hero hero-sm">
-  <div class="eyebrow">Writing</div>
-  <h1 class="page-title">Notes from the <span class="last">release train</span></h1>
-  <p class="lede">Short pieces on running delivery, coaching teams and putting AI into production.</p>
+<div class="wrap">
+  <div class="blog-hero">
+    <div class="bh-copy">
+      <div class="bh-eyebrow"><span class="dot"></span>Writing / Plan. Ship. Learn.</div>
+      <h1 class="bh-title">Notes from the <span class="grad">release train<i>.</i></span></h1>
+      <p class="bh-lede">Short pieces on running delivery, coaching teams and putting AI into production.</p>
+      <dl class="bh-stats">{% assign mins = 0 %}{% for post in site.posts %}{% assign w = post.content | strip_html | number_of_words %}{% assign m = w | divided_by: 200 | plus: 1 %}{% assign mins = mins | plus: m %}{% endfor %}
+        <div><dt>{{ site.posts.size }}</dt><dd>stories</dd></div><div><dt>{{ mins }}</dt><dd>min of reading</dd></div><div><dt>{{ site.posts.first.date | date: "%b %Y" }}</dt><dd>latest</dd></div>
+      </dl>
+    </div>
+    <div class="bh-side">
+      <div class="bh-art" aria-hidden="true"><span></span><span></span><span><b>PLAN</b><b>SHIP</b><b>LEARN<i>.</i></b></span></div>
+      <label class="bh-search"><span>Find your next read.</span><span class="box"><input type="search" placeholder="Search stories..." aria-label="Search stories"><svg class="ic" aria-hidden="true"><use href="#i-search"/></svg></span></label>
+    </div>
+  </div>
 </div>
 <section class="flush-top">
   <div class="wrap">
@@ -19,9 +30,11 @@ description: Articles by Madhan Irulandi on agile delivery, release trains, AI i
         <span class="pc-top"><span class="k">{{ post.date | date: "%d %b %Y" }} · {{ m }} min read</span>{% if post.tags.size > 0 %}<span class="tk-chip">{{ post.tags.first }}</span>{% endif %}</span>
         <b>{{ post.title }}</b>
         {% if post.summary %}<span class="s">{{ post.summary }}</span>{% endif %}
+        <span class="read">Read story <svg class="ic" aria-hidden="true"><use href="#i-arrow-ne"/></svg></span>
       </a>
       {% endfor %}
     </div>
+    <p class="no-hits" hidden>No stories match that search. Try another word or pick a topic.</p>
     {% else %}
     <p class="lede">First post coming soon.</p>
     {% endif %}
