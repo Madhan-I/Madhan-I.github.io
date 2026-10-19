@@ -171,3 +171,17 @@ document.querySelectorAll('.copy-btn').forEach(function (b) {
   });
   try { var t = new URLSearchParams(location.search).get('tag'); if (t) apply(t); } catch (err) {}
 })();
+
+/* Read count: shown only when GoatCounter is set up, public counts are allowed, and the number is meaningful */
+(function () {
+  var el = document.querySelector('.post .reads'); if (!el || !window.fetch) return;
+  fetch(el.dataset.src).then(function (r) { return r.ok ? r.json() : null; }).then(function (d) {
+    if (!d || !d.count) return; var n = parseInt(String(d.count).replace(/[^0-9]/g, ''), 10);
+    if (n >= 50) { el.textContent = ' · ' + d.count + ' reads'; el.hidden = false; }
+  }).catch(function () {});
+})();
+/* Blog search can be prefilled from a hashtag link (?q=) */
+(function () {
+  var q = document.querySelector('.bh-search input'); if (!q) return;
+  try { var v = new URLSearchParams(location.search).get('q'); if (v) { q.value = v.replace(/([a-z])([A-Z])/g, '$1 $2'); q.dispatchEvent(new Event('input')); } } catch (e) {}
+})();
