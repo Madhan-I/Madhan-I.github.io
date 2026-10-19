@@ -14,9 +14,11 @@ layout: default
     </div>
   </header>
   {% if page.cover %}<img class="cover" src="{{ page.cover | relative_url }}" alt="">{% endif %}
-  <nav class="toc" aria-label="On this page" hidden><b>On this page</b><ol></ol></nav>
-  <div class="prose">
-    {{ content }}
+  <div class="post-body">
+    <div class="prose">
+      {{ content }}
+    </div>
+    <nav class="toc" aria-label="On this page" hidden><details open><summary><b>On this page</b></summary><ol></ol></details></nav>
   </div>
   <aside class="author-box">
     <img src="{{ '/assets/images/' | append: site.data.profile.photo | relative_url }}" alt="Madhan Irulandi" width="88" height="88" loading="lazy">
