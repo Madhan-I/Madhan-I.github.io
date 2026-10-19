@@ -20,7 +20,7 @@ Being an MCT is a promise as much as a title. Microsoft trusts you to teach its 
 
 ## Learning by teaching
 
-My first sessions were close to home. In my first year as a trainer I ran several sessions for our Communication Content Management group (CCM, also known as ECM) at Atos Syntel, a technology tower of more than 300 people, including sessions on the basics of AI and machine learning. I also trained colleagues across the office through the learning department. I'm grateful to the colleagues who gave me the opportunity and the teammates who took part so actively. Teaching people you work with every day is a good test of whether you really understand a topic.
+My first sessions were close to home. In my first year as a trainer I ran several sessions for our Enterprise Content Management (ECM) group at Atos Syntel, a technology tower of more than 300 people, including sessions on the basics of AI and machine learning. I also trained colleagues across the office through the learning department. I'm grateful to the colleagues who gave me the opportunity and the teammates who took part so actively. Teaching people you work with every day is a good test of whether you really understand a topic.
 
 From there it grew into guest lectures at colleges, webinars for exam candidates and training for graduate programmes. Every session taught me something I thought I already knew.
 
