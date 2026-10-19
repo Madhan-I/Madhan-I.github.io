@@ -262,16 +262,25 @@ training_topics:
 speaking_title: Guest lectures & talks
 speaking:
   - who: VIT Chennai
+    topic: Azure AI
+    where: Chennai
     what: Azure AI Custom Vision, hands-on lecture
   - who: Atos Graduate Programme
+    topic: Cloud
     what: Cloud computing workshop for 215 graduates
   - who: Jeppiaar Engineering College
+    topic: AI & ML
+    where: Chennai
     what: Innovation methods for ML & AI, with an AutoML demo
   - who: NIIT Foundation & EduBridge India
+    topic: Cloud
     what: CSR training on Google Cloud and AWS
   - who: Microsoft Azure AI-900
+    topic: Azure AI
+    where: Online
     what: Webinar on Azure AI services for certification
   - who: College Rotaract Clubs
+    topic: Careers
     what: Careers in IT services for final and third-year students
 
 community_title: Civic tech volunteering · Code for Boston
@@ -579,7 +588,7 @@ award_groups:
 
 contact_title: Have a programme that needs to
 contact_highlight: ship?
-contact_intro: Email me about leadership roles, delivery consulting or corporate training, anywhere in the world.
+contact_intro: Leadership roles, a quick call or training for your team. Pick what fits, or email me directly. Open to opportunities anywhere in the world.
 # Each line below is shown on its own line.
 contact_note:
   - "Open to on-site, hybrid or remote roles worldwide."
