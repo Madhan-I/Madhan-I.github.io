@@ -4,6 +4,8 @@ teaser: "How fewer templates cut costs and lifted revenue"
 summary: How consolidating legacy layouts at Anthem cut $300,000 a year in operating costs and supported $400,000 in revenue.
 outcome: "Operating costs down $300,000 a year, and a part in a $400,000 annual revenue increase."
 hashtags: [CostSavings, DocumentTemplates, Healthcare, Anthem, Delivery]
+redirect_from:
+  - /blog/2026/11/anthem-templates-savings/
 tags: [Quality, Delivery]
 ---
 

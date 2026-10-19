@@ -4,6 +4,8 @@ teaser: "How a frozen programme got moving again in nine months"
 summary: How release governance brought a frozen John Hancock platform programme back to life.
 outcome: "A platform frozen for two years moving again: 400+ backlog tickets cleared in nine months and five modernisation initiatives live across 20+ business divisions."
 hashtags: [ReleaseTrainEngineer, SAFe, PIPlanning, ProgramRecovery, ReleaseManagement]
+redirect_from:
+  - /blog/2026/10/reviving-a-stalled-platform-john-hancock/
 tags: [Delivery, Leadership]
 ---
 

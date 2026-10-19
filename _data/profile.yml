@@ -291,22 +291,22 @@ community:
   - who: MAPLE · Massachusetts Platform for Legislative Engagement
     topic: Civic tech
     what: Got newcomers access to the Google Cloud and Firebase project behind a live platform where Massachusetts residents send testimony to their legislature
-    link: /blog/2026/03/maple-massachusetts-legislature/
+    link: /blog/2026/06/maple-massachusetts-legislature/
     when: Sep 2022 – Aug 2025
   - who: Urban League Heat Pump Accelerator
     topic: Climate
     what: Helped newcomers set up Codespaces and Docker to join a Rails and PostgreSQL app, deployed to a Kubernetes-based cloud, that guides Urban League heat pump outreach
-    link: /blog/2026/03/urban-league-heat-pump-accelerator/
+    link: /blog/2026/07/urban-league-heat-pump-accelerator/
     when: Sep 2022 – Aug 2025
   - who: National Police Data Coalition
     topic: Open data
     what: Guided new volunteers through Docker and Heroku setup as a national police conduct data platform restarted in 2023
-    link: /blog/2026/04/national-police-data-coalition/
+    link: /blog/2026/08/national-police-data-coalition/
     when: Apr 2023 – Aug 2025
   - who: HEAT · Home Energy Analysis Tool
     topic: Climate
     what: Supported first-time contributors with Docker and Fly.io setup on a live tool that checks whether a proposed heat pump can heat a home
-    link: /blog/2026/04/heat-home-energy-analysis-tool/
+    link: /blog/2026/09/heat-home-energy-analysis-tool/
     when: May 2023 – Aug 2025
 
 events_title: Boston tech events attended
