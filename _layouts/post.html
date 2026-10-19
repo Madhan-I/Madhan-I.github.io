@@ -4,21 +4,23 @@ layout: default
 <article class="wrap post">
   <a class="back" href="{{ '/blog/' | relative_url }}">← All writing</a>
   <header>
-    <p class="eyebrow"><span class="pdate">{{ page.date | date: "%d %b %Y" }}</span>{% assign words = content | strip_html | number_of_words %}{% assign mins = words | divided_by: 200 | plus: 1 %} · {{ mins }} min read</p>
+    <p class="eyebrow"><span class="pdate">{{ page.date | date: "%d %b %Y" }}</span>{% assign words = content | strip_html | number_of_words %}{% assign mins = words | divided_by: 200 | plus: 1 %} · {{ mins }} min read{% assign gc = site.goatcounter | strip %}{% if gc != "" %}<span class="reads" data-src="https://{{ gc }}.goatcounter.com/counter/{{ page.url | url_encode }}.json" hidden></span>{% endif %}</p>
     <h1 class="post-title">{{ page.title }}</h1>
     {% if page.summary %}<p class="lede">{{ page.summary }}</p>{% endif %}
     {% if page.retro %}<p class="retro">{{ page.retro }}</p>{% endif %}
+    {% if page.outcome %}<div class="outcome"><b>In short</b><p>{{ page.outcome }}</p></div>{% endif %}
     <div class="post-meta">
       {% if page.tags.size > 0 %}<ul class="tags">{% for t in page.tags %}<li><a href="{{ '/blog/' | relative_url }}?tag={{ t | url_encode }}">{{ t }}</a></li>{% endfor %}</ul>{% endif %}
       <a class="share-in" href="https://www.linkedin.com/sharing/share-offsite/?url={{ page.url | absolute_url | url_encode }}" target="_blank" rel="noopener" data-goatcounter-click="share-linkedin-top"><svg class="ic" aria-hidden="true"><use href="#i-linkedin"/></svg>Share on LinkedIn</a>
     </div>
   </header>
+  <nav class="toc" aria-label="On this page" hidden><details open><summary><b>On this page</b></summary><ol></ol></details></nav>
   {% if page.cover %}<img class="cover" src="{{ page.cover | relative_url }}" alt="">{% endif %}
   <div class="post-body">
     <div class="prose">
       {{ content }}
+      {% assign hs = page.hashtags | default: page.tags %}{% if hs.size > 0 %}<p class="hashtags">{% for h in hs %}<a href="{{ '/blog/' | relative_url }}?q={{ h | url_encode }}">#{{ h }}</a>{% endfor %}</p>{% endif %}
     </div>
-    <nav class="toc" aria-label="On this page" hidden><details open><summary><b>On this page</b></summary><ol></ol></details></nav>
   </div>
   <aside class="author-box">
     <img src="{{ '/assets/images/' | append: site.data.profile.photo | relative_url }}" alt="Madhan Irulandi" width="88" height="88" loading="lazy">
