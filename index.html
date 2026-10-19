@@ -112,6 +112,12 @@ layout: default
         {% for t in p.training_topics %}<li><b>{{ t.name }}</b><span>{{ t.note }}</span></li>{% endfor %}
       </ul>
     </div>
+    {% if p.speaking %}<div class="speak reveal"><h3>{{ p.speaking_title }}</h3><ul>
+      {% for s in p.speaking %}<li><b>{{ s.who }}</b><span>{{ s.what }}</span>{% if s.when %}<i>{{ s.when }}</i>{% endif %}</li>{% endfor %}
+    </ul></div>{% endif %}
+    {% if p.community %}<div class="speak duo reveal"><h3>{{ p.community_title }}</h3><ul>
+      {% for s in p.community %}<li><b>{{ s.who }}</b><span>{{ s.what }}</span>{% if s.when %}<i>{{ s.when }}</i>{% endif %}</li>{% endfor %}
+    </ul></div>{% endif %}
   </div>
 </section>
 {% endunless %}

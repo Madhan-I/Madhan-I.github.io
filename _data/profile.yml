@@ -256,6 +256,32 @@ training_topics:
   - name: Kubernetes, service mesh & cloud
     note: AKS · Istio · IBM · VMware
 
+speaking_title: Guest lectures & talks
+speaking:
+  - who: VIT Chennai
+    what: Azure AI Custom Vision, hands-on lecture
+    when: Apr 2023
+  - who: Atos Graduate Programme
+    what: Cloud computing workshop for 215 graduates
+    when: Feb 2022
+  - who: Jeppiaar Engineering College
+    what: Innovation methods for ML & AI, with an AutoML demo
+  - who: NIIT Foundation & EduBridge India
+    what: CSR training on Google Cloud and AWS
+  - who: Microsoft Azure AI-900
+    what: Webinar on Azure AI services for certification
+  - who: College Rotaract Clubs
+    what: Careers in IT services for final and third-year students
+
+community_title: Civic tech volunteering · Code for Boston
+community:
+  - who: Urban League Heat Pump app
+    what: Coordinated volunteers and mentored developers building a heat pump accelerator app with the Urban League of Eastern Massachusetts
+    when: Joined Jul 2022
+  - who: National Police Data Coalition
+    what: Coordinated and mentored volunteers restarting the coalition's public police data project
+    when: Joined Apr 2023
+
 # year   = when you first earned it.
 # badge  = picture file in assets/badges/ (optional).
 # url    = link to the official certificate, opened when someone clicks it.
