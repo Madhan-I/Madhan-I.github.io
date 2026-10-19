@@ -120,6 +120,8 @@ document.querySelectorAll('.copy-btn').forEach(function (b) {
         a.href = '#' + h.id; a.textContent = h.textContent; li.appendChild(a); ol.appendChild(li); links.push([h, a]);
       });
       toc.hidden = false;
+      var det = toc.querySelector('details'); if (det && window.matchMedia('(max-width: 1179px)').matches) det.open = false;
+      ol.addEventListener('click', function () { if (det && window.matchMedia('(max-width: 1179px)').matches) det.open = false; });
       window.addEventListener('scroll', function () {
         var cur = null;
         links.forEach(function (x) { if (x[0].getBoundingClientRect().top < 160) cur = x[1]; });
