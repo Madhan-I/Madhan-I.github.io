@@ -1,7 +1,7 @@
 ---
 title: "From the team room to Star Volunteer"
 teaser: "What eighteen months of teaching students gave back to me"
-summary: I started teaching inside my own team in my first year as a Microsoft Certified Trainer, and took it to universities in September 2021. Eighteen months later my employer named me Star Volunteer. Here's what happened in between, and why I'd do it all again.
+summary: I started teaching inside my own company in my first year as a Microsoft Certified Trainer, and took it to universities in September 2021. Eighteen months later my employer named me Star Volunteer. Here's what happened in between, and why I'd do it all again.
 retro: "A look back at 2021–2023, published here when this site launched."
 outcome: "A first nervous lecture in 2021 grew into sessions for colleges and charities across India, a Spot award, a Star Volunteer award and 75+ guest lectures so far."
 hashtags: [GuestLecture, CSR, Volunteering, PublicSpeaking, CloudTraining]
@@ -12,7 +12,12 @@ tags: [Community, Leadership]
 
 On the last day of 2021 I wrote that one of the best things to happen to me that year was learning to speak in public. I had become a guest lecturer for universities and colleges, sharing what I knew with young people about to step into IT.
 
-It didn't start on a stage. In my first year as a Microsoft Certified Trainer, from October 2020, I taught where I already was: sessions on the basics of AI and machine learning for my own team at work. Teaching colleagues first gave me the practice and the confidence to take it outside.
+It didn't start on a stage. In my first year as a Microsoft Certified Trainer, from October 2020, I taught where I already was, at Atos Syntel:
+
+- **My technology tower.** I ran several sessions for our Customer Communications Management (CCM) group, a tower of more than 300 people, including sessions on the basics of AI and machine learning.
+- **The wider office.** Through the company's learning department I also trained colleagues from across the office.
+
+Teaching colleagues first gave me the practice and the confidence to take it outside.
 
 ## Into the universities
 
