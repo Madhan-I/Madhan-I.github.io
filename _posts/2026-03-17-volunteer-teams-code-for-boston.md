@@ -1,18 +1,18 @@
 ---
 title: "Delivering with people who don't have to show up"
 teaser: "What civic tech volunteering in Boston taught me about delivery"
-summary: What I learned as a volunteer member of Code for Boston, helping coordinate tasks and mentoring developers on a heat pump outreach app and an open police data platform.
-retro: "A look back at 2022–2023, published here when this site launched in 2026."
-tags: [Leadership, Mentoring, Civic Tech]
+summary: What I learned as a volunteer member of Code for Boston, helping newcomers get set up on a heat pump outreach app and an open police data platform.
+retro: "A look back at 2022–2025, published here when this site launched in 2026."
+tags: [Onboarding, Volunteering, Civic Tech]
 ---
 
-In 2022 I was on-site in Boston for John Hancock, restarting a platform programme that had been frozen for two years. On Tuesday evenings I joined Code for Boston, a volunteer group that builds free, open-source software for public-service organisations. Hack nights ran on Zoom every week and in person at the Cambridge Innovation Center once or twice a month.
+From September 2022 to August 2025 I was on-site in Boston for John Hancock. Alongside that work I joined Code for Boston, a volunteer group that builds free, open-source software for public-service organisations. Hack nights ran on Tuesday evenings, on Zoom every week and in person at the Cambridge Innovation Center once or twice a month.
 
-I was one of many volunteer members giving their evenings. I didn't go there to write features. Alongside the others, I helped coordinate tasks and mentored newer developers, using the skills I use at work to help the team finish what it started.
+Each project had several teams, some technical and some not. I was a volunteer member on the non-technical side. My part was simple and, it turned out, important: helping newcomers who wanted to contribute get set up, from cloud accounts to the tools each team used, so they could start on real work instead of losing their first evening to setup.
 
 ## A heat pump app with five moving parts
 
-In August 2022 Code for Boston started the Boston Heat Pump Accelerator with the Urban League of Eastern Massachusetts and the Heat Smart Alliance. The aim was to reach owners of Boston homes most likely to benefit from heat pump retrofits, tax credits and installation support, with equity at the centre.
+The Boston Heat Pump Accelerator is a partnership with the Urban League of Eastern Massachusetts and the Heat Smart Alliance. It aims to reach owners of Boston homes most likely to benefit from heat pump retrofits, tax credits and installation support, with equity at the centre.
 
 The project ran as five workstreams:
 
@@ -21,26 +21,24 @@ The project ran as five workstreams:
 - **Frontend** in React, so canvassers could see a property and record a visit from their phone
 - **Partnerships** and **marketing**, taking the approach to other organisations
 
-Five groups of part-time volunteers, each moving at its own speed, is a release train without the contracts. The data team's routes were useless until the API could store them, and the app was useless until both existed. Keeping those dependencies visible in one shared backlog mattered more than any single feature.
+Watching five groups of part-time volunteers move at their own speeds looked a lot like a release train without the contracts. The data team's routes needed the backend to store them, and the app needed both. New people arrived almost every week, and how quickly they got set up decided whether they came back.
 
-Delivery came together in 2023 with Docker, automated pipelines in GitHub Actions and a deployment to a Kubernetes-based cloud. That's familiar ground for me from container work on Azure, and it's where mentoring paid off most.
-
-## Restarting a stalled platform, again
+## Restarting a stalled platform
 
 In spring 2023 Code for Boston restarted the National Police Data Coalition. It's an open platform that brings together independently collected police-conduct data from journalists, attorneys and community members, for researchers, lawyers and policymakers. It had started strongly in 2021 and slowed in 2022.
 
-I'd seen this pattern before, at work that same year: old code, lost context and new people. The playbook transferred almost unchanged. Separate the still-valid backlog from the stale one, make the first contribution easy (one Docker setup, seed data, clear test instructions), and show progress quickly. By late 2023 the team was shipping again: incident search, an officer view and partner features on a Flask, PostgreSQL and Next.js stack.
+A restart brings a wave of new volunteers at once. Helping them through accounts and setup was where I could be useful. It felt familiar too: at work I was restarting a programme that had been frozen for two years, and the first problem there was the same one. People can't contribute until they can get in.
 
 ## What volunteer teams teach you
 
 **Nobody has to show up.** At work, a sprint plan has an employment contract behind it. On a hack night it doesn't. People come back when the work matters and the next step is clear.
 
-**Clarity beats authority.** Small tasks someone can finish in one evening, a backlog anyone can read, and the reason behind the work said out loud. Those did more than any deadline could.
+**Onboarding is the multiplier.** A newcomer who is set up and contributing in their first session comes back. One who spends the night fighting account access and installs usually doesn't.
 
-**Mentoring is the multiplier.** A newer developer who gets unstuck in their first session comes back. One who spends the night fighting setup usually doesn't.
+**Non-technical work keeps technical work moving.** Welcoming people, getting them access and pointing them to the right team isn't glamorous, but without it the developers spend their evenings answering setup questions instead of building.
 
-**Restarts follow the same rules everywhere.** Recover the context, shrink the first steps, make progress visible.
+**Restarts follow the same rules everywhere.** Recover the context, make the first step easy, make progress visible.
 
 ## Why it matters for my day job
 
-A release train is a team of teams, and most people on it don't report to the person running it. Volunteering sharpened the skill that matters most there: leading through clarity and trust, not a title.
+A release train is a team of teams, and it slows down quickly when new people can't get started. Volunteering reminded me that removing small blockers for others is real delivery work, whatever your title.
