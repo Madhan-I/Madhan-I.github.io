@@ -2,9 +2,11 @@
 title: "From the bench to a hundred days of cloud"
 teaser: "How a quiet stretch in 2020 turned into the habit that changed my career"
 summary: In 2020 I was between projects, in the middle of a pandemic, with time I didn't ask for. Here's how I spent it, and what it led to.
-retro: "A look back at 2020, published here when this site launched in 2026."
+retro: "A look back at 2020, published here when this site launched."
 outcome: "Three months of late-night learning took me from the bench to Microsoft Certified Trainer, and gave me the learning habit I still run on."
 hashtags: [100DaysOfCloud, CloudLearning, Azure, GoogleCloud, CareerGrowth]
+redirect_from:
+  - /blog/2026/01/from-the-bench-to-100-days-of-cloud/
 tags: [Community, Leadership]
 ---
 

@@ -2,9 +2,11 @@
 title: "Six months of doubt, one exam"
 teaser: "What preparing for Azure AI Engineer taught me about finishing hard things"
 summary: It took me six months, plenty of doubt and a lot of practice tests to pass Azure AI Engineer in July 2021. That exam opened the door to the AI work I lead today.
-retro: "A look back at 2020–2021, published here when this site launched in 2026."
+retro: "A look back at 2020–2021, published here when this site launched."
 outcome: "Passing Azure AI Engineer in 2021, and renewing it every year since, laid the base for the AI-enabled platforms I deliver today."
 hashtags: [AzureAI, AIEngineer, MicrosoftCertified, Persistence, AI]
+redirect_from:
+  - /blog/2026/02/six-months-of-doubt-azure-ai-engineer/
 tags: [AI, Leadership]
 ---
 

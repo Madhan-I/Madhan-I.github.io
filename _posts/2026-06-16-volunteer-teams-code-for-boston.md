@@ -4,7 +4,9 @@ teaser: "What civic tech volunteering in Boston taught me about delivery"
 summary: What three years as a volunteer member of Code for Boston taught me about delivery, across four civic tech projects.
 outcome: "Three years as a non-technical volunteer across four civic tech projects, getting newcomers set up so they could start on real work from their first evening."
 hashtags: [CodeForBoston, CivicTech, Volunteering, Onboarding, OpenSource]
-retro: "A look back at 2022–2025, published here when this site launched in 2026."
+retro: "A look back at 2022–2025, published here when this site launched."
+redirect_from:
+  - /blog/2026/03/volunteer-teams-code-for-boston/
 tags: [Community, Leadership]
 ---
 
@@ -16,10 +18,10 @@ Each project had several teams, some technical and some not. I was a volunteer m
 
 I was part of four projects during those years. Each ran on a different cloud setup, and on every one my job was the same: get new people into that setup and working. Each has its own story:
 
-- [MAPLE](/blog/2026/03/maple-massachusetts-legislature/), testimony for the Massachusetts legislature, on Google Cloud and Firebase
-- [Urban League Heat Pump Accelerator](/blog/2026/03/urban-league-heat-pump-accelerator/), five workstreams on Codespaces, Docker and a Kubernetes-based cloud
-- [National Police Data Coalition](/blog/2026/04/national-police-data-coalition/), an open-data platform restarted in 2023, on Docker and Heroku
-- [HEAT](/blog/2026/04/heat-home-energy-analysis-tool/), a heat pump sizing tool on the Epic Stack and Fly.io
+- [MAPLE](/blog/2026/06/maple-massachusetts-legislature/), testimony for the Massachusetts legislature, on Google Cloud and Firebase
+- [Urban League Heat Pump Accelerator](/blog/2026/07/urban-league-heat-pump-accelerator/), five workstreams on Codespaces, Docker and a Kubernetes-based cloud
+- [National Police Data Coalition](/blog/2026/08/national-police-data-coalition/), an open-data platform restarted in 2023, on Docker and Heroku
+- [HEAT](/blog/2026/09/heat-home-energy-analysis-tool/), a heat pump sizing tool on the Epic Stack and Fly.io
 
 ## What volunteer teams teach you
 

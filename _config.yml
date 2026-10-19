@@ -34,6 +34,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
+  - jekyll-redirect-from
 
 feed:
   path: blog/feed.xml
