@@ -113,8 +113,8 @@ layout: default
         {% for t in p.training_topics %}<li><b>{{ t.name }}</b><span>{{ t.note }}</span></li>{% endfor %}
       </ul>
     </div>
-    {% if p.speaking %}<div class="speak reveal"><h3>{{ p.speaking_title }}</h3><ul>
-      {% for s in p.speaking %}<li><b>{{ s.who }}</b><span>{{ s.what }}</span>{% if s.when %}<i>{{ s.when }}</i>{% endif %}</li>{% endfor %}
+    {% if p.speaking %}<div class="speak talks reveal"><h3>{{ p.speaking_title }}</h3><ul>
+      {% for s in p.speaking %}<li><div class="tk-top"><span class="tk-n">{% if forloop.index < 10 %}0{% endif %}{{ forloop.index }}</span>{% if s.topic %}<span class="tk-chip">{{ s.topic }}</span>{% endif %}</div><b>{{ s.who }}</b><strong class="tk-title">{{ s.what }}</strong>{% if s.where or s.when %}<span class="tk-meta">{% if s.where %}<svg class="ic" aria-hidden="true"><use href="#i-pin"/></svg>{{ s.where }}{% endif %}{% if s.when %} · {{ s.when }}{% endif %}</span>{% endif %}</li>{% endfor %}
     </ul></div>{% endif %}
     {% if p.community %}<div class="speak duo reveal"><h3>{{ p.community_title }}</h3><ul>
       {% for s in p.community %}<li><b>{{ s.who }}</b><span>{{ s.what }}</span>{% if s.when %}<i>{{ s.when }}</i>{% endif %}</li>{% endfor %}
@@ -189,12 +189,19 @@ layout: default
 {% unless th.show.contact == false %}
 <section id="contact" class="slide tone-navy contact">
   <div class="wrap">
+    <div class="contact-top">
     <div class="reveal">
       <span class="label"><svg class="ic" aria-hidden="true"><use href="#i-send"/></svg>Contact</span>
       <h2>{{ p.contact_title }} <span>{{ p.contact_highlight }}</span></h2>
       <p class="lede">{{ p.contact_intro }}</p>
     </div>
-    <div class="contact-row reveal{% if p.github == "" %} three{% endif %}">
+    <div class="intents reveal">
+      <a class="intent" href="mailto:{{ p.email }}?subject=Leadership%20role%20for%20{{ p.name_first }}" data-goatcounter-click="intent-role"><svg class="ic" aria-hidden="true"><use href="#i-route"/></svg><span><b>Discuss a leadership role</b><i>Release train, programme or delivery roles, anywhere in the world.</i></span><em aria-hidden="true">↗</em></a>
+      {% if p.calendly != "" %}<a class="intent" href="{{ p.calendly }}" target="_blank" rel="noopener" data-goatcounter-click="intent-call"><svg class="ic" aria-hidden="true"><use href="#i-cal"/></svg><span><b>Book a 30-minute call</b><i>Pick a time that suits you, straight into my calendar.</i></span><em aria-hidden="true">↗</em></a>{% endif %}
+      <a class="intent" href="mailto:{{ p.email }}?subject=Training%20or%20guest%20lecture" data-goatcounter-click="intent-training"><svg class="ic" aria-hidden="true"><use href="#i-board"/></svg><span><b>Plan training or a guest lecture</b><i>SAFe, Scrum, Azure AI and cloud sessions for teams and colleges.</i></span><em aria-hidden="true">↗</em></a>
+    </div>
+    </div>
+    <div class="contact-row reveal">
       <div class="card">
         <span class="k">Email</span>
         <div class="row"><a class="v" data-goatcounter-click="click-contact-email" href="mailto:{{ p.email }}">{{ p.email }}</a><button class="copy-btn" type="button" data-copy="{{ p.email }}">Copy</button></div>
@@ -205,11 +212,7 @@ layout: default
         <div class="row"><a class="v" href="https://github.com/{{ p.github }}" target="_blank" rel="noopener">github.com/{{ p.github }} ↗</a></div>
       </div>
       {% endif %}
-      {% if p.calendly != "" %}<div class="card">
-        <span class="k">Book a call</span>
-        <div class="row"><a class="v" data-goatcounter-click="click-contact-call" href="{{ p.calendly }}" target="_blank" rel="noopener">30-minute intro call ↗</a></div>
-      </div>
-      {% endif %}      <div class="card">
+      <div class="card">
         <span class="k">Resume</span>
         <div class="row">
           {% if p.resume_file != "" %}<a class="v" href="{{ '/assets/resume/' | append: p.resume_file | relative_url }}" data-goatcounter-click="click-contact-resume" download>Download PDF ↓</a><span class="sep"> · </span><a class="v" href="{{ '/assets/resume/Madhan-Irulandi-Resume.docx' | relative_url }}" data-goatcounter-click="click-contact-resume-word" download>Word ↓</a>
