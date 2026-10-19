@@ -92,7 +92,7 @@ layout: default
         <svg class="job-art" aria-hidden="true"><use href="#i-{{ job.icon | default: 'route' }}"/></svg>
       {% endcapture %}{% if forloop.index <= nfull %}
       <li class="job{% if job.current %} now{% endif %}">{{ card }}</li>{% else %}{% capture early %}{{ early }}
-      <details class="early"><summary><span class="e-when">{{ job.dates }}</span><span class="e-main"><b>{{ job.title }}</b><span class="e-org">{% if job.client %}<span class="e-client">{{ job.client }}</span> · {% endif %}{{ job.company }}</span><span class="e-best">{{ job.points.first }}</span></span><span class="e-chev" aria-hidden="true"></span></summary><div class="job e-card">{{ card }}</div></details>{% endcapture %}{% endif %}
+      <details class="early"><summary><span class="e-when">{{ job.dates }}</span><span class="e-main"><b>{{ job.title }}</b><span class="e-org">{% if job.client %}<span class="e-client">{{ job.client }}</span> · {% endif %}{{ job.company }}</span><span class="e-best">{{ job.points.first }}</span></span><span class="e-chev" aria-hidden="true"></span></summary><div class="job e-card"><button type="button" class="e-close" aria-label="Close {{ job.title }}"></button>{{ card }}</div></details>{% endcapture %}{% endif %}
       {% endfor %}
     </ol>
     {% if early != "" %}<div class="earlier reveal" id="earlier">
