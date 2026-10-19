@@ -883,3 +883,4 @@ footer .f-tag { margin: 14px 0 0; }
 .cert-toggle-row { margin: 22px 0 0; text-align: center; }
 .cert-toggle { font: 700 15px/1 var(--body); color: #FFFFFF; background: var(--brand); border: 0; border-radius: 999px; padding: 13px 22px; cursor: pointer; box-shadow: 0 8px 22px color-mix(in srgb, var(--brand) 25%, transparent); }
 .cert-toggle:hover { background: #2A6BE0; }
+@media (min-width: 1280px) { .chip-row { gap: 6px; width: 100%; } .chip-row .chip, .chip-row .chip:first-child { font-size: 15px; letter-spacing: 0; padding: 10px 8px; } }
