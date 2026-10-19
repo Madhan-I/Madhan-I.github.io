@@ -840,3 +840,6 @@ footer .f-col a:hover { color: var(--brand); }
 footer .f-big { color: var(--navy); }
 footer .f-top { color: #B45309 !important; }
 footer .f-bottom { border-top: 1px solid var(--line); box-shadow: none; clip-path: none; }
+
+footer .f-head { display: flex; align-items: center; gap: 14px; }
+footer .f-tag { margin: 14px 0 0; }
