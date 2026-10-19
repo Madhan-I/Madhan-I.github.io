@@ -119,7 +119,7 @@ layout: default
     {% if p.community %}<div class="speak duo reveal"><h3>{{ p.community_title }}</h3><ul>
       {% for s in p.community %}<li><b>{{ s.who }}</b><span>{{ s.what }}</span>{% if s.when %}<i>{{ s.when }}</i>{% endif %}</li>{% endfor %}
     </ul></div>{% endif %}
-    {% if p.events %}<div class="speak reveal"><h3>{{ p.events_title }}</h3><ul>
+    {% if p.events %}<div class="speak duo reveal"><h3>{{ p.events_title }}</h3><ul>
       {% for s in p.events %}<li><b>{{ s.who }}</b><span>{{ s.what }}</span>{% if s.when %}<i>{{ s.when }}</i>{% endif %}</li>{% endfor %}
     </ul></div>{% endif %}
   </div>

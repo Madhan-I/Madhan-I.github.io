@@ -291,8 +291,11 @@ community:
 
 events_title: Boston tech events attended
 events:
+  - who: MxHacks 2022 · Mendix, Boston
+    what: Took part at the Boston site of Mendix's 36-hour global "Low-Code for Good" hackathon, where teams built low-code apps for nonprofits
+    when: Sep 2022
   - who: Visual AI Hackathon · Northeastern University
-    what: Took part in an in-person computer vision hackathon on Northeastern's Boston campus
+    what: Joined Voxel51's in-person computer vision hackathon on Northeastern's Boston campus
     when: Mar 2025
   - who: Solve at MIT 2023
     what: Attended the public opening plenary of MIT Solve's annual event on technology for social impact, with MIT President Sally Kornbluth, at Kresge Auditorium
