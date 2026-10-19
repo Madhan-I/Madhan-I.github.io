@@ -46,8 +46,7 @@ photo: "madhan-headshot-bright.jpg"
 
 # Skill boxes under the intro. Each group below is its own row on desktop.
 expertise_rows:
-  - [Release Train Engineer, SAFe® 6, Generative AI & RAG, Microsoft Certified Trainer, Technical Product Management, PI Planning, Azure AI]
-  - [Program & Portfolio Governance, Risk & Dependency Management, Senior Scrum Master, Release Management, Agile Coaching, DevOps & CI/CD]
+  - [SAFe® 6, PI Planning, Release Management, Program & Portfolio Governance, Risk & Dependency Management, Generative AI & RAG, Azure AI]
 
 # The four big numbers under the hero. Keep it to four.
 metrics:
