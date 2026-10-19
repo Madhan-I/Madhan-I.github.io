@@ -185,3 +185,22 @@ document.querySelectorAll('.copy-btn').forEach(function (b) {
   var q = document.querySelector('.bh-search input'); if (!q) return;
   try { var v = new URLSearchParams(location.search).get('q'); if (v) { q.value = v.replace(/([a-z])([A-Z])/g, '$1 $2'); q.dispatchEvent(new Event('input')); } } catch (e) {}
 })();
+
+/* Earlier career: one open at a time, plus show/hide all */
+(function () {
+  var box = document.getElementById('earlier'); if (!box) return;
+  var items = [].slice.call(box.querySelectorAll('details.early')), btn = box.querySelector('.e-all'), all = false;
+  items.forEach(function (d) {
+    d.addEventListener('toggle', function () {
+      if (all || !d.open) return;
+      items.forEach(function (o) { if (o !== d) o.open = false; });
+    });
+  });
+  btn.addEventListener('click', function () {
+    all = !all;
+    items.forEach(function (d) { d.open = all; });
+    btn.textContent = all ? 'Hide earlier roles' : 'Show all earlier roles';
+    btn.setAttribute('aria-expanded', all ? 'true' : 'false');
+    if (!all) box.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  });
+})();

@@ -75,9 +75,9 @@ layout: default
 <section id="experience" class="slide tone-tint">
   <div class="wrap">
     <div class="sec-head reveal"><span class="label"><svg class="ic" aria-hidden="true"><use href="#i-route"/></svg>Experience</span><h2>Every stop on the line</h2></div>
+    {% assign nfull = p.experience_full | default: 4 %}{% capture early %}{% endcapture %}
     <ol class="deck">
-      {% for job in p.experience %}
-      <li class="job{% if job.current %} now{% endif %}">
+      {% for job in p.experience %}{% capture card %}
         <div class="job-side">
           <span class="job-icon" aria-hidden="true"><svg class="ic"><use href="#i-{{ job.icon | default: 'route' }}"/></svg></span>
           <span class="when">{{ job.dates }}</span>
@@ -90,9 +90,15 @@ layout: default
           <ul>{% for pt in job.points %}<li>{{ pt }}</li>{% endfor %}</ul>
         </div>
         <svg class="job-art" aria-hidden="true"><use href="#i-{{ job.icon | default: 'route' }}"/></svg>
-      </li>
+      {% endcapture %}{% if forloop.index <= nfull %}
+      <li class="job{% if job.current %} now{% endif %}">{{ card }}</li>{% else %}{% capture early %}{{ early }}
+      <details class="early"><summary><span class="e-when">{{ job.dates }}</span><span class="e-main"><b>{{ job.title }}</b><span class="e-org">{% if job.client %}<span class="e-client">{{ job.client }}</span> · {% endif %}{{ job.company }}</span><span class="e-best">{{ job.points.first }}</span></span><span class="e-chev" aria-hidden="true"></span></summary><div class="job e-card">{{ card }}</div></details>{% endcapture %}{% endif %}
       {% endfor %}
     </ol>
+    {% if early != "" %}<div class="earlier reveal" id="earlier">
+      <div class="e-head"><h3>Earlier career</h3><button type="button" class="e-all" aria-expanded="false">Show all earlier roles</button></div>
+      {{ early }}
+    </div>{% endif %}
   </div>
 </section>
 {% endunless %}
