@@ -618,3 +618,7 @@ footer .wrap.f-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1.2fr;
 .intent:hover em { transform: translate(3px, -3px); }
 @media (min-width: 1101px) { .speak.duo ul { grid-template-columns: repeat(4, minmax(0, 1fr)); } .speak.duo .tk-desc { font-size: 14px; } }
 @media (min-width: 1100px) { .speak.duo ul { grid-template-columns: repeat(4, minmax(0, 1fr)); } .speak.duo li { padding: 20px 18px; } .speak.duo .tk-desc { font-size: 14px; } }
+
+.post-card .pc-top { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+.post-card .tk-chip { font-size: 12px; font-weight: 700; color: var(--navy); background: color-mix(in srgb, var(--brand) 9%, #FFFFFF); border: 1px solid color-mix(in srgb, var(--brand) 22%, #FFFFFF); border-radius: 999px; padding: 5px 11px; white-space: nowrap; }
+.post-card .tk-chip { font-size: 13px; padding: 6px 12px; }

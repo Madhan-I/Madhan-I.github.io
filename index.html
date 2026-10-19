@@ -173,7 +173,7 @@ layout: default
     <div class="post-list reveal">
       {% for post in site.posts limit:3 %}
       <a class="post-card" href="{{ post.url | relative_url }}">
-        <span class="k">{{ post.date | date: "%d %b %Y" }}</span>
+        <span class="pc-top"><span class="k">{{ post.date | date: "%d %b %Y" }}</span>{% if post.tags.size > 0 %}<span class="tk-chip">{{ post.tags.first }}</span>{% endif %}</span>
         <b>{{ post.title }}</b>
         {% if post.summary %}<span class="s">{{ post.summary }}</span>{% endif %}
         <span class="read">Read the story <svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></span>
