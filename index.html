@@ -202,7 +202,7 @@ layout: default
       <div class="card">
         <span class="k">Resume</span>
         <div class="row">
-          {% if p.resume_file != "" %}<a class="v" href="{{ '/assets/resume/' | append: p.resume_file | relative_url }}" data-goatcounter-click="click-contact-resume" download>Download PDF ↓</a>
+          {% if p.resume_file != "" %}<a class="v" href="{{ '/assets/resume/' | append: p.resume_file | relative_url }}" data-goatcounter-click="click-contact-resume" download>Download PDF ↓</a><span class="sep"> · </span><a class="v" href="{{ '/assets/resume/Madhan-Irulandi-Resume.docx' | relative_url }}" data-goatcounter-click="click-contact-resume-word" download>Word ↓</a>
           {% else %}<a class="v" href="mailto:{{ p.email }}?subject=Resume%20request">Request by email</a>{% endif %}
         </div>
       </div>
