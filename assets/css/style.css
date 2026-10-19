@@ -611,3 +611,8 @@ footer .wrap.f-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1.2fr;
 .tk-meta .ic { width: 15px; height: 15px; }
 .speak.talks .tk-desc { color: var(--text); font-size: 15px; line-height: 1.5; }
 .speak.talks i { margin-top: auto; padding-top: 8px; }
+
+.card .row.res { justify-content: flex-start; gap: 14px; }
+.card .row.res .sep { color: rgba(255, 255, 255, .4); }
+.intent em { color: #F2A541; font-size: 20px; transition: transform .2s; }
+.intent:hover em { transform: translate(3px, -3px); }
