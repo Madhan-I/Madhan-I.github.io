@@ -120,7 +120,7 @@ layout: default
       {% for s in p.community %}<li><div class="tk-top"><span class="tk-date">{{ s.when }}</span>{% if s.topic %}<span class="tk-chip">{{ s.topic }}</span>{% endif %}</div><b>{{ s.who }}</b><span class="tk-desc">{{ s.what }}</span>{% if s.link %}<a class="tk-link" href="{{ s.link | relative_url }}">Read the story →</a>{% endif %}</li>{% endfor %}
     </ul></div>{% endif %}
     {% if p.events %}<div class="speak duo talks reveal"><h3>{{ p.events_title }}</h3><ul>
-      {% for s in p.events %}<li><div class="tk-top"><span class="tk-date">{{ s.when }}</span>{% if s.topic %}<span class="tk-chip">{{ s.topic }}</span>{% endif %}</div><b>{{ s.who }}</b><span class="tk-desc">{{ s.what }}</span></li>{% endfor %}
+      {% for s in p.events %}<li><div class="tk-top"><span class="tk-date">{{ s.when }}</span>{% if s.topic %}<span class="tk-chip">{{ s.topic }}</span>{% endif %}</div><b>{{ s.who }}</b><span class="tk-desc">{{ s.what }}</span>{% if s.link %}<a class="tk-link" href="{{ s.link | relative_url }}">Read the story →</a>{% endif %}</li>{% endfor %}
     </ul></div>{% endif %}
   </div>
 </section>
