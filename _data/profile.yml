@@ -39,7 +39,7 @@ github: ""
 resume_file: "Madhan-Irulandi-Resume.pdf"
 
 # Booking link for the "Book a call" buttons. Leave "" to hide them.
-calendly: ""
+calendly: "https://calendly.com/irulandi-madhan/30min"
 
 # Optional: put a square photo in assets/images/ and type its file name here.
 photo: "madhan-headshot-bright.jpg"
@@ -295,7 +295,7 @@ events:
     what: Took part in an in-person computer vision hackathon on Northeastern's Boston campus
     when: Mar 2025
   - who: Solve at MIT 2023
-    what: Attended MIT Solve's flagship gathering on technology for social impact, opening at Kresge Auditorium, MIT
+    what: Attended the public opening plenary of MIT Solve's annual event on technology for social impact, with MIT President Sally Kornbluth, at Kresge Auditorium
     when: May 2023
   - who: Adobe Create Now Boston
     what: Saw Adobe demo its newest Firefly generative AI features across Photoshop, Illustrator and Express, at an in-person community evening in South Boston
