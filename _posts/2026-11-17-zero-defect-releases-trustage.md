@@ -2,7 +2,7 @@
 title: "2,000 requests, zero-defect releases"
 teaser: "How automated testing made every release a clean one"
 summary: How a multi-tier automated testing framework made every TruStage release clean, and schedules 35% shorter.
-tags: [Quality, Scrum, Testing]
+tags: [Quality, Delivery]
 ---
 
 In January 2020 I joined Syntel, part of Atos, as Scrum Master and Agile Delivery Lead for TruStage Financial Group, then known as CUNA Mutual Group.

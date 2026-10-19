@@ -2,7 +2,7 @@
 title: "Keeping Walmart's systems up when it mattered most"
 teaser: "Lessons in reliability from my first job in tech"
 summary: My first IT role, in production support for Walmart's Item File and Order Management System, and what it taught me about reliability.
-tags: [Reliability, Operations, Retail]
+tags: [Quality, Delivery]
 ---
 
 Everyone remembers their first job in tech. Mine, from July 2014 to June 2015, was production support at Cognizant for Walmart's Item File, Order Management System and the legacy platforms around them.

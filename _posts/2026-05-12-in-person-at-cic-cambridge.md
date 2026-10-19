@@ -3,7 +3,7 @@ title: "What one evening a month in Kendall Square taught a remote-first leader"
 teaser: "In-person hack nights at CIC Cambridge, and why I still plan for face time"
 summary: Why the in-person Code for Boston nights at the Cambridge Innovation Center changed how I run distributed delivery.
 retro: "A look back at 2022–2025, published here when this site launched in 2026."
-tags: [Leadership, Collaboration, Distributed Teams]
+tags: [Leadership, Community]
 ---
 
 Most of my career has been remote or split across time zones. Teams in Chennai and clients in the US, daily stand-ups over video, decisions in chat threads. It works, and I'm good at it.

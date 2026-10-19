@@ -3,7 +3,7 @@ title: "A Friday at a visual AI hackathon"
 teaser: "What a delivery lead takes away from a room full of builders"
 summary: Building part of an image mapping and sentiment analysis project at Voxel51's Visual AI Hackathon at Northeastern University in March 2025, and the friendships that came out of it.
 retro: "A look back at March 2025, published here when this site launched in 2026."
-tags: [AI, Hackathons, Community]
+tags: [AI, Community]
 ---
 
 On 21 March 2025 I spent the day at Northeastern University in Boston, at one of Voxel51's Visual AI Hackathons. Voxel51 makes FiftyOne, an open-source toolkit for working with image and video datasets, and that spring it ran a series of these hackathons at universities across the US. The format was simple: tech talks, hands-on workshops, challenges to work on, and plenty of time to meet people.

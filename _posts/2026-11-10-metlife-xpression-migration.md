@@ -2,7 +2,7 @@
 title: "Migrating 4,500 documents without a single defect"
 teaser: "A 4,500-document migration with zero defects"
 summary: The MetLife move to OpenText xPression saved 2,000 engineering hours a quarter and cut annual remediation costs.
-tags: [Migration, Quality, Insurance]
+tags: [Quality, Delivery]
 ---
 
 Legacy migrations have a reputation, and it's not a good one. Everyone has a story about the one that ran late, went over budget, or broke something nobody noticed until a customer did.

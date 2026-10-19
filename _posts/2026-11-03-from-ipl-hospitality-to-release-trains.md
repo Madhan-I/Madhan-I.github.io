@@ -2,7 +2,7 @@
 title: "From IPL hospitality boxes to release trains"
 teaser: "What live events taught me before I ever ran a sprint"
 summary: What event management and healthcare claims taught me before I ever ran a sprint.
-tags: [Career, Leadership]
+tags: [Leadership]
 ---
 
 People are sometimes surprised that my career didn't start in technology. Alongside my Electrical and Electronics Engineering degree, I worked in live events. I've come to think it was some of the best preparation I could have had.

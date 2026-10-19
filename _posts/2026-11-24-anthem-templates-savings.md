@@ -2,7 +2,7 @@
 title: "Fewer templates, lower costs, happier clients"
 teaser: "How fewer templates cut costs and lifted revenue"
 summary: How consolidating legacy layouts at Anthem cut $300,000 a year in operating costs and supported $400,000 in revenue.
-tags: [Efficiency, Healthcare, Quality]
+tags: [Quality, Delivery]
 ---
 
 From July 2015 to June 2017 I worked at Cognizant as a Systems Engineer and Application Analyst for Elevance Health, then Anthem Blue Cross Blue Shield, as part of a cross-functional team of 60 developers.

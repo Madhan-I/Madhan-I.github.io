@@ -4,18 +4,37 @@ layout: default
 <article class="wrap post">
   <a class="back" href="{{ '/blog/' | relative_url }}">← All writing</a>
   <header>
-    <p class="eyebrow"><span class="pdate">{{ page.date | date: "%d %b %Y" }}</span>{% assign words = content | strip_html | number_of_words %}{% assign mins = words | divided_by: 200 | plus: 1 %} · {{ mins }} min read{% if page.tags.size > 0 %} · {{ page.tags | join: " · " }}{% endif %}</p>
+    <p class="eyebrow"><span class="pdate">{{ page.date | date: "%d %b %Y" }}</span>{% assign words = content | strip_html | number_of_words %}{% assign mins = words | divided_by: 200 | plus: 1 %} · {{ mins }} min read</p>
     <h1 class="post-title">{{ page.title }}</h1>
     {% if page.summary %}<p class="lede">{{ page.summary }}</p>{% endif %}
     {% if page.retro %}<p class="retro">{{ page.retro }}</p>{% endif %}
+    <div class="post-meta">
+      {% if page.tags.size > 0 %}<ul class="tags">{% for t in page.tags %}<li><a href="{{ '/blog/' | relative_url }}?tag={{ t | url_encode }}">{{ t }}</a></li>{% endfor %}</ul>{% endif %}
+      <a class="share-in" href="https://www.linkedin.com/sharing/share-offsite/?url={{ page.url | absolute_url | url_encode }}" target="_blank" rel="noopener" data-goatcounter-click="share-linkedin-top"><svg class="ic" aria-hidden="true"><use href="#i-linkedin"/></svg>Share on LinkedIn</a>
+    </div>
   </header>
   {% if page.cover %}<img class="cover" src="{{ page.cover | relative_url }}" alt="">{% endif %}
   <nav class="toc" aria-label="On this page" hidden><b>On this page</b><ol></ol></nav>
   <div class="prose">
     {{ content }}
   </div>
-  <aside class="post-cta">
-    <p><b>Working on a programme like this?</b> Email <span class="sel">{{ site.data.profile.email }}</span> or connect on <a href="{{ site.data.profile.linkedin }}" target="_blank" rel="noopener">LinkedIn</a>.</p>
-    <button class="copy-link" type="button" data-url="{{ page.url | absolute_url }}">Copy article link</button>
+  <aside class="author-box">
+    <img src="{{ '/assets/images/' | append: site.data.profile.photo | relative_url }}" alt="Madhan Irulandi" width="88" height="88" loading="lazy">
+    <div>
+      <p class="ab-name">Written by {{ site.data.profile.name_first }} {{ site.data.profile.name_last }}</p>
+      <p class="ab-role">{{ site.data.profile.headline }} · Microsoft Certified Trainer since 2020</p>
+      <p class="ab-cta">Working on a programme like this? Let's talk.</p>
+      <div class="ab-actions">
+        {% if site.data.profile.calendly != "" %}<a class="btn primary" href="{{ site.data.profile.calendly }}" target="_blank" rel="noopener" data-goatcounter-click="post-book-call">Book a call</a>{% endif %}
+        <a class="btn" href="https://www.linkedin.com/sharing/share-offsite/?url={{ page.url | absolute_url | url_encode }}" target="_blank" rel="noopener" data-goatcounter-click="share-linkedin-bottom"><svg class="ic" aria-hidden="true"><use href="#i-linkedin"/></svg>Share</a>
+        <button class="copy-link" type="button" data-url="{{ page.url | absolute_url }}">Copy article link</button>
+      </div>
+    </div>
   </aside>
+  <nav class="post-nav" aria-label="More articles">
+    {% if page.previous %}<a class="pn prev" href="{{ page.previous.url | relative_url }}"><span>← Previous</span><b>{{ page.previous.title }}</b></a>{% else %}<span></span>{% endif %}
+    {% if page.next %}<a class="pn next" href="{{ page.next.url | relative_url }}"><span>Next →</span><b>{{ page.next.title }}</b></a>{% endif %}
+  </nav>
+  {% assign shown = 0 %}{% capture rel %}{% for post in site.posts %}{% if shown < 3 and post.url != page.url %}{% assign common = false %}{% for tg in post.tags %}{% if page.tags contains tg %}{% assign common = true %}{% endif %}{% endfor %}{% if common %}{% assign shown = shown | plus: 1 %}<a class="post-card" href="{{ post.url | relative_url }}"><span class="k">{{ post.date | date: "%d %b %Y" }}</span><b>{{ post.title }}</b>{% if post.summary %}<span class="s">{{ post.summary }}</span>{% endif %}<span class="read">Read article →</span></a>{% endif %}{% endif %}{% endfor %}{% for post in site.posts %}{% if shown < 3 and post.url != page.url %}{% assign common = false %}{% for tg in post.tags %}{% if page.tags contains tg %}{% assign common = true %}{% endif %}{% endfor %}{% unless common %}{% assign shown = shown | plus: 1 %}<a class="post-card" href="{{ post.url | relative_url }}"><span class="k">{{ post.date | date: "%d %b %Y" }}</span><b>{{ post.title }}</b>{% if post.summary %}<span class="s">{{ post.summary }}</span>{% endif %}<span class="read">Read article →</span></a>{% endunless %}{% endif %}{% endfor %}{% endcapture %}
+  {% if shown > 0 %}<section class="more"><h2>More to explore</h2><div class="more-grid">{{ rel }}</div></section>{% endif %}
 </article>

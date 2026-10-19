@@ -2,7 +2,7 @@
 title: "400 tickets, two lost years, nine months to recover"
 teaser: "How a frozen programme got moving again in nine months"
 summary: How release governance brought a frozen John Hancock platform programme back to life.
-tags: [Release Train, Recovery, Leadership]
+tags: [Delivery, Leadership]
 ---
 
 In September 2022 I moved to Boston to work on-site for John Hancock as Release Train Engineer and Technical Product Manager. The programme I joined had been held up for two years.
