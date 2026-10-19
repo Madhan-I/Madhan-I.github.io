@@ -120,13 +120,22 @@ document.querySelectorAll('.copy-btn').forEach(function (b) {
         a.href = '#' + h.id; a.textContent = h.textContent; li.appendChild(a); ol.appendChild(li); links.push([h, a]);
       });
       toc.hidden = false;
-      var det = toc.querySelector('details'); if (det && window.matchMedia('(max-width: 1179px)').matches) det.open = false;
-      ol.addEventListener('click', function () { if (det && window.matchMedia('(max-width: 1179px)').matches) det.open = false; });
-      window.addEventListener('scroll', function () {
-        var cur = null;
-        links.forEach(function (x) { if (x[0].getBoundingClientRect().top < 160) cur = x[1]; });
-        links.forEach(function (x) { x[1].classList.toggle('on', x[1] === cur); });
-      }, { passive: true });
+      var det = toc.querySelector('details'); if (det && window.matchMedia('(max-width: 760px)').matches) det.open = false;
+      ol.addEventListener('click', function () { if (det && window.matchMedia('(max-width: 760px)').matches) det.open = false; });
+      var fl = document.createElement('nav'); fl.className = 'toc-float'; fl.setAttribute('aria-label', 'On this page');
+      fl.innerHTML = '<b>On this page</b><ol></ol>';
+      var flinks = [];
+      links.forEach(function (x) { var li = document.createElement('li'), a = document.createElement('a'); a.href = x[1].getAttribute('href'); a.textContent = x[1].textContent; li.appendChild(a); fl.querySelector('ol').appendChild(li); flinks.push(a); });
+      document.body.appendChild(fl);
+      var endEl = document.querySelector('.author-box') || prose;
+      function onScroll() {
+        var cur = -1;
+        links.forEach(function (x, i) { if (x[0].getBoundingClientRect().top < 160) cur = i; });
+        links.forEach(function (x, i) { x[1].classList.toggle('on', i === cur); flinks[i].classList.toggle('on', i === cur); });
+        var past = toc.getBoundingClientRect().bottom < 90, before = endEl.getBoundingClientRect().top > 200;
+        fl.classList.toggle('show', past && before);
+      }
+      window.addEventListener('scroll', onScroll, { passive: true }); onScroll();
     }
   }
   var cp = document.querySelector('.copy-link');
