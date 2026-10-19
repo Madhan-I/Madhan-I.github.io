@@ -4,15 +4,17 @@ layout: default
 <article class="wrap post">
   <a class="back" href="{{ '/blog/' | relative_url }}">← All writing</a>
   <header>
-    <p class="eyebrow"><span class="pdate">{{ page.date | date: "%d %b %Y" }}</span>{% if page.tags.size > 0 %} · {{ page.tags | join: " · " }}{% endif %}</p>
+    <p class="eyebrow"><span class="pdate">{{ page.date | date: "%d %b %Y" }}</span>{% assign words = content | strip_html | number_of_words %}{% assign mins = words | divided_by: 200 | plus: 1 %} · {{ mins }} min read{% if page.tags.size > 0 %} · {{ page.tags | join: " · " }}{% endif %}</p>
     <h1 class="post-title">{{ page.title }}</h1>
     {% if page.summary %}<p class="lede">{{ page.summary }}</p>{% endif %}
   </header>
   {% if page.cover %}<img class="cover" src="{{ page.cover | relative_url }}" alt="">{% endif %}
+  <nav class="toc" aria-label="On this page" hidden><b>On this page</b><ol></ol></nav>
   <div class="prose">
     {{ content }}
   </div>
   <aside class="post-cta">
     <p><b>Working on a programme like this?</b> Email <span class="sel">{{ site.data.profile.email }}</span> or connect on <a href="{{ site.data.profile.linkedin }}" target="_blank" rel="noopener">LinkedIn</a>.</p>
+    <button class="copy-link" type="button" data-url="{{ page.url | absolute_url }}">Copy article link</button>
   </aside>
 </article>
