@@ -204,3 +204,9 @@ document.querySelectorAll('.copy-btn').forEach(function (b) {
     if (!all) box.scrollIntoView({ behavior: 'smooth', block: 'start' });
   });
 })();
+
+(function () {
+  document.querySelectorAll('details.early .e-close').forEach(function (b) {
+    b.addEventListener('click', function () { var d = b.closest('details'); d.open = false; d.querySelector('summary').focus(); });
+  });
+})();
