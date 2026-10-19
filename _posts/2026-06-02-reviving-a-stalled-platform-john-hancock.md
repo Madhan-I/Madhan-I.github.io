@@ -3,7 +3,7 @@ title: "400 tickets, two lost years, nine months to recover"
 teaser: "How a frozen programme got moving again in nine months"
 summary: How release governance brought a frozen John Hancock platform programme back to life.
 outcome: "A platform frozen for two years moving again: 400+ backlog tickets cleared in nine months and five modernisation initiatives live across 20+ business divisions."
-hashtags: [ReleaseTrainEngineer, SAFe, PIPlanning, ProgramRecovery, ReleaseManagement]
+hashtags: [ReleaseTrainEngineer, SSCChorus, AWD, BPM, PIPlanning, ProgramRecovery]
 redirect_from:
   - /blog/2026/10/reviving-a-stalled-platform-john-hancock/
 tags: [Delivery, Leadership]
@@ -25,7 +25,13 @@ Then capacity. I introduced structured capacity planning with Function Point ana
 
 Once the train was moving, the business wanted more, and rightly so. We guided teams through coordinated upgrades, and **all five modernisation initiatives went live across more than 20 business divisions**. That only works when dependencies are visible and release dates mean something.
 
-The AWD workflow system at the heart of it hadn't been upgraded since 2019. We delivered its first upgrades in four years, completing most of them by Q2 2023, within a year of taking over, while still clearing the backlog.
+The AWD workflow system at the heart of it was still on its 2019 release. My teams worked in AWD's legacy desktop clients, EnCorr and Viewstation. We delivered the platform's first upgrades in four years, completing most of them by Q2 2023, within a year of taking over, while still clearing the backlog.
+
+## From AWD to SS&C Chorus BPM
+
+AWD has a long history. It was built by DST Systems, which SS&C bought in 2018, and in 2021 SS&C relaunched it as Chorus BPM, part of its SS&C Chorus automation platform, now supported under SS&C Blue Prism.
+
+Upgrading inside AWD was the first step. The bigger one was moving people onto the new generation. Before I handed over in August 2025, all my teams had moved off the EnCorr and Viewstation desktops and onto SS&C Chorus BPM. A change like that touches how every person works every day, so it needs the same discipline as any release: clear dates, training before go-live and no surprises for the business.
 
 ## The outcome
 
@@ -33,6 +39,7 @@ The AWD workflow system at the heart of it hadn't been upgraded since 2019. We d
 - **All 5 modernisation initiatives** live across **20+ business divisions**.
 - Effort estimates within **10% of actual work** in the first quarter.
 - The AWD workflow system's **first upgrades since 2019**, mostly complete by **Q2 2023**.
+- **All my teams moved** from AWD's legacy EnCorr and Viewstation desktops to **SS&C Chorus BPM** before I handed over in August 2025.
 
 ## What I learned in Boston
 
