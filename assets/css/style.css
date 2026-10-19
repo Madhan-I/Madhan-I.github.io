@@ -661,3 +661,12 @@ footer .wrap.f-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1.2fr;
 .dl-card:hover { border-color: #F2A541; }
 @media (max-width: 900px) { .contact-row.trio-row { grid-template-columns: 1fr 1fr; } .contact-row.trio-row > .card:last-child { grid-column: 1 / -1; } }
 @media (max-width: 560px) { .contact-row.trio-row { grid-template-columns: 1fr; } }
+
+/* Contact bottom: resume tiles (no box) left, email card under the three cards */
+.contact-bottom { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: center; margin-top: 12px; }
+.res-tiles { display: flex; align-items: center; gap: 18px; }
+.res-tiles .k { display: block; font: 700 12px/1 var(--body); letter-spacing: .1em; text-transform: uppercase; color: rgba(255, 255, 255, .6); }
+.res-tiles .tiles { display: flex; gap: 12px; }
+.res-tiles .dl-tile { width: 64px; height: 64px; text-decoration: none; transition: transform .2s, box-shadow .2s; }
+.res-tiles .dl-tile:hover { transform: translateY(-2px); box-shadow: 0 0 0 2px #F2A541; }
+@media (max-width: 900px) { .contact-bottom { grid-template-columns: 1fr; gap: 20px; } }
