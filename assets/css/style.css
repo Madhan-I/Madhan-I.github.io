@@ -617,3 +617,4 @@ footer .wrap.f-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1.2fr;
 .intent em { color: #F2A541; font-size: 20px; transition: transform .2s; }
 .intent:hover em { transform: translate(3px, -3px); }
 @media (min-width: 1101px) { .speak.duo ul { grid-template-columns: repeat(4, minmax(0, 1fr)); } .speak.duo .tk-desc { font-size: 14px; } }
+@media (min-width: 1100px) { .speak.duo ul { grid-template-columns: repeat(4, minmax(0, 1fr)); } .speak.duo li { padding: 20px 18px; } .speak.duo .tk-desc { font-size: 14px; } }
