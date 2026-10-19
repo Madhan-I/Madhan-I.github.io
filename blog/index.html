@@ -16,10 +16,9 @@ description: Articles by Madhan Irulandi on agile delivery, release trains, AI i
     <div class="post-list">
       {% for post in site.posts %}{% assign w = post.content | strip_html | number_of_words %}{% assign m = w | divided_by: 200 | plus: 1 %}
       <a class="post-card" href="{{ post.url | relative_url }}" data-tags="{{ post.tags | join: '|' }}">
-        <span class="k">{{ post.date | date: "%d %b %Y" }} · {{ m }} min read</span>
+        <span class="pc-top"><span class="k">{{ post.date | date: "%d %b %Y" }} · {{ m }} min read</span>{% if post.tags.size > 0 %}<span class="tk-chip">{{ post.tags.first }}</span>{% endif %}</span>
         <b>{{ post.title }}</b>
         {% if post.summary %}<span class="s">{{ post.summary }}</span>{% endif %}
-        {% if post.tags.size > 0 %}<span class="pt">{{ post.tags | join: " · " }}</span>{% endif %}
       </a>
       {% endfor %}
     </div>
