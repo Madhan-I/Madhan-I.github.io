@@ -3,7 +3,7 @@ title: "Delivering with people who don't have to show up"
 teaser: "What civic tech volunteering in Boston taught me about delivery"
 summary: What I learned as a volunteer member of Code for Boston, helping newcomers get set up across four civic tech projects.
 retro: "A look back at 2022–2025, published here when this site launched in 2026."
-tags: [Onboarding, Volunteering, Civic Tech]
+tags: [Community, Leadership]
 ---
 
 From September 2022 to August 2025 I was on-site in Boston for John Hancock. Alongside that work I joined Code for Boston, a volunteer group that builds free, open-source software for public-service organisations. Hack nights ran on Tuesday evenings, on Zoom every week and in person at the Cambridge Innovation Center once or twice a month.

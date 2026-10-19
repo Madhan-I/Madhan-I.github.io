@@ -3,7 +3,7 @@ title: "Generative AI, up close, at Adobe Create Now Boston"
 teaser: "Watching Firefly move from headline to everyday tool"
 summary: An evening at Adobe Create Now Boston in August 2025, seeing Firefly's generative AI inside Photoshop, Illustrator and Express, and the friends I made there.
 retro: "A look back at August 2025, published here when this site launched in 2026."
-tags: [AI, Product, Community]
+tags: [AI, Community]
 ---
 
 On 5 August 2025, a few weeks before I left Boston, I went to Adobe Create Now Boston. It was a free evening event at Artists For Humanity in South Boston, a non-profit that employs young people in the arts. Adobe's team demonstrated the latest updates to Photoshop, Illustrator and Adobe Express, with Firefly, Adobe's generative AI, running through all of them. Local creatives shared their own workflows, and the rest of the evening was for meeting people.

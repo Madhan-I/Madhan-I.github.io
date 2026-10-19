@@ -134,3 +134,20 @@ document.querySelectorAll('.copy-btn').forEach(function (b) {
     try { navigator.clipboard.writeText(url).then(function () { done('Link copied'); }, function () { done(url); }); } catch (e) { done(url); }
   });
 })();
+
+/* Blog tag filter (supports ?tag= in the URL) */
+(function () {
+  var bar = document.querySelector('.tag-filter');
+  if (!bar) return;
+  var cards = document.querySelectorAll('.post-list .post-card');
+  function apply(tag) {
+    bar.querySelectorAll('button').forEach(function (b) { b.classList.toggle('on', b.dataset.tag === tag); });
+    cards.forEach(function (c) { c.hidden = !!tag && (c.dataset.tags || '').split('|').indexOf(tag) < 0; });
+  }
+  bar.addEventListener('click', function (e) {
+    var b = e.target.closest('button'); if (!b) return;
+    apply(b.dataset.tag);
+    try { var u = new URL(location.href); if (b.dataset.tag) u.searchParams.set('tag', b.dataset.tag); else u.searchParams.delete('tag'); history.replaceState(null, '', u); } catch (err) {}
+  });
+  try { var t = new URLSearchParams(location.search).get('tag'); if (t) apply(t); } catch (err) {}
+})();

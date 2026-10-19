@@ -2,7 +2,7 @@
 title: "Delivering for 20 million policyholders without adding headcount"
 teaser: "Coaching teams to serve 20 million policyholders"
 summary: How Agile coaching raised velocity 30% and cut cost 25% on the Allstate communications programme.
-tags: [Scrum, Coaching, Insurance]
+tags: [Delivery, Leadership]
 ---
 
 Some programmes are big because of the technology. The Allstate programme I led from September 2020 to August 2022 was big because of its audience.
