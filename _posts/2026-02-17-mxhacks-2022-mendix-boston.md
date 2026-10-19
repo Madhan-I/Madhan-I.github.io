@@ -3,7 +3,7 @@ title: "36 hours of low-code for good"
 teaser: "My first weeks in Boston, at Mendix's global hackathon"
 summary: Taking part in MxHacks 2022, Mendix's global "Low-Code for Good" hackathon, at its Boston site in September 2022, and the friends I made there.
 retro: "A look back at September 2022, published here when this site launched in 2026."
-tags: [Low-Code, Hackathons, Community]
+tags: [Community, Delivery]
 ---
 
 I arrived in Boston in September 2022 to start on-site work for John Hancock. Within a few weeks I was at my first hackathon in the city: MxHacks 2022, "Low-Code for Good", run by Mendix, the low-code platform company that's part of Siemens.

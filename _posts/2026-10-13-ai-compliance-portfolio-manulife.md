@@ -2,7 +2,7 @@
 title: "Running a portfolio where AI has to be right"
 teaser: "Keeping AI compliance right at portfolio scale"
 summary: How we cut onboarding false positives from 30% to 10–15% while keeping a multi-million-dollar portfolio at 100% predictability.
-tags: [Portfolio, AI, SAFe]
+tags: [AI, Delivery]
 ---
 
 In September 2025 I took over end-to-end governance for Manulife's Core API, Customer Engagement and Compliance AI products, reporting portfolio health and roadmap decisions directly to executive leadership.
