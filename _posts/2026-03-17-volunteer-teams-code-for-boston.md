@@ -1,14 +1,14 @@
 ---
-title: "Leading people who don't have to show up"
+title: "Delivering with people who don't have to show up"
 teaser: "What civic tech volunteering in Boston taught me about delivery"
-summary: Coordinating volunteers and mentoring developers at Code for Boston, on a heat pump outreach app and an open police data platform.
+summary: What I learned as a volunteer member of Code for Boston, helping coordinate tasks and mentoring developers on a heat pump outreach app and an open police data platform.
 retro: "A look back at 2022–2023, published here when this site launched in 2026."
 tags: [Leadership, Mentoring, Civic Tech]
 ---
 
 In 2022 I was on-site in Boston for John Hancock, restarting a platform programme that had been frozen for two years. On Tuesday evenings I joined Code for Boston, a volunteer group that builds free, open-source software for public-service organisations. Hack nights ran on Zoom every week and in person at the Cambridge Innovation Center once or twice a month.
 
-I didn't go there to write features. I did the same job I do at work: coordinating volunteers and mentoring developers so a team could finish what it started.
+I was one of many volunteer members giving their evenings. I didn't go there to write features. Alongside the others, I helped coordinate tasks and mentored newer developers, using the skills I use at work to help the team finish what it started.
 
 ## A heat pump app with five moving parts
 
