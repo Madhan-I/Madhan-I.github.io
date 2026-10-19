@@ -38,6 +38,9 @@ github: ""
 # Leave it empty ("") to show "Request by email" instead of a download button.
 resume_file: "Madhan-Irulandi-Resume.pdf"
 
+# Booking link for the "Book a call" buttons. Leave "" to hide them.
+calendly: ""
+
 # Optional: put a square photo in assets/images/ and type its file name here.
 photo: "madhan-headshot-bright.jpg"
 
@@ -277,7 +280,7 @@ community_title: Civic tech volunteering · Code for Boston
 community:
   - who: Urban League Heat Pump app
     what: Coordinated volunteers and mentored developers on a data app that helps the Urban League of Eastern Massachusetts target heat pump outreach across Boston, with a focus on equity
-    when: Joined Jul 2022
+    when: Joined Aug 2022
   - who: National Police Data Coalition
     what: Coordinated and mentored volunteers restarting a central, public repository of police conduct data for researchers, lawyers and policymakers
     when: Joined Apr 2023
