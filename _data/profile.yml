@@ -36,7 +36,7 @@ github: ""
 
 # Put your resume PDF in assets/resume/ and type its file name here.
 # Leave it empty ("") to show "Request by email" instead of a download button.
-resume_file: ""
+resume_file: "Madhan-Irulandi-Resume.pdf"
 
 # Optional: put a square photo in assets/images/ and type its file name here.
 photo: "madhan-headshot-bright.jpg"
