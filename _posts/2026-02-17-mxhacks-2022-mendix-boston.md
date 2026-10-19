@@ -3,6 +3,7 @@ title: "36 hours of low-code for good"
 teaser: "My first weeks in Boston, at Mendix's global hackathon"
 summary: Taking part in MxHacks 2022, Mendix's global "Low-Code for Good" hackathon, at its Boston site in September 2022, and the friends I made there.
 outcome: "My first weeks in Boston: 36 hours at a global low-code hackathon for nonprofits, a sharper sense of honest scope, and friends I'm still in touch with."
+hashtags: [MxHacks, Mendix, LowCode, Hackathon, TechForGood, Boston]
 retro: "A look back at September 2022, published here when this site launched in 2026."
 tags: [Community, Delivery]
 ---

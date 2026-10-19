@@ -3,6 +3,7 @@ title: "Delivering for 20 million policyholders without adding headcount"
 teaser: "Coaching teams to serve 20 million policyholders"
 summary: How Agile coaching raised velocity 30% and cut cost 25% on the Allstate communications programme.
 outcome: "Velocity up 30%, cost down 25% with no extra headcount, and releases moved from monthly to near-weekly for 20 million+ policyholders."
+hashtags: [AgileCoaching, ScrumMaster, Insurance, ReleaseManagement, DeliveryLeadership]
 tags: [Delivery, Leadership]
 ---
 
