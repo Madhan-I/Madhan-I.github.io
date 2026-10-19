@@ -4,6 +4,8 @@ teaser: "A 4,500-document migration with zero defects"
 summary: The MetLife move to OpenText xPression saved 2,000 engineering hours a quarter and cut annual remediation costs.
 outcome: "4,500+ policy documents migrated to a zero-defect standard, and 2,000 engineering hours saved every quarter."
 hashtags: [OpenText, xPression, Migration, CustomerCommunications, ZeroDefect]
+redirect_from:
+  - /blog/2026/11/metlife-xpression-migration/
 tags: [Quality, Delivery]
 ---
 

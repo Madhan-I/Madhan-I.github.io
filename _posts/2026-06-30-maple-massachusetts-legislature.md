@@ -4,7 +4,9 @@ teaser: "MAPLE, Google Cloud and Firebase, and getting newcomers in the door"
 summary: How I supported MAPLE, Code for Boston's platform for testimony to the Massachusetts legislature, by getting new volunteers set up on its Google Cloud and Firebase project.
 outcome: "New volunteers got into MAPLE's Google Cloud and Firebase project faster, so they could help a live platform that lets Massachusetts residents speak to their legislature."
 hashtags: [CodeForBoston, CivicTech, GoogleCloud, Firebase, OpenSource]
-retro: "A look back at 2022–2025, published here when this site launched in 2026."
+retro: "A look back at 2022–2025, published here when this site launched."
+redirect_from:
+  - /blog/2026/03/maple-massachusetts-legislature/
 tags: [Community, Delivery]
 ---
 

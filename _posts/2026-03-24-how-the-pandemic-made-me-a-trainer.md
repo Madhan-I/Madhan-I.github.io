@@ -2,9 +2,11 @@
 title: "How the pandemic made me a trainer"
 teaser: "Five years as a Microsoft Certified Trainer, and why I keep renewing"
 summary: I became a Microsoft Certified Trainer in October 2020. It changed my career in ways I couldn't have planned, and it's still the part of my work I'd give up last.
-retro: "A look back at 2020–2025, published here when this site launched in 2026."
+retro: "A look back at 2020–2025, published here when this site launched."
 outcome: "One certificate in 2020 turned into 3,000+ people trained and 75+ guest lectures, alongside a full-time delivery career."
 hashtags: [MCT, MicrosoftCertifiedTrainer, Azure, Training, Community]
+redirect_from:
+  - /blog/2026/01/how-the-pandemic-made-me-a-trainer/
 tags: [AI, Community]
 ---
 

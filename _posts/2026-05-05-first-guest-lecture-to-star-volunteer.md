@@ -2,9 +2,11 @@
 title: "From a first guest lecture to Star Volunteer"
 teaser: "What eighteen months of teaching students gave back to me"
 summary: In September 2021 I gave my first guest lecture. Eighteen months later my employer named me Star Volunteer. Here's what happened in between, and why I'd do it all again.
-retro: "A look back at 2021–2023, published here when this site launched in 2026."
+retro: "A look back at 2021–2023, published here when this site launched."
 outcome: "A first nervous lecture in 2021 grew into sessions for colleges and charities across India, a Spot award, a Star Volunteer award and 75+ guest lectures so far."
 hashtags: [GuestLecture, CSR, Volunteering, PublicSpeaking, CloudTraining]
+redirect_from:
+  - /blog/2026/07/first-guest-lecture-to-star-volunteer/
 tags: [Community, Leadership]
 ---
 

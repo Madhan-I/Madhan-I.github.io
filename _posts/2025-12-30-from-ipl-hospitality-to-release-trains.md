@@ -4,6 +4,8 @@ teaser: "What live events taught me before I ever ran a sprint"
 summary: What event management and healthcare claims taught me before I ever ran a sprint.
 outcome: "Live events and healthcare claims taught me crowds, deadlines and data long before my first sprint, from a 40-strong IPL crew to $150,000 a quarter recovered."
 hashtags: [CareerJourney, EventManagement, IPL, HealthcareClaims, Leadership]
+redirect_from:
+  - /blog/2026/11/from-ipl-hospitality-to-release-trains/
 tags: [Leadership]
 ---
 

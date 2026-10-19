@@ -4,7 +4,9 @@ teaser: "Codespaces, Docker and a Kubernetes-based cloud for the Urban League"
 summary: How I supported the Urban League Heat Pump Accelerator at Code for Boston, helping newcomers set up Codespaces and Docker on a project with five workstreams.
 outcome: "Newcomers got Codespaces and Docker running and joined one of five workstreams, instead of losing their first nights to setup."
 hashtags: [CodeForBoston, ClimateTech, Codespaces, Docker, HeatPumps]
-retro: "A look back at 2022–2025, published here when this site launched in 2026."
+retro: "A look back at 2022–2025, published here when this site launched."
+redirect_from:
+  - /blog/2026/03/urban-league-heat-pump-accelerator/
 tags: [Community, Delivery]
 ---
 

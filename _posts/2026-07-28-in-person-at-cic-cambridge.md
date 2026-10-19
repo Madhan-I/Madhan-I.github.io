@@ -4,7 +4,9 @@ teaser: "In-person hack nights at CIC Cambridge, and why I still plan for face t
 summary: Why the in-person Code for Boston nights at the Cambridge Innovation Center changed how I run distributed delivery.
 outcome: "Evenings at the Cambridge Innovation Center showed me what face time does for a distributed team, and changed how I plan for it."
 hashtags: [CodeForBoston, CambridgeInnovationCenter, DistributedTeams, RemoteWork, Community]
-retro: "A look back at 2022–2025, published here when this site launched in 2026."
+retro: "A look back at 2022–2025, published here when this site launched."
+redirect_from:
+  - /blog/2026/05/in-person-at-cic-cambridge/
 tags: [Leadership, Community]
 ---
 
