@@ -289,6 +289,15 @@ community:
     what: Assisted first-time contributors on a live tool that lets energy coaches check whether a proposed heat pump can heat a home, replacing a manual spreadsheet
     when: May 2023 – Aug 2025
 
+events_title: Boston tech events attended
+events:
+  - who: Solve at MIT 2023
+    what: Attended MIT Solve's flagship gathering on technology for social impact, opening at Kresge Auditorium, MIT
+    when: May 2023
+  - who: Visual AI Hackathon · Northeastern University
+    what: Took part in an in-person computer vision hackathon on Northeastern's Boston campus
+    when: Mar 2025
+
 # year   = when you first earned it.
 # badge  = picture file in assets/badges/ (optional).
 # url    = link to the official certificate, opened when someone clicks it.
