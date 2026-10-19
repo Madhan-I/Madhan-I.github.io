@@ -12,33 +12,39 @@ Each project had several teams, some technical and some not. I was a volunteer m
 
 ## Four projects, one job
 
-I was part of four projects during those years:
+I was part of four projects during those years. Each ran on a different cloud setup, and on every one my job was the same: get new people into that setup and working.
 
-- **MAPLE**, the Massachusetts Platform for Legislative Engagement, a live site where residents submit testimony to the state legislature and read what others have said
-- **Urban League Heat Pump Accelerator**, helping the Urban League of Eastern Massachusetts focus heat pump outreach across Boston
-- **National Police Data Coalition**, an open platform for police-conduct data, restarted in 2023
-- **HEAT**, the Home Energy Analysis Tool, which lets energy coaches check whether a proposed heat pump can heat a home, replacing a manual spreadsheet
+## MAPLE: testimony for the Massachusetts legislature {#maple}
 
-My job was the same on all four: get new people in and working.
+**The work.** MAPLE, the Massachusetts Platform for Legislative Engagement, is a live site where residents submit testimony on bills to the state legislature and read what others have said. It soft-launched in March 2023 and became Code for Boston's busiest project.
 
-## A heat pump app with five moving parts
+**The tech.** A Next.js web app on Google Cloud and Firebase (Firestore database, Cloud Functions, sign-in), with Typesense for search and a Vercel test site.
 
-The Boston Heat Pump Accelerator is a partnership with the Urban League of Eastern Massachusetts and the Heat Smart Alliance. It aims to reach owners of Boston homes most likely to benefit from heat pump retrofits, tax credits and installation support, with equity at the centre.
+**How I supported it.** New contributors couldn't do anything until they had access to the Firebase project and Google Cloud sign-in set up on their machine. I helped them through that, so their first evening went on the project rather than on permissions.
 
-The project ran as five workstreams:
+## Urban League Heat Pump Accelerator {#heat-pump}
 
-- **Data analysis** in Python and Jupyter, grouping city property parcels into canvassing routes
-- **Backend** in Ruby on Rails and PostgreSQL, holding homes, surveyors, surveys and assignments
-- **Frontend** in React, so canvassers could see a property and record a visit from their phone
-- **Partnerships** and **marketing**, taking the approach to other organisations
+**The work.** A partnership with the Urban League of Eastern Massachusetts and the Heat Smart Alliance to reach owners of Boston homes most likely to benefit from heat pump retrofits, tax credits and installation support, with equity at the centre.
 
-Watching five groups of part-time volunteers move at their own speeds looked a lot like a release train without the contracts. The data team's routes needed the backend to store them, and the app needed both. New people arrived almost every week, and how quickly they got set up decided whether they came back.
+**The tech.** Five workstreams: data analysis in Python and Jupyter, grouping city property parcels into canvassing routes; a Ruby on Rails and PostgreSQL backend; a React app for canvassers; plus partnerships and marketing. Code ran in Docker, with automated deploys through GitHub Actions to a Kubernetes-based cloud, and GitHub Codespaces for one-click setup.
 
-## Restarting a stalled platform
+**How I supported it.** I helped newcomers get Codespaces, Docker and their GitHub access working and pointed them to the right workstream. Five groups of part-time volunteers looked a lot like a release train without the contracts, and how quickly new people got set up decided whether they came back.
 
-In spring 2023 Code for Boston restarted the National Police Data Coalition. It's an open platform that brings together independently collected police-conduct data from journalists, attorneys and community members, for researchers, lawyers and policymakers. It had started strongly in 2021 and slowed in 2022.
+## National Police Data Coalition {#npdc}
 
-A restart brings a wave of new volunteers at once. Helping them through accounts and setup was where I could be useful. It felt familiar too: at work I was restarting a programme that had been frozen for two years, and the first problem there was the same one. People can't contribute until they can get in.
+**The work.** An open platform that brings together independently collected police-conduct data from journalists, attorneys and community members, for researchers, lawyers and policymakers. It started strongly in 2021, slowed in 2022 and restarted in spring 2023.
+
+**The tech.** A Python Flask API with PostgreSQL and a Next.js front end, run locally with Docker Compose and hosted on Heroku.
+
+**How I supported it.** A restart brings a wave of new volunteers at once. I guided them through Docker and account setup so they could run the platform and contribute from their first evening. It felt familiar: at work I was restarting a programme frozen for two years, and the first blocker there was the same. People can't contribute until they can get in.
+
+## HEAT: Home Energy Analysis Tool {#heat}
+
+**The work.** A live tool for Heat Smart Alliance energy coaches and homeowners. It estimates a home's heating needs from past gas bills and local weather, and checks whether a proposed heat pump is big enough, replacing a manual spreadsheet.
+
+**The tech.** A Remix and React web app on the Epic Stack, with a Python rules engine running in the browser, deployed on Fly.io.
+
+**How I supported it.** I helped first-time contributors get the stack, Docker and their accounts running, so they could start on real issues quickly.
 
 ## What volunteer teams teach you
 
