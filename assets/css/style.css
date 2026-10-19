@@ -643,3 +643,9 @@ footer .wrap.f-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1.2fr;
 .contact-top .note { margin-top: 20px; }
 .contact-row.duo-row { grid-template-columns: 1fr 1fr; margin-top: 28px; }
 @media (max-width: 640px) { .contact-row.duo-row { grid-template-columns: 1fr; } }
+
+.file-btn { display: inline-flex; align-items: center; gap: 8px; padding: 9px 14px; border-radius: 10px; border: 1px solid rgba(255, 255, 255, .22); background: rgba(255, 255, 255, .06); color: #FFFFFF; font-weight: 700; font-size: 15px; text-decoration: none; transition: border-color .2s, background .2s; }
+.file-btn .ic { width: 18px; height: 18px; color: #F2A541; }
+.file-btn .ic.dl { width: 15px; height: 15px; color: rgba(255, 255, 255, .7); }
+.file-btn:hover { border-color: #F2A541; background: rgba(255, 255, 255, .1); }
+.card .row.res { gap: 10px; }

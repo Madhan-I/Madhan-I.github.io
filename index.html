@@ -206,7 +206,7 @@ layout: default
       <div class="card">
         <span class="k">Resume</span>
         <div class="row res">
-          {% if p.resume_file != "" %}<a class="v" href="{{ '/assets/resume/' | append: p.resume_file | relative_url }}" data-goatcounter-click="click-contact-resume" download>Download PDF ↓</a><span class="sep"> · </span><a class="v" href="{{ '/assets/resume/Madhan-Irulandi-Resume.docx' | relative_url }}" data-goatcounter-click="click-contact-resume-word" download>Word ↓</a>
+          {% if p.resume_file != "" %}<a class="file-btn" href="{{ '/assets/resume/' | append: p.resume_file | relative_url }}" data-goatcounter-click="click-contact-resume" download aria-label="Download resume as PDF"><svg class="ic" aria-hidden="true"><use href="#i-file"/></svg><span>PDF</span><svg class="ic dl" aria-hidden="true"><use href="#i-down"/></svg></a><a class="file-btn" href="{{ '/assets/resume/Madhan-Irulandi-Resume.docx' | relative_url }}" data-goatcounter-click="click-contact-resume-word" download aria-label="Download resume as Word"><svg class="ic" aria-hidden="true"><use href="#i-file"/></svg><span>Word</span><svg class="ic dl" aria-hidden="true"><use href="#i-down"/></svg></a>
           {% else %}<a class="v" href="mailto:{{ p.email }}?subject=Resume%20request">Request by email</a>{% endif %}
         </div>
       </div>
