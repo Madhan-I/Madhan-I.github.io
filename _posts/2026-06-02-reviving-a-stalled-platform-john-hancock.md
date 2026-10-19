@@ -29,7 +29,7 @@ The AWD workflow system at the heart of it was still on its 2019 release. My tea
 
 ## From AWD to SS&C Chorus BPM
 
-AWD has a long history. It was built by DST Systems, which SS&C bought in 2018, and in 2021 SS&C relaunched it as Chorus BPM, part of its SS&C Chorus automation platform, now supported under SS&C Blue Prism.
+AWD began at DST Systems. After SS&C acquired DST, it relaunched AWD as Chorus BPM, the workflow core of its SS&C Chorus automation platform, which now sits alongside Blue Prism's automation under SS&C Blue Prism. So moving from AWD to Chorus BPM isn't a switch to a different product. It's the same platform's current generation.
 
 Upgrading inside AWD was the first step. The bigger one was moving people onto the new generation. Before I handed over in August 2025, all my teams had moved off the EnCorr and Viewstation desktops and onto SS&C Chorus BPM. A change like that touches how every person works every day, so it needs the same discipline as any release: clear dates, training before go-live and no surprises for the business.
 
