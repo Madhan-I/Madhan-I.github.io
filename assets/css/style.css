@@ -649,3 +649,15 @@ footer .wrap.f-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1.2fr;
 .file-btn .ic.dl { width: 15px; height: 15px; color: rgba(255, 255, 255, .7); }
 .file-btn:hover { border-color: #F2A541; background: rgba(255, 255, 255, .1); }
 .card .row.res { gap: 10px; }
+
+.contact-row.trio-row { grid-template-columns: repeat(3, minmax(0, 1fr)); margin-top: 28px; }
+.dl-card { display: flex; align-items: center; gap: 16px; text-decoration: none; color: #FFFFFF; }
+.dl-card b { display: block; margin-top: 6px; font-size: 16px; font-weight: 700; }
+.dl-card .k { margin: 0; }
+.dl-tile { width: 56px; height: 56px; flex: none; border-radius: 12px; background: #FFFFFF; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3px; color: #0B2545; font: 700 12px/1 var(--body); }
+.dl-tile .ic { width: 22px; height: 22px; }
+.dl-tile .ic.pdf { color: #B45309; }
+.dl-tile .ic.doc { color: #1D5FD1; }
+.dl-card:hover { border-color: #F2A541; }
+@media (max-width: 900px) { .contact-row.trio-row { grid-template-columns: 1fr 1fr; } .contact-row.trio-row > .card:last-child { grid-column: 1 / -1; } }
+@media (max-width: 560px) { .contact-row.trio-row { grid-template-columns: 1fr; } }
