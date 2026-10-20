@@ -255,7 +255,7 @@ document.querySelectorAll('.copy-btn').forEach(function (b) {
   if ('IntersectionObserver' in window) { var io = new IntersectionObserver(function (es) { es.forEach(function (e) { if (e.isIntersecting) { box.classList.add('hint'); io.disconnect(); } }); }, { threshold: .5 }); io.observe(box); } else { box.classList.add('hint'); }
   tabs.forEach(function (t) {
     t.addEventListener('click', function () {
-      var k = t.getAttribute('data-sk'); box.classList.remove('hint'); box.classList.add('seen');
+      var k = t.getAttribute('data-sk'); t.classList.add('visited');
       tabs.forEach(function (x) { var on = x === t; x.classList.toggle('on', on); x.setAttribute('aria-selected', on ? 'true' : 'false'); });
       panels.forEach(function (p) { p.hidden = p.getAttribute('data-panel') !== k; });
     });

@@ -1043,3 +1043,12 @@ footer .f-col a { font-size: 14px !important; }
 .train-formats ul { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }
 .train-formats li { display: flex; align-items: center; justify-content: center; text-align: center; min-height: 44px; padding: 8px 10px; }
 @media (max-width: 520px) { .train-formats ul { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+
+/* Tab hint keeps sweeping on each tab until that tab has been opened */
+.skillbox.hint .sk-tab:not(.on):not(.visited)::after { animation: sk-ray 2.4s ease-in-out infinite; }
+.skillbox.hint .sk-tab:not(.on):not(.visited):nth-child(3)::after { animation-delay: .35s; }
+.skillbox .sk-tab.visited::after { animation: none !important; opacity: 0; }
+.skillbox.seen .sk-tab:not(.on):not(.visited) { border-color: #F2A541; }
+.skillbox.seen .sk-tab:not(.on):not(.visited)::before { display: inline-block; }
+.skillbox .sk-tab.visited:not(.on) { border-color: var(--line); }
+.skillbox .sk-tab.visited::before { display: none; }
