@@ -389,6 +389,7 @@ certifications:
         badge: safe6-popm.png
         url: https://www.credly.com/badges/2df805da-0318-47fb-99d8-93b9d03a7c65
       - name: Certified SAFe® 5 Scrum Master
+        full_only: true
         year: "2022"
         status: Active
         badge: safe5-sm.png
