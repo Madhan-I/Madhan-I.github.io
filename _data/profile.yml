@@ -71,10 +71,8 @@ metrics:
 about_title: "Delivery leader.|Engineer by training. Teacher by habit."
 about:
   - "Leaders call me when delivery has stalled and the stakes are high: millions of policyholders, regulated data and executives who need a straight answer on whether a release will land."
-  - "My path into delivery was unusual, and it shapes how I lead. I started in live events, running VIP hospitality at IPL matches, then moved through healthcare claims, production support and document platforms before leading Scrum teams and release trains across onshore and offshore delivery. I spent three years on-site in Boston for John Hancock, restarting a platform program that had been frozen for two years."
-  - "Today I run release governance at Atos for Manulife's Core API, Customer Engagement and Compliance AI products, reporting straight to executive leadership. The portfolio holds a High health rating, with under 5% sprint variance and zero critical security issues."
-  - "I work alongside engineering, business and leadership as one team. Every view gets a fair hearing, and together we land on the solution that's right for the work, not the one with the loudest voice."
-  - "I hold a BE in Electrical & Electronics Engineering and I'm now studying for an MS in Computer Science, specializing in AI & ML, at Woolf University. That combination lets me work through AKS migrations and OAuth design with architects, then explain the trade-offs to a steering committee in plain language."
+  - "My path was unusual: live events and VIP hospitality at IPL matches, then healthcare claims, production support and document platforms, then Scrum teams and release trains. I spent three years on-site in Boston for John Hancock, restarting a platform program frozen for two years. Today I run release governance at Atos for Manulife's Core API, Customer Engagement and Compliance AI products, reporting to executive leadership."
+  - "A BE in Electrical & Electronics Engineering, and an MS in Computer Science (AI & ML) in progress at Woolf University, let me work through AKS and OAuth design with architects, then explain the trade-offs to a steering committee in plain language. Every view gets a fair hearing, and the team lands on what's right for the work, not the loudest voice."
 
 clients:
   - Walmart
