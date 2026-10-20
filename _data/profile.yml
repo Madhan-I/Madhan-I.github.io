@@ -180,6 +180,7 @@ experience:
       - "Automated competitive (\"Comp\") reporting in the Order Management System, saving 25 hours of manual work a week (30% less effort)."
       - "Replaced manual supplier inventory and sales reports (SVIST) with automated ones built with the DBA team, producing them 3× faster and cutting production maintenance costs 17% in five months."
       - "Accelerated Walmart Item File incident resolution 20% in six months, strengthening production stability and data consistency."
+      - "Supported the mainframe Order Management System on z/OS, working in COBOL, JCL, DB2, CICS and VSAM, with batch jobs scheduled in Control-M and CA-7."
   - dates: Jan 2014 – May 2014
     title: Senior Customer Care Representative
     sector: "Healthcare · Revenue cycle & claims"
