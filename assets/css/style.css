@@ -1125,3 +1125,14 @@ footer .f-col a { font-size: 14px !important; }
   .fmt-groups .fl + .fl::before { content: "·"; color: #F2A541; }
 }
 @media (min-width: 1024px) { #training .train-grid p.big .lead1 { display: inline !important; white-space: normal !important; } }
+
+/* Hero chips: five chips sized to fill the row without stretched padding; short labels on phones */
+.chip .cs { display: none; }
+@media (max-width: 600px) { .chip.has-short .cl { display: none; } .chip.has-short .cs { display: inline; } }
+@media (min-width: 1280px) {
+  .chip-row { gap: 10px !important; }
+  .chip-row .chip, .chip-row .chip:first-child { flex: 1 1 auto !important; font-size: 16px !important; padding: 11px 16px !important; }
+}
+@media (min-width: 900px) and (max-width: 1279px) { .chip-row { gap: 8px !important; } .chip-row .chip, .chip-row .chip:first-child { flex: 1 1 auto !important; font-size: 13px !important; padding: 9px 10px !important; } }
+@media (min-width: 1280px) { .chip-row .chip, .chip-row .chip:first-child { padding: 11px 15px !important; } }
+@media (min-width: 1024px) { .hero { padding-bottom: 40px !important; } }

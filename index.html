@@ -25,7 +25,7 @@ layout: default
     </figure>
     {% endif %}
     <div class="hire-for" aria-label="Areas of expertise">
-      {% if p.expertise_rows %}{% for row in p.expertise_rows %}<div class="chip-row">{% for e in row %}<span class="chip">{{ e }}</span>{% endfor %}</div>{% endfor %}
+      {% if p.expertise_rows %}{% for row in p.expertise_rows %}<div class="chip-row">{% for e in row %}{% assign parts = e | split: "|" %}<span class="chip{% if parts.size > 1 %} has-short{% endif %}"><span class="cl">{{ parts[0] }}</span>{% if parts.size > 1 %}<span class="cs">{{ parts[1] }}</span>{% endif %}</span>{% endfor %}</div>{% endfor %}
       {% else %}{% for e in p.expertise %}<span class="chip">{{ e }}</span>{% endfor %}{% endif %}
     </div>
   </div>
