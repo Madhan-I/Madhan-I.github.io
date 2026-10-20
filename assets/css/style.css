@@ -1075,3 +1075,6 @@ footer .f-col a { font-size: 14px !important; }
 .skillbox .topics > li.sk-fine { grid-column: 1 / -1; border: 0 !important; background: none; padding: 2px 0 0 !important; }
 @media (max-width: 900px) { .skillbox .topics { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (max-width: 520px) { .skillbox .topics { grid-template-columns: 1fr; } }
+
+/* Hidden tab panels stay hidden (beats the track grid display) */
+.skillbox .sk-panel[hidden], .skillbox .topics[hidden] { display: none !important; }
