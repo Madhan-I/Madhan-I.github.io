@@ -70,9 +70,9 @@ metrics:
 # Use | to start a new line in the heading.
 about_title: "Delivery leader. Engineer by training. Teacher by habit."
 about:
-  - "Leaders bring me in when a program matters too much to slip: millions of policyholders, regulated data and executives who need a straight answer on whether a release will land."
-  - "At John Hancock, I restarted a platform program COVID had frozen for two years and cleared 400+ backlog tickets in nine months. Today at Atos, I run release governance for Manulife's Core API, Customer Engagement and Compliance AI products, holding 100% ART predictability while a hybrid AI engine cut onboarding false positives from 30% to 10–15%."
-  - "I bring an engineer's depth and a trainer's clarity: a BE in Electrical & Electronics Engineering, an MS in Computer Science (AI & ML) in progress at Woolf University, and 3,000+ people trained since 2020. That lets me go deep with architects on AKS and OAuth, then give a steering committee the trade-offs in plain language. It's how I moved Allstate's releases from monthly to near-weekly, as the main link between engineering and client executives."
+  - "Leaders call me when delivery is at risk and the stakes are high: millions of policyholders, regulated data and executives who need a straight answer on whether a release will land."
+  - "My path was unusual: live events and VIP hospitality at IPL matches, then healthcare claims, production support and document platforms, then Scrum teams and release trains. I spent three years on-site in Boston for John Hancock, restarting a platform program frozen for two years. Today I run release governance at Atos for Manulife's Core API, Customer Engagement and Compliance AI products, reporting to executive leadership."
+  - "My BE in Electrical & Electronics Engineering and my in-progress MS in Computer Science (AI & ML) at Woolf University let me work through AKS and OAuth design with architects, then explain the trade-offs to a steering committee in plain language. Every view gets a fair hearing, and the team lands on what's right for the work, not on what the loudest voice wants."
 
 clients:
   - Walmart
