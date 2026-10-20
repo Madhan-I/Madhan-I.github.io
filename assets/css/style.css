@@ -957,3 +957,8 @@ footer .f-col a { font-size: 14px !important; }
 
 /* Guest lecture cards: four across, like the Code for Boston and event rows */
 @media (min-width: 1100px) { .speak.talks:not(.duo) ul { grid-template-columns: repeat(4, minmax(0, 1fr)); } .speak.talks:not(.duo) li { padding: 20px 18px; } }
+
+.talk-toggle-row { margin: 18px 0 0; }
+.talk-toggle { font: 700 14px/1 var(--body); color: #FFFFFF; background: rgba(255, 255, 255, .06); border: 1px solid rgba(255, 255, 255, .25); border-radius: 999px; padding: 11px 18px; cursor: pointer; }
+.talk-toggle:hover { border-color: #F2A541; color: #F2A541; }
+.speak.talks li[hidden] { display: none !important; }

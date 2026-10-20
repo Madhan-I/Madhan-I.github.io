@@ -235,3 +235,15 @@ document.querySelectorAll('.copy-btn').forEach(function (b) {
   function check() { els.forEach(function (el) { el.classList.remove('ragged'); if (maxGap(el) > 11) el.classList.add('ragged'); }); }
   window.addEventListener('load', check); window.addEventListener('resize', function () { clearTimeout(check.t); check.t = setTimeout(check, 150); });
 })();
+
+/* Guest lectures: first row visible, the rest on demand */
+(function () {
+  var btn = document.querySelector('.talk-toggle'); if (!btn) return;
+  var more = document.querySelectorAll('.talk-more'), label = btn.textContent;
+  btn.addEventListener('click', function () {
+    var show = btn.getAttribute('aria-expanded') !== 'true';
+    more.forEach(function (li) { li.hidden = !show; });
+    btn.setAttribute('aria-expanded', show ? 'true' : 'false');
+    btn.textContent = show ? 'Show fewer talks' : label;
+  });
+})();

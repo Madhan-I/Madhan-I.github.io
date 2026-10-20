@@ -266,10 +266,6 @@ speaking:
     where: Chennai
     what: Azure AI Custom Vision, hands-on lecture
     linkedin: https://lnkd.in/p/g72yVQ2z
-  - who: Vellore Institute of Technology
-    topic: Azure AI
-    what: Azure Conversational AI, my first university guest lecture
-    linkedin: https://lnkd.in/p/gFPDgt-j
   - who: Atos Graduate Programme
     topic: Cloud
     where: Online
@@ -280,16 +276,20 @@ speaking:
     where: Chennai
     what: Innovation methods for ML & AI, with an AutoML demo
     linkedin: https://lnkd.in/p/g9KBZvZD
-  - who: Sri Ramakrishna Engineering College
-    topic: Azure AI
-    where: Online
-    what: Image classification and object detection with Azure Cognitive Services
-    linkedin: https://lnkd.in/p/gvDjjK75
   - who: NIIT Foundation & EduBridge India
     topic: Cloud
     where: Online
     what: CSR training on Google Cloud and AWS
     linkedin: https://lnkd.in/p/gx7KkQ-y
+  - who: Vellore Institute of Technology
+    topic: Azure AI
+    what: Azure Conversational AI, my first university guest lecture
+    linkedin: https://lnkd.in/p/gFPDgt-j
+  - who: Sri Ramakrishna Engineering College
+    topic: Azure AI
+    where: Online
+    what: Image classification and object detection with Azure Cognitive Services
+    linkedin: https://lnkd.in/p/gvDjjK75
   - who: Microsoft Azure AI-900
     topic: Azure AI
     where: Online
