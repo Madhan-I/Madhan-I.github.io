@@ -22,7 +22,7 @@ Being an MCT is a promise as much as a title. Microsoft trusts you to teach its 
 
 My first sessions were close to home. In my first year as a trainer I ran several sessions for our Enterprise Content Management (ECM) group at Atos Syntel, a technology tower of more than 300 people, including sessions on the basics of AI and machine learning. I also trained colleagues across the office through the learning department. I'm grateful to the colleagues who gave me the opportunity and the teammates who took part so actively. Teaching people you work with every day is a good test of whether you really understand a topic.
 
-From there it grew into guest lectures at colleges, webinars for exam candidates and training for graduate programmes. Every session taught me something I thought I already knew.
+From there it grew into guest lectures at colleges, webinars for exam candidates and training for graduate programs. Every session taught me something I thought I already knew.
 
 ## Keeping it current
 
@@ -30,7 +30,7 @@ The certificates don't stand still, and neither can the trainer. In 2023 I renew
 
 ## Giving back to the community
 
-In January 2025 I helped spread the word for a virtual meet-up of Tamil-speaking MCTs, led by our MCT community lead. We covered the questions every trainer has about renewal, how to get the most from the programme and how to take part in the MCT Lounge. It was a small thing, but it felt like closing a loop: the community that helped me in 2020 was now something I could help build.
+In January 2025 I helped spread the word for a virtual meet-up of Tamil-speaking MCTs, led by our MCT community lead. We covered the questions every trainer has about renewal, how to get the most from the program and how to take part in the MCT Lounge. It was a small thing, but it felt like closing a loop: the community that helped me in 2020 was now something I could help build.
 
 ## What it gave me
 
