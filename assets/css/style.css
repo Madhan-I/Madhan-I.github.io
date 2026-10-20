@@ -909,3 +909,9 @@ nav .nav-cta a::after { display: none !important; }
 /* Footer bottom line: smaller, quieter text; slightly darker 1px divider */
 footer .f-bottom { font-size: 13px; border-top: 1px solid #CBD5E3; }
 footer .f-bottom, footer .f-bottom span, footer .f-bottom a { color: var(--muted); }
+/* Contact bottom row: resume tiles and email card share one height; labels in gold */
+.contact-bottom { align-items: stretch; }
+.contact-bottom .res-tiles { height: 100%; }
+.contact-bottom .res-btn { height: 100%; box-sizing: border-box; }
+.contact-bottom .card { height: 100%; box-sizing: border-box; display: flex; flex-direction: column; justify-content: center; }
+.res-btn small, #contact .card .k { color: #F2A541 !important; }
