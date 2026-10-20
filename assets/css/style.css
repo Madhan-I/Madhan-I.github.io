@@ -967,3 +967,6 @@ footer .f-col a { font-size: 14px !important; }
 .slide { padding-block: clamp(36px, 4.5vw, 56px); }
 #writing p.reveal > a.more { margin-top: 20px; }
 #writing p.reveal { margin-bottom: 0; }
+
+/* About: client list height matches the text column */
+@media (min-width: 900px) { #about .clients li { padding-block: 4px; } }
