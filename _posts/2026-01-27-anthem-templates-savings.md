@@ -9,7 +9,7 @@ redirect_from:
 tags: [Quality, Delivery]
 ---
 
-From July 2015 to June 2017 I worked at Cognizant as a Systems Engineer and Application Analyst for Elevance Health, then Anthem Blue Cross Blue Shield, as part of a cross-functional team of 60 developers.
+From July 2015 to June 2017 I worked at Cognizant as a Systems Engineer and Application Analyst for Anthem Blue Cross Blue Shield (now Elevance Health), as part of a cross-functional team of 60 developers.
 
 ## Too many versions of the same thing
 
@@ -21,7 +21,7 @@ That accumulation had a real cost: more effort for every change, more places for
 
 Using OpenText Exstream and xPression, we consolidated legacy layouts into **dynamic master templates**. One well-built template could now do the work of many, adapting to the content it needed to carry.
 
-We also worked on what happened after release. Defects found after implementation are the most expensive kind, so we introduced **automated pre-flight QA checklists** and standardized knowledge transfer, so fixes and lessons didn't depend on who happened to be on shift.
+We also worked on what happened after release. Defects found after implementation are the most expensive kind, so we introduced **automated pre-flight QA checklists** and standardized knowledge transfer so that fixes and lessons didn't depend on who happened to be on shift.
 
 ## The results
 

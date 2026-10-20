@@ -30,7 +30,7 @@ I helped newcomers through that setup and pointed them to good first issues, so 
 
 **Access is the first deliverable.** On a cloud project, nobody contributes until they can get in. Treating access as a task in its own right, not an afterthought, kept people coming back.
 
-**Clear first steps keep volunteers.** A labelled "good first issue" and a working setup did more for retention than any welcome message.
+**Clear first steps keep volunteers.** A labeled "good first issue" and a working setup did more for retention than any welcome message.
 
 ## Why it matters for my day job
 

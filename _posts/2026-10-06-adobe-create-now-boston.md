@@ -11,7 +11,7 @@ redirect_from:
 tags: [AI, Community]
 ---
 
-On 5 August 2025, a few weeks before I left Boston, I went to Adobe Create Now Boston. It was a free evening event at Artists For Humanity in South Boston, a non-profit that employs young people in the arts. Adobe's team demonstrated the latest updates to Photoshop, Illustrator and Adobe Express, with Firefly, Adobe's generative AI, running through all of them. Local creatives shared their own workflows, and the rest of the evening was for meeting people.
+On August 5, 2025, a few weeks before I left Boston, I went to Adobe Create Now Boston. It was a free evening event at Artists For Humanity in South Boston, a nonprofit that employs young people in the arts. Adobe's team demonstrated the latest updates to Photoshop, Illustrator and Adobe Express, with Firefly, Adobe's generative AI, running through all of them. Local creatives shared their own workflows, and the rest of the evening was for meeting people.
 
 ## From headline to everyday tool
 

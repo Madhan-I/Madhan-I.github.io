@@ -16,7 +16,7 @@ Within a few weeks I was at my first hackathon in the city: MxHacks 2022, "Low-C
 
 ## The event
 
-MxHacks ran on 23 and 24 September 2022, with 36 hours of building. It was global: more than 1,200 developers from 64 countries took part, in person in Boston, London, Rotterdam and Singapore, or online. Teams of up to four built low-code apps for nonprofits chosen by Mendix, and more than 50 judges reviewed over 90 solutions.
+MxHacks ran on September 23 and 24, 2022, with 36 hours of building. It was global: more than 1,200 developers from 64 countries took part, in person in Boston, London, Rotterdam and Singapore, or online. Teams of up to four built low-code apps for nonprofits chosen by Mendix, and more than 50 judges reviewed over 90 solutions.
 
 Each region worked on a challenge for its own nonprofit. In the Americas, the partner was Project Alianza, which works to close the learning gap for children in rural Central America. The brief was a low-code app that would keep children learning at home or while they worked.
 

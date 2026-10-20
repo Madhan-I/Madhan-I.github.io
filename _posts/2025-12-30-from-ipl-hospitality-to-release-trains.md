@@ -29,7 +29,7 @@ Years later, in November 2020, I earned an event diagramming certification from 
 
 After graduating I joined Dell Technologies in 2013, working on healthcare claims for Conifer Health Solutions, then Blue Cross Blue Shield, Humana and Aetna. By 2014 I was a Senior Customer Care Representative leading a **15-member team**.
 
-There I learned to manage with data. Using Excel models, Tableau and Salesforce, we tightened denial management, adding over **$100,000 a month** to collections, and as acting Operations Project Lead my team recovered more than **$150,000 a quarter** in payment discrepancies. We cut average call handling time by **33%** and lifted CSAT **above 90%**.
+There I learned to manage with data. Using Excel models, Tableau and Salesforce, we tightened denial management, adding over **$100,000 a month** to collections, and as acting Operations Project Lead I led my team to recover more than **$150,000 a quarter** in payment discrepancies. We cut average call handling time by **33%** and lifted CSAT **above 90%**.
 
 ## Then technology
 

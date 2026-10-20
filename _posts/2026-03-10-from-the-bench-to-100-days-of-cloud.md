@@ -18,11 +18,11 @@ I had two choices. Wait, or use the time. I chose to use it, and I wrote about i
 
 My firm, Atos Syntel, opened up its learning courses during lockdown, and I took them: Azure DevOps, then AWS basics and AWS advanced. Around the same time I joined TechGig's Google Cloud DevJam competition. That was where my interest in cloud really began. It felt like a treasure hunt: every service I learned pointed to three more.
 
-At the end of August 2020 the DevJam sent me a gift voucher. It wasn't much, but I called it my first pay cheque from cloud, and I meant it. It was the first sign that this learning could turn into something real.
+At the end of August 2020 the DevJam sent me a gift voucher. It wasn't much, but I called it my first paycheck from cloud, and I meant it. It was the first sign that this learning could turn into something real.
 
 ## A hundred days, in public
 
-On 24 August 2020 I posted "Day 1" of #100DaysOfCloud, a community challenge where you learn something every day and share it. My first step was Google Cloud's core infrastructure course on Coursera.
+On August 24, 2020, I posted "Day 1" of #100DaysOfCloud, a community challenge where you learn something every day and share it. My first step was Google Cloud's core infrastructure course on Coursera.
 
 What followed was a run I'm still proud of:
 
@@ -30,7 +30,7 @@ What followed was a run I'm still proud of:
 - **Multi-cloud networking:** my Aviatrix associate certification in the first week.
 - **Alibaba Cloud:** by October I had finished every associate-level certification they offered, including Cloud Native, Cloud Security and Big Data.
 - **IBM Cloud:** a set of Hybrid Cloud Conference badges that together made up an Application Developer badge.
-- **Microsoft Azure:** the Azure Administrator exam on 26 September, the biggest exam I'd taken that month.
+- **Microsoft Azure:** the Azure Administrator exam on September 26, the biggest exam I'd taken that month.
 
 I won't pretend it was all smooth. I was scared before the Azure exam. Some weeks I drifted, and my posts say so: "might be a bit slow, but will be steady". Most of the learning happened late at night.
 
@@ -40,7 +40,7 @@ I didn't do this alone. The #100DaysOfCloud community and the Cloud Study Networ
 
 ## What it led to
 
-On 24 October 2020, two months after day 1, I was accepted as a Microsoft Certified Trainer. I wrote at the time that Azure is a huge ocean and I'd only crossed a wave. That's still true.
+On October 24, 2020, two months after day 1, I was accepted as a Microsoft Certified Trainer. I wrote at the time that Azure is a huge ocean and I'd only crossed a wave. That's still true.
 
 A few weeks before that I'd written that late-night study and the eagerness to learn something new were the best thing that happened to me during the pandemic, and that it all started while I was on the bench. Looking back from 2026, I'd go further. That stretch is where I learned how I learn best: in small steps, every day, in public.
 

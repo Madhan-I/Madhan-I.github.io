@@ -9,7 +9,7 @@ redirect_from:
 tags: [Quality, Delivery]
 ---
 
-Legacy migrations have a reputation, and it's not a good one. Everyone has a story about the one that ran late, went over budget, or broke something nobody noticed until a customer did.
+Legacy migrations have a reputation, and it's not a good one. Everyone has a story about the one that ran late, went over budget or broke something nobody noticed until a customer did.
 
 From July 2017 to January 2020 I was Technology Lead and Senior Analyst at Cognizant on a MetLife migration that needed to avoid all three.
 
@@ -23,7 +23,7 @@ A migration of this size is really thousands of small migrations. The risk is in
 
 I worked closely with QA to build comprehensive test cases for the migrated assets. Every document was checked against what it was supposed to be, not just whether it opened.
 
-Along the way we also standardized the documents themselves, delivering **more than 500 standardized document applications**. Fewer one-off variations meant fewer places for errors to hide and far less work to maintain them afterwards.
+Along the way we also standardized the documents themselves, delivering **more than 500 standardized document applications**. Fewer one-off variations meant fewer places for errors to hide and far less work to maintain them afterward.
 
 ## The results
 
