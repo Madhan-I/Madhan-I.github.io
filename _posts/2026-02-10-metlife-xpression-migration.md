@@ -23,13 +23,13 @@ A migration of this size is really thousands of small migrations. The risk is in
 
 I worked closely with QA to build comprehensive test cases for the migrated assets. Every document was checked against what it was supposed to be, not just whether it opened.
 
-Along the way we also standardised the documents themselves, delivering **more than 500 standardised document applications**. Fewer one-off variations meant fewer places for errors to hide and far less work to maintain them afterwards.
+Along the way we also standardized the documents themselves, delivering **more than 500 standardized document applications**. Fewer one-off variations meant fewer places for errors to hide and far less work to maintain them afterwards.
 
 ## The results
 
 - **4,500+ policy documents** migrated with a **zero-defect standard**.
 - **2,000 engineering hours saved every quarter** after moving to xPression.
-- **Lower annual remediation costs** across 500+ standardised document applications.
+- **Lower annual remediation costs** across 500+ standardized document applications.
 - A **Certificate of Excellence** in May 2019 for my support and contributions to migrating publisher data to xPression.
 
 ## What made the difference

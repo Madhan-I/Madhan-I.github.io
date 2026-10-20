@@ -21,7 +21,7 @@ That accumulation had a real cost: more effort for every change, more places for
 
 Using OpenText Exstream and xPression, we consolidated legacy layouts into **dynamic master templates**. One well-built template could now do the work of many, adapting to the content it needed to carry.
 
-We also worked on what happened after release. Defects found after implementation are the most expensive kind, so we introduced **automated pre-flight QA checklists** and standardised knowledge transfer, so fixes and lessons didn't depend on who happened to be on shift.
+We also worked on what happened after release. Defects found after implementation are the most expensive kind, so we introduced **automated pre-flight QA checklists** and standardized knowledge transfer, so fixes and lessons didn't depend on who happened to be on shift.
 
 ## The results
 

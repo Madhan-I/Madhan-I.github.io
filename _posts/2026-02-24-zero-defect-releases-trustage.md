@@ -27,7 +27,7 @@ Rather than adding more manual checking at the end, we built quality into the fl
 - **Smoke tests**, so every build was sanity-checked before anyone spent time on it
 - **Schema verification**, so data problems were caught before they became document problems
 
-Automation took the repetitive checking off people and gave them back time for the reviews that need human judgement.
+Automation took the repetitive checking off people and gave them back time for the reviews that need human judgment.
 
 ## Working across time zones
 

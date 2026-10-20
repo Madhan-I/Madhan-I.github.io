@@ -34,4 +34,4 @@ I was new to the city, and a hackathon is a fast way to stop being a stranger. I
 
 ## Why it matters for my day job
 
-I deliver large enterprise platforms, but the lesson from MxHacks applies everywhere: get something real in front of users early, keep the problem at the centre, and protect the scope that matters. It was a good first weekend in Boston.
+I deliver large enterprise platforms, but the lesson from MxHacks applies everywhere: get something real in front of users early, keep the problem at the center, and protect the scope that matters. It was a good first weekend in Boston.

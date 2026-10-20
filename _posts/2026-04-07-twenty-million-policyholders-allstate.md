@@ -1,7 +1,7 @@
 ---
 title: "Delivering for 20 million policyholders without adding headcount"
 teaser: "Coaching teams to serve 20 million policyholders"
-summary: How Agile coaching raised velocity 30% and cut cost 25% on the Allstate communications programme.
+summary: How Agile coaching raised velocity 30% and cut cost 25% on the Allstate communications program.
 outcome: "Velocity up 30%, cost down 25% with no extra headcount, and releases moved from monthly to near-weekly for 20 million+ policyholders."
 hashtags: [AgileCoaching, ScrumMaster, Insurance, ReleaseManagement, DeliveryLeadership]
 redirect_from:
@@ -9,9 +9,9 @@ redirect_from:
 tags: [Delivery, Leadership]
 ---
 
-Some programmes are big because of the technology. The Allstate programme I led from September 2020 to August 2022 was big because of its audience.
+Some programs are big because of the technology. The Allstate program I led from September 2020 to August 2022 was big because of its audience.
 
-Every document our team shipped went out to **more than 20 million Allstate and 400,000 Encompass policyholders**. Bills, notices, policy letters, the communications people actually read. Across the programme we deployed **more than 750 document templates**. When something is wrong at that scale, it is wrong for millions of people at once.
+Every document our team shipped went out to **more than 20 million Allstate and 400,000 Encompass policyholders**. Bills, notices, policy letters, the communications people actually read. Across the program we deployed **more than 750 document templates**. When something is wrong at that scale, it is wrong for millions of people at once.
 
 ## The pressure point
 
@@ -30,7 +30,7 @@ As Senior Scrum Master and Agile Project Manager, I focused on two things.
 ## The results
 
 - Delivery velocity **up 30%**.
-- Programme cost **down 25%**.
+- Program cost **down 25%**.
 - **No increase in headcount.**
 - Production releases moved from **monthly to near-weekly**.
 

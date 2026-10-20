@@ -17,7 +17,7 @@ status: Open to roles worldwide · Ready to relocate
 # Big line under your name. Text inside highlight is shown in orange.
 headline: Senior Release Train Engineer & Program Manager
 headline_join: ""
-headline_highlight: Gets stalled programmes shipping again.
+headline_highlight: Gets stalled programs shipping again.
 
 # Three short role labels shown under your name.
 roles:
@@ -25,7 +25,7 @@ roles:
   - Senior Scrum Master
   - Microsoft Certified Trainer
 
-intro: "Over 13 years, I've grown from production support to leading delivery for retail, insurance and healthcare leaders like Walmart, MetLife, Manulife, Allstate, Anthem and John Hancock. In insurance alone, the systems I've delivered serve more than 20 million policyholders. Today I run Agile Release Trains on AI-enabled platforms and restart stalled programmes. A Microsoft Certified Trainer since 2020, I've trained 3,000+ people and given 75+ guest lectures."
+intro: "Over 13 years, I've grown from production support to leading delivery for retail, insurance and healthcare leaders like Walmart, MetLife, Manulife, Allstate, Anthem and John Hancock. In insurance alone, the systems I've delivered serve more than 20 million policyholders. Today I run Agile Release Trains on AI-enabled platforms and restart stalled programs. A Microsoft Certified Trainer since 2020, I've trained 3,000+ people and given 75+ guest lectures."
 
 email: irulandi.madhan@gmail.com
 linkedin: https://www.linkedin.com/in/madhanirulandi
@@ -71,10 +71,10 @@ metrics:
 about_title: "Delivery leader.|Engineer by training. Teacher by habit."
 about:
   - "Leaders call me when delivery has stalled and the stakes are high: millions of policyholders, regulated data and executives who need a straight answer on whether a release will land."
-  - "My path into delivery was unusual, and it shapes how I lead. I started in live events, running VIP hospitality at IPL matches, then moved through healthcare claims, production support and document platforms before leading Scrum teams and release trains across onshore and offshore delivery. I spent three years on-site in Boston for John Hancock, restarting a platform programme that had been frozen for two years."
+  - "My path into delivery was unusual, and it shapes how I lead. I started in live events, running VIP hospitality at IPL matches, then moved through healthcare claims, production support and document platforms before leading Scrum teams and release trains across onshore and offshore delivery. I spent three years on-site in Boston for John Hancock, restarting a platform program that had been frozen for two years."
   - "Today I run release governance at Atos for Manulife's Core API, Customer Engagement and Compliance AI products, reporting straight to executive leadership. The portfolio holds a High health rating, with under 5% sprint variance."
   - "I work alongside engineering, business and leadership as one team. Every view gets a fair hearing, and together we land on the solution that's right for the work, not the one with the loudest voice."
-  - "I hold a BE in Electrical & Electronics Engineering and I'm now studying for an MS in Computer Science, specialising in AI & ML, at Woolf University. That combination lets me work through AKS migrations and OAuth design with architects, then explain the trade-offs to a steering committee in plain language."
+  - "I hold a BE in Electrical & Electronics Engineering and I'm now studying for an MS in Computer Science, specializing in AI & ML, at Woolf University. That combination lets me work through AKS migrations and OAuth design with architects, then explain the trade-offs to a steering committee in plain language."
 
 clients:
   - Walmart
@@ -105,16 +105,16 @@ experience:
       - Lead end-to-end governance for Manulife's Core API, Customer Engagement and Compliance AI products, reporting progress and roadmap decisions to executive leadership.
   - dates: Sep 2022 – Aug 2025
     title: Technical Product Manager / Release Train Engineer
-    sector: "Life insurance · Platform modernisation"
+    sector: "Life insurance · Platform modernization"
     icon: shield
     company: Atos
     client: John Hancock
     detail: Boston (On-site)
-    project: "AWD to SS&C Chorus BPM modernisation"
+    project: "AWD to SS&C Chorus BPM modernization"
     points:
-      - "Restarted a multi-million-dollar platform programme stalled for two years by COVID, rebuilding the release process and clearing 400+ backlog tickets in 9 months."
+      - "Restarted a multi-million-dollar platform program stalled for two years by COVID, rebuilding the release process and clearing 400+ backlog tickets in 9 months."
       - "Brought effort estimates to within 10% of actual work in the first quarter by introducing structured capacity planning (Function Point analysis), trimming overtime and idle time."
-      - "Took all 5 modernisation initiatives live across 20+ business divisions by guiding teams through coordinated upgrades."
+      - "Took all 5 modernization initiatives live across 20+ business divisions by guiding teams through coordinated upgrades."
       - "Delivered the AWD workflow platform's first upgrades since its 2019 release, finishing most of the work by Q2 2023, within a year of taking over."
       - "Moved all my teams off AWD's legacy EnCorr and Viewstation desktops onto SS&C Chorus BPM, its current generation, before handing over in Aug 2025."
   - dates: Sep 2020 – Aug 2022
@@ -128,7 +128,7 @@ experience:
     points:
       - "Reached 20M+ Allstate and 400K Encompass Insurance policyholders with customer communications by deploying 750+ document templates."
       - "Moved production deployments from monthly to near-weekly by clearing blockers as the main escalation point between engineering and client executives."
-      - "Cut programme cost 25% by streamlining the SDLC, without hiring."
+      - "Cut program cost 25% by streamlining the SDLC, without hiring."
       - "Raised team velocity 30% through hands-on Agile coaching."
   - dates: Jan 2020 – Aug 2020
     title: Scrum Master / Agile Delivery Lead
@@ -155,7 +155,7 @@ experience:
       - "Spearheaded MetLife's move from a legacy publisher to OpenText xPression, migrating 4,500+ policy documents and freeing up 2,000 engineering hours a quarter."
       - "Ensured every migrated asset went live without a single defect by designing test cases with QA."
       - "Earned a Certificate of Excellence jointly from MetLife and Cognizant (May 2019) for the migration."
-      - "Standardised 500+ document applications, shrinking annual remediation costs."
+      - "Standardized 500+ document applications, shrinking annual remediation costs."
   - dates: Jul 2015 – Jun 2017
     title: Systems Engineer / Application Analyst
     sector: "Healthcare · Health insurance"
@@ -230,12 +230,12 @@ experience:
     points:
       - "Drove citywide and regional promotions in Chennai for India's first Formula 1 Grand Prix in 2011, boosting ticket sales."
       - "Built the hospitality plan for the Renault Duster media launch, covering multi-route test drives, the live vehicle reveal and secure press-kit distribution, winning formal appreciation from the client."
-      - "Oversaw the media centre, podium ceremonies and hospitality suites for the JK Tyre Volkswagen Polo R Cup 2012, including live race telemetry for media partners and paddock access control."
+      - "Oversaw the media center, podium ceremonies and hospitality suites for the JK Tyre Volkswagen Polo R Cup 2012, including live race telemetry for media partners and paddock access control."
       - "Untangled vendor delays and scheduling clashes on Celebrity Cricket League match days for the Chennai Rhinos, drawing positive reviews and invitations to future events."
 
 training_title: I train teams to deliver, not just to pass exams
 training_intro: Microsoft Certified Trainer every year since 2020. I run hands-on workshops for delivery teams, Scrum Masters and engineers who need to apply a framework the next working day.
-training_note: "Delivered SAFe, Scrum, Azure AI, cloud and DevOps programmes for corporate teams, graduates and engineering colleges."
+training_note: "Delivered SAFe, Scrum, Azure AI, cloud and DevOps programs for corporate teams, graduates and engineering colleges."
 training_facts:
   - number: "6 yrs"
     label: Microsoft Certified Trainer
@@ -621,7 +621,7 @@ award_groups:
         image: award-star-volunteer.jpg
         note: Certificate issued under the name "Madhan E"
 
-contact_title: Have a programme that needs to
+contact_title: Have a program that needs to
 contact_highlight: ship?
 contact_intro: A new role, a quick call or training for your team. Pick what fits, or email me directly.
 # Each line below is shown on its own line.
