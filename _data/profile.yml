@@ -261,41 +261,41 @@ training_topics:
 
 speaking_title: "Selected guest lectures & talks · 8 of 75+"
 speaking:
-  - who: VIT Chennai
-    topic: Azure AI
-    where: Chennai
-    what: Azure AI Custom Vision, hands-on lecture
-    linkedin: https://lnkd.in/p/g72yVQ2z
   - who: Atos Graduate Programme
     topic: Cloud
     where: Online
     what: Cloud computing workshop for 215 graduates
     feedback_image: award-cloud-feedback.jpg
-  - who: Jeppiaar Engineering College
-    topic: AI & ML
-    where: Chennai
-    what: Innovation methods for ML & AI, with an AutoML demo
-    linkedin: https://lnkd.in/p/g9KBZvZD
   - who: NIIT Foundation & EduBridge India
     topic: Cloud
     where: Online
     what: CSR training on Google Cloud and AWS
     linkedin: https://lnkd.in/p/gx7KkQ-y
-  - who: Vellore Institute of Technology
+  - who: VIT Chennai
     topic: Azure AI
-    where: Online
-    what: Azure Conversational AI, my first university guest lecture
-    linkedin: https://lnkd.in/p/gFPDgt-j
-  - who: Sri Ramakrishna Engineering College
-    topic: Azure AI
-    where: Online
-    what: Image classification and object detection with Azure Cognitive Services
-    linkedin: https://lnkd.in/p/gvDjjK75
+    where: Chennai
+    what: Azure AI Custom Vision, hands-on lecture
+    linkedin: https://lnkd.in/p/g72yVQ2z
   - who: Microsoft Azure AI-900
     topic: Azure AI
     where: Online
     what: Webinar on Azure AI services for certification
     linkedin: https://lnkd.in/p/gSpgHPbM
+  - who: Vellore Institute of Technology
+    topic: Azure AI
+    where: Online
+    what: Azure Conversational AI, my first university guest lecture
+    linkedin: https://lnkd.in/p/gFPDgt-j
+  - who: Jeppiaar Engineering College
+    topic: AI & ML
+    where: Chennai
+    what: Innovation methods for ML & AI, with an AutoML demo
+    linkedin: https://lnkd.in/p/g9KBZvZD
+  - who: Sri Ramakrishna Engineering College
+    topic: Azure AI
+    where: Online
+    what: Image classification and object detection with Azure Cognitive Services
+    linkedin: https://lnkd.in/p/gvDjjK75
   - who: College Rotaract Clubs
     topic: Careers
     where: Online
