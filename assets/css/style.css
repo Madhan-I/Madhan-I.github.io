@@ -923,3 +923,26 @@ footer .f-bottom, footer .f-bottom span, footer .f-bottom a { color: var(--muted
 #contact .email-card:hover { border-color: #F2A541; }
 @media (max-width: 480px) { #contact .email-card .v { font-size: 15px; white-space: nowrap; } #contact .email-card { gap: 12px; } }
 footer .f-bottom, footer .f-bottom span { font-size: 11px; }
+
+/* ===== Type scale (Oct 2026): 11 · 12 · 14 · 15 · 16 (client names) · 17 · 20 · 26 · 44 · 76; big numbers are display exceptions ===== */
+.sec-head h2 { font-size: clamp(30px, 4.2vw, 44px) !important; line-height: 1.1; }
+.sec-head .label { font-size: 14px !important; }
+/* small capital labels: 12px */
+.metric .tag, .cg h3, .speak h3, .card .k, .res-btn small, footer .f-col b, .bh-eyebrow, .e-when { font-size: 12px !important; }
+.cert .yr, .cert .verify-link, .cert .meta > span:not(.live):not(.expired) { font-size: 12px !important; }
+/* card dates and descriptions: 14px */
+.tk-date, .tk-meta { font-size: 14px !important; }
+/* card titles: 17px; organisation lines: 15px */
+.speak.duo b, .speak.talks .tk-title, .abody > b, .e-main b { font-size: 17px !important; }
+.speak.talks:not(.duo) b { font-size: 15px !important; }
+.job-side .sector > span, .train-note, a.more { font-size: 15px !important; }
+.lede, .lede .nw, .copy p:not(.big) { font-size: 17px !important; }
+.copy .lead, .about .copy > p:first-child { font-size: 20px !important; }
+.mark-name { font-size: 20px !important; }
+.e-head h3 { font-size: 26px !important; }
+.role-1, .role-2, .role, p.big { font-size: 26px !important; }
+footer .f-name { font-size: 20px !important; }
+footer .f-col a { font-size: 14px !important; }
+@media (max-width: 760px) { .role-1, .role-2, .role, p.big { font-size: 20px !important; } .e-head h3 { font-size: 20px !important; } }
+.topics li span, .anote, .copy-btn { font-size: 12px !important; }
+#contact h2, #contact h2 span { font-size: clamp(30px, 4.2vw, 44px) !important; }
