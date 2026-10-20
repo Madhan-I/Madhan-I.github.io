@@ -242,42 +242,40 @@ skill_tabs:
   - label: Leadership & tools
     groups:
       - name: Delivery leadership
-        items: [Release Train Engineering, PI Planning, ART Sync & Scrum-of-Scrums, Program & Portfolio Governance, Release planning, "Risk, Dependency & RAID", Change Management, Function Point capacity planning]
-      - name: Coaching & facilitation
-        items: [Agile Coaching, Servant leadership, Impediment removal, Mentoring Scrum Masters, Onshore–offshore & cross-cultural teams]
+        items: [Release Train Engineering, PI Planning, Program & Portfolio Governance, "Risk, Dependency & RAID", Release planning, ART Sync & Scrum-of-Scrums, Change Management, Function Point capacity planning]
       - name: Metrics & reporting
-        items: [Predictability, Velocity & burndown, Flow efficiency, Sprint variance, Portfolio health dashboards, Executive reporting]
+        items: [Predictability, Executive reporting, Portfolio health dashboards, Sprint variance, Flow efficiency, Velocity & burndown]
+      - name: Coaching & facilitation
+        items: [Agile Coaching, Mentoring Scrum Masters, Onshore–offshore & cross-cultural teams, Servant leadership, Impediment removal]
       - name: Tools
-        items: [Jira, Azure DevOps, Confluence, ServiceNow, MS Project, Power BI, Tableau, Miro, Lucidchart, Visio]
+        items: [Jira, Azure DevOps, Confluence, ServiceNow, Power BI, MS Project, Tableau, Miro, Lucidchart, Visio]
   - label: Technical
     groups:
       - name: AI & cloud
-        items: [Generative AI & RAG, Azure AI (AI-102), Azure (AZ-104), AKS / Kubernetes, Google Cloud, Istio / Service Mesh]
+        items: [Generative AI & RAG, Azure AI (AI-102), AKS / Kubernetes, Azure (AZ-104), Google Cloud, Istio / Service Mesh]
       - name: DevOps & APIs
-        items: [GitLab CI/CD, Jenkins, "Apigee, OAuth 2.0 & JWT", PagerDuty & Chaos Engineering, SQL]
+        items: [GitLab CI/CD, "Apigee, OAuth 2.0 & JWT", Jenkins, SQL, PagerDuty & Chaos Engineering]
       - name: Mainframe
-        items: [z/OS, COBOL, JCL, DB2, CICS, VSAM, Control-M, CA-7]
+        items: [z/OS, COBOL, DB2, CICS, JCL, VSAM, Control-M, CA-7]
       - name: Platforms
-        items: [OpenText xPression & Exstream, SS&C Chorus BPM (AWD), API platforms]
+        items: [API platforms, SS&C Chorus BPM (AWD), OpenText xPression & Exstream]
       - name: Domains
-        items: [Financial services, Insurance, Healthcare, Retail]
-
+        items: [Insurance, Financial services, Healthcare, Retail]
 training_topics:
   - name: SAFe® Scrum Master & POPM practice
     note: PI planning · ART roles
-  - name: Scrum & Kanban for real teams
-    note: Ceremonies · metrics
   - name: Azure AI Engineer
     note: AI-102
+  - name: Scrum & Kanban for real teams
+    note: Ceremonies · metrics
   - name: Azure Administrator
     note: AZ-104
-  - name: Azure fundamentals
-    note: AZ-900 · AI-900 · DP-900
   - name: Cloud on AWS & Google Cloud
     note: Cloud fundamentals
+  - name: Azure fundamentals
+    note: AZ-900 · AI-900 · DP-900
 training_safe_note: "SAFe® sessions are practice coaching, not official Scaled Agile certification courses."
-training_formats: [Corporate workshops, Graduate programs, College guest lectures, Technical sessions, Certification webinars, Online sessions, CSR skilling programs, Team coaching, Mentoring]
-
+training_formats: [Corporate workshops, Technical sessions, Team coaching, Certification webinars, Graduate programs, Mentoring, College guest lectures, Online sessions, CSR skilling programs]
 speaking_title: "Speaking engagements · 8 of 75+"
 speaking:
   - who: Atos Graduate Programme
