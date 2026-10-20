@@ -1099,3 +1099,29 @@ footer .f-col a { font-size: 14px !important; }
 .fmt-groups .fr { grid-template-columns: 1fr; gap: 6px; padding: 10px 0; }
 .fmt-groups .fi + .fi::before { content: none; }
 .fmt-groups .fi:not(:last-child)::after { content: "·"; color: #F2A541; margin: 0 10px; }
+/* Formats: three per line, justified across the column */
+.fmt-groups .fx { display: block; }
+.fmt-groups .fl { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
+.fmt-groups .fl + .fl { margin-top: 4px; }
+.fmt-groups .fi::after, .fmt-groups .fi::before { content: none !important; }
+.fmt-groups .fd { font-style: normal; color: #F2A541; }
+@media (max-width: 520px) { .fmt-groups .fl { flex-wrap: wrap; justify-content: flex-start; } }
+/* Intro line 2 ends at "coaching", stretched to the full width like justified text */
+@media (min-width: 1200px) { #training .train-grid p.big .lead2 { display: block; white-space: nowrap; text-align: justify; text-align-last: justify; } }
+/* Formats: the shorter second line sits left, like the last line of justified text */
+.fmt-groups .fl:not(:first-child):last-child { justify-content: flex-start; gap: 10px; }
+@media (min-width: 1200px) { #training .train-grid p.big .lead1 { text-align: justify; text-align-last: justify; } }
+
+/* Text full width; formats below as one line per audience */
+@media (min-width: 1024px) {
+  #training .train-grid > div:first-child { display: block !important; }
+  #training .train-grid p.big .lead2 { display: inline !important; white-space: normal !important; text-align-last: auto !important; }
+  #training .train-grid p.big .lead1 { text-align-last: auto !important; }
+  #training .train-grid .train-note { text-align: justify; }
+  #training .train-grid > div:first-child .train-formats { margin-top: 22px; }
+  .fmt-groups .fr { grid-template-columns: 190px minmax(0, 1fr) !important; gap: 16px !important; padding: 12px 0 !important; }
+  .fmt-groups .fx { display: flex !important; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; }
+  .fmt-groups .fl { display: contents !important; }
+  .fmt-groups .fl + .fl::before { content: "·"; color: #F2A541; }
+}
+@media (min-width: 1024px) { #training .train-grid p.big .lead1 { display: inline !important; white-space: normal !important; } }
