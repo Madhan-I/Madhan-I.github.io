@@ -1,4 +1,6 @@
 ---
+featured: 2
+period: "2020 – 2022"
 title: "Delivering for 20 million policyholders without adding headcount"
 teaser: "Coaching teams to serve 20 million policyholders"
 summary: How Agile coaching raised velocity 30% and cut cost 25% on the Allstate communications program.

@@ -1,4 +1,6 @@
 ---
+featured: 1
+period: "2022 – 2025"
 title: "400 tickets, two lost years, nine months to recover"
 teaser: "How a frozen program got moving again in nine months"
 summary: How release governance brought a frozen John Hancock platform program back to life.
