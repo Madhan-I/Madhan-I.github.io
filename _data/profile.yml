@@ -395,15 +395,18 @@ certifications:
         badge: safe5-sm.png
         url: https://www.credly.com/badges/1ee164d6-dbcc-4e69-9d6e-8c4ae247a18c
       - name: Certified SAFe® 5 Product Owner / Product Manager
+        full_only: true
         year: "2022"
         status: Active
         badge: safe5-popm.png
         url: https://www.credly.com/badges/b03046cc-22c9-41e7-a409-91bb60cf60ac
       - name: Scrum Associate & Kanban Associate (Scrum Institute)
+        full_only: true
         year: "2020"
         status: Active
         badge: scrum-institute.png
       - name: Scrum Fundamentals Certified (VMEdu)
+        full_only: true
         year: "2020"
         status: Active
         badge: vmedu.png
