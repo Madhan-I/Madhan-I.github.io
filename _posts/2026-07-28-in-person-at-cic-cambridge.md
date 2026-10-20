@@ -26,7 +26,7 @@ It became my regular stop. Besides Code for Boston, I went to the Venture Café 
 
 **Newcomers stayed.** Someone who walked in, got a welcome and a task, and sat next to a regular usually came back. Online, people were far easier to lose after their first visit.
 
-**Cross-team questions got asked.** The data, backend and frontend groups sat at neighbouring tables, so "what does your API actually return?" was a walk across the room, not a ticket.
+**Cross-team questions got asked.** The data, backend and frontend groups sat at neighboring tables, so "what does your API actually return?" was a walk across the room, not a ticket.
 
 **Trust built quickly.** One face-to-face conversation did more for working relationships than weeks of chat messages. Disagreements on later video calls were easier, because people knew each other.
 
@@ -34,7 +34,7 @@ It became my regular stop. Besides Code for Boston, I went to the Venture Café 
 
 I'm not arguing everyone should be in an office. I've delivered well across onshore and offshore teams for years. But those evenings changed how I plan.
 
-- **Spend face time on the hard moments.** PI planning, a programme restart or a new team forming is where an in-person session pays for itself many times over.
+- **Spend face time on the hard moments.** PI planning, a program restart or a new team forming is where an in-person session pays for itself many times over.
 - **Design onboarding for people who aren't in the room.** If a new person only does well when someone sits next to them, the onboarding needs fixing.
 - **Make being stuck visible on purpose.** Remote teams need an easy, blame-free way to say "I'm blocked", because nobody can see it on their face.
 - **Build relationships before you need them.** The time to get to know a stakeholder is before the difficult release, not during it.

@@ -12,7 +12,7 @@ tags: [AI, Leadership]
 
 On 1 July 2021 I posted two words that had taken six months to earn: "nailed it". I'd passed the Azure AI Engineer exam.
 
-The post that went with it was honest about the road there: "After six long months, having both doubts and uncertainty." It became one of the most-liked posts I've ever written. I think a lot of people recognised the doubt.
+The post that went with it was honest about the road there: "After six long months, having both doubts and uncertainty." It became one of the most-liked posts I've ever written. I think a lot of people recognized the doubt.
 
 ## How it started
 
@@ -24,7 +24,7 @@ Fundamentals were the easy part. The engineer exam was a different level: design
 
 Six months is a long time to carry an exam around, and I was honest at the time that doubt and uncertainty came with me the whole way.
 
-What finally worked was practice tests. Not to memorise answers, but to find my missing pieces. Each wrong answer showed me a gap I hadn't known was there, and I went back to Microsoft Learn to fill it. By the time I sat the exam, I knew where my gaps had been and had worked on each one.
+What finally worked was practice tests. Not to memorize answers, but to find my missing pieces. Each wrong answer showed me a gap I hadn't known was there, and I went back to Microsoft Learn to fill it. By the time I sat the exam, I knew where my gaps had been and had worked on each one.
 
 ## What happened next
 

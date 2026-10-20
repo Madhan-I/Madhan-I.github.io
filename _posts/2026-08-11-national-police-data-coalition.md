@@ -26,7 +26,7 @@ A restart brings a wave of new volunteers at once. I was on the non-technical si
 
 ## What I learned
 
-**Restarts follow the same rules everywhere.** That same year, at work, I was restarting a programme that had been frozen for two years. The first blocker in both places was identical: people can't contribute until they can get in.
+**Restarts follow the same rules everywhere.** That same year, at work, I was restarting a program that had been frozen for two years. The first blocker in both places was identical: people can't contribute until they can get in.
 
 **Momentum is fragile.** A restarted project has goodwill but little patience. Quick, visible first wins for each new volunteer kept the energy up.
 

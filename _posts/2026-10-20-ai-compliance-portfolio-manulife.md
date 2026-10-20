@@ -19,7 +19,7 @@ The engineering answer was a hybrid compliance engine: traditional rules where r
 
 ## Keeping everything else steady
 
-A portfolio doesn't pause while you modernise one part of it. At the same time we were:
+A portfolio doesn't pause while you modernize one part of it. At the same time we were:
 
 - moving 15 core services onto Azure Kubernetes Service (AKS)
 - moving 7 microservices onto Gradle

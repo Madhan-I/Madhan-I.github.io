@@ -1,15 +1,15 @@
 ---
 title: "400 tickets, two lost years, nine months to recover"
-teaser: "How a frozen programme got moving again in nine months"
-summary: How release governance brought a frozen John Hancock platform programme back to life.
-outcome: "A platform frozen for two years moving again: 400+ backlog tickets cleared in nine months and five modernisation initiatives live across 20+ business divisions."
+teaser: "How a frozen program got moving again in nine months"
+summary: How release governance brought a frozen John Hancock platform program back to life.
+outcome: "A platform frozen for two years moving again: 400+ backlog tickets cleared in nine months and five modernization initiatives live across 20+ business divisions."
 hashtags: [ReleaseTrainEngineer, SSCChorus, AWD, BPM, PIPlanning, ProgramRecovery]
 redirect_from:
   - /blog/2026/10/reviving-a-stalled-platform-john-hancock/
 tags: [Delivery, Leadership]
 ---
 
-In September 2022 I moved to Boston to work on-site for John Hancock as Release Train Engineer and Technical Product Manager. The programme I joined had been held up for two years.
+In September 2022 I moved to Boston to work on-site for John Hancock as Release Train Engineer and Technical Product Manager. The program I joined had been held up for two years.
 
 COVID had put the platform on hold. When work restarted, the backlog was still there, only larger. More than 400 tickets were waiting, and the roadmap had broken into pieces that no longer fitted together.
 
@@ -23,7 +23,7 @@ Then capacity. I introduced structured capacity planning with Function Point ana
 
 ## Scaling once it moved
 
-Once the train was moving, the business wanted more, and rightly so. We guided teams through coordinated upgrades, and **all five modernisation initiatives went live across more than 20 business divisions**. That only works when dependencies are visible and release dates mean something.
+Once the train was moving, the business wanted more, and rightly so. We guided teams through coordinated upgrades, and **all five modernization initiatives went live across more than 20 business divisions**. That only works when dependencies are visible and release dates mean something.
 
 The AWD workflow system at the heart of it was still on its 2019 release. My teams worked in AWD's legacy desktop clients, EnCorr and Viewstation. We delivered the platform's first upgrades in four years, completing most of them by Q2 2023, within a year of taking over, while still clearing the backlog.
 
@@ -35,14 +35,14 @@ Upgrading inside AWD was the first step. The bigger one was moving people onto t
 
 ## The outcome
 
-- **400+ tickets cleared in 9 months** on a programme that had been stalled for two years.
-- **All 5 modernisation initiatives** live across **20+ business divisions**.
+- **400+ tickets cleared in 9 months** on a program that had been stalled for two years.
+- **All 5 modernization initiatives** live across **20+ business divisions**.
 - Effort estimates within **10% of actual work** in the first quarter.
 - The AWD workflow system's **first upgrades since 2019**, mostly complete by **Q2 2023**.
 - **All my teams moved** from AWD's legacy EnCorr and Viewstation desktops to **SS&C Chorus BPM** before I handed over in August 2025.
 
 ## What I learned in Boston
 
-A stalled programme is rarely a people problem. It's usually a flow problem that has turned into a morale problem. Fix the flow, make progress visible, and people start believing in the plan again. That belief is what really clears a backlog.
+A stalled program is rarely a people problem. It's usually a flow problem that has turned into a morale problem. Fix the flow, make progress visible, and people start believing in the plan again. That belief is what really clears a backlog.
 
-*Have a programme that's stuck? This is the kind of turnaround I enjoy most. Get in touch.*
+*Have a program that's stuck? This is the kind of turnaround I enjoy most. Get in touch.*

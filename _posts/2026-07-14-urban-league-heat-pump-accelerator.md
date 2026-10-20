@@ -14,7 +14,7 @@ The Urban League Heat Pump Accelerator was one of four Code for Boston projects 
 
 ## The project
 
-It's a partnership with the Urban League of Eastern Massachusetts and the Heat Smart Alliance. The goal is to reach owners of Boston homes most likely to benefit from heat pump retrofits, tax credits and installation support, with equity at the centre.
+It's a partnership with the Urban League of Eastern Massachusetts and the Heat Smart Alliance. The goal is to reach owners of Boston homes most likely to benefit from heat pump retrofits, tax credits and installation support, with equity at the center.
 
 ## The tech
 
@@ -23,7 +23,7 @@ The project ran as five workstreams:
 - **Data analysis** in Python and Jupyter, grouping city property parcels into canvassing routes
 - **Backend** in Ruby on Rails and PostgreSQL, holding homes, surveyors, surveys and assignments
 - **Frontend** in React, so canvassers could see a property and record a visit from their phone
-- **Partnerships** and **marketing**, taking the approach to other organisations
+- **Partnerships** and **marketing**, taking the approach to other organizations
 
 Code ran in Docker, with automated deploys through GitHub Actions to a Kubernetes-based cloud, and GitHub Codespaces gave volunteers a one-click development environment.
 

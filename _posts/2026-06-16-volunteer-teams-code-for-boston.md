@@ -10,7 +10,7 @@ redirect_from:
 tags: [Community, Leadership]
 ---
 
-From September 2022 to August 2025 I was on-site in Boston for John Hancock. Alongside that work I joined Code for Boston, a volunteer group that builds free, open-source software for public-service organisations. Hack nights ran on Tuesday evenings, on Zoom every week and in person at the Cambridge Innovation Center once or twice a month.
+From September 2022 to August 2025 I was on-site in Boston for John Hancock. Alongside that work I joined Code for Boston, a volunteer group that builds free, open-source software for public-service organizations. Hack nights ran on Tuesday evenings, on Zoom every week and in person at the Cambridge Innovation Center once or twice a month.
 
 Each project had several teams, some technical and some not. I was a volunteer member on the non-technical side. My part was simple and, it turned out, important: helping newcomers who wanted to contribute get set up, from cloud accounts to the tools each team used, so they could start on real work instead of losing their first evening to setup.
 

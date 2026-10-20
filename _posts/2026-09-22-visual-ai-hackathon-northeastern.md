@@ -38,4 +38,4 @@ I went for the technology and came away with friends. A few of the people I met 
 
 ## Why it matters for my day job
 
-Leading AI programmes well means respecting how the work really gets done. Days like this one keep my plans honest, and they keep me connected to the people who do the building.
+Leading AI programs well means respecting how the work really gets done. Days like this one keep my plans honest, and they keep me connected to the people who do the building.
