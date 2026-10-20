@@ -261,3 +261,15 @@ document.querySelectorAll('.copy-btn').forEach(function (b) {
     });
   });
 })();
+
+/* Community & events: four cards visible, the rest on demand */
+(function () {
+  var btn = document.querySelector('.comm-toggle'); if (!btn) return;
+  var more = document.querySelectorAll('.comm-more'), label = btn.textContent;
+  btn.addEventListener('click', function () {
+    var show = btn.getAttribute('aria-expanded') !== 'true';
+    more.forEach(function (li) { li.hidden = !show; });
+    btn.setAttribute('aria-expanded', show ? 'true' : 'false');
+    btn.textContent = show ? 'Show fewer' : label;
+  });
+})();

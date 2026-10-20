@@ -319,7 +319,7 @@ speaking:
     what: Careers in IT services for final-year and third-year students
     linkedin: https://lnkd.in/p/gvKE9S_P
 
-community_title: Civic tech volunteering · Code for Boston
+community_events_title: Code for Boston volunteering & Boston tech events
 community:
   - who: MAPLE · Massachusetts Platform for Legislative Engagement
     topic: Civic tech
@@ -342,13 +342,7 @@ community:
     link: /blog/2026/09/heat-home-energy-analysis-tool/
     when: May 2023 – Aug 2025
 
-events_title: Boston tech events attended
 events:
-  - who: MxHacks 2022 · Mendix, Boston
-    topic: Hackathon
-    what: Took part at the Boston site of Mendix's 36-hour global "Low-Code for Good" hackathon, where teams built low-code apps for nonprofits
-    when: Sep 2022
-    link: /blog/2026/05/mxhacks-2022-mendix-boston/
   - who: Visual AI Hackathon · Northeastern University
     topic: Hackathon
     what: Built part of a team project combining image mapping with sentiment analysis, at Voxel51's computer vision hackathon on Northeastern's Boston campus
@@ -359,6 +353,11 @@ events:
     what: Attended the opening keynotes of MIT Solve, MIT's annual event on using technology to tackle global challenges, featuring MIT President Sally Kornbluth
     when: May 2023
     link: /blog/2026/08/solve-at-mit-2023/
+  - who: MxHacks 2022 · Mendix, Boston
+    topic: Hackathon
+    what: Took part at the Boston site of Mendix's 36-hour global "Low-Code for Good" hackathon, where teams built low-code apps for nonprofits
+    when: Sep 2022
+    link: /blog/2026/05/mxhacks-2022-mendix-boston/
   - who: Adobe Create Now Boston
     topic: Product demo
     what: Saw Adobe demo its newest Firefly generative AI features across Photoshop, Illustrator and Express, at an in-person community evening in South Boston
