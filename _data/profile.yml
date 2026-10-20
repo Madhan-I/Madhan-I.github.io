@@ -242,9 +242,9 @@ skill_tabs:
   - label: Leadership & tools
     groups:
       - name: Delivery leadership
-        items: [Release Train Engineering, PI Planning, Program & Portfolio Governance, "Risk, Dependency & RAID", Release planning, ART Sync & Scrum-of-Scrums, Change Management, Function Point capacity planning]
+        items: [Release Train Engineering, PI Planning, Release planning, Program & Portfolio Governance, Stakeholder management, "Risk, Dependency & RAID", ART Sync & Scrum-of-Scrums, Change Management, Function Point capacity planning]
       - name: Metrics & reporting
-        items: [Predictability, Executive reporting, Portfolio health dashboards, Sprint variance, Flow efficiency, Velocity & burndown]
+        items: [Predictability, Executive reporting, Sprint variance, Data-driven decisions, Portfolio health dashboards, Flow efficiency, Velocity & burndown]
       - name: Coaching & facilitation
         items: [Agile Coaching, Mentoring Scrum Masters, Impediment removal, Onshore–offshore & cross-cultural teams, Servant leadership]
       - name: Tools
@@ -260,7 +260,7 @@ skill_tabs:
       - name: Platforms
         items: [SS&C Chorus BPM (AWD), OpenText xPression & Exstream]
       - name: Domains
-        items: [Insurance, Financial services, Healthcare, Retail]
+        items: [Insurance, Financial services, Customer Communications (CCM), Healthcare, Retail]
 training_topics:
   - name: SAFe® Scrum Master & POPM practice
     note: PI planning · ART roles
