@@ -892,3 +892,9 @@ nav .nav-cta a::after { display: none !important; }
 @media (max-width: 900px) { nav .nav-cta a { display: inline-block; margin-top: 6px; } }
 .metric .ragged { text-align: left !important; }
 @media (min-width: 901px) { nav #site-menu { align-items: center; } }
+
+/* Homepage writing cards share the event-card style; on white they get a border and shadow */
+#writing .writing-cards { margin-top: 0; }
+#writing .writing-cards li { border: 1px solid var(--line); box-shadow: var(--shadow); }
+#writing .writing-cards b a { color: inherit; text-decoration: none; }
+#writing .writing-cards b a:hover { text-decoration: underline; }
