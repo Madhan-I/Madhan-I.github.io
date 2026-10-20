@@ -107,9 +107,9 @@ layout: default
     <div class="sec-head reveal"><span class="label"><svg class="ic" aria-hidden="true"><use href="#i-board"/></svg>Skills, Training &amp; Community</span><h2>{{ p.training_title }}</h2></div>
     <div class="train-grid">
       <div class="reveal">
-        <p class="big">{% if p.training_intro_lead %}<span class="lead1">{{ p.training_intro_lead }}</span> {% endif %}{{ p.training_intro }}</p>
+        <p class="big">{% if p.training_intro_lead %}<span class="lead1">{{ p.training_intro_lead }}</span> {% endif %}{% if p.training_intro_mid %}<span class="lead2">{{ p.training_intro_mid }}</span> {% endif %}{{ p.training_intro }}</p>
         <p class="train-note">{{ p.training_note }}</p>
-        {% if p.training_formats %}<div class="train-formats fmt-groups"><h4>Formats</h4>{% for g in p.training_formats %}<div class="fr"><span class="fh">{{ g.group }}</span><span class="fx">{% for x in g.items %}<span class="fi">{{ x }}</span>{% endfor %}</span></div>{% endfor %}</div>{% endif %}
+        {% if p.training_formats %}<div class="train-formats fmt-groups"><h4>Formats</h4>{% for g in p.training_formats %}<div class="fr"><span class="fh">{{ g.group }}</span><span class="fx">{% for x in g.items %}{% assign m = forloop.index0 | modulo: 3 %}{% if m == 0 %}<span class="fl">{% else %}<i class="fd">·</i>{% endif %}<span class="fi">{{ x }}</span>{% if m == 2 or forloop.last %}</span>{% endif %}{% endfor %}</span></div>{% endfor %}</div>{% endif %}
       </div>
       <div class="skillbox reveal">
         <div class="sk-tabs" role="tablist"><button type="button" role="tab" class="sk-tab on visited" aria-selected="true" data-sk="0">Training tracks</button>{% for s in p.skill_tabs %}<button type="button" role="tab" class="sk-tab" aria-selected="false" data-sk="{{ forloop.index }}">{{ s.label }}</button>{% endfor %}</div>
