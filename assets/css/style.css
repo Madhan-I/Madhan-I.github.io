@@ -973,3 +973,24 @@ footer .f-col a { font-size: 14px !important; }
 
 /* About title on one line on wide screens */
 @media (min-width: 1200px) { #about .sec-head h2 { font-size: 42px !important; white-space: nowrap; } }
+
+/* Equal 135px visual gap between sections (desktop), measured content to content */
+@media (min-width: 1024px) {
+  .slide { padding-block: 56px; }
+  #about { padding-top: 44px; padding-bottom: 39px; }
+  #experience { padding-top: 39px; padding-bottom: 34px; }
+  #training { padding-top: 34px; padding-bottom: 40px; }
+  #certifications { padding-top: 40px; padding-bottom: 40px; }
+  #recognition { padding-top: 40px; padding-bottom: 40px; }
+  #writing { padding-top: 40px; padding-bottom: 64px; }
+  #contact { padding-top: 63px; }
+}
+@media (max-width: 767px) {
+  .slide { padding-block: 36px; }
+  #about { padding-top: 80px; padding-bottom: 40px; }
+  #experience { padding-top: 40px; padding-bottom: 34px; }
+  #training { padding-top: 34px; padding-bottom: 40px; }
+  #certifications, #recognition { padding-block: 40px; }
+  #writing { padding-top: 40px; padding-bottom: 22px; }
+  #contact { padding-top: 22px; }
+}
