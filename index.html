@@ -112,7 +112,7 @@ layout: default
         {% if p.training_formats %}<div class="train-formats"><h4>Formats</h4><ul>{% for x in p.training_formats %}<li>{{ x }}</li>{% endfor %}</ul></div>{% endif %}
       </div>
       <div class="skillbox reveal">
-        <div class="sk-tabs" role="tablist"><button type="button" role="tab" class="sk-tab on" aria-selected="true" data-sk="0">Training tracks</button>{% for s in p.skill_tabs %}<button type="button" role="tab" class="sk-tab" aria-selected="false" data-sk="{{ forloop.index }}">{{ s.label }}</button>{% endfor %}</div>
+        <div class="sk-tabs" role="tablist"><button type="button" role="tab" class="sk-tab on visited" aria-selected="true" data-sk="0">Training tracks</button>{% for s in p.skill_tabs %}<button type="button" role="tab" class="sk-tab" aria-selected="false" data-sk="{{ forloop.index }}">{{ s.label }}</button>{% endfor %}</div>
         <ul class="topics sk-panel" data-panel="0" aria-label="Training topics">
           {% for t in p.training_topics %}<li><b>{{ t.name }}</b><span>{{ t.note }}</span></li>{% endfor %}
           {% if p.training_safe_note %}<li class="sk-fine">{{ p.training_safe_note }}</li>{% endif %}
