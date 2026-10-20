@@ -254,11 +254,11 @@ skill_tabs:
       - name: AI & cloud
         items: [Generative AI & RAG, Azure AI (AI-102), AKS / Kubernetes, Azure (AZ-104), Google Cloud, Istio / Service Mesh]
       - name: DevOps & APIs
-        items: [GitLab CI/CD, "Apigee, OAuth 2.0 & JWT", Jenkins, SQL, PagerDuty & Chaos Engineering]
+        items: [GitLab CI/CD, "Apigee, OAuth 2.0 & JWT", Jenkins, SQL, PagerDuty & Chaos Engineering, API platforms]
       - name: Mainframe
         items: [z/OS, COBOL, DB2, CICS, JCL, VSAM, CA-7]
       - name: Platforms
-        items: [API platforms, SS&C Chorus BPM (AWD), OpenText xPression & Exstream]
+        items: [SS&C Chorus BPM (AWD), OpenText xPression & Exstream]
       - name: Domains
         items: [Insurance, Financial services, Healthcare, Retail]
 training_topics:
