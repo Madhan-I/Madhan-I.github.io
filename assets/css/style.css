@@ -1039,3 +1039,7 @@ footer .f-col a { font-size: 14px !important; }
 .train-formats h4 { font: 700 11px/1 var(--body); letter-spacing: .12em; text-transform: uppercase; color: #F2A541; margin: 0 0 10px; }
 .train-formats ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 8px; }
 .train-formats li { font: 600 13px/1.2 var(--body); color: #FFFFFF; background: rgba(255, 255, 255, .08); border: 1px solid rgba(255, 255, 255, .18); border-radius: 8px; padding: 8px 12px; }
+/* Formats: equal-size chips in a 3-column grid */
+.train-formats ul { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }
+.train-formats li { display: flex; align-items: center; justify-content: center; text-align: center; min-height: 44px; padding: 8px 10px; }
+@media (max-width: 520px) { .train-formats ul { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
