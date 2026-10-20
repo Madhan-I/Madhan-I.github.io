@@ -28,7 +28,7 @@ In September 2021 I gave my first university guest lecture, on Microsoft Azure C
 Over the next few months one session led to the next:
 
 - **November 2021:** a virtual workshop for Sri Ramakrishna Engineering College on image classification and object detection with Azure Cognitive Services.
-- **November 2021:** a careers session for final and third-year students, organized by the Rotaract clubs of several colleges, on what service-based IT companies look for and how to build a job profile.
+- **November 2021:** a careers session for final-year and third-year students, organized by the Rotaract clubs of several colleges, on what service-based IT companies look for and how to build a job profile.
 - **January 2022:** a guest lecture at Jeppiaar Engineering College on machine learning and AI innovation in Azure, with an AutoML demo.
 - **January 2022:** Google Cloud basics for college students, through Atos's CSR program with EduBridge India.
 
@@ -40,7 +40,7 @@ That's still one of my favorite teaching moments. Nobody had to be there. They c
 
 ## The good things along the way
 
-**Recognition I didn't expect.** In February 2022 Atos gave me a Spot award for the cloud training I'd run for students with NIIT Foundation and EduBridge India. The feedback from the students was good too.
+**Recognition I didn't expect.** In February 2022 Atos gave me a Spot award for the cloud training I'd run for students with the NIIT Foundation and EduBridge India. The feedback from the students was good too.
 
 **A day I won't forget.** In March 2022, being part of the CSR team gave me the chance to meet Atos executives in person. I called it one of the most memorable days of my life, and it was.
 

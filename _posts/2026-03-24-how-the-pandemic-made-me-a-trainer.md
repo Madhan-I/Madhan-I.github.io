@@ -14,7 +14,7 @@ tags: [AI, Community]
 
 ## The day it arrived
 
-My MCT recognition came through on 24 October 2020. It was a long-awaited moment, right in the middle of my #100DaysOfCloud run. I thanked Microsoft for letting me learn so much for free, and added a line that still describes how I feel about Azure: it's a huge ocean, and I'd only crossed a wave.
+My MCT recognition came through on October 24, 2020. It was a long-awaited moment, right in the middle of my #100DaysOfCloud run. I thanked Microsoft for letting me learn so much for free, and added a line that still describes how I feel about Azure: it's a huge ocean, and I'd only crossed a wave.
 
 Being an MCT is a promise as much as a title. Microsoft trusts you to teach its technology, so you have to keep learning it.
 

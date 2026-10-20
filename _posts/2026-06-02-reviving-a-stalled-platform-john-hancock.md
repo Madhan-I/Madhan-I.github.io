@@ -13,7 +13,7 @@ tags: [Delivery, Leadership]
 
 In September 2022 I moved to Boston to work on-site for John Hancock as Release Train Engineer and Technical Product Manager. The program I joined had been held up for two years.
 
-COVID had put the platform on hold. When work restarted, the backlog was still there, only larger. More than 400 tickets were waiting, and the roadmap had broken into pieces that no longer fitted together.
+COVID had put the platform on hold. When work restarted, the backlog was still there, only larger. More than 400 tickets were waiting, and the roadmap had broken into pieces that no longer fit together.
 
 ## Where do you even start?
 
@@ -31,7 +31,7 @@ The AWD workflow system at the heart of it was still on its 2019 release. My tea
 
 ## From AWD to SS&C Chorus BPM
 
-AWD began at DST Systems. After SS&C acquired DST, it relaunched AWD as Chorus BPM, the workflow core of its SS&C Chorus automation platform, which now sits alongside Blue Prism's automation under SS&C Blue Prism. So moving from AWD to Chorus BPM isn't a switch to a different product. It's the same platform's current generation.
+AWD began at DST Systems. After SS&C acquired DST, SS&C relaunched AWD as Chorus BPM, the workflow core of its SS&C Chorus automation platform, which now sits alongside Blue Prism's automation under SS&C Blue Prism. So moving from AWD to Chorus BPM isn't a switch to a different product. It's the same platform's current generation.
 
 Upgrading inside AWD was the first step. The bigger one was moving people onto the new generation. Before I handed over in August 2025, all my teams had moved off the EnCorr and Viewstation desktops and onto SS&C Chorus BPM. A change like that touches how every person works every day, so it needs the same discipline as any release: clear dates, training before go-live and no surprises for the business.
 

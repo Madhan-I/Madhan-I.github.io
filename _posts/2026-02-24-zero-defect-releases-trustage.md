@@ -31,7 +31,7 @@ Automation took the repetitive checking off people and gave them back time for t
 
 ## Working across time zones
 
-The team spanned onsite and offshore locations. I mentored both sides and led sprint retrospectives that focused on one question: what slowed us down this sprint, and what will we change next sprint?
+The team spanned on-site and offshore locations. I mentored both sides and led sprint retrospectives that focused on one question: what slowed us down this sprint, and what will we change next sprint?
 
 ## The outcome
 

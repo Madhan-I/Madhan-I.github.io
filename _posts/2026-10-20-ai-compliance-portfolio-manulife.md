@@ -25,7 +25,7 @@ A portfolio doesn't pause while you modernize one part of it. At the same time w
 - moving 7 microservices onto Gradle
 - strengthening API security across the platform
 
-Any one of those can derail a quarter. What kept them on track was disciplined PI planning and sprint governance: clear priorities, honest capacity, and risks raised early instead of late. I set portfolio priorities that balanced scale, efficiency and risk, and reported portfolio health and roadmap decisions directly to executive leadership.
+Any one of those can derail a quarter. What kept them on track was disciplined PI planning and sprint governance: clear priorities, honest capacity, and risks raised early instead of late. I set portfolio priorities that balanced scale, efficiency and risk.
 
 ## What changed
 
