@@ -901,3 +901,8 @@ nav .nav-cta a::after { display: none !important; }
 
 .tk-in { display: inline-flex; align-items: center; gap: 8px; }
 .tk-in .ic { width: 16px; height: 16px; }
+/* Resume buttons match the Contact cards */
+.res-btn { background: rgba(255, 255, 255, .06); border: 1px solid rgba(255, 255, 255, .14); box-shadow: none; }
+.res-btn:hover { background: rgba(255, 255, 255, .1); border-color: #F2A541; }
+.res-btn .ic { color: #F2A541; }
+.res-btn small { color: #A9BBD6; }
