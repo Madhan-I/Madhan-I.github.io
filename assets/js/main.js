@@ -247,3 +247,16 @@ document.querySelectorAll('.copy-btn').forEach(function (b) {
     btn.textContent = show ? 'Show fewer talks' : label;
   });
 })();
+
+/* Training card tabs */
+(function () {
+  var box = document.querySelector('.skillbox'); if (!box) return;
+  var tabs = box.querySelectorAll('.sk-tab'), panels = box.querySelectorAll('.sk-panel');
+  tabs.forEach(function (t) {
+    t.addEventListener('click', function () {
+      var k = t.getAttribute('data-sk');
+      tabs.forEach(function (x) { var on = x === t; x.classList.toggle('on', on); x.setAttribute('aria-selected', on ? 'true' : 'false'); });
+      panels.forEach(function (p) { p.hidden = p.getAttribute('data-panel') !== k; });
+    });
+  });
+})();
