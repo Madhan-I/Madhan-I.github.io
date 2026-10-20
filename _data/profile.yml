@@ -259,7 +259,7 @@ training_topics:
   - name: Kubernetes, service mesh & cloud
     note: AKS · Istio · IBM · VMware
 
-speaking_title: Guest lectures & talks
+speaking_title: "Selected guest lectures & talks · 8 of 75+"
 speaking:
   - who: VIT Chennai
     topic: Azure AI
