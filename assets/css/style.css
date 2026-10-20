@@ -954,3 +954,6 @@ footer .f-col a { font-size: 14px !important; }
   .post .toc a::before { content: ""; position: absolute; left: -16px; top: 0; bottom: 0; width: 3px; background: #B45309; opacity: 0; transition: opacity .25s ease; }
   .post .toc a.on::before { opacity: 1; }
 }
+
+/* Guest lecture cards: four across, like the Code for Boston and event rows */
+@media (min-width: 1100px) { .speak.talks:not(.duo) ul { grid-template-columns: repeat(4, minmax(0, 1fr)); } .speak.talks:not(.duo) li { padding: 20px 18px; } }
