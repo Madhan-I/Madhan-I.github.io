@@ -1056,3 +1056,6 @@ footer .f-col a { font-size: 14px !important; }
 /* Training intro: smaller heading font (option A) */
 #training .train-grid p.big { font-size: 22px !important; line-height: 1.45 !important; letter-spacing: -.005em !important; }
 @media (max-width: 520px) { #training .train-grid p.big { font-size: 19px !important; } }
+
+/* Keep the left text fixed at the top while tabs change height */
+@media (min-width: 900px) { #training .train-grid { align-items: start !important; } }
