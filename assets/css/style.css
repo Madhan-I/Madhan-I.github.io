@@ -970,3 +970,6 @@ footer .f-col a { font-size: 14px !important; }
 
 /* About: client list height matches the text column */
 @media (min-width: 900px) { #about .clients li { padding-block: 4px; } }
+
+/* About title on one line on wide screens */
+@media (min-width: 1200px) { #about h2 { font-size: 42px; white-space: nowrap; } }
