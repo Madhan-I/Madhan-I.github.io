@@ -1059,3 +1059,19 @@ footer .f-col a { font-size: 14px !important; }
 
 /* Keep the left text fixed at the top while tabs change height */
 @media (min-width: 900px) { #training .train-grid { align-items: start !important; } }
+
+/* Layout C: text + formats on top, one wide skills card below, tracks as a card grid */
+@media (min-width: 1024px) {
+  #training .train-grid { grid-template-columns: 1fr !important; gap: 28px !important; }
+  #training .train-grid > div:first-child { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); column-gap: 48px; align-items: start; }
+  #training .train-grid > div:first-child > :not(.train-formats) { grid-column: 1; }
+  #training .train-grid > div:first-child .train-formats { grid-column: 2; grid-row: 1 / span 3; margin-top: 4px; }
+  #training .train-grid p.big { margin-top: 0; }
+  #training .train-formats li { font-size: 13px; padding: 8px 6px; white-space: nowrap; }
+}
+.skillbox .topics { display: grid !important; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; padding-top: 14px !important; }
+.skillbox .topics > li { flex-direction: column !important; align-items: flex-start !important; justify-content: flex-start !important; gap: 6px !important; border: 1px solid #D6E3F8 !important; border-radius: 12px; padding: 14px 16px !important; background: #F7FAFF; }
+.skillbox .topics > li span { text-align: left !important; }
+.skillbox .topics > li.sk-fine { grid-column: 1 / -1; border: 0 !important; background: none; padding: 2px 0 0 !important; }
+@media (max-width: 900px) { .skillbox .topics { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 520px) { .skillbox .topics { grid-template-columns: 1fr; } }
