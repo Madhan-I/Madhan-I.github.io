@@ -1052,3 +1052,7 @@ footer .f-col a { font-size: 14px !important; }
 .skillbox.seen .sk-tab:not(.on):not(.visited)::before { display: inline-block; }
 .skillbox .sk-tab.visited:not(.on) { border-color: var(--line); }
 .skillbox .sk-tab.visited::before { display: none; }
+
+/* Training intro: smaller heading font (option A) */
+#training .train-grid p.big { font-size: 22px !important; line-height: 1.45 !important; letter-spacing: -.005em !important; }
+@media (max-width: 520px) { #training .train-grid p.big { font-size: 19px !important; } }
