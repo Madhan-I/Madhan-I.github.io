@@ -233,7 +233,8 @@ experience:
       - "Untangled vendor delays and scheduling clashes on Celebrity Cricket League match days for the Chennai Rhinos, drawing positive reviews and invitations to future events."
 
 training_title: I train teams to deliver, not just to pass exams
-training_intro: "I've been a Microsoft Certified Trainer every year since 2020. My workshops, technical sessions and team coaching give delivery teams, Scrum Masters and engineers skills they can apply the next working day."
+training_intro_lead: "I've been a Microsoft Certified Trainer every year since 2020."
+training_intro: "My workshops, technical sessions and team coaching give delivery teams, Scrum Masters and engineers skills they can apply the next working day."
 training_note: "SAFe practice, Scrum, Microsoft Azure, AWS and Google Cloud for corporate teams, graduates and engineering colleges, online and in person."
 training_facts:
   - number: "6 yrs"
@@ -275,7 +276,13 @@ training_topics:
   - name: Azure fundamentals
     note: AZ-900 · AI-900 · DP-900
 training_safe_note: "SAFe® sessions are practice coaching, not official Scaled Agile certification courses."
-training_formats: [Corporate workshops, Technical sessions, Team coaching, Certification webinars, Graduate programs, Mentoring, College guest lectures, Online sessions, CSR skilling programs]
+training_formats:
+  - group: For teams
+    items: [Corporate workshops, Technical sessions, Team coaching, PI planning facilitation, Knowledge transfer]
+  - group: For learners
+    items: [Exam-prep bootcamps, Certification webinars, Hands-on labs, Graduate programs, Mentoring]
+  - group: Campus & community
+    items: [Guest lectures, Career talks, CSR skilling programs, Online sessions, Volunteer onboarding]
 speaking_title: "Speaking engagements · 8 of 75+"
 speaking:
   - who: Atos Graduate Programme
