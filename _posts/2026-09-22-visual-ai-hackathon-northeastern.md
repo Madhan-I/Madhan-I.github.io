@@ -11,7 +11,7 @@ redirect_from:
 tags: [AI, Community]
 ---
 
-On 21 March 2025 I spent the day at Northeastern University in Boston, at one of Voxel51's Visual AI Hackathons. Voxel51 makes FiftyOne, an open-source toolkit for working with image and video datasets, and that spring it ran a series of these hackathons at universities across the US. The format was simple: tech talks, hands-on workshops, challenges to work on, and plenty of time to meet people.
+On March 21, 2025, I spent the day at Northeastern University in Boston, at one of Voxel51's Visual AI Hackathons. Voxel51 makes FiftyOne, an open-source toolkit for working with image and video datasets, and that spring it ran a series of these hackathons at universities across the US. The format was simple: tech talks, hands-on workshops, challenges to work on, and plenty of time to meet people.
 
 ## Why a delivery lead goes to a hackathon
 
@@ -27,7 +27,7 @@ Doing the work myself, even for a day, was the point. It reminded me how much ef
 
 ## What I took away
 
-**Most of the work is the data.** Voxel51's whole approach, and the reason FiftyOne exists, is to look closely at your data before you trust your model. That's a useful reminder for anyone who plans AI delivery. The model is rarely the long pole; preparing, checking and labelling data usually is.
+**Most of the work is the data.** Voxel51's whole approach, and the reason FiftyOne exists, is to look closely at your data before you trust your model. That's a useful reminder for anyone who plans AI delivery. The model is rarely the long pole; preparing, checking and labeling data usually is.
 
 **Short time boxes sharpen decisions.** A one-day challenge forces teams to cut scope early and show something real. It's a sprint at full speed, and it shows how quickly people drop "nice to have" when the clock is visible.
 
