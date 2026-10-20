@@ -246,7 +246,7 @@ skill_tabs:
       - name: Metrics & reporting
         items: [Predictability, Executive reporting, Portfolio health dashboards, Sprint variance, Flow efficiency, Velocity & burndown]
       - name: Coaching & facilitation
-        items: [Agile Coaching, Mentoring Scrum Masters, Onshore–offshore & cross-cultural teams, Servant leadership, Impediment removal]
+        items: [Agile Coaching, Mentoring Scrum Masters, Impediment removal, Onshore–offshore & cross-cultural teams, Servant leadership]
       - name: Tools
         items: [Jira, Azure DevOps, Confluence, ServiceNow, Power BI, MS Project, Tableau, Miro, Lucidchart, Visio]
   - label: Technical
