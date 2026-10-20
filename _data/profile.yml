@@ -46,7 +46,7 @@ photo: "madhan-headshot-bright.jpg"
 
 # Skill boxes under the intro. Each group below is its own row on desktop.
 expertise_rows:
-  - [Program & Portfolio Governance, PI Planning, Release Management, Risk & Dependency Management, SAFe® 6, Generative AI & RAG, Azure AI]
+  - [Release Train Engineering, PI Planning, Program & Portfolio Governance, Risk & Dependency Management, Generative AI & RAG]
 
 # The four big numbers under the hero. Keep it to four.
 metrics:
