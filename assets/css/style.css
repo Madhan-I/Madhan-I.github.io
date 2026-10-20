@@ -915,3 +915,10 @@ footer .f-bottom, footer .f-bottom span, footer .f-bottom a { color: var(--muted
 .contact-bottom .res-btn { height: 100%; box-sizing: border-box; }
 .contact-bottom .card { height: 100%; box-sizing: border-box; display: flex; flex-direction: column; justify-content: center; }
 .res-btn small, #contact .card .k { color: #F2A541 !important; }
+
+/* Email card mirrors the resume tiles: amber icon, amber border on hover */
+#contact .email-card { flex-direction: row; align-items: center; justify-content: flex-start; gap: 14px; transition: border-color .2s, background .2s; }
+#contact .email-card > .ic { width: 26px; height: 26px; flex: none; color: #F2A541; }
+#contact .email-card .ec-body { flex: 1; min-width: 0; }
+#contact .email-card:hover { border-color: #F2A541; }
+@media (max-width: 480px) { #contact .email-card .v { font-size: 15px; white-space: nowrap; } #contact .email-card { gap: 12px; } }

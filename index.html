@@ -218,9 +218,10 @@ layout: default
         {% if p.resume_file != "" %}<a class="res-btn" href="{{ '/assets/resume/' | append: p.resume_file | relative_url }}" data-goatcounter-click="click-contact-resume" download><svg class="ic" aria-hidden="true"><use href="#i-file"/></svg><span><small>Resume</small>Download PDF</span></a><a class="res-btn" href="{{ '/assets/resume/Madhan-Irulandi-Resume.docx' | relative_url }}" data-goatcounter-click="click-contact-resume-word" download><svg class="ic" aria-hidden="true"><use href="#i-file"/></svg><span><small>Resume</small>Download Word</span></a>
         {% else %}<a class="v" href="mailto:{{ p.email }}?subject=Resume%20request">Request by email</a>{% endif %}
       </div>
-      <div class="card">
-        <span class="k">Email</span>
-        <div class="row"><a class="v" data-goatcounter-click="click-contact-email" href="mailto:{{ p.email }}">{{ p.email }}</a><button class="copy-btn" type="button" data-copy="{{ p.email }}">Copy</button></div>
+      <div class="card email-card">
+        <svg class="ic" aria-hidden="true"><use href="#i-mail"/></svg>
+        <div class="ec-body"><span class="k">Email</span>
+        <div class="row"><a class="v" data-goatcounter-click="click-contact-email" href="mailto:{{ p.email }}">{{ p.email }}</a><button class="copy-btn" type="button" data-copy="{{ p.email }}">Copy</button></div></div>
       </div>
       {% if p.github != "" %}
       <div class="card">
