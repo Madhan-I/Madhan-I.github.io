@@ -906,3 +906,6 @@ nav .nav-cta a::after { display: none !important; }
 .res-btn:hover { background: rgba(255, 255, 255, .1); border-color: #F2A541; }
 .res-btn .ic { color: #F2A541; }
 .res-btn small { color: #A9BBD6; }
+/* Footer bottom line: smaller, quieter text; slightly darker 1px divider */
+footer .f-bottom { font-size: 13px; border-top: 1px solid #CBD5E3; }
+footer .f-bottom, footer .f-bottom span, footer .f-bottom a { color: var(--muted); }
