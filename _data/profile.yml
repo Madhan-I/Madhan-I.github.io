@@ -326,44 +326,50 @@ community:
     what: Helped newcomers set up Codespaces and Docker to contribute to a Rails and PostgreSQL app that guides Urban League heat pump outreach, deployed on a Kubernetes-based cloud
     link: /blog/2026/07/urban-league-heat-pump-accelerator/
     when: Sep 2022 – Aug 2025
+    rank: 2
   - who: National Police Data Coalition
     topic: Open data
     what: Guided new volunteers through Docker and Heroku setup when the national police-conduct data platform restarted in 2023
     link: /blog/2026/08/national-police-data-coalition/
     when: Apr 2023 – Aug 2025
+    rank: 3
   - who: MAPLE · Massachusetts Platform for Legislative Engagement
     topic: Civic tech
     what: Got newcomers access to the Google Cloud and Firebase project behind a live platform where Massachusetts residents send testimony to their legislature
     link: /blog/2026/06/maple-massachusetts-legislature/
     when: Sep 2022 – Aug 2025
+    rank: 5
   - who: HEAT · Home Energy Analysis Tool
     topic: Climate
     what: Supported first-time contributors with Docker and Fly.io setup on a live tool that checks whether a proposed heat pump can heat a home
     link: /blog/2026/09/heat-home-energy-analysis-tool/
     when: May 2023 – Aug 2025
-
+    rank: 6
 events:
   - who: Visual AI Hackathon · Northeastern University
     topic: Hackathon
     what: Built part of a team project combining image mapping with sentiment analysis, at Voxel51's computer vision hackathon on Northeastern's Boston campus
     when: Mar 2025
     link: /blog/2026/09/visual-ai-hackathon-northeastern/
+    rank: 1
   - who: MxHacks 2022 · Mendix, Boston
     topic: Hackathon
     what: Took part at the Boston site of Mendix's 36-hour global "Low-Code for Good" hackathon, where teams built low-code apps for nonprofits
     when: Sep 2022
     link: /blog/2026/05/mxhacks-2022-mendix-boston/
+    rank: 4
   - who: Adobe Create Now Boston
     topic: Product demo
     what: Saw Adobe demo its newest Firefly generative AI features across Photoshop, Illustrator and Express, at an in-person community evening in South Boston
     when: Aug 2025
     link: /blog/2026/10/adobe-create-now-boston/
-
+    rank: 7
   - who: Solve at MIT 2023
     topic: Keynotes
     what: Attended the opening keynotes of MIT Solve, MIT's annual event on using technology to tackle global challenges, featuring MIT President Sally Kornbluth
     when: May 2023
     link: /blog/2026/08/solve-at-mit-2023/
+    rank: 8
 # year   = when you first earned it.
 # badge  = picture file in assets/badges/ (optional).
 # url    = link to the official certificate, opened when someone clicks it.
