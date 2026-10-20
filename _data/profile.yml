@@ -68,7 +68,7 @@ metrics:
     text: people trained since 2020, with 75+ guest lectures delivered and 1,000+ professionals mentored
 
 # Use | to start a new line in the heading.
-about_title: "Delivery leader.|Engineer by training. Teacher by habit."
+about_title: "Delivery leader. Engineer by training. Teacher by habit."
 about:
   - "Leaders call me when delivery has stalled and the stakes are high: millions of policyholders, regulated data and executives who need a straight answer on whether a release will land."
   - "My path was unusual: live events and VIP hospitality at IPL matches, then healthcare claims, production support and document platforms, then Scrum teams and release trains. I spent three years on-site in Boston for John Hancock, restarting a platform program frozen for two years. Today I run release governance at Atos for Manulife's Core API, Customer Engagement and Compliance AI products, reporting to executive leadership."
