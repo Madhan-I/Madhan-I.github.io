@@ -922,3 +922,4 @@ footer .f-bottom, footer .f-bottom span, footer .f-bottom a { color: var(--muted
 #contact .email-card .ec-body { flex: 1; min-width: 0; }
 #contact .email-card:hover { border-color: #F2A541; }
 @media (max-width: 480px) { #contact .email-card .v { font-size: 15px; white-space: nowrap; } #contact .email-card { gap: 12px; } }
+footer .f-bottom, footer .f-bottom span { font-size: 11px; }
