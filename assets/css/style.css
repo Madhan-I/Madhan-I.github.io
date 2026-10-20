@@ -1078,3 +1078,24 @@ footer .f-col a { font-size: 14px !important; }
 
 /* Hidden tab panels stay hidden (beats the track grid display) */
 .skillbox .sk-panel[hidden], .skillbox .topics[hidden] { display: none !important; }
+
+/* Training intro: first sentence on its own line, text justified */
+#training .train-grid p.big { text-align: justify; }
+#training .train-grid p.big .lead1 { display: block; white-space: nowrap; text-align: left; }
+@media (max-width: 1023px) { #training .train-grid p.big .lead1 { white-space: normal; } }
+/* Formats grouped by audience (option C) */
+.fmt-groups .fr { display: grid; grid-template-columns: 160px minmax(0, 1fr); gap: 16px; padding: 12px 0; border-bottom: 1px solid rgba(255, 255, 255, .12); align-items: baseline; }
+.fmt-groups .fr:last-child { border-bottom: 0; }
+.fmt-groups .fh { font: 700 11px/1.3 var(--body); letter-spacing: .12em; text-transform: uppercase; color: #F2A541; }
+.fmt-groups .fx { display: flex; flex-wrap: wrap; row-gap: 4px; font: 600 15px/1.4 var(--body); color: #FFFFFF; }
+.fmt-groups .fi { white-space: nowrap; }
+.fmt-groups .fi + .fi::before { content: "·"; color: #F2A541; margin: 0 10px; }
+@media (max-width: 520px) { .fmt-groups .fr { grid-template-columns: 1fr; gap: 6px; } }
+@media (min-width: 1024px) {
+  #training .train-grid > div:first-child { grid-template-columns: minmax(0, 1.16fr) minmax(0, .84fr); }
+  #training .train-grid p.big { font-size: 21px !important; }
+}
+@media (min-width: 1024px) and (max-width: 1199px) { #training .train-grid p.big .lead1 { white-space: normal; } }
+.fmt-groups .fr { grid-template-columns: 1fr; gap: 6px; padding: 10px 0; }
+.fmt-groups .fi + .fi::before { content: none; }
+.fmt-groups .fi:not(:last-child)::after { content: "·"; color: #F2A541; margin: 0 10px; }
