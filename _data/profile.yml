@@ -242,9 +242,13 @@ skill_tabs:
   - label: Leadership & tools
     groups:
       - name: Delivery leadership
-        items: [Release Train Engineering, PI Planning, ART Sync & Scrum-of-Scrums, Program & Portfolio Governance, Release Management, "Risk, Dependency & RAID", Change Management, Executive Reporting, Function Point capacity planning, Agile Coaching, Onshore–offshore delivery, Training & Mentoring]
+        items: [Release Train Engineering, PI Planning, ART Sync & Scrum-of-Scrums, Program & Portfolio Governance, Release planning, "Risk, Dependency & RAID", Change Management, Function Point capacity planning]
+      - name: Coaching & facilitation
+        items: [Agile Coaching, Servant leadership, Impediment removal, Mentoring Scrum Masters, Onshore–offshore & cross-cultural teams]
+      - name: Metrics & reporting
+        items: [Predictability, Velocity & burndown, Flow efficiency, Sprint variance, Portfolio health dashboards, Executive reporting]
       - name: Tools
-        items: [Jira, Azure DevOps, Confluence, ServiceNow, MS Project, Power BI, Tableau, Miro, Visio]
+        items: [Jira, Azure DevOps, Confluence, ServiceNow, MS Project, Power BI, Tableau, Miro, Lucidchart, Visio]
   - label: Technical
     groups:
       - name: AI & cloud
@@ -254,7 +258,9 @@ skill_tabs:
       - name: Mainframe
         items: [z/OS, COBOL, JCL, DB2, CICS, VSAM, Control-M, CA-7]
       - name: Platforms
-        items: [OpenText xPression & Exstream, SS&C Chorus BPM (AWD)]
+        items: [OpenText xPression & Exstream, SS&C Chorus BPM (AWD), API platforms]
+      - name: Domains
+        items: [Financial services, Insurance, Healthcare, Retail]
 
 training_topics:
   - name: SAFe® Scrum Master & POPM practice
@@ -270,7 +276,7 @@ training_topics:
   - name: Cloud on AWS & Google Cloud
     note: Cloud fundamentals
 training_safe_note: "SAFe® sessions are practice coaching, not official Scaled Agile certification courses."
-training_formats: [Corporate workshops, Graduate programs, College guest lectures, Technical sessions, Certification webinars, CSR skilling programs, Mentoring]
+training_formats: [Corporate workshops, Graduate programs, College guest lectures, Technical sessions, Certification webinars, Online sessions, CSR skilling programs, Team coaching, Mentoring]
 
 speaking_title: "Speaking engagements · 8 of 75+"
 speaking:

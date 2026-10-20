@@ -1012,7 +1012,6 @@ footer .f-col a { font-size: 14px !important; }
 .sk-chips li { font: 600 13px/1.2 var(--body); color: var(--navy); background: #F3F7FE; border: 1px solid #D6E3F8; border-radius: 8px; padding: 7px 10px; }
 .sk-panel[hidden] { display: none !important; }
 .skillbox .sk-panel { min-height: 0; }
-@media (min-width: 900px) { .skillbox { display: grid; grid-template-rows: auto 1fr; } .skillbox .sk-panel { grid-row: 2; grid-column: 1; } .skillbox .sk-panel[hidden] { display: block !important; visibility: hidden; } }
 .topics li.sk-formats { display: block; padding: 14px 0 4px; }
 .topics li.sk-formats li { display: inline-block; border-bottom: 1px solid #D6E3F8; padding: 7px 10px; }
 
