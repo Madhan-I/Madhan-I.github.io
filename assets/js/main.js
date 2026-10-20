@@ -215,7 +215,7 @@ document.querySelectorAll('.copy-btn').forEach(function (b) {
 (function () {
   var btn = document.querySelector('.cert-toggle'), more = document.getElementById('cert-more'); if (!btn || !more) return;
   btn.addEventListener('click', function () {
-    var show = more.hidden; more.hidden = !show;
+    var show = more.hidden; more.hidden = !show; document.querySelectorAll('.cert-x').forEach(function (e) { e.hidden = !show; });
     more.querySelectorAll('.reveal').forEach(function (e) { e.classList.add('in'); });
     btn.textContent = show ? 'Show fewer certifications' : 'Show all certifications';
     btn.setAttribute('aria-expanded', show ? 'true' : 'false');
