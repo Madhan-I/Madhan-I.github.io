@@ -946,3 +946,11 @@ footer .f-col a { font-size: 14px !important; }
 @media (max-width: 760px) { .role-1, .role-2, .role, p.big { font-size: 20px !important; } .e-head h3 { font-size: 20px !important; } }
 .topics li span, .anote, .copy-btn { font-size: 12px !important; }
 #contact h2, #contact h2 span { font-size: clamp(30px, 4.2vw, 44px) !important; }
+/* Contents: active section in amber, with a smooth change and an amber marker on the rail */
+.toc a { transition: color .25s ease; }
+.toc a.on { color: #B45309 !important; font-weight: 700; }
+@media (min-width: 1100px) {
+  .post .toc a { position: relative; }
+  .post .toc a::before { content: ""; position: absolute; left: -16px; top: 0; bottom: 0; width: 3px; background: #B45309; opacity: 0; transition: opacity .25s ease; }
+  .post .toc a.on::before { opacity: 1; }
+}
