@@ -233,7 +233,7 @@ experience:
 
 training_title: I train teams to deliver, not just to pass exams
 training_intro: Microsoft Certified Trainer every year since 2020. I run hands-on workshops for delivery teams, Scrum Masters and engineers who need to apply a framework the next working day.
-training_note: "Delivered SAFe, Scrum, Azure AI, cloud and DevOps programs for corporate teams, graduates and engineering colleges."
+training_note: "Delivered SAFe, Scrum and Azure AI programs for corporate teams, graduates and engineering colleges."
 training_facts:
   - number: "6 yrs"
     label: Microsoft Certified Trainer
@@ -241,6 +241,24 @@ training_facts:
     label: people trained
   - number: "75+"
     label: guest lectures
+skill_tabs:
+  - label: Leadership & tools
+    groups:
+      - name: Delivery leadership
+        items: [Release Train Engineering, PI Planning, ART Sync & Scrum-of-Scrums, Program & Portfolio Governance, Release Management, "Risk, Dependency & RAID", Change Management, Executive Reporting, Function Point capacity planning, Agile Coaching, Onshore–offshore delivery, Training & Mentoring]
+      - name: Tools
+        items: [Jira, Azure DevOps, Confluence, ServiceNow, MS Project, Power BI, Tableau, Miro, Visio]
+  - label: Technical
+    groups:
+      - name: AI & cloud
+        items: [Generative AI & RAG, Azure AI (AI-102), Azure (AZ-104), AKS / Kubernetes, Google Cloud, Istio / Service Mesh]
+      - name: DevOps & APIs
+        items: [GitLab CI/CD, Jenkins, "Apigee, OAuth 2.0 & JWT", PagerDuty & Chaos Engineering, SQL]
+      - name: Mainframe
+        items: [z/OS, COBOL, JCL, DB2, CICS, VSAM, Control-M, CA-7]
+      - name: Platforms
+        items: [OpenText xPression & Exstream, SS&C Chorus BPM (AWD)]
+
 training_topics:
   - name: SAFe® & Agile Release Trains
     note: PI planning · RTE practice
@@ -250,12 +268,7 @@ training_topics:
     note: AI-102 track
   - name: Azure administration
     note: AZ-104 track
-  - name: CI/CD with GitLab & Jenkins
-    note: Pipelines · release
-  - name: Incident response & ITIL®
-    note: PagerDuty · MTTR
-  - name: Kubernetes, service mesh & cloud
-    note: AKS · Istio · IBM · VMware
+training_formats: [Corporate workshops, Graduate programs, College guest lectures, Certification webinars]
 
 speaking_title: "Selected guest lectures & talks · 8 of 75+"
 speaking:
