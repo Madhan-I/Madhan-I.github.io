@@ -1,4 +1,5 @@
 ---
+period: "Mar 2025"
 title: "A Friday at a visual AI hackathon"
 teaser: "What a delivery lead takes away from a room full of builders"
 summary: Building part of an image mapping and sentiment analysis project at Voxel51's Visual AI Hackathon at Northeastern University in March 2025, and the friendships that came out of it.
