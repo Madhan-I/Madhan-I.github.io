@@ -332,13 +332,13 @@ community_events_title: Code for Boston volunteering & Boston tech events
 community:
   - who: Urban League Heat Pump Accelerator
     topic: Climate
-    what: Helped newcomers set up Codespaces and Docker to contribute to a Rails and PostgreSQL app that guides Urban League heat pump outreach, deployed on a Kubernetes-based cloud
+    what: Set up newcomers on Codespaces and Docker for a Rails app guiding Urban League heat pump outreach
     link: /blog/2026/07/urban-league-heat-pump-accelerator/
     when: Sep 2022 – Aug 2025
     rank: 2
   - who: National Police Data Coalition
     topic: Open data
-    what: Guided new volunteers through Docker and Heroku setup when the national police-conduct data platform restarted in 2023
+    what: Guided new volunteers through Docker and Heroku as the police-conduct data platform restarted in 2023
     link: /blog/2026/08/national-police-data-coalition/
     when: Apr 2023 – Aug 2025
     rank: 3
@@ -357,13 +357,13 @@ community:
 events:
   - who: Visual AI Hackathon · Northeastern University
     topic: Hackathon
-    what: Built part of a team project combining image mapping with sentiment analysis, at Voxel51's computer vision hackathon on Northeastern's Boston campus
+    what: Built part of an image mapping and sentiment analysis project at Voxel51's hackathon at Northeastern
     when: Mar 2025
     link: /blog/2026/09/visual-ai-hackathon-northeastern/
     rank: 1
   - who: MxHacks 2022 · Mendix, Boston
     topic: Hackathon
-    what: Took part at the Boston site of Mendix's 36-hour global "Low-Code for Good" hackathon, where teams built low-code apps for nonprofits
+    what: Joined Mendix's 36-hour "Low-Code for Good" hackathon in Boston, building apps for nonprofits
     when: Sep 2022
     link: /blog/2026/05/mxhacks-2022-mendix-boston/
     rank: 4

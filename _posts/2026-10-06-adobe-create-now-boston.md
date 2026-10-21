@@ -2,7 +2,7 @@
 period: "Aug 2025"
 title: "Generative AI, up close, at Adobe Create Now Boston"
 teaser: "Watching Firefly move from headline to everyday tool"
-summary: "An evening at Adobe Create Now Boston in August 2025: Firefly's generative AI inside Photoshop, Illustrator and Express, and the friends I made there."
+summary: "Seeing Firefly's generative AI inside Photoshop, Illustrator and Express, and the friends I made."
 outcome: "A close look at generative AI built into everyday tools, a better test for AI adoption on my own roadmaps, and good friends made that night."
 hashtags: [AdobeFirefly, GenerativeAI, AIAdoption, Adobe, Boston]
 retro: "A look back at August 2025, published here when this site launched."

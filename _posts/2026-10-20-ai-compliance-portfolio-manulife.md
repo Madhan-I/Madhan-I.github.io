@@ -1,7 +1,7 @@
 ---
 title: "Running a portfolio where AI has to be right"
 teaser: "Keeping AI compliance right at portfolio scale"
-summary: How we cut onboarding false positives from 30% to 10–15% while keeping a multi-million-dollar portfolio at 100% predictability.
+summary: How we cut onboarding false positives from 30% to 10–15% at 100% portfolio predictability.
 outcome: "Onboarding false positives cut from 30% to 10–15%, with a multi-million-dollar portfolio held at 100% predictability."
 hashtags: [AIGovernance, ComplianceAI, PortfolioManagement, SAFe, AKS]
 tags: [AI, Delivery]
