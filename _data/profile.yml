@@ -656,10 +656,10 @@ award_groups:
         image: award-star-volunteer.jpg
         note: Certificate issued under the name "Madhan E"
 
-contact_title: Have a program that needs to
-contact_highlight: ship?
-contact_intro: A new role, a quick call or training for your team. Pick what fits, or email me directly.
+contact_title: Hiring for a release train or
+contact_highlight: AI program?
+contact_intro: Pick what fits, or email me directly.
 # Each line below is shown on its own line.
 contact_note:
-  - "Open to on-site, hybrid or remote roles worldwide, and ready to relocate."
+  - "Open to on-site, hybrid or remote roles, and ready to relocate."
   - "I've already worked three years on-site in Boston for John Hancock."
