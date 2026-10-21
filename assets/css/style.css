@@ -4517,3 +4517,7 @@ a.more:hover {
   footer .wrap.f-grid { grid-template-columns: 1fr 1fr !important; }
   footer .f-grid > .f-brand, footer .f-grid > .f-end, footer .f-grid > .f-bottom { grid-column: 1 / -1; }
 }
+
+/* Tab hint: brighter sweep on small screens; still visible when the phone asks for reduced motion */
+@media (max-width: 767px) { .sk-tab:not(.on)::after { width: 70%; background: linear-gradient(100deg, transparent, rgba(242, 165, 65, .75), transparent); } }
+@media (prefers-reduced-motion: reduce) { .skillbox .sk-tab:not(.on):not(.visited) { background: #FFF4E5; } }
