@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <script src="{{ '/assets/js/vp.js' | relative_url }}"></script>
   <!-- Security: only files from this site may load. If goatcounter is set in _config.yml, GoatCounter (cookie-free visitor counts) is the single exception. -->
   {% assign gc = site.goatcounter | strip %}{% if gc != "" %}{% assign gc_host = "https://" | append: gc | append: ".goatcounter.com" %}{% endif %}
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'{% if gc != "" %} https://gc.zgo.at{% endif %}; style-src 'self'; font-src 'self'; img-src 'self' data:{% if gc != "" %} {{ gc_host }}{% endif %}; connect-src 'self'{% if gc != "" %} {{ gc_host }}{% endif %}; media-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'; upgrade-insecure-requests">

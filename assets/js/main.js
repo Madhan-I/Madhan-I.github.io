@@ -325,3 +325,11 @@ document.querySelectorAll('.copy-btn').forEach(function (b) {
   var sec = document.getElementById('writing'); if (!sec || !sec.querySelector('.wr-all')) return;
   if ('IntersectionObserver' in window) { var io = new IntersectionObserver(function (es) { es.forEach(function (e) { if (e.isIntersecting) { sec.classList.add('hint'); io.disconnect(); } }); }, { threshold: .1 }); io.observe(sec); } else { sec.classList.add('hint'); }
 })();
+
+/* Phones: training formats collapsed until "Show formats" */
+(function () {
+  var box = document.querySelector('.train-formats'); if (!box) return;
+  var btn = box.querySelector('.fmt-toggle'); if (!btn) return;
+  var n = box.querySelectorAll('.fi').length; if (n) btn.textContent = 'Show all ' + n + ' formats';
+  btn.addEventListener('click', function () { box.classList.add('open'); btn.setAttribute('aria-expanded', 'true'); });
+})();
