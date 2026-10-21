@@ -315,5 +315,7 @@ document.querySelectorAll('.copy-btn').forEach(function (b) {
     });
     bar.appendChild(b);
   });
-  wrap.classList.add('m-tabbed'); wrap.parentNode.insertBefore(bar, wrap); bar.children[0].click();
+  wrap.classList.add('m-tabbed'); wrap.parentNode.insertBefore(bar, wrap); bar.children[0].click(); bar.children[0].classList.add('visited');
+  [].forEach.call(bar.children, function (b) { b.addEventListener('click', function () { b.classList.add('visited'); }); });
+  if ('IntersectionObserver' in window) { var io = new IntersectionObserver(function (es) { es.forEach(function (e) { if (e.isIntersecting) { bar.classList.add('hint'); io.disconnect(); } }); }, { threshold: .1 }); io.observe(bar); } else { bar.classList.add('hint'); }
 })();

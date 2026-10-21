@@ -4521,3 +4521,12 @@ a.more:hover {
 /* Tab hint: brighter sweep on small screens; still visible when the phone asks for reduced motion */
 @media (max-width: 767px) { .sk-tab:not(.on)::after { width: 70%; background: linear-gradient(100deg, transparent, rgba(242, 165, 65, .75), transparent); } }
 @media (prefers-reduced-motion: reduce) { .skillbox .sk-tab:not(.on):not(.visited) { background: #FFF4E5; } }
+
+/* Phone certification tabs: same amber hint as the skills tabs until each is opened */
+.cert-tabs button { position: relative; overflow: hidden; }
+.cert-tabs button:not(.on):not(.visited) { border-color: #F2A541; }
+.cert-tabs button:not(.on):not(.visited)::before { content: ""; display: inline-block; width: 6px; height: 6px; border-radius: 50%; background: #F2A541; margin-right: 7px; vertical-align: middle; }
+.cert-tabs button:not(.on)::after { content: ""; position: absolute; top: 0; bottom: 0; left: -60%; width: 70%; background: linear-gradient(100deg, transparent, rgba(242, 165, 65, .75), transparent); transform: skewX(-20deg); opacity: 0; pointer-events: none; }
+.cert-tabs.hint button:not(.on):not(.visited)::after { animation: sk-ray 2.4s ease-in-out infinite; }
+.cert-tabs.hint button:not(.on):not(.visited):nth-child(3)::after { animation-delay: .35s; }
+@media (prefers-reduced-motion: reduce) { .cert-tabs button:not(.on):not(.visited) { background: #FFF4E5; } .cert-tabs.hint button::after { animation: none !important; } }
