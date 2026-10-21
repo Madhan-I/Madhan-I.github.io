@@ -4629,3 +4629,14 @@ a.more:hover {
 /* "Show all certifications" matches the other show-more pills */
 .cert-toggle { font: 700 14px/1 var(--body) !important; color: #1D5FD1 !important; background: #FFFFFF !important; border: 1px solid var(--line) !important; padding: 10px 16px !important; box-shadow: none !important; }
 .cert-toggle:hover { border-color: var(--brand) !important; color: #1D5FD1 !important; background: #FFFFFF !important; }
+/* Hero buttons: amber border pops on hover, like the contact cards */
+.ctas .btn { transition: transform .18s, box-shadow .18s, background .18s, border-color .18s; }
+.ctas .btn:hover { border-color: #F2A541; }
+@media (max-width: 767px) { .ctas { display: grid !important; grid-template-columns: max-content; } .ctas .btn { justify-content: space-between; } }
+/* Hero: even visible spacing (name 48, blocks 32, top/bottom 48) */
+.hero p.lede { margin-top: 23px !important; }
+.hero .ctas { margin-top: 28px !important; }
+@media (min-width: 768px) { .hero { padding-bottom: 48px !important; } }
+@media (min-width: 768px) and (max-width: 1279px) { .hero { padding-top: 43px !important; } }
+@media (min-width: 768px) { .hero { padding-bottom: 50px !important; } }
+@media (max-width: 767px) { .hero .ctas { margin-top: 22px !important; } .hero p.role { margin-top: 33px !important; } .hero { padding-bottom: 35px !important; } }
