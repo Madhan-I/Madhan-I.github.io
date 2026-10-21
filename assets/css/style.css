@@ -4678,3 +4678,17 @@ a.more:hover {
   .hero .hire-for { margin-top: 9px !important; }
 }
 @media (max-width: 767px) { .hero h1 { margin-top: -4px !important; } .hero .hire-for { margin-top: 8px !important; } }
+/* Hero final rhythm: name>title 22, title>text 24, text>buttons 32, buttons>tags 32, top/bottom 40 */
+@media (min-width: 768px) {
+  .hero p.role { margin-top: 4px !important; }
+  .hero p.lede { margin-top: 15px !important; }
+  .hero .ctas { margin-top: 28px !important; }
+  .hero .hire-for { margin-top: 0px !important; }
+}
+@media (min-width: 768px) and (max-width: 1279px) { .hero p.role { margin-top: 7px !important; } .hero .ctas { margin-top: 27px !important; } }
+@media (max-width: 767px) {
+  .hero p.role { margin-top: 12px !important; }
+  .hero p.lede { margin-top: 15px !important; }
+  .hero .ctas { margin-top: 23px !important; }
+  .hero .hire-for { margin-top: 0px !important; }
+}
