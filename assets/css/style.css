@@ -1149,3 +1149,11 @@ footer .f-col a { font-size: 14px !important; }
 #contact h2 .ct1 { color: inherit !important; }
 @media (min-width: 900px) { #contact h2 .ct1 { white-space: nowrap; } #contact h2 .ct1 + span { display: block; } }
 @media (min-width: 1300px) { .email-card .v { position: relative; top: 1px; } }
+
+/* Footer: tighter */
+footer .wrap.f-grid { padding-block: 32px 0 !important; gap: 28px !important; }
+.f-col { gap: 8px !important; }
+.f-col b { margin-bottom: 4px !important; }
+footer .f-col p { margin: 0; }
+footer .f-big { font-size: 22px !important; line-height: 1.2 !important; }
+footer .wrap.f-grid { row-gap: 24px !important; } footer .f-bottom { margin-top: 0 !important; padding-top: 16px !important; }
