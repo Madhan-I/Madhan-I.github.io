@@ -86,6 +86,7 @@ clients:
 
 # Newest first. Set current: true on the job you hold now.
 # Titles match LinkedIn exactly. Change both together.
+experience_full: 2
 experience:
   - dates: Sep 2025 – Present
     title: Senior Release Train Engineer / Program Manager

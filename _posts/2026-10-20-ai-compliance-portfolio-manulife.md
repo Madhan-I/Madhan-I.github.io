@@ -1,4 +1,5 @@
 ---
+period: "Sep 2025 – Present"
 title: "Running a portfolio where AI has to be right"
 teaser: "Keeping AI compliance right at portfolio scale"
 summary: How we cut onboarding false positives from 30% to 10–15% at 100% portfolio predictability.
