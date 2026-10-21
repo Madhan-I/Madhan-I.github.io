@@ -1219,3 +1219,4 @@ a.more:hover, a.more:focus-visible { color: #B45309 !important; }
   #recognition .panel { align-self: stretch !important; }
   #recognition .thumb { width: 80px !important; flex: 0 0 80px !important; }
 }
+@media (min-width: 1024px) { #recognition .three { grid-template-columns: 230px 1fr 1fr !important; } }

@@ -632,19 +632,20 @@ education:
     detail: VELS University · 2009 – 2013 · First Class
 
 award_groups:
-  - group: Delivery Recognition
+  - group: Delivery
     icon: award
     items:
       - title: Eviden Spot Award, Scrum Master / Release Manager
         detail: Eviden (Atos) · Apr 2024 · For guiding the team past impediments during production deployments across business units
         image: award-eviden.jpg
       - title: Atos Spot Recognition, Interviewing
+        hidden: true
         detail: Atos · Feb 2022 · For going beyond the call of duty in interviewing candidates and giving timely feedback
         image: award-interview.jpg
       - title: Certificate of Excellence
         detail: MetLife · May 2019 · Jointly from MetLife and Cognizant, for outstanding support on the Publisher to xPression migration
         image: award-metlife.jpg
-  - group: Training & Mentoring Recognition
+  - group: Training & Mentoring
     icon: board
     items:
       - title: Atos Spot Recognition, Cloud Training
