@@ -1181,3 +1181,7 @@ footer .f-bottom { padding-bottom: 14px !important; }
 .sec-head { margin-bottom: 24px !important; }
 @media (min-width: 1024px) { #writing .sec-head { margin-bottom: 24px !important; } }
 @media (min-width: 1024px) { #writing .writing-cards li { padding-top: 39px !important; padding-bottom: 43px !important; } }
+
+/* Contact: less navy above, action cards level with the label */
+@media (min-width: 1024px) { #contact { padding-top: 40px !important; } #contact .intents { margin-top: 0 !important; } }
+@media (min-width: 1024px) { #contact { padding-bottom: 63px !important; } }
