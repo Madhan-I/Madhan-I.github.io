@@ -4500,3 +4500,5 @@ a.more:hover {
     flex: 0 0 80px!important
   }
 }
+/* Phones: only 2 talk and community cards until "Show more" */
+@media (max-width: 767px) { .talks ul:not(.m-open) > li.m-extra { display: none !important; } }
