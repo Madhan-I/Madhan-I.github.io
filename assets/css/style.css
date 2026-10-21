@@ -4721,3 +4721,9 @@ a.more:hover {
 @media (min-width: 768px) { #about { padding-top: 10px !important; } }
 @media (max-width: 767px) { #about { padding-top: 36px !important; } }
 @media (min-width: 768px) and (max-width: 1099px) { #about { padding-top: 13px !important; padding-bottom: 6px !important; } }
+/* About: 30 above the label; heading > text 26 and paragraphs 28 on laptop */
+#about { padding-top: 30px !important; }
+@media (min-width: 1100px) {
+  #about .sec-head { margin-bottom: 18px !important; }
+  #about .copy p { margin-bottom: 17px !important; }
+}
