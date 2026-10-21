@@ -1143,3 +1143,4 @@ footer .f-col a { font-size: 14px !important; }
 
 /* Contact: EMAIL label on the same line as the RESUME labels */
 .email-card .k { position: relative; top: 5px; }
+.email-card .v { font-size: 16px !important; }
