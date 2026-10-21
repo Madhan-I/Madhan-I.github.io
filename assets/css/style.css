@@ -1136,3 +1136,6 @@ footer .f-col a { font-size: 14px !important; }
 @media (min-width: 900px) and (max-width: 1279px) { .chip-row { gap: 8px !important; } .chip-row .chip, .chip-row .chip:first-child { flex: 1 1 auto !important; font-size: 13px !important; padding: 9px 10px !important; } }
 @media (min-width: 1280px) { .chip-row .chip, .chip-row .chip:first-child { padding: 11px 15px !important; } }
 @media (min-width: 1024px) { .hero { padding-bottom: 40px !important; } }
+
+/* About: client rows spaced to match the 4-paragraph text */
+@media (min-width: 900px) { #about .clients li { padding-block: 7.5px !important; } }
