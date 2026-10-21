@@ -4692,3 +4692,7 @@ a.more:hover {
   .hero .ctas { margin-top: 23px !important; }
   .hero .hire-for { margin-top: 0px !important; }
 }
+/* Hero: 26px between name and title */
+@media (min-width: 768px) { .hero p.role { margin-top: 8px !important; } }
+@media (min-width: 768px) and (max-width: 1279px) { .hero p.role { margin-top: 11px !important; } }
+@media (max-width: 767px) { .hero p.role { margin-top: 16px !important; } }
