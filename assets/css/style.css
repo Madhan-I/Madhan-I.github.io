@@ -1212,3 +1212,10 @@ footer .f-bottom { padding-bottom: 14px !important; }
 .talks li:hover .stretch, .talks .stretch:focus-visible { color: #B45309 !important; }
 .talks li:hover .stretch .arr { color: #B45309; }
 a.more:hover, a.more:focus-visible { color: #B45309 !important; }
+
+/* Recognition: balanced card heights (narrower Education, smaller thumbnails) */
+@media (min-width: 1024px) {
+  #recognition .three { grid-template-columns: 210px 1.25fr 1fr !important; align-items: stretch !important; }
+  #recognition .panel { align-self: stretch !important; }
+  #recognition .thumb { width: 80px !important; flex: 0 0 80px !important; }
+}
