@@ -1159,3 +1159,5 @@ footer .f-big { font-size: 22px !important; line-height: 1.2 !important; }
 footer .wrap.f-grid { row-gap: 24px !important; } footer .f-bottom { margin-top: 0 !important; padding-top: 16px !important; }
 footer .wrap.f-grid { padding-top: 22px !important; row-gap: 16px !important; } footer .f-bottom { padding-top: 12px !important; }
 footer .f-bottom { padding-bottom: 14px !important; }
+@media (min-width: 1024px) { #contact { padding-bottom: 30px !important; } }
+@media (max-width: 767px) { #writing { padding-bottom: 22px !important; } #contact { padding-top: 21px !important; } }
