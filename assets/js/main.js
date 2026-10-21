@@ -273,3 +273,13 @@ document.querySelectorAll('.copy-btn').forEach(function (b) {
     btn.textContent = show ? 'Show fewer' : label;
   });
 })();
+
+/* Contact: email card starts where the action cards start */
+(function () {
+  var top = document.querySelector('.contact-top'), bot = document.querySelector('.contact-bottom'); if (!top || !bot) return;
+  function sync() {
+    if (window.innerWidth < 900) { bot.style.gridTemplateColumns = ''; return; }
+    bot.style.gridTemplateColumns = getComputedStyle(top).gridTemplateColumns;
+  }
+  sync(); window.addEventListener('resize', sync); if (document.fonts && document.fonts.ready) document.fonts.ready.then(sync);
+})();
