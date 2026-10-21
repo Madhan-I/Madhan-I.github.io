@@ -1185,3 +1185,4 @@ footer .f-bottom { padding-bottom: 14px !important; }
 /* Contact: less navy above, action cards level with the label */
 @media (min-width: 1024px) { #contact { padding-top: 40px !important; } #contact .intents { margin-top: 0 !important; } }
 @media (min-width: 1024px) { #contact { padding-bottom: 63px !important; } }
+@media (min-width: 1024px) { #contact { padding-bottom: 32px !important; } }
