@@ -4544,3 +4544,14 @@ a.more:hover {
   .hero .portrait img { width: 100% !important; height: 100% !important; }
   .hero .hire-for { justify-self: center !important; margin-left: auto; margin-right: auto; }
 }
+
+/* Hint waves play even when the device asks for reduced motion (owner's choice) */
+@media (prefers-reduced-motion: reduce) {
+  .skillbox .sk-tab:not(.on):not(.visited), .cert-tabs button:not(.on):not(.visited) { background: #FFFFFF !important; }
+  .skillbox.hint .sk-tab:not(.on):not(.visited)::after { animation: sk-ray 2.4s ease-in-out infinite !important; }
+  .skillbox.hint .sk-tab:not(.on):not(.visited):nth-child(3)::after { animation-delay: .35s !important; }
+  .cert-tabs.hint button:not(.on):not(.visited)::after { animation: sk-ray 2.4s ease-in-out infinite !important; }
+  .cert-tabs.hint button:not(.on):not(.visited):nth-child(3)::after { animation-delay: .35s !important; }
+  #writing .wr-all { text-decoration: none !important; }
+  #writing.hint .wr-all::after { animation: sk-ray 2.8s ease-in-out infinite !important; }
+}
