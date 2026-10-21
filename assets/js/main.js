@@ -238,13 +238,26 @@ document.querySelectorAll('.copy-btn').forEach(function (b) {
 
 /* Guest lectures: first row visible, the rest on demand */
 (function () {
-  var btn = document.querySelector('.talk-toggle'); if (!btn) return;
-  var more = document.querySelectorAll('.talk-more'), label = btn.textContent;
-  btn.addEventListener('click', function () {
-    var show = btn.getAttribute('aria-expanded') !== 'true';
-    more.forEach(function (li) { li.hidden = !show; });
-    btn.setAttribute('aria-expanded', show ? 'true' : 'false');
-    btn.textContent = show ? 'Show fewer talks' : label;
+  /* Show-more toggles for talks and community cards: 4 shown on desktop, 2 on phones */
+  var phone = window.matchMedia('(max-width: 767px)');
+  [['.talk-toggle', '.talk-more', 'Show fewer talks', 'more highlights'], ['.comm-toggle', '.comm-more', 'Show fewer', 'more']].forEach(function (cfg) {
+    var btn = document.querySelector(cfg[0]); if (!btn) return;
+    var more = [].slice.call(document.querySelectorAll(cfg[1]));
+    var list = more.length ? more[0].parentElement : null; if (!list) return;
+    var items = [].slice.call(list.children);
+    function label() {
+      var open = btn.getAttribute('aria-expanded') === 'true';
+      if (open) { btn.textContent = cfg[2]; return; }
+      var shown = phone.matches ? 2 : 4; btn.textContent = 'Show ' + Math.max(items.length - shown, 0) + ' ' + cfg[3];
+    }
+    items.forEach(function (li, i) { if (i >= 2 && i < 4) li.classList.add('m-extra'); });
+    btn.addEventListener('click', function () {
+      var show = btn.getAttribute('aria-expanded') !== 'true';
+      more.forEach(function (li) { li.hidden = !show; });
+      list.classList.toggle('m-open', show);
+      btn.setAttribute('aria-expanded', show ? 'true' : 'false'); label();
+    });
+    label(); if (phone.addEventListener) phone.addEventListener('change', label);
   });
 })();
 
@@ -263,16 +276,7 @@ document.querySelectorAll('.copy-btn').forEach(function (b) {
 })();
 
 /* Community & events: four cards visible, the rest on demand */
-(function () {
-  var btn = document.querySelector('.comm-toggle'); if (!btn) return;
-  var more = document.querySelectorAll('.comm-more'), label = btn.textContent;
-  btn.addEventListener('click', function () {
-    var show = btn.getAttribute('aria-expanded') !== 'true';
-    more.forEach(function (li) { li.hidden = !show; });
-    btn.setAttribute('aria-expanded', show ? 'true' : 'false');
-    btn.textContent = show ? 'Show fewer' : label;
-  });
-})();
+
 
 /* Contact: email card starts where the action cards start */
 (function () {
