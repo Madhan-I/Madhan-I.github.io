@@ -1206,3 +1206,9 @@ footer .f-bottom { padding-bottom: 14px !important; }
   #writing { padding-bottom: 43px !important; }
   #contact { padding-top: 57px !important; }
 }
+
+/* Hover: card titles and the arrow turn amber */
+.talks .stretch, .talks b > .stretch { transition: color .2s ease; }
+.talks li:hover .stretch, .talks .stretch:focus-visible { color: #B45309 !important; }
+.talks li:hover .stretch .arr { color: #B45309; }
+a.more:hover, a.more:focus-visible { color: #B45309 !important; }
