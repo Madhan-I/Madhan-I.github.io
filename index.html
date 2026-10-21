@@ -201,7 +201,7 @@ layout: default
     <div class="contact-top">
     <div class="reveal">
       <span class="label"><svg class="ic" aria-hidden="true"><use href="#i-send"/></svg>Contact</span>
-      <h2>{{ p.contact_title }} <span>{{ p.contact_highlight }}</span></h2>
+      <h2><span class="ct1">{{ p.contact_title }}</span> <span>{{ p.contact_highlight }}</span></h2>
       <p class="lede">{{ p.contact_intro }}</p>
       <p class="note">{% if p.contact_note.first %}{{ p.contact_note | join: "<br>" }}{% else %}{{ p.contact_note }}{% endif %}</p>
     </div>
