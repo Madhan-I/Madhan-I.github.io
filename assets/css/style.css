@@ -1139,3 +1139,4 @@ footer .f-col a { font-size: 14px !important; }
 
 /* About: client rows spaced to match the 4-paragraph text */
 @media (min-width: 900px) { #about .clients li { padding-block: 7.5px !important; } }
+@media (min-width: 1024px) { #about { padding-bottom: 24px !important; } }
