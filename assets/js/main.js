@@ -232,7 +232,7 @@ document.querySelectorAll('.copy-btn').forEach(function (b) {
     while ((m = re.exec(s))) { var r = document.createRange(); r.setStart(tn, m.index); r.setEnd(tn, m.index + m[0].length); var b = r.getClientRects()[0]; if (prev && b && Math.abs(b.top - prev.top) < 3) mx = Math.max(mx, b.left - prev.right); prev = b; }
     return mx;
   }
-  function check() { els.forEach(function (el) { el.classList.remove('ragged'); if (maxGap(el) > 11) el.classList.add('ragged'); }); }
+  function check() { els.forEach(function (el) { el.classList.remove('ragged'); if (maxGap(el) > 16) el.classList.add('ragged'); }); }
   window.addEventListener('load', check); window.addEventListener('resize', function () { clearTimeout(check.t); check.t = setTimeout(check, 150); });
 })();
 
