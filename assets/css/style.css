@@ -4572,3 +4572,8 @@ a.more:hover {
   #recognition .rows li > span.d2 { white-space: nowrap; }
   .now-tag, .fmt-groups .fh, .live, footer .f-bottom .fb-l, footer .f-bottom .fb-r { font-size: 12px !important; }
 }
+.job-more { display: none; }
+@media (max-width: 767px) {
+  #experience ul.m-cut:not(.m-open) > li:nth-child(n+4) { display: none !important; }
+  #experience ul.m-cut:not(.m-open) + .job-more { display: inline-block; margin: 2px 0 0; font: 700 14px/1 var(--body); color: var(--brand); background: #FFFFFF; border: 1px solid var(--line); border-radius: 999px; padding: 11px 18px; cursor: pointer; }
+}
