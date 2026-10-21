@@ -185,11 +185,10 @@ layout: default
 <section id="writing" class="slide tone-white">
   <div class="wrap">
     {% assign latest = site.posts.first %}
-    <div class="sec-head reveal"><span class="label"><svg class="ic" aria-hidden="true"><use href="#i-pen"/></svg>Writing</span><h2>{{ p.writing_title | default: "Stories from 13 years of delivery" }}</h2></div>
+    <div class="sec-head reveal"><span class="label"><svg class="ic" aria-hidden="true"><use href="#i-pen"/></svg>Writing</span><h2>{{ p.writing_title | default: "Stories from 13 years of delivery" }}</h2><a class="more wr-all" href="{{ '/blog/' | relative_url }}">All writing →</a></div>
     <div class="speak duo talks writing-cards reveal"><ul>
       {% assign shown = 0 %}{% for f in (1..2) %}{% for post in site.posts %}{% if post.featured == f %}<li><div class="tk-top"><span class="tk-date">{% if post.period %}{{ post.period }}{% else %}{{ post.date | date: "%b %Y" }}{% endif %}</span>{% if post.tags.size > 0 %}<span class="tk-chip">{{ post.tags.first }}</span>{% endif %}</div><b><a href="{{ post.url | relative_url }}">{{ post.title }}</a></b>{% if post.summary %}<span class="tk-desc">{{ post.summary }}</span>{% endif %}<a class="tk-link" href="{{ post.url | relative_url }}">Read the story →</a></li>{% assign shown = shown | plus: 1 %}{% endif %}{% endfor %}{% endfor %}{% for post in site.posts %}{% unless post.featured %}{% if shown < 4 %}<li><div class="tk-top"><span class="tk-date">{% if post.period %}{{ post.period }}{% else %}{{ post.date | date: "%b %Y" }}{% endif %}</span>{% if post.tags.size > 0 %}<span class="tk-chip">{{ post.tags.first }}</span>{% endif %}</div><b><a href="{{ post.url | relative_url }}">{{ post.title }}</a></b>{% if post.summary %}<span class="tk-desc">{{ post.summary }}</span>{% endif %}<a class="tk-link" href="{{ post.url | relative_url }}">Read the story →</a></li>{% assign shown = shown | plus: 1 %}{% endif %}{% endunless %}{% endfor %}
     </ul></div>
-    <p class="reveal"><a class="more" href="{{ '/blog/' | relative_url }}">All writing →</a></p>
   </div>
 </section>
 {% endif %}

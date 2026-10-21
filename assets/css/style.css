@@ -1161,3 +1161,10 @@ footer .wrap.f-grid { padding-top: 22px !important; row-gap: 16px !important; } 
 footer .f-bottom { padding-bottom: 14px !important; }
 @media (min-width: 1024px) { #contact { padding-bottom: 30px !important; } }
 @media (max-width: 767px) { #writing { padding-bottom: 22px !important; } #contact { padding-top: 21px !important; } }
+
+/* Writing: 'All writing' beside the heading; section trimmed to 500px on desktop */
+#writing .sec-head { position: relative; }
+#writing .wr-all { position: absolute; right: 0; bottom: 6px; margin: 0 !important; font-weight: 700; }
+@media (max-width: 767px) { #writing .wr-all { position: static; display: inline-block; margin-top: 12px !important; } }
+@media (min-width: 1024px) { #writing { padding-top: 0 !important; } #recognition { padding-bottom: 45px !important; } }
+@media (min-width: 1024px) { #writing { padding-top: 12px !important; } #recognition { padding-bottom: 33px !important; } }
