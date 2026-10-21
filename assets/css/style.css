@@ -4646,3 +4646,11 @@ a.more:hover {
 @media (min-width: 1280px) and (max-width: 1439px) { .hero { padding-top: 37px !important; } }
 @media (min-width: 768px) and (max-width: 1279px) { .hero { padding-top: 39px !important; } }
 @media (min-width: 768px) { .hero { padding-bottom: 44px !important; } }
+/* Hero: one rhythm, 44px between every block on laptop and tablet */
+@media (min-width: 768px) {
+  .hero p.role { margin-top: 26px !important; }
+  .hero p.lede { margin-top: 35px !important; }
+  .hero .ctas { margin-top: 40px !important; }
+}
+@media (min-width: 768px) { .hero .hire-for { margin-top: 12px !important; } }
+@media (min-width: 768px) and (max-width: 1279px) { .hero p.role { margin-top: 29px !important; } .hero .ctas { margin-top: 39px !important; } }
