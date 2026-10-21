@@ -1175,3 +1175,4 @@ footer .f-bottom { padding-bottom: 14px !important; }
 @media (min-width: 1200px) { #about .sec-head h2 { font-size: 38px !important; } }
 @media (max-width: 767px) { .sec-head h2, #contact h2, #contact h2 span { font-size: 26px !important; } }
 @media (min-width: 1024px) { #writing .sec-head { margin-bottom: 43px !important; } }
+@media (min-width: 1024px) { #writing .writing-cards li { padding-top: 30px !important; padding-bottom: 33px !important; } }
