@@ -4641,3 +4641,8 @@ a.more:hover {
 @media (min-width: 768px) { .hero { padding-bottom: 50px !important; } }
 @media (max-width: 767px) { .hero .ctas { margin-top: 22px !important; } .hero p.role { margin-top: 33px !important; } .hero { padding-bottom: 35px !important; } }
 @media (min-width: 1280px) and (max-width: 1439px) { .hero { padding-top: 41px !important; } }
+/* Hero: 44px above the name and below the skill tags */
+@media (min-width: 1440px) { .hero { padding-top: 36px !important; } }
+@media (min-width: 1280px) and (max-width: 1439px) { .hero { padding-top: 37px !important; } }
+@media (min-width: 768px) and (max-width: 1279px) { .hero { padding-top: 39px !important; } }
+@media (min-width: 768px) { .hero { padding-bottom: 44px !important; } }
