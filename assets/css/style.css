@@ -4537,3 +4537,10 @@ a.more:hover {
 #writing.hint .wr-all::after { animation: sk-ray 2.8s ease-in-out infinite; }
 @media (max-width: 767px) { #writing .wr-all { position: relative; } }
 @media (prefers-reduced-motion: reduce) { #writing .wr-all { text-decoration: underline; text-decoration-color: #F2A541; text-underline-offset: 4px; } #writing.hint .wr-all::after { animation: none; } }
+
+/* Phones: hero photo centred at 180px */
+@media (max-width: 767px) {
+  .hero .portrait { width: 180px !important; height: 180px !important; margin-left: auto !important; margin-right: auto !important; justify-self: center !important; }
+  .hero .portrait img { width: 100% !important; height: 100% !important; }
+  .hero .hire-for { justify-self: center !important; margin-left: auto; margin-right: auto; }
+}
