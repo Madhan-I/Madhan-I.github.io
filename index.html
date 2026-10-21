@@ -102,6 +102,16 @@ layout: default
 {% endunless %}
 
 {% unless th.show.training == false %}{% assign n = n | plus: 1 %}
+{% if p.feedback %}
+<section id="feedback" class="slide tone-white">
+  <div class="wrap">
+    <div class="sec-head reveal"><span class="label"><svg class="ic" aria-hidden="true"><use href="#i-award"/></svg>Client feedback</span><h2>{{ p.feedback_title }}</h2></div>
+    <ul class="fb-quotes reveal">{% for q in p.feedback %}<li><span class="fb-mark" aria-hidden="true">&ldquo;</span><blockquote>{{ q.quote }}</blockquote></li>{% endfor %}</ul>
+    <div class="fb-foot reveal"><p class="fb-who"><b>{{ p.feedback_who }}</b><span>{{ p.feedback_where }}</span></p>{% if p.feedback_note %}<p class="fb-note">{{ p.feedback_note }}</p>{% endif %}</div>
+  </div>
+</section>
+{% endif %}
+
 <section id="training" class="slide tone-navy">
   <div class="wrap">
     <div class="sec-head reveal"><span class="label"><svg class="ic" aria-hidden="true"><use href="#i-board"/></svg>Skills, Training &amp; Community</span><h2>{{ p.training_title }}</h2></div>

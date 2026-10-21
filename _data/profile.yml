@@ -665,3 +665,13 @@ contact_intro: Pick what fits, or email me directly.
 contact_note:
   - "Open to on-site, hybrid or remote roles, and ready to relocate."
   - "I've already worked three years on-site in Boston for John Hancock."
+
+# Client feedback (no names, no client name; exact words from the client's email)
+feedback_title: In my client's words
+feedback:
+  - quote: "Overall, your professionalism, organizational skills, and commitment to agile excellence make a real difference to our delivery and team confidence."
+  - quote: "Your support around paperwork and release-related procedures has been outstanding. … This work often goes behind the scenes, but it is critical, and your ownership in this area significantly reduces risk and friction for the entire team."
+  - quote: "You consistently do a great job running daily stand-ups—they are well-structured, focused, and respectful of everyone's time, which sets the right tone for the team."
+feedback_who: Client Project Manager
+feedback_where: Insurance client · 2026
+feedback_note: Thanked by name in client production-release announcements in January, February and March 2026.
