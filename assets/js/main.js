@@ -325,3 +325,9 @@ document.querySelectorAll('.copy-btn').forEach(function (b) {
   var sec = document.getElementById('writing'); if (!sec || !sec.querySelector('.wr-all')) return;
   if ('IntersectionObserver' in window) { var io = new IntersectionObserver(function (es) { es.forEach(function (e) { if (e.isIntersecting) { sec.classList.add('hint'); io.disconnect(); } }); }, { threshold: .1 }); io.observe(sec); } else { sec.classList.add('hint'); }
 })();
+
+/* Contact cards sweep starts when Contact comes into view */
+(function () {
+  var sec = document.getElementById('contact'); if (!sec) return;
+  if ('IntersectionObserver' in window) { var io = new IntersectionObserver(function (es) { es.forEach(function (e) { if (e.isIntersecting) { sec.classList.add('hint'); io.disconnect(); } }); }, { threshold: .1 }); io.observe(sec); } else { sec.classList.add('hint'); }
+})();
