@@ -287,3 +287,33 @@ document.querySelectorAll('.copy-btn').forEach(function (b) {
   }
   sync(); window.addEventListener('resize', sync); if (document.fonts && document.fonts.ready) document.fonts.ready.then(sync);
 })();
+
+/* Phones: first 3 earlier roles, then a "Show more roles" button */
+(function () {
+  var box = document.getElementById('earlier'); if (!box) return;
+  var items = box.querySelectorAll('details.early'); if (items.length <= 3) return;
+  var more = document.createElement('button'); more.type = 'button'; more.className = 'm-more-roles';
+  more.textContent = 'Show ' + (items.length - 3) + ' more roles';
+  items[2].insertAdjacentElement('afterend', more);
+  function openAll() { box.classList.add('m-all'); }
+  more.addEventListener('click', openAll);
+  var all = box.querySelector('.e-all'); if (all) all.addEventListener('click', openAll);
+})();
+
+/* Phones: certification groups as tabs */
+(function () {
+  var wrap = document.querySelector('#certifications .cert-groups'); if (!wrap) return;
+  var groups = [].slice.call(wrap.children).filter(function (g) { return g.classList.contains('cg'); }); if (groups.length < 2) return;
+  var short = { 'Agile, SAFe® & Service Management': 'Agile & SAFe®', 'DevOps & Reliability': 'DevOps' };
+  var bar = document.createElement('div'); bar.className = 'cert-tabs'; bar.setAttribute('role', 'tablist');
+  groups.forEach(function (g, i) {
+    var h = g.querySelector('h3'), name = h ? h.textContent.trim() : 'Group ' + (i + 1);
+    var b = document.createElement('button'); b.type = 'button'; b.setAttribute('role', 'tab'); b.textContent = short[name] || name;
+    b.addEventListener('click', function () {
+      groups.forEach(function (x, j) { x.classList.toggle('m-on', j === i); });
+      [].forEach.call(bar.children, function (x, j) { x.classList.toggle('on', j === i); x.setAttribute('aria-selected', j === i ? 'true' : 'false'); });
+    });
+    bar.appendChild(b);
+  });
+  wrap.classList.add('m-tabbed'); wrap.parentNode.insertBefore(bar, wrap); bar.children[0].click();
+})();
