@@ -319,3 +319,9 @@ document.querySelectorAll('.copy-btn').forEach(function (b) {
   [].forEach.call(bar.children, function (b) { b.addEventListener('click', function () { b.classList.add('visited'); }); });
   if ('IntersectionObserver' in window) { var io = new IntersectionObserver(function (es) { es.forEach(function (e) { if (e.isIntersecting) { bar.classList.add('hint'); io.disconnect(); } }); }, { threshold: .1 }); io.observe(bar); } else { bar.classList.add('hint'); }
 })();
+
+/* "All writing" sweep starts when the Writing section comes into view */
+(function () {
+  var sec = document.getElementById('writing'); if (!sec || !sec.querySelector('.wr-all')) return;
+  if ('IntersectionObserver' in window) { var io = new IntersectionObserver(function (es) { es.forEach(function (e) { if (e.isIntersecting) { sec.classList.add('hint'); io.disconnect(); } }); }, { threshold: .1 }); io.observe(sec); } else { sec.classList.add('hint'); }
+})();
