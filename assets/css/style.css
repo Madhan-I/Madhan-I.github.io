@@ -1200,3 +1200,9 @@ footer .f-bottom { padding-bottom: 14px !important; }
 .talks .stretch:focus-visible { outline: 2px solid #F2A541; outline-offset: 4px; }
 @media (min-width: 1024px) { #writing .writing-cards li { padding-top: 57px !important; padding-bottom: 62px !important; } }
 @media (min-width: 1024px) { #writing .writing-cards li { padding-top: 22px !important; padding-bottom: 24px !important; } }
+
+/* Writing to Contact back to a 100px gap */
+@media (min-width: 1024px) {
+  #writing { padding-bottom: 43px !important; }
+  #contact { padding-top: 57px !important; }
+}
