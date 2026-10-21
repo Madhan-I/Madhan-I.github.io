@@ -4610,3 +4610,6 @@ a.more:hover {
 .fb-date { font: 600 13px/1 var(--body); color: #B45309; background: color-mix(in srgb, #B45309 9%, #fff); border: 1px solid color-mix(in srgb, #B45309 25%, #fff); border-radius: 999px; padding: 6px 12px; }
 @media (min-width: 768px) { .fb-quotes { grid-template-columns: 1.6fr 1fr; } }
 .fb-mark { font-size: 40px; height: 18px; }
+/* Order: Experience, Client feedback, Certifications, Training */
+#feedback { padding-bottom: 23px !important; }
+#certifications { padding-bottom: 29px !important; }
