@@ -1148,3 +1148,4 @@ footer .f-col a { font-size: 14px !important; }
 /* Contact heading: line 1 ends at "or", "AI program?" on line 2 */
 #contact h2 .ct1 { color: inherit !important; }
 @media (min-width: 900px) { #contact h2 .ct1 { white-space: nowrap; } #contact h2 .ct1 + span { display: block; } }
+@media (min-width: 1300px) { .email-card .v { position: relative; top: 1px; } }
