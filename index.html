@@ -101,7 +101,6 @@ layout: default
 </section>
 {% endunless %}
 
-{% unless th.show.training == false %}{% assign n = n | plus: 1 %}
 {% if p.feedback %}
 <section id="feedback" class="slide tone-white">
   <div class="wrap">
@@ -112,36 +111,8 @@ layout: default
 </section>
 {% endif %}
 
-<section id="training" class="slide tone-navy">
-  <div class="wrap">
-    <div class="sec-head reveal"><span class="label"><svg class="ic" aria-hidden="true"><use href="#i-board"/></svg>Skills, Training &amp; Community</span><h2>{{ p.training_title }}</h2></div>
-    <div class="train-grid">
-      <div class="reveal">
-        <p class="big">{% if p.training_intro_lead %}<span class="lead1">{{ p.training_intro_lead }}</span> {% endif %}{% if p.training_intro_mid %}<span class="lead2">{{ p.training_intro_mid }}</span> {% endif %}{{ p.training_intro }}</p>
-        <p class="train-note">{{ p.training_note }}</p>
-        {% if p.training_formats %}<div class="train-formats fmt-groups"><h4>Formats</h4><button type="button" class="fmt-toggle" aria-expanded="false">Show formats</button>{% for g in p.training_formats %}<div class="fr"><span class="fh">{{ g.group }}</span><span class="fx">{% for x in g.items %}{% assign m = forloop.index0 | modulo: 3 %}{% if m == 0 %}<span class="fl">{% else %}<i class="fd">·</i>{% endif %}<span class="fi">{{ x }}</span>{% if m == 2 or forloop.last %}</span>{% endif %}{% endfor %}</span></div>{% endfor %}</div>{% endif %}
-      </div>
-      <div class="skillbox reveal">
-        <div class="sk-tabs" role="tablist"><button type="button" role="tab" class="sk-tab on visited" aria-selected="true" data-sk="0">Training tracks</button>{% for s in p.skill_tabs %}<button type="button" role="tab" class="sk-tab" aria-selected="false" data-sk="{{ forloop.index }}">{{ s.label }}</button>{% endfor %}</div>
-        <ul class="topics sk-panel" data-panel="0" aria-label="Training topics">
-          {% for t in p.training_topics %}<li><b>{{ t.name }}</b><span>{{ t.note }}</span></li>{% endfor %}
-          {% if p.training_safe_note %}<li class="sk-fine">{{ p.training_safe_note }}</li>{% endif %}
-        </ul>
-        {% for s in p.skill_tabs %}<div class="sk-panel sk-chips" data-panel="{{ forloop.index }}" hidden>{% for g in s.groups %}{% if g.name %}<h4>{{ g.name }}</h4>{% endif %}<ul>{% for i in g.items %}<li>{{ i }}</li>{% endfor %}</ul>{% endfor %}</div>{% endfor %}
-      </div>
-    </div>
-    {% if p.speaking %}<div class="speak talks reveal"><h3>{{ p.speaking_title }}</h3><ul>
-      {% for s in p.speaking %}<li{% if forloop.index > 4 %} class="talk-more" hidden{% endif %}><div class="tk-top"><span class="tk-meta">{% if s.where %}<svg class="ic" aria-hidden="true"><use href="#i-pin"/></svg>{{ s.where }}{% endif %}</span>{% if s.topic %}<span class="tk-chip">{{ s.topic }}</span>{% endif %}</div><b>{{ s.who }}</b><strong class="tk-title">{% if s.linkedin %}<a class="stretch" href="{{ s.linkedin }}" target="_blank" rel="noopener" data-goatcounter-click="talk-linkedin" aria-label="{{ s.what }} (LinkedIn post)">{{ s.what }} <span class="arr">↗</span></a>{% elsif s.feedback_image %}<a class="stretch" href="{{ '/assets/badges/' | append: s.feedback_image | relative_url }}" data-lightbox data-caption="{{ s.who }}: session feedback" aria-label="{{ s.what }} (session feedback)">{{ s.what }} <span class="arr">↗</span></a>{% else %}{{ s.what }}{% endif %}</strong></li>{% endfor %}
-    </ul></div>{% if p.speaking.size > 4 %}<p class="talk-toggle-row"><button type="button" class="talk-toggle" aria-expanded="false">Show {{ p.speaking.size | minus: 4 }} more highlights</button></p>{% endif %}{% endif %}
-    {% if p.community or p.events %}<div class="speak duo talks reveal"><h3>{{ p.community_events_title }}</h3><ul>
-      {% for r in (1..12) %}{% for s in p.community %}{% if s.rank == r %}<li{% if r > 4 %} class="comm-more" hidden{% endif %}><div class="tk-top"><span class="tk-date">{{ s.when }}</span>{% if s.topic %}<span class="tk-chip">{{ s.topic }}</span>{% endif %}</div><b>{% if s.link %}<a class="stretch" href="{{ s.link | relative_url }}">{{ s.who }} <span class="arr">→</span></a>{% else %}{{ s.who }}{% endif %}</b><span class="tk-desc">{{ s.what }}</span></li>{% endif %}{% endfor %}{% for s in p.events %}{% if s.rank == r %}<li{% if r > 4 %} class="comm-more" hidden{% endif %}><div class="tk-top"><span class="tk-date">{{ s.when }}</span>{% if s.topic %}<span class="tk-chip">{{ s.topic }}</span>{% endif %}</div><b>{% if s.link %}<a class="stretch" href="{{ s.link | relative_url }}">{{ s.who }} <span class="arr">→</span></a>{% else %}{{ s.who }}{% endif %}</b><span class="tk-desc">{{ s.what }}</span></li>{% endif %}{% endfor %}{% endfor %}
-    </ul></div>{% assign cm = p.community.size | plus: p.events.size | minus: 4 %}{% if cm > 0 %}<p class="talk-toggle-row"><button type="button" class="comm-toggle" aria-expanded="false">Show {{ cm }} more</button></p>{% endif %}{% endif %}
-  </div>
-</section>
-{% endunless %}
-
 {% unless th.show.certifications == false %}{% assign n = n | plus: 1 %}
-<section id="certifications" class="slide tone-white">
+<section id="certifications" class="slide tone-tint">
   <div class="wrap">
     <div class="sec-head reveal"><span class="label"><svg class="ic" aria-hidden="true"><use href="#i-award"/></svg>Certifications</span><h2>{{ p.certifications_title }}</h2></div>
     <div class="cert-groups">
@@ -166,6 +137,35 @@ layout: default
     </div>
     <p class="cert-toggle-row reveal"><button type="button" class="cert-toggle" aria-expanded="false" aria-controls="cert-more">Show all certifications</button></p>
     {% if p.certifications_links %}<p class="verify reveal">{% for l in p.certifications_links %}<a href="{{ l.url }}" target="_blank" rel="noopener">{{ l.label }} ↗</a>{% endfor %}</p>{% endif %}
+  </div>
+</section>
+{% endunless %}
+
+{% unless th.show.training == false %}{% assign n = n | plus: 1 %}
+<section id="training" class="slide tone-navy">
+  <div class="wrap">
+    <div class="sec-head reveal"><span class="label"><svg class="ic" aria-hidden="true"><use href="#i-board"/></svg>Skills, Training &amp; Community</span><h2>{{ p.training_title }}</h2></div>
+    <div class="train-grid">
+      <div class="reveal">
+        <p class="big">{% if p.training_intro_lead %}<span class="lead1">{{ p.training_intro_lead }}</span> {% endif %}{% if p.training_intro_mid %}<span class="lead2">{{ p.training_intro_mid }}</span> {% endif %}{{ p.training_intro }}</p>
+        <p class="train-note">{{ p.training_note }}</p>
+        {% if p.training_formats %}<div class="train-formats fmt-groups"><h4>Formats</h4><button type="button" class="fmt-toggle" aria-expanded="false">Show formats</button>{% for g in p.training_formats %}<div class="fr"><span class="fh">{{ g.group }}</span><span class="fx">{% for x in g.items %}{% assign m = forloop.index0 | modulo: 3 %}{% if m == 0 %}<span class="fl">{% else %}<i class="fd">·</i>{% endif %}<span class="fi">{{ x }}</span>{% if m == 2 or forloop.last %}</span>{% endif %}{% endfor %}</span></div>{% endfor %}</div>{% endif %}
+      </div>
+      <div class="skillbox reveal">
+        <div class="sk-tabs" role="tablist"><button type="button" role="tab" class="sk-tab on visited" aria-selected="true" data-sk="0">Training tracks</button>{% for s in p.skill_tabs %}<button type="button" role="tab" class="sk-tab" aria-selected="false" data-sk="{{ forloop.index }}">{{ s.label }}</button>{% endfor %}</div>
+        <ul class="topics sk-panel" data-panel="0" aria-label="Training topics">
+          {% for t in p.training_topics %}<li><b>{{ t.name }}</b><span>{{ t.note }}</span></li>{% endfor %}
+          {% if p.training_safe_note %}<li class="sk-fine">{{ p.training_safe_note }}</li>{% endif %}
+        </ul>
+        {% for s in p.skill_tabs %}<div class="sk-panel sk-chips" data-panel="{{ forloop.index }}" hidden>{% for g in s.groups %}{% if g.name %}<h4>{{ g.name }}</h4>{% endif %}<ul>{% for i in g.items %}<li>{{ i }}</li>{% endfor %}</ul>{% endfor %}</div>{% endfor %}
+      </div>
+    </div>
+    {% if p.speaking %}<div class="speak talks reveal"><h3>{{ p.speaking_title }}</h3><ul>
+      {% for s in p.speaking %}<li{% if forloop.index > 4 %} class="talk-more" hidden{% endif %}><div class="tk-top"><span class="tk-meta">{% if s.where %}<svg class="ic" aria-hidden="true"><use href="#i-pin"/></svg>{{ s.where }}{% endif %}</span>{% if s.topic %}<span class="tk-chip">{{ s.topic }}</span>{% endif %}</div><b>{{ s.who }}</b><strong class="tk-title">{% if s.linkedin %}<a class="stretch" href="{{ s.linkedin }}" target="_blank" rel="noopener" data-goatcounter-click="talk-linkedin" aria-label="{{ s.what }} (LinkedIn post)">{{ s.what }} <span class="arr">↗</span></a>{% elsif s.feedback_image %}<a class="stretch" href="{{ '/assets/badges/' | append: s.feedback_image | relative_url }}" data-lightbox data-caption="{{ s.who }}: session feedback" aria-label="{{ s.what }} (session feedback)">{{ s.what }} <span class="arr">↗</span></a>{% else %}{{ s.what }}{% endif %}</strong></li>{% endfor %}
+    </ul></div>{% if p.speaking.size > 4 %}<p class="talk-toggle-row"><button type="button" class="talk-toggle" aria-expanded="false">Show {{ p.speaking.size | minus: 4 }} more highlights</button></p>{% endif %}{% endif %}
+    {% if p.community or p.events %}<div class="speak duo talks reveal"><h3>{{ p.community_events_title }}</h3><ul>
+      {% for r in (1..12) %}{% for s in p.community %}{% if s.rank == r %}<li{% if r > 4 %} class="comm-more" hidden{% endif %}><div class="tk-top"><span class="tk-date">{{ s.when }}</span>{% if s.topic %}<span class="tk-chip">{{ s.topic }}</span>{% endif %}</div><b>{% if s.link %}<a class="stretch" href="{{ s.link | relative_url }}">{{ s.who }} <span class="arr">→</span></a>{% else %}{{ s.who }}{% endif %}</b><span class="tk-desc">{{ s.what }}</span></li>{% endif %}{% endfor %}{% for s in p.events %}{% if s.rank == r %}<li{% if r > 4 %} class="comm-more" hidden{% endif %}><div class="tk-top"><span class="tk-date">{{ s.when }}</span>{% if s.topic %}<span class="tk-chip">{{ s.topic }}</span>{% endif %}</div><b>{% if s.link %}<a class="stretch" href="{{ s.link | relative_url }}">{{ s.who }} <span class="arr">→</span></a>{% else %}{{ s.who }}{% endif %}</b><span class="tk-desc">{{ s.what }}</span></li>{% endif %}{% endfor %}{% endfor %}
+    </ul></div>{% assign cm = p.community.size | plus: p.events.size | minus: 4 %}{% if cm > 0 %}<p class="talk-toggle-row"><button type="button" class="comm-toggle" aria-expanded="false">Show {{ cm }} more</button></p>{% endif %}{% endif %}
   </div>
 </section>
 {% endunless %}

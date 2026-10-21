@@ -7,8 +7,8 @@
     <ul id="site-menu">
       {% unless th.show.about == false %}<li><a href="{{ '/#about' | relative_url }}">About</a></li>{% endunless %}
       {% unless th.show.experience == false %}<li><a href="{{ '/#experience' | relative_url }}">Experience</a></li>{% endunless %}
-      {% unless th.show.training == false %}<li><a href="{{ '/#training' | relative_url }}">Training</a></li>{% endunless %}
       {% unless th.show.certifications == false %}<li><a href="{{ '/#certifications' | relative_url }}">Certifications</a></li>{% endunless %}
+      {% unless th.show.training == false %}<li><a href="{{ '/#training' | relative_url }}">Training</a></li>{% endunless %}
       {% unless th.show.writing == false %}<li><a href="{{ '/blog/' | relative_url }}">Writing</a></li>{% endunless %}
       {% unless th.show.contact == false %}<li><a href="{{ '/#contact' | relative_url }}">Contact</a></li>{% endunless %}
       {% if p.calendly != "" %}<li class="nav-cta"><a href="{{ p.calendly }}" target="_blank" rel="noopener" data-goatcounter-click="nav-book-call">Book a call</a></li>{% endif %}
