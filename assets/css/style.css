@@ -4530,3 +4530,10 @@ a.more:hover {
 .cert-tabs.hint button:not(.on):not(.visited)::after { animation: sk-ray 2.4s ease-in-out infinite; }
 .cert-tabs.hint button:not(.on):not(.visited):nth-child(3)::after { animation-delay: .35s; }
 @media (prefers-reduced-motion: reduce) { .cert-tabs button:not(.on):not(.visited) { background: #FFF4E5; } .cert-tabs.hint button::after { animation: none !important; } }
+
+/* "All writing": amber sweep, like the tab hints */
+#writing .wr-all { overflow: hidden; display: inline-block; padding: 4px 2px; }
+#writing .wr-all::after { content: ""; position: absolute; top: 0; bottom: 0; left: -60%; width: 60%; background: linear-gradient(100deg, transparent, rgba(242, 165, 65, .7), transparent); transform: skewX(-20deg); opacity: 0; pointer-events: none; }
+#writing.hint .wr-all::after { animation: sk-ray 2.8s ease-in-out infinite; }
+@media (max-width: 767px) { #writing .wr-all { position: relative; } }
+@media (prefers-reduced-motion: reduce) { #writing .wr-all { text-decoration: underline; text-decoration-color: #F2A541; text-underline-offset: 4px; } #writing.hint .wr-all::after { animation: none; } }
