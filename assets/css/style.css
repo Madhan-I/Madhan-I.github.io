@@ -1186,3 +1186,6 @@ footer .f-bottom { padding-bottom: 14px !important; }
 @media (min-width: 1024px) { #contact { padding-top: 40px !important; } #contact .intents { margin-top: 0 !important; } }
 @media (min-width: 1024px) { #contact { padding-bottom: 63px !important; } }
 @media (min-width: 1024px) { #contact { padding-bottom: 32px !important; } }
+
+/* Contact: slimmer cards, tighter stack */
+@media (min-width: 1024px) { #contact .intent { padding-block: 14px !important; } #contact .intents { gap: 10px !important; } #contact .res-btn, #contact .email-card { padding-block: 14px !important; } #contact .contact-bottom { margin-top: 10px !important; } }
