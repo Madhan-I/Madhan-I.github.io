@@ -4619,3 +4619,4 @@ a.more:hover {
 #feedback .fb-note { color: rgba(255,255,255,.72); }
 #feedback .fb-quotes li { border-color: rgba(255,255,255,.18); border-top-color: #F2A541; }
 @media (max-width: 767px) { .fb-quotes { grid-template-columns: 1fr !important; } .fb-quotes li:first-child blockquote { text-align: left; } }
+#earlier.earlier { margin-top: 14px !important; }
