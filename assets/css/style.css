@@ -4654,3 +4654,15 @@ a.more:hover {
 }
 @media (min-width: 768px) { .hero .hire-for { margin-top: 12px !important; } }
 @media (min-width: 768px) and (max-width: 1279px) { .hero p.role { margin-top: 29px !important; } .hero .ctas { margin-top: 39px !important; } }
+/* Hero: 40px rhythm (laptop and tablet) */
+@media (min-width: 1440px) { .hero { padding-top: 32px !important; } }
+@media (min-width: 1280px) and (max-width: 1439px) { .hero { padding-top: 33px !important; } }
+@media (min-width: 768px) and (max-width: 1279px) { .hero { padding-top: 35px !important; } }
+@media (min-width: 768px) {
+  .hero { padding-bottom: 40px !important; }
+  .hero p.role { margin-top: 22px !important; }
+  .hero p.lede { margin-top: 31px !important; }
+  .hero .ctas { margin-top: 36px !important; }
+  .hero .hire-for { margin-top: 8px !important; }
+}
+@media (min-width: 768px) and (max-width: 1279px) { .hero p.role { margin-top: 25px !important; } .hero .ctas { margin-top: 35px !important; } }
