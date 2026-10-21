@@ -4613,3 +4613,9 @@ a.more:hover {
 /* Order: Experience, Client feedback, Certifications, Training */
 #feedback { padding-bottom: 23px !important; }
 #certifications { padding-bottom: 29px !important; }
+/* Client feedback on navy */
+#feedback .fb-who b { color: #FFFFFF; }
+#feedback .fb-who span { color: #F2A541; }
+#feedback .fb-note { color: rgba(255,255,255,.72); }
+#feedback .fb-quotes li { border-color: rgba(255,255,255,.18); border-top-color: #F2A541; }
+@media (max-width: 767px) { .fb-quotes { grid-template-columns: 1fr !important; } .fb-quotes li:first-child blockquote { text-align: left; } }

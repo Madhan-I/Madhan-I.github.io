@@ -102,7 +102,7 @@ layout: default
 {% endunless %}
 
 {% if p.feedback %}
-<section id="feedback" class="slide tone-white">
+<section id="feedback" class="slide tone-navy">
   <div class="wrap">
     <div class="sec-head reveal"><span class="label"><svg class="ic" aria-hidden="true"><use href="#i-award"/></svg>Client feedback</span><h2>{{ p.feedback_title }}</h2></div>
     <ul class="fb-quotes reveal">{% for q in p.feedback %}<li><div class="fb-top"><span class="fb-mark" aria-hidden="true">&ldquo;</span>{% if q.date %}<span class="fb-date">{{ q.date }}</span>{% endif %}</div><blockquote>{{ q.quote }}</blockquote></li>{% endfor %}</ul>
