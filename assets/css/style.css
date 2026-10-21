@@ -4696,3 +4696,20 @@ a.more:hover {
 @media (min-width: 768px) { .hero p.role { margin-top: 8px !important; } }
 @media (min-width: 768px) and (max-width: 1279px) { .hero p.role { margin-top: 11px !important; } }
 @media (max-width: 767px) { .hero p.role { margin-top: 16px !important; } }
+/* Hero: 38 / 26 / 26 / 28 / 28 / 38 */
+@media (min-width: 1440px) { .hero { padding-top: 30px !important; } }
+@media (min-width: 1280px) and (max-width: 1439px) { .hero { padding-top: 31px !important; } }
+@media (min-width: 768px) and (max-width: 1279px) { .hero { padding-top: 33px !important; } }
+@media (min-width: 768px) {
+  .hero { padding-bottom: 38px !important; }
+  .hero p.lede { margin-top: 17px !important; }
+  .hero .ctas { margin-top: 24px !important; }
+  .hero .hire-for { margin-top: -4px !important; }
+}
+@media (min-width: 768px) and (max-width: 1279px) { .hero .ctas { margin-top: 23px !important; } }
+@media (max-width: 767px) {
+  .hero { padding-top: 28px !important; padding-bottom: 38px !important; }
+  .hero p.lede { margin-top: 17px !important; }
+  .hero .ctas { margin-top: 19px !important; }
+  .hero .hire-for { margin-top: -4px !important; }
+}
