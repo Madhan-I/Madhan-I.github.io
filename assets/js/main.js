@@ -333,3 +333,15 @@ document.querySelectorAll('.copy-btn').forEach(function (b) {
   var n = box.querySelectorAll('.fi').length; if (n) btn.textContent = 'Show all ' + n + ' formats';
   btn.addEventListener('click', function () { box.classList.add('open'); btn.setAttribute('aria-expanded', 'true'); });
 })();
+
+/* Phones: first 3 bullets of each full role, then "Show N more" */
+(function () {
+  [].forEach.call(document.querySelectorAll('#experience .job-body > ul'), function (ul) {
+    var n = ul.children.length - 3; if (n < 1) return;
+    ul.classList.add('m-cut');
+    var b = document.createElement('button'); b.type = 'button'; b.className = 'job-more';
+    b.textContent = 'Show ' + n + ' more';
+    ul.insertAdjacentElement('afterend', b);
+    b.addEventListener('click', function () { ul.classList.add('m-open'); });
+  });
+})();
