@@ -4737,17 +4737,17 @@ a.more:hover {
   html body .metrics-band .board { margin-bottom: 0px !important; }
   html body #about { padding-top: 25px !important; }
   html body #about .copy p:not(:last-child) { margin-bottom: 10px !important; }
-  html body #about { padding-bottom: 30px !important; }
+  html body #about { padding-bottom: 8px !important; }
   html body #experience { padding-top: 25px !important; }
-  html body #experience .sec-head { margin-bottom: 19px !important; }
+  html body #experience .sec-head { margin-bottom: 20px !important; }
   html body #experience ol.deck > li + li { margin-top: -16px !important; }
   html body #earlier.earlier { margin-top: 15px !important; }
   html body #experience { padding-bottom: 18px !important; }
   html body #feedback { padding-top: 25px !important; }
-  html body #feedback .sec-head h2 { margin-top: 13px !important; }
-  html body #feedback .sec-head { margin-bottom: 20px !important; }
+  html body #feedback .sec-head h2 { margin-top: 14px !important; }
+  html body #feedback .sec-head { margin-bottom: 19px !important; }
   html body #feedback .fb-foot { margin-top: 19px !important; }
-  html body #feedback .fb-note { margin-top: -1px !important; }
+  html body #feedback .fb-note { margin-top: 0px !important; }
   html body #feedback { padding-bottom: 27px !important; }
   html body #certifications { padding-top: 25px !important; }
   html body #certifications .sec-head { margin-bottom: 21px !important; }
@@ -4757,7 +4757,7 @@ a.more:hover {
   html body #training { padding-top: 25px !important; }
   html body #training .sec-head { margin-bottom: 13px !important; }
   html body #training p.train-note { margin-top: 15px !important; }
-  html body #training .train-formats { margin-top: 21px !important; }
+  html body #training .train-formats { margin-top: 22px !important; }
   html body #training .skillbox { margin-top: 2px !important; }
   html body #training .speak.talks:not(.duo) { margin-top: 28px !important; }
   html body #training .speak.talks:not(.duo) h3 { margin-bottom: 13px !important; }
@@ -4769,13 +4769,17 @@ a.more:hover {
   html body #writing .sec-head { margin-bottom: 19px !important; }
   html body #writing { padding-bottom: 30px !important; }
   html body #contact { padding-top: 25px !important; }
-  html body #contact h2 { margin-top: 14px !important; }
+  html body #contact h2 { margin-top: 13px !important; }
   html body #contact p.lede { margin-top: 3px !important; }
   html body #contact .lede + .note { margin-top: 0px !important; }
   html body #contact { padding-bottom: 30px !important; }
   html body footer .wrap.f-grid.f-grid { padding-top: 19px !important; }
   html body .metrics-band .metric { padding-top: 29px !important; }
   html body .metrics-band .metric { padding-bottom: 26px !important; }
+  html body #experience .sec-head h2 { margin-top: 13px !important; }
+  html body #certifications .sec-head h2 { margin-top: 13px !important; }
+  html body #training .speak.duo h3 { margin-bottom: 13px !important; }
+  html body #writing .sec-head h2 { margin-top: 13px !important; }
 }
 @media (min-width: 768px) and (max-width: 1099px) {
   html body .hero { padding-top: 31px !important; }
@@ -4883,3 +4887,6 @@ a.more:hover {
   html body .metrics-band .metric { padding-top: 29px !important; }
   html body .metrics-band .metric { padding-bottom: 26px !important; }
 }
+/* About: Clients card bottom lines up with the last line of text */
+@media (min-width: 1100px) { html body #about .clients li { padding-top: 4px !important; padding-bottom: 4px !important; } }
+@media (min-width: 768px) and (max-width: 1099px) { html body #about .clients li { padding-top: 8px !important; padding-bottom: 8px !important; } }
