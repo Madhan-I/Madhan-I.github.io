@@ -4960,3 +4960,14 @@ html body .hero .chip.has-short .cs { display: inline !important; }
 @media (max-width: 374px) { html body .hero .chip { padding-left: 9px !important; padding-right: 9px !important; font-size: 13.5px !important; } html body .hero .chip-row { gap: 6px !important; } }
 /* Skills box: a hidden tab panel stays hidden on every screen (fixes Training tracks showing under other tabs on phone) */
 html body #training .skillbox .sk-panel[hidden], html body #training .skillbox .topics[hidden] { display: none !important; }
+/* Phone hero skills: rows justified edge to edge like the buttons, Balanced order */
+@media (max-width: 767px) {
+  html body .hero .chip-row { display: flex !important; flex-wrap: wrap !important; }
+  html body .hero .chip { flex: 1 1 auto !important; justify-content: center !important; text-align: center; }
+  html body .hero .chip-row > .chip:nth-child(1) { order: 1; } /* Release Train Engineering */
+  html body .hero .chip-row > .chip:nth-child(6) { order: 2; } /* Agile Coaching */
+  html body .hero .chip-row > .chip:nth-child(3) { order: 3; } /* Portfolio Governance */
+  html body .hero .chip-row > .chip:nth-child(2) { order: 4; } /* PI Planning */
+  html body .hero .chip-row > .chip:nth-child(4) { order: 5; } /* Risk & Dependencies */
+  html body .hero .chip-row > .chip:nth-child(5) { order: 6; } /* Generative AI & RAG */
+}
