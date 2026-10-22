@@ -4913,3 +4913,5 @@ html body #experience ol.deck > li { position: relative !important; top: auto !i
 @media (max-width: 767px) { html body #contact .email-card .row .copy-btn { padding-top: 10px !important; padding-bottom: 10px !important; margin-top: -2px !important; margin-bottom: -2px !important; } }
 .tab-scaled body #contact .email-card .row .copy-btn { padding-top: 10px !important; padding-bottom: 10px !important; margin-top: -2px !important; margin-bottom: -2px !important; }
 @media (max-width: 767px) { #recognition .panel:first-child .rows li > span.who { display: block !important; } #recognition .rows li > span.edu-when { display: inline !important; } #recognition .rows li > span.edu-when::before { content: none !important; } }
+/* Experience: big role cards use the same light shadow as the earlier roles, so the 12px gaps look identical */
+html body #experience ol.deck > li { box-shadow: 0 1px 2px rgba(14,26,43,.06), 0 8px 24px rgba(14,26,43,.06) !important; }
