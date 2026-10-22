@@ -4890,3 +4890,5 @@ a.more:hover {
 /* About: Clients card bottom lines up with the last line of text */
 @media (min-width: 1100px) { html body #about .clients li { padding-top: 4px !important; padding-bottom: 4px !important; } }
 @media (min-width: 768px) and (max-width: 1099px) { html body #about .clients li { padding-top: 8px !important; padding-bottom: 8px !important; } }
+/* Experience: role cards scroll normally (no sticky stacking), so the gap stays constant */
+html body #experience ol.deck > li { position: relative !important; top: auto !important; }
