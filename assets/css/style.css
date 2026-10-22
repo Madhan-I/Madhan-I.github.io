@@ -4978,3 +4978,5 @@ html body #training .skillbox .sk-panel[hidden], html body #training .skillbox .
 @media (min-width: 768px) { html body #about .about-side { padding-top: 23px !important; padding-bottom: 23px !important; } }
 @media (min-width: 1100px) { html body #about .clients li { padding-top: 4.3px !important; padding-bottom: 4.3px !important; } }
 @media (min-width: 768px) and (max-width: 1099px) { html body #about .clients li { padding-top: 8.22px !important; padding-bottom: 8.22px !important; } }
+/* About: Clients card stays in place next to the text (no sticky slide while scrolling) */
+html body #about .about-side { position: static !important; top: auto !important; }
