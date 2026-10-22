@@ -4737,7 +4737,7 @@ a.more:hover {
   html body .metrics-band .board { margin-bottom: 0px !important; }
   html body #about { padding-top: 25px !important; }
   html body #about .copy p:not(:last-child) { margin-bottom: 9px !important; }
-  html body #about { padding-bottom: 10px !important; }
+  html body #about { padding-bottom: 8px !important; }
   html body #experience { padding-top: 25px !important; }
   html body #experience .sec-head { margin-bottom: 20px !important; }
   html body #experience ol.deck > li + li { margin-top: -14px !important; }
@@ -4828,7 +4828,7 @@ a.more:hover {
   html body footer .wrap.f-grid.f-grid { padding-top: 19px !important; }
   html body .metrics-band .metric { padding-top: 29.7px !important; }
   html body .metrics-band .metric { padding-bottom: 25.7px !important; }
-  html body #about { padding-bottom: 9px !important; }
+  html body #about { padding-bottom: 7px !important; }
   html body #experience .sec-head h2 { margin-top: 13px !important; }
   html body #recognition .sec-head h2 { margin-top: 14px !important; }
   html body #training .speak.talks:not(.duo) h3 { margin-bottom: 13px !important; }
@@ -4974,3 +4974,7 @@ html body #training .skillbox .sk-panel[hidden], html body #training .skillbox .
 }
 /* Phone: Clients card 22px from its edge to the heading and from the badge to its edge */
 @media (max-width: 767px) { html body #about .about-side { padding-top: 21px !important; padding-bottom: 21px !important; } }
+/* Laptop and tablet: Clients card 24px from its edge to the heading and from the badge to its edge */
+@media (min-width: 768px) { html body #about .about-side { padding-top: 23px !important; padding-bottom: 23px !important; } }
+@media (min-width: 1100px) { html body #about .clients li { padding-top: 4.3px !important; padding-bottom: 4.3px !important; } }
+@media (min-width: 768px) and (max-width: 1099px) { html body #about .clients li { padding-top: 8.22px !important; padding-bottom: 8.22px !important; } }
