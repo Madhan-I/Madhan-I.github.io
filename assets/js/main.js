@@ -186,16 +186,11 @@ document.querySelectorAll('.copy-btn').forEach(function (b) {
   try { var v = new URLSearchParams(location.search).get('q'); if (v) { q.value = v.replace(/([a-z])([A-Z])/g, '$1 $2'); q.dispatchEvent(new Event('input')); } } catch (e) {}
 })();
 
-/* Earlier career: one open at a time, plus show/hide all */
+/* Earlier career: open as many as you like, plus show/hide all */
 (function () {
   var box = document.getElementById('earlier'); if (!box) return;
   var items = [].slice.call(box.querySelectorAll('details.early')), btn = box.querySelector('.e-all'), all = false;
-  items.forEach(function (d) {
-    d.addEventListener('toggle', function () {
-      if (all || !d.open) return;
-      items.forEach(function (o) { if (o !== d) o.open = false; });
-    });
-  });
+  /* Opened roles stay open; each one closes only when clicked again */
   btn.addEventListener('click', function () {
     all = !all;
     items.forEach(function (d) { d.open = all; });
