@@ -4931,3 +4931,15 @@ html body #experience ol.deck > li { min-height: 0 !important; height: auto !imp
   html body #experience ol.deck > li { padding-top: 11px !important; padding-bottom: 19px !important; }
   html body #earlier details.early .e-card { padding-top: 11px !important; padding-bottom: 19px !important; }
 }
+/* Phone: "Show all certifications" lists every group (tabs hidden); "Show fewer" brings the tabs back */
+@media (max-width: 767px) {
+  html body #certifications.all-open .cert-tabs { display: none !important; }
+  html body #certifications.all-open .cert-groups.m-tabbed > .cg { display: block !important; }
+  html body #certifications.all-open .cert-groups.m-tabbed > .cg + .cg { margin-top: 12px; }
+}
+/* Phones: "Show all certifications" lists every group at once (tabs hidden until "Show fewer") */
+@media (max-width: 767px) {
+  html body #certifications.all-open .cert-tabs { display: none !important; }
+  html body #certifications.all-open .cert-groups.m-tabbed > .cg { display: block !important; }
+  html body #certifications.all-open .cert-groups.m-tabbed > .cg + .cg { margin-top: 12px; }
+}
