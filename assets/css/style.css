@@ -4727,3 +4727,159 @@ a.more:hover {
   #about .sec-head { margin-bottom: 18px !important; }
   #about .copy p { margin-bottom: 17px !important; }
 }
+/* ==== Spacing spec (22 Oct 2026): every gap set to Madhan's table ==== */
+@media (min-width: 1100px) {
+  html body .hero { padding-top: 28px !important; }
+  html body .hero .ctas { margin-top: 22px !important; }
+  html body .hero .hire-for { margin-top: -6px !important; }
+  html body .hero { padding-bottom: 29px !important; }
+  html body .metrics-band .board { margin-top: 0px !important; }
+  html body .metrics-band .board { margin-bottom: 0px !important; }
+  html body #about { padding-top: 25px !important; }
+  html body #about .copy p:not(:last-child) { margin-bottom: 10px !important; }
+  html body #about { padding-bottom: 30px !important; }
+  html body #experience { padding-top: 25px !important; }
+  html body #experience .sec-head { margin-bottom: 19px !important; }
+  html body #experience ol.deck > li + li { margin-top: -16px !important; }
+  html body #earlier.earlier { margin-top: 15px !important; }
+  html body #experience { padding-bottom: 18px !important; }
+  html body #feedback { padding-top: 25px !important; }
+  html body #feedback .sec-head h2 { margin-top: 13px !important; }
+  html body #feedback .sec-head { margin-bottom: 20px !important; }
+  html body #feedback .fb-foot { margin-top: 19px !important; }
+  html body #feedback .fb-note { margin-top: -1px !important; }
+  html body #feedback { padding-bottom: 27px !important; }
+  html body #certifications { padding-top: 25px !important; }
+  html body #certifications .sec-head { margin-bottom: 21px !important; }
+  html body #certifications .cert-toggle-row { margin-top: 30px !important; }
+  html body #certifications .verify { margin-top: 30px !important; }
+  html body #certifications { padding-bottom: 30px !important; }
+  html body #training { padding-top: 25px !important; }
+  html body #training .sec-head { margin-bottom: 13px !important; }
+  html body #training p.train-note { margin-top: 15px !important; }
+  html body #training .train-formats { margin-top: 21px !important; }
+  html body #training .skillbox { margin-top: 2px !important; }
+  html body #training .speak.talks:not(.duo) { margin-top: 28px !important; }
+  html body #training .speak.talks:not(.duo) h3 { margin-bottom: 13px !important; }
+  html body #training { padding-bottom: 30px !important; }
+  html body #recognition { padding-top: 25px !important; }
+  html body #recognition .sec-head { margin-bottom: 19px !important; }
+  html body #recognition { padding-bottom: 30px !important; }
+  html body #writing { padding-top: 25px !important; }
+  html body #writing .sec-head { margin-bottom: 19px !important; }
+  html body #writing { padding-bottom: 30px !important; }
+  html body #contact { padding-top: 25px !important; }
+  html body #contact h2 { margin-top: 14px !important; }
+  html body #contact p.lede { margin-top: 3px !important; }
+  html body #contact .lede + .note { margin-top: 0px !important; }
+  html body #contact { padding-bottom: 30px !important; }
+  html body footer .wrap.f-grid.f-grid { padding-top: 19px !important; }
+  html body .metrics-band .metric { padding-top: 29px !important; }
+  html body .metrics-band .metric { padding-bottom: 26px !important; }
+}
+@media (min-width: 768px) and (max-width: 1099px) {
+  html body .hero { padding-top: 31px !important; }
+  html body .hero .ctas { margin-top: 21px !important; }
+  html body .hero .hire-for { margin-top: -6px !important; }
+  html body .hero { padding-bottom: 29px !important; }
+  html body .metrics-band .board { margin-top: 0px !important; }
+  html body .metrics-band .board { margin-bottom: 0px !important; }
+  html body #about { padding-top: 25px !important; }
+  html body #about .sec-head { margin-bottom: 18px !important; }
+  html body #about .copy p:not(:last-child) { margin-bottom: 10px !important; }
+  html body #experience { padding-top: 25px !important; }
+  html body #experience .sec-head { margin-bottom: 19px !important; }
+  html body #experience ol.deck > li + li { margin-top: -16px !important; }
+  html body #earlier.earlier { margin-top: 15px !important; }
+  html body #experience { padding-bottom: 18px !important; }
+  html body #feedback { padding-top: 25px !important; }
+  html body #feedback .sec-head h2 { margin-top: 13px !important; }
+  html body #feedback .sec-head { margin-bottom: 20px !important; }
+  html body #feedback .fb-foot { margin-top: 19px !important; }
+  html body #feedback { padding-bottom: 27px !important; }
+  html body #certifications { padding-top: 25px !important; }
+  html body #certifications .sec-head h2 { margin-top: 13px !important; }
+  html body #certifications .sec-head { margin-bottom: 22px !important; }
+  html body #certifications .cert-toggle-row { margin-top: 30px !important; }
+  html body #certifications .verify { margin-top: 30px !important; }
+  html body #certifications { padding-bottom: 30px !important; }
+  html body #training { padding-top: 25px !important; }
+  html body #training .sec-head { margin-bottom: 13px !important; }
+  html body #training p.train-note { margin-top: 16px !important; }
+  html body #training .train-formats { margin-top: 20px !important; }
+  html body #training .skillbox { margin-top: 2px !important; }
+  html body #training .speak.talks:not(.duo) { margin-top: 28px !important; }
+  html body #training { padding-bottom: 30px !important; }
+  html body #recognition { padding-top: 25px !important; }
+  html body #recognition .sec-head { margin-bottom: 19px !important; }
+  html body #recognition { padding-bottom: 30px !important; }
+  html body #writing { padding-top: 25px !important; }
+  html body #writing .sec-head { margin-bottom: 19px !important; }
+  html body #writing { padding-bottom: 30px !important; }
+  html body #contact { padding-top: 25px !important; }
+  html body #contact h2 { margin-top: 13px !important; }
+  html body #contact p.lede { margin-top: 3px !important; }
+  html body #contact .lede + .note { margin-top: 0px !important; }
+  html body #contact { padding-bottom: 30px !important; }
+  html body footer .wrap.f-grid.f-grid { padding-top: 19px !important; }
+  html body .metrics-band .metric { padding-top: 29.7px !important; }
+  html body .metrics-band .metric { padding-bottom: 25.7px !important; }
+  html body #about { padding-bottom: 7px !important; }
+  html body #experience .sec-head h2 { margin-top: 13px !important; }
+  html body #recognition .sec-head h2 { margin-top: 13px !important; }
+}
+@media (max-width: 767px) {
+  html body .hero { padding-top: 26px !important; }
+  html body .hero h1 { margin-top: -14px !important; }
+  html body .hero .ctas { margin-top: 18px !important; }
+  html body .hero .hire-for { margin-top: -6px !important; }
+  html body .hero { padding-bottom: 29px !important; }
+  html body .metrics-band .board { margin-top: 0px !important; }
+  html body .metrics-band .board { margin-bottom: 0px !important; }
+  html body #about { padding-top: 25px !important; }
+  html body #about .sec-head { margin-bottom: 19px !important; }
+  html body #about .copy p:not(:last-child) { margin-bottom: 10px !important; }
+  html body #about .about-side { margin-top: -17px !important; }
+  html body #about { padding-bottom: 30px !important; }
+  html body #experience { padding-top: 25px !important; }
+  html body #experience .sec-head { margin-bottom: 20px !important; }
+  html body #experience ol.deck > li + li { margin-top: -10px !important; }
+  html body #experience { padding-bottom: 18px !important; }
+  html body #feedback { padding-top: 25px !important; }
+  html body #feedback .sec-head { margin-bottom: 21px !important; }
+  html body #feedback .fb-quotes { row-gap: 20px !important; }
+  html body #feedback .fb-foot { margin-top: 19px !important; }
+  html body #feedback .fb-note { margin-top: 3px !important; }
+  html body #feedback { padding-bottom: 25px !important; }
+  html body #certifications { padding-top: 25px !important; }
+  html body #certifications .sec-head { margin-bottom: 22px !important; }
+  html body #certifications .cert-toggle-row { margin-top: 30px !important; }
+  html body #certifications .verify { margin-top: 30px !important; }
+  html body #certifications { padding-bottom: 30px !important; }
+  html body #training { padding-top: 25px !important; }
+  html body #training .sec-head h2 { margin-top: 15px !important; }
+  html body #training .sec-head { margin-bottom: 15px !important; }
+  html body #training p.train-note { margin-top: 16px !important; }
+  html body #training .train-formats { margin-top: 21px !important; }
+  html body #training .train-formats h4 { margin-bottom: 6px !important; }
+  html body #training .skillbox { margin-top: 2px !important; }
+  html body #training .speak.talks:not(.duo) { margin-top: 28px !important; }
+  html body #training .speak.talks:not(.duo) h3 { margin-bottom: 13px !important; }
+  html body #training .speak.duo h3 { margin-bottom: 13px !important; }
+  html body #training { padding-bottom: 30px !important; }
+  html body #recognition { padding-top: 25px !important; }
+  html body #recognition .sec-head { margin-bottom: 21px !important; }
+  html body #recognition { padding-bottom: 30px !important; }
+  html body #writing { padding-top: 25px !important; }
+  html body #writing .sec-head h2 { margin-top: 15px !important; }
+  html body #writing .sec-head { margin-bottom: -1px !important; }
+  html body #writing { padding-bottom: 30px !important; }
+  html body #contact { padding-top: 25px !important; }
+  html body #contact h2 { margin-top: 14px !important; }
+  html body #contact .lede + .note { margin-top: 0px !important; }
+  html body #contact .contact-bottom { margin-top: 10px !important; }
+  html body #contact { padding-bottom: 30px !important; }
+  html body footer .wrap.f-grid.f-grid { padding-top: 19px !important; }
+  html body .metrics-band .metric { padding-top: 29px !important; }
+  html body .metrics-band .metric { padding-bottom: 26px !important; }
+}
