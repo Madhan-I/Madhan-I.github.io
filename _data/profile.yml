@@ -46,7 +46,7 @@ photo: "madhan-headshot-bright.jpg"
 
 # Skill boxes under the intro. Each group below is its own row on desktop.
 expertise_rows:
-  - [Release Train Engineering, PI Planning, "Program & Portfolio Governance|Portfolio Governance", "Risk & Dependency Management|Risk & Dependencies", Generative AI & RAG, "Agile Coaching|Agile Coaching|phone"]
+  - [Release Train Engineering, PI Planning, "Program & Portfolio Governance|Portfolio Governance", "Risk & Dependency Management|Risk & Dependencies", Generative AI & RAG, Agile Coaching]
 
 # The four big numbers under the hero. Keep it to four.
 metrics:
