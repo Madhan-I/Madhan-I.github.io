@@ -243,9 +243,9 @@ document.querySelectorAll('.copy-btn').forEach(function (b) {
     function label() {
       var open = btn.getAttribute('aria-expanded') === 'true';
       if (open) { btn.textContent = cfg[2]; return; }
-      var shown = phone.matches ? 2 : 4; btn.textContent = 'Show ' + Math.max(items.length - shown, 0) + ' ' + cfg[3];
+      var shown = phone.matches ? 1 : 4; btn.textContent = 'Show ' + Math.max(items.length - shown, 0) + ' ' + cfg[3];
     }
-    items.forEach(function (li, i) { if (i >= 2 && i < 4) li.classList.add('m-extra'); });
+    items.forEach(function (li, i) { if (i >= 1 && i < 4) li.classList.add('m-extra'); });
     btn.addEventListener('click', function () {
       var show = btn.getAttribute('aria-expanded') !== 'true';
       more.forEach(function (li) { li.hidden = !show; });
@@ -348,4 +348,24 @@ document.querySelectorAll('.copy-btn').forEach(function (b) {
     b.addEventListener('click', function () { b.classList.add('used'); });
     if ('IntersectionObserver' in window) { var io = new IntersectionObserver(function (es) { es.forEach(function (e) { if (e.isIntersecting) { b.classList.add('hint'); io.disconnect(); } }); }, { threshold: .1 }); io.observe(b); } else { b.classList.add('hint'); }
   });
+})();
+
+/* Phones: Recognition panels as tabs (Education / Delivery / Training) */
+(function () {
+  var wrap = document.querySelector('#recognition .three'); if (!wrap) return;
+  var groups = [].slice.call(wrap.children).filter(function (g) { return g.classList.contains('panel'); }); if (groups.length < 2) return;
+  var short = { 'Training & Mentoring': 'Training' };
+  var bar = document.createElement('div'); bar.className = 'cert-tabs rec-tabs'; bar.setAttribute('role', 'tablist');
+  groups.forEach(function (g, i) {
+    var h = g.querySelector('h3'), name = h ? h.textContent.trim() : 'Group ' + (i + 1);
+    var b = document.createElement('button'); b.type = 'button'; b.setAttribute('role', 'tab'); b.textContent = short[name] || name;
+    b.addEventListener('click', function () {
+      groups.forEach(function (x, j) { x.classList.toggle('m-on', j === i); });
+      [].forEach.call(bar.children, function (x, j) { x.classList.toggle('on', j === i); x.setAttribute('aria-selected', j === i ? 'true' : 'false'); });
+      b.classList.add('visited');
+    });
+    bar.appendChild(b);
+  });
+  wrap.classList.add('m-tabbed'); wrap.parentNode.insertBefore(bar, wrap); bar.children[0].click();
+  if ('IntersectionObserver' in window) { var io = new IntersectionObserver(function (es) { es.forEach(function (e) { if (e.isIntersecting) { bar.classList.add('hint'); io.disconnect(); } }); }, { threshold: .1 }); io.observe(bar); } else { bar.classList.add('hint'); }
 })();
