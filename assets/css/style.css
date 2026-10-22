@@ -4954,3 +4954,6 @@ html body #experience ol.deck > li { min-height: 0 !important; height: auto !imp
   html body .hero .ctas .btn .ic { width: 15px; height: 15px; flex: none; }
 }
 @media (max-width: 359px) { html body .hero .ctas .btn .ic { display: none; } }
+/* Hero: 6th skill chip shows on phones only (laptop row is already full with 5) */
+@media (min-width: 768px) { .hero .chip.m-only { display: none !important; } }
+@media (max-width: 374px) { html body .hero .chip { padding-left: 9px !important; padding-right: 9px !important; font-size: 13.5px !important; } html body .hero .chip-row { gap: 6px !important; } }
