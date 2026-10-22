@@ -4744,10 +4744,10 @@ a.more:hover {
   html body #earlier.earlier { margin-top: 15px !important; }
   html body #experience { padding-bottom: 18px !important; }
   html body #feedback { padding-top: 25px !important; }
-  html body #feedback .sec-head h2 { margin-top: 14px !important; }
+  html body #feedback .sec-head h2 { margin-top: 13px !important; }
   html body #feedback .sec-head { margin-bottom: 19px !important; }
   html body #feedback .fb-foot { margin-top: 19px !important; }
-  html body #feedback .fb-note { margin-top: 0px !important; }
+  html body #feedback .fb-note { margin-top: -1px !important; }
   html body #feedback { padding-bottom: 27px !important; }
   html body #certifications { padding-top: 25px !important; }
   html body #certifications .sec-head { margin-bottom: 21px !important; }
@@ -4756,11 +4756,11 @@ a.more:hover {
   html body #certifications { padding-bottom: 30px !important; }
   html body #training { padding-top: 25px !important; }
   html body #training .sec-head { margin-bottom: 13px !important; }
-  html body #training p.train-note { margin-top: 15px !important; }
-  html body #training .train-formats { margin-top: 22px !important; }
+  html body #training p.train-note { margin-top: 16px !important; }
+  html body #training .train-formats { margin-top: 21px !important; }
   html body #training .skillbox { margin-top: 2px !important; }
   html body #training .speak.talks:not(.duo) { margin-top: 28px !important; }
-  html body #training .speak.talks:not(.duo) h3 { margin-bottom: 13px !important; }
+  html body #training .speak.talks:not(.duo) h3 { margin-bottom: 14px !important; }
   html body #training { padding-bottom: 30px !important; }
   html body #recognition { padding-top: 25px !important; }
   html body #recognition .sec-head { margin-bottom: 19px !important; }
@@ -4769,17 +4769,17 @@ a.more:hover {
   html body #writing .sec-head { margin-bottom: 19px !important; }
   html body #writing { padding-bottom: 30px !important; }
   html body #contact { padding-top: 25px !important; }
-  html body #contact h2 { margin-top: 13px !important; }
-  html body #contact p.lede { margin-top: 3px !important; }
+  html body #contact h2 { margin-top: 14px !important; }
+  html body #contact p.lede { margin-top: 4px !important; }
   html body #contact .lede + .note { margin-top: 0px !important; }
   html body #contact { padding-bottom: 30px !important; }
   html body footer .wrap.f-grid.f-grid { padding-top: 19px !important; }
   html body .metrics-band .metric { padding-top: 29px !important; }
   html body .metrics-band .metric { padding-bottom: 26px !important; }
   html body #experience .sec-head h2 { margin-top: 13px !important; }
-  html body #certifications .sec-head h2 { margin-top: 13px !important; }
-  html body #training .speak.duo h3 { margin-bottom: 13px !important; }
-  html body #writing .sec-head h2 { margin-top: 13px !important; }
+  html body #certifications .sec-head h2 { margin-top: 14px !important; }
+  html body #training .speak.duo h3 { margin-bottom: 14px !important; }
+  html body #writing .sec-head h2 { margin-top: 14px !important; }
 }
 @media (min-width: 768px) and (max-width: 1099px) {
   html body .hero { padding-top: 31px !important; }
@@ -4803,7 +4803,7 @@ a.more:hover {
   html body #feedback { padding-bottom: 27px !important; }
   html body #certifications { padding-top: 25px !important; }
   html body #certifications .sec-head h2 { margin-top: 13px !important; }
-  html body #certifications .sec-head { margin-bottom: 22px !important; }
+  html body #certifications .sec-head { margin-bottom: 21px !important; }
   html body #certifications .cert-toggle-row { margin-top: 30px !important; }
   html body #certifications .verify { margin-top: 30px !important; }
   html body #certifications { padding-bottom: 30px !important; }
@@ -4915,3 +4915,5 @@ html body #experience ol.deck > li { position: relative !important; top: auto !i
 @media (max-width: 767px) { #recognition .panel:first-child .rows li > span.who { display: block !important; } #recognition .rows li > span.edu-when { display: inline !important; } #recognition .rows li > span.edu-when::before { content: none !important; } }
 /* Experience: big role cards use the same light shadow as the earlier roles, so the 12px gaps look identical */
 html body #experience ol.deck > li { box-shadow: 0 1px 2px rgba(14,26,43,.06), 0 8px 24px rgba(14,26,43,.06) !important; }
+/* Experience: each big card is only as tall as its content (equal heights were for the old stacking effect) */
+html body #experience ol.deck > li { min-height: 0 !important; height: auto !important; }
