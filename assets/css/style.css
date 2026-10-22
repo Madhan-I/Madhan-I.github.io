@@ -4798,7 +4798,7 @@ a.more:hover {
   html body #experience { padding-bottom: 18px !important; }
   html body #feedback { padding-top: 25px !important; }
   html body #feedback .sec-head h2 { margin-top: 13px !important; }
-  html body #feedback .sec-head { margin-bottom: 20px !important; }
+  html body #feedback .sec-head { margin-bottom: 19px !important; }
   html body #feedback .fb-foot { margin-top: 19px !important; }
   html body #feedback { padding-bottom: 27px !important; }
   html body #certifications { padding-top: 25px !important; }
@@ -4809,7 +4809,7 @@ a.more:hover {
   html body #certifications { padding-bottom: 30px !important; }
   html body #training { padding-top: 25px !important; }
   html body #training .sec-head { margin-bottom: 13px !important; }
-  html body #training p.train-note { margin-top: 16px !important; }
+  html body #training p.train-note { margin-top: 15px !important; }
   html body #training .train-formats { margin-top: 20px !important; }
   html body #training .skillbox { margin-top: 2px !important; }
   html body #training .speak.talks:not(.duo) { margin-top: 28px !important; }
@@ -4821,8 +4821,8 @@ a.more:hover {
   html body #writing .sec-head { margin-bottom: 19px !important; }
   html body #writing { padding-bottom: 30px !important; }
   html body #contact { padding-top: 25px !important; }
-  html body #contact h2 { margin-top: 13px !important; }
-  html body #contact p.lede { margin-top: 3px !important; }
+  html body #contact h2 { margin-top: 14px !important; }
+  html body #contact p.lede { margin-top: 4px !important; }
   html body #contact .lede + .note { margin-top: 0px !important; }
   html body #contact { padding-bottom: 30px !important; }
   html body footer .wrap.f-grid.f-grid { padding-top: 19px !important; }
@@ -4830,7 +4830,8 @@ a.more:hover {
   html body .metrics-band .metric { padding-bottom: 25.7px !important; }
   html body #about { padding-bottom: 7px !important; }
   html body #experience .sec-head h2 { margin-top: 13px !important; }
-  html body #recognition .sec-head h2 { margin-top: 13px !important; }
+  html body #recognition .sec-head h2 { margin-top: 14px !important; }
+  html body #training .speak.talks:not(.duo) h3 { margin-bottom: 13px !important; }
 }
 @media (max-width: 767px) {
   html body .hero { padding-top: 26px !important; }
@@ -4917,3 +4918,16 @@ html body #experience ol.deck > li { position: relative !important; top: auto !i
 html body #experience ol.deck > li { box-shadow: 0 1px 2px rgba(14,26,43,.06), 0 8px 24px rgba(14,26,43,.06) !important; }
 /* Experience: each big card is only as tall as its content (equal heights were for the old stacking effect) */
 html body #experience ol.deck > li { min-height: 0 !important; height: auto !important; }
+/* Experience cards: 24px above/below the text on laptop and tablet, 20px on phone */
+@media (min-width: 1100px) {
+  html body #experience ol.deck > li { padding-top: 23px !important; padding-bottom: 23px !important; }
+  html body #earlier details.early .e-card { padding-top: 23px !important; padding-bottom: 23px !important; }
+}
+@media (min-width: 768px) and (max-width: 1099px) {
+  html body #experience ol.deck > li { padding-top: 23px !important; padding-bottom: 23px !important; }
+  html body #earlier details.early .e-card { padding-top: 23px !important; padding-bottom: 23px !important; }
+}
+@media (max-width: 767px) {
+  html body #experience ol.deck > li { padding-top: 11px !important; padding-bottom: 19px !important; }
+  html body #earlier details.early .e-card { padding-top: 11px !important; padding-bottom: 19px !important; }
+}
