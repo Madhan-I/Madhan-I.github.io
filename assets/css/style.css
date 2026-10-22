@@ -4740,7 +4740,7 @@ a.more:hover {
   html body #about { padding-bottom: 8px !important; }
   html body #experience { padding-top: 25px !important; }
   html body #experience .sec-head { margin-bottom: 20px !important; }
-  html body #experience ol.deck > li + li { margin-top: -16px !important; }
+  html body #experience ol.deck > li + li { margin-top: -14px !important; }
   html body #earlier.earlier { margin-top: 15px !important; }
   html body #experience { padding-bottom: 18px !important; }
   html body #feedback { padding-top: 25px !important; }
