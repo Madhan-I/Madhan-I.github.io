@@ -192,11 +192,13 @@ document.querySelectorAll('.copy-btn').forEach(function (b) {
   var items = [].slice.call(box.querySelectorAll('details.early')), btn = box.querySelector('.e-all'), all = false;
   /* Opened roles stay open; each one closes only when clicked again */
   btn.addEventListener('click', function () {
+    box.dataset.bulk = Date.now();
     all = !all;
     items.forEach(function (d) { d.open = all; });
     btn.textContent = all ? 'Hide earlier roles' : 'Show all earlier roles';
     btn.setAttribute('aria-expanded', all ? 'true' : 'false');
-    if (!all) box.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    /* keep the list's top in view after opening or closing (otherwise the page lands on the last role) */
+    requestAnimationFrame(function () { box.scrollIntoView({ behavior: 'smooth', block: 'start' }); });
   });
 })();
 
@@ -376,7 +378,8 @@ document.querySelectorAll('.copy-btn').forEach(function (b) {
   var phone = window.matchMedia('(max-width: 767px)');
   [].forEach.call(document.querySelectorAll('#earlier details.early'), function (d) {
     d.addEventListener('toggle', function () {
-      if (!d.open || !phone.matches) return;
+      var box = document.getElementById('earlier');
+      if (!d.open || !phone.matches || (box && Date.now() - (+box.dataset.bulk || 0) < 1500)) return;
       setTimeout(function () {
         var r = d.getBoundingClientRect(), head = 80, room = window.innerHeight - 90;
         if (r.bottom > room || r.top < head) {
@@ -394,4 +397,46 @@ document.querySelectorAll('.copy-btn').forEach(function (b) {
   btn.addEventListener('click', function () {
     [].forEach.call(document.querySelectorAll('#certifications .cg, #certifications .reveal'), function (e) { e.classList.add('in'); });
   });
+})();
+
+/* Phones, "Show all certifications": the group you were viewing comes first, then the others in their usual order */
+(function () {
+  var btn = document.querySelector('.cert-toggle'), wrap = document.querySelector('#certifications .cert-groups'), sec = document.getElementById('certifications');
+  if (!btn || !wrap || !sec) return;
+  var orig = [].slice.call(wrap.children);
+  btn.addEventListener('click', function () {
+    if (!wrap.classList.contains('m-tabbed')) return;
+    if (sec.classList.contains('all-open')) {
+      var active = wrap.querySelector('.cg.m-on'), first = wrap.querySelector('.cg');
+      if (active && first && active !== first) wrap.insertBefore(active, first);
+    } else {
+      orig.forEach(function (n) { wrap.appendChild(n); });
+    }
+  });
+})();
+
+/* Phones: Leadership & tools / Technical chips packed into full, justified rows */
+(function () {
+  var phone = window.matchMedia('(max-width: 767px)');
+  function pack(ul) {
+    var items = [].slice.call(ul.children);
+    items.forEach(function (li) { li.style.order = ''; });
+    if (!phone.matches || !ul.offsetWidth) return;
+    ul.classList.add('m-measure');
+    var gap = parseFloat(getComputedStyle(ul).columnGap) || 8, avail = ul.clientWidth;
+    var rem = items.map(function (li, i) { return { li: li, w: li.getBoundingClientRect().width, i: i }; });
+    ul.classList.remove('m-measure');
+    /* first-fit in your order: each chip joins the first row that still has room, so the top skills stay near the top */
+    var rows = [];
+    rem.forEach(function (x) {
+      for (var r = 0; r < rows.length; r++) { if (rows[r].w + gap + x.w <= avail) { rows[r].w += gap + x.w; rows[r].items.push(x); return; } }
+      rows.push({ w: x.w, items: [x] });
+    });
+    var n = 0;
+    rows.forEach(function (r) { r.items.forEach(function (x) { x.li.style.order = ++n; }); });
+  }
+  function all() { [].forEach.call(document.querySelectorAll('.skillbox .sk-chips ul'), pack); }
+  [].forEach.call(document.querySelectorAll('.skillbox .sk-tab'), function (t) { t.addEventListener('click', function () { setTimeout(all, 0); }); });
+  window.addEventListener('resize', function () { clearTimeout(all.t); all.t = setTimeout(all, 150); });
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(all); all();
 })();

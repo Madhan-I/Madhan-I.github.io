@@ -4844,7 +4844,7 @@ a.more:hover {
   html body #about { padding-top: 25px !important; }
   html body #about .sec-head { margin-bottom: 20px !important; }
   html body #about .copy p:not(:last-child) { margin-bottom: 6px !important; }
-  html body #about .about-side { margin-top: -17px !important; }
+  html body #about .about-side { margin-top: -27px !important; }
   html body #about { padding-bottom: 30px !important; }
   html body #experience { padding-top: 25px !important; }
   html body #experience .sec-head { margin-bottom: 19px !important; }
@@ -4882,7 +4882,7 @@ a.more:hover {
   html body #contact { padding-top: 25px !important; }
   html body #contact h2 { margin-top: 15px !important; }
   html body #contact .lede + .note { margin-top: 0px !important; }
-  html body #contact .contact-bottom { margin-top: 10px !important; }
+  html body #contact .contact-bottom { margin-top: 12px !important; }
   html body #contact { padding-bottom: 30px !important; }
   html body footer .wrap.f-grid.f-grid { padding-top: 19px !important; }
   html body .metrics-band .metric { padding-top: 29px !important; }
@@ -4894,6 +4894,7 @@ a.more:hover {
   html body #feedback .sec-head h2 { margin-top: 15px !important; }
   html body #certifications .sec-head h2 { margin-top: 15px !important; }
   html body #about .copy p:first-of-type:not(:last-child) { margin-bottom: 16px !important; }
+  html body #contact .contact-bottom .email-card { margin-top: -8px !important; }
 }
 /* About: Clients card bottom lines up with the last line of text */
 @media (min-width: 1100px) { html body #about .clients li { padding-top: 4px !important; padding-bottom: 4px !important; } }
@@ -4980,3 +4981,10 @@ html body #training .skillbox .sk-panel[hidden], html body #training .skillbox .
 @media (min-width: 768px) and (max-width: 1099px) { html body #about .clients li { padding-top: 8.22px !important; padding-bottom: 8.22px !important; } }
 /* About: Clients card stays in place next to the text (no sticky slide while scrolling) */
 html body #about .about-side { position: static !important; top: auto !important; }
+/* Phone: skills chips in Leadership & tools / Technical fill each row edge to edge */
+@media (max-width: 767px) {
+  html body .skillbox .sk-chips ul { display: flex !important; flex-wrap: wrap !important; }
+  html body .skillbox .sk-chips li { flex: 1 1 auto !important; text-align: center; justify-content: center; font-size: 13px !important; padding: 7px 10px !important; }
+  html body .skillbox .sk-chips ul.m-measure li { flex: 0 0 auto !important; }
+}
+#earlier { scroll-margin-top: 90px; }
