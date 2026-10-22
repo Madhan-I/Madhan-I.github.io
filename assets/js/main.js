@@ -211,6 +211,7 @@ document.querySelectorAll('.copy-btn').forEach(function (b) {
   var btn = document.querySelector('.cert-toggle'), more = document.getElementById('cert-more'); if (!btn || !more) return;
   btn.addEventListener('click', function () {
     var show = more.hidden; more.hidden = !show; document.querySelectorAll('.cert-x').forEach(function (e) { e.hidden = !show; });
+    document.getElementById('certifications').classList.toggle('all-open', show);
     more.querySelectorAll('.reveal').forEach(function (e) { e.classList.add('in'); });
     btn.textContent = show ? 'Show fewer certifications' : 'Show all certifications';
     btn.setAttribute('aria-expanded', show ? 'true' : 'false');
@@ -331,7 +332,7 @@ document.querySelectorAll('.copy-btn').forEach(function (b) {
 
 /* Phones: first 3 bullets of each full role, then "Show N more" */
 (function () {
-  [].forEach.call(document.querySelectorAll('#experience .job-body > ul'), function (ul) {
+  [].forEach.call(document.querySelectorAll('#experience ol.deck .job-body > ul'), function (ul) {
     var n = ul.children.length - 3; if (n < 1) return;
     ul.classList.add('m-cut');
     var b = document.createElement('button'); b.type = 'button'; b.className = 'job-more';
@@ -368,4 +369,29 @@ document.querySelectorAll('.copy-btn').forEach(function (b) {
   });
   wrap.classList.add('m-tabbed'); wrap.parentNode.insertBefore(bar, wrap); bar.children[0].click();
   if ('IntersectionObserver' in window) { var io = new IntersectionObserver(function (es) { es.forEach(function (e) { if (e.isIntersecting) { bar.classList.add('hint'); io.disconnect(); } }); }, { threshold: .1 }); io.observe(bar); } else { bar.classList.add('hint'); }
+})();
+
+/* Phones: an opened earlier role scrolls fully into view (nothing hidden behind the browser toolbar) */
+(function () {
+  var phone = window.matchMedia('(max-width: 767px)');
+  [].forEach.call(document.querySelectorAll('#earlier details.early'), function (d) {
+    d.addEventListener('toggle', function () {
+      if (!d.open || !phone.matches) return;
+      setTimeout(function () {
+        var r = d.getBoundingClientRect(), head = 80, room = window.innerHeight - 90;
+        if (r.bottom > room || r.top < head) {
+          var target = r.height + head > room ? r.top - head : r.bottom - room;
+          window.scrollBy({ top: target, behavior: 'smooth' });
+        }
+      }, 60);
+    });
+  });
+})();
+
+/* "Show all certifications": make every group visible at once (no waiting for the scroll-in animation) */
+(function () {
+  var btn = document.querySelector('.cert-toggle'); if (!btn) return;
+  btn.addEventListener('click', function () {
+    [].forEach.call(document.querySelectorAll('#certifications .cg, #certifications .reveal'), function (e) { e.classList.add('in'); });
+  });
 })();
