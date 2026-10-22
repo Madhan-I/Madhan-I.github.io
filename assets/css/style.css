@@ -4872,7 +4872,7 @@ a.more:hover {
   html body #training .speak.duo h3 { margin-bottom: 13px !important; }
   html body #training { padding-bottom: 30px !important; }
   html body #recognition { padding-top: 25px !important; }
-  html body #recognition .sec-head { margin-bottom: 21px !important; }
+  html body #recognition .sec-head { margin-bottom: 22px !important; }
   html body #recognition { padding-bottom: 30px !important; }
   html body #writing { padding-top: 25px !important; }
   html body #writing .sec-head h2 { margin-top: 15px !important; }
@@ -4886,9 +4886,30 @@ a.more:hover {
   html body footer .wrap.f-grid.f-grid { padding-top: 19px !important; }
   html body .metrics-band .metric { padding-top: 29px !important; }
   html body .metrics-band .metric { padding-bottom: 26px !important; }
+  html body #recognition .sec-head h2 { margin-top: 15px !important; }
+  html body #recognition .rec-tabs { margin-bottom: 8px !important; }
 }
 /* About: Clients card bottom lines up with the last line of text */
 @media (min-width: 1100px) { html body #about .clients li { padding-top: 4px !important; padding-bottom: 4px !important; } }
 @media (min-width: 768px) and (max-width: 1099px) { html body #about .clients li { padding-top: 8px !important; padding-bottom: 8px !important; } }
 /* Experience: role cards scroll normally (no sticky stacking), so the gap stays constant */
 html body #experience ol.deck > li { position: relative !important; top: auto !important; }
+/* Phone: Recognition as tabs, one panel at a time */
+@media (max-width: 767px) { #recognition .three.m-tabbed > .panel:not(.m-on) { display: none !important; } }
+/* Tablets (laptop layout scaled to fit): readable small labels */
+.tab-scaled .now-tag, .tab-scaled .live, .tab-scaled .zoom, .tab-scaled .fmt-groups .fh, .tab-scaled footer .f-bottom .fb-l, .tab-scaled footer .f-bottom .fb-r { font-size: 13px !important; }
+/* Phone and tablet: bigger tap areas without moving anything (padding offset by negative margin) */
+@media (max-width: 767px) {
+  .cn a { padding-block: 7px; }
+  #recognition a.extra, #contact .email-card a.v, footer .f-head a.f-name { padding-block: 6px; margin-block: -6px; }
+  #contact .copy-btn { padding-block: 9px !important; margin-block: -2px; }
+  footer .f-head a.f-in { padding: 6px; margin: -6px; box-sizing: content-box; }
+}
+.tab-scaled .cn a { padding-block: 7px; }
+.tab-scaled #contact .email-card a.v, .tab-scaled footer .f-head a.f-name { padding-block: 6px; margin-block: -6px; }
+.tab-scaled #contact .copy-btn { padding-block: 9px !important; margin-block: -2px; }
+.tab-scaled footer .f-head a.f-in { padding: 6px; margin: -6px; box-sizing: content-box; }
+.tab-scaled footer .f-col a { padding-block: 5px; margin-block: -5px; }
+@media (max-width: 767px) { html body #contact .email-card .row .copy-btn { padding-top: 10px !important; padding-bottom: 10px !important; margin-top: -2px !important; margin-bottom: -2px !important; } }
+.tab-scaled body #contact .email-card .row .copy-btn { padding-top: 10px !important; padding-bottom: 10px !important; margin-top: -2px !important; margin-bottom: -2px !important; }
+@media (max-width: 767px) { #recognition .panel:first-child .rows li > span.who { display: block !important; } #recognition .rows li > span.edu-when { display: inline !important; } #recognition .rows li > span.edu-when::before { content: none !important; } }
