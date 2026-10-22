@@ -13,3 +13,15 @@
   set();
   window.addEventListener('orientationchange', function () { setTimeout(set, 60); });
 })();
+
+/* After a refresh, start at the top of the page (Back from a blog post still returns to where you were) */
+(function () {
+  try {
+    var nav = performance.getEntriesByType && performance.getEntriesByType('navigation')[0];
+    var reload = nav ? nav.type === 'reload' : (performance.navigation && performance.navigation.type === 1);
+    if (!reload || location.hash) return;
+    if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
+    window.scrollTo(0, 0);
+    window.addEventListener('load', function () { window.scrollTo(0, 0); });
+  } catch (e) {}
+})();
