@@ -4958,3 +4958,5 @@ html body #experience ol.deck > li { min-height: 0 !important; height: auto !imp
 html body .hero .chip.has-short .cl { display: none !important; }
 html body .hero .chip.has-short .cs { display: inline !important; }
 @media (max-width: 374px) { html body .hero .chip { padding-left: 9px !important; padding-right: 9px !important; font-size: 13.5px !important; } html body .hero .chip-row { gap: 6px !important; } }
+/* Skills box: a hidden tab panel stays hidden on every screen (fixes Training tracks showing under other tabs on phone) */
+html body #training .skillbox .sk-panel[hidden], html body #training .skillbox .topics[hidden] { display: none !important; }
