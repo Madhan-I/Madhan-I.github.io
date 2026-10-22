@@ -4943,3 +4943,10 @@ html body #experience ol.deck > li { min-height: 0 !important; height: auto !imp
   html body #certifications.all-open .cert-groups.m-tabbed > .cg { display: block !important; }
   html body #certifications.all-open .cert-groups.m-tabbed > .cg + .cg { margin-top: 12px; }
 }
+/* Phone: hero buttons side by side on one line */
+@media (max-width: 767px) {
+  html body .hero .ctas { display: grid !important; grid-template-columns: 1fr 1fr !important; gap: 8px !important; }
+  html body .hero .ctas .btn { justify-content: center !important; gap: 6px !important; padding: 13px 8px !important; font-size: 13.5px !important; white-space: nowrap; min-width: 0; }
+  html body .hero .ctas .btn .ic { width: 15px; height: 15px; flex: none; }
+}
+@media (max-width: 359px) { html body .hero .ctas .btn .ic { display: none; } }
