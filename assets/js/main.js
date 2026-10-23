@@ -190,7 +190,18 @@ document.querySelectorAll('.copy-btn').forEach(function (b) {
 (function () {
   var box = document.getElementById('earlier'); if (!box) return;
   var items = [].slice.call(box.querySelectorAll('details.early')), btn = box.querySelector('.e-all'), all = false;
-  /* Opened roles stay open; each one closes only when clicked again */
+  /* Opened roles stay open; each one closes only when clicked again.
+     When every earlier role is open (one by one or all at once), the button reads "Hide earlier roles" and its amber wave stops for good. */
+  function sync() {
+    var every = items.every(function (d) { return d.open; });
+    if (every) btn.classList.add('used');
+    if (every !== all) {
+      all = every;
+      btn.textContent = all ? 'Hide earlier roles' : 'Show all earlier roles';
+      btn.setAttribute('aria-expanded', all ? 'true' : 'false');
+    }
+  }
+  items.forEach(function (d) { d.addEventListener('toggle', sync); });
   btn.addEventListener('click', function () {
     box.dataset.bulk = Date.now();
     all = !all;
