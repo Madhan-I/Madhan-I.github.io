@@ -4999,3 +4999,9 @@ html body .hero-bg{background:radial-gradient(600px 400px at 85% 20%,rgba(79,139
 html body .metrics-band{background:linear-gradient(135deg,#0B2545 0%,#13315C 60%,#1D4E9E 100%) !important}
 html body #feedback.tone-navy,html body #training.tone-navy{background:linear-gradient(160deg,#0B2545 0%,#123A6B 100%) !important}
 html body #contact.tone-navy{background:linear-gradient(135deg,#0B2545 0%,#13315C 55%,#1D5FD1 130%) !important}
+/* Client quote strip under the numbers band */
+.proof-strip{background:#F8FAFE;border-bottom:1px solid #E3EAF5;padding:32px 0}
+.proof-strip blockquote{margin:0 auto;max-width:860px;text-align:center}
+.proof-strip p{font-size:clamp(18px,2.2vw,22px);line-height:1.5;color:#0B2545;font-style:italic;margin:0 0 10px}
+.proof-strip footer{font-size:14px;color:#4A5B78}
+.proof-strip footer b{color:#1D5FD1}
