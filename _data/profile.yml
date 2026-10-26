@@ -101,8 +101,8 @@ experience:
       - Steered a hybrid AI and RAG compliance engine to production, lowering false alarms in customer onboarding from 30% to 10–15%.
       - Delivered 100% of planned work every planning cycle (ART predictability) through disciplined PI planning.
       - Maintain a High health rating across the products, with under 5% sprint variance.
-      - Reduced technical debt and strengthened security by moving 15 core services to AKS and 7 microservices to Gradle.
-      - Govern a three-product portfolio for a global insurer (Core API, Customer Engagement and Compliance AI) end to end, reporting progress, risks and roadmap decisions to executive leadership.
+      - Reduced technical debt and strengthened platform security, moving 15 core services to AKS and 7 microservices to Gradle.
+      - Govern a three-product portfolio (Core API, Customer Engagement and Compliance AI) end to end, reporting progress, risks and roadmap decisions to executive leadership.
   - dates: Sep 2022 – Aug 2025
     title: Technical Product Manager / Release Train Engineer
     sector: "Life insurance · Platform modernization"
