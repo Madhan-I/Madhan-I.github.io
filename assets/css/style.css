@@ -5037,3 +5037,12 @@ details.creds[open]>summary span::after{content:"\2212"}
 .proof-grid li{flex:0 0 84%;scroll-snap-align:start}
 .proof-strip .proof-who::after{content:"  ·  swipe for more \2192";color:#94570A;font-weight:600}
 }
+/* Skip link for keyboard users */
+.skip-link{position:absolute;left:-9999px;top:8px;z-index:1000;background:#0B2545;color:#fff;padding:10px 16px;border-radius:8px;font-weight:700}
+.skip-link:focus{left:16px}
+/* Phones: recent roles show 3 bullets until "Show more" */
+.job-more{display:none}
+@media (max-width:760px){
+.job.trim:not(.open-all) .job-body ul>li:nth-child(n+4){display:none}
+.job-more{display:inline-block;margin-top:8px;font-weight:700;font-size:14px;color:#1D5FD1;background:#fff;border:1px solid #E1E7F0;border-radius:999px;padding:8px 14px;cursor:pointer}
+}
