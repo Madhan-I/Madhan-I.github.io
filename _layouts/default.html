@@ -20,8 +20,10 @@
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}?v={{ site.time | date: '%s' }}">
   <link rel="stylesheet" href="{{ '/assets/css/theme.css' | relative_url }}?v={{ site.time | date: '%s' }}">
   {% feed_meta %}
+  {% if page.url == "/" %}<script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Madhan Irulandi","url":"{{ site.url }}","image":"{{ site.url }}/assets/images/madhan-headshot-bright.jpg","jobTitle":"Senior Release Train Engineer & Technical Program Manager","worksFor":{"@type":"Organization","name":"Atos"},"address":{"@type":"PostalAddress","addressLocality":"Chennai","addressCountry":"IN"},"sameAs":["{{ site.data.profile.linkedin }}"],"knowsAbout":["SAFe","Release Train Engineering","PI Planning","Portfolio governance","Agile coaching","Microsoft Azure","Generative AI","Retrieval-augmented generation"],"hasCredential":{"@type":"EducationalOccupationalCredential","name":"Microsoft Certified Trainer"}}</script>{% endif %}
 </head>
 <body{% if site.data.theme.animate_hero == false %} class="no-motion"{% endif %}>
+  <a class="skip-link" href="#top">Skip to content</a>
   {% include icons.html %}
   {% include nav.html %}
   <main id="top">
