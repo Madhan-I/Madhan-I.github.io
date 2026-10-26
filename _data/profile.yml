@@ -662,9 +662,7 @@ contact_title: Hiring for a release train or
 contact_highlight: AI program?
 contact_intro: Pick what fits, or email me directly.
 # Each line below is shown on its own line.
-contact_note:
-  - "I've already worked three years on-site in Boston for John Hancock."
-
+contact_note: []
 # Client feedback (no names, no client name; exact words from the client's email)
 feedback_title: In my client's words
 feedback:
