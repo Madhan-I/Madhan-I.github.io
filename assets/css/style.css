@@ -5030,3 +5030,10 @@ details.creds>summary span::after{content:"+";display:inline-flex;align-items:ce
 details.creds[open]>summary span::after{content:"\2212"}
 .proof-strip .proof-label,details.creds>summary small{color:#94570A}
 #experience .when{color:#174EA6}
+/* Phone: client quotes become a swipeable row (next card peeks in as the cue) */
+@media (max-width:760px){
+.proof-grid{display:flex;grid-template-columns:none;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;scrollbar-width:none;margin:0 -16px;padding:2px 16px 8px;scroll-padding:0 16px}
+.proof-grid::-webkit-scrollbar{display:none}
+.proof-grid li{flex:0 0 84%;scroll-snap-align:start}
+.proof-strip .proof-who::after{content:"  ·  swipe for more \2192";color:#94570A;font-weight:600}
+}
