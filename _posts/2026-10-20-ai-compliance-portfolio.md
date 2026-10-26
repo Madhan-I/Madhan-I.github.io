@@ -2,8 +2,8 @@
 period: "Sep 2025 – Present"
 title: "Running a portfolio where AI has to be right"
 teaser: "Keeping AI compliance right at portfolio scale"
-summary: How we cut onboarding false positives from 30% to 10–15% at 93–100% portfolio predictability.
-outcome: "Onboarding false positives cut from 30% to 10–15%, with a multi-million-dollar portfolio held at 93–100% predictability."
+summary: How we cut onboarding false positives from 30% to 10–15% at 95%+ average portfolio predictability.
+outcome: "Onboarding false positives cut from 30% to 10–15%, with a multi-million-dollar portfolio held at 95%+ average predictability."
 hashtags: [AIGovernance, ComplianceAI, PortfolioManagement, SAFe, AKS]
 tags: [AI, Delivery]
 redirect_from:
@@ -34,7 +34,7 @@ Any one of those can derail a quarter. What kept them on track was disciplined P
 
 - Onboarding false positives fell from **30% to 10–15%**, cutting compliance review cost.
 - The portfolio held a sustained **High** health rating, with **under 5% sprint variance**.
-- We delivered **93–100% of planned work every planning cycle** (ART predictability and story-point completion) on multi-million-dollar roadmaps.
+- We averaged **95%+ of planned work delivered each planning cycle** (ART predictability and story-point completion) on multi-million-dollar roadmaps.
 
 ## What I took from it
 
