@@ -4999,9 +4999,22 @@ html body .hero-bg{background:radial-gradient(600px 400px at 85% 20%,rgba(79,139
 html body .metrics-band{background:linear-gradient(135deg,#0B2545 0%,#13315C 60%,#1D4E9E 100%) !important}
 html body #feedback.tone-navy,html body #training.tone-navy{background:linear-gradient(160deg,#0B2545 0%,#123A6B 100%) !important}
 html body #contact.tone-navy{background:linear-gradient(135deg,#0B2545 0%,#13315C 55%,#1D5FD1 130%) !important}
-/* Client quote strip under the numbers band */
-.proof-strip{background:#F8FAFE;border-bottom:1px solid #E3EAF5;padding:32px 0}
-.proof-strip blockquote{margin:0 auto;max-width:860px;text-align:center}
-.proof-strip p{font-size:clamp(18px,2.2vw,22px);line-height:1.5;color:#0B2545;font-style:italic;margin:0 0 10px}
-.proof-strip footer{font-size:14px;color:#4A5B78}
-.proof-strip footer b{color:#1D5FD1}
+/* Client quotes under the numbers band: three compact cards */
+.proof-strip{background:#F8FAFE;border-bottom:1px solid #E3EAF5;padding:36px 0}
+.proof-strip .proof-label{font-weight:700;font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:#B86E0A;margin:0 0 16px;text-align:center}
+.proof-grid{list-style:none;margin:0;padding:0;display:grid;gap:16px;grid-template-columns:repeat(3,minmax(0,1fr))}
+.proof-grid li{background:#fff;border:1px solid #E3EAF5;border-top:3px solid #F2A541;border-radius:12px;padding:18px 20px}
+.proof-grid blockquote{margin:0;font-size:15px;line-height:1.55;color:#0B2545;font-style:italic;hyphens:none;-webkit-hyphens:none;text-align:left}
+.proof-strip .proof-who{text-align:center;margin:14px 0 0;font-size:14px;color:#4A5B78}
+.proof-strip .proof-who b{color:#1D5FD1}
+@media (max-width:900px){.proof-grid{grid-template-columns:1fr;gap:12px}.proof-grid li{padding:14px 16px}}
+/* Credentials collapsed behind one button */
+details.creds>summary{list-style:none;cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:8px;padding:32px 16px;background:#F8FAFE;border-top:1px solid #E3EAF5;border-bottom:1px solid #E3EAF5;text-align:center}
+details.creds>summary::-webkit-details-marker{display:none}
+details.creds>summary span{display:inline-block;font-weight:700;font-size:16px;color:#fff;background:#0B2545;padding:12px 24px;border-radius:999px}
+details.creds>summary span::after{content:" +"}
+details.creds[open]>summary span::after{content:" \2212"}
+details.creds>summary small{font-size:13px;color:#4A5B78}
+details.creds>summary:hover span{background:#1D5FD1}
+/* Faster hero entrance */
+@media (prefers-reduced-motion:no-preference){html body:not(.no-motion) .hero .hire-for,html body:not(.no-motion) .hero .portrait,html body:not(.no-motion) .hero-copy>*{animation-duration:.25s !important;animation-delay:0s !important}}
