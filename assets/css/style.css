@@ -5065,4 +5065,4 @@ details.creds[open]>summary span::after{content:"\2212"}
 /* Colour direction C: warm About section, amber thread through About and Experience */
 html body #about{background:linear-gradient(160deg,#FFF6E6 0%,#FDEBD0 100%) !important}
 #about .sec-head h2::after,#experience .sec-head h2::after{content:"";display:block;width:56px;height:4px;border-radius:2px;background:#F2A541;margin-top:14px}
-html body #experience li.job::before{background:#F2A541 !important}
+html body #experience li.job.now::before{background:#F2A541 !important}
