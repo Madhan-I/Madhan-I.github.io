@@ -12,7 +12,7 @@
 name_first: Madhan
 name_last: Irulandi
 location: Chennai, India
-status: Open to roles worldwide · Ready to relocate
+status: ""
 
 # Big line under your name. Text inside highlight is shown in orange.
 headline: Senior Release Train Engineer & Technical Program Manager
@@ -663,7 +663,6 @@ contact_highlight: AI program?
 contact_intro: Pick what fits, or email me directly.
 # Each line below is shown on its own line.
 contact_note:
-  - "Open to on-site, hybrid or remote roles, and ready to relocate."
   - "I've already worked three years on-site in Boston for John Hancock."
 
 # Client feedback (no names, no client name; exact words from the client's email)
