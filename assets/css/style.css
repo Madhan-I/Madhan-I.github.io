@@ -4992,3 +4992,10 @@ html body #about .about-side { position: static !important; top: auto !important
    /* Tablet fixes: stop hero text clipping, use menu button up to 900px */
 @media (max-width:860px){.hero.has-photo{grid-template-columns:minmax(0,1fr)}.hero-copy .role-1{white-space:normal}}
 @media (min-width:761px) and (max-width:900px){.menu-btn{display:inline-flex}nav .wrap{position:relative}nav ul#site-menu{display:none;position:absolute;top:calc(100% + 1px);left:0;right:0;flex-direction:column;gap:2px;background:#fff;border-bottom:1px solid var(--line);box-shadow:0 12px 24px rgba(11,37,69,.1);padding:8px 16px 14px}nav.open ul#site-menu{display:flex}nav ul#site-menu a{font-size:16px;padding:12px 10px;border-radius:8px;color:var(--navy)}}
+
+   /* Polish pass: left-aligned text, softer hero, depth on navy sections */
+html body .hero-copy .lede,html body .metric p,html body .copy p,html body .m-cut li,html body .job-body li,html body p.big{text-align:left !important;text-justify:auto !important}
+html body .hero-bg{background:radial-gradient(600px 400px at 85% 20%,rgba(79,139,234,.10),transparent 70%),linear-gradient(135deg,#F8FAFE 0%,#EAF1FD 55%,#FFF6E6 100%) !important}
+html body .metrics-band{background:linear-gradient(135deg,#0B2545 0%,#13315C 60%,#1D4E9E 100%) !important}
+html body #feedback.tone-navy,html body #training.tone-navy{background:linear-gradient(160deg,#0B2545 0%,#123A6B 100%) !important}
+html body #contact.tone-navy{background:linear-gradient(135deg,#0B2545 0%,#13315C 55%,#1D5FD1 130%) !important}
