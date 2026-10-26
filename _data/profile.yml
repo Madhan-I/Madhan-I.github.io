@@ -111,6 +111,7 @@ experience:
     client: John Hancock
     detail: Boston (On-site)
     project: "AWD to SS&C Chorus BPM modernization"
+    case_study: /case-studies/john-hancock/
     points:
       - "Restarted a multi-million-dollar platform program stalled for two years by COVID, rebuilding the release process and clearing 400+ backlog tickets in 9 months."
       - "Brought effort estimates to within 10% of actual work in the first quarter by introducing structured capacity planning (Function Point analysis), trimming overtime and idle time."
@@ -637,7 +638,8 @@ contact_title: Hiring for a release train or
 contact_highlight: AI program?
 contact_intro: Pick what fits, or email me directly.
 # Each line below is shown on its own line.
-contact_note: []
+contact_note:
+  - "I help with: Agile Release Train setup and resets · PI planning and portfolio governance · Taking AI and RAG products to production · Corporate training (SAFe, Scrum, Azure)"
 # Client feedback (no names, no client name; exact words from the client's email)
 feedback_highlight: "Overall, your professionalism, organizational skills, and commitment to agile excellence make a real difference to our delivery and team confidence."
 feedback_title: In my client's words
