@@ -461,3 +461,13 @@ document.querySelectorAll('.copy-btn').forEach(function (b) {
   openFor(location.hash);
   if (location.hash && d.open) { var el = document.querySelector(location.hash); if (el) el.scrollIntoView(); }
 })();
+/* Phones: recent roles show 3 bullets, with a button for the rest (CSS hides extras only under 760px) */
+(function () {
+  document.querySelectorAll('.deck > li.job').forEach(function (job) {
+    var items = job.querySelectorAll('.job-body ul > li'); if (items.length <= 3) return;
+    var n = items.length - 3, ul = items[0].parentElement, b = document.createElement('button');
+    b.type = 'button'; b.className = 'job-more'; b.setAttribute('aria-expanded', 'false'); b.textContent = 'Show ' + n + ' more';
+    ul.insertAdjacentElement('afterend', b); job.classList.add('trim');
+    b.addEventListener('click', function () { var o = job.classList.toggle('open-all'); b.setAttribute('aria-expanded', o ? 'true' : 'false'); b.textContent = o ? 'Show less' : 'Show ' + n + ' more'; });
+  });
+})();
