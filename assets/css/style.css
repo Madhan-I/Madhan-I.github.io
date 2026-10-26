@@ -4748,7 +4748,7 @@ a.more:hover {
   html body #feedback .sec-head { margin-bottom: 19px !important; }
   html body #feedback .fb-foot { margin-top: 19px !important; }
   html body #feedback .fb-note { margin-top: -1px !important; }
-  html body #feedback { padding-bottom: 27px !important; }
+  html body #feedback { padding-bottom: 29px !important; }
   html body #certifications { padding-top: 25px !important; }
   html body #certifications .sec-head { margin-bottom: 21px !important; }
   html body #certifications .cert-toggle-row { margin-top: 20px !important; }
@@ -4800,7 +4800,7 @@ a.more:hover {
   html body #feedback .sec-head h2 { margin-top: 13px !important; }
   html body #feedback .sec-head { margin-bottom: 19px !important; }
   html body #feedback .fb-foot { margin-top: 19px !important; }
-  html body #feedback { padding-bottom: 27px !important; }
+  html body #feedback { padding-bottom: 30px !important; }
   html body #certifications { padding-top: 25px !important; }
   html body #certifications .sec-head h2 { margin-top: 13px !important; }
   html body #certifications .sec-head { margin-bottom: 21px !important; }
@@ -4855,44 +4855,44 @@ a.more:hover {
   html body #feedback .fb-quotes { row-gap: 20px !important; }
   html body #feedback .fb-foot { margin-top: 19px !important; }
   html body #feedback .fb-note { margin-top: 3px !important; }
-  html body #feedback { padding-bottom: 25px !important; }
+  html body #feedback { padding-bottom: 30px !important; }
   html body #certifications { padding-top: 25px !important; }
-  html body #certifications .sec-head { margin-bottom: 23px !important; }
+  html body #certifications .sec-head { margin-bottom: 22px !important; }
   html body #certifications .cert-toggle-row { margin-top: 20px !important; }
   html body #certifications .verify { margin-top: 20px !important; }
   html body #certifications { padding-bottom: 30px !important; }
   html body #training { padding-top: 25px !important; }
-  html body #training .sec-head h2 { margin-top: 14px !important; }
-  html body #training .sec-head { margin-bottom: 14px !important; }
-  html body #training p.train-note { margin-top: 17px !important; }
-  html body #training .train-formats { margin-top: 22px !important; }
+  html body #training .sec-head h2 { margin-top: 15px !important; }
+  html body #training .sec-head { margin-bottom: 15px !important; }
+  html body #training p.train-note { margin-top: 16px !important; }
+  html body #training .train-formats { margin-top: 21px !important; }
   html body #training .train-formats h4 { margin-bottom: 6px !important; }
   html body #training .skillbox { margin-top: 2px !important; }
   html body #training .speak.talks:not(.duo) { margin-top: 28px !important; }
-  html body #training .speak.talks:not(.duo) h3 { margin-bottom: 14px !important; }
-  html body #training .speak.duo h3 { margin-bottom: 14px !important; }
+  html body #training .speak.talks:not(.duo) h3 { margin-bottom: 13px !important; }
+  html body #training .speak.duo h3 { margin-bottom: 13px !important; }
   html body #training { padding-bottom: 30px !important; }
   html body #recognition { padding-top: 25px !important; }
-  html body #recognition .sec-head { margin-bottom: 23px !important; }
+  html body #recognition .sec-head { margin-bottom: 22px !important; }
   html body #recognition { padding-bottom: 30px !important; }
   html body #writing { padding-top: 25px !important; }
-  html body #writing .sec-head h2 { margin-top: 14px !important; }
-  html body #writing .sec-head { margin-bottom: -1px !important; }
+  html body #writing .sec-head h2 { margin-top: 15px !important; }
+  html body #writing .sec-head { margin-bottom: -2px !important; }
   html body #writing { padding-bottom: 30px !important; }
   html body #contact { padding-top: 25px !important; }
-  html body #contact h2 { margin-top: 15px !important; }
+  html body #contact h2 { margin-top: 14px !important; }
   html body #contact .lede + .note { margin-top: 0px !important; }
   html body #contact .contact-bottom { margin-top: 12px !important; }
   html body #contact { padding-bottom: 30px !important; }
   html body footer .wrap.f-grid.f-grid { padding-top: 19px !important; }
   html body .metrics-band .metric { padding-top: 29px !important; }
   html body .metrics-band .metric { padding-bottom: 25px !important; }
-  html body #recognition .sec-head h2 { margin-top: 14px !important; }
+  html body #recognition .sec-head h2 { margin-top: 15px !important; }
   html body #recognition .rec-tabs { margin-bottom: 8px !important; }
   html body #about .sec-head h2 { margin-top: 15px !important; }
   html body #experience .sec-head h2 { margin-top: 15px !important; }
   html body #feedback .sec-head h2 { margin-top: 15px !important; }
-  html body #certifications .sec-head h2 { margin-top: 15px !important; }
+  html body #certifications .sec-head h2 { margin-top: 14px !important; }
   html body #about .copy p:first-of-type:not(:last-child) { margin-bottom: 16px !important; }
   html body #contact .contact-bottom .email-card { margin-top: -8px !important; }
 }
