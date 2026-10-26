@@ -87,6 +87,7 @@ layout: default
           <h3>{{ job.title }}</h3>
           {% if job.client %}<p class="org has-client"><b class="client">{{ job.client }}</b>{% if job.project %}<span class="proj"><span class="sep"> · </span>{{ job.project }}</span>{% endif %}<span class="via"><b class="emp">{{ job.company }}</b> · {{ job.detail }}</span></p>{% else %}<p class="org has-client"><b class="client">{{ job.company }}</b>{% if job.project %}<span class="proj"><span class="sep"> · </span>{{ job.project }}</span>{% endif %}<span class="via">{{ job.detail }}</span></p>{% endif %}
           <ul>{% for pt in job.points %}<li>{{ pt }}</li>{% endfor %}</ul>
+          {% if job.case_study %}<a class="case-link" href="{{ job.case_study | relative_url }}">Read the case study →</a>{% endif %}
         </div>
         <svg class="job-art" aria-hidden="true"><use href="#i-{{ job.icon | default: 'route' }}"/></svg>
       {% endcapture %}{% if forloop.index <= nfull %}
