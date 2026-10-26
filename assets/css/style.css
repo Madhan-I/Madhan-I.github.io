@@ -4988,3 +4988,7 @@ html body #about .about-side { position: static !important; top: auto !important
   html body .skillbox .sk-chips ul.m-measure li { flex: 0 0 auto !important; }
 }
 #earlier { scroll-margin-top: 90px; }
+
+   /* Tablet fixes: stop hero text clipping, use menu button up to 900px */
+@media (max-width:860px){.hero.has-photo{grid-template-columns:minmax(0,1fr)}.hero-copy .role-1{white-space:normal}}
+@media (min-width:761px) and (max-width:900px){.menu-btn{display:inline-flex}nav .wrap{position:relative}nav ul#site-menu{display:none;position:absolute;top:calc(100% + 1px);left:0;right:0;flex-direction:column;gap:2px;background:#fff;border-bottom:1px solid var(--line);box-shadow:0 12px 24px rgba(11,37,69,.1);padding:8px 16px 14px}nav.open ul#site-menu{display:flex}nav ul#site-menu a{font-size:16px;padding:12px 10px;border-radius:8px;color:var(--navy)}}
