@@ -5040,3 +5040,25 @@ details.creds[open]>summary span::after{content:"\2212"}
 /* Skip link for keyboard users */
 .skip-link{position:absolute;left:-9999px;top:8px;z-index:1000;background:#0B2545;color:#fff;padding:10px 16px;border-radius:8px;font-weight:700}
 .skip-link:focus{left:16px}
+/* Case study link on the John Hancock role */
+.case-link{display:inline-block;margin-top:10px;font-weight:700;font-size:14px;color:#1D5FD1;text-decoration:none;border-bottom:2px solid #F2A541;padding-bottom:2px}
+.case-link:hover{color:#0B2545}
+/* Case study page */
+.case .wrap{max-width:760px}
+.case{padding-top:110px}
+.case-back{margin:0 0 18px;font-size:14px}
+.case-back a{color:#1D5FD1;text-decoration:none;font-weight:600}
+.case h1{font-size:clamp(32px,5vw,48px);line-height:1.1;color:#0B2545;margin:10px 0 8px}
+.case-meta{color:#4A5B78;font-size:15px;margin:0 0 28px}
+.case h2{font-size:22px;color:#0B2545;margin:34px 0 10px}
+.case p,.case-list li{font-size:17px;line-height:1.65;color:#22324A}
+.case-stats{list-style:none;margin:0 0 10px;padding:22px;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;background:linear-gradient(135deg,#0B2545 0%,#13315C 60%,#1D4E9E 100%);border-radius:14px}
+.case-stats li{display:flex;flex-direction:column;gap:4px}
+.case-stats b{font-size:30px;color:#fff;line-height:1}
+.case-stats span{font-size:13px;line-height:1.4;color:#C9D6EA}
+.case-list{padding-left:20px}
+.case-lesson{background:#F8FAFE;border-left:4px solid #F2A541;border-radius:8px;padding:16px 18px}
+.case-cta{margin:34px 0 0}
+.case-cta .btn{display:inline-block;background:#0B2545;color:#fff;font-weight:700;padding:13px 22px;border-radius:999px;text-decoration:none}
+.case-cta .btn:hover{background:#1D5FD1}
+@media (max-width:760px){.case{padding-top:90px}.case-stats{grid-template-columns:repeat(2,minmax(0,1fr))}.case p,.case-list li{font-size:16px}}
