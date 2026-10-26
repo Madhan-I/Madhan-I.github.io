@@ -72,7 +72,7 @@ about_title: "Delivery leader. Engineer by training. Teacher by habit."
 about:
   - "Leaders bring me in when a program is too important to slip, whether it's a frozen platform, an AI product heading to production or a team picking up new technology."
   - "At John Hancock, a platform COVID had frozen for two years had 400+ tickets waiting. I fixed how work moved before touching the backlog, starting with release governance and Function Point capacity planning, and the backlog cleared in nine months."
-  - "Today at Atos I run release governance for Manulife's Core API, Customer Engagement and Compliance AI products. We took a hybrid AI and RAG compliance engine into production, cutting onboarding false positives from 30% to 10–15%, while holding 100% ART predictability."
+  - "Today at Atos I run release governance for a global insurer's Core API, Customer Engagement and Compliance AI products. We took a hybrid AI and RAG compliance engine into production, cutting onboarding false positives from 30% to 10–15%, while holding 100% ART predictability."
   - "I've also been a Microsoft Certified Trainer since 2020, with 3,000+ people trained and 75+ guest lectures. Teaching showed me how to explain complex choices in plain words, so leaders can make decisions and engineers know what to do next."
 
 clients:
@@ -93,7 +93,7 @@ experience:
     sector: "Financial services · Wealth & insurance"
     icon: chart
     company: Atos
-    client: Manulife
+    client: Global insurer
     detail: Hybrid
     project: "Core API, Customer Engagement & Compliance AI"
     current: true
@@ -101,8 +101,8 @@ experience:
       - Steered a hybrid AI and RAG compliance engine to production, lowering false alarms in customer onboarding from 30% to 10–15%.
       - Delivered 100% of planned work every planning cycle (ART predictability) through disciplined PI planning.
       - Maintain a High health rating across the products, with under 5% sprint variance.
-      - Reduced technical debt and strengthened security by moving 15 core services to AKS and 7 microservices to Gradle.
-      - Govern a three-product portfolio for Manulife (Core API, Customer Engagement and Compliance AI) end to end, reporting progress, risks and roadmap decisions to executive leadership.
+      - Reduced technical debt and strengthened platform security, moving 15 core services to AKS and 7 microservices to Gradle.
+      - Govern a three-product portfolio (Core API, Customer Engagement and Compliance AI) end to end, reporting progress, risks and roadmap decisions to executive leadership.
   - dates: Sep 2022 – Aug 2025
     title: Technical Product Manager / Release Train Engineer
     sector: "Life insurance · Platform modernization"

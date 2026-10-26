@@ -6,9 +6,11 @@ summary: How we cut onboarding false positives from 30% to 10–15% at 100% port
 outcome: "Onboarding false positives cut from 30% to 10–15%, with a multi-million-dollar portfolio held at 100% predictability."
 hashtags: [AIGovernance, ComplianceAI, PortfolioManagement, SAFe, AKS]
 tags: [AI, Delivery]
+redirect_from:
+  - /blog/2026/10/ai-compliance-portfolio-manulife/
 ---
 
-In September 2025 I took over end-to-end governance for Manulife's Core API, Customer Engagement and Compliance AI products, reporting portfolio health and roadmap decisions directly to executive leadership.
+In September 2025 I took over end-to-end governance for a global insurer's Core API, Customer Engagement and Compliance AI products, reporting portfolio health and roadmap decisions directly to executive leadership.
 
 One of those products is a compliance engine, and in compliance every wrong answer turns into manual work for someone else.
 
