@@ -51,6 +51,664 @@ expertise_rows:
 # The four big numbers under the hero. Keep it to four.
 metrics:
   - tag: Predictability
+    number: "93"
+    suffix: "–100%"
+    text: ART predictability and story-point completion, across every PI in my current portfolio
+  - tag: AI in production
+    number: "50"
+    suffix: "%+"
+    text: fewer onboarding false positives, down from 30% to 10–15%, with a hybrid AI and RAG compliance engine in production
+  - tag: Recovery
+    number: "400"
+    suffix: "+"
+    text: backlog tickets cleared in nine months, restarting a platform COVID had frozen for two years
+  - tag: People
+    number: "3,000"
+    suffix: "+"
+    text: people trained since 2020, with 75+ guest lectures delivered and 1,000+ professionals mentored
+
+# Use | to start a new line in the heading.
+about_title: "Delivery leader. Engineer by training. Teacher by habit."
+about:
+  - "Leaders bring me in when a program is too important to slip, whether it's a frozen platform, an AI product heading to production or a team picking up new technology."
+  - "At John Hancock, a platform COVID had frozen for two years had 400+ tickets waiting. I fixed how work moved before touching the backlog, starting with release governance and Function Point capacity planning, and the backlog cleared in nine months."
+  - "Today at Atos I run release governance for a global insurer's Core API, Customer Engagement and Compliance AI products. We took a hybrid AI and RAG compliance engine into production, cutting onboarding false positives from 30% to 10–15%, while holding 93–100% ART predictability."
+  - "I've also been a Microsoft Certified Trainer since 2020, with 3,000+ people trained and 75+ guest lectures. Teaching showed me how to explain complex choices in plain words, so leaders can make decisions and engineers know what to do next."
+
+clients:
+  - Walmart
+  - MetLife
+  - Manulife
+  - Allstate
+  - Anthem / Elevance
+  - John Hancock
+  - TruStage
+
+# Newest first. Set current: true on the job you hold now.
+# Titles match LinkedIn exactly. Change both together.
+experience_full: 2
+experience:
+  - dates: Sep 2025 – Present
+    title: Senior Release Train Engineer / Program Manager
+    sector: "Financial services · Wealth & insurance"
+    icon: chart
+    company: Atos
+    client: Global insurer
+    detail: Hybrid
+    project: "Core API, Customer Engagement & Compliance AI"
+    current: true
+    points:
+      - Steered a hybrid AI and RAG compliance engine to production, lowering false alarms in customer onboarding from 30% to 10–15%.
+      - Delivered 93–100% of planned work every planning cycle (ART predictability) through disciplined PI planning.
+      - Maintain a High health rating across the products, with under 5% sprint variance.
+      - Reduced technical debt and strengthened platform security, moving 15 core services to AKS and 7 microservices to Gradle.
+      - Govern a three-product portfolio (Core API, Customer Engagement and Compliance AI) end to end, reporting progress, risks and roadmap decisions to executive leadership.
+  - dates: Sep 2022 – Aug 2025
+    title: Technical Product Manager / Release Train Engineer
+    sector: "Life insurance · Platform modernization"
+    icon: shield
+    company: Atos
+    client: John Hancock
+    detail: Boston (On-site)
+    project: "AWD to SS&C Chorus BPM modernization"
+    points:
+      - "Restarted a multi-million-dollar platform program stalled for two years by COVID, rebuilding the release process and clearing 400+ backlog tickets in 9 months."
+      - "Brought effort estimates to within 10% of actual work in the first quarter by introducing structured capacity planning (Function Point analysis), trimming overtime and idle time."
+      - "Ran a portfolio of 5 modernization initiatives across 20+ business divisions, taking every one live through coordinated upgrades."
+      - "Delivered the AWD workflow platform's first upgrades since its 2019 release, finishing most of the work by Q2 2023, within a year of taking over."
+      - "Moved all my teams off AWD's legacy EnCorr and Viewstation desktops onto SS&C Chorus BPM, its current generation, before handing over in Aug 2025."
+  - dates: Sep 2020 – Aug 2022
+    title: Senior Scrum Master / Agile Project Manager
+    sector: "Insurance · Customer communications"
+    icon: mail
+    company: Atos
+    client: Allstate
+    detail: Hybrid
+    project: "Customer communications platform"
+    points:
+      - "Reached 20M+ Allstate and 400K Encompass Insurance policyholders with customer communications by deploying 750+ document templates."
+      - "Moved production deployments from monthly to near-weekly by clearing blockers as the main escalation point between engineering and client executives."
+      - "Cut program cost 25% by streamlining the SDLC, without hiring."
+      - "Raised team velocity 30% through hands-on Agile coaching."
+  - dates: Jan 2020 – Aug 2020
+    title: Scrum Master / Agile Delivery Lead
+    sector: "Financial services · Credit unions"
+    icon: bank
+    company: Syntel
+    client: TruStage
+    detail: Acquired by Atos
+    project: "xPression document project"
+    points:
+      - "Stood up a new team and ramped it to full speed within two months, completing half of the work on the xPression project for TruStage (formerly CUNA Mutual Group) with a third of the existing vendor's headcount."
+      - "Shipped every production release defect-free by building a layered automated test framework for regression, smoke and schema checks."
+      - "Shortened project schedules 35% by mentoring on-site and offshore engineers and running sprint retrospectives."
+      - "Owned 2,000+ document requests from design to go-live."
+  - dates: Jul 2017 – Jan 2020
+    title: Technology Lead / Senior Analyst
+    sector: "Insurance · Document platform migration"
+    icon: doc
+    company: Cognizant
+    client: MetLife
+    detail: Chennai
+    project: "Publisher to xPression migration"
+    points:
+      - "Spearheaded MetLife's move from a legacy publisher to OpenText xPression, migrating 4,500+ policy documents and freeing up 2,000 engineering hours a quarter."
+      - "Ensured every migrated asset went live without a single defect by designing test cases with QA."
+      - "Earned a Certificate of Excellence jointly from MetLife and Cognizant (May 2019) for the migration."
+      - "Standardized 500+ document applications, shrinking annual remediation costs."
+  - dates: Jul 2015 – Jun 2017
+    title: Systems Engineer / Application Analyst
+    sector: "Healthcare · Health insurance"
+    icon: health
+    company: Cognizant
+    client: "Anthem Blue Cross Blue Shield (now Elevance Health)"
+    detail: Chennai
+    project: "Exstream & xPression template consolidation"
+    points:
+      - "Consolidated legacy layouts into dynamic master templates with OpenText Exstream and xPression, saving $300K a year in operating costs."
+      - "Decreased post-implementation defects 25% with automated pre-flight QA checklists and structured knowledge transfer."
+      - "Contributed to $400K in added annual revenue by strengthening client retention."
+      - "Sped up bug resolution 15% across a 60-developer cross-functional team."
+  - dates: Jul 2014 – Jun 2015
+    title: Production Support Engineer / Systems Analyst Trainee
+    sector: "Retail · Order management & item data"
+    icon: cart
+    company: Cognizant
+    client: Walmart
+    detail: Chennai
+    project: "Item File & Order Management System"
+    points:
+      - "Resolved 50+ critical P1/P2 outages and 120 high-priority incidents, beating SLA targets through peak retail periods."
+      - "Automated competitive (\"Comp\") reporting in the Order Management System, saving 25 hours of manual work a week (30% less effort)."
+      - "Replaced manual supplier inventory and sales reports (SVIST) with automated ones built with the DBA team, producing them 3× faster and cutting production maintenance costs 17% in five months."
+      - "Accelerated Walmart Item File incident resolution 20% in six months, strengthening production stability and data consistency."
+      - "Supported the mainframe Order Management System on z/OS, working in COBOL, JCL, DB2, CICS and VSAM, with batch jobs scheduled in CA-7."
+  - dates: Aug 2013 – May 2014
+    title: Senior Customer Care Representative
+    sector: "Healthcare · Revenue cycle & claims"
+    icon: headset
+    company: Dell Technologies
+    client: "Blue Cross Blue Shield, Humana, Aetna, Conifer Health Solutions"
+    detail: Chennai · Promoted from Customer Care Representative, Jan 2014
+    project: "Payment recovery, denial management & claims reconciliation"
+    points:
+      - "Headed a 15-member team as acting Operations Project Lead, recovering more than $150K a quarter by settling high-value payment discrepancies."
+      - "Added over $100K a month to collections by tightening denial management with Tableau and Salesforce tracking and root-cause procedures."
+      - "Curbed overdue payments 20% and prevented 35+ disputed claims a month, holding reimbursement turnaround at 5 days across 180+ high-value claims."
+      - "Cut call handling time 33% and lifted CSAT above 90% with a first-contact resolution framework and weekly QA audits, then handed the fixes to the permanent team as workflow playbooks."
+  - dates: Apr 2010 – Oct 2013
+    title: Client Relations Specialist
+    sector: "Sports & entertainment · VIP hospitality & guest relations"
+    icon: ticket
+    company: Wizcraft International Entertainment
+    detail: Freelance · Part-time, during and after my BE
+    project: "IPL VIP hospitality & live events"
+    points:
+      - "Ran a 40-strong hospitality crew on peak IPL match days at Chepauk for Chennai Super Kings, cutting VIP guest complaints by nearly a third."
+      - "Kept the IPL Season 5 opening ceremony, the 100 Years of Indian Cinema celebration and the Mirchi Music Awards South on schedule by coordinating artists, guests, stage crews and production through last-minute changes."
+  - dates: Jun 2009 – Jul 2012
+    title: Event Coordinator
+    sector: "Automotive & sports events · Promotions & hospitality"
+    icon: flag
+    company: Encompass Event Group
+    detail: Freelance · Part-time during my BE degree
+    project: "Formula 1, motorsport & cricket events"
+    points:
+      - "Drove citywide and regional promotions in Chennai for India's first Formula 1 Grand Prix in 2011, boosting ticket sales."
+      - "Built the hospitality plan for the Renault Duster media launch, covering multi-route test drives, the live vehicle reveal and secure press-kit distribution, winning formal appreciation from the client."
+      - "Oversaw the media center, podium ceremonies and hospitality suites for the JK Tyre Volkswagen Polo R Cup 2012, including live race telemetry for media partners and paddock access control."
+      - "Untangled vendor delays and scheduling clashes on Celebrity Cricket League match days for the Chennai Rhinos, drawing positive reviews and invitations to future events."
+
+training_title: I train teams to deliver, not just to pass exams
+training_intro_lead: "I've been a Microsoft Certified Trainer every year since 2020."
+training_intro_mid: "My workshops, technical sessions and team coaching"
+training_intro: "give delivery teams, Scrum Masters and engineers skills they can apply the next working day."
+training_note: "SAFe practice, Scrum, Microsoft Azure, AWS and Google Cloud for corporate teams, graduates and engineering colleges, online and in person."
+training_facts:
+  - number: "6 yrs"
+    label: Microsoft Certified Trainer
+skill_tabs:
+  - label: Leadership & tools
+    groups:
+      - name: Delivery leadership
+        items: [Release Train Engineering, PI Planning, Release planning, Program & Portfolio Governance, Stakeholder management, "Risk, Dependency & RAID", ART Sync & Scrum-of-Scrums, Change Management, Function Point capacity planning]
+      - name: Metrics & reporting
+        items: [Predictability, Executive reporting, Sprint variance, Data-driven decisions, Portfolio health dashboards, Flow efficiency, Velocity & burndown]
+      - name: Coaching & facilitation
+        items: [Agile Coaching, Mentoring Scrum Masters, Impediment removal, Onshore–offshore & cross-cultural teams, Servant leadership]
+      - name: Tools
+        items: [Jira, Azure DevOps, Confluence, ServiceNow, Power BI, MS Project, Tableau, Miro, Lucidchart, Visio]
+  - label: Technical
+    groups:
+      - name: AI & cloud
+        items: [Generative AI & RAG, Azure AI (AI-102), AKS / Kubernetes, Azure (AZ-104), Google Cloud, Istio / Service Mesh]
+      - name: DevOps & APIs
+        items: [GitLab CI/CD, "Apigee, OAuth 2.0 & JWT", Jenkins, SQL, PagerDuty & Chaos Engineering, API platforms]
+      - name: Mainframe
+        items: [z/OS, COBOL, DB2, CICS, JCL, VSAM, CA-7]
+      - name: Platforms
+        items: [SS&C Chorus BPM (AWD), OpenText xPression & Exstream]
+      - name: Domains
+        items: [Insurance, Financial services, Customer Communications (CCM), Healthcare, Retail]
+training_topics:
+  - name: SAFe® Scrum Master & POPM practice
+    note: PI planning · ART roles
+  - name: Azure AI Engineer
+    note: AI-102
+  - name: Scrum & Kanban for real teams
+    note: Ceremonies · metrics
+  - name: Azure Administrator
+    note: AZ-104
+  - name: Cloud on AWS & Google Cloud
+    note: Cloud fundamentals
+  - name: Azure fundamentals
+    note: AZ-900 · AI-900 · DP-900
+training_safe_note: "SAFe® sessions are practice coaching, not official Scaled Agile certification courses."
+training_formats:
+  - group: For teams
+    items: [PI planning facilitation, Corporate workshops, Team coaching, Technical sessions, Knowledge transfer]
+  - group: For learners
+    items: [Exam-prep bootcamps, Certification webinars, Hands-on labs, Graduate programs, Mentoring]
+  - group: Campus & community
+    items: [Guest lectures, Career talks, CSR skilling programs, Online sessions, Volunteer onboarding]
+speaking_title: "Speaking engagements · 8 of 75+"
+speaking:
+  - who: Atos Graduate Programme
+    topic: Cloud
+    where: Online
+    what: Cloud computing workshop for 215 graduates
+    feedback_image: award-cloud-feedback.jpg
+  - who: NIIT Foundation & EduBridge India
+    topic: Cloud
+    where: Online
+    what: CSR training on Google Cloud and AWS
+    linkedin: https://lnkd.in/p/gx7KkQ-y
+  - who: VIT Chennai
+    topic: Azure AI
+    where: Chennai
+    what: Azure AI Custom Vision, hands-on lecture
+    linkedin: https://lnkd.in/p/g72yVQ2z
+  - who: Microsoft Azure AI-900
+    topic: Azure AI
+    where: Online
+    what: Webinar on Azure AI services for certification
+    linkedin: https://lnkd.in/p/gSpgHPbM
+  - who: Vellore Institute of Technology
+    topic: Azure AI
+    where: Online
+    what: Azure Conversational AI, my first university guest lecture
+    linkedin: https://lnkd.in/p/gFPDgt-j
+  - who: Jeppiaar Engineering College
+    topic: AI & ML
+    where: Chennai
+    what: Innovation methods for ML & AI, with an AutoML demo
+    linkedin: https://lnkd.in/p/g9KBZvZD
+  - who: Sri Ramakrishna Engineering College
+    topic: Azure AI
+    where: Online
+    what: Image classification and object detection with Azure Cognitive Services
+    linkedin: https://lnkd.in/p/gvDjjK75
+  - who: College Rotaract Clubs
+    topic: Careers
+    where: Online
+    what: Careers in IT services for final-year and third-year students
+    linkedin: https://lnkd.in/p/gvKE9S_P
+
+community_events_title: Code for Boston volunteering & Boston tech events
+community:
+  - who: Urban League Heat Pump Accelerator
+    topic: Climate
+    what: Set up newcomers on Codespaces and Docker for a Rails app guiding Urban League heat pump outreach
+    link: /blog/2026/07/urban-league-heat-pump-accelerator/
+    when: Sep 2022 – Aug 2025
+    rank: 2
+  - who: National Police Data Coalition
+    topic: Open data
+    what: Guided new volunteers through Docker and Heroku as the police-conduct data platform restarted in 2023
+    link: /blog/2026/08/national-police-data-coalition/
+    when: Apr 2023 – Aug 2025
+    rank: 3
+  - who: MAPLE · Massachusetts Platform for Legislative Engagement
+    topic: Civic tech
+    what: Got newcomers access to the Google Cloud and Firebase project behind a live platform where Massachusetts residents send testimony to their legislature
+    link: /blog/2026/06/maple-massachusetts-legislature/
+    when: Sep 2022 – Aug 2025
+    rank: 5
+  - who: HEAT · Home Energy Analysis Tool
+    topic: Climate
+    what: Supported first-time contributors with Docker and Fly.io setup on a live tool that checks whether a proposed heat pump can heat a home
+    link: /blog/2026/09/heat-home-energy-analysis-tool/
+    when: May 2023 – Aug 2025
+    rank: 6
+events:
+  - who: Visual AI Hackathon · Northeastern University
+    topic: Hackathon
+    what: Built part of an image mapping and sentiment analysis project at Voxel51's hackathon at Northeastern
+    when: Mar 2025
+    link: /blog/2026/09/visual-ai-hackathon-northeastern/
+    rank: 1
+  - who: MxHacks 2022 · Mendix, Boston
+    topic: Hackathon
+    what: Joined Mendix's 36-hour "Low-Code for Good" hackathon in Boston, building apps for nonprofits
+    when: Sep 2022
+    link: /blog/2026/05/mxhacks-2022-mendix-boston/
+    rank: 4
+  - who: Adobe Create Now Boston
+    topic: Product demo
+    what: Saw Adobe demo its newest Firefly generative AI features across Photoshop, Illustrator and Express, at an in-person community evening in South Boston
+    when: Aug 2025
+    link: /blog/2026/10/adobe-create-now-boston/
+    rank: 7
+  - who: Solve at MIT 2023
+    topic: Keynotes
+    what: Attended the opening keynotes of MIT Solve, MIT's annual event on using technology to tackle global challenges, featuring MIT President Sally Kornbluth
+    when: May 2023
+    link: /blog/2026/08/solve-at-mit-2023/
+    rank: 8
+# year   = when you first earned it.
+# badge  = picture file in assets/badges/ (optional).
+# url    = link to the official certificate, opened when someone clicks it.
+# status = Active (green) or Expired (grey). Most important first; expired go last.
+certifications_title: 80+ certifications and badges since 2016
+certifications_links:
+  - label: Microsoft Learn profile
+    url: https://learn.microsoft.com/en-us/users/madhan-irulandi/
+  - label: Verify on Credly
+    url: https://www.credly.com/users/madhanirulandi
+  - label: Accredible wallet
+    url: https://www.credential.net/profile/madhanirulandi/wallet
+  - label: Google Skills profile
+    url: https://www.skills.google/public_profiles/f79f24ba-fe04-4792-b301-a8b152fd4dd5
+certifications:
+  - group: Agile, SAFe® & Service Management
+    featured: true
+    items:
+      - name: Certified SAFe® 6 Scrum Master
+        year: "2023"
+        status: Active
+        badge: safe6-sm.png
+        url: https://www.credly.com/badges/c1828dde-14ef-4597-8529-53add7d58521
+      - name: Certified SAFe® 6 Product Owner / Product Manager
+        year: "2023"
+        status: Active
+        badge: safe6-popm.png
+        url: https://www.credly.com/badges/2df805da-0318-47fb-99d8-93b9d03a7c65
+      - name: Certified SAFe® 5 Scrum Master
+        full_only: true
+        year: "2022"
+        status: Active
+        badge: safe5-sm.png
+        url: https://www.credly.com/badges/1ee164d6-dbcc-4e69-9d6e-8c4ae247a18c
+      - name: Certified SAFe® 5 Product Owner / Product Manager
+        full_only: true
+        year: "2022"
+        status: Active
+        badge: safe5-popm.png
+        url: https://www.credly.com/badges/b03046cc-22c9-41e7-a409-91bb60cf60ac
+      - name: Scrum Associate & Kanban Associate (Scrum Institute)
+        full_only: true
+        year: "2020"
+        status: Active
+        badge: scrum-institute.png
+      - name: Scrum Fundamentals Certified (VMEdu)
+        full_only: true
+        year: "2020"
+        status: Active
+        badge: vmedu.png
+      - name: ITIL® Foundation in IT Service Management (EXIN)
+        year: "2016"
+        status: Active
+        badge: exin.png
+  - group: Microsoft
+    featured: true
+    items:
+      - name: Microsoft Certified Trainer
+        year: "2020"
+        status: Active
+        badge: mct-2026.png
+        url: https://www.credly.com/badges/f5fd3e5a-519d-4d25-9cb0-ef6a57e7c3b0
+      - name: Azure AI Engineer Associate
+        year: "2021"
+        status: Active
+        badge: azure-ai-engineer.png
+        url: https://learn.microsoft.com/api/credentials/share/en-us/Madhan-irulandi/E326A1F605AB3983?sharingId=5EED7EABB794DB0
+      - name: Azure Administrator Associate
+        year: "2020"
+        status: Active
+        badge: azure-administrator.png
+        url: https://learn.microsoft.com/api/credentials/share/en-us/Madhan-irulandi/8421723C2BD389EA?sharingId=5EED7EABB794DB0
+      - name: Azure AI Fundamentals
+        year: "2020"
+        status: Active
+        badge: azure-ai-fundamentals.png
+        url: https://www.credly.com/badges/3c307f4e-3597-420e-b035-4e269e7af696
+      - name: Azure Data Fundamentals
+        year: "2020"
+        status: Active
+        badge: azure-data-fundamentals.png
+        url: https://www.credly.com/badges/8a0b7b98-4c10-42b9-85d9-7ff5284a541c
+      - name: Azure Fundamentals
+        year: "2020"
+        status: Active
+        badge: azure-fundamentals.png
+        url: https://www.credly.com/badges/0aeb3386-e6a0-4b11-b7a9-39a252d892e2
+      - name: Certified Microsoft Innovative Educator (MIE)
+        year: "2021"
+        status: Active
+        badge: mie-certified.png
+        url: https://learn.microsoft.com/api/achievements/share/en-au/Madhan-irulandi/WXD78KVN?sharingId=5EED7EABB794DB0
+  - group: DevOps & Reliability
+    featured: true
+    items:
+      - name: Certified Jenkins Engineer (CloudBees)
+        year: "2021"
+        status: Active
+        url: https://www.credential.net/1198d435-0704-4613-9e67-0d774c86723f
+        badge: jenkins.png
+      - name: GitLab Certified CI/CD Associate
+        year: "2022"
+        status: Active
+        badge: gitlab-cicd.png
+        url: https://www.credly.com/badges/73a22467-ecbf-4f7f-9658-6f0fe5eae48f
+      - name: GitLab Certified Git Associate
+        year: "2022"
+        status: Active
+        badge: gitlab-git.png
+        url: https://www.credly.com/badges/9e780dce-e80c-4c83-bc9e-51929b3562d5
+      - name: Gremlin Certified Chaos Engineering Practitioner
+        year: "2021"
+        status: Active
+        url: https://www.credential.net/3ac90335-5487-458a-8a5b-ecdf7ce21b52
+        badge: gremlin.png
+      - name: PagerDuty Incident Management
+        year: "2020"
+        status: Active
+        badge: pagerduty-incident.png
+        url: https://www.credly.com/badges/f008763c-2448-4b8e-a017-37ae1a3608d6
+      - name: PagerDuty API Certification
+        year: "2021"
+        status: Active
+        badge: pagerduty-api.png
+        url: https://www.credly.com/badges/95d1cb60-27fd-401c-b44f-00443229b588
+      - name: PagerDuty Foundational Practitioner
+        year: "2020"
+        status: Active
+        badge: pagerduty-foundational.png
+        url: https://www.credly.com/badges/999463e4-1a89-4991-a145-2e646e019843
+  - group: Google Cloud · 29 badges (top 7)
+    link: https://www.skills.google/public_profiles/f79f24ba-fe04-4792-b301-a8b152fd4dd5
+    items:
+      - name: Implement DevOps Workflows in Google Cloud
+        year: "2020"
+        status: Active
+        badge: google-cloud-logo.png
+      - name: Deploy Kubernetes Applications on Google Cloud
+        year: "2020"
+        status: Active
+        badge: google-cloud-logo.png
+      - name: "Anthos: Service Mesh"
+        year: "2020"
+        status: Active
+        badge: google-cloud-logo.png
+      - name: Prepare Data for ML APIs on Google Cloud
+        year: "2020"
+        status: Active
+        badge: google-cloud-logo.png
+      - name: Develop Your Google Cloud Network
+        year: "2021"
+        status: Active
+        badge: google-cloud-logo.png
+      - name: Monitor and Log with Google Cloud Observability
+        year: "2020"
+        status: Active
+        badge: google-cloud-logo.png
+      - name: Security & Identity Fundamentals
+        year: "2020"
+        status: Active
+        badge: google-cloud-logo.png
+  - group: Cloud, Data & AI
+    muted: true
+    items:
+      - name: IBM Hybrid Cloud × 6 (Microservices, Pipelines, Service Mesh, Serverless, App Security, App Dev)
+        year: "2020"
+        status: Active
+        badge: ibm-hybrid-cloud.png
+        url: https://www.credly.com/badges/be086b9a-f9cd-4a95-9d0b-277776ed5b4b
+      - name: IBM Cloud Native Security · DevSecOps
+        year: "2020"
+        status: Active
+        badge: ibm-devsecops.png
+        url: https://www.credly.com/badges/3c427773-44eb-4c9a-bea1-cd509c6ddbe9
+      - name: IBM Data & AI Essentials
+        year: "2020"
+        status: Active
+        badge: ibm-data-ai.png
+        url: https://www.credly.com/badges/0c9659c8-c598-40ae-b4c3-a76cc9864635
+      - name: IBM Build Smart on Kubernetes
+        year: "2021"
+        status: Active
+        badge: ibm-kubernetes.png
+        url: https://www.credly.com/badges/fba182df-6cfe-4c45-90b1-dea7316b1e23
+      - name: VMware IT Academy × 3 (Cloud, Network & Storage Virtualization)
+        year: "2020"
+        status: Active
+        badge: vmware-logo.png
+        url: https://www.credly.com/badges/bd9e36a6-eaa9-4500-8347-d637d19ab539
+      - name: Introduction to IoT (Cisco)
+        year: "2020"
+        status: Active
+        badge: cisco-iot.png
+        url: https://www.credly.com/badges/2e25f340-a699-4b71-9e32-8be1d5a1e2ae
+  - group: Earlier credentials
+    muted: true
+    items:
+      - name: Minecraft Education Teacher Academy
+        year: "2022"
+        status: Active
+        badge: minecraft-teacher.png
+        url: https://learn.microsoft.com/api/achievements/share/en-au/Madhan-irulandi/99LY6UVK?sharingId=5EED7EABB794DB0
+      - name: Aviatrix Multicloud Network Associate
+        year: "2020"
+        status: Expired
+        badge: aviatrix.png
+        url: https://www.credly.com/badges/caf2a25f-f886-438b-9aae-8e0397a051ef
+        expired: "2024"
+      - name: Kanban Foundation (CertiProf KIKF)
+        year: "2020"
+        status: Expired
+        badge: certiprof-kikf.png
+        url: https://www.credly.com/badges/e5b0a069-7f56-4ed0-8aa8-07a7fe653347
+        expired: "2022"
+      - name: Scrum Master Professional Certificate (CertiProf SMPC)
+        year: "2022"
+        status: Expired
+        badge: certiprof-smpc.png
+        url: https://www.credly.com/badges/8364dc6a-146c-4a55-97a1-5714cfc5057b
+        expired: "2024"
+      - name: Scrum Foundation Professional (CertiProf SFPC)
+        year: "2020"
+        status: Expired
+        badge: certiprof-sfpc.png
+        url: https://www.credly.com/badges/b09aaae9-5b1f-49a7-9391-69d46730f809
+        expired: "2022"
+      - name: Cyber Security Foundation (CertiProf CSFPC)
+        year: "2021"
+        status: Expired
+        badge: certiprof-csfpc.png
+        url: https://www.credly.com/badges/7603dff0-a874-4c8c-84e3-76b290b80a00
+        expired: "2023"
+      - name: Istio Essentials & Intermediate (Solo.io)
+        year: "2021"
+        status: Expired
+        badge: istio.png
+        url: https://www.credly.com/badges/2f8a2132-6249-44fc-9a9e-0ef5103e7fdd
+        expired: "2023"
+      - name: Alibaba Cloud Associate × 4 (Cloud Computing, Big Data, Security, Cloud Native)
+        year: "2020"
+        status: Expired
+        badge: alibaba-cloud.png
+
+education:
+  - title: Master of Science
+    subject: Computer Science, AI & ML
+    detail: Woolf University · Aug 2026 – Mar 2028 · In progress
+  - title: Bachelor of Engineering
+    subject: Electrical & Electronics Engineering
+    detail: VELS University · 2009 – 2013 · First Class
+
+award_groups:
+  - group: Delivery
+    icon: award
+    items:
+      - title: Eviden Spot Award, Scrum Master / Release Manager
+        detail: Eviden (Atos) · Apr 2024 · For guiding the team past impediments during production deployments across business units
+        image: award-eviden.jpg
+      - title: Atos Spot Recognition, Interviewing
+        hidden: true
+        detail: Atos · Feb 2022 · For going beyond the call of duty in interviewing candidates and giving timely feedback
+        image: award-interview.jpg
+      - title: Certificate of Excellence
+        detail: MetLife · May 2019 · Jointly from MetLife and Cognizant, for outstanding support on the Publisher to xPression migration
+        image: award-metlife.jpg
+  - group: Training & Mentoring
+    icon: board
+    items:
+      - title: Atos Spot Recognition, Cloud Training
+        detail: Atos · Feb 2022 · Cloud Technologies session for 215 graduates, Skill Development and Employability Initiative
+        image: award-cloud-training.jpg
+        extra_image: award-cloud-feedback.jpg
+        extra_label: Read the session feedback
+      - title: Star Volunteer, Atos Prayas Foundation
+        detail: Atos CSR · Mar 2023 · For outstanding contribution towards enriching young minds
+        image: award-star-volunteer.jpg
+        note: Certificate issued under the name "Madhan E"
+
+contact_title: Hiring for a release train or
+contact_highlight: AI program?
+contact_intro: Pick what fits, or email me directly.
+# Each line below is shown on its own line.
+contact_note: []
+# Client feedback (no names, no client name; exact words from the client's email)
+feedback_highlight: "Overall, your professionalism, organizational skills, and commitment to agile excellence make a real difference to our delivery and team confidence."
+feedback_title: In my client's words
+feedback:
+  - quote: "Your support around paperwork and release-related procedures has been outstanding. … This work often goes behind the scenes, but it is critical, and your ownership in this area significantly reduces risk and friction for the entire team."
+  - quote: "You proactively guide the team, address gaps, and ensure we continuously improve without adding unnecessary overhead."
+feedback_who: Client Project Manager
+feedback_where: Insurance client
+# =====================================================================
+#  YOUR WEBSITE CONTENT LIVES HERE.
+#  Edit any text below, save, and the site updates in about a minute.
+#  Rules: keep the indentation (spaces, never tabs). Text with a colon
+#  or a # inside it must be wrapped in "double quotes".
+#
+#  Source of truth used to fill this file (Oct 2026): your LinkedIn profile,
+#  certification emails from Credly / Microsoft in Gmail, and your resumes.
+#  Keep this file and LinkedIn saying the same thing. Recruiters compare them.
+# =====================================================================
+
+name_first: Madhan
+name_last: Irulandi
+location: Chennai, India
+status: ""
+
+# Big line under your name. Text inside highlight is shown in orange.
+headline: Senior Release Train Engineer & Technical Program Manager
+headline_join: ""
+headline_highlight: Gets stalled programs shipping again.
+
+# Three short role labels shown under your name.
+roles:
+  - Release Train Engineer
+  - Senior Scrum Master
+  - Microsoft Certified Trainer
+
+intro: "Over 13 years, I've grown from production support to leading delivery for retail, insurance and healthcare leaders like Walmart, MetLife, Manulife, Allstate, Anthem and John Hancock. In insurance alone, the systems I've delivered serve more than 20 million policyholders. Today I run Agile Release Trains on AI-enabled platforms and turn around at-risk programs. A Microsoft Certified Trainer since 2020, I've trained 3,000+ people and given 75+ guest lectures."
+
+email: irulandi.madhan@gmail.com
+linkedin: https://www.linkedin.com/in/madhanirulandi
+linkedin_label: linkedin.com/in/madhanirulandi
+# Type your GitHub username between the quotes, for example "madhan-i".
+# Leave it empty ("") and the GitHub link stays hidden.
+github: ""
+
+# Put your resume PDF in assets/resume/ and type its file name here.
+# Leave it empty ("") to show "Request by email" instead of a download button.
+resume_file: "Madhan-Irulandi-Resume.pdf"
+
+# Booking link for the "Book a call" buttons. Leave "" to hide them.
+calendly: "https://calendly.com/irulandi-madhan/30min"
+
+# Optional: put a square photo in assets/images/ and type its file name here.
+photo: "madhan-headshot-bright.jpg"
+
+# Skill boxes under the intro. Each group below is its own row on desktop.
+expertise_rows:
+  - [Release Train Engineering, PI Planning, "Program & Portfolio Governance|Portfolio Governance", "Risk & Dependency Management|Risk & Dependencies", Generative AI & RAG, Agile Coaching]
+
+# The four big numbers under the hero. Keep it to four.
+metrics:
+  - tag: Predictability
     number: "100"
     suffix: "%"
     text: ART predictability and story-point completion, sustained across my current portfolio
