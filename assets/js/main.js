@@ -451,3 +451,13 @@ document.querySelectorAll('.copy-btn').forEach(function (b) {
   window.addEventListener('resize', function () { clearTimeout(all.t); all.t = setTimeout(all, 150); });
   if (document.fonts && document.fonts.ready) document.fonts.ready.then(all); all();
 })();
+/* Credentials: open the collapsed section when a link points inside it */
+(function () {
+  var d = document.querySelector('details.creds');
+  if (!d) return;
+  function openFor(h) { if (h && h.length > 1) { try { if (d.querySelector(h)) d.open = true; } catch (e) {} } }
+  document.addEventListener('click', function (e) { var a = e.target.closest && e.target.closest('a[href*="#"]'); if (a) openFor(a.hash); }, true);
+  window.addEventListener('hashchange', function () { openFor(location.hash); });
+  openFor(location.hash);
+  if (location.hash && d.open) { var el = document.querySelector(location.hash); if (el) el.scrollIntoView(); }
+})();
