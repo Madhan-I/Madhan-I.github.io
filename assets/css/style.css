@@ -5024,3 +5024,9 @@ details.creds>summary span::before{content:"";position:absolute;top:0;bottom:0;l
 details.creds[open]>summary span::before{animation:none;opacity:0}
 details.creds>summary:hover span{background:linear-gradient(135deg,#13315C 0%,#1D5FD1 100%)}
 details.creds>summary small{color:#B86E0A;font-weight:600}
+/* Credentials icon: amber circle badge; readable amber captions and date chips */
+details.creds>summary span{display:inline-flex;align-items:center}
+details.creds>summary span::after{content:"+";display:inline-flex;align-items:center;justify-content:center;width:24px;height:24px;margin-left:10px;border-radius:50%;background:#F2A541;color:#0B2545;font-size:19px;font-weight:800;line-height:1}
+details.creds[open]>summary span::after{content:"\2212"}
+.proof-strip .proof-label,details.creds>summary small{color:#94570A}
+#experience .when{color:#174EA6}
