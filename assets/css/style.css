@@ -5062,3 +5062,7 @@ details.creds[open]>summary span::after{content:"\2212"}
 .case-cta .btn{display:inline-block;background:#0B2545;color:#fff;font-weight:700;padding:13px 22px;border-radius:999px;text-decoration:none}
 .case-cta .btn:hover{background:#1D5FD1}
 @media (max-width:760px){.case{padding-top:90px}.case-stats{grid-template-columns:repeat(2,minmax(0,1fr))}.case p,.case-list li{font-size:16px}}
+/* Colour direction C: warm About section, amber thread through About and Experience */
+html body #about{background:linear-gradient(160deg,#FFF6E6 0%,#FDEBD0 100%) !important}
+#about .sec-head h2::after,#experience .sec-head h2::after{content:"";display:block;width:56px;height:4px;border-radius:2px;background:#F2A541;margin-top:14px}
+html body #experience li.job::before{background:#F2A541 !important}
