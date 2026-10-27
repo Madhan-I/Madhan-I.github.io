@@ -1,6 +1,6 @@
 ---
 title: "How the pandemic made me a trainer"
-teaser: "Five years as a Microsoft Certified Trainer, and why I keep renewing"
+teaser: "Six years as a Microsoft Certified Trainer, and why I keep renewing"
 summary: I became a Microsoft Certified Trainer in October 2020. It changed my career in ways I couldn't have planned, and it's still the part of my work I'd give up last.
 retro: "A look back at 2020–2025, published here when this site launched."
 outcome: "One certificate in 2020 turned into 3,000+ people trained and 75+ guest lectures, alongside a full-time delivery career."
@@ -18,11 +18,17 @@ My MCT recognition came through on October 24, 2020. It was a long-awaited momen
 
 Being an MCT is a promise as much as a title. Microsoft trusts you to teach its technology, so you have to keep learning it.
 
+## Why it matters for my day job
+
+Training made me a better Release Train Engineer. In my first two years as a trainer, I was also the main escalation point between engineers and client executives on a US insurance program, where releases moved from monthly to near-weekly. Both roles asked the same thing of me: take something complex and make it simple enough for people to act on.
+
+Explaining something clearly to a room of beginners is the same skill as explaining a dependency to a steering committee. And a trainer who stops learning stops being useful, which is a good rule for delivery leaders too.
+
 ## Learning by teaching
 
 My first sessions were close to home. In my first year as a trainer I ran several sessions for our Enterprise Content Management (ECM) group at Atos Syntel, a technology tower of more than 300 people, including sessions on the basics of AI and machine learning. I also trained colleagues across the office through the learning department. I'm grateful to the colleagues who gave me the opportunity and the teammates who took part so actively. Teaching people you work with every day is a good test of whether you really understand a topic.
 
-From there it grew into guest lectures at colleges, webinars for exam candidates and training for graduate programs. Every session taught me something I thought I already knew.
+From there it grew. My first university guest lecture came in September 2021, on Azure Conversational AI for Vellore Institute of Technology. In February 2022, a cloud session for 215 graduates in the Atos Graduate Programme earned me an Atos Spot Recognition. Webinars for exam candidates and more college lectures followed. Every session taught me something I thought I already knew.
 
 ## Keeping it current
 
@@ -35,7 +41,3 @@ In January 2025 I helped spread the word for a virtual meet-up of Tamil-speaking
 ## What it gave me
 
 Since 2020 I've trained more than 3,000 people and given more than 75 guest lectures, all alongside a full-time delivery career. The numbers aren't the best part, though. The best part is watching people who started from zero leave a session ready to keep going on their own.
-
-## Why it matters for my day job
-
-Training made me a better Release Train Engineer. Explaining something clearly to a room of beginners is the same skill as explaining a dependency to a steering committee. And a trainer who stops learning stops being useful, which is a good rule for delivery leaders too.
