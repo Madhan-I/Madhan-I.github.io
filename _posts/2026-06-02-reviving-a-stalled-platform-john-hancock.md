@@ -9,6 +9,7 @@ hashtags: [ReleaseTrainEngineer, SSCChorus, AWD, BPM, PIPlanning, ProgramRecover
 redirect_from:
   - /blog/2026/10/reviving-a-stalled-platform-john-hancock/
 tags: [Delivery, Leadership]
+image: /assets/images/share/post-2026-06-02.jpg
 ---
 
 In September 2022 I moved to Boston to work on-site for John Hancock as Release Train Engineer and Technical Product Manager. The program I joined had been held up for two years.

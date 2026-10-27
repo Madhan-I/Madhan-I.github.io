@@ -8,6 +8,7 @@ retro: "A look back at 2022–2025, published here when this site launched."
 redirect_from:
   - /blog/2026/03/maple-massachusetts-legislature/
 tags: [Community, Delivery]
+image: /assets/images/share/post-2026-06-30.jpg
 ---
 
 From September 2022 to August 2025, while I was on-site in Boston for John Hancock, I was a volunteer member of Code for Boston. MAPLE was one of four projects I supported, and the busiest of them.

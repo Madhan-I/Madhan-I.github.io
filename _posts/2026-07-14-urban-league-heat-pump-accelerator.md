@@ -8,6 +8,7 @@ retro: "A look back at 2022–2025, published here when this site launched."
 redirect_from:
   - /blog/2026/03/urban-league-heat-pump-accelerator/
 tags: [Community, Delivery]
+image: /assets/images/share/post-2026-07-14.jpg
 ---
 
 The Urban League Heat Pump Accelerator was one of four Code for Boston projects I supported as a volunteer member while I was on-site in Boston, from September 2022 to August 2025.

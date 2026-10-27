@@ -8,6 +8,7 @@ hashtags: [AIGovernance, ComplianceAI, PortfolioManagement, SAFe, AKS]
 tags: [AI, Delivery]
 redirect_from:
   - /blog/2026/10/ai-compliance-portfolio-manulife/
+image: /assets/images/share/post-2026-10-20.jpg
 ---
 
 In September 2025 I took over end-to-end governance for a global insurer's Core API, Customer Engagement and Compliance AI products, reporting portfolio health and roadmap decisions directly to executive leadership.

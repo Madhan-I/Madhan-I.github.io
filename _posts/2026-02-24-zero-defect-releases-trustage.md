@@ -7,6 +7,7 @@ hashtags: [TestAutomation, ZeroDefect, QualityEngineering, ScrumMaster, xPressio
 redirect_from:
   - /blog/2026/11/zero-defect-releases-trustage/
 tags: [Quality, Delivery]
+image: /assets/images/share/post-2026-02-24.jpg
 ---
 
 In January 2020 I joined Syntel, part of Atos, as Scrum Master and Agile Delivery Lead for TruStage Financial Group, then known as CUNA Mutual Group.

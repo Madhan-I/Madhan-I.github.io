@@ -7,6 +7,7 @@ hashtags: [ProductionSupport, IncidentManagement, Automation, Reliability, Walma
 redirect_from:
   - /blog/2026/12/walmart-production-support/
 tags: [Quality, Delivery]
+image: /assets/images/share/post-2026-01-13.jpg
 ---
 
 Everyone remembers their first job in tech. Mine, from July 2014 to June 2015, was production support at Cognizant for Walmart's Item File, Order Management System and the legacy platforms around them.

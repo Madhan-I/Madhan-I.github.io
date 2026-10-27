@@ -9,6 +9,7 @@ retro: "A look back at March 2025, published here when this site launched."
 redirect_from:
   - /blog/2026/04/visual-ai-hackathon-northeastern/
 tags: [AI, Community]
+image: /assets/images/share/post-2026-09-22.jpg
 ---
 
 On March 21, 2025, I spent the day at Northeastern University in Boston, at one of Voxel51's Visual AI Hackathons. Voxel51 makes FiftyOne, an open-source toolkit for working with image and video datasets, and that spring it ran a series of these hackathons at universities across the US. The format was simple: tech talks, hands-on workshops, challenges to work on, and plenty of time to meet people.

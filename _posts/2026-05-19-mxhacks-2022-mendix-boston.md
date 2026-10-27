@@ -8,6 +8,7 @@ retro: "A look back at September 2022, published here when this site launched."
 redirect_from:
   - /blog/2026/02/mxhacks-2022-mendix-boston/
 tags: [Community, Delivery]
+image: /assets/images/share/post-2026-05-19.jpg
 ---
 
 I arrived in Boston in September 2022 to start on-site work for John Hancock. When I announced the move on LinkedIn at the end of August, it drew more congratulations than anything I'd ever posted. A week or so later my first goodie in the United States arrived: a Google Cloud book from Packt, which I went on to review on LinkedIn.

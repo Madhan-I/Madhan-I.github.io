@@ -7,6 +7,7 @@ hashtags: [OpenText, xPression, Migration, CustomerCommunications, ZeroDefect]
 redirect_from:
   - /blog/2026/11/metlife-xpression-migration/
 tags: [Quality, Delivery]
+image: /assets/images/share/post-2026-02-10.jpg
 ---
 
 Legacy migrations have a reputation, and it's not a good one. Everyone has a story about the one that ran late, went over budget or broke something nobody noticed until a customer did.

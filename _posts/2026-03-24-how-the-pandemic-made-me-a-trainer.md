@@ -8,6 +8,7 @@ hashtags: [MCT, MicrosoftCertifiedTrainer, Azure, Training, Community]
 redirect_from:
   - /blog/2026/01/how-the-pandemic-made-me-a-trainer/
 tags: [AI, Community]
+image: /assets/images/share/post-2026-03-24.jpg
 ---
 
 "It all began during the pandemic, and Microsoft altered my career path in ways I could never have envisioned." I wrote that on LinkedIn in August 2022, starting my third year as a Microsoft Certified Trainer. Four years on, I'd write the same sentence.

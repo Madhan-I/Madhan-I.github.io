@@ -8,6 +8,7 @@ hashtags: [100DaysOfCloud, CloudLearning, Azure, GoogleCloud, CareerGrowth]
 redirect_from:
   - /blog/2026/01/from-the-bench-to-100-days-of-cloud/
 tags: [Community, Leadership]
+image: /assets/images/share/post-2026-03-10.jpg
 ---
 
 In the middle of 2020 I was on the bench. If you've worked in IT services you know what that means: between projects, waiting for the next opportunity, and watching the days go by. Add a pandemic and a lockdown, and it wasn't a comfortable place to be.
