@@ -5122,3 +5122,38 @@ html body #experience li.job.now::before{background:#F2A541 !important}
     min-height: 44px
   }
 }
+
+/* Blog page: each post card shows its preview picture on top. The picture carries the title,
+   so the text title is kept only for search and screen readers. */
+.post-list .post-card.has-img {
+  padding-top: 0;
+  overflow: hidden
+}
+.post-list .post-card .pc-img {
+  display: block;
+  margin: 0 -28px 4px;
+  aspect-ratio: 1200/627;
+  overflow: hidden;
+  border-bottom: 1px solid var(--line)
+}
+.post-list .post-card .pc-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform .3s
+}
+.post-list .post-card:hover .pc-img img {
+  transform: scale(1.03)
+}
+@media (prefers-reduced-motion: reduce) {
+  .post-list .post-card:hover .pc-img img { transform: none }
+}
+.post-list .post-card.has-img .pc-title {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap
+}
