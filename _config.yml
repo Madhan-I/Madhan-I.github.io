@@ -3,7 +3,7 @@
 
 title: Madhan Irulandi
 tagline: Senior Release Train Engineer & Technical Program Manager
-description: Senior Release Train Engineer and Program Manager in Chennai. SAFe 6, Azure AI, Microsoft Certified Trainer. Delivery leadership for AI-enabled programs, and corporate training.
+description: Senior Release Train Engineer and Technical Program Manager in Chennai. SAFe 6, Azure AI, Microsoft Certified Trainer. Delivery leadership for AI-enabled programs, and corporate training.
 author: Madhan Irulandi
 lang: en
 
@@ -17,7 +17,7 @@ defaults:
   - scope:
       path: ""
     values:
-      image: /assets/images/madhan-headshot-bright.jpg
+      image: /assets/images/madhan-share-card.jpg
 
 social:
   name: Madhan Irulandi
