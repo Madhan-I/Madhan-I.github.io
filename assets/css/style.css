@@ -5066,3 +5066,59 @@ details.creds[open]>summary span::after{content:"\2212"}
 html body #about{background:linear-gradient(160deg,#FFF6E6 0%,#FDEBD0 100%) !important}
 #about .sec-head h2::after,#experience .sec-head h2::after{content:"";display:block;width:56px;height:4px;border-radius:2px;background:#F2A541;margin-top:14px}
 html body #experience li.job.now::before{background:#F2A541 !important}
+
+/* Blog contents box. Wide screens (1100px+): sticky rail on the left. Narrower screens and phones:
+   a compact bar that sticks to the top and shows which section is being read; tap to open the list.
+   ("More articles" links are not the site menu, so they never stick.) */
+.post nav.post-nav {
+  position: static;
+  z-index: auto
+}
+@media (min-width:1100px) {
+  .post > nav.toc {
+    position: sticky;
+    top: 100px
+  }
+  .post .toc .toc-now {
+    display: none
+  }
+}
+@media (max-width:1099px) {
+  .post > nav.toc {
+    position: sticky;
+    top: 0;
+    z-index: 21
+  }
+  .post > nav.toc.stuck {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    box-shadow: 0 6px 18px rgba(11, 37, 69, .08)
+  }
+  .post .toc .toc-now {
+    display: none;
+    margin-top: 4px;
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--navy);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+  }
+  .post .toc.stuck .toc-now {
+    display: block;
+    flex: 1;
+    min-width: 0;
+    margin: 0
+  }
+  .post .toc.stuck summary b {
+    display: none
+  }
+  .post .toc .toc-now i {
+    font-style: normal;
+    color: #94570A;
+    margin-right: 6px
+  }
+  .post .toc details summary {
+    min-height: 44px
+  }
+}

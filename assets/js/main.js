@@ -120,8 +120,13 @@ document.querySelectorAll('.copy-btn').forEach(function (b) {
         a.href = '#' + h.id; a.textContent = h.textContent; li.appendChild(a); ol.appendChild(li); links.push([h, a]);
       });
       toc.hidden = false;
-      var det = toc.querySelector('details'); if (det && window.matchMedia('(max-width: 760px)').matches) det.open = false;
-      ol.addEventListener('click', function () { if (det && window.matchMedia('(max-width: 760px)').matches) det.open = false; });
+      var det = toc.querySelector('details'), narrow = window.matchMedia('(max-width: 1099px)');
+      if (det && narrow.matches) det.open = false;
+      /* Compact bar below 1100px: starts closed (no page jump) and shows the section being read */
+      var sum = toc.querySelector('summary'), now = document.createElement('span');
+      now.className = 'toc-now'; now.setAttribute('aria-live', 'polite'); if (sum) sum.appendChild(now);
+      var wasStuck = false;
+      ol.addEventListener('click', function () { if (det && narrow.matches) det.open = false; });
       var fl = document.createElement('nav'); fl.className = 'toc-float'; fl.setAttribute('aria-label', 'On this page');
       fl.innerHTML = '<b>On this page</b><ol></ol>';
       var flinks = [];
@@ -132,6 +137,10 @@ document.querySelectorAll('.copy-btn').forEach(function (b) {
         var cur = -1;
         links.forEach(function (x, i) { if (x[0].getBoundingClientRect().top < 160) cur = i; });
         links.forEach(function (x, i) { x[1].classList.toggle('on', i === cur); flinks[i].classList.toggle('on', i === cur); });
+        var stuck = narrow.matches && toc.getBoundingClientRect().top <= 1 && window.scrollY > 200;
+        if (stuck !== wasStuck) { toc.classList.toggle('stuck', stuck); wasStuck = stuck; }
+        now.innerHTML = cur >= 0 ? '<i>' + (cur + 1) + ' of ' + links.length + '</i>' : '';
+        if (cur >= 0) now.appendChild(document.createTextNode(links[cur][1].textContent));
         var past = toc.getBoundingClientRect().bottom < 90, before = endEl.getBoundingClientRect().top > 200;
         fl.classList.toggle('show', past && before);
       }
