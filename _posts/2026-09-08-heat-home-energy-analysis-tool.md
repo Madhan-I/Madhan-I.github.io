@@ -8,6 +8,7 @@ retro: "A look back at 2023–2025, published here when this site launched."
 redirect_from:
   - /blog/2026/04/heat-home-energy-analysis-tool/
 tags: [Community, Delivery]
+image: /assets/images/share/post-2026-09-08.jpg
 ---
 
 HEAT, the Home Energy Analysis Tool, was one of four Code for Boston projects I supported as a volunteer member during my Boston years. I was part of it from May 2023, when the project started.

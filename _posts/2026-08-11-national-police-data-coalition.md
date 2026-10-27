@@ -8,6 +8,7 @@ retro: "A look back at 2023–2025, published here when this site launched."
 redirect_from:
   - /blog/2026/04/national-police-data-coalition/
 tags: [Community, Leadership]
+image: /assets/images/share/post-2026-08-11.jpg
 ---
 
 The National Police Data Coalition was one of four Code for Boston projects I supported as a volunteer member during my Boston years. I joined in April 2023, when the project was being restarted.

@@ -8,6 +8,7 @@ retro: "A look back at 2022–2025, published here when this site launched."
 redirect_from:
   - /blog/2026/05/in-person-at-cic-cambridge/
 tags: [Leadership, Community]
+image: /assets/images/share/post-2026-07-28.jpg
 ---
 
 Most of my career has been remote or split across time zones. Teams in Chennai and clients in the US, daily stand-ups over video, decisions in chat threads. It works, and I'm good at it.

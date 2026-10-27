@@ -7,6 +7,7 @@ hashtags: [CareerJourney, EventManagement, IPL, HealthcareClaims, Leadership]
 redirect_from:
   - /blog/2026/11/from-ipl-hospitality-to-release-trains/
 tags: [Leadership]
+image: /assets/images/share/post-2025-12-30.jpg
 ---
 
 People are sometimes surprised that my career didn't start in technology. Alongside my Electrical and Electronics Engineering degree, I worked in live events. I've come to think it was some of the best preparation I could have had.

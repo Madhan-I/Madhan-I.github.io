@@ -8,6 +8,7 @@ hashtags: [GuestLecture, CSR, Volunteering, PublicSpeaking, CloudTraining]
 redirect_from:
   - /blog/2026/07/first-guest-lecture-to-star-volunteer/
 tags: [Community, Leadership]
+image: /assets/images/share/post-2026-05-05.jpg
 ---
 
 On the last day of 2021 I wrote that one of the best things to happen to me that year was learning to speak in public. I had become a guest lecturer for universities and colleges, sharing what I knew with young people about to step into IT.

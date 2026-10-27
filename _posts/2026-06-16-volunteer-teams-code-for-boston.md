@@ -8,6 +8,7 @@ retro: "A look back at 2022–2025, published here when this site launched."
 redirect_from:
   - /blog/2026/03/volunteer-teams-code-for-boston/
 tags: [Community, Leadership]
+image: /assets/images/share/post-2026-06-16.jpg
 ---
 
 From September 2022 to August 2025 I was on-site in Boston for John Hancock. Alongside that work I joined Code for Boston, a volunteer group that builds free, open-source software for public-service organizations. Hack nights ran on Tuesday evenings, on Zoom every week and in person at the Cambridge Innovation Center once or twice a month.

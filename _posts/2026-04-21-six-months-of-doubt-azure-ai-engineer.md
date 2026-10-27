@@ -8,6 +8,7 @@ hashtags: [AzureAI, AIEngineer, MicrosoftCertified, Persistence, AI]
 redirect_from:
   - /blog/2026/02/six-months-of-doubt-azure-ai-engineer/
 tags: [AI, Leadership]
+image: /assets/images/share/post-2026-04-21.jpg
 ---
 
 On July 1, 2021, I posted two words that had taken six months to earn: "nailed it". I'd passed the Azure AI Engineer exam.

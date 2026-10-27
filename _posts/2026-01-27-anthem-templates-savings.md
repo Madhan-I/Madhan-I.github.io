@@ -7,6 +7,7 @@ hashtags: [CostSavings, DocumentTemplates, Healthcare, Anthem, Delivery]
 redirect_from:
   - /blog/2026/11/anthem-templates-savings/
 tags: [Quality, Delivery]
+image: /assets/images/share/post-2026-01-27.jpg
 ---
 
 From July 2015 to June 2017 I worked at Cognizant as a Systems Engineer and Application Analyst for Anthem Blue Cross Blue Shield (now Elevance Health), as part of a cross-functional team of 60 developers.

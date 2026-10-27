@@ -9,6 +9,7 @@ hashtags: [AgileCoaching, ScrumMaster, Insurance, ReleaseManagement, DeliveryLea
 redirect_from:
   - /blog/2026/10/twenty-million-policyholders-allstate/
 tags: [Delivery, Leadership]
+image: /assets/images/share/post-2026-04-07.jpg
 ---
 
 Some programs are big because of the technology. The Allstate program I led from September 2020 to August 2022 was big because of its audience.

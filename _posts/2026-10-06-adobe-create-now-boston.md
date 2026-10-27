@@ -9,6 +9,7 @@ retro: "A look back at August 2025, published here when this site launched."
 redirect_from:
   - /blog/2026/08/adobe-create-now-boston/
 tags: [AI, Community]
+image: /assets/images/share/post-2026-10-06.jpg
 ---
 
 On August 5, 2025, a few weeks before I left Boston, I went to Adobe Create Now Boston. It was a free evening event at Artists For Humanity in South Boston, a nonprofit that employs young people in the arts. Adobe's team demonstrated the latest updates to Photoshop, Illustrator and Adobe Express, with Firefly, Adobe's generative AI, running through all of them. Local creatives shared their own workflows, and the rest of the evening was for meeting people.
