@@ -26,6 +26,8 @@ roles:
   - Microsoft Certified Trainer
 
 intro: "Over 13 years, I've grown from production support to leading delivery for retail, insurance and healthcare leaders like Walmart, MetLife, Manulife, Allstate, Anthem and John Hancock. In insurance alone, the systems I've delivered serve more than 20 million policyholders. Today I run Agile Release Trains on AI-enabled platforms and turn around at-risk programs. A Microsoft Certified Trainer since 2020, I've trained 3,000+ people and given 75+ guest lectures."
+# Phone only: a 2-line hero intro (the full intro shows on laptop and tablet; the details stay in About).
+intro_phone: "I run Agile Release Trains on AI-enabled platforms and turn around at-risk programs. 13 years of delivery, 3,000+ people trained."
 
 email: irulandi.madhan@gmail.com
 linkedin: https://www.linkedin.com/in/madhanirulandi
