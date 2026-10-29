@@ -5191,3 +5191,36 @@ html body #experience li.job.now::before{background:#F2A541 !important}
     text-align: left !important
   }
 }
+
+/* Homepage Writing cards: same preview picture as the Blog page. The picture carries the title,
+   so the text title is collapsed (still read by screen readers, and its link still covers the card). */
+html body #writing .writing-cards li.has-img {
+  padding-top: 0 !important;
+  overflow: hidden
+}
+#writing .writing-cards li.has-img .wc-img {
+  display: block;
+  margin: 0 -20px 14px;
+  aspect-ratio: 1200/627;
+  overflow: hidden;
+  border-bottom: 1px solid var(--line)
+}
+#writing .writing-cards li.has-img .wc-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform .3s
+}
+#writing .writing-cards li.has-img:hover .wc-img img {
+  transform: scale(1.03)
+}
+@media (prefers-reduced-motion: reduce) {
+  #writing .writing-cards li.has-img:hover .wc-img img { transform: none }
+}
+#writing .writing-cards li.has-img > b {
+  display: block;
+  height: 0;
+  margin: 0 !important;
+  overflow: hidden
+}
