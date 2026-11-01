@@ -7,12 +7,12 @@ Chennai, India (open to relocation worldwide) • irulandi.madhan@gmail.com • 
 PROFESSIONAL SUMMARY
 Over 13 years, I've grown from production support to leading delivery for retail, insurance and healthcare leaders like Walmart,
 MetLife, Manulife, Allstate, Anthem and John Hancock. In insurance alone, the systems I've delivered serve more than 20 million
-policyholders. Today I govern releases for 30+ teams and 200+ people, and turn around
-at-risk programs. A Microsoft Certified Trainer since 2020, I've trained 3,000+ people and given 75+ guest lectures.
+policyholders. Today I govern releases for 30+ teams and 200+ people and turn around at-risk programs. A Microsoft Certified
+Trainer since 2020, I've trained 3,000+ people and given 75+ guest lectures.
 • Turnaround. Restarted a multi-million-dollar John Hancock platform stalled two years by COVID, clearing 400+ backlog tickets
 in 9 months and taking all 5 modernization initiatives live across 20+ business divisions.
-• Predictability. Averaged 95%+ of planned work delivered per planning cycle since taking over my release train
-in Sep 2025, with under 5% sprint variance.
+• Predictability. Averaged 95%+ of planned work delivered per planning cycle since taking over my release train in Sep 2025, with
+under 5% sprint variance.
 • AI delivery. Steered a hybrid AI and RAG compliance engine to production, lowering false alarms in customer onboarding from
 30% to 10–15%.
 • Teaching. 3,000+ people trained since 2020, 75+ guest lectures and 1,000+ professionals mentored.
@@ -44,7 +44,8 @@ Client: Global insurer · Core API, Customer Engagement & Compliance AI
 • Averaged 95%+ of planned work delivered each planning cycle (ART predictability) through disciplined PI planning.
 • Maintain a High health rating across the products, with under 5% sprint variance.
 • Reduced technical debt and strengthened platform security, moving 15 core services to AKS and 7 microservices to Gradle.
-• Govern releases for 30+ teams and 200+ people across a global insurer's portfolio, leading the cross-team call on dependencies, risks and go/no-go decisions.
+• Govern releases for 30+ teams and 200+ people across a global insurer's portfolio, leading the cross-team call on dependencies,
+risks and go/no-go decisions.
 Technical Product Manager / Release Train Engineer
 
 Sep 2022 – Aug 2025 | Boston, USA (On-site)
