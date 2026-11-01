@@ -1,0 +1,136 @@
+Madhan Irulandi — resume (plain text). Same content as https://madhanirulandi.com/assets/resume/Madhan-Irulandi-Resume.pdf
+
+MADHAN IRULANDI
+Senior Release Train Engineer & Technical Program Manager | SAFe® 6 SM & POPM | Microsoft Certified Trainer
+Chennai, India (open to relocation worldwide) • irulandi.madhan@gmail.com • LinkedIn • madhanirulandi.com
+
+PROFESSIONAL SUMMARY
+Over 13 years, I've grown from production support to leading delivery for retail, insurance and healthcare leaders like Walmart,
+MetLife, Manulife, Allstate, Anthem and John Hancock. In insurance alone, the systems I've delivered serve more than 20 million
+policyholders. Today I govern releases for 30+ teams and 200+ people, and turn around
+at-risk programs. A Microsoft Certified Trainer since 2020, I've trained 3,000+ people and given 75+ guest lectures.
+• Turnaround. Restarted a multi-million-dollar John Hancock platform stalled two years by COVID, clearing 400+ backlog tickets
+in 9 months and taking all 5 modernization initiatives live across 20+ business divisions.
+• Predictability. Averaged 95%+ of planned work delivered per planning cycle since taking over my release train
+in Sep 2025, with under 5% sprint variance.
+• AI delivery. Steered a hybrid AI and RAG compliance engine to production, lowering false alarms in customer onboarding from
+30% to 10–15%.
+• Teaching. 3,000+ people trained since 2020, 75+ guest lectures and 1,000+ professionals mentored.
+
+CORE COMPETENCIES
+Release & Program Leadership: Release Train Engineering, PI Planning, ART Sync, Scrum-of-Scrums, SAFe® 6, Program & Portfolio
+Governance, Release Management, executive status reporting
+Scrum & Agile Facilitation: Sprint Planning, Backlog Refinement, Retrospectives, Kanban, Agile coaching, mentoring Scrum
+Masters, onshore/offshore teams
+Delivery Management: Risk & Dependency Management, RAID logs, change management, Function Point capacity planning,
+DevOps & CI/CD
+Technology: Generative AI & RAG, Azure AI, AKS, Apigee (JWT, OAuth 2.0), GitLab, Jenkins, OpenText xPression & Exstream, SS&C
+Chorus BPM (AWD)
+Mainframe: z/OS, COBOL, JCL, DB2, CICS, VSAM, CA-7
+Tools: Jira, Confluence, Azure DevOps, ServiceNow, MS Project, Power BI, Tableau, SQL, Miro, Visio
+Domains: Insurance, Financial Services, Healthcare, Retail
+
+PROFESSIONAL EXPERIENCE
+ATOS — Chennai, India & Boston, USA
+Senior Release Train Engineer / Program Manager
+
+Sep 2020 – Present
+Sep 2025 – Present | Chennai (Hybrid)
+
+Client: Global insurer · Core API, Customer Engagement & Compliance AI
+
+• Steered a hybrid AI and RAG compliance engine to production, lowering false alarms in customer onboarding from 30% to 10–
+15%.
+• Averaged 95%+ of planned work delivered each planning cycle (ART predictability) through disciplined PI planning.
+• Maintain a High health rating across the products, with under 5% sprint variance.
+• Reduced technical debt and strengthened platform security, moving 15 core services to AKS and 7 microservices to Gradle.
+• Govern releases for 30+ teams and 200+ people across a global insurer's portfolio, leading the cross-team call on dependencies, risks and go/no-go decisions.
+Technical Product Manager / Release Train Engineer
+
+Sep 2022 – Aug 2025 | Boston, USA (On-site)
+
+Client: John Hancock · AWD to SS&C Chorus BPM modernization
+
+• Restarted a multi-million-dollar platform program stalled for two years by COVID, rebuilding the release process and clearing
+400+ backlog tickets in 9 months.
+• Brought effort estimates to within 10% of actual work in the first quarter by introducing structured capacity planning (Function
+Point analysis), trimming overtime and idle time.
+• Ran a portfolio of 5 modernization initiatives across 20+ business divisions, taking every one live through coordinated
+upgrades.
+• Delivered the AWD workflow platform's first upgrades since its 2019 release, finishing most of the work by Q2 2023, within a
+year of taking over.
+• Moved all my teams off AWD's legacy EnCorr and Viewstation desktops onto SS&C Chorus BPM, its current generation, before
+handing over in Aug 2025.
+
+Madhan Irulandi | Page 1 of 2
+
+Senior Scrum Master / Agile Project Manager
+
+Sep 2020 – Aug 2022 | Chennai (Hybrid)
+
+Client: Allstate · Customer communications platform
+
+• Moved production deployments from monthly to near-weekly by clearing blockers as the main escalation point between
+engineering and client executives, reaching 20M+ Allstate and 400K Encompass policyholders.
+• Cut program cost 25% by streamlining the SDLC, without hiring, and raised team velocity 30% through hands-on Agile coaching.
+
+SYNTEL (acquired by Atos) — Scrum Master / Agile Delivery Lead
+
+Jan 2020 – Aug 2020 | Chennai
+
+Client: TruStage (formerly CUNA Mutual Group) · xPression document project
+
+• Stood up a new team and ramped it to full speed within two months, completing half of the work with a third of the existing
+vendor's headcount.
+• Shipped every production release defect-free by building a layered automated test framework for regression, smoke and
+schema checks.
+
+COGNIZANT — Chennai, India
+
+Jul 2014 – Jan 2020
+Technology Lead / Senior Analyst (2017–2020) • Systems Engineer / Application Analyst (2015–2017) • Production Support Engineer
+(2014–2015)
+
+• MetLife: Spearheaded the move from a legacy publisher to OpenText xPression, migrating 4,500+ policy documents with zero
+defects and freeing up 2,000 engineering hours a quarter (Certificate of Excellence, May 2019).
+• Anthem (now Elevance Health): Consolidated legacy layouts into dynamic master templates with OpenText Exstream and
+xPression, saving $300K a year in operating costs.
+• Walmart: Resolved 50+ critical P1/P2 outages and 120 high-priority incidents through peak retail periods on the mainframe
+Order Management System (z/OS, COBOL, JCL, DB2, CICS, VSAM, CA-7).
+
+DELL TECHNOLOGIES — Senior Customer Care Representative
+Aug 2013 – May 2014 | Chennai
+• Headed a 15-member team as acting Operations Project Lead, recovering more than $150K a quarter by settling high-value
+payment discrepancies.
+EARLY CAREER — Wizcraft & Encompass Event Group (freelance, part-time)
+2009 – 2013
+• Part-time freelance work: ran a 40-strong VIP hospitality crew at Chepauk during the IPL and drove Chennai promotions for
+India's first Formula 1 Grand Prix (2011), before moving into IT in 2013.
+
+CERTIFICATIONS
+• Certified SAFe® 6 Scrum Master • Certified SAFe® 6 Product Owner / Product Manager • Microsoft Certified Trainer
+• Microsoft Azure AI Engineer Associate • Microsoft Azure Administrator Associate • GitLab Certified CI/CD Associate
+• GitLab Certified Git Associate • Certified Jenkins Engineer • PagerDuty Incident Management • 80+ in total
+
+EDUCATION
+Master of Science, Computer Science (AI & ML) — Woolf University
+Bachelor of Engineering, Electrical & Electronics — VELS University, First Class
+
+Aug 2026 – Mar 2028 (in progress)
+2009 – 2013
+
+TRAINING, RECOGNITION & COMMUNITY
+• Training: Microsoft Certified Trainer every year since 2020, teaching SAFe® practice (SM & POPM; not official Scaled Agile
+courses), Scrum & Kanban, Azure AI-102, AZ-104, AZ-900/AI-900/DP-900 and AWS & Google Cloud fundamentals to corporate
+teams, graduates and colleges.
+• Client feedback: “Overall, your professionalism, organizational skills, and commitment to agile excellence make a real
+difference to our delivery and team confidence.” (Client Project Manager, insurance client).
+• Awards: Eviden Spot Award, Scrum Master / Release Manager (Apr 2024); Star Volunteer, Atos Prayas Foundation (Mar 2023);
+Atos Spot Recognition for Interviewing and for Cloud Training (Feb 2022); Certificate of Excellence, MetLife & Cognizant (May
+2019).
+• Speaking: 75+ guest lectures, including Azure AI at VIT Chennai and Jeppiaar Engineering College, a cloud workshop for 215
+Atos graduates, and CSR cloud training with NIIT Foundation and EduBridge India.
+• Code for Boston: Volunteer member on the non-technical side (Sep 2022 – Aug 2025), helping newcomers get set up on
+MAPLE, Urban League Heat Pump Accelerator, National Police Data Coalition and HEAT.
+
+Madhan Irulandi | Page 2 of 2
