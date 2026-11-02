@@ -19,6 +19,9 @@
     var d = new Date();
     return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0');
   }
+  function nice(iso) {
+    return new Date(iso + 'T00:00:00').toLocaleDateString('en-GB', { weekday: 'long', day: 'numeric', month: 'long' });
+  }
   function store(k, v) {
     try { if (v === undefined) return localStorage.getItem(k); localStorage.setItem(k, v); } catch (e) { return null; }
   }
@@ -35,18 +38,20 @@
 
   function renderDay(day, data, open) {
     var box = el('details', 'drill-day');
-    box.id = 'day-' + day.n;
+    box.id = day.id;
     if (open) box.open = true;
-    var parts = day.title.split(' · ');
+    var when = new Date(day.date + 'T00:00:00').toLocaleDateString('en-GB', { weekday: 'short', day: 'numeric', month: 'short' });
     box.appendChild(el('summary', null,
-      '<span class="drill-num">Day ' + day.n + '</span><span class="drill-topic">' + esc(parts.slice(1).join(' · ')) +
+      '<span class="drill-num">' + esc(day.series) + ' · ' + esc(when) + '</span><span class="drill-topic">' + esc(day.topic) +
       '</span><span class="drill-score" data-score></span>'));
 
-    var tw = el('div', 'drill-tables');
-    tw.innerHTML = '<p class="drill-tlead">Sample data for today</p>' + day.tables.map(function (t) { return table(t, data.tables[t]); }).join('');
-    box.appendChild(tw);
+    if (day.tables.length) {
+      var tw = el('div', 'drill-tables');
+      tw.innerHTML = '<p class="drill-tlead">Sample data for this set</p>' + day.tables.map(function (t) { return table(t, data.tables[t]); }).join('');
+      box.appendChild(tw);
+    }
 
-    var key = 'drill-sql-' + day.n, saved = {};
+    var key = 'drill-' + day.id, saved = {};
     try { saved = JSON.parse(store(key) || '{}'); } catch (e) {}
     var scoreEl = box.querySelector('[data-score]');
     function score() {
@@ -86,7 +91,7 @@
 
     var reset = el('button', 'btn ghost drill-reset', 'Try this day again');
     reset.type = 'button';
-    reset.addEventListener('click', function () { try { localStorage.removeItem(key); } catch (e) {} location.hash = 'day-' + day.n; location.reload(); });
+    reset.addEventListener('click', function () { try { localStorage.removeItem(key); } catch (e) {} location.hash = day.id; location.reload(); });
     box.appendChild(reset);
     score();
     return box;
@@ -100,14 +105,14 @@
       var next = data.days.filter(function (d) { return d.date > t; })[0];
       root.innerHTML = '';
       if (!live.length) {
-        root.appendChild(el('p', 'drill-soon', 'The first set unlocks on ' + esc(data.days[0].date) + '.'));
+        root.appendChild(el('p', 'drill-soon', 'The first set unlocks on ' + nice(data.days[0].date) + '.'));
         return;
       }
-      var hash = (location.hash.match(/day-(\d+)/) || [])[1];
-      var openN = hash ? +hash : live[live.length - 1].n;
-      live.slice().reverse().forEach(function (d) { root.appendChild(renderDay(d, data, d.n === openN)); });
-      if (next) root.insertBefore(el('p', 'drill-soon', 'Next set: Day ' + next.n + ' unlocks on ' + esc(next.date) + '.'), root.firstChild);
-      var target = document.getElementById('day-' + openN);
+      var hash = location.hash.slice(1);
+      var openId = live.some(function (d) { return d.id === hash; }) ? hash : live[live.length - 1].id;
+      live.slice().reverse().forEach(function (d) { root.appendChild(renderDay(d, data, d.id === openId)); });
+      if (next) root.insertBefore(el('p', 'drill-soon', 'Next set: ' + esc(next.series) + ', ' + nice(next.date) + '.'), root.firstChild);
+      var target = document.getElementById(openId);
       if (hash && target) target.scrollIntoView();
     })
     .catch(function () { root.innerHTML = '<p>Questions could not load. Please refresh.</p>'; });
