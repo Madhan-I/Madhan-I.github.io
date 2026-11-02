@@ -32,7 +32,7 @@ What finally worked was practice tests. Not to memorize answers, but to find my 
 The certificate was a beginning, not an end:
 
 - I started teaching what I'd learned, from a webinar to help people prepare for the AI-900 exam in March 2022 to a guest lecture on Azure Custom Vision at VIT Chennai in April 2023.
-- I renewed the certification every year, reaching my fourth year in 2023.
+- I renewed the certification every year, and more than five years on it is still current.
 - Most importantly, it gave me the confidence to take on AI delivery at work.
 
 ## Why it matters for my day job
