@@ -4,7 +4,7 @@ Read the guide the evening before you post. Run the Colab code to see each answe
 
 ---
 
-## Skill Check Technical #1 · 2026-11-03 · Insurance · Filtering rows
+## Skill Check Technical #1 · 2026-12-01 · Insurance · Filtering rows
 
 ### The idea in plain words
 
@@ -51,7 +51,7 @@ Expected output: Q1 [('C. Iyer',)] · Q2 [(4,)] · Q3 [(3,)] · Q4 [(3,)] · Q5 
 
 ---
 
-## Skill Check Technical #2 · 2026-11-10 · Banking · IN, BETWEEN, LIKE, NULL
+## Skill Check Technical #2 · 2026-12-08 · Banking · IN, BETWEEN, LIKE, NULL
 
 ### The idea in plain words
 
@@ -99,7 +99,7 @@ Expected output: Q1 [(4,)] · Q2 [(3,)] · Q3 [(2,)] · Q4 [(4,)] · Q5 [('BRANC
 
 ---
 
-## Skill Check Technical #3 · 2026-11-17 · Retail · Sorting, DISTINCT, CASE
+## Skill Check Technical #3 · 2026-12-15 · Retail · Sorting, DISTINCT, CASE
 
 ### The idea in plain words
 
@@ -147,7 +147,7 @@ Expected output: Q1 [('Kettle',)] · Q2 [(5,)] · Q3 [(2,)] · Q4 [('Jeans',)] �
 
 ---
 
-## Skill Check Technical #4 · 2026-11-24 · Health insurance claims · GROUP BY, HAVING
+## Skill Check Technical #4 · 2026-12-22 · Health insurance claims · GROUP BY, HAVING
 
 ### The idea in plain words
 
@@ -194,7 +194,7 @@ Expected output: Q1 [(None,)] · Q2 [('City Hospital',)] · Q3 [(1040.0,)] · Q4
 
 ---
 
-## Skill Check Technical #5 · 2026-12-01 · Retail suppliers · INNER and LEFT JOIN
+## Skill Check Technical #5 · 2026-12-29 · Retail suppliers · INNER and LEFT JOIN
 
 ### The idea in plain words
 
@@ -248,7 +248,7 @@ Expected output: Q1 [(5,)] · Q2 [(6,)] · Q3 [('HomeCo',)] · Q4 [(3,)] · Q5 [
 
 ---
 
-## Skill Check Technical #6 · 2026-12-08 · Agile delivery · Self joins and metrics
+## Skill Check Technical #6 · 2027-01-05 · Agile delivery · Self joins and metrics
 
 ### The idea in plain words
 
@@ -307,7 +307,7 @@ Expected output: Q1 [('Arun',)] · Q2 [(2,)] · Q3 [(70.0,)] · Q4 [(16,)] · Q5
 
 ---
 
-## Skill Check Technical #7 · 2026-12-15 · Banking · Subqueries
+## Skill Check Technical #7 · 2027-01-12 · Banking · Subqueries
 
 ### The idea in plain words
 
@@ -366,7 +366,7 @@ Expected output: Q1 [(2,)] · Q2 [(2,)] · Q3 [(2,)] · Q4 [(0,)] · Q5 [(4,)]
 
 ---
 
-## Skill Check Technical #8 · 2026-12-22 · Product analytics · Funnels with CTEs
+## Skill Check Technical #8 · 2027-01-19 · Product analytics · Funnels with CTEs
 
 ### The idea in plain words
 
@@ -417,7 +417,7 @@ Expected output: Q1 [(4,)] · Q2 [(3,)] · Q3 [(50.0,)] · Q4 [(1,)]
 
 ---
 
-## Skill Check Technical #9 · 2026-12-29 · Retail stores · Ranking with window functions
+## Skill Check Technical #9 · 2027-01-26 · Retail stores · Ranking with window functions
 
 ### The idea in plain words
 
@@ -466,7 +466,7 @@ Expected output: Q1 [(3,)] · Q2 [(3, 2)] · Q3 [('Mumbai',)] · Q4 [(7,)] · Q5
 
 ---
 
-## Skill Check Technical #10 · 2027-01-05 · Banking ledger · Running totals, LAG, LEAD
+## Skill Check Technical #10 · 2027-02-02 · Banking ledger · Running totals, LAG, LEAD
 
 ### The idea in plain words
 
@@ -514,7 +514,7 @@ Expected output: Q1 [(2000,)] · Q2 [(None,)] · Q3 [(5000,)] · Q4 [(3,)] · Q5
 
 ---
 
-## Skill Check Technical #11 · 2027-01-12 · Insurance renewals · Messy text and dates
+## Skill Check Technical #11 · 2027-02-09 · Insurance renewals · Messy text and dates
 
 ### The idea in plain words
 
@@ -565,7 +565,7 @@ Expected output: Q1 [(3,)] · Q2 [('LIF',)] · Q3 [('05-01-2027',)] · Q4 [(2,)]
 
 ---
 
-## Skill Check Technical #12 · 2027-01-19 · Release planning · Set operations and query order
+## Skill Check Technical #12 · 2027-02-16 · Release planning · Set operations and query order
 
 ### The idea in plain words
 
@@ -615,7 +615,7 @@ Expected output: Q1 [(4,)] · Q2 [(7,)] · Q3 [(2,)] · Q4 [('Login',)]
 
 ---
 
-## Skill Check Technical #13 · 2027-01-26 · Investing · A personal stock portfolio
+## Skill Check Technical #13 · 2027-02-23 · Investing · A personal stock portfolio
 
 ### The idea in plain words
 
@@ -670,7 +670,7 @@ Expected output: Q1 [(400,)] · Q2 [(6540,)] · Q3 [('BLK',)] · Q4 [(766.67,)] 
 
 ---
 
-## Skill Check Technical #14 · 2027-02-02 · Career moves · A job-application tracker
+## Skill Check Technical #14 · 2027-03-02 · Career moves · A job-application tracker
 
 ### The idea in plain words
 

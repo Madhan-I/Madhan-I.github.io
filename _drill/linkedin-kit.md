@@ -6,7 +6,7 @@ Poll limits: question ≤140 characters, 2-4 options ≤30 characters each, can'
 
 ---
 
-## #1 · Tue 03 Nov · Technical: Insurance · Filtering rows
+## #1 · Tue 01 Dec · Technical: Insurance · Filtering rows
 
 **Post text**
 
@@ -41,7 +41,7 @@ Vote below. Answer and reasoning in the comments next time.
 
 ---
 
-## #2 · Wed 04 Nov · RTE & Agile coaching: RTE · PI Planning under pressure
+## #2 · Wed 02 Dec · RTE & Agile coaching: RTE · PI Planning under pressure
 
 **Post text**
 
@@ -68,7 +68,7 @@ Vote below. Answer and reasoning in the comments next time.
 
 ---
 
-## #3 · Thu 05 Nov · Product, program & portfolio: Product management · Value over volume
+## #3 · Thu 03 Dec · Product, program & portfolio: Product management · Value over volume
 
 **Post text**
 
@@ -95,7 +95,7 @@ Vote below. Answer and reasoning in the comments next time.
 
 ---
 
-## #4 · Tue 10 Nov · Technical: Banking · IN, BETWEEN, LIKE, NULL
+## #4 · Tue 08 Dec · Technical: Banking · IN, BETWEEN, LIKE, NULL
 
 **Post text**
 
@@ -131,7 +131,7 @@ Vote below. Answer and reasoning in the comments next time.
 
 ---
 
-## #5 · Wed 11 Nov · RTE & Agile coaching: Agile coaching · Reading the signals
+## #5 · Wed 09 Dec · RTE & Agile coaching: Agile coaching · Reading the signals
 
 **Post text**
 
@@ -158,7 +158,7 @@ Vote below. Answer and reasoning in the comments next time.
 
 ---
 
-## #6 · Thu 12 Nov · Product, program & portfolio: Program & portfolio · Money, time, priority
+## #6 · Thu 10 Dec · Product, program & portfolio: Program & portfolio · Money, time, priority
 
 **Post text**
 
@@ -185,7 +185,7 @@ Vote below. Answer and reasoning in the comments next time.
 
 ---
 
-## #7 · Tue 17 Nov · Technical: Retail · Sorting, DISTINCT, CASE
+## #7 · Tue 15 Dec · Technical: Retail · Sorting, DISTINCT, CASE
 
 **Post text**
 
@@ -221,7 +221,7 @@ Vote below. Answer and reasoning in the comments next time.
 
 ---
 
-## #8 · Wed 18 Nov · RTE & Agile coaching: RTE · Inspect & Adapt
+## #8 · Wed 16 Dec · RTE & Agile coaching: RTE · Inspect & Adapt
 
 **Post text**
 
@@ -248,7 +248,7 @@ Vote below. Answer and reasoning in the comments next time.
 
 ---
 
-## #9 · Thu 19 Nov · Product, program & portfolio: Product · Discovery and prioritisation
+## #9 · Thu 17 Dec · Product, program & portfolio: Product · Discovery and prioritisation
 
 **Post text**
 
@@ -275,7 +275,7 @@ Vote below. Answer and reasoning in the comments next time.
 
 ---
 
-## #10 · Tue 24 Nov · Technical: Health insurance claims · GROUP BY, HAVING
+## #10 · Tue 22 Dec · Technical: Health insurance claims · GROUP BY, HAVING
 
 **Post text**
 
@@ -311,7 +311,7 @@ Vote below. Answer and reasoning in the comments next time.
 
 ---
 
-## #11 · Wed 25 Nov · RTE & Agile coaching: Agile coaching · Coaching leaders
+## #11 · Wed 23 Dec · RTE & Agile coaching: Agile coaching · Coaching leaders
 
 **Post text**
 
@@ -338,7 +338,7 @@ Vote below. Answer and reasoning in the comments next time.
 
 ---
 
-## #12 · Thu 26 Nov · Product, program & portfolio: Program · Risk and RAID
+## #12 · Thu 24 Dec · Product, program & portfolio: Program · Risk and RAID
 
 **Post text**
 
@@ -365,7 +365,7 @@ Vote below. Answer and reasoning in the comments next time.
 
 ---
 
-## #13 · Tue 01 Dec · Technical: Retail suppliers · INNER and LEFT JOIN
+## #13 · Tue 29 Dec · Technical: Retail suppliers · INNER and LEFT JOIN
 
 **Post text**
 
@@ -401,7 +401,7 @@ Vote below. Answer and reasoning in the comments next time.
 
 ---
 
-## #14 · Wed 02 Dec · RTE & Agile coaching: RTE · Dependencies and ART sync
+## #14 · Wed 30 Dec · RTE & Agile coaching: RTE · Dependencies and ART sync
 
 **Post text**
 
@@ -428,7 +428,7 @@ Vote below. Answer and reasoning in the comments next time.
 
 ---
 
-## #15 · Thu 03 Dec · Product, program & portfolio: Portfolio · Lean budgets
+## #15 · Thu 31 Dec · Product, program & portfolio: Portfolio · Lean budgets
 
 **Post text**
 
@@ -455,7 +455,7 @@ Vote below. Answer and reasoning in the comments next time.
 
 ---
 
-## #16 · Tue 08 Dec · Technical: Agile delivery · Self joins and metrics
+## #16 · Tue 05 Jan · Technical: Agile delivery · Self joins and metrics
 
 **Post text**
 
@@ -489,7 +489,7 @@ Vote below. Answer and reasoning in the comments next time.
 
 ---
 
-## #17 · Wed 09 Dec · RTE & Agile coaching: Agile coaching · Flow metrics
+## #17 · Wed 06 Jan · RTE & Agile coaching: Agile coaching · Flow metrics
 
 **Post text**
 
@@ -516,7 +516,7 @@ Vote below. Answer and reasoning in the comments next time.
 
 ---
 
-## #18 · Thu 10 Dec · Product, program & portfolio: Product · Metrics that matter
+## #18 · Thu 07 Jan · Product, program & portfolio: Product · Metrics that matter
 
 **Post text**
 
@@ -543,7 +543,7 @@ Vote below. Answer and reasoning in the comments next time.
 
 ---
 
-## #19 · Tue 15 Dec · Technical: Banking · Subqueries
+## #19 · Tue 12 Jan · Technical: Banking · Subqueries
 
 **Post text**
 
@@ -578,7 +578,7 @@ Vote below. Answer and reasoning in the comments next time.
 
 ---
 
-## #20 · Wed 16 Dec · RTE & Agile coaching: RTE · Release governance
+## #20 · Wed 13 Jan · RTE & Agile coaching: RTE · Release governance
 
 **Post text**
 
@@ -605,7 +605,7 @@ Vote below. Answer and reasoning in the comments next time.
 
 ---
 
-## #21 · Thu 17 Dec · Product, program & portfolio: Program · Stakeholders and communication
+## #21 · Thu 14 Jan · Product, program & portfolio: Program · Stakeholders and communication
 
 **Post text**
 
@@ -632,7 +632,7 @@ Vote below. Answer and reasoning in the comments next time.
 
 ---
 
-## #22 · Tue 22 Dec · Technical: Product analytics · Funnels with CTEs
+## #22 · Tue 19 Jan · Technical: Product analytics · Funnels with CTEs
 
 **Post text**
 
@@ -668,7 +668,7 @@ Vote below. Answer and reasoning in the comments next time.
 
 ---
 
-## #23 · Wed 23 Dec · RTE & Agile coaching: Agile coaching · Conflict and safety
+## #23 · Wed 20 Jan · RTE & Agile coaching: Agile coaching · Conflict and safety
 
 **Post text**
 
@@ -695,7 +695,7 @@ Vote below. Answer and reasoning in the comments next time.
 
 ---
 
-## #24 · Thu 24 Dec · Product, program & portfolio: Portfolio · OKRs and strategic themes
+## #24 · Thu 21 Jan · Product, program & portfolio: Portfolio · OKRs and strategic themes
 
 **Post text**
 
@@ -722,7 +722,7 @@ Vote below. Answer and reasoning in the comments next time.
 
 ---
 
-## #25 · Tue 29 Dec · Technical: Retail stores · Ranking with window functions
+## #25 · Tue 26 Jan · Technical: Retail stores · Ranking with window functions
 
 **Post text**
 
@@ -758,7 +758,7 @@ Vote below. Answer and reasoning in the comments next time.
 
 ---
 
-## #26 · Wed 30 Dec · RTE & Agile coaching: RTE · AI in delivery
+## #26 · Wed 27 Jan · RTE & Agile coaching: RTE · AI in delivery
 
 **Post text**
 
@@ -785,7 +785,7 @@ Vote below. Answer and reasoning in the comments next time.
 
 ---
 
-## #27 · Thu 31 Dec · Product, program & portfolio: Program · Estimation and vendors
+## #27 · Thu 28 Jan · Product, program & portfolio: Program · Estimation and vendors
 
 **Post text**
 
@@ -812,7 +812,7 @@ Vote below. Answer and reasoning in the comments next time.
 
 ---
 
-## #28 · Tue 05 Jan · Technical: Banking ledger · Running totals, LAG, LEAD
+## #28 · Tue 02 Feb · Technical: Banking ledger · Running totals, LAG, LEAD
 
 **Post text**
 
@@ -848,7 +848,7 @@ Vote below. Answer and reasoning in the comments next time.
 
 ---
 
-## #29 · Tue 12 Jan · Technical: Insurance renewals · Messy text and dates
+## #29 · Tue 09 Feb · Technical: Insurance renewals · Messy text and dates
 
 **Post text**
 
@@ -882,7 +882,7 @@ Vote below. Answer and reasoning in the comments next time.
 
 ---
 
-## #30 · Tue 19 Jan · Technical: Release planning · Set operations and query order
+## #30 · Tue 16 Feb · Technical: Release planning · Set operations and query order
 
 **Post text**
 
@@ -915,7 +915,7 @@ Vote below. Answer and reasoning in the comments next time.
 
 ---
 
-## #31 · Tue 26 Jan · Technical: Investing · A personal stock portfolio
+## #31 · Tue 23 Feb · Technical: Investing · A personal stock portfolio
 
 **Post text**
 
@@ -951,7 +951,7 @@ Vote below. Answer and reasoning in the comments next time.
 
 ---
 
-## #32 · Tue 02 Feb · Technical: Career moves · A job-application tracker
+## #32 · Tue 02 Mar · Technical: Career moves · A job-application tracker
 
 **Post text**
 

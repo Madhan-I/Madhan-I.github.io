@@ -319,7 +319,7 @@ print("errors:", errors)
 # ---- exports: site JSON + LinkedIn kit ----
 import json, datetime, re
 if len(sys.argv) > 3:
-    START = datetime.date(2026, 11, 3)
+    START = datetime.date(2026, 12, 1)
     SITE = "https://madhanirulandi.com/drill/"
     tbls = {}
     def tdata(t):

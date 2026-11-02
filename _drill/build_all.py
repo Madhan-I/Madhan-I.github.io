@@ -95,7 +95,7 @@ def shuffled(bank):
 AGILE += shuffled(AGILE_MORE)
 MGMT += shuffled(MGMT_MORE)
 
-START = datetime.date(2026, 11, 3)  # a Tuesday
+START = datetime.date(2026, 12, 1)  # a Tuesday
 SITE = "https://madhanirulandi.com/drill/"
 SERIES = {
   "tech":  ("Technical", "#SQL #DataAnalytics #LearningInPublic #SkillCheck"),
