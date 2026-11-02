@@ -14,7 +14,15 @@ layout: default
       <p class="lede"><span class="ld-full">{{ p.intro | replace: "AI-enabled", '<span class="nw">AI-enabled</span>' }}</span>{% if p.intro_phone %}<span class="ld-phone">{{ p.intro_phone }}</span>{% endif %}</p>
       <div class="ctas">
         <a class="btn primary" data-goatcounter-click="click-hero-email" href="mailto:{{ p.email }}?subject=Opportunity%20for%20{{ p.name_first }}">Let's work together <svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></a>
-        {% if p.resume_file != "" %}<a class="btn" data-goatcounter-click="click-hero-resume" href="{{ '/assets/resume/' | append: p.resume_file | relative_url }}" download>Download resume <svg class="ic" aria-hidden="true"><use href="#i-file"/></svg></a>{% endif %}
+        {% if p.resume_file != "" %}<details class="res-menu">
+          <summary class="btn" data-goatcounter-click="click-hero-resume-menu">Download resume <svg class="ic" aria-hidden="true"><use href="#i-file"/></svg></summary>
+          <div class="res-pop" role="menu">
+            <a role="menuitem" href="{{ '/assets/resume/' | append: p.resume_file | relative_url }}" download data-goatcounter-click="click-hero-resume-2page"><b>2-page resume</b><i>PDF · full career detail</i><em>Recommended</em></a>
+            <a role="menuitem" href="{{ '/assets/resume/Madhan-Irulandi-Resume-1-page.pdf' | relative_url }}" download data-goatcounter-click="click-hero-resume-1page"><b>1-page summary</b><i>PDF · quick read</i></a>
+            <a role="menuitem" href="{{ '/assets/resume/Madhan-Irulandi-Resume.docx' | relative_url }}" download data-goatcounter-click="click-hero-resume-word"><b>Word version</b><i>.docx · for application forms</i></a>
+            <p class="res-note">Want everything? This website is the full version.</p>
+          </div>
+        </details>{% endif %}
         {% if p.github != "" %}<a class="btn ghost" href="https://github.com/{{ p.github }}" target="_blank" rel="noopener">GitHub ↗</a>{% endif %}
       </div>
     </div>
@@ -216,7 +224,7 @@ layout: default
     </div>
     <div class="contact-bottom reveal">
       <div class="res-tiles">
-        {% if p.resume_file != "" %}<a class="res-btn" href="{{ '/assets/resume/' | append: p.resume_file | relative_url }}" data-goatcounter-click="click-contact-resume" download><svg class="ic" aria-hidden="true"><use href="#i-file"/></svg><span><small>Resume</small>Download PDF</span></a><a class="res-btn" href="{{ '/assets/resume/Madhan-Irulandi-Resume.docx' | relative_url }}" data-goatcounter-click="click-contact-resume-word" download><svg class="ic" aria-hidden="true"><use href="#i-file"/></svg><span><small>Resume</small>Download Word</span></a>
+        {% if p.resume_file != "" %}<a class="res-btn" href="{{ '/assets/resume/' | append: p.resume_file | relative_url }}" data-goatcounter-click="click-contact-resume" download><svg class="ic" aria-hidden="true"><use href="#i-file"/></svg><span><small>Resume · 2 pages</small>Download PDF</span></a><a class="res-btn" href="{{ '/assets/resume/Madhan-Irulandi-Resume-1-page.pdf' | relative_url }}" data-goatcounter-click="click-contact-resume-1page" download><svg class="ic" aria-hidden="true"><use href="#i-file"/></svg><span><small>Summary · 1 page</small>Download PDF</span></a><a class="res-word" href="{{ '/assets/resume/Madhan-Irulandi-Resume.docx' | relative_url }}" data-goatcounter-click="click-contact-resume-word" download>Need Word? Download the .docx version</a>
         {% else %}<a class="v" href="mailto:{{ p.email }}?subject=Resume%20request">Request by email</a>{% endif %}
       </div>
       <div class="card email-card">

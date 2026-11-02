@@ -470,3 +470,19 @@ document.querySelectorAll('.copy-btn').forEach(function (b) {
   openFor(location.hash);
   if (location.hash && d.open) { var el = document.querySelector(location.hash); if (el) el.scrollIntoView(); }
 })();
+
+// Resume download menu: close on outside click, Escape, or after a choice
+(function () {
+  var menus = document.querySelectorAll('details.res-menu');
+  if (!menus.length) return;
+  document.addEventListener('click', function (e) {
+    menus.forEach(function (m) {
+      if (m.open && (!m.contains(e.target) || e.target.closest('.res-pop a'))) {
+        setTimeout(function () { m.open = false; }, 0);
+      }
+    });
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') menus.forEach(function (m) { if (m.open) { m.open = false; m.querySelector('summary').focus(); } });
+  });
+})();
