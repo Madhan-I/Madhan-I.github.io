@@ -1,10 +1,12 @@
 ---
 title: "2,000 requests, zero-defect releases"
 teaser: "How automated testing made every release a clean one"
+description: "How a new team reached full speed in two months and shipped every production release with zero defects, with schedules 35% shorter."
 summary: How a multi-tier automated testing framework made every TruStage release clean, and schedules 35% shorter.
 outcome: "Zero-defect production releases, schedules 35% shorter, and a new team at full speed within two months."
 hashtags: [TestAutomation, ZeroDefect, QualityEngineering, ScrumMaster, xPression]
 redirect_from:
+  - /blog/2026/02/zero-defect-releases-trustage/
   - /blog/2026/11/zero-defect-releases-trustage/
 tags: [Quality, Delivery]
 image: /assets/images/share/post-2026-02-24.jpg

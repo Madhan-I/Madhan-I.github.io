@@ -3,10 +3,12 @@ featured: 1
 period: "2022 – 2025"
 title: "400 tickets, two lost years, nine months to recover"
 teaser: "How a frozen program got moving again in nine months"
+description: "How release governance and real capacity planning got a platform program frozen for two years moving again: 400+ tickets cleared in nine months."
 summary: How release governance brought a frozen John Hancock platform program back to life.
 outcome: "A platform frozen for two years moving again: 400+ backlog tickets cleared in nine months and five modernization initiatives live across 20+ business divisions."
 hashtags: [ReleaseTrainEngineer, SSCChorus, AWD, BPM, PIPlanning, ProgramRecovery]
 redirect_from:
+  - /blog/2026/06/reviving-a-stalled-platform-john-hancock/
   - /blog/2026/10/reviving-a-stalled-platform-john-hancock/
 tags: [Delivery, Leadership]
 image: /assets/images/share/post-2026-06-02.jpg

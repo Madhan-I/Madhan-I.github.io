@@ -37,7 +37,7 @@ Release Train Engineering, Scaled Agile Framework (SAFe), PI planning, program a
 - [Resume, 1-page summary (PDF)](https://madhanirulandi.com/assets/resume/Madhan-Irulandi-Resume-1-page.pdf)
 - [Resume (plain text)](https://madhanirulandi.com/resume.txt)
 - [Case study: John Hancock platform restart](https://madhanirulandi.com/case-studies/john-hancock/)
-- [400 tickets, two lost years, nine months to recover](https://madhanirulandi.com/blog/2026/06/reviving-a-stalled-platform-john-hancock/)
+- [400 tickets, two lost years, nine months to recover](https://madhanirulandi.com/blog/2026/06/reviving-a-stalled-platform/)
 - [Running a portfolio where AI has to be right](https://madhanirulandi.com/blog/2026/10/ai-compliance-portfolio/)
 - [All writing](https://madhanirulandi.com/blog/)
 
