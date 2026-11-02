@@ -1,0 +1,18 @@
+---
+layout: default
+title: "Daily Data Drill: SQL practice questions"
+description: "Five short SQL questions a day with instant answers, built on banking, investing, retail, insurance and product-delivery examples."
+permalink: /drill/
+---
+<section class="slide tone-white drill">
+  <div class="wrap">
+    <span class="label">Daily Data Drill</span>
+    <h1>Five questions a day</h1>
+    <p class="drill-lede">Short SQL questions built on everyday business data: banking, investing, retail, insurance and product delivery. Pick an answer to see right away whether you got it and why. A new set unlocks every day.</p>
+    <p class="drill-note">All company names, tickers and figures are made-up practice data.</p>
+    <div id="drill" class="drill-app" data-src="{{ '/assets/data/drill-sql.json' | relative_url }}">
+      <p>Loading questions…</p>
+    </div>
+  </div>
+</section>
+<script src="{{ '/assets/js/drill.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>

@@ -5224,3 +5224,42 @@ html body #writing .writing-cards li.has-img {
   margin: 0 !important;
   overflow: hidden
 }
+
+/* Daily Data Drill (/drill/) */
+.drill h1 { margin: 10px 0 12px }
+.drill-lede { max-width: 62ch; color: var(--text) }
+.drill-note, .drill-soon { font: 500 14px/1.5 var(--body); color: var(--muted) }
+.drill-app { margin-top: 28px; display: grid; gap: 16px; max-width: 820px }
+.drill-day { border: 1px solid var(--line); border-radius: var(--radius); background: #fff; box-shadow: var(--shadow); overflow: hidden }
+.drill-day summary { display: flex; align-items: center; gap: 12px; padding: 18px 20px; cursor: pointer; list-style: none; font: 600 16px/1.3 var(--body); color: var(--ink) }
+.drill-day summary::-webkit-details-marker { display: none }
+.drill-day summary::after { content: "+"; margin-left: auto; font: 500 22px/1 var(--mono); color: var(--muted) }
+.drill-day[open] summary::after { content: "−" }
+.drill-day[open] summary { border-bottom: 1px solid var(--line) }
+.drill-num { font: 600 12px/1 var(--mono); text-transform: uppercase; color: var(--brand); white-space: nowrap }
+.drill-score { font: 600 13px/1 var(--mono); color: var(--muted); white-space: nowrap }
+.drill-tables { padding: 16px 20px 4px; background: var(--tint) }
+.drill-tlead { margin: 0 0 8px; font: 600 12px/1 var(--mono); text-transform: uppercase; color: var(--muted) }
+.drill-tname { margin: 10px 0 6px; font: 600 13px/1 var(--mono); color: var(--ink) }
+.drill-scroll { overflow-x: auto; margin-bottom: 10px }
+.drill-table table { border-collapse: collapse; font: 13px/1.4 var(--mono); background: #fff; min-width: 100% }
+.drill-table th, .drill-table td { border: 1px solid var(--line); padding: 5px 9px; text-align: left; white-space: nowrap }
+.drill-table th { background: #fff; color: var(--ink) }
+.drill-table td.null { color: var(--muted); font-style: italic }
+.drill-q { border: 0; margin: 0; padding: 18px 20px 6px; min-width: 0 }
+.drill-q + .drill-q { border-top: 1px dashed var(--line) }
+.drill-q legend { float: left; width: 100%; padding: 0; margin-bottom: 12px; font: 500 16px/1.5 var(--body); color: var(--ink) }
+.drill-q legend span { font-weight: 700; color: var(--brand) }
+.drill-q code, .drill-why code, .drill-opt code { font: 13.5px/1.4 var(--mono); background: var(--tint); padding: 1px 5px; border-radius: 5px; overflow-wrap: anywhere }
+.drill-opts { clear: both; display: grid; gap: 8px }
+.drill-opt { display: flex; gap: 10px; align-items: flex-start; text-align: left; width: 100%; padding: 11px 14px; border: 1.5px solid var(--line); border-radius: 10px; background: #fff; font: 15px/1.45 var(--body); color: var(--text); cursor: pointer; transition: border-color .15s, background .15s }
+.drill-opt b { font-family: var(--mono); color: var(--muted) }
+.drill-opt:hover:not(:disabled) { border-color: var(--navy) }
+.drill-opt:disabled { cursor: default }
+.drill-opt.right { border-color: #1E8E5A; background: #EAF7F0 }
+.drill-opt.right b { color: #1E8E5A }
+.drill-opt.wrong { border-color: #C4392F; background: #FCEDEC }
+.drill-opt.wrong b { color: #C4392F }
+.drill-why { margin: 12px 0 8px; padding: 12px 14px; border-left: 3px solid var(--brand); background: var(--tint); border-radius: 0 10px 10px 0; font: 15px/1.5 var(--body) }
+.drill-reset { margin: 10px 20px 20px }
+@media (max-width: 600px) { .drill-day summary { flex-wrap: wrap } .drill-q, .drill-tables { padding-inline: 16px } }
