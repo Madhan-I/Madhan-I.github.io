@@ -98,9 +98,9 @@ MGMT += shuffled(MGMT_MORE)
 START = datetime.date(2026, 11, 3)  # a Tuesday
 SITE = "https://madhanirulandi.com/drill/"
 SERIES = {
-  "tech":  ("Technical", "#SQL #DataAnalytics #LearningInPublic #DailyDataDrill"),
-  "agile": ("RTE & Agile coaching", "#SAFe #ReleaseTrainEngineer #AgileCoaching #Leadership"),
-  "mgmt":  ("Product, program & portfolio", "#ProductManagement #ProgramManagement #PortfolioManagement #Leadership"),
+  "tech":  ("Technical", "#SQL #DataAnalytics #LearningInPublic #SkillCheck"),
+  "agile": ("RTE & Agile coaching", "#SAFe #ReleaseTrainEngineer #AgileCoaching #SkillCheck"),
+  "mgmt":  ("Product, program & portfolio", "#ProductManagement #ProgramManagement #PortfolioManagement #SkillCheck"),
 }
 tbls = {}
 def tdata(t):
@@ -129,7 +129,7 @@ for w in range(weeks):
                      "questions": [{"q": a, "options": b, "answer": "ABCD".index(c), "why": d} for a, b, c, d in qs]})
 days.sort(key=lambda d: d["date"])
 
-kit = ["# Daily Data Drill: LinkedIn kit\n\nTue technical · Wed RTE & Agile coaching · Thu product, program & portfolio.\n\n",
+kit = ["# Skill Check: LinkedIn kit\n\nTue technical · Wed RTE & Agile coaching · Thu product, program & portfolio.\n\n",
        "Poll limits: question ≤140 characters, 2-4 options ≤30 characters each, can't be edited after posting. ",
        "Put the link in the first comment. Comment last post's answer before publishing the next one.\n"]
 for n, d in enumerate(days, 1):
@@ -140,7 +140,7 @@ for n, d in enumerate(days, 1):
     x = qs[pick]
     plain = re.sub(r"`([^`]*)`", r"\1", x["q"])
     pollq = plain if len(plain) <= 140 else "Which option is correct? Answer before you look it up."
-    body = f"Drill #{n} · {d['series']}: {d['topic']} 🧠\n\n{plain}\n\n"
+    body = f"Skill Check #{n} · {d['series']}: {d['topic']} 🧠\n\n{plain}\n\n"
     if d["tables"]:
         td = tbls[d["tables"][0]]
         body += f"Table: {d['tables'][0]}\n" + "\n".join([" | ".join(map(str, td["cols"]))] + [" | ".join(map(str, r)) for r in td["rows"][:6]]) + "\n\n"

@@ -1,4 +1,4 @@
-/* Daily Data Drill: renders quiz days from a JSON file. No outside requests. */
+/* Skill Check: renders quiz days from a JSON file. No outside requests. */
 (function () {
   var root = document.getElementById('drill');
   if (!root) return;
