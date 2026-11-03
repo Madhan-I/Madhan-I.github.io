@@ -32,7 +32,7 @@ What finally worked was practice tests. Not to memorize answers, but to find my 
 The certificate was a beginning, not an end:
 
 - I started teaching what I'd learned, from a webinar to help people prepare for the AI-900 exam in March 2022 to a guest lecture on Azure Custom Vision at VIT Chennai in April 2023.
-- I renewed the certification every year. Counting the earlier AI-100 version I held from 2020, I have held the Azure AI Engineer Associate certification since 2020, and it is still current.
+- I renewed the certification every year. Counting the earlier AI-100 version, I have held the Azure AI Engineer Associate certification since 2020, and it is still current.
 - Most importantly, it gave me the confidence to take on AI delivery at work.
 
 ## Why it matters for my day job
