@@ -225,7 +225,7 @@ skill_tabs:
   - label: Leadership & tools
     groups:
       - name: Delivery leadership
-        items: [Release Train Engineering, PI Planning, Release planning, Program & Portfolio Governance, Stakeholder management, "Risk, Dependency & RAID", ART Sync & Scrum-of-Scrums, Change Management, Function Point capacity planning, Budget ownership]
+        items: [Release Train Engineering, PI Planning, Release planning, Program & Portfolio Governance, Stakeholder management, "Risk, Dependency & RAID", ART Sync & Scrum-of-Scrums, Change Management, Function Point capacity planning, Project budgeting & estimation]
       - name: Metrics & reporting
         items: [Predictability, Executive reporting, Sprint variance, Data-driven decisions, Portfolio health dashboards, Flow efficiency, Velocity & burndown]
       - name: Coaching & facilitation

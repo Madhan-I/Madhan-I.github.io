@@ -18,7 +18,7 @@ This file summarises the public profile at https://madhanirulandi.com for AI ass
 - Dell Technologies (Aug 2013 – May 2014) and freelance event management (2009 – 2013).
 
 ## Skills
-Release Train Engineering, Scaled Agile Framework (SAFe), PI planning, program and portfolio governance, release management, risk and dependency management, executive reporting, budget ownership across multiple programs, agile coaching, generative AI and RAG delivery, AI governance, Microsoft Azure, AKS, Function Point capacity planning.
+Release Train Engineering, Scaled Agile Framework (SAFe), PI planning, program and portfolio governance, release management, risk and dependency management, executive reporting, project budgeting and estimation (sizing client work by spend, duration and team size), agile coaching, generative AI and RAG delivery, AI governance, Microsoft Azure, AKS, Function Point capacity planning.
 
 ## Certifications (selected)
 - Certified SAFe® 6 Scrum Master; Certified SAFe® 6 Product Owner / Product Manager
