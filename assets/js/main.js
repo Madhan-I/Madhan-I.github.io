@@ -486,3 +486,24 @@ document.querySelectorAll('.copy-btn').forEach(function (b) {
     if (e.key === 'Escape') menus.forEach(function (m) { if (m.open) { m.open = false; m.querySelector('summary').focus(); } });
   });
 })();
+
+/* Phone only: show the first two points of each main role; the rest sit behind a "Show more" button.
+   Without JavaScript, or on wider screens, every point stays visible. (audit Nov 2026) */
+(function () {
+  if (!window.matchMedia || !window.matchMedia('(max-width: 640px)').matches) return;
+  [].forEach.call(document.querySelectorAll('.deck > li.job .job-body > ul'), function (ul) {
+    var items = [].slice.call(ul.children); if (items.length <= 2) return;
+    var extra = items.slice(2);
+    extra.forEach(function (li) { li.classList.add('pt-x'); li.hidden = true; });
+    var btn = document.createElement('button');
+    btn.type = 'button'; btn.className = 'pt-more'; btn.setAttribute('aria-expanded', 'false');
+    var label = function (open) { return open ? 'Show less' : 'Show ' + extra.length + ' more'; };
+    btn.textContent = label(false);
+    btn.addEventListener('click', function () {
+      var open = btn.getAttribute('aria-expanded') !== 'true';
+      extra.forEach(function (li) { li.hidden = !open; });
+      btn.setAttribute('aria-expanded', String(open)); btn.textContent = label(open);
+    });
+    ul.parentNode.insertBefore(btn, ul.nextSibling);
+  });
+})();

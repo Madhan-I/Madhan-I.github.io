@@ -6,8 +6,6 @@ summary: How we cut onboarding false positives from 30% to 10–15% at 95%+ aver
 outcome: "Onboarding false positives cut from 30% to 10–15%, with a multi-million-dollar portfolio held at 95%+ average predictability."
 hashtags: [AIGovernance, ComplianceAI, PortfolioManagement, SAFe, AKS]
 tags: [AI, Delivery]
-redirect_from:
-  - /blog/2026/10/ai-compliance-portfolio-manulife/
 image: /assets/images/share/post-2026-10-20.jpg
 ---
 

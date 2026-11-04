@@ -12,6 +12,8 @@
 name_first: Madhan
 name_last: Irulandi
 location: Chennai, India
+# Shown under your title in the hero. Leave "" to hide.
+relocation: "Open to relocation worldwide"
 status: ""
 
 # Big line under your name. Text inside highlight is shown in orange.
@@ -45,6 +47,8 @@ calendly: "https://calendly.com/irulandi-madhan/30min"
 
 # Optional: put a square photo in assets/images/ and type its file name here.
 photo: "madhan-headshot-bright.jpg"
+# Smaller, faster copy of the photo for modern browsers (the .jpg stays as the fallback).
+photo_webp: "madhan-headshot-bright-600.webp"
 
 # Skill boxes under the intro. Each group below is its own row on desktop.
 expertise_rows:
@@ -55,11 +59,11 @@ metrics:
   - tag: Predictability
     number: "95"
     suffix: "%+"
-    text: average ART predictability and story-point completion, across every PI in my current portfolio
+    text: average ART predictability across every PI in my current portfolio
   - tag: AI in production
-    number: "50"
-    suffix: "%+"
-    text: fewer onboarding false positives, down from 30% to 10–15%, with a hybrid AI and RAG compliance engine in production
+    number: "10–15"
+    suffix: "%"
+    text: onboarding false-alarm rate, down from 30%, with a hybrid AI and RAG compliance engine in production; every flagged case still goes to a person
   - tag: Recovery
     number: "400"
     suffix: "+"
@@ -156,7 +160,7 @@ experience:
     detail: Chennai
     project: "Publisher to xPression migration"
     points:
-      - "Spearheaded MetLife's move from a legacy publisher to OpenText xPression, migrating 4,500+ policy documents and freeing up 2,000 engineering hours a quarter."
+      - "Led MetLife's move from a legacy publisher to OpenText xPression, migrating 4,500+ policy documents and freeing up 2,000 engineering hours a quarter."
       - "Ensured every migrated asset went live without a single defect by designing test cases with QA."
       - "Earned a Certificate of Excellence jointly from MetLife and Cognizant (May 2019) for the migration."
       - "Standardized 500+ document applications, shrinking annual remediation costs."
@@ -642,6 +646,7 @@ contact_highlight: AI program?
 contact_intro: Pick what fits, or email me directly.
 # Each line below is shown on its own line.
 contact_note:
+  - "Based in Chennai, India. Open to relocation worldwide, and to remote or hybrid roles."
   - "I help with: Agile Release Train setup and resets · PI planning and portfolio governance · Taking AI and RAG products to production · Corporate training (SAFe, Scrum, Azure)"
 # Client feedback (no names, no client name; exact words from the client's email)
 feedback_highlight: "Overall, your professionalism, organizational skills, and commitment to agile excellence make a real difference to our delivery and team confidence."

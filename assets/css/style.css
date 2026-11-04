@@ -3954,7 +3954,7 @@ footer .f-col a {
 .train-formats {
   margin-top: 22px
 }
-.train-formats h4 {
+.train-formats h4, .train-formats .fmt-h {
   font: 700 11px/1 var(--body);
   letter-spacing: .12em;
   text-transform: uppercase;
@@ -4866,7 +4866,7 @@ a.more:hover {
   html body #training .sec-head { margin-bottom: 15px !important; }
   html body #training p.train-note { margin-top: 16px !important; }
   html body #training .train-formats { margin-top: 21px !important; }
-  html body #training .train-formats h4 { margin-bottom: 6px !important; }
+  html body #training .train-formats h4, html body #training .train-formats .fmt-h { margin-bottom: 6px !important; }
   html body #training .skillbox { margin-top: 2px !important; }
   html body #training .speak.talks:not(.duo) { margin-top: 28px !important; }
   html body #training .speak.talks:not(.duo) h3 { margin-bottom: 13px !important; }
@@ -5285,3 +5285,12 @@ html body #writing .writing-cards li.has-img {
 @media (max-width:767px){.res-menu{position:static}.res-pop{top:calc(100% + 8px)}}
 @supports (overflow:clip){.hero-wrap{overflow-x:clip;overflow-y:visible}}
 .hero-wrap{z-index:5}
+
+/* Location and relocation line under the hero title (audit Nov 2026) */
+.hero .where { display: flex; align-items: center; gap: 8px; margin: 10px 0 0; font-size: .95rem; font-weight: 600; color: var(--ink-2, #2b3a4f); }
+.hero .where .ic { width: 16px; height: 16px; flex: none; }
+.hero .where .sep { opacity: .5; }
+.portrait picture { display: contents; }
+/* Phone: show the first two points of each role, the rest behind a button (main.js adds it) */
+.pt-x[hidden] { display: none !important; }
+.pt-more { margin-top: 6px; background: none; border: 0; padding: 4px 0; font: inherit; font-weight: 600; color: var(--accent, #1f5fd1); cursor: pointer; text-decoration: underline; text-underline-offset: 3px; }
