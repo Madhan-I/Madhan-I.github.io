@@ -40,6 +40,7 @@ Client: Global insurer · Core API, Customer Engagement & Compliance AI
  • Reduced technical debt and strengthened platform security, moving 15 core services to AKS and 7 microservices to Gradle.
  • Govern releases for 30+ teams and 200+ people across a global insurer's portfolio, leading the cross-team call on dependencies,
 risks and go/no-go decisions.
+ • Coach Scrum Masters across the train through end-of-sprint check-ins and regular sessions on SAFe updates.
 Technical Product Manager / Release Train Engineer                                   Sep 2022 – Aug 2025 | Boston, USA (On-site)
 Client: John Hancock · AWD to SS&C Chorus BPM modernization
  • Restarted a multi-million-dollar platform program stalled for two years by COVID, rebuilding the release process and clearing

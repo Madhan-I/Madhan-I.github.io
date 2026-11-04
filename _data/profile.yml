@@ -105,6 +105,7 @@ experience:
       - Maintain a High health rating across the products, with under 5% sprint variance.
       - Reduced technical debt and strengthened platform security, moving 15 core services to AKS and 7 microservices to Gradle.
       - Govern releases for 30+ teams and 200+ people across a three-product portfolio (Core API, Customer Engagement and Compliance AI), reporting progress, risks and roadmap decisions to executive leadership.
+      - Coach Scrum Masters across the train through end-of-sprint check-ins and regular sessions on SAFe updates.
   - dates: Sep 2022 – Aug 2025
     title: Technical Product Manager / Release Train Engineer
     sector: "Life insurance · Platform modernization"
