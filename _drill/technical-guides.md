@@ -1,4 +1,4 @@
-# Skill Check: beginner guides for Technical Tuesdays
+# Skill Check: beginner guides for the old SQL Tuesdays (retired Nov 2026; Tuesday is now AI delivery, see _drill/ai_more.py)
 
 Read the guide the evening before you post. Run the Colab code to see each answer yourself, then try one small change of your own.
 

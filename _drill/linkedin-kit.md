@@ -1,43 +1,35 @@
 # Skill Check: LinkedIn kit
 
-Tue technical · Wed RTE & Agile coaching · Thu product, program & portfolio.
+Tue AI delivery · Wed RTE & Agile coaching · Thu product, program & portfolio.
 
 Poll limits: question ≤140 characters, 2-4 options ≤30 characters each, can't be edited after posting. Put the link in the first comment. Comment last post's answer before publishing the next one.
 
 ---
 
-## #1 · Tue 01 Dec · Technical: Insurance · Filtering rows
+## #1 · Tue 01 Dec · AI delivery: RAG basics
 
 **Post text**
 
 ```
-Skill Check #1 · Technical: Insurance · Filtering rows 🧠
+Skill Check #1 · AI delivery: RAG basics 🧠
 
-Which holder is returned by SELECT holder FROM policies WHERE status='Active' AND state='NY'?
-
-Table: policies
-policy_id | holder | product | premium | status | state
-101 | A. Rao | Term Life | 1200 | Active | MA
-102 | B. Shah | Whole Life | 3400 | Lapsed | NY
-103 | C. Iyer | Term Life | 900 | Active | NY
-104 | D. Khan | Auto | 1500 | Active | MA
-105 | E. Paul | Auto | NULL | Pending | IL
+A RAG assistant confidently cites a policy that doesn't exist. What is this called?
 
 Vote below. Answer and reasoning in the comments next time.
 4 more questions: link in the first comment.
 
-#SQL #DataAnalytics #LearningInPublic #SkillCheck
+#AIDelivery #GenAI #ResponsibleAI #SkillCheck
 ```
 
-**Poll question:** Which holder is returned by SELECT holder FROM policies WHERE status='Active' AND state='NY'?
+**Poll question:** A RAG assistant confidently cites a policy that doesn't exist. What is this called?
 
-**Poll options:** A) B. Shah · B) C. Iyer · C) A. Rao · D) No rows
+**Poll options:** A) Latency · B) Overfitting · C) Data drift · D) Hallucination
 
 **Poll duration:** 1 week
 
 **First comment:** All 5 questions with instant answers: https://madhanirulandi.com/drill/?utm_source=linkedin#tech-1
 
-**Answer comment (before the next post):** ✅ B) C. Iyer. Only C. Iyer is both Active and in NY.
+**Answer comment (before the next post):** ✅ D) Hallucination. The model produced something plausible but false. Grounding checks and citations are how you catch it.
 
 ---
 
@@ -95,39 +87,30 @@ Vote below. Answer and reasoning in the comments next time.
 
 ---
 
-## #4 · Tue 08 Dec · Technical: Banking · IN, BETWEEN, LIKE, NULL
+## #4 · Tue 08 Dec · AI delivery: Testing AI before go-live
 
 **Post text**
 
 ```
-Skill Check #4 · Technical: Banking · IN, BETWEEN, LIKE, NULL 🧠
+Skill Check #4 · AI delivery: Testing AI before go-live 🧠
 
-How many rows: WHERE channel IN ('UPI','ATM')?
-
-Table: transactions
-txn_id | account | type | amount | channel | txn_date
-1 | ACC1 | DEBIT | 2500 | UPI | 2026-01-03
-2 | ACC2 | CREDIT | 10000 | NEFT | 2026-01-05
-3 | ACC1 | DEBIT | NULL | ATM | 2026-01-07
-4 | ACC3 | DEBIT | 700 | UPI | 2026-01-07
-5 | ACC2 | DEBIT | 4000 | NULL | 2026-01-10
-6 | ACC1 | CREDIT | 1500 | UPI | 2026-01-12
+Before go-live, the best evidence that an AI feature works is:
 
 Vote below. Answer and reasoning in the comments next time.
 4 more questions: link in the first comment.
 
-#SQL #DataAnalytics #LearningInPublic #SkillCheck
+#AIDelivery #GenAI #ResponsibleAI #SkillCheck
 ```
 
-**Poll question:** How many rows: WHERE channel IN ('UPI','ATM')?
+**Poll question:** Before go-live, the best evidence that an AI feature works is:
 
-**Poll options:** A) 3 · B) 4 · C) 5 · D) 6
+**Poll options:** A) A convincing demo · B) The vendor's brochure · C) The team's confidence · D) Results on a labelled test set
 
 **Poll duration:** 1 week
 
 **First comment:** All 5 questions with instant answers: https://madhanirulandi.com/drill/?utm_source=linkedin#tech-2
 
-**Answer comment (before the next post):** ✅ B) 4. Three UPI and one ATM.
+**Answer comment (before the next post):** ✅ D) Results on a labelled test set. Agree a test set that looks like real cases and measure against it. Demos show the happy path.
 
 ---
 
@@ -185,39 +168,30 @@ Vote below. Answer and reasoning in the comments next time.
 
 ---
 
-## #7 · Tue 15 Dec · Technical: Retail · Sorting, DISTINCT, CASE
+## #7 · Tue 15 Dec · AI delivery: Human in the loop
 
 **Post text**
 
 ```
-Skill Check #7 · Technical: Retail · Sorting, DISTINCT, CASE 🧠
+Skill Check #7 · AI delivery: Human in the loop 🧠
 
-ORDER BY price DESC LIMIT 1 OFFSET 1 returns:
-
-Table: items
-item_id | name | dept | price | supplier
-1 | Rice 5kg | Grocery | 450 | S1
-2 | Oil 1L | Grocery | 180 | S2
-3 | T-Shirt | Apparel | 399 | S3
-4 | Jeans | Apparel | 1299 | S3
-5 | Kettle | Home | 899 | S1
-6 | Soap | Grocery | 45 | NULL
+'Human in the loop' means:
 
 Vote below. Answer and reasoning in the comments next time.
 4 more questions: link in the first comment.
 
-#SQL #DataAnalytics #LearningInPublic #SkillCheck
+#AIDelivery #GenAI #ResponsibleAI #SkillCheck
 ```
 
-**Poll question:** ORDER BY price DESC LIMIT 1 OFFSET 1 returns:
+**Poll question:** 'Human in the loop' means:
 
-**Poll options:** A) Jeans · B) Kettle · C) Rice 5kg · D) T-Shirt
+**Poll options:** A) A person reviews AI output · B) Users chat with the AI · C) Humans label data once · D) AI replaces the team
 
 **Poll duration:** 1 week
 
 **First comment:** All 5 questions with instant answers: https://madhanirulandi.com/drill/?utm_source=linkedin#tech-3
 
-**Answer comment (before the next post):** ✅ B) Kettle. OFFSET 1 skips the top row (Jeans), leaving the 2nd most expensive.
+**Answer comment (before the next post):** ✅ A) A person reviews AI output. A person checks, corrects or approves what the AI produces before it counts.
 
 ---
 
@@ -275,39 +249,30 @@ Vote below. Answer and reasoning in the comments next time.
 
 ---
 
-## #10 · Tue 22 Dec · Technical: Health insurance claims · GROUP BY, HAVING
+## #10 · Tue 22 Dec · AI delivery: Governance and regulation
 
 **Post text**
 
 ```
-Skill Check #10 · Technical: Health insurance claims · GROUP BY, HAVING 🧠
+Skill Check #10 · AI delivery: Governance and regulation 🧠
 
-SELECT denial_reason, COUNT(*) FROM claims GROUP BY denial_reason ORDER BY 2 DESC LIMIT 1 returns which reason?
-
-Table: claims
-claim_id | provider | status | billed | paid | denial_reason
-1 | City Hospital | Paid | 5000 | 4000 | NULL
-2 | City Hospital | Denied | 3000 | 0 | Missing Auth
-3 | Care Clinic | Paid | 1200 | 1200 | NULL
-4 | Care Clinic | Denied | 800 | 0 | Duplicate
-5 | City Hospital | Denied | 2000 | 0 | Missing Auth
-6 | Lab One | Pending | 600 | NULL | NULL
+The EU AI Act mainly groups AI systems by:
 
 Vote below. Answer and reasoning in the comments next time.
 4 more questions: link in the first comment.
 
-#SQL #DataAnalytics #LearningInPublic #SkillCheck
+#AIDelivery #GenAI #ResponsibleAI #SkillCheck
 ```
 
-**Poll question:** SELECT denial_reason, COUNT(*) FROM claims GROUP BY denial_reason ORDER BY 2 DESC LIMIT 1 returns which reason?
+**Poll question:** The EU AI Act mainly groups AI systems by:
 
-**Poll options:** A) Missing Auth · B) Duplicate · C) NULL · D) Error
+**Poll options:** A) Vendor country · B) Price · C) Level of risk · D) Model size
 
 **Poll duration:** 1 week
 
 **First comment:** All 5 questions with instant answers: https://madhanirulandi.com/drill/?utm_source=linkedin#tech-4
 
-**Answer comment (before the next post):** ✅ C) NULL. NULLs form their own group, and 3 claims have no reason. Add `WHERE denial_reason IS NOT NULL` for the real top reason.
+**Answer comment (before the next post):** ✅ C) Level of risk. Rules scale with risk: banned uses, high-risk, limited-risk and minimal-risk.
 
 ---
 
@@ -365,39 +330,30 @@ Vote below. Answer and reasoning in the comments next time.
 
 ---
 
-## #13 · Tue 29 Dec · Technical: Retail suppliers · INNER and LEFT JOIN
+## #13 · Tue 29 Dec · AI delivery: AI-Native SAFe
 
 **Post text**
 
 ```
-Skill Check #13 · Technical: Retail suppliers · INNER and LEFT JOIN 🧠
+Skill Check #13 · AI delivery: AI-Native SAFe 🧠
 
-How many rows: items JOIN suppliers ON items.supplier = suppliers.supplier_id?
-
-Table: items
-item_id | name | dept | price | supplier
-1 | Rice 5kg | Grocery | 450 | S1
-2 | Oil 1L | Grocery | 180 | S2
-3 | T-Shirt | Apparel | 399 | S3
-4 | Jeans | Apparel | 1299 | S3
-5 | Kettle | Home | 899 | S1
-6 | Soap | Grocery | 45 | NULL
+In AI-Native SAFe, what replaces the two-day PI Planning?
 
 Vote below. Answer and reasoning in the comments next time.
 4 more questions: link in the first comment.
 
-#SQL #DataAnalytics #LearningInPublic #SkillCheck
+#AIDelivery #GenAI #ResponsibleAI #SkillCheck
 ```
 
-**Poll question:** How many rows: items JOIN suppliers ON items.supplier = suppliers.supplier_id?
+**Poll question:** In AI-Native SAFe, what replaces the two-day PI Planning?
 
-**Poll options:** A) 4 · B) 5 · C) 6 · D) 24
+**Poll options:** A) Daily planning · B) One-day PI Outcome Planning · C) No planning at all · D) A yearly OKR review
 
 **Poll duration:** 1 week
 
 **First comment:** All 5 questions with instant answers: https://madhanirulandi.com/drill/?utm_source=linkedin#tech-5
 
-**Answer comment (before the next post):** ✅ B) 5. Soap has no supplier, so INNER JOIN drops it.
+**Answer comment (before the next post):** ✅ B) One-day PI Outcome Planning. PI Outcome Planning is a one-day event focused on PI and team outcomes, ending with a confidence vote.
 
 ---
 
@@ -455,37 +411,30 @@ Vote below. Answer and reasoning in the comments next time.
 
 ---
 
-## #16 · Tue 05 Jan · Technical: Agile delivery · Self joins and metrics
+## #16 · Tue 05 Jan · AI delivery: Running AI work on a train
 
 **Post text**
 
 ```
-Skill Check #16 · Technical: Agile delivery · Self joins and metrics 🧠
+Skill Check #16 · AI delivery: Running AI work on a train 🧠
 
-Using people e LEFT JOIN people m ON e.manager_id = m.id, who is Vik's manager?
-
-Table: people
-id | name | manager_id
-1 | Priya | NULL
-2 | Arun | 1
-3 | Neha | 1
-4 | Vik | 2
+Model improvement work is hard to estimate. Best way to plan it?
 
 Vote below. Answer and reasoning in the comments next time.
 4 more questions: link in the first comment.
 
-#SQL #DataAnalytics #LearningInPublic #SkillCheck
+#AIDelivery #GenAI #ResponsibleAI #SkillCheck
 ```
 
-**Poll question:** Using people e LEFT JOIN people m ON e.manager_id = m.id, who is Vik's manager?
+**Poll question:** Model improvement work is hard to estimate. Best way to plan it?
 
-**Poll options:** A) Priya · B) Arun · C) Neha · D) NULL
+**Poll options:** A) Estimate in lines of code · B) Fixed scope and date · C) Skip planning · D) Time-boxed experiments
 
 **Poll duration:** 1 week
 
 **First comment:** All 5 questions with instant answers: https://madhanirulandi.com/drill/?utm_source=linkedin#tech-6
 
-**Answer comment (before the next post):** ✅ B) Arun. A self join reads one table twice: once as employees, once as managers.
+**Answer comment (before the next post):** ✅ D) Time-boxed experiments. Time-box the experiment with clear exit criteria; decide to continue or stop on evidence.
 
 ---
 
@@ -543,38 +492,30 @@ Vote below. Answer and reasoning in the comments next time.
 
 ---
 
-## #19 · Tue 12 Jan · Technical: Banking · Subqueries
+## #19 · Tue 12 Jan · AI delivery: Cost and value
 
 **Post text**
 
 ```
-Skill Check #19 · Technical: Banking · Subqueries 🧠
+Skill Check #19 · AI delivery: Cost and value 🧠
 
-How many accounts: WHERE balance > (SELECT AVG(balance) FROM accounts)?
-
-Table: accounts
-acc | branch | balance | segment
-ACC1 | Chennai | 52000 | Retail
-ACC2 | Mumbai | 250000 | Premier
-ACC3 | Chennai | 8000 | Retail
-ACC4 | Delhi | 120000 | Premier
-ACC5 | Mumbai | 30000 | Retail
+A GenAI feature costs $0.02 per request and gets 50,000 requests a day. Daily cost?
 
 Vote below. Answer and reasoning in the comments next time.
 4 more questions: link in the first comment.
 
-#SQL #DataAnalytics #LearningInPublic #SkillCheck
+#AIDelivery #GenAI #ResponsibleAI #SkillCheck
 ```
 
-**Poll question:** How many accounts: WHERE balance > (SELECT AVG(balance) FROM accounts)?
+**Poll question:** A GenAI feature costs $0.02 per request and gets 50,000 requests a day. Daily cost?
 
-**Poll options:** A) 1 · B) 2 · C) 3 · D) 4
+**Poll options:** A) $1,000 · B) $100 · C) $10,000 · D) $2,500
 
 **Poll duration:** 1 week
 
 **First comment:** All 5 questions with instant answers: https://madhanirulandi.com/drill/?utm_source=linkedin#tech-7
 
-**Answer comment (before the next post):** ✅ B) 2. Average is 92,000. ACC2 and ACC4 are above it.
+**Answer comment (before the next post):** ✅ A) $1,000. 0.02 x 50,000 = 1,000. Usage-based costs grow with adoption, so forecast them.
 
 ---
 
@@ -632,39 +573,30 @@ Vote below. Answer and reasoning in the comments next time.
 
 ---
 
-## #22 · Tue 19 Jan · Technical: Product analytics · Funnels with CTEs
+## #22 · Tue 19 Jan · AI delivery: Security and prompt risks
 
 **Post text**
 
 ```
-Skill Check #22 · Technical: Product analytics · Funnels with CTEs 🧠
+Skill Check #22 · AI delivery: Security and prompt risks 🧠
 
-SELECT COUNT(DISTINCT user_id) FROM events WHERE event='kyc'
-
-Table: events
-user_id | event | day
-1 | signup | 1
-1 | kyc | 1
-1 | activate | 2
-2 | signup | 1
-2 | kyc | 3
-3 | signup | 2
+An AI agent reads customer emails and can take actions. Biggest new risk?
 
 Vote below. Answer and reasoning in the comments next time.
 4 more questions: link in the first comment.
 
-#SQL #DataAnalytics #LearningInPublic #SkillCheck
+#AIDelivery #GenAI #ResponsibleAI #SkillCheck
 ```
 
-**Poll question:** SELECT COUNT(DISTINCT user_id) FROM events WHERE event='kyc'
+**Poll question:** An AI agent reads customer emails and can take actions. Biggest new risk?
 
-**Poll options:** A) 2 · B) 3 · C) 4 · D) 5
+**Poll options:** A) Large attachments · B) Emails that instruct the agent · C) A slower inbox · D) Spam filters
 
 **Poll duration:** 1 week
 
 **First comment:** All 5 questions with instant answers: https://madhanirulandi.com/drill/?utm_source=linkedin#tech-8
 
-**Answer comment (before the next post):** ✅ C) 4. Includes user 5, who did KYC without signing up. Raw counts can overstate a funnel step.
+**Answer comment (before the next post):** ✅ B) Emails that instruct the agent. Anything the agent reads can carry instructions. Treat inputs as data, never as commands.
 
 ---
 
@@ -722,39 +654,30 @@ Vote below. Answer and reasoning in the comments next time.
 
 ---
 
-## #25 · Tue 26 Jan · Technical: Retail stores · Ranking with window functions
+## #25 · Tue 26 Jan · AI delivery: Adoption and change
 
 **Post text**
 
 ```
-Skill Check #25 · Technical: Retail stores · Ranking with window functions 🧠
+Skill Check #25 · AI delivery: Adoption and change 🧠
 
-Using ROW_NUMBER() OVER (PARTITION BY store ORDER BY revenue DESC), how many rows have number 1?
-
-Table: store_sales
-store | month | revenue
-Chennai | 1 | 100
-Chennai | 2 | 120
-Chennai | 3 | 120
-Mumbai | 1 | 200
-Mumbai | 2 | 150
-Mumbai | 3 | 250
+Teams ignore a new AI assistant. First move?
 
 Vote below. Answer and reasoning in the comments next time.
 4 more questions: link in the first comment.
 
-#SQL #DataAnalytics #LearningInPublic #SkillCheck
+#AIDelivery #GenAI #ResponsibleAI #SkillCheck
 ```
 
-**Poll question:** Using ROW_NUMBER() OVER (PARTITION BY store ORDER BY revenue DESC), how many rows have number 1?
+**Poll question:** Teams ignore a new AI assistant. First move?
 
-**Poll options:** A) 1 · B) 3 · C) 7 · D) 2
+**Poll options:** A) Remove old tools · B) Ask what blocks them · C) Mandate usage · D) Track each person
 
 **Poll duration:** 1 week
 
 **First comment:** All 5 questions with instant answers: https://madhanirulandi.com/drill/?utm_source=linkedin#tech-9
 
-**Answer comment (before the next post):** ✅ B) 3. One per store: Chennai, Mumbai and Delhi.
+**Answer comment (before the next post):** ✅ B) Ask what blocks them. Low adoption usually means it doesn't fit the daily work yet. Find out why before pushing.
 
 ---
 
@@ -809,178 +732,3 @@ Vote below. Answer and reasoning in the comments next time.
 **First comment:** All 5 questions with instant answers: https://madhanirulandi.com/drill/?utm_source=linkedin#mgmt-9
 
 **Answer comment (before the next post):** ✅ C) 3,200 hours. 400 × 8. Calibrate the rate with your own past data.
-
----
-
-## #28 · Tue 02 Feb · Technical: Banking ledger · Running totals, LAG, LEAD
-
-**Post text**
-
-```
-Skill Check #28 · Technical: Banking ledger · Running totals, LAG, LEAD 🧠
-
-ACC1's running balance after day 3: SUM(amount) OVER (PARTITION BY acc ORDER BY d)
-
-Table: ledger
-acc | d | amount
-ACC1 | 1 | 5000
-ACC1 | 2 | -2000
-ACC1 | 3 | -1000
-ACC1 | 4 | 4000
-ACC2 | 1 | 1000
-ACC2 | 3 | 500
-
-Vote below. Answer and reasoning in the comments next time.
-4 more questions: link in the first comment.
-
-#SQL #DataAnalytics #LearningInPublic #SkillCheck
-```
-
-**Poll question:** ACC1's running balance after day 3: SUM(amount) OVER (PARTITION BY acc ORDER BY d)
-
-**Poll options:** A) 5000 · B) 3000 · C) 2000 · D) 6000
-
-**Poll duration:** 1 week
-
-**First comment:** All 5 questions with instant answers: https://madhanirulandi.com/drill/?utm_source=linkedin#tech-10
-
-**Answer comment (before the next post):** ✅ C) 2000. 5000 − 2000 − 1000.
-
----
-
-## #29 · Tue 09 Feb · Technical: Insurance renewals · Messy text and dates
-
-**Post text**
-
-```
-Skill Check #29 · Technical: Insurance renewals · Messy text and dates 🧠
-
-The state values are 'MA', 'MA ' and 'ma'. How many groups does GROUP BY state produce for them?
-
-Table: renewals
-policy_no | state | due
-LIF-2031 | MA | 2026-12-05
-LIF-2032 | MA  | 2026-12-31
-HLT-1090 | ma | 2026-12-31 10:00
-AUT-7781 | NY | 2027-01-02
-
-Vote below. Answer and reasoning in the comments next time.
-4 more questions: link in the first comment.
-
-#SQL #DataAnalytics #LearningInPublic #SkillCheck
-```
-
-**Poll question:** The state values are 'MA', 'MA ' and 'ma'. How many groups does GROUP BY state produce for them?
-
-**Poll options:** A) 1 · B) 2 · C) 3 · D) Error
-
-**Poll duration:** 1 week
-
-**First comment:** All 5 questions with instant answers: https://madhanirulandi.com/drill/?utm_source=linkedin#tech-11
-
-**Answer comment (before the next post):** ✅ C) 3. Trailing spaces and case make them different values. `GROUP BY UPPER(TRIM(state))` gives 1.
-
----
-
-## #30 · Tue 16 Feb · Technical: Release planning · Set operations and query order
-
-**Post text**
-
-```
-Skill Check #30 · Technical: Release planning · Set operations and query order 🧠
-
-PI-1 features: Login, Docs, Search. PI-2: Docs, Search, Chat, Search. How many rows from UNION?
-
-Table: pi1
-feature
-Login
-Docs
-Search
-
-Vote below. Answer and reasoning in the comments next time.
-4 more questions: link in the first comment.
-
-#SQL #DataAnalytics #LearningInPublic #SkillCheck
-```
-
-**Poll question:** PI-1 features: Login, Docs, Search. PI-2: Docs, Search, Chat, Search. How many rows from UNION?
-
-**Poll options:** A) 4 · B) 5 · C) 7 · D) 3
-
-**Poll duration:** 1 week
-
-**First comment:** All 5 questions with instant answers: https://madhanirulandi.com/drill/?utm_source=linkedin#tech-12
-
-**Answer comment (before the next post):** ✅ A) 4. UNION removes duplicates: Login, Docs, Search, Chat.
-
----
-
-## #31 · Tue 23 Feb · Technical: Investing · A personal stock portfolio
-
-**Post text**
-
-```
-Skill Check #31 · Technical: Investing · A personal stock portfolio 🧠
-
-Realised profit on sold positions: SUM((sell_price - buy_price) * shares) WHERE sell_price IS NOT NULL
-
-Table: portfolio
-ticker | sector | shares | buy_price | sell_price
-JPM | Banking | 10 | 150 | NULL
-BLK | Asset Mgmt | 2 | 700 | 820
-GS | Banking | 5 | 350 | NULL
-MS | Banking | 8 | 90 | 110
-V | Payments | 6 | 230 | NULL
-BLK | Asset Mgmt | 1 | 900 | NULL
-
-Vote below. Answer and reasoning in the comments next time.
-4 more questions: link in the first comment.
-
-#SQL #DataAnalytics #LearningInPublic #SkillCheck
-```
-
-**Poll question:** Realised profit on sold positions: SUM((sell_price - buy_price) * shares) WHERE sell_price IS NOT NULL
-
-**Poll options:** A) 240 · B) 400 · C) 160 · D) 560
-
-**Poll duration:** 1 week
-
-**First comment:** All 5 questions with instant answers: https://madhanirulandi.com/drill/?utm_source=linkedin#tech-13
-
-**Answer comment (before the next post):** ✅ B) 400. BLK: 120 × 2 = 240, plus MS: 20 × 8 = 160.
-
----
-
-## #32 · Tue 02 Mar · Technical: Career moves · A job-application tracker
-
-**Post text**
-
-```
-Skill Check #32 · Technical: Career moves · A job-application tracker 🧠
-
-How many applications are at stage 'Interview'?
-
-Table: applications
-company | role | city | stage | offer_eur | applied
-BlackRock | Program Manager | London | Interview | NULL | 2026-11-03
-Vanguard | Agile Coach | Dublin | Applied | NULL | 2026-11-04
-JPMorgan | Release Train Engineer | Glasgow | Offer | 95000 | 2026-10-20
-Deloitte | Delivery Manager | Amsterdam | Rejected | NULL | 2026-10-15
-BCG | Product Manager | Berlin | Interview | NULL | 2026-10-28
-JPMorgan | Program Manager | London | Offer | 105000 | 2026-10-22
-
-Vote below. Answer and reasoning in the comments next time.
-4 more questions: link in the first comment.
-
-#SQL #DataAnalytics #LearningInPublic #SkillCheck
-```
-
-**Poll question:** How many applications are at stage 'Interview'?
-
-**Poll options:** A) 1 · B) 2 · C) 3 · D) 4
-
-**Poll duration:** 1 week
-
-**First comment:** All 5 questions with instant answers: https://madhanirulandi.com/drill/?utm_source=linkedin#tech-14
-
-**Answer comment (before the next post):** ✅ B) 2. BlackRock and BCG.

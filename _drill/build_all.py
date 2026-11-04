@@ -1,11 +1,10 @@
-"""Builds the full Daily Data Drill schedule: Tue technical, Wed RTE & Agile coaching, Thu product/program/portfolio.
+"""Builds the full Skill Check schedule: Tue AI delivery, Wed RTE & Agile coaching, Thu product/program/portfolio.
+(The SQL sets in build_sql.py were the Tuesday series until Nov 2026; they are kept but no longer scheduled.)
 Usage: python3 build_all.py <site_json_out> <linkedin_kit_out>"""
 import sys, json, datetime, re, os
 OUT_JSON, OUT_KIT = sys.argv[1], sys.argv[2]
 here = os.path.dirname(os.path.abspath(__file__))
-sys.argv = [sys.argv[0], os.path.join(here, "daily-data-drill-sql.md")]
 sys.path.insert(0, here)
-import build_sql as S  # verifies every SQL answer on import
 
 AGILE = [
 ("RTE · PI Planning under pressure", [
@@ -83,6 +82,7 @@ MGMT = [
 
 import random
 from mgmt_more import AGILE_MORE, MGMT_MORE
+from ai_more import AI_DELIVERY
 def shuffled(bank):
     out = []
     for topic, qs in bank:
@@ -94,34 +94,36 @@ def shuffled(bank):
     return out
 AGILE += shuffled(AGILE_MORE)
 MGMT += shuffled(MGMT_MORE)
+def balanced(bank):
+    """Correct option rotates A-D across the series; the wrong options are shuffled deterministically."""
+    out, k = [], 0
+    for topic, qs in bank:
+        rows = []
+        for qq, opts, why in qs:
+            wrong = opts[1:]; random.Random(qq).shuffle(wrong)
+            pos = [1, 3, 0, 2][k % 4]; k += 1
+            o = wrong[:pos] + [opts[0]] + wrong[pos:]
+            rows.append((qq, o, "ABCD"[pos], why))
+        out.append((topic, rows))
+    return out
+AI = balanced(AI_DELIVERY)
 
 START = datetime.date(2026, 12, 1)  # a Tuesday
 SITE = "https://madhanirulandi.com/drill/"
 SERIES = {
-  "tech":  ("Technical", "#SQL #DataAnalytics #LearningInPublic #SkillCheck"),
+  "tech":  ("AI delivery", "#AIDelivery #GenAI #ResponsibleAI #SkillCheck"),
   "agile": ("RTE & Agile coaching", "#SAFe #ReleaseTrainEngineer #AgileCoaching #SkillCheck"),
   "mgmt":  ("Product, program & portfolio", "#ProductManagement #ProgramManagement #PortfolioManagement #SkillCheck"),
 }
 tbls = {}
-def tdata(t):
-    if t not in tbls:
-        cols = [d[1] for d in S.db.execute(f"PRAGMA table_info({t})")]
-        tbls[t] = {"cols": cols, "rows": [["NULL" if v is None else v for v in r] for r in S.q(f"SELECT * FROM {t}")]}
-    return t
 
 days = []
-weeks = max(len(S.DAYS), len(AGILE), len(MGMT))
+weeks = max(len(AI), len(AGILE), len(MGMT))
 for w in range(weeks):
-    for offset, key, bank in ((0, "tech", S.DAYS), (1, "agile", AGILE), (2, "mgmt", MGMT)):
+    for offset, key, bank in ((0, "tech", AI), (1, "agile", AGILE), (2, "mgmt", MGMT)):
         if w >= len(bank): continue
         item = bank[w]
-        if key == "tech":
-            title, tables, qs = item
-            topic = title.split("·", 1)[1].strip()
-            tl = [tdata(t.strip()) for t in tables.split(",")]
-            qs = [(a, b, c, d) for a, b, c, d, _, _ in qs]
-        else:
-            topic, qs = item; tl = []
+        topic, qs = item; tl = []
         date = START + datetime.timedelta(weeks=w, days=offset)
         for qq, opts, ans, _ in qs:
             assert ans in "ABCD" and len(opts) == 4, (topic, qq)
@@ -129,7 +131,7 @@ for w in range(weeks):
                      "questions": [{"q": a, "options": b, "answer": "ABCD".index(c), "why": d} for a, b, c, d in qs]})
 days.sort(key=lambda d: d["date"])
 
-kit = ["# Skill Check: LinkedIn kit\n\nTue technical · Wed RTE & Agile coaching · Thu product, program & portfolio.\n\n",
+kit = ["# Skill Check: LinkedIn kit\n\nTue AI delivery · Wed RTE & Agile coaching · Thu product, program & portfolio.\n\n",
        "Poll limits: question ≤140 characters, 2-4 options ≤30 characters each, can't be edited after posting. ",
        "Put the link in the first comment. Comment last post's answer before publishing the next one.\n"]
 for n, d in enumerate(days, 1):
