@@ -507,3 +507,32 @@ document.querySelectorAll('.copy-btn').forEach(function (b) {
     ul.parentNode.insertBefore(btn, ul.nextSibling);
   });
 })();
+
+/* Phone only: trim repeated content (audit Nov 2026).
+   About: paragraphs 2 and 4 repeat the stats, Experience and Training, so they sit behind "Read more".
+   Training tracks: first four shown, the rest behind "Show all". Desktop and no-JS show everything. */
+(function () {
+  if (!window.matchMedia || !window.matchMedia('(max-width: 640px)').matches) return;
+  function collapse(list, after, more, less) {
+    if (!list.length) return;
+    list.forEach(function (el) { el.classList.add('pt-x'); el.hidden = true; });
+    var btn = document.createElement('button');
+    btn.type = 'button'; btn.className = 'pt-more'; btn.setAttribute('aria-expanded', 'false'); btn.textContent = more;
+    btn.addEventListener('click', function () {
+      var open = btn.getAttribute('aria-expanded') !== 'true';
+      list.forEach(function (el) { el.hidden = !open; });
+      btn.setAttribute('aria-expanded', String(open)); btn.textContent = open ? less : more;
+    });
+    after.parentNode.insertBefore(btn, after.nextSibling);
+  }
+  var copy = document.querySelector('#about .copy');
+  if (copy) {
+    var paras = [].slice.call(copy.querySelectorAll(':scope > p'));
+    if (paras.length >= 4) collapse([paras[1], paras[3]], paras[paras.length - 1], 'Read more', 'Read less');
+  }
+  var topics = document.querySelector('#training ul.topics');
+  if (topics) {
+    var items = [].slice.call(topics.children);
+    if (items.length > 4) collapse(items.slice(4), topics, 'Show all ' + items.length + ' topics', 'Show fewer topics');
+  }
+})();
