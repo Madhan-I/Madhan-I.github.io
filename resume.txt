@@ -21,7 +21,7 @@ Release & Program Leadership: Release Train Engineering, PI Planning, ART Sync, 
 Governance, Release Management, executive status reporting
 Scrum & Agile Facilitation: Sprint Planning, Backlog Refinement, Retrospectives, Kanban, Agile coaching, mentoring Scrum
 Masters, onshore/offshore teams
-Delivery Management: Risk & Dependency Management, RAID logs, change management, Function Point capacity planning,
+Delivery Management: Budget ownership across multiple programs, Risk & Dependency Management, RAID logs, change management, Function Point capacity planning,
 DevOps & CI/CD
 Technology: Generative AI & RAG, Azure AI, AKS, Apigee (JWT, OAuth 2.0), GitLab, Jenkins, OpenText xPression & Exstream, SS&C
 Chorus BPM (AWD)
