@@ -21,7 +21,7 @@ Release & Program Leadership: Release Train Engineering, PI Planning, ART Sync, 
 Governance, Release Management, executive status reporting
 Scrum & Agile Facilitation: Sprint Planning, Backlog Refinement, Retrospectives, Kanban, Agile coaching, mentoring Scrum
 Masters, onshore/offshore teams
-Delivery Management: Project budgeting & estimation (spend, duration, team size), Risk & Dependency Management, RAID logs, change management, Function Point capacity planning,
+Delivery Management: Budget ownership & estimation (spend, duration, team size), Risk & Dependency Management, RAID logs, change management, Function Point capacity planning,
 DevOps & CI/CD
 Technology: Generative AI & RAG, Azure AI, AKS, Apigee (JWT, OAuth 2.0), GitLab, Jenkins, OpenText xPression & Exstream, SS&C
 Chorus BPM (AWD)
@@ -49,8 +49,7 @@ Client: John Hancock · AWD to SS&C Chorus BPM modernization
 Point analysis), trimming overtime and idle time.
  • Ran a portfolio of 5 modernization initiatives across 20+ business divisions, taking every one live through coordinated
 upgrades.
- • Delivered the AWD workflow platform's first upgrades since its 2019 release, finishing most of the work by Q2 2023, within a
-year of taking over.
+ • Owned a $1M budget to deliver the AWD workflow platform's first upgrades since its 2019 release with a small dedicated team, finishing most of the work by Q2 2023, within a year of taking over.
  • Migrated all teams off AWD's legacy EnCorr and Viewstation desktops onto SS&C Chorus BPM, its current generation, before
 handing over in Aug 2025.
 
