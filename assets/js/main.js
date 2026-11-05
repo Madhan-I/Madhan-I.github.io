@@ -509,7 +509,7 @@ document.querySelectorAll('.copy-btn').forEach(function (b) {
 })();
 
 /* Phone only: trim repeated content (audit Nov 2026).
-   About: paragraphs 2 and 4 repeat the stats, Experience and Training, so they sit behind "Read more".
+   About no longer repeats the stats (rewritten 5 Nov 2026), so it shows in full.
    Training tracks: first four shown, the rest behind "Show all". Desktop and no-JS show everything. */
 (function () {
   if (!window.matchMedia || !window.matchMedia('(max-width: 640px)').matches) return;
@@ -524,11 +524,6 @@ document.querySelectorAll('.copy-btn').forEach(function (b) {
       btn.setAttribute('aria-expanded', String(open)); btn.textContent = open ? less : more;
     });
     after.parentNode.insertBefore(btn, after.nextSibling);
-  }
-  var copy = document.querySelector('#about .copy');
-  if (copy) {
-    var paras = [].slice.call(copy.querySelectorAll(':scope > p'));
-    if (paras.length >= 4) collapse([paras[1], paras[3]], paras[paras.length - 1], 'Read more', 'Read less');
   }
   var topics = document.querySelector('#training ul.topics');
   if (topics) {

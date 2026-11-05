@@ -73,34 +73,13 @@ metrics:
     suffix: "+"
     text: people trained since 2020, with 75+ guest lectures delivered and 1,000+ professionals mentored
 
-# "Selected work" cards under the client quotes. Keep it to three.
-# The big numbers already sit in the blue band above, so the cards tell the story instead.
-# link: a case study page, or "/#experience" until one exists.
-selected_work_title: "Three programs worth a closer look"
-selected_work:
-  - kicker: Life insurance
-    title: Restarting a platform frozen for two years
-    text: "COVID had frozen the platform for two years and 400+ tickets were waiting. We cleared them in nine months, and our estimates landed within 10% of the real effort."
-    link: /case-studies/john-hancock/
-    link_label: Read how we did it
-  - kicker: Compliance AI
-    title: AI that still lets people decide
-    text: "We took a hybrid AI and RAG engine into production for customer onboarding checks. False alarms fell from 30% to 10–15%, and a person still reviews every case it flags."
-    link: /#experience
-    link_label: More in my experience
-  - kicker: Release trains
-    title: Keeping a big release train on schedule
-    text: "I run a 7-team release train directly and govern releases for 30+ teams and 200+ people. Across every planning cycle, we deliver 95%+ of what we planned."
-    link: /#experience
-    link_label: More in my experience
-
 # Use | to start a new line in the heading.
 about_title: "Delivery leader. Engineer by training. Teacher by habit."
 about:
   - "Leaders bring me in when a program is too important to slip, whether it's a frozen platform, an AI product heading to production or a team picking up new technology."
-  - "At John Hancock, a platform COVID had frozen for two years had 400+ tickets waiting. I fixed how work moved before touching the backlog, starting with release governance and Function Point capacity planning, and the backlog cleared in nine months."
-  - "Today at Atos I govern releases for 30+ teams and 200+ people across a global insurer's Core API, Customer Engagement and Compliance AI products. We took a hybrid AI and RAG compliance engine into production, cutting onboarding false positives from 30% to 10–15%, while holding 95%+ average ART predictability."
-  - "I've also been a Microsoft Certified Trainer since 2020, with 3,000+ people trained and 75+ guest lectures. Teaching showed me how to explain complex choices in plain words, so leaders can make decisions and engineers know what to do next."
+  - "When I join a program, I fix how work moves before I touch the backlog. That usually means release governance people can actually follow, and estimates the team believes in."
+  - "I stay close to the teams. After every sprint I sit down with each Scrum Master to hear what's working, what isn't and what they need from me. I also run regular sessions on SAFe updates, so the whole train keeps up with how the framework is changing."
+  - "Teaching is the other half of my work. I've been a Microsoft Certified Trainer since 2020, and explaining hard ideas to 3,000+ people taught me to put complex choices in plain words, so leaders can decide and engineers know what to do next."
 
 clients:
   - Walmart

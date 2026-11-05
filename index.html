@@ -57,21 +57,6 @@ layout: default
 {% endunless %}
 {% if p.feedback_highlight or p.feedback %}<section class="proof-strip" aria-label="Client feedback"><div class="wrap"><p class="proof-label">In my client's words</p><ul class="proof-grid">{% if p.feedback_highlight %}<li><blockquote>&ldquo;{{ p.feedback_highlight }}&rdquo;</blockquote></li>{% endif %}{% for q in p.feedback %}<li><blockquote>&ldquo;{{ q.quote }}&rdquo;</blockquote></li>{% endfor %}</ul><p class="proof-who"><b>{{ p.feedback_who }}</b> · {{ p.feedback_where }}</p></div></section>{% endif %}
 
-{% if p.selected_work %}
-<section id="work" class="slide" aria-labelledby="work-h">
-  <div class="wrap">
-    <div class="sec-head reveal"><span class="label"><svg class="ic" aria-hidden="true"><use href="#i-flag"/></svg>Selected work</span><h2 id="work-h">{{ p.selected_work_title }}</h2></div>
-    <ul class="work-grid">
-      {% for w in p.selected_work %}<li class="reveal"><a class="work-card" href="{{ w.link | relative_url }}" data-goatcounter-click="click-work-{{ forloop.index }}">
-        <span class="wk">{{ w.kicker }}</span>
-        <h3>{{ w.title }}</h3>
-        <p>{{ w.text }}</p>
-        <span class="wgo">{{ w.link_label }} <svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></span>
-      </a></li>{% endfor %}
-    </ul>
-  </div>
-</section>
-{% endif %}
 
 {% unless th.show.about == false %}{% assign n = n | plus: 1 %}
 <section id="about" class="slide tone-white">
