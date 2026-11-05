@@ -473,7 +473,7 @@ document.querySelectorAll('.copy-btn').forEach(function (b) {
 
 // Resume download menu: close on outside click, Escape, or after a choice
 (function () {
-  var menus = document.querySelectorAll('details.res-menu');
+  var menus = document.querySelectorAll('details.res-menu, details.res-dd');
   if (!menus.length) return;
   document.addEventListener('click', function (e) {
     menus.forEach(function (m) {

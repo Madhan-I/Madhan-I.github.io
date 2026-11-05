@@ -5291,21 +5291,18 @@ html body #writing .writing-cards li.has-img {
 .res-pop .rr-l{display:flex;gap:6px;flex:none}
 .res-pop .rr-l a{display:inline-block;padding:7px 11px;border:1px solid var(--line);border-radius:999px;font:600 13px/1 var(--body);color:var(--navy);text-decoration:none}
 .res-pop .rr-l a:hover,.res-pop .rr-l a:focus-visible{background:var(--navy);border-color:var(--navy);color:#fff}
-.contact-bottom:has(.res-line){display:block}
-.res-line{display:flex;align-items:center;flex-wrap:wrap;gap:12px 18px;padding:14px 20px;border-radius:14px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.14);color:#fff}
-.res-line .ic{width:22px;height:22px;color:#F2A541;flex:none}
-.res-line .rl-k{display:flex;align-items:center;gap:8px;font-weight:700;font-size:13px;letter-spacing:.1em;text-transform:uppercase;color:#F2A541}
-.res-line .rl-g{display:flex;align-items:center;gap:6px}
-.res-line .rl-g b{font-size:15px;font-weight:700;margin-right:2px;white-space:nowrap}
-.res-line .rl-g.rec b::after{content:"";display:inline-block;width:6px;height:6px;border-radius:50%;background:#F2A541;margin-left:6px;vertical-align:middle}
-.res-line .rl-g a{display:inline-block;padding:6px 11px;border:1px solid rgba(255,255,255,.35);border-radius:999px;font:600 13px/1 var(--body);color:#fff;text-decoration:none}
-.res-line .rl-g a:hover,.res-line .rl-g a:focus-visible{background:#fff;color:var(--navy);border-color:#fff}
-.res-line .rl-sep{width:1px;align-self:stretch;background:rgba(255,255,255,.18)}
-.res-line .rl-em{display:flex;align-items:center;gap:10px;margin-left:auto}
-.res-line .rl-em .v{color:#fff;font-weight:700;font-size:15px;text-decoration:none;overflow-wrap:anywhere}
-.res-line .rl-em .v:hover{text-decoration:underline}
-@media (max-width:1279px){.res-line .rl-sep{flex-basis:100%;width:auto;height:1px;align-self:auto}.res-line .rl-em{margin-left:0}}
-@media (max-width:640px){.res-line{padding:14px 16px}.res-line .rl-k{flex-basis:100%}.res-line .rl-g{flex-basis:100%}.res-line .rl-g b{min-width:96px}.res-line .rl-em{flex-basis:100%;justify-content:space-between}.res-line .rl-em .ic{display:none}}
+/* Contact resume tiles: PDF and Word, each opens 1 page / 2 pages / Full career */
+.res-dd{position:relative;height:100%}
+.res-dd > summary{list-style:none;cursor:pointer;height:100%;box-sizing:border-box}
+.res-dd > summary::-webkit-details-marker{display:none}
+.res-dd > summary > span{flex:1}
+.res-dd .dd-chev{flex:none;width:8px;height:8px;margin:0 4px 4px auto;border-right:2px solid #f2a541;border-bottom:2px solid #f2a541;transform:rotate(45deg);transition:transform .2s}
+.res-dd[open] .dd-chev{transform:rotate(-135deg);margin-bottom:-4px}
+.res-dd[open] > summary{border-color:#f2a541}
+.res-dd > summary:focus-visible{outline:#f2a541 solid 2px;outline-offset:2px}
+.res-dd .res-pop{top:calc(100% + 8px);left:0;width:100%;min-width:240px;z-index:50}
+.res-dd .res-pop a{grid-template-columns:1fr}
+@media (prefers-reduced-motion:reduce){.res-dd .dd-chev{transition:none}}
 /* keep the resume menu above chips and the numbers band */
 .ctas{position:relative;z-index:40}
 .res-menu[open]{z-index:41}
