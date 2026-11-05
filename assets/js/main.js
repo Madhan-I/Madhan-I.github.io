@@ -171,6 +171,7 @@ document.querySelectorAll('.copy-btn').forEach(function (b) {
       c.hidden = hide; if (!hide) shown++;
     });
     if (none) none.hidden = shown > 0;
+    var list = document.querySelector('.post-list'); if (list) list.classList.toggle('filtered', !!cur || words.length > 0);
   }
   if (q) q.addEventListener('input', function () { apply(); });
   bar.addEventListener('click', function (e) {

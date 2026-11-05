@@ -5320,3 +5320,24 @@ html body #about { padding-bottom: 30px !important; }
 html body .proof-strip { padding-top: 25px !important; padding-bottom: 30px !important; }
 @media (min-width: 768px) { html body #training .sec-head { margin-bottom: 19px !important; } }
 @media (max-width: 767px) { html body #training .sec-head { margin-bottom: 22px !important; } }
+
+/* Writing page hero (Nov 2026): latest story card replaces the decorative PLAN/SHIP/LEARN cards and the three stat boxes */
+.blog-hero{grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);gap:44px}
+.bh-meta{margin:14px 0 22px;font:600 14px/1.4 var(--body);color:var(--muted)}
+.bh-meta b{color:var(--navy)}
+.bh-copy .bh-search{display:block;max-width:520px}
+.bh-feat{position:relative;display:block;padding:24px 26px 22px;background:#fff;border:1px solid var(--card-line,#D8E1EE);border-radius:16px;box-shadow:0 2px 4px rgba(14,26,43,.05),0 18px 40px rgba(29,95,209,.12);text-decoration:none;color:inherit;transition:transform .2s ease,box-shadow .2s ease,border-color .2s ease}
+.bh-feat:hover,.bh-feat:focus-visible{transform:translateY(-2px);border-color:#A9C1EA;box-shadow:0 2px 4px rgba(14,26,43,.06),0 22px 46px rgba(29,95,209,.18)}
+.bh-feat:focus-visible{outline:#B45309 solid 2px;outline-offset:3px}
+.bh-feat .fk{display:flex;align-items:center;gap:10px;font:700 12px/1 var(--body);letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:14px}
+.bh-feat .new,.pc-new{display:inline-block;background:#F2A541;color:#0B2545;padding:5px 9px;border-radius:999px;font:700 11px/1 var(--body);letter-spacing:.08em;text-transform:uppercase}
+.pc-new{margin-right:8px;padding:4px 8px}
+.bh-feat b{display:block;font:800 26px/1.2 var(--display);color:var(--navy);margin-bottom:10px}
+.bh-feat .fs{display:block;margin:0 0 16px;font-size:15.5px;line-height:1.55;color:var(--text)}
+.bh-feat .go{display:inline-flex;align-items:center;gap:6px;font:700 14px/1 var(--body);color:var(--brand)}
+.bh-feat .go .ic{width:16px;height:16px}
+@media (min-width:901px){.post-list:not(.filtered) > .post-card:first-child{display:none}.pc-new{display:none}.post-list.filtered .pc-new{display:inline-block}}
+@media (max-width:900px){.blog-hero{grid-template-columns:1fr}.bh-side{display:none}}
+@media (prefers-reduced-motion:reduce){.bh-feat{transition:none}.bh-feat:hover{transform:none}}
+.sr-only{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+@media (max-width:900px){.pc-new{display:block;width:max-content;margin:0 0 8px}}

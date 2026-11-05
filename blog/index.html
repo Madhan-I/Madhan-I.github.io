@@ -9,14 +9,17 @@ description: Articles by Madhan Irulandi on agile delivery, release trains, AI i
       <div class="bh-eyebrow"><span class="dot"></span>Writing / Plan. Ship. Learn.</div>
       <h1 class="bh-title">Notes from the <span class="grad">release train<i>.</i></span></h1>
       <p class="bh-lede">Short pieces on running delivery, coaching teams and putting AI into production.</p>
-      <dl class="bh-stats">{% assign mins = 0 %}{% for post in site.posts %}{% assign w = post.content | strip_html | number_of_words %}{% assign m = w | divided_by: 200 | plus: 1 %}{% assign mins = mins | plus: m %}{% endfor %}
-        <div><dt>{{ site.posts.size }}</dt><dd>stories</dd></div><div><dt>{{ mins }}</dt><dd>min of reading</dd></div><div><dt>{{ site.posts.first.date | date: "%b %Y" }}</dt><dd>latest</dd></div>
-      </dl>
+      <p class="bh-meta"><b>{{ site.posts.size }} stories</b> on release trains, AI delivery, coaching and training.</p>
+      <label class="bh-search"><span class="sr-only">Search stories</span><span class="box"><input type="search" placeholder="Search stories..." aria-label="Search stories"><svg class="ic" aria-hidden="true"><use href="#i-search"/></svg></span></label>
     </div>
-    <div class="bh-side">
-      <div class="bh-art" aria-hidden="true"><span></span><span></span><span><b>PLAN</b><b>SHIP</b><b>LEARN<i>.</i></b></span></div>
-      <label class="bh-search"><span>Find your next read.</span><span class="box"><input type="search" placeholder="Search stories..." aria-label="Search stories"><svg class="ic" aria-hidden="true"><use href="#i-search"/></svg></span></label>
-    </div>
+    {% assign lp = site.posts.first %}{% if lp %}{% assign lw = lp.content | strip_html | number_of_words %}{% assign lm = lw | divided_by: 200 | plus: 1 %}<div class="bh-side">
+      <a class="bh-feat" href="{{ lp.url | relative_url }}" data-goatcounter-click="blog-latest-card" data-goatcounter-title="Latest story card (Writing page)">
+        <span class="fk"><span class="new">New</span>{{ lp.date | date: "%d %b %Y" }} · {{ lm }} min read</span>
+        <b>{{ lp.title }}</b>
+        {% if lp.summary %}<span class="fs">{{ lp.summary }}</span>{% endif %}
+        <span class="go">Read the latest story <svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></span>
+      </a>
+    </div>{% endif %}
   </div>
 </div>
 <section class="flush-top">
@@ -28,7 +31,7 @@ description: Articles by Madhan Irulandi on agile delivery, release trains, AI i
       {% for post in site.posts %}{% assign w = post.content | strip_html | number_of_words %}{% assign m = w | divided_by: 200 | plus: 1 %}
       <a class="post-card{% if post.image %} has-img{% endif %}" href="{{ post.url | relative_url }}" data-tags="{{ post.tags | join: '|' }}">
         {% if post.image %}<span class="pc-img"><img src="{{ post.image | relative_url }}" alt="" width="1200" height="627" loading="lazy" decoding="async"></span>{% endif %}
-        <span class="pc-top"><span class="k">{{ post.date | date: "%d %b %Y" }} · {{ m }} min read</span>{% if post.tags.size > 0 %}<span class="tk-chip">{{ post.tags.first }}</span>{% endif %}</span>
+        <span class="pc-top"><span class="k">{% if forloop.first %}<span class="pc-new">New</span>{% endif %}{{ post.date | date: "%d %b %Y" }} · {{ m }} min read</span>{% if post.tags.size > 0 %}<span class="tk-chip">{{ post.tags.first }}</span>{% endif %}</span>
         <b class="pc-title">{{ post.title }}</b>
         {% if post.summary %}<span class="s">{{ post.summary }}</span>{% endif %}
         <span class="read">Read story <svg class="ic" aria-hidden="true"><use href="#i-arrow-ne"/></svg></span>
