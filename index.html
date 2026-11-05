@@ -17,11 +17,8 @@ layout: default
         <a class="btn primary" data-goatcounter-click="click-hero-email" href="mailto:{{ p.email }}?subject=Opportunity%20for%20{{ p.name_first }}">Let's work together <svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></a>
         {% if p.resume_file != "" %}<details class="res-menu">
           <summary class="btn" data-goatcounter-click="click-hero-resume-menu">Download resume <svg class="ic" aria-hidden="true"><use href="#i-file"/></svg></summary>
-          <div class="res-pop" role="menu">
-            <a role="menuitem" href="{{ '/assets/resume/' | append: p.resume_file | relative_url }}" download data-goatcounter-click="click-hero-resume-2page"><b>2-page resume</b><i>PDF · full career detail</i><em>Recommended</em></a>
-            <a role="menuitem" href="{{ '/assets/resume/Madhan-Irulandi-Resume-1-page.pdf' | relative_url }}" download data-goatcounter-click="click-hero-resume-1page"><b>1-page summary</b><i>PDF · quick read</i></a>
-            <a role="menuitem" href="{{ '/assets/resume/Madhan-Irulandi-Resume.docx' | relative_url }}" download data-goatcounter-click="click-hero-resume-word"><b>Word version</b><i>.docx · for application forms</i></a>
-            <p class="res-note">Want everything? This website is the full version.</p>
+          <div class="res-pop">
+            {% for v in p.resume_versions %}<div class="res-row"><span class="rr-t"><b>{{ v.label }}</b><i>{{ v.note }}</i></span><span class="rr-l"><a href="{{ '/assets/resume/' | append: v.file | append: '.pdf' | relative_url }}" download data-goatcounter-click="click-hero-resume-{{ forloop.index }}-pdf" aria-label="{{ v.label }}, PDF">PDF</a><a href="{{ '/assets/resume/' | append: v.file | append: '.docx' | relative_url }}" download data-goatcounter-click="click-hero-resume-{{ forloop.index }}-word" aria-label="{{ v.label }}, Word">Word</a></span></div>{% endfor %}
           </div>
         </details>{% endif %}
         {% if p.github != "" %}<a class="btn ghost" href="https://github.com/{{ p.github }}" target="_blank" rel="noopener">GitHub ↗</a>{% endif %}
@@ -97,7 +94,7 @@ layout: default
           <h3>{{ job.title }}</h3>
           {% if job.client %}<p class="org has-client"><b class="client">{{ job.client }}</b>{% if job.project %}<span class="proj"><span class="sep"> · </span>{{ job.project }}</span>{% endif %}<span class="via"><b class="emp">{{ job.company }}</b> · {{ job.detail }}</span></p>{% else %}<p class="org has-client"><b class="client">{{ job.company }}</b>{% if job.project %}<span class="proj"><span class="sep"> · </span>{{ job.project }}</span>{% endif %}<span class="via">{{ job.detail }}</span></p>{% endif %}
           <ul>{% for pt in job.points %}<li>{{ pt }}</li>{% endfor %}</ul>
-          {% if job.case_study %}<a class="case-link" href="{{ job.case_study | relative_url }}">Read the case study →</a>{% endif %}
+          {% if job.case_study %}<a class="case-link" href="{{ job.case_study | relative_url }}">Read the case study</a>{% endif %}
         </div>
         <svg class="job-art" aria-hidden="true"><use href="#i-{{ job.icon | default: 'route' }}"/></svg>
       {% endcapture %}{% if forloop.index <= nfull %}
@@ -226,7 +223,7 @@ layout: default
     </div>
     <div class="contact-bottom reveal">
       <div class="res-tiles">
-        {% if p.resume_file != "" %}<a class="res-btn" href="{{ '/assets/resume/' | append: p.resume_file | relative_url }}" data-goatcounter-click="click-contact-resume" download><svg class="ic" aria-hidden="true"><use href="#i-file"/></svg><span><small>Resume · 2 pages</small>Download PDF</span></a><a class="res-btn" href="{{ '/assets/resume/Madhan-Irulandi-Resume-1-page.pdf' | relative_url }}" data-goatcounter-click="click-contact-resume-1page" download><svg class="ic" aria-hidden="true"><use href="#i-file"/></svg><span><small>Summary · 1 page</small>Download PDF</span></a><a class="res-word" href="{{ '/assets/resume/Madhan-Irulandi-Resume.docx' | relative_url }}" data-goatcounter-click="click-contact-resume-word" download>Need Word? Download the .docx version</a>
+        {% if p.resume_file != "" %}<div class="res-card"><span class="k"><svg class="ic" aria-hidden="true"><use href="#i-file"/></svg>Resume</span>{% for v in p.resume_versions %}<div class="rc-row"><span class="rc-t"><b>{{ v.label }}</b><i>{{ v.note }}</i></span><span class="rv-l"><a href="{{ '/assets/resume/' | append: v.file | append: '.pdf' | relative_url }}" download data-goatcounter-click="click-contact-resume-{{ forloop.index }}-pdf" aria-label="{{ v.label }}, PDF">PDF</a><a href="{{ '/assets/resume/' | append: v.file | append: '.docx' | relative_url }}" download data-goatcounter-click="click-contact-resume-{{ forloop.index }}-word" aria-label="{{ v.label }}, Word">Word</a></span></div>{% endfor %}</div>
         {% else %}<a class="v" href="mailto:{{ p.email }}?subject=Resume%20request">Request by email</a>{% endif %}
       </div>
       <div class="card email-card">

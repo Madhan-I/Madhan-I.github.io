@@ -5041,8 +5041,14 @@ details.creds[open]>summary span::after{content:"\2212"}
 .skip-link{position:absolute;left:-9999px;top:8px;z-index:1000;background:#0B2545;color:#fff;padding:10px 16px;border-radius:8px;font-weight:700}
 .skip-link:focus{left:16px}
 /* Case study link on the John Hancock role */
-.case-link{display:inline-block;margin-top:10px;font-weight:700;font-size:14px;color:#1D5FD1;text-decoration:none;border-bottom:2px solid #F2A541;padding-bottom:2px}
-.case-link:hover{color:#0B2545}
+/* Case-study link: same pill as the skills tabs (.sk-tab), orange border, dot and a light sweep */
+.case-link{position:relative;overflow:hidden;display:inline-flex;align-items:center;margin-top:12px;padding:9px 14px;border:1px solid #F2A541;border-radius:999px;background:#fff;font:600 13px/1 var(--body);color:var(--navy);text-decoration:none;transition:background .2s,color .2s,border-color .2s}
+.case-link::before{content:"";width:6px;height:6px;border-radius:50%;background:#F2A541;margin-right:7px;flex:none}
+.case-link::after{content:"";position:absolute;top:0;bottom:0;left:-60%;width:50%;background:linear-gradient(100deg,transparent,rgba(242,165,65,.55),transparent);transform:skewX(-20deg);opacity:0;pointer-events:none}
+.case-link.cl-seen::after{animation:2.4s ease-in-out 3 sk-ray}
+.case-link:hover,.case-link:focus-visible{background:var(--navy);color:#fff;border-color:var(--navy)}
+.case-link:focus-visible{outline:#B45309 solid 2px;outline-offset:2px}
+@media (prefers-reduced-motion:reduce){.case-link.cl-seen::after{animation:none}}
 /* Case study page */
 .case .wrap{max-width:760px}
 .case{padding-top:110px}
@@ -5276,8 +5282,27 @@ html body #writing .writing-cards li.has-img {
 .res-pop em{grid-column:2;grid-row:1/3;align-self:center;font-style:normal;font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#94570A;background:#FDEBD0;padding:4px 8px;border-radius:99px}
 .res-pop .res-note{margin:4px 12px 6px;padding-top:8px;border-top:1px solid var(--line);font-size:12.5px;color:var(--muted)}
 @media (max-width:767px){.res-menu{display:block}.res-menu>summary{justify-content:center}.res-pop{left:0;right:0;width:auto;max-width:none}}
-/* Contact: Word link under the two resume tiles */
-.res-tiles .res-word{grid-column:1/-1;font-size:14px;font-weight:600;color:rgba(255,255,255,.88)!important;text-align:center;text-decoration:underline;text-underline-offset:3px}
+/* Resume versions (Nov 2026): 1 page, 2 pages, full career, each as PDF and Word */
+.res-pop .res-row{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:10px 12px;border-radius:10px}
+.res-pop .res-row + .res-row{border-top:1px solid var(--line)}
+.res-pop .rr-t{display:flex;flex-direction:column;gap:2px}
+.res-pop .rr-t b{font-weight:700;font-size:15px;color:var(--navy)}
+.res-pop .rr-t i{font-style:normal;font-size:13px;color:var(--muted)}
+.res-pop .rr-l{display:flex;gap:6px;flex:none}
+.res-pop .rr-l a{display:inline-block;padding:7px 11px;border:1px solid var(--line);border-radius:999px;font:600 13px/1 var(--body);color:var(--navy);text-decoration:none}
+.res-pop .rr-l a:hover,.res-pop .rr-l a:focus-visible{background:var(--navy);border-color:var(--navy);color:#fff}
+.res-tiles:has(.res-card){display:block}
+.res-card{height:100%;box-sizing:border-box;padding:16px 20px;border-radius:14px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.14);color:#fff}
+.res-card .k{display:flex;align-items:center;gap:8px;font-weight:700;font-size:13px;letter-spacing:.1em;text-transform:uppercase;color:#F2A541;margin-bottom:6px}
+.res-card .k .ic{width:20px;height:20px;color:#F2A541}
+.res-card .rc-row{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:9px 0}
+.res-card .rc-row + .rc-row{border-top:1px solid rgba(255,255,255,.12)}
+.res-card .rc-t{display:flex;flex-direction:column;gap:2px}
+.res-card .rc-t b{font-weight:700;font-size:16px}
+.res-card .rc-t i{font-style:normal;font-size:13px;color:rgba(255,255,255,.75)}
+.res-card .rv-l{display:flex;gap:8px;flex:none}
+.res-card .rv-l a{display:inline-block;padding:7px 12px;border:1px solid rgba(255,255,255,.35);border-radius:999px;font:600 13px/1 var(--body);color:#fff;text-decoration:none}
+.res-card .rv-l a:hover,.res-card .rv-l a:focus-visible{background:#fff;color:var(--navy);border-color:#fff}
 /* keep the resume menu above chips and the numbers band */
 .ctas{position:relative;z-index:40}
 .res-menu[open]{z-index:41}

@@ -531,3 +531,13 @@ document.querySelectorAll('.copy-btn').forEach(function (b) {
     if (items.length > 4) collapse(items.slice(4), topics, 'Show all ' + items.length + ' topics', 'Show fewer topics');
   }
 })();
+
+/* Case-study pill: play the light sweep a few times once it scrolls into view */
+(function () {
+  var links = document.querySelectorAll('.case-link');
+  if (!links.length || !('IntersectionObserver' in window)) return;
+  var io = new IntersectionObserver(function (es) {
+    es.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add('cl-seen'); io.unobserve(e.target); } });
+  }, { threshold: 0.6 });
+  links.forEach(function (l) { io.observe(l); });
+})();
