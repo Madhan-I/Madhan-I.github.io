@@ -71,7 +71,7 @@ schema checks.
 COGNIZANT — Chennai, India                                                                                     Jul 2014 – Jan 2020
 Technology Lead / Senior Analyst (2017–2020) • Systems Engineer / Application Analyst (2015–2017) • Production Support Engineer
 (2014–2015)
- • MetLife: Spearheaded the move from a legacy publisher to OpenText xPression, migrating 4,500+ policy documents with zero
+ • MetLife: Led the move from a legacy publisher to OpenText xPression, migrating 4,500+ policy documents with zero
 defects and freeing up 2,000 engineering hours a quarter (Certificate of Excellence, May 2019).
  • Anthem (now Elevance Health): Consolidated legacy layouts into dynamic master templates with OpenText Exstream and
 xPression, saving $300K a year in operating costs.
