@@ -27,7 +27,10 @@ roles:
   - Senior Scrum Master
   - Microsoft Certified Trainer
 
-intro: "Over 13 years, I've grown from production support to leading delivery for retail, insurance and healthcare leaders like Walmart, MetLife, Manulife, Allstate, Anthem and John Hancock. In insurance alone, the systems I've delivered serve more than 20 million policyholders. Today I run Agile Release Trains on AI-enabled platforms and turn around at-risk programs. A Microsoft Certified Trainer since 2020, I've trained 3,000+ people and given 75+ guest lectures."
+intro: "I run Agile Release Trains on AI-enabled platforms and turn around programs that have stalled. 13+ years of delivery in insurance, banking, retail and healthcare, and 3,000+ people trained as a Microsoft Certified Trainer."
+# One line under the intro. Client names only, no project details.
+delivered_for: [Walmart, MetLife, Manulife, Allstate, Anthem, John Hancock]
+delivered_note: "systems serving 20M+ policyholders"
 # Phone only: a 2-line hero intro (the full intro shows on laptop and tablet; the details stay in About).
 intro_phone: "I run Agile Release Trains on AI-enabled platforms and turn around at-risk programs. 13 years of delivery, 3,000+ people trained."
 
@@ -61,9 +64,9 @@ metrics:
     suffix: "%+"
     text: average ART predictability across every PI in my current portfolio
   - tag: AI in production
-    number: "10–15"
-    suffix: "%"
-    text: onboarding false-alarm rate, down from 30%, with a hybrid AI and RAG compliance engine in production; every flagged case still goes to a person
+    number: "50"
+    suffix: "%+"
+    text: "fewer onboarding false alarms (30% down to 10–15%) with a hybrid AI and RAG engine in production; every flagged case still goes to a person"
   - tag: Recovery
     number: "400"
     suffix: "+"
@@ -72,6 +75,29 @@ metrics:
     number: "3,000"
     suffix: "+"
     text: people trained since 2020, with 75+ guest lectures delivered and 1,000+ professionals mentored
+
+# "Selected work" cards under the client quotes. Keep it to three.
+# link: a case study page, or "/#experience" until one exists.
+selected_work_title: "Three programs, three results"
+selected_work:
+  - kicker: "Turnaround · Insurance"
+    title: Restarting a frozen platform
+    number: "400+"
+    text: "Backlog tickets cleared in 9 months on a platform COVID had frozen for two years. Estimates within 10% of actual work."
+    link: /case-studies/john-hancock/
+    link_label: Read the case study
+  - kicker: "AI delivery · Compliance"
+    title: AI with a person in the loop
+    number: "100%"
+    text: "of flagged cases still reviewed by a person. Hybrid AI and RAG compliance engine in production, with false alarms down from 30% to 10–15%."
+    link: /#experience
+    link_label: See the role
+  - kicker: "Scale · Release trains"
+    title: Running a train at scale
+    number: "95%+"
+    text: "Average ART predictability. A 7-team train run directly, with release governance across 30+ teams and 200+ people."
+    link: /#experience
+    link_label: See the role
 
 # Use | to start a new line in the heading.
 about_title: "Delivery leader. Engineer by training. Teacher by habit."

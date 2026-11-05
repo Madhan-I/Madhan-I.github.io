@@ -5294,3 +5294,132 @@ html body #writing .writing-cards li.has-img {
 /* Phone: show the first two points of each role, the rest behind a button (main.js adds it) */
 .pt-x[hidden] { display: none !important; }
 .pt-more { margin-top: 6px; background: none; border: 0; padding: 4px 0; font: inherit; font-weight: 600; color: var(--accent, #1f5fd1); cursor: pointer; text-decoration: underline; text-underline-offset: 3px; }
+
+/* Hero "Delivered for" line and Selected work cards (Nov 2026) */
+.delivered {
+  margin: 12px 0 22px;
+  font: 500 14px/1.6 var(--body);
+  color: var(--muted)
+}
+.delivered b {
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--navy);
+  margin-right: 6px
+}
+.delivered span {
+  white-space: nowrap;
+  color: var(--text)
+}
+.delivered i {
+  font-style: normal
+}
+.delivered .dn {
+  color: var(--muted)
+}
+#work + #about {
+  border-top: 1px solid var(--line)
+}
+.work-grid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3,minmax(0,1fr));
+  gap: 20px
+}
+.work-grid > li {
+  display: flex
+}
+.work-card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 26px 24px 22px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--tint);
+  color: inherit;
+  text-decoration: none;
+  transition: transform .2s,box-shadow .2s,border-color .2s
+}
+.work-card:hover,
+.work-card:focus-visible {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-lg);
+  border-color: var(--brand)
+}
+.work-card:focus-visible {
+  outline: 3px solid var(--brand-2);
+  outline-offset: 3px
+}
+.work-card .wk {
+  font: 700 11px/1.3 var(--body);
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--muted)
+}
+.work-card h3 {
+  font: 800 22px/1.2 var(--display);
+  color: var(--navy);
+  margin: 10px 0 14px
+}
+.work-card .wn {
+  font: 800 44px/1 var(--display);
+  color: var(--brand);
+  margin-bottom: 8px
+}
+.work-card p {
+  flex: 1;
+  margin: 0 0 18px;
+  font: 400 15px/1.55 var(--body);
+  color: var(--text)
+}
+.work-card .wgo {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font: 700 14px/1 var(--body);
+  color: var(--brand)
+}
+.work-card .wgo .ic {
+  width: 16px;
+  height: 16px
+}
+@media (max-width:900px) {
+  .work-grid {
+    grid-template-columns: 1fr;
+    gap: 14px
+  }
+  .work-card {
+    padding: 20px 18px 18px
+  }
+  .work-card h3 {
+    font-size: 20px;
+    margin: 8px 0 10px
+  }
+  .work-card .wn {
+    font-size: 34px
+  }
+  .work-card p {
+    font-size: 14.5px;
+    margin-bottom: 14px
+  }
+}
+@media (max-width:760px) {
+  .delivered {
+    font-size: 13px;
+    margin: 8px 0 18px
+  }
+}
+@media (prefers-reduced-motion:reduce) {
+  .work-card {
+    transition: none
+  }
+  .work-card:hover,
+  .work-card:focus-visible {
+    transform: none
+  }
+}
