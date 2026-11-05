@@ -27,10 +27,7 @@ roles:
   - Senior Scrum Master
   - Microsoft Certified Trainer
 
-intro: "I run Agile Release Trains on AI-enabled platforms and turn around programs that have stalled. 13+ years of delivery in insurance, banking, retail and healthcare, and 3,000+ people trained as a Microsoft Certified Trainer."
-# One line under the intro. Client names only, no project details.
-delivered_for: [Walmart, MetLife, Manulife, Allstate, Anthem, John Hancock]
-delivered_note: "systems serving 20M+ policyholders"
+intro: "I run Agile Release Trains on AI-enabled platforms, and leaders usually bring me in when a program has stalled. I've spent 13 years delivering for insurers, banks, retailers and healthcare companies. At one insurer, the customer letters my teams built reach more than 20 million policyholders. Since 2020 I've trained more than 3,000 people as a Microsoft Certified Trainer."
 # Phone only: a 2-line hero intro (the full intro shows on laptop and tablet; the details stay in About).
 intro_phone: "I run Agile Release Trains on AI-enabled platforms and turn around at-risk programs. 13 years of delivery, 3,000+ people trained."
 
@@ -66,7 +63,7 @@ metrics:
   - tag: AI in production
     number: "50"
     suffix: "%+"
-    text: "fewer onboarding false alarms (30% down to 10–15%) with a hybrid AI and RAG engine in production; every flagged case still goes to a person"
+    text: "fewer false alarms in customer onboarding, from 30% down to 10–15%, and a person still checks every case the AI flags"
   - tag: Recovery
     number: "400"
     suffix: "+"
@@ -77,27 +74,25 @@ metrics:
     text: people trained since 2020, with 75+ guest lectures delivered and 1,000+ professionals mentored
 
 # "Selected work" cards under the client quotes. Keep it to three.
+# The big numbers already sit in the blue band above, so the cards tell the story instead.
 # link: a case study page, or "/#experience" until one exists.
-selected_work_title: "Three programs, three results"
+selected_work_title: "Three programs worth a closer look"
 selected_work:
-  - kicker: "Turnaround · Insurance"
-    title: Restarting a frozen platform
-    number: "400+"
-    text: "Backlog tickets cleared in 9 months on a platform COVID had frozen for two years. Estimates within 10% of actual work."
+  - kicker: Life insurance
+    title: Restarting a platform frozen for two years
+    text: "COVID had frozen the platform for two years and 400+ tickets were waiting. We cleared them in nine months, and our estimates landed within 10% of the real effort."
     link: /case-studies/john-hancock/
-    link_label: Read the case study
-  - kicker: "AI delivery · Compliance"
-    title: AI with a person in the loop
-    number: "100%"
-    text: "of flagged cases still reviewed by a person. Hybrid AI and RAG compliance engine in production, with false alarms down from 30% to 10–15%."
+    link_label: Read how we did it
+  - kicker: Compliance AI
+    title: AI that still lets people decide
+    text: "We took a hybrid AI and RAG engine into production for customer onboarding checks. False alarms fell from 30% to 10–15%, and a person still reviews every case it flags."
     link: /#experience
-    link_label: See the role
-  - kicker: "Scale · Release trains"
-    title: Running a train at scale
-    number: "95%+"
-    text: "Average ART predictability. A 7-team train run directly, with release governance across 30+ teams and 200+ people."
+    link_label: More in my experience
+  - kicker: Release trains
+    title: Keeping a big release train on schedule
+    text: "I run a 7-team release train directly and govern releases for 30+ teams and 200+ people. Across every planning cycle, we deliver 95%+ of what we planned."
     link: /#experience
-    link_label: See the role
+    link_label: More in my experience
 
 # Use | to start a new line in the heading.
 about_title: "Delivery leader. Engineer by training. Teacher by habit."
