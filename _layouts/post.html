@@ -11,7 +11,7 @@ layout: default
     {% if page.outcome %}<div class="outcome"><b>In short</b><p>{{ page.outcome }}</p></div>{% endif %}
     <div class="post-meta">
       {% if page.tags.size > 0 %}<ul class="tags">{% for t in page.tags %}<li><a href="{{ '/blog/' | relative_url }}?tag={{ t | url_encode }}">{{ t }}</a></li>{% endfor %}</ul>{% endif %}
-      <a class="share-in" href="https://www.linkedin.com/sharing/share-offsite/?url={{ page.url | absolute_url | url_encode }}" target="_blank" rel="noopener" data-goatcounter-click="share-linkedin-top"><svg class="ic" aria-hidden="true"><use href="#i-linkedin"/></svg>Share on LinkedIn</a>
+      <a class="share-in" href="https://www.linkedin.com/sharing/share-offsite/?url={{ page.url | absolute_url | url_encode }}" target="_blank" rel="noopener" data-goatcounter-click="share-linkedin-top" data-goatcounter-title="share-linkedin-top"><svg class="ic" aria-hidden="true"><use href="#i-linkedin"/></svg>Share on LinkedIn</a>
     </div>
   </header>
   <nav class="toc" aria-label="On this page" hidden><details open><summary><b>On this page</b></summary><ol></ol></details></nav>
@@ -29,8 +29,9 @@ layout: default
       <p class="ab-role">{{ site.data.profile.headline }} · Microsoft Certified Trainer since 2020</p>
       <p class="ab-cta">Working on a program like this? Let's talk.</p>
       <div class="ab-actions">
-        {% if site.data.profile.calendly != "" %}<a class="btn primary" href="{{ site.data.profile.calendly }}" target="_blank" rel="noopener" data-goatcounter-click="post-book-call">Book a call</a>{% endif %}
-        <a class="btn" href="https://www.linkedin.com/sharing/share-offsite/?url={{ page.url | absolute_url | url_encode }}" target="_blank" rel="noopener" data-goatcounter-click="share-linkedin-bottom"><svg class="ic" aria-hidden="true"><use href="#i-linkedin"/></svg>Share</a>
+        {% if site.data.profile.calendly != "" %}<a class="btn primary" href="{{ site.data.profile.calendly }}" target="_blank" rel="noopener" data-goatcounter-click="post-book-call" data-goatcounter-title="post-book-call">Book a call</a>{% endif %}
+        {% if site.data.profile.resume_file != "" %}<a class="btn" href="{{ '/assets/resume/' | append: site.data.profile.resume_file | relative_url }}" download data-goatcounter-click="resume-2page-pdf-post" data-goatcounter-title="Resume 2-page PDF (end of post)">Download resume</a>{% endif %}
+        <a class="btn" href="https://www.linkedin.com/sharing/share-offsite/?url={{ page.url | absolute_url | url_encode }}" target="_blank" rel="noopener" data-goatcounter-click="share-linkedin-bottom" data-goatcounter-title="share-linkedin-bottom"><svg class="ic" aria-hidden="true"><use href="#i-linkedin"/></svg>Share</a>
         <button class="copy-link" type="button" data-url="{{ page.url | absolute_url }}">Copy article link</button>
       </div>
     </div>

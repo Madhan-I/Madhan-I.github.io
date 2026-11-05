@@ -14,7 +14,7 @@
       {%- assign today = site.time | date: '%Y%m%d' | plus: 0 -%}
       {% if today >= 20261201 %}<li><a href="{{ '/drill/' | relative_url }}">Practice</a></li>{% endif %}
       {% unless th.show.contact == false %}<li><a href="{{ '/#contact' | relative_url }}">Contact</a></li>{% endunless %}
-      {% if p.calendly != "" %}<li class="nav-cta"><a href="{{ p.calendly }}" target="_blank" rel="noopener" data-goatcounter-click="nav-book-call">Book a call</a></li>{% endif %}
+      {% if p.calendly != "" %}<li class="nav-cta"><a href="{{ p.calendly }}" target="_blank" rel="noopener" data-goatcounter-click="nav-book-call" data-goatcounter-title="nav-book-call">Book a call</a></li>{% endif %}
     </ul>
   </div>
   <div class="scroll-progress" aria-hidden="true"></div>
