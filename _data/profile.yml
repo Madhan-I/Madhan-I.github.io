@@ -45,12 +45,15 @@ resume_file: "Madhan-Irulandi-Resume.pdf"
 # Each needs a .pdf and a .docx with the same name in assets/resume/.
 resume_versions:
   - label: 1-page summary
+    short: 1 page
     note: Quick read
     file: Madhan-Irulandi-Resume-1-page
   - label: 2-page resume
+    short: 2 pages
     note: Recommended
     file: Madhan-Irulandi-Resume
   - label: Full career
+    short: Full career
     note: Every role, 3 pages
     file: Madhan-Irulandi-Resume-Full
 

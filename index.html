@@ -222,14 +222,11 @@ layout: default
     </div>
     </div>
     <div class="contact-bottom reveal">
-      <div class="res-tiles">
-        {% if p.resume_file != "" %}<div class="res-card"><span class="k"><svg class="ic" aria-hidden="true"><use href="#i-file"/></svg>Resume</span>{% for v in p.resume_versions %}<div class="rc-row"><span class="rc-t"><b>{{ v.label }}</b><i>{{ v.note }}</i></span><span class="rv-l"><a href="{{ '/assets/resume/' | append: v.file | append: '.pdf' | relative_url }}" download data-goatcounter-click="click-contact-resume-{{ forloop.index }}-pdf" aria-label="{{ v.label }}, PDF">PDF</a><a href="{{ '/assets/resume/' | append: v.file | append: '.docx' | relative_url }}" download data-goatcounter-click="click-contact-resume-{{ forloop.index }}-word" aria-label="{{ v.label }}, Word">Word</a></span></div>{% endfor %}</div>
-        {% else %}<a class="v" href="mailto:{{ p.email }}?subject=Resume%20request">Request by email</a>{% endif %}
-      </div>
-      <div class="card email-card">
-        <svg class="ic" aria-hidden="true"><use href="#i-mail"/></svg>
-        <div class="ec-body"><span class="k">Email</span>
-        <div class="row"><a class="v" data-goatcounter-click="click-contact-email" href="mailto:{{ p.email }}">{{ p.email }}</a><button class="copy-btn" type="button" data-copy="{{ p.email }}">Copy</button></div></div>
+      <div class="res-line">
+        {% if p.resume_file != "" %}<span class="rl-k"><svg class="ic" aria-hidden="true"><use href="#i-file"/></svg>Resume</span>
+        {% for v in p.resume_versions %}<span class="rl-g{% if v.note == 'Recommended' %} rec{% endif %}"><b>{{ v.short }}</b><a href="{{ '/assets/resume/' | append: v.file | append: '.pdf' | relative_url }}" download data-goatcounter-click="click-contact-resume-{{ forloop.index }}-pdf" aria-label="{{ v.label }}, PDF">PDF</a><a href="{{ '/assets/resume/' | append: v.file | append: '.docx' | relative_url }}" download data-goatcounter-click="click-contact-resume-{{ forloop.index }}-word" aria-label="{{ v.label }}, Word">Word</a></span>
+        {% endfor %}<span class="rl-sep" aria-hidden="true"></span>{% else %}<a class="v" href="mailto:{{ p.email }}?subject=Resume%20request">Request resume by email</a>{% endif %}
+        <span class="rl-em"><svg class="ic" aria-hidden="true"><use href="#i-mail"/></svg><a class="v" data-goatcounter-click="click-contact-email" href="mailto:{{ p.email }}">{{ p.email }}</a><button class="copy-btn" type="button" data-copy="{{ p.email }}">Copy</button></span>
       </div>
       {% if p.github != "" %}
       <div class="card">
