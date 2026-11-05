@@ -541,3 +541,15 @@ document.querySelectorAll('.copy-btn').forEach(function (b) {
   }, { threshold: 0.6 });
   links.forEach(function (l) { io.observe(l); });
 })();
+
+/* Quote strip scrolls sideways on phones: make it reachable by keyboard only when it actually scrolls */
+(function () {
+  var g = document.querySelector('.proof-grid');
+  if (!g) return;
+  function check() {
+    if (g.scrollWidth > g.clientWidth + 1) { g.setAttribute('tabindex', '0'); g.setAttribute('aria-label', 'Client feedback quotes, scroll sideways for more'); }
+    else { g.removeAttribute('tabindex'); g.removeAttribute('aria-label'); }
+  }
+  check();
+  window.addEventListener('resize', check);
+})();

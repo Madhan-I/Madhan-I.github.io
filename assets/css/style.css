@@ -4588,37 +4588,12 @@ a.more:hover {
 }
 
 /* ---- Client feedback ---- */
-.fb-quotes { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
-.fb-quotes li { position: relative; background: #FFFFFF; border: 1px solid var(--line); border-top: 3px solid #B45309; border-radius: 16px; padding: 26px 24px 24px; display: flex; flex-direction: column; }
-.fb-mark { font: 800 56px/0.6 var(--display); color: #F2A541; height: 26px; display: block; }
-.fb-quotes blockquote { margin: 0; font: 500 16px/1.6 var(--body); color: var(--text); text-align: justify; hyphens: auto; }
-.fb-quotes li:first-child blockquote { font-weight: 600; color: var(--navy); }
-.fb-foot { display: flex; justify-content: space-between; align-items: baseline; gap: 12px 32px; flex-wrap: wrap; margin-top: 20px; }
-.fb-who { margin: 0; display: flex; gap: 10px; align-items: baseline; flex-wrap: wrap; }
-.fb-who b { color: var(--navy); font: 700 15px/1.3 var(--body); }
-.fb-who span { color: #1D5FD1; font: 600 14px/1.3 var(--body); }
-.fb-note { margin: 0; color: var(--muted); font: 500 14px/1.5 var(--body); }
-@media (max-width: 1023px) { .fb-quotes { grid-template-columns: 1fr 1fr; } .fb-quotes li:first-child { grid-column: 1 / -1; } }
-@media (max-width: 767px) { .fb-quotes { grid-template-columns: 1fr; gap: 14px; } .fb-quotes li { padding: 22px 20px 20px; } .fb-quotes blockquote { font-size: 15px; } .fb-foot { flex-direction: column; gap: 6px; } }
 #feedback { padding-top: 16px !important; padding-bottom: 29px !important; }
 @media (max-width: 767px) { #feedback { padding-top: 16px !important; padding-bottom: 29px !important; } }
-.fb-quotes { grid-template-columns: 1fr 1fr; }
-.fb-quotes li:first-child { grid-column: 1 / -1; }
-.fb-quotes li:first-child blockquote { font: 600 20px/1.5 var(--display); color: var(--navy); }
-@media (max-width: 767px) { .fb-quotes li:first-child blockquote { font-size: 17px; } }
-.fb-top { display: flex; justify-content: space-between; align-items: flex-start; } .fb-top .fb-date { margin-top: -4px; }
-.fb-date { font: 600 13px/1 var(--body); color: #B45309; background: color-mix(in srgb, #B45309 9%, #fff); border: 1px solid color-mix(in srgb, #B45309 25%, #fff); border-radius: 999px; padding: 6px 12px; }
-@media (min-width: 768px) { .fb-quotes { grid-template-columns: 1.6fr 1fr; } }
-.fb-mark { font-size: 40px; height: 18px; }
 /* Order: Experience, Client feedback, Certifications, Training */
 #feedback { padding-bottom: 23px !important; }
 #certifications { padding-bottom: 29px !important; }
 /* Client feedback on navy */
-#feedback .fb-who b { color: #FFFFFF; }
-#feedback .fb-who span { color: #F2A541; }
-#feedback .fb-note { color: rgba(255,255,255,.72); }
-#feedback .fb-quotes li { border-color: rgba(255,255,255,.18); border-top-color: #F2A541; }
-@media (max-width: 767px) { .fb-quotes { grid-template-columns: 1fr !important; } .fb-quotes li:first-child blockquote { text-align: left; } }
 #earlier.earlier { margin-top: 18px !important; }
 @media (max-width: 767px) { #earlier.earlier { margin-top: 15px !important; } }
 @media (min-width: 768px) and (max-width: 1099px) { #earlier.earlier { margin-top: 16px !important; } }
@@ -4746,8 +4721,6 @@ a.more:hover {
   html body #feedback { padding-top: 25px !important; }
   html body #feedback .sec-head h2 { margin-top: 13px !important; }
   html body #feedback .sec-head { margin-bottom: 19px !important; }
-  html body #feedback .fb-foot { margin-top: 19px !important; }
-  html body #feedback .fb-note { margin-top: -1px !important; }
   html body #feedback { padding-bottom: 29px !important; }
   html body #certifications { padding-top: 25px !important; }
   html body #certifications .sec-head { margin-bottom: 21px !important; }
@@ -4799,7 +4772,6 @@ a.more:hover {
   html body #feedback { padding-top: 25px !important; }
   html body #feedback .sec-head h2 { margin-top: 13px !important; }
   html body #feedback .sec-head { margin-bottom: 19px !important; }
-  html body #feedback .fb-foot { margin-top: 19px !important; }
   html body #feedback { padding-bottom: 30px !important; }
   html body #certifications { padding-top: 25px !important; }
   html body #certifications .sec-head h2 { margin-top: 13px !important; }
@@ -4852,9 +4824,6 @@ a.more:hover {
   html body #experience { padding-bottom: 18px !important; }
   html body #feedback { padding-top: 25px !important; }
   html body #feedback .sec-head { margin-bottom: 20px !important; }
-  html body #feedback .fb-quotes { row-gap: 20px !important; }
-  html body #feedback .fb-foot { margin-top: 19px !important; }
-  html body #feedback .fb-note { margin-top: 3px !important; }
   html body #feedback { padding-bottom: 30px !important; }
   html body #certifications { padding-top: 25px !important; }
   html body #certifications .sec-head { margin-bottom: 22px !important; }
@@ -5280,7 +5249,6 @@ html body #writing .writing-cards li.has-img {
 .res-pop b{font-weight:700;font-size:15px}
 .res-pop i{grid-column:1;font-style:normal;font-size:13px;color:var(--muted)}
 .res-pop em{grid-column:2;grid-row:1/3;align-self:center;font-style:normal;font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#94570A;background:#FDEBD0;padding:4px 8px;border-radius:99px}
-.res-pop .res-note{margin:4px 12px 6px;padding-top:8px;border-top:1px solid var(--line);font-size:12.5px;color:var(--muted)}
 @media (max-width:767px){.res-menu{display:block}.res-menu>summary{justify-content:center}.res-pop{left:0;right:0;width:auto;max-width:none}}
 /* Resume versions (Nov 2026): 1 page, 2 pages, full career, each as PDF and Word */
 .res-pop .res-row{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:10px 12px;border-radius:10px}
@@ -5317,4 +5285,7 @@ html body #writing .writing-cards li.has-img {
 .portrait picture { display: contents; }
 /* Phone: show the first two points of each role, the rest behind a button (main.js adds it) */
 .pt-x[hidden] { display: none !important; }
-.pt-more { margin-top: 6px; background: none; border: 0; padding: 4px 0; font: inherit; font-weight: 600; color: var(--accent, #1f5fd1); cursor: pointer; text-decoration: underline; text-underline-offset: 3px; }
+.pt-more { margin-top: 6px; background: none; border: 0; padding: 4px 0; font: inherit; font-weight: 600; color: var(--brand, #1D5FD1); cursor: pointer; text-decoration: underline; text-underline-offset: 3px; }
+
+/* Quote strip: visible focus when keyboard users scroll it on phones */
+.proof-grid:focus-visible{outline:#B45309 solid 2px;outline-offset:4px;border-radius:12px}
