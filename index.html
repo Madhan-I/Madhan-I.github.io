@@ -121,12 +121,12 @@ layout: default
         {% if p.training_formats %}<div class="train-formats fmt-groups"><h3 class="fmt-h">Formats</h3><button type="button" class="fmt-toggle" aria-expanded="false">Show formats</button>{% for g in p.training_formats %}<div class="fr"><span class="fh">{{ g.group }}</span><span class="fx">{% for x in g.items %}{% assign m = forloop.index0 | modulo: 3 %}{% if m == 0 %}<span class="fl">{% else %}<i class="fd">·</i>{% endif %}<span class="fi">{{ x }}</span>{% if m == 2 or forloop.last %}</span>{% endif %}{% endfor %}</span></div>{% endfor %}</div>{% endif %}
       </div>
       <div class="skillbox reveal">
-        <div class="sk-tabs" role="tablist"><button type="button" role="tab" class="sk-tab on visited" aria-selected="true" data-sk="0">Training tracks</button>{% for s in p.skill_tabs %}<button type="button" role="tab" class="sk-tab" aria-selected="false" data-sk="{{ forloop.index }}">{{ s.label }}</button>{% endfor %}</div>
-        <ul class="topics sk-panel" data-panel="0" aria-label="Training topics">
+        <div class="sk-tabs" role="tablist">{% for s in p.skill_tabs %}<button type="button" role="tab" class="sk-tab{% if forloop.first %} on visited{% endif %}" aria-selected="{% if forloop.first %}true{% else %}false{% endif %}" data-sk="{{ forloop.index }}">{{ s.label }}</button>{% endfor %}<button type="button" role="tab" class="sk-tab" aria-selected="false" data-sk="0">Training tracks</button></div>
+        <ul class="topics sk-panel" data-panel="0" aria-label="Training topics" hidden>
           {% for t in p.training_topics %}<li><b>{{ t.name }}</b><span>{{ t.note }}</span></li>{% endfor %}
           {% if p.training_safe_note %}<li class="sk-fine">{{ p.training_safe_note }}</li>{% endif %}
         </ul>
-        {% for s in p.skill_tabs %}<div class="sk-panel sk-chips" data-panel="{{ forloop.index }}" hidden>{% for g in s.groups %}{% if g.name %}<h4>{{ g.name }}</h4>{% endif %}<ul>{% for i in g.items %}<li>{{ i }}</li>{% endfor %}</ul>{% endfor %}</div>{% endfor %}
+        {% for s in p.skill_tabs %}<div class="sk-panel sk-chips" data-panel="{{ forloop.index }}"{% unless forloop.first %} hidden{% endunless %}>{% for g in s.groups %}{% if g.name %}<h4>{{ g.name }}</h4>{% endif %}<ul>{% for i in g.items %}<li>{{ i }}</li>{% endfor %}</ul>{% endfor %}</div>{% endfor %}
       </div>
     </div>
     {% if p.speaking %}<div class="speak talks reveal"><h3>{{ p.speaking_title }}</h3><ul>

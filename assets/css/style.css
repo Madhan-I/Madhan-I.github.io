@@ -5291,3 +5291,6 @@ html body #writing .writing-cards li.has-img {
 #writing a.more.wr-all{display:inline-block;overflow:hidden;font:700 14px/1 var(--body)!important;color:var(--brand)!important;background:#fff;border:1px solid var(--line);border-radius:999px;padding:10px 16px!important;text-decoration:none}
 #writing a.more.wr-all:hover,#writing a.more.wr-all:focus-visible{border-color:var(--brand);color:var(--brand)!important}
 #writing a.more.wr-all:focus-visible{outline:#B45309 solid 2px;outline-offset:2px}
+
+/* Phone "Show all topics" button only with the Training tracks tab */
+.sk-panel[hidden] + .pt-more{display:none}
