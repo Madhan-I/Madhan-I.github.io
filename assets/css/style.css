@@ -5294,3 +5294,29 @@ html body #writing .writing-cards li.has-img {
 
 /* Phone "Show all topics" button only with the Training tracks tab */
 .sk-panel[hidden] + .pt-more{display:none}
+
+/* Palette lift (Nov 2026): light sections alternate white and a clearer blue tint,
+   About joins the blue family (amber stays as the accent), cards get a little depth. */
+:root { --tint-2: #EAF1FC; --card-line: #D8E1EE; --card-shadow: 0 1px 2px rgba(14,26,43,.05), 0 6px 18px rgba(14,26,43,.06); }
+html body .proof-strip { background: #fff !important; border-bottom: 0 !important; }
+html body #about { background: var(--tint-2) !important; }
+html body #about .about-side { background: #fff !important; }
+html body #experience { background: #fff !important; }
+html body #certifications { background: var(--tint-2) !important; }
+html body #certifications .cg { background: #fff; }
+html body #recognition { background: #fff !important; }
+html body #writing { background: var(--tint-2) !important; }
+.proof-grid li, #about .about-side, .job, .early, #recognition .panel, #certifications .cg, #writing .writing-cards li { border-color: var(--card-line) !important; box-shadow: var(--card-shadow) !important; }
+.proof-grid li { border-top-color: #F2A541 !important; }
+/* Energy (Nov 2026): a livelier hero glow and cards that respond to the pointer */
+html body .hero-bg{background:radial-gradient(640px 420px at 88% 18%,rgba(29,95,209,.18),transparent 70%),radial-gradient(520px 360px at 8% 100%,rgba(242,165,65,.16),transparent 70%),linear-gradient(135deg,#F7FAFF 0%,#E8F0FD 60%,#FFF4E2 100%) !important}
+.proof-grid li, #about .about-side, .job, .early, #recognition .panel, #certifications .cg, #writing .writing-cards li { transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease; }
+.proof-grid li:hover, .job:hover, .early:hover, #recognition .panel:hover, #certifications .cg:hover, #writing .writing-cards li:hover { transform: translateY(-2px); border-color: #A9C1EA !important; box-shadow: 0 2px 4px rgba(14,26,43,.06), 0 14px 30px rgba(29,95,209,.12) !important; }
+.proof-grid li:hover { border-top-color: #F2A541 !important; }
+@media (prefers-reduced-motion: reduce) { .proof-grid li, .job, .early, #recognition .panel, #certifications .cg, #writing .writing-cards li { transition: none; } .proof-grid li:hover, .job:hover, .early:hover, #recognition .panel:hover, #certifications .cg:hover, #writing .writing-cards li:hover { transform: none; } }
+/* Spacing audit (5 Nov 2026): every light section ends 30px below its last card,
+   the training heading gets the same gap to its content as the others, and the quote strip uses the 25/30 rhythm. */
+html body #about { padding-bottom: 30px !important; }
+html body .proof-strip { padding-top: 25px !important; padding-bottom: 30px !important; }
+@media (min-width: 768px) { html body #training .sec-head { margin-bottom: 19px !important; } }
+@media (max-width: 767px) { html body #training .sec-head { margin-bottom: 22px !important; } }
