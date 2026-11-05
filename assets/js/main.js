@@ -364,9 +364,9 @@ document.querySelectorAll('.copy-btn').forEach(function (b) {
   });
 })();
 
-/* Amber wave on "Show all certifications" and "Show all earlier roles" until clicked */
+/* Amber wave on "Show all certifications", "Show all earlier roles" and "All writing" until clicked */
 (function () {
-  [].forEach.call(document.querySelectorAll('.cert-toggle, #earlier .e-all'), function (b) {
+  [].forEach.call(document.querySelectorAll('.cert-toggle, #earlier .e-all, #writing .wr-all'), function (b) {
     b.classList.add('wave');
     b.addEventListener('click', function () { b.classList.add('used'); });
     if ('IntersectionObserver' in window) { var io = new IntersectionObserver(function (es) { es.forEach(function (e) { if (e.isIntersecting) { b.classList.add('hint'); io.disconnect(); } }); }, { threshold: .1 }); io.observe(b); } else { b.classList.add('hint'); }
