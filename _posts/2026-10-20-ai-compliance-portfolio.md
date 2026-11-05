@@ -33,7 +33,7 @@ Any one of those can derail a quarter. What kept them on track was disciplined P
 
 - Onboarding false positives fell from **30% to 10–15%**, cutting compliance review cost.
 - The portfolio held a sustained **High** health rating, with **under 5% sprint variance**.
-- We averaged **95%+ of planned work delivered each planning cycle** (ART predictability and story-point completion) on multi-million-dollar roadmaps.
+- We averaged **95%+ ART predictability** (business value delivered against business value planned each PI), with no committed work carried over, on multi-million-dollar roadmaps.
 
 ## What I took from it
 

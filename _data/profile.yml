@@ -120,7 +120,7 @@ experience:
     current: true
     points:
       - Steered a hybrid AI and RAG compliance engine to production, lowering false alarms in customer onboarding from 30% to 10–15%.
-      - Averaged 95%+ of planned work delivered each planning cycle (ART predictability) through disciplined PI planning.
+      - Averaged 95%+ ART predictability (business value delivered against business value planned each PI), with no committed work carried over.
       - Maintain a High health rating across the products, with under 5% sprint variance.
       - Reduced technical debt and strengthened platform security, moving 15 core services to AKS and 7 microservices to Gradle.
       - Govern releases for 30+ teams and 200+ people across a three-product portfolio (Core API, Customer Engagement and Compliance AI), reporting progress, risks and roadmap decisions to executive leadership.

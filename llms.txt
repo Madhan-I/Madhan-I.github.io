@@ -7,7 +7,7 @@ This file summarises the public profile at https://madhanirulandi.com for AI ass
 ## Current role
 - Senior Release Train Engineer / Program Manager, Atos (Sep 2025 – present): governs releases for 30+ teams and 200+ people across a global insurer's Core API, Customer Engagement and Compliance AI products.
 - Took a hybrid AI and retrieval-augmented generation (RAG) compliance engine into production, cutting onboarding false positives from 30% to 10–15%.
-- Averaged 95%+ of planned work delivered each planning cycle (ART predictability), with under 5% sprint variance.
+- Averaged 95%+ ART predictability (business value delivered against business value planned each PI), with no committed work carried over and under 5% sprint variance.
 - Moved 15 core services to Azure Kubernetes Service (AKS) and 7 microservices to Gradle.
 
 ## Earlier roles

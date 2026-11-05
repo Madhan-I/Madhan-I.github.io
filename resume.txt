@@ -10,8 +10,8 @@ Anthem and John Hancock, on systems serving 20M+ insurance policyholders. Govern
 turn around at-risk programs. Microsoft Certified Trainer since 2020: 3,000+ people trained, 75+ guest lectures.
  • Turnaround. Restarted a multi-million-dollar John Hancock platform stalled two years by COVID, clearing 400+ backlog tickets
 in 9 months and taking all 5 modernization initiatives live across 20+ business divisions.
- • Predictability. Averaged 95%+ of planned work delivered per planning cycle since taking over the release train in Sep 2025,
-with under 5% sprint variance.
+ • Predictability. Averaged 95%+ ART predictability (business value delivered against plan) every PI since taking over the train in Sep 2025,
+with no committed work carried over.
  • AI delivery. Steered a hybrid AI and RAG compliance engine to production, lowering false alarms in customer onboarding from
 30% to 10–15%.
  • Teaching. 3,000+ people trained since 2020, 75+ guest lectures and 1,000+ professionals mentored.
@@ -35,7 +35,7 @@ Senior Release Train Engineer / Program Manager                                 
 Client: Global insurer · Core API, Customer Engagement & Compliance AI
  • Steered a hybrid AI and RAG compliance engine to production, lowering false alarms in customer onboarding from 30% to 10–
 15%.
- • Averaged 95%+ of planned work delivered each planning cycle (ART predictability) through disciplined PI planning.
+ • Averaged 95%+ ART predictability (business value delivered against business value planned each PI), with no committed work carried over.
  • Maintain a High health rating across the products, with under 5% sprint variance.
  • Reduced technical debt and strengthened platform security, moving 15 core services to AKS and 7 microservices to Gradle.
  • Govern releases for 30+ teams and 200+ people across a global insurer's portfolio, leading the cross-team call on dependencies,
