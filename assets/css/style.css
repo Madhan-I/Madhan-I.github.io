@@ -5377,3 +5377,7 @@ html body .skillbox .sk-chips > .pt-x[hidden] { display: none !important; }
 
 /* Training tracks: hidden topics really stay hidden (a list style was overriding the hidden attribute) */
 html body #training ul.topics > li.pt-x[hidden] { display: none !important; }
+
+/* Every "Show more" button uses the site pill (8 Nov 2026) */
+html body .pt-more { display: inline-block; margin-top: 12px; font: 700 14px/1 var(--body); color: var(--brand); background: #FFFFFF; border: 1px solid var(--line); border-radius: 999px; padding: 10px 16px; text-decoration: none; cursor: pointer; }
+html body .pt-more:focus-visible { outline: 2px solid var(--brand); outline-offset: 2px; }
