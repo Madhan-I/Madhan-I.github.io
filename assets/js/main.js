@@ -578,3 +578,22 @@ document.querySelectorAll('.copy-btn').forEach(function (b) {
     panel.appendChild(btn);
   });
 })();
+
+/* Phone only: show the Resume / Contact bar after the hero, hide it while Contact or the footer is on screen (8 Nov 2026) */
+(function () {
+  var bar = document.querySelector('.m-bar'), hero = document.querySelector('.hero-wrap');
+  if (!bar || !hero || !('IntersectionObserver' in window) || !window.matchMedia) return;
+  var phone = window.matchMedia('(max-width: 767px)');
+  var ends = [document.getElementById('contact'), document.querySelector('footer')].filter(Boolean);
+  var past = false, atEnd = {};
+  function update() {
+    var end = Object.keys(atEnd).some(function (k) { return atEnd[k]; });
+    var show = phone.matches && past && !end;
+    if (show) { bar.hidden = false; requestAnimationFrame(function () { bar.classList.add('on'); }); }
+    else { bar.classList.remove('on'); bar.hidden = true; }
+    document.body.classList.toggle('m-bar-on', show);
+  }
+  new IntersectionObserver(function (es) { past = !es[0].isIntersecting; update(); }).observe(hero);
+  ends.forEach(function (el, i) { new IntersectionObserver(function (es) { atEnd[i] = es[0].isIntersecting; update(); }).observe(el); });
+  if (phone.addEventListener) phone.addEventListener('change', update);
+})();

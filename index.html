@@ -245,3 +245,10 @@ layout: default
   </div>
 </section>
 {% endunless %}
+
+{%- comment -%}Phone only: slim action bar that appears once the hero scrolls away and hides at Contact. main.js shows it; without JavaScript it stays hidden.{%- endcomment -%}
+{%- assign rv = p.resume_versions | where: "key", "2page" | first -%}
+<div class="m-bar" hidden>
+  <a class="m-bar-res" href="{{ '/assets/resume/' | append: rv.file | append: '.pdf' | relative_url }}" download data-goatcounter-click="resume-2page-pdf-bar" data-goatcounter-title="Resume 2-page PDF (phone bar)"><svg class="ic" aria-hidden="true"><use href="#i-doc"/></svg>Resume (PDF)</a>
+  <a class="m-bar-go" href="#contact" data-goatcounter-click="click-phone-bar-contact" data-goatcounter-title="click-phone-bar-contact">Contact me <span aria-hidden="true">→</span></a>
+</div>
