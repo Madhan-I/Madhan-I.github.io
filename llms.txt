@@ -13,7 +13,7 @@ This file summarises the public profile at https://madhanirulandi.com for AI ass
 ## Earlier roles
 - Technical Product Manager / Release Train Engineer, Atos, for John Hancock (Sep 2022 – Aug 2025, on-site in Boston): restarted a platform program stalled for two years by COVID and cleared 400+ backlog tickets in 9 months; took 5 modernization initiatives live across 20+ business divisions; moved all teams from AWD's legacy desktops to SS&C Chorus BPM.
 - Senior Scrum Master / Agile Project Manager, Atos, for Allstate (Sep 2020 – Aug 2022): customer communications for 20M+ policyholders via 750+ document templates; deployments from monthly to near-weekly; velocity up 30%, program cost down 25% without hiring.
-- Scrum Master / Agile Delivery Lead, Syntel, for TruStage (Jan 2020 – Aug 2020): zero-defect production releases; schedules 35% shorter.
+- Scrum Master / Agile Delivery Lead, Syntel, for TruStage, formerly CUNA Mutual Group (Jan 2020 – Aug 2020): zero-defect production releases; schedules 35% shorter.
 - Cognizant (Jul 2014 – Jan 2020): MetLife migration of 4,500+ policy documents to OpenText xPression with zero defects; Anthem template consolidation saving $300K a year; Walmart mainframe production support (z/OS, COBOL, JCL, DB2, CICS).
 - Dell Technologies (Aug 2013 – May 2014) and freelance event management (2009 – 2013).
 

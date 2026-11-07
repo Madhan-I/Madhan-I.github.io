@@ -106,7 +106,7 @@ clients:
   - Allstate
   - Anthem / Elevance
   - John Hancock
-  - TruStage
+  - CUNA Mutual / TruStage
 
 # Newest first. Set current: true on the job you hold now.
 # Titles match LinkedIn exactly. Change both together.
@@ -161,7 +161,7 @@ experience:
     sector: "Financial services · Credit unions"
     icon: bank
     company: Syntel
-    client: TruStage
+    client: TruStage (formerly CUNA Mutual Group)
     detail: Acquired by Atos
     project: "xPression document project"
     points:
