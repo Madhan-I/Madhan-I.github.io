@@ -5341,3 +5341,36 @@ html body .proof-strip { padding-top: 25px !important; padding-bottom: 30px !imp
 @media (prefers-reduced-motion:reduce){.bh-feat{transition:none}.bh-feat:hover{transform:none}}
 .sr-only{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
 @media (max-width:900px){.pc-new{display:block;width:max-content;margin:0 0 8px}}
+
+/* Three-view pass (8 Nov 2026) */
+/* Tablets: first three points per role, the rest behind "Show N more" (same as phones) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  #experience ul.m-cut:not(.m-open) > li:nth-child(n+4) { display: none !important; }
+  #experience ul.m-cut:not(.m-open) + .job-more { display: inline-block; margin: 2px 0 0; font: 700 14px/1 var(--body); color: var(--brand); background: #FFFFFF; border: 1px solid var(--line); border-radius: 999px; padding: 11px 18px; cursor: pointer; }
+  /* Talks and community: two cards (one row) before "Show more" */
+  .talks ul:not(.m-open) > li.m-extra:nth-child(n+3) { display: none !important; }
+}
+/* Tablets: Recognition uses the phone's tabs (one panel at a time, full width) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  html body #recognition .rec-tabs { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 14px; }
+  html body #recognition .rec-tabs button { font: 600 13px/1 var(--body); padding: 9px 14px; border-radius: 999px; border: 1px solid var(--line); background: #FFFFFF; color: var(--navy); cursor: pointer; }
+  html body #recognition .rec-tabs button.on { background: var(--navy); color: #FFFFFF; border-color: var(--navy); }
+  html body #recognition .three.m-tabbed { display: block !important; }
+  html body #recognition .three.m-tabbed > .panel:not(.m-on) { display: none !important; }
+}
+/* Tablets (768-860px): photo beside the intro, as on laptops, instead of stacked above it */
+@media (min-width: 768px) and (max-width: 860px) {
+  html body .hero.has-photo { grid-template-columns: minmax(0,1fr) 200px !important; align-items: center; column-gap: 32px; }
+  html body .hero .portrait { order: 0; max-width: 200px; justify-self: end; margin: 0; }
+}
+/* "Show all skills" sits on the white skills card */
+html body .skillbox .sk-more { display: inline-block; margin-top: 12px; font: 700 14px/1 var(--body); color: var(--brand); background: #FFFFFF; border: 1px solid var(--line); border-radius: 999px; padding: 10px 16px; text-decoration: none; cursor: pointer; }
+html body .skillbox .sk-chips > .pt-x[hidden] { display: none !important; }
+/* Phones: small labels up from 12px to 13px */
+@media (max-width: 767px) {
+  html body .metric .tag, html body .e-when, html body .tk-chip, html body .tk-date, html body .yr, html body .now-tag, html body .fmt-groups .fh, html body .fmt-h, html body .live { font-size: 13px !important; }
+}
+/* Laptops: wider brand column so the footer line wraps to two lines, not three */
+@media (min-width: 1200px) {
+  html body footer .wrap.f-grid { grid-template-columns: 2.4fr .8fr .8fr 1.4fr !important; }
+}

@@ -258,7 +258,7 @@ document.querySelectorAll('.copy-btn').forEach(function (b) {
 /* Guest lectures: first row visible, the rest on demand */
 (function () {
   /* Show-more toggles for talks and community cards: 4 shown on desktop, 2 on phones */
-  var phone = window.matchMedia('(max-width: 767px)');
+  var phone = window.matchMedia('(max-width: 767px)'), tablet = window.matchMedia('(min-width: 768px) and (max-width: 1024px)');
   [['.talk-toggle', '.talk-more', 'Show fewer talks', 'more highlights'], ['.comm-toggle', '.comm-more', 'Show fewer', 'more']].forEach(function (cfg) {
     var btn = document.querySelector(cfg[0]); if (!btn) return;
     var more = [].slice.call(document.querySelectorAll(cfg[1]));
@@ -267,7 +267,7 @@ document.querySelectorAll('.copy-btn').forEach(function (b) {
     function label() {
       var open = btn.getAttribute('aria-expanded') === 'true';
       if (open) { btn.textContent = cfg[2]; return; }
-      var shown = phone.matches ? 1 : 4; btn.textContent = 'Show ' + Math.max(items.length - shown, 0) + ' ' + cfg[3];
+      var shown = phone.matches ? 1 : tablet.matches ? 2 : 4; btn.textContent = 'Show ' + Math.max(items.length - shown, 0) + ' ' + cfg[3];
     }
     items.forEach(function (li, i) { if (i >= 1 && i < 4) li.classList.add('m-extra'); });
     btn.addEventListener('click', function () {
@@ -276,7 +276,7 @@ document.querySelectorAll('.copy-btn').forEach(function (b) {
       list.classList.toggle('m-open', show);
       btn.setAttribute('aria-expanded', show ? 'true' : 'false'); label();
     });
-    label(); if (phone.addEventListener) phone.addEventListener('change', label);
+    label(); if (phone.addEventListener) { phone.addEventListener('change', label); tablet.addEventListener('change', label); }
   });
 })();
 
@@ -509,11 +509,11 @@ document.querySelectorAll('.copy-btn').forEach(function (b) {
   });
 })();
 
-/* Phone only: trim repeated content (audit Nov 2026).
+/* Phones and tablets: trim repeated content (audit Nov 2026; tablets added 8 Nov 2026).
    About no longer repeats the stats (rewritten 5 Nov 2026), so it shows in full.
    Training tracks: first four shown, the rest behind "Show all". Desktop and no-JS show everything. */
 (function () {
-  if (!window.matchMedia || !window.matchMedia('(max-width: 640px)').matches) return;
+  if (!window.matchMedia || !window.matchMedia('(max-width: 1024px)').matches) return;
   function collapse(list, after, more, less) {
     if (!list.length) return;
     list.forEach(function (el) { el.classList.add('pt-x'); el.hidden = true; });
@@ -553,4 +553,28 @@ document.querySelectorAll('.copy-btn').forEach(function (b) {
   }
   check();
   window.addEventListener('resize', check);
+})();
+
+/* Phones and tablets: each skills tab shows its first two groups; the rest sit behind "Show all skills".
+   Laptops and no-JavaScript visitors see every group. (8 Nov 2026) */
+(function () {
+  if (!window.matchMedia || !window.matchMedia('(max-width: 1024px)').matches) return;
+  [].forEach.call(document.querySelectorAll('.skillbox .sk-chips'), function (panel) {
+    var heads = [].slice.call(panel.querySelectorAll(':scope > h4'));
+    if (heads.length <= 2) return;
+    var extra = [];
+    heads.slice(2).forEach(function (h) { extra.push(h); if (h.nextElementSibling && h.nextElementSibling.tagName === 'UL') extra.push(h.nextElementSibling); });
+    extra.forEach(function (el) { el.classList.add('pt-x'); el.hidden = true; });
+    var btn = document.createElement('button');
+    btn.type = 'button'; btn.className = 'pt-more sk-more'; btn.setAttribute('aria-expanded', 'false');
+    var more = 'Show all ' + heads.length + ' skill groups';
+    btn.textContent = more;
+    btn.addEventListener('click', function () {
+      var open = btn.getAttribute('aria-expanded') !== 'true';
+      extra.forEach(function (el) { el.hidden = !open; });
+      btn.setAttribute('aria-expanded', String(open)); btn.textContent = open ? 'Show fewer skills' : more;
+      window.dispatchEvent(new Event('resize'));
+    });
+    panel.appendChild(btn);
+  });
 })();
