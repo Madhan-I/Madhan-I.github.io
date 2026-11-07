@@ -5374,3 +5374,6 @@ html body .skillbox .sk-chips > .pt-x[hidden] { display: none !important; }
 @media (min-width: 1200px) {
   html body footer .wrap.f-grid { grid-template-columns: 2.4fr .8fr .8fr 1.4fr !important; }
 }
+
+/* Training tracks: hidden topics really stay hidden (a list style was overriding the hidden attribute) */
+html body #training ul.topics > li.pt-x[hidden] { display: none !important; }

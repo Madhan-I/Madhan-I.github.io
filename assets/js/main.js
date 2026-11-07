@@ -513,7 +513,7 @@ document.querySelectorAll('.copy-btn').forEach(function (b) {
 
 /* Phones and tablets: trim repeated content (audit Nov 2026; tablets added 8 Nov 2026).
    About no longer repeats the stats (rewritten 5 Nov 2026), so it shows in full.
-   Training tracks: first four shown, the rest behind "Show all". Desktop and no-JS show everything. */
+   Training tracks: first topic shown, the rest behind "Show N more topics" (8 Nov 2026). Desktop and no-JS show everything. */
 (function () {
   if (!window.matchMedia || !window.matchMedia('(max-width: 1024px)').matches) return;
   function collapse(list, after, more, less) {
@@ -531,7 +531,7 @@ document.querySelectorAll('.copy-btn').forEach(function (b) {
   var topics = document.querySelector('#training ul.topics');
   if (topics) {
     var items = [].slice.call(topics.children);
-    if (items.length > 4) collapse(items.slice(4), topics, 'Show all ' + items.length + ' topics', 'Show fewer topics');
+    if (items.length > 1) collapse(items.slice(1), topics, 'Show ' + (items.length - 1) + ' more topic' + (items.length - 1 === 1 ? '' : 's'), 'Show fewer topics');
   }
 })();
 
