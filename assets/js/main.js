@@ -569,7 +569,7 @@ document.querySelectorAll('.copy-btn').forEach(function (b) {
     extra.forEach(function (el) { el.classList.add('pt-x'); el.hidden = true; });
     var btn = document.createElement('button');
     btn.type = 'button'; btn.className = 'pt-more sk-more'; btn.setAttribute('aria-expanded', 'false');
-    var more = 'Show all ' + heads.length + ' skill groups';
+    var more = 'Show ' + (heads.length - 2) + ' more skill group' + (heads.length - 2 === 1 ? '' : 's');
     btn.textContent = more;
     btn.addEventListener('click', function () {
       var open = btn.getAttribute('aria-expanded') !== 'true';
