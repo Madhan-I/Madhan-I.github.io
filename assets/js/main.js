@@ -579,20 +579,26 @@ document.querySelectorAll('.copy-btn').forEach(function (b) {
   });
 })();
 
-/* Phone only: show the Resume / Contact bar after the hero, hide it while Contact or the footer is on screen (8 Nov 2026) */
+/* Phone only: Resume / Contact bar. Appears when the visitor scrolls up past the hero, hides while they scroll down,
+   and stays hidden while Contact or the footer is on screen. (8 Nov 2026) */
 (function () {
   var bar = document.querySelector('.m-bar'), hero = document.querySelector('.hero-wrap');
   if (!bar || !hero || !('IntersectionObserver' in window) || !window.matchMedia) return;
   var phone = window.matchMedia('(max-width: 767px)');
   var ends = [document.getElementById('contact'), document.querySelector('footer')].filter(Boolean);
-  var past = false, atEnd = {};
+  var past = false, atEnd = {}, up = false, lastY = window.scrollY;
   function update() {
     var end = Object.keys(atEnd).some(function (k) { return atEnd[k]; });
-    var show = phone.matches && past && !end;
+    var show = phone.matches && past && up && !end;
     if (show) { bar.hidden = false; requestAnimationFrame(function () { bar.classList.add('on'); }); }
     else { bar.classList.remove('on'); bar.hidden = true; }
-    document.body.classList.toggle('m-bar-on', show);
   }
+  window.addEventListener('scroll', function () {
+    var y = window.scrollY, d = y - lastY;
+    if (Math.abs(d) < 8) return;
+    var nowUp = d < 0; lastY = y;
+    if (nowUp !== up) { up = nowUp; update(); }
+  }, { passive: true });
   new IntersectionObserver(function (es) { past = !es[0].isIntersecting; update(); }).observe(hero);
   ends.forEach(function (el, i) { new IntersectionObserver(function (es) { atEnd[i] = es[0].isIntersecting; update(); }).observe(el); });
   if (phone.addEventListener) phone.addEventListener('change', update);

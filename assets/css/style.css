@@ -5378,11 +5378,11 @@ html body .skillbox .sk-chips > .pt-x[hidden] { display: none !important; }
 /* Phone action bar (8 Nov 2026) */
 .m-bar[hidden] { display: none !important; }
 @media (max-width: 767px) {
-  .m-bar { position: fixed; left: 12px; right: 12px; bottom: calc(12px + env(safe-area-inset-bottom)); z-index: 60; display: flex; gap: 8px; padding: 8px; background: rgba(255,255,255,.96); border: 1px solid var(--line); border-radius: 14px; box-shadow: 0 8px 24px rgba(11,37,69,.18); transform: translateY(16px); opacity: 0; transition: transform .2s ease, opacity .2s ease; }
+  .m-bar { position: fixed; left: 12px; right: 12px; bottom: calc(12px + env(safe-area-inset-bottom)); z-index: 60; display: flex; gap: 8px; padding: 8px; background: var(--navy); border: 1px solid rgba(255,255,255,.12); border-radius: 14px; box-shadow: 0 8px 24px rgba(11,37,69,.28); transform: translateY(16px); opacity: 0; transition: transform .2s ease, opacity .2s ease; }
   .m-bar.on { transform: none; opacity: 1; }
   .m-bar a { flex: 1; display: flex; align-items: center; justify-content: center; gap: 8px; min-height: 44px; border-radius: 10px; font: 700 15px/1 var(--body); text-decoration: none; }
   .m-bar .ic { width: 16px; height: 16px; }
-  .m-bar-res { background: #FFFFFF; color: var(--navy); border: 1px solid var(--line); }
+  .m-bar-res { background: transparent; color: #FFFFFF; border: 1px solid rgba(255,255,255,.35); }
   .m-bar-go { background: var(--brand); color: #FFFFFF; }
 }
 @media (max-width: 767px) and (prefers-reduced-motion: reduce) { .m-bar { transition: none; transform: none; } }
