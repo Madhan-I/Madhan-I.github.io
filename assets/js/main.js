@@ -494,6 +494,8 @@ document.querySelectorAll('.copy-btn').forEach(function (b) {
   if (!window.matchMedia || !window.matchMedia('(max-width: 640px)').matches) return;
   [].forEach.call(document.querySelectorAll('.deck > li.job .job-body > ul'), function (ul) {
     var items = [].slice.call(ul.children); if (items.length <= 2) return;
+    /* This trim replaces the older 3-point CSS trim on phones: switch that one off so the two never stack */
+    ul.classList.add('m-open');
     var extra = items.slice(2);
     extra.forEach(function (li) { li.classList.add('pt-x'); li.hidden = true; });
     var btn = document.createElement('button');
