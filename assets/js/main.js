@@ -557,19 +557,19 @@ document.querySelectorAll('.copy-btn').forEach(function (b) {
   window.addEventListener('resize', check);
 })();
 
-/* Phones and tablets: each skills tab shows its first two groups; the rest sit behind "Show all skills".
+/* Phones and tablets: each skills tab shows its first group; the rest sit behind "Show all skills".
    Laptops and no-JavaScript visitors see every group. (8 Nov 2026) */
 (function () {
   if (!window.matchMedia || !window.matchMedia('(max-width: 1024px)').matches) return;
   [].forEach.call(document.querySelectorAll('.skillbox .sk-chips'), function (panel) {
     var heads = [].slice.call(panel.querySelectorAll(':scope > h4'));
-    if (heads.length <= 2) return;
+    if (heads.length <= 1) return;
     var extra = [];
-    heads.slice(2).forEach(function (h) { extra.push(h); if (h.nextElementSibling && h.nextElementSibling.tagName === 'UL') extra.push(h.nextElementSibling); });
+    heads.slice(1).forEach(function (h) { extra.push(h); if (h.nextElementSibling && h.nextElementSibling.tagName === 'UL') extra.push(h.nextElementSibling); });
     extra.forEach(function (el) { el.classList.add('pt-x'); el.hidden = true; });
     var btn = document.createElement('button');
     btn.type = 'button'; btn.className = 'pt-more sk-more'; btn.setAttribute('aria-expanded', 'false');
-    var more = 'Show ' + (heads.length - 2) + ' more skill group' + (heads.length - 2 === 1 ? '' : 's');
+    var more = 'Show ' + (heads.length - 1) + ' more skill group' + (heads.length - 1 === 1 ? '' : 's');
     btn.textContent = more;
     btn.addEventListener('click', function () {
       var open = btn.getAttribute('aria-expanded') !== 'true';
