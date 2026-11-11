@@ -5402,3 +5402,9 @@ details.creds>summary span::before{animation-iteration-count:3}
 .cred-peek ul{display:flex;flex-wrap:wrap;justify-content:center;max-width:1000px}
 .cred-peek li{flex:0 0 calc(20% - 13px)}
 @media (max-width:767px){.cred-peek li{flex:0 0 calc(50% - 6px)}}
+/* Expired badges greyed one by one instead of whole groups (12 Nov 2026) */
+.cert.is-expired .badge{filter:grayscale(1);opacity:.7}
+.cert.is-expired .cn{color:var(--muted)}
+.cg .cg-more{display:table;margin-top:12px}
+.cg .cg-more + .group-link{margin-top:10px}
+#cert-more .cg li.cert[hidden]{display:none !important}

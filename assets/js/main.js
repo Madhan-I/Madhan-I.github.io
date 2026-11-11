@@ -528,6 +528,18 @@ document.querySelectorAll('.copy-btn').forEach(function (b) {
   copy.appendChild(btn);
 })();
 
+/* Credential groups with data-show: first N badges, the rest behind "Show N more". No JS shows everything. (12 Nov 2026) */
+(function () {
+  [].forEach.call(document.querySelectorAll('#cert-more ul[data-show]'), function (ul) {
+    var n = +ul.getAttribute('data-show') || 6, extra = [].slice.call(ul.children).slice(n); if (!extra.length) return;
+    extra.forEach(function (li) { li.hidden = true; });
+    var btn = document.createElement('button'); btn.type = 'button'; btn.className = 'pt-more cg-more'; btn.setAttribute('aria-expanded', 'false');
+    var label = function (o) { return o ? 'Show less' : 'Show ' + extra.length + ' more'; }; btn.textContent = label(false);
+    btn.addEventListener('click', function () { var o = btn.getAttribute('aria-expanded') !== 'true'; extra.forEach(function (li) { li.hidden = !o; }); btn.setAttribute('aria-expanded', String(o)); btn.textContent = label(o); });
+    ul.parentNode.insertBefore(btn, ul.nextSibling);
+  });
+})();
+
 /* Phones and tablets: trim repeated content (audit Nov 2026; tablets added 8 Nov 2026).
    About no longer repeats the stats (rewritten 5 Nov 2026), so it shows in full.
    Training tracks: first topic shown, the rest behind "Show N more topics" (8 Nov 2026). Desktop and no-JS show everything. */
