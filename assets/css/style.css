@@ -5398,3 +5398,7 @@ details.creds>summary span::before{animation-iteration-count:3}
 .hero .where .w-loc,.hero .where .w-rel{white-space:nowrap}
 @media (max-width:479px){.hero .where .sep{display:none}.hero .where .w-rel{flex-basis:100%;padding-left:24px}}
 @media (min-width:768px){.cred-peek span{max-width:22ch}}
+/* Five key badges: one row on desktop, centred wrap on phone (12 Nov 2026) */
+.cred-peek ul{display:flex;flex-wrap:wrap;justify-content:center;max-width:1000px}
+.cred-peek li{flex:0 0 calc(20% - 13px)}
+@media (max-width:767px){.cred-peek li{flex:0 0 calc(50% - 6px)}}
