@@ -5408,3 +5408,10 @@ details.creds>summary span::before{animation-iteration-count:3}
 .cg .cg-more{display:table;margin-top:12px}
 .cg .cg-more + .group-link{margin-top:10px}
 #cert-more .cg li.cert[hidden]{display:none !important}
+/* Credential cards: links sit at the same height at the bottom of every card (12 Nov 2026) */
+#cert-more .cg{display:flex;flex-direction:column}
+#cert-more .cg > ul{flex:0 0 auto}
+#cert-more .cg .group-link{margin-top:auto;padding-top:16px;align-self:flex-start}
+#cert-more .cg .cg-more{display:inline-block;background:none;border:0;padding:16px 0 0;font:600 14px/1.2 var(--body);color:var(--brand);cursor:pointer;text-decoration:none}
+#cert-more .cg .cg-more:hover{text-decoration:underline}
+#cert-more .cg .cg-more:focus-visible{outline:2px solid var(--brand);outline-offset:2px}

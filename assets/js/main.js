@@ -533,8 +533,9 @@ document.querySelectorAll('.copy-btn').forEach(function (b) {
   [].forEach.call(document.querySelectorAll('#cert-more ul[data-show]'), function (ul) {
     var n = +ul.getAttribute('data-show') || 6, extra = [].slice.call(ul.children).slice(n); if (!extra.length) return;
     extra.forEach(function (li) { li.hidden = true; });
-    var btn = document.createElement('button'); btn.type = 'button'; btn.className = 'pt-more cg-more'; btn.setAttribute('aria-expanded', 'false');
-    var label = function (o) { return o ? 'Show less' : 'Show ' + extra.length + ' more'; }; btn.textContent = label(false);
+    if (ul.parentNode.querySelector('.group-link')) return; /* external "See all badges" link already covers the rest */
+    var btn = document.createElement('button'); btn.type = 'button'; btn.className = 'group-link cg-more'; btn.setAttribute('aria-expanded', 'false');
+    var label = function (o) { return o ? 'Show fewer ↑' : 'See all badges ↓'; }; btn.textContent = label(false);
     btn.addEventListener('click', function () { var o = btn.getAttribute('aria-expanded') !== 'true'; extra.forEach(function (li) { li.hidden = !o; }); btn.setAttribute('aria-expanded', String(o)); btn.textContent = label(o); });
     ul.parentNode.insertBefore(btn, ul.nextSibling);
   });
