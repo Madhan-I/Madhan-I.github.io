@@ -541,6 +541,20 @@ document.querySelectorAll('.copy-btn').forEach(function (b) {
   });
 })();
 
+/* Desktop: clients card starts level with the second About paragraph, not the lead line (12 Nov 2026) */
+(function () {
+  var copy = document.querySelector('#about .copy'), side = document.querySelector('#about .about-side'); if (!copy || !side) return;
+  var mq = window.matchMedia('(min-width: 1100px)');
+  function place() {
+    side.style.marginTop = '';
+    var p = copy.querySelectorAll('p')[1]; if (!mq.matches || !p) return;
+    var d = p.getBoundingClientRect().top - side.getBoundingClientRect().top;
+    if (d > 0) side.style.marginTop = Math.round(d) + 'px';
+  }
+  window.addEventListener('resize', function () { clearTimeout(place.t); place.t = setTimeout(place, 150); });
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(place); place();
+})();
+
 /* Phones and tablets: trim repeated content (audit Nov 2026; tablets added 8 Nov 2026).
    About no longer repeats the stats (rewritten 5 Nov 2026), so it shows in full.
    Training tracks: first topic shown, the rest behind "Show N more topics" (8 Nov 2026). Desktop and no-JS show everything. */
