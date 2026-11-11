@@ -5381,3 +5381,20 @@ html body #training ul.topics > li.pt-x[hidden] { display: none !important; }
 /* Every "Show more" button uses the site pill (8 Nov 2026) */
 html body .pt-more { display: inline-block; margin-top: 12px; font: 700 14px/1 var(--body); color: var(--brand); background: #FFFFFF; border: 1px solid var(--line); border-radius: 999px; padding: 10px 16px; text-decoration: none; cursor: pointer; }
 html body .pt-more:focus-visible { outline: 2px solid var(--brand); outline-offset: 2px; }
+
+/* Key certifications shown above the collapsed credentials (11 Nov 2026) */
+.cred-peek{background:#F8FAFE;border-top:1px solid #E3EAF5;padding:28px 16px 0}
+.cred-peek ul{list-style:none;margin:0 auto;padding:0;max-width:880px;display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.cred-peek li{display:flex;flex-direction:column;align-items:center;gap:10px;text-align:center}
+.cred-peek img{height:64px;width:auto}
+.cred-peek span{font:600 13px/1.35 var(--body);color:var(--navy,#0B2545);max-width:16ch}
+.cred-peek + details.creds>summary{border-top:0;padding-top:22px}
+@media (max-width:767px){.cred-peek ul{grid-template-columns:repeat(2,1fr);gap:18px 12px}.cred-peek img{height:56px}}
+/* The amber sweep on "See credentials" plays three times, then rests */
+details.creds>summary span::before{animation-iteration-count:3}
+@media (prefers-reduced-motion:reduce){details.creds>summary span::before{animation:none}}
+/* Location line: each half stays on one line; wraps as a whole on narrow phones (11 Nov 2026) */
+.hero .where{flex-wrap:wrap;row-gap:2px}
+.hero .where .w-loc,.hero .where .w-rel{white-space:nowrap}
+@media (max-width:479px){.hero .where .sep{display:none}.hero .where .w-rel{flex-basis:100%;padding-left:24px}}
+@media (min-width:768px){.cred-peek span{max-width:22ch}}

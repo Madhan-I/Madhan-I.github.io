@@ -21,7 +21,7 @@ This file summarises the public profile at https://madhanirulandi.com for AI ass
 Release Train Engineering, Scaled Agile Framework (SAFe), PI planning, program and portfolio governance, release management, risk and dependency management, executive reporting, budget ownership and estimation (sizing client work by spend, duration and team size), agile coaching, generative AI and RAG delivery, AI governance, Microsoft Azure, AKS, Function Point capacity planning.
 
 ## Certifications (selected)
-- Certified SAFe® 6 Scrum Master; Certified SAFe® 6 Product Owner / Product Manager
+- Certified AI-Native SAFe® Scrum Master; Certified AI-Native SAFe® Product Owner / Product Manager (Nov 2026; previously SAFe® 6, 2023)
 - Microsoft Certified Trainer (every year since 2020)
 - Microsoft Certified: Azure AI Engineer Associate; Azure Administrator Associate
 - GitLab Certified CI/CD Associate and Git Associate; Certified Jenkins Engineer

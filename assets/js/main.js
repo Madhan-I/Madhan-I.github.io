@@ -511,6 +511,23 @@ document.querySelectorAll('.copy-btn').forEach(function (b) {
   });
 })();
 
+/* Phone only: About shows its first two paragraphs; the rest sit behind a "Read more" button.
+   Without JavaScript, or on wider screens, every paragraph stays visible. (11 Nov 2026) */
+(function () {
+  if (!window.matchMedia || !window.matchMedia('(max-width: 767px)').matches) return;
+  var copy = document.querySelector('#about .copy'); if (!copy) return;
+  var extra = [].slice.call(copy.querySelectorAll('p')).slice(2); if (!extra.length) return;
+  extra.forEach(function (p) { p.hidden = true; });
+  var btn = document.createElement('button');
+  btn.type = 'button'; btn.className = 'pt-more about-more'; btn.setAttribute('aria-expanded', 'false'); btn.textContent = 'Read more';
+  btn.addEventListener('click', function () {
+    var open = btn.getAttribute('aria-expanded') !== 'true';
+    extra.forEach(function (p) { p.hidden = !open; });
+    btn.setAttribute('aria-expanded', String(open)); btn.textContent = open ? 'Show less' : 'Read more';
+  });
+  copy.appendChild(btn);
+})();
+
 /* Phones and tablets: trim repeated content (audit Nov 2026; tablets added 8 Nov 2026).
    About no longer repeats the stats (rewritten 5 Nov 2026), so it shows in full.
    Training tracks: first topic shown, the rest behind "Show N more topics" (8 Nov 2026). Desktop and no-JS show everything. */
