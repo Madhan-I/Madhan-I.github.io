@@ -1,7 +1,7 @@
 Madhan Irulandi — resume (plain text). Same content as https://madhanirulandi.com/assets/resume/Madhan-Irulandi-Resume.pdf (1-page summary: https://madhanirulandi.com/assets/resume/Madhan-Irulandi-Resume-1-page.pdf)
 
 MADHAN IRULANDI
-Senior Release Train Engineer & Technical Program Manager | SAFe® 6 SM & POPM | Microsoft Certified Trainer
+Senior Release Train Engineer & Technical Program Manager | SAFe® SM & POPM | Microsoft Certified Trainer
 Chennai, India (open to relocation worldwide) • irulandi.madhan@gmail.com • LinkedIn • madhanirulandi.com
 
 PROFESSIONAL SUMMARY
@@ -17,7 +17,7 @@ with no committed work carried over.
  • Teaching. 3,000+ people trained since 2020, 75+ guest lectures and 1,000+ professionals mentored.
 
 CORE COMPETENCIES
-Release & Program Leadership: Release Train Engineering, PI Planning, ART Sync, Scrum-of-Scrums, SAFe® 6, Program & Portfolio
+Release & Program Leadership: Release Train Engineering, PI Planning, ART Sync, Scrum-of-Scrums, AI-Native SAFe®, Program & Portfolio
 Governance, Release Management, executive status reporting
 Scrum & Agile Facilitation: Sprint Planning, Backlog Refinement, Retrospectives, Kanban, Agile coaching, mentoring Scrum
 Masters, onshore/offshore teams
@@ -85,7 +85,7 @@ EARLY CAREER — Wizcraft & Encompass Event Group (freelance, part-time)        
 India's first Formula 1 Grand Prix (2011), before moving into IT in 2013.
 
 CERTIFICATIONS
- • Certified SAFe® 6 Scrum Master • Certified SAFe® 6 Product Owner / Product Manager • Microsoft Certified Trainer
+ • Certified AI-Native SAFe® Scrum Master • Certified AI-Native SAFe® Product Owner / Product Manager • Microsoft Certified Trainer
  • Microsoft Azure AI Engineer Associate • Microsoft Azure Administrator Associate • GitLab Certified CI/CD Associate
  • GitLab Certified Git Associate • Certified Jenkins Engineer • PagerDuty Incident Management • 80+ in total
 
