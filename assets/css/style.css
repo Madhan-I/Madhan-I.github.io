@@ -5424,3 +5424,4 @@ details.creds>summary span::before{animation-iteration-count:3}
   html body #about .about-side .quick { margin-top: 22px !important; }
 }
 @media (min-width:1100px){#about .copy p{hyphenate-limit-chars:10 4 4}}
+@media (min-width:1100px){#about .copy p{hyphens:none !important;-webkit-hyphens:none !important}}
