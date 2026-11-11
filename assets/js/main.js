@@ -547,8 +547,15 @@ document.querySelectorAll('.copy-btn').forEach(function (b) {
   var mq = window.matchMedia('(min-width: 1100px)');
   function place() {
     side.style.marginTop = '';
-    var p = copy.querySelectorAll('p')[1]; if (!mq.matches || !p) return;
-    var d = p.getBoundingClientRect().top - side.getBoundingClientRect().top;
+    if (!mq.matches) return;
+    /* level with the line that starts "an AI product" in the lead paragraph; falls back to the second paragraph */
+    var lead = copy.querySelector('p'), top = null;
+    if (lead && lead.firstChild && lead.firstChild.nodeType === 3) {
+      var i = lead.firstChild.data.indexOf('an AI product');
+      if (i >= 0) { var r = document.createRange(); r.setStart(lead.firstChild, i); r.setEnd(lead.firstChild, i + 2); var b = r.getClientRects()[0]; if (b) top = b.top - (parseFloat(getComputedStyle(lead).lineHeight) - b.height) / 2; }
+    }
+    if (top === null) { var p = copy.querySelectorAll('p')[1]; if (!p) return; top = p.getBoundingClientRect().top; }
+    var d = top - side.getBoundingClientRect().top;
     if (d > 0) side.style.marginTop = Math.round(d) + 'px';
   }
   window.addEventListener('resize', function () { clearTimeout(place.t); place.t = setTimeout(place, 150); });
