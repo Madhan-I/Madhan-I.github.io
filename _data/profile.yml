@@ -639,10 +639,12 @@ certifications:
         status: Active
         badge: minecraft-teacher.png
         url: https://learn.microsoft.com/api/achievements/share/en-au/Madhan-irulandi/99LY6UVK?sharingId=5EED7EABB794DB0
-      - name: Alibaba Cloud Associate · Cloud Computing
+      - name: Alibaba Cloud Associate (ACA) · Cloud Computing
         year: "2020"
         status: Expired
         badge: alibaba-cloud.png
+        expired: "2022"
+        url: https://aliyun-aps-cloud-public.oss-cn-hangzhou.aliyuncs.com/img_cef1d7090e881fce2272413855ee0a75.png
       - name: Scrum Fundamentals Certified (VMEdu)
         year: "2020"
         status: Active
@@ -682,18 +684,24 @@ certifications:
         badge: istio.png
         url: https://www.credly.com/badges/2f8a2132-6249-44fc-9a9e-0ef5103e7fdd
         expired: "2023"
-      - name: Alibaba Cloud Associate · Big Data
+      - name: Alibaba Cloud Associate (ACA) · Big Data
         year: "2020"
         status: Expired
         badge: alibaba-cloud.png
-      - name: Alibaba Cloud Associate · Cloud Security
+        expired: "2022"
+        url: https://aliyun-aps-cloud-public.oss-cn-hangzhou.aliyuncs.com/img_a5ef3bf7eff4377569be54c72cc89694.png
+      - name: Alibaba Cloud Associate (ACA) · Cloud Security
         year: "2020"
         status: Expired
         badge: alibaba-cloud.png
-      - name: Alibaba Cloud Associate · Cloud Native
+        expired: "2022"
+        url: https://aliyun-aps-cloud-public.oss-cn-hangzhou.aliyuncs.com/img_c737dfc3987cb7dd76fdd998e22308b8.png
+      - name: Alibaba Cloud Associate (ACA) · Cloud Native
         year: "2020"
         status: Expired
         badge: alibaba-cloud.png
+        expired: "2022"
+        url: https://aliyun-aps-cloud-public.oss-cn-hangzhou.aliyuncs.com/img_b52d68e93f5f265bbae53ec32f95fdb0.png
 
 award_groups:
   - group: Delivery
