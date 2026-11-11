@@ -28,7 +28,6 @@ Release Train Engineering, Scaled Agile Framework (SAFe), PI planning, program a
 - Not a SAFe Program Consultant: SAFe training is practice coaching, not official Scaled Agile courses.
 
 ## Education
-- Master of Science, Computer Science (AI & ML), Woolf University (in progress)
 - Bachelor of Engineering, Electrical & Electronics Engineering, VELS University (First Class)
 
 ## Key pages
