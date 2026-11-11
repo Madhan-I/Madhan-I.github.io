@@ -21,7 +21,7 @@ The first lesson is about mindset. It separates "bolted-on" AI from "baked-in" A
 
 The second lesson is about prompting. The course teaches three elements: Perspective, Objective and Background. You tell the AI who it should act as, what you need, and what situation sits behind the request. The same short question gets a much better answer once all three are in it.
 
-The third lesson is about grounding. The fourth is about moving from doing every task yourself to orchestrating a system where AI handles steps and you direct the outcome.
+The third lesson is about grounding. The fourth is about moving from doing every task yourself to setting up a system where AI handles steps and you direct the outcome.
 
 ## The lesson I had already seen in production
 
