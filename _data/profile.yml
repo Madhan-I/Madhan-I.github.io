@@ -94,10 +94,11 @@ metrics:
 # Use | to start a new line in the heading.
 about_title: "Delivery leader. Engineer by training. Teacher by habit."
 about:
-  - "Leaders bring me in when a program is too important to slip, whether it's a frozen platform, an AI product heading to production or a team picking up new technology."
-  - "I run the program end to end, as program manager, release train engineer and, when it's needed, technical product manager. I agree scope and roadmap with the business, plan against real capacity, keep the risks and dependencies in view, and tell executives straight whether a release will land and what moving the date would cost."
-  - "I stay close to the teams. After every sprint I sit down with each Scrum Master to hear what's working, what isn't and what they need from me. I also run regular sessions on SAFe updates, so the whole train keeps up with how the framework is changing."
-  - "Teaching is the other half of my work. I've been a Microsoft Certified Trainer since 2020, and explaining hard ideas to 3,000+ people taught me to put complex choices in plain words, so leaders can decide and engineers know what to do next."
+  - "Leaders bring me in when a program is too important to slip: a frozen platform, an AI product heading to production, or a portfolio that needs one clear plan."
+  - "Most weeks I do three jobs. As a release train engineer, I run PI planning, keep dependencies on the board and sit down with every Scrum Master at the end of each sprint. As a program manager, I plan against real capacity, keep the risks in view and tell executives straight whether a release will land. When a product needs it, I step in as product manager, agree the roadmap with the business and decide what waits."
+  - "Today I look after a three-product portfolio for a global insurer: Core API, Customer Engagement and Compliance AI. I run release governance across all of it, set priorities between the products and report portfolio health and roadmap calls to executive leadership. Inside Atos, five product managers report to me, each leading their own team, and I own their yearly performance ratings."
+  - "AI now runs through most of that work. I've held the Azure AI Engineer certification since 2020 and taken a compliance AI engine into production. The lesson there: the model matters, but so does everything around it, like a clear definition of done and a person who checks what the AI flags."
+  - "Teaching keeps me honest. Years as a Microsoft Certified Trainer taught me to put complex choices in plain words, so leaders can decide and engineers know what to do next."
 
 clients:
   - Walmart
@@ -127,7 +128,7 @@ experience:
       - Averaged 95%+ ART predictability (business value delivered against business value planned each PI), with no committed work carried over.
       - Maintain a High health rating across the products, with under 5% sprint variance.
       - Reduced technical debt and strengthened platform security, moving 15 core services to AKS and 7 microservices to Gradle.
-      - Govern releases for 30+ teams and 200+ people across a three-product portfolio (Core API, Customer Engagement and Compliance AI), reporting progress, risks and roadmap decisions to executive leadership.
+      - Govern releases for 15+ teams and 150+ people across a three-product portfolio (Core API, Customer Engagement and Compliance AI), reporting progress, risks and roadmap decisions to executive leadership.
       - Coach Scrum Masters across the train through end-of-sprint check-ins and regular sessions on SAFe updates.
   - dates: Sep 2022 – Aug 2025
     title: Technical Product Manager / Release Train Engineer

@@ -6,7 +6,7 @@ Chennai, India (open to relocation worldwide) • irulandi.madhan@gmail.com • 
 
 PROFESSIONAL SUMMARY
 Delivery leader with 13 years across retail, insurance and healthcare for clients including Walmart, MetLife, Manulife, Allstate,
-Anthem and John Hancock, on systems serving 20M+ insurance policyholders. Govern releases for 30+ teams and 200+ people and
+Anthem and John Hancock, on systems serving 20M+ insurance policyholders. Govern releases for 15+ teams and 150+ people and
 turn around at-risk programs. Microsoft Certified Trainer since 2020: 3,000+ people trained, 75+ guest lectures.
  • Turnaround. Restarted a multi-million-dollar John Hancock platform stalled two years by COVID, clearing 400+ backlog tickets
 in 9 months and taking all 5 modernization initiatives live across 20+ business divisions.
@@ -38,7 +38,7 @@ Client: Global insurer · Core API, Customer Engagement & Compliance AI
  • Averaged 95%+ ART predictability (business value delivered against business value planned each PI), with no committed work carried over.
  • Maintain a High health rating across the products, with under 5% sprint variance.
  • Reduced technical debt and strengthened platform security, moving 15 core services to AKS and 7 microservices to Gradle.
- • Govern releases for 30+ teams and 200+ people across a global insurer's portfolio, leading the cross-team call on dependencies,
+ • Govern releases for 15+ teams and 150+ people across a global insurer's portfolio, leading the cross-team call on dependencies,
 risks and go/no-go decisions.
  • Coach Scrum Masters across the train through end-of-sprint check-ins and regular sessions on SAFe updates.
 Technical Product Manager / Release Train Engineer                                   Sep 2022 – Aug 2025 | Boston, USA (On-site)
