@@ -95,7 +95,8 @@ metrics:
 about_title: "Delivery leader. Engineer by training. Teacher by habit."
 about:
   - "Leaders bring me in when a program is too important to slip, whether it's a frozen platform, an AI product heading to production or a team picking up new technology."
-  - "When I join a program, I fix how work moves before I touch the backlog. That usually means release governance people can actually follow, and estimates the team believes in."
+  - "I run the program end to end, as program manager, release train engineer and, when it's needed, technical product manager. I agree scope and roadmap with the business, plan against real capacity, keep the risks and dependencies in view, and tell executives straight whether a release will land and what moving the date would cost."
+  - "Here is what that has looked like. At John Hancock, a platform frozen for two years had 400+ tickets waiting. I started with release governance and capacity planning, estimates landed within 10% of actual work in the first quarter, the backlog cleared in nine months and all five modernization initiatives went live across 20+ business divisions. At Allstate, releases moved from monthly to near-weekly while velocity rose 30% and cost fell 25% without hiring. Today, for a global insurer, we took a hybrid AI compliance engine into production and cut onboarding false alarms from 30% to 10-15%, with 95%+ of planned business value delivered on average."
   - "I stay close to the teams. After every sprint I sit down with each Scrum Master to hear what's working, what isn't and what they need from me. I also run regular sessions on SAFe updates, so the whole train keeps up with how the framework is changing."
   - "Teaching is the other half of my work. I've been a Microsoft Certified Trainer since 2020, and explaining hard ideas to 3,000+ people taught me to put complex choices in plain words, so leaders can decide and engineers know what to do next."
 
