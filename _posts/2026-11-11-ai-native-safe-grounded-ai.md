@@ -2,7 +2,7 @@
 period: "Nov 2026"
 title: "What AI-Native SAFe taught me about grounded AI"
 teaser: "A 2.5-hour upgrade, and the one lesson I had already seen in production."
-summary: I earned the AI-Native SAFe SM and POPM badges. One lesson matched work I already do: AI should read your facts.
+summary: "I earned the AI-Native SAFe SM and POPM badges. One lesson matched work I already do: AI should read your facts."
 outcome: "Earned the AI-Native SAFe Upgrade and the AI-Native Scrum Master and POPM certifications on 9 Nov 2026, and tied its grounding lesson to a compliance engine we took into production, where a person reviews every flagged case."
 hashtags: [AINative, SAFe, ReleaseTrainEngineer, AIDelivery]
 tags: [AI, Delivery]
