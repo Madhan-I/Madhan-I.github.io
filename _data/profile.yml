@@ -703,6 +703,11 @@ certifications:
         expired: "2022"
         url: https://aliyun-aps-cloud-public.oss-cn-hangzhou.aliyuncs.com/img_b52d68e93f5f265bbae53ec32f95fdb0.png
 
+education:
+  - title: Bachelor of Engineering
+    subject: Electrical & Electronics Engineering
+    detail: VELS University · 2009 – 2013 · First Class
+
 award_groups:
   - group: Delivery
     icon: award
