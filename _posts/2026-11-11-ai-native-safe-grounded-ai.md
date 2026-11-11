@@ -11,7 +11,7 @@ image: /assets/images/share/post-2026-11-11.jpg
 
 On 9 November 2026 I finished the AI-Native SAFe Upgrade from Scaled Agile. My last SAFe upgrade was SAFe 6.0, in March 2023. This one took about two and a half hours: a short course called AI-Native Ready, an overview module, and a final quiz.
 
-Four new badges came out of it, all issued that day: AI-Native Ready, AI-Native SAFe Upgrade, Certified AI-Native SAFe Scrum Master, and Certified AI-Native SAFe Product Owner/Product Manager. The last two replace the SAFe 6 versions of the certifications I already held.
+Four new badges came out of it, all issued that day: AI-Native Ready, AI-Native SAFe Upgrade, [Certified AI-Native SAFe Scrum Master](https://www.credly.com/badges/c9a4a3b2-1669-4c68-a56d-f1d1c69c0bb2), and [Certified AI-Native SAFe Product Owner/Product Manager](https://www.credly.com/badges/ac377280-e5ca-4268-90aa-44ade44a0c98). The last two replace the SAFe 6 versions of the certifications I already held.
 
 First, what this course is: a lesson in how a person works with AI, not a new way to run an Agile Release Train. Even so, one lesson landed close to home, because I had already watched it work.
 
