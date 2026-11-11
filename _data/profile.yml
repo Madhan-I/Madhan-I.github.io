@@ -435,16 +435,24 @@ certifications:
         status: Active
         badge: safe5-popm.png
         url: https://www.credly.com/badges/b03046cc-22c9-41e7-a409-91bb60cf60ac
-      - name: Scrum Associate & Kanban Associate (Scrum Institute)
+      - name: Scrum Associate Accredited Certification (Scrum Institute)
         full_only: true
         year: "2020"
         status: Active
         badge: scrum-institute.png
+        url: https://www.scrum-institute.org/badges/89040595108643
+      - name: Certified Kanban Associate (Scrum Institute)
+        full_only: true
+        year: "2020"
+        status: Active
+        badge: scrum-institute.png
+        url: https://www.scrum-institute.org/badges/51958587802480
       - name: Scrum Fundamentals Certified (VMEdu)
         full_only: true
         year: "2020"
         status: Active
         badge: vmedu.png
+        url: https://c46e136a583f7e334124-ac22991740ab4ff17e21daf2ed577041.ssl.cf1.rackcdn.com/Certificate/ScrumFundamentalsCertified-MadhanI-804376.pdf
       - name: ITIL® Foundation in IT Service Management (EXIN)
         year: "2016"
         status: Active
@@ -592,6 +600,9 @@ certifications:
   - group: Earlier credentials
     muted: true
     items:
+      - name: Foundations of Business and Entrepreneurship (SkillFront)
+        status: Active
+        url: https://www.skillfront.com/Badges/58549251265576
       - name: Minecraft Education Teacher Academy
         year: "2022"
         status: Active
