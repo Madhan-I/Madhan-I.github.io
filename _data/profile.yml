@@ -423,18 +423,6 @@ certifications:
         status: Active
         badge: safe6-popm.png
         url: https://www.credly.com/badges/2df805da-0318-47fb-99d8-93b9d03a7c65
-      - name: Certified SAFe® 5 Scrum Master
-        full_only: true
-        year: "2022"
-        status: Active
-        badge: safe5-sm.png
-        url: https://www.credly.com/badges/1ee164d6-dbcc-4e69-9d6e-8c4ae247a18c
-      - name: Certified SAFe® 5 Product Owner / Product Manager
-        full_only: true
-        year: "2022"
-        status: Active
-        badge: safe5-popm.png
-        url: https://www.credly.com/badges/b03046cc-22c9-41e7-a409-91bb60cf60ac
       - name: Scrum Associate Accredited Certification (Scrum Institute)
         full_only: true
         year: "2020"
@@ -447,12 +435,6 @@ certifications:
         status: Active
         badge: scrum-institute.png
         url: https://www.scrum-institute.org/badges/51958587802480
-      - name: Scrum Fundamentals Certified (VMEdu)
-        full_only: true
-        year: "2020"
-        status: Active
-        badge: vmedu.png
-        url: https://c46e136a583f7e334124-ac22991740ab4ff17e21daf2ed577041.ssl.cf1.rackcdn.com/Certificate/ScrumFundamentalsCertified-MadhanI-804376.pdf
       - name: ITIL® Foundation in IT Service Management (EXIN)
         year: "2016"
         status: Active
@@ -600,8 +582,24 @@ certifications:
   - group: Earlier credentials
     muted: true
     items:
+      - name: Certified SAFe® 5 Scrum Master
+        year: "2022"
+        status: Active
+        badge: safe5-sm.png
+        url: https://www.credly.com/badges/1ee164d6-dbcc-4e69-9d6e-8c4ae247a18c
+      - name: Certified SAFe® 5 Product Owner / Product Manager
+        year: "2022"
+        status: Active
+        badge: safe5-popm.png
+        url: https://www.credly.com/badges/b03046cc-22c9-41e7-a409-91bb60cf60ac
+      - name: Scrum Fundamentals Certified (VMEdu)
+        year: "2020"
+        status: Active
+        badge: vmedu.png
+        url: https://c46e136a583f7e334124-ac22991740ab4ff17e21daf2ed577041.ssl.cf1.rackcdn.com/Certificate/ScrumFundamentalsCertified-MadhanI-804376.pdf
       - name: Foundations of Business and Entrepreneurship (SkillFront)
         status: Active
+        badge: skillfront.webp
         url: https://www.skillfront.com/Badges/58549251265576
       - name: Minecraft Education Teacher Academy
         year: "2022"
