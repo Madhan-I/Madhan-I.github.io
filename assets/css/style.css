@@ -5578,3 +5578,5 @@ html body .hero .where .w-loc{font-weight:700!important;color:var(--navy)}
 @media (min-width:768px){#recognition .rt-link b{min-height:2.6em}}
 .lightbox img{margin-left:auto;margin-right:auto}
 .lightbox .lb-cap{text-align:center}
+#recognition .rec-edu{align-items:center}
+#recognition .rec-edu .rk{line-height:1}
