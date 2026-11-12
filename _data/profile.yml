@@ -759,10 +759,11 @@ certifications:
         badge: certiprof-csfpc.png
         url: https://www.credly.com/badges/7603dff0-a874-4c8c-84e3-76b290b80a00
         expired: "2023"
-      - name: Istio Fundamentals (Solo.io)
+      - name: Fundamentals for Istio (Solo.io)
         year: "2021"
         status: Expired
         badge: istio.png
+        url: https://www.credly.com/badges/5959195a-68f1-4013-a8fd-db86283b5e99
         expired: "2023"
       - name: Intermediate for Istio (Solo.io)
         year: "2021"
