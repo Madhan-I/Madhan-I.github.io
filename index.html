@@ -85,15 +85,15 @@ layout: default
     {% assign nfull = p.experience_full | default: 4 %}{% capture early %}{% endcapture %}
     <ol class="deck">
       {% for job in p.experience %}{% capture card %}
-        <div class="job-side">
+        <div class="job-top">
           <span class="job-icon" aria-hidden="true"><svg class="ic"><use href="#i-{{ job.icon | default: 'route' }}"/></svg></span>
           <span class="when">{{ job.dates }}</span>
-          {% if job.sector %}<span class="sector">{% assign parts = job.sector | split: " · " %}{% for part in parts %}<span>{{ part }}</span>{% endfor %}</span>{% endif %}
+          <span class="via">{% if job.client %}<b class="emp">{{ job.company }}</b> · {% endif %}{{ job.detail }}</span>
           {% if job.current %}<span class="now-tag">Current</span>{% endif %}
         </div>
         <div class="job-body">
           <h3>{{ job.title }}</h3>
-          {% if job.client %}<p class="org has-client"><b class="client">{{ job.client }}</b>{% if job.project %}<span class="proj"><span class="sep"> · </span>{{ job.project }}</span>{% endif %}<span class="via"><b class="emp">{{ job.company }}</b> · {{ job.detail }}</span></p>{% else %}<p class="org has-client"><b class="client">{{ job.company }}</b>{% if job.project %}<span class="proj"><span class="sep"> · </span>{{ job.project }}</span>{% endif %}<span class="via">{{ job.detail }}</span></p>{% endif %}
+          <p class="org has-client"><span class="org-l"><b class="client">{% if job.client %}{{ job.client }}{% else %}{{ job.company }}{% endif %}</b>{% if job.project %}<span class="proj"><span class="sep"> · </span>{{ job.project }}</span>{% endif %}</span>{% if job.sector %}{% assign sp = job.sector | split: " · " %}<span class="sector"><b>{{ sp[0] }}</b>{% if sp[1] %} · {{ sp[1] }}{% endif %}</span>{% endif %}</p>
           <ul>{% for pt in job.points %}<li>{{ pt }}</li>{% endfor %}</ul>
           {% if job.case_study %}<a class="case-link" href="{{ job.case_study | relative_url }}">Read the case study</a>{% endif %}
         </div>

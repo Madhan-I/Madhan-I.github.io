@@ -131,11 +131,10 @@ experience:
     current: true
     points:
       - Steered a hybrid AI and RAG compliance engine to production, lowering false alarms in customer onboarding from 30% to 10–15%.
-      - Averaged 95%+ ART predictability (business value delivered against business value planned each PI), with no committed work carried over.
-      - Maintain a High health rating across the products, with under 5% sprint variance.
-      - Reduced technical debt and strengthened platform security, moving 15 core services to AKS and 7 microservices to Gradle.
       - Govern releases for 14+ teams and 150+ people across a three-product portfolio (Core API, Customer Engagement and Compliance AI), reporting progress, risks and roadmap decisions to executive leadership.
-      - Coach Scrum Masters across the train through end-of-sprint check-ins and regular sessions on SAFe updates.
+      - Averaged 95%+ ART predictability (business value delivered against business value planned each PI), with no committed work carried over.
+      - Reduced technical debt and strengthened platform security, moving 15 core services to AKS and 7 microservices to Gradle.
+      - Maintain a High health rating across the products, with under 5% sprint variance.
   - dates: Sep 2022 – Aug 2025
     title: Technical Product Manager / Release Train Engineer
     sector: "Life insurance · Platform modernization"
@@ -147,8 +146,8 @@ experience:
     case_study: /case-studies/john-hancock/
     points:
       - "Restarted a multi-million-dollar platform program stalled for two years by COVID, rebuilding the release process and clearing 400+ backlog tickets in 9 months."
-      - "Brought effort estimates to within 10% of actual work in the first quarter by introducing structured capacity planning (Function Point analysis), trimming overtime and idle time."
       - "Ran a portfolio of 5 modernization initiatives across 20+ business divisions, taking every one live through coordinated upgrades."
+      - "Brought effort estimates to within 10% of actual work in the first quarter by introducing structured capacity planning (Function Point analysis), trimming overtime and idle time."
       - "Delivered the AWD workflow platform's first upgrades since its 2019 release, finishing most of the work by Q2 2023, within a year of taking over."
       - "Moved all my teams off AWD's legacy EnCorr and Viewstation desktops onto SS&C Chorus BPM, its current generation, before handing over in Aug 2025."
   - dates: Sep 2020 – Aug 2022
@@ -160,9 +159,9 @@ experience:
     detail: Hybrid
     project: "Customer communications platform"
     points:
-      - "Reached 20M+ Allstate and 400K Encompass Insurance policyholders with customer communications by deploying 750+ document templates."
       - "Moved production deployments from monthly to near-weekly by clearing blockers as the main escalation point between engineering and client executives."
       - "Cut program cost 25% by streamlining the SDLC, without hiring."
+      - "Reached 20M+ Allstate and 400K Encompass Insurance policyholders with customer communications by deploying 750+ document templates."
       - "Raised team velocity 30% through hands-on Agile coaching."
   - dates: Jan 2020 – Aug 2020
     title: Scrum Master / Agile Delivery Lead
@@ -174,8 +173,8 @@ experience:
     project: "xPression document project"
     points:
       - "Stood up a new team and ramped it to full speed within two months, completing half of the work on the xPression project for TruStage (formerly CUNA Mutual Group) with a third of the existing vendor's headcount."
-      - "Shipped every production release defect-free by building a layered automated test framework for regression, smoke and schema checks."
       - "Shortened project schedules 35% by mentoring on-site and offshore engineers and running sprint retrospectives."
+      - "Shipped every production release defect-free by building a layered automated test framework for regression, smoke and schema checks."
       - "Owned 2,000+ document requests from design to go-live."
   - dates: Jul 2017 – Jan 2020
     title: Technology Lead / Senior Analyst
@@ -188,8 +187,8 @@ experience:
     points:
       - "Led MetLife's move from a legacy publisher to OpenText xPression, migrating 4,500+ policy documents and freeing up 2,000 engineering hours a quarter."
       - "Ensured every migrated asset went live without a single defect by designing test cases with QA."
-      - "Earned a Certificate of Excellence jointly from MetLife and Cognizant (May 2019) for the migration."
       - "Standardized 500+ document applications, shrinking annual remediation costs."
+      - "Earned a Certificate of Excellence jointly from MetLife and Cognizant (May 2019) for the migration."
   - dates: Jul 2015 – Jun 2017
     title: Systems Engineer / Application Analyst
     sector: "Healthcare · Health insurance"
@@ -200,8 +199,8 @@ experience:
     project: "Exstream & xPression template consolidation"
     points:
       - "Consolidated legacy layouts into dynamic master templates with OpenText Exstream and xPression, saving $300K a year in operating costs."
-      - "Decreased post-implementation defects 25% with automated pre-flight QA checklists and structured knowledge transfer."
       - "Contributed to $400K in added annual revenue by strengthening client retention."
+      - "Decreased post-implementation defects 25% with automated pre-flight QA checklists and structured knowledge transfer."
       - "Sped up bug resolution 15% across a 60-developer cross-functional team."
   - dates: Jul 2014 – Jun 2015
     title: Production Support Engineer / Systems Analyst Trainee

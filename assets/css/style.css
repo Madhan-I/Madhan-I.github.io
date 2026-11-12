@@ -5532,3 +5532,35 @@ details.creds>summary span::before{animation-iteration-count:3}
 .hero .open-to .ot-r + .ot-r::before{content:"·";margin:0 7px;color:var(--muted)}
 .hero .open-to .ot-r + .ot-r::before{content:none}
 .hero .open-to .ot-r:not(:last-of-type)::after{content:"·";margin-left:7px;color:var(--muted)}
+/* Experience cards: header row (dates, employer, Current), client line with sector on the right, headline result, one-column points (13 Nov 2026) */
+.deck .job,.earlier .e-card{display:block!important}
+.job .job-art{display:none!important}
+.job .job-top{display:flex;align-items:center;flex-wrap:wrap;gap:8px 12px;margin:0 0 14px}
+.job .job-top .job-icon{display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;border-radius:10px;margin:0;flex:none}
+.job .job-top .job-icon .ic{width:18px;height:18px}
+.job .job-top .when{margin:0}
+.job .job-top .via{font:400 15px/1.3 var(--body);color:var(--muted)}
+.job .job-top .via .emp{color:var(--navy);font-weight:700}
+.job .job-top .now-tag{margin:0 0 0 auto}
+.job .job-body{margin:0!important;max-width:none!important;width:auto!important}
+.job .job-body .org{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:4px 16px}
+.job .job-body .org .org-l{min-width:0}
+.job .job-body .org .sector{font:600 14px/1.3 var(--body);color:var(--muted);white-space:nowrap}
+.job .job-body ul li:first-child{list-style:none;margin:6px 0 14px;padding:12px 16px;background:#FFF6EA;border-left:3px solid var(--accent);border-radius:8px;font-weight:600;color:var(--navy)}
+.job .job-body ul li:first-child::before{display:none!important}
+@media (max-width:767px){.job .job-body .org .sector{white-space:normal;width:100%}}
+.job .job-body .org .sector{font-weight:700;color:var(--navy)}
+.job .job-body .org .sector{font-weight:700;color:var(--navy)}
+/* tighter spacing in the new card layout */
+.job .job-top{margin:0 0 8px}
+.job .job-top .job-icon{width:32px;height:32px}
+.job .job-body h3{margin-bottom:4px!important}
+.job .job-body .org{margin-bottom:6px!important}
+.job .job-body ul li:first-child{margin:4px 0 10px;padding:9px 14px}
+.deck .job .job-body ul li + li{margin-top:6px}
+.job .job-body .org .sector{font-weight:400;color:var(--muted)}
+.job .job-body .org .sector b{font-weight:700;color:var(--navy)}
+.job .job-body .org .sector b{display:inline!important;margin:0!important}
+html body .job .job-body .org span.sector{display:inline-block!important;white-space:nowrap!important}
+html body .job .job-body .org span.sector > b{display:inline!important}
+@media (max-width:767px){html body .job .job-body .org span.sector{white-space:normal!important;display:block!important}}
