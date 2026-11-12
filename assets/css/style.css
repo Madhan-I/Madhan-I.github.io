@@ -5572,3 +5572,4 @@ html body .hero .where,html body .hero .where *{font-weight:400!important}
 .hero .where .w-roles{margin-left:-4px}
 @media (max-width:767px){.hero .where .w-roles{margin-left:0}}
 html body .hero .where .w-loc{font-weight:700!important;color:var(--navy)}
+.lightbox .lb-extra{background:none;border:0;cursor:pointer;padding:0}
