@@ -5564,3 +5564,11 @@ details.creds>summary span::before{animation-iteration-count:3}
 html body .job .job-body .org span.sector{display:inline-block!important;white-space:nowrap!important}
 html body .job .job-body .org span.sector > b{display:inline!important}
 @media (max-width:767px){html body .job .job-body .org span.sector{white-space:normal!important;display:block!important}}
+/* Hero location line: location, relocation and target roles in one line, no bold (13 Nov 2026) */
+html body .hero .where,html body .hero .where *{font-weight:400!important}
+.hero .where .w-roles{white-space:nowrap}
+@media (max-width:767px){.hero .where .w-roles{white-space:normal;flex-basis:100%;padding-left:24px}.hero .where .w-roles + *{display:none}}
+.hero .where .w-rel{white-space:nowrap}
+.hero .where .w-roles{margin-left:-4px}
+@media (max-width:767px){.hero .where .w-roles{margin-left:0}}
+html body .hero .where .w-loc{font-weight:700!important;color:var(--navy)}
