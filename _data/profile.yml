@@ -512,7 +512,7 @@ certifications:
         badge: pagerduty-foundational.png
         url: https://www.credly.com/badges/999463e4-1a89-4991-a145-2e646e019843
   - group: Google Cloud · 29 badges
-    show: 7
+    show: 6
     more_link: https://www.skills.google/public_profiles/f79f24ba-fe04-4792-b301-a8b152fd4dd5
     more_label: All 29 badges on Google
     items:
@@ -607,7 +607,7 @@ certifications:
         badge: google-cloud-logo.png
         url: https://www.skills.google/public_profiles/f79f24ba-fe04-4792-b301-a8b152fd4dd5/badges/279576
   - group: Cloud, Data & AI
-    show: 7
+    show: 6
     items:
       - name: "IBM Data & AI Essentials"
         year: "2020"
@@ -675,7 +675,7 @@ certifications:
         badge: cisco-iot.png
         url: https://www.credly.com/badges/2e25f340-a699-4b71-9e32-8be1d5a1e2ae
   - group: Earlier credentials
-    show: 8
+    show: 6
     items:
       - name: ITIL® Foundation in IT Service Management (EXIN)
         year: "2016"
@@ -759,7 +759,12 @@ certifications:
         badge: certiprof-csfpc.png
         url: https://www.credly.com/badges/7603dff0-a874-4c8c-84e3-76b290b80a00
         expired: "2023"
-      - name: Istio Essentials & Intermediate (Solo.io)
+      - name: Istio Fundamentals (Solo.io)
+        year: "2021"
+        status: Expired
+        badge: istio.png
+        expired: "2023"
+      - name: Intermediate for Istio (Solo.io)
         year: "2021"
         status: Expired
         badge: istio.png

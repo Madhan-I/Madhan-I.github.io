@@ -528,16 +528,26 @@ document.querySelectorAll('.copy-btn').forEach(function (b) {
   copy.appendChild(btn);
 })();
 
-/* Credential groups with data-show: first N badges, the rest behind "Show N more". No JS shows everything. (12 Nov 2026) */
+/* Credential groups with data-show: first N badges. "See all badges" opens all three cards at once;
+   each list then scrolls inside the same height as before, so the page does not grow. No JS shows everything. (12 Nov 2026) */
 (function () {
-  [].forEach.call(document.querySelectorAll('#cert-more ul[data-show]'), function (ul) {
-    var n = +ul.getAttribute('data-show') || 6, extra = [].slice.call(ul.children).slice(n); if (!extra.length) return;
-    extra.forEach(function (li) { li.hidden = true; });
-    if (ul.parentNode.querySelector('.group-link')) return; /* external "See all badges" link already covers the rest */
-    var btn = document.createElement('button'); btn.type = 'button'; btn.className = 'group-link cg-more'; btn.setAttribute('aria-expanded', 'false');
-    var label = function (o) { return o ? 'Show fewer ↑' : 'See all badges ↓'; }; btn.textContent = label(false);
-    btn.addEventListener('click', function () { var o = btn.getAttribute('aria-expanded') !== 'true'; extra.forEach(function (li) { li.hidden = !o; }); btn.setAttribute('aria-expanded', String(o)); btn.textContent = label(o); });
-    ul.parentNode.insertBefore(btn, ul.nextSibling);
+  var wrap = document.getElementById('cert-more'); if (!wrap) return;
+  var lists = [].slice.call(wrap.querySelectorAll('ul[data-show]')); if (!lists.length) return;
+  var extras = lists.map(function (ul) { var n = +ul.getAttribute('data-show') || 6, ex = []; [].slice.call(ul.children).forEach(function (li, k) { if (li.classList.contains('cert-sub') ? k > n : k >= n) ex.push(li); }); ex.forEach(function (li) { li.hidden = true; }); return ex; });
+  /* a sub-heading right at the cut stays hidden with the rest */
+  lists.forEach(function (ul, k) { var n = +ul.getAttribute('data-show') || 6, li = ul.children[n]; if (li && li.classList.contains('cert-sub') && extras[k].indexOf(li) < 0) { li.hidden = true; extras[k].unshift(li); } });
+  var btns = [];
+  function set(open) {
+    var h = 0; if (open) lists.forEach(function (ul) { h = Math.max(h, ul.getBoundingClientRect().height); });
+    extras.forEach(function (ex) { ex.forEach(function (li) { li.hidden = !open; }); });
+    lists.forEach(function (ul) { ul.style.maxHeight = open ? Math.round(h) + 'px' : ''; ul.classList.toggle('cg-scroll', open); if (!open) ul.scrollTop = 0; if (open) ul.setAttribute('tabindex', '0'); else ul.removeAttribute('tabindex'); });
+    btns.forEach(function (b) { b.setAttribute('aria-expanded', String(open)); b.textContent = open ? 'Show fewer ↑' : 'See all badges ↓'; });
+  }
+  lists.forEach(function (ul, k) {
+    if (!extras[k].length || ul.parentNode.querySelector('.group-link')) return;
+    var b = document.createElement('button'); b.type = 'button'; b.className = 'group-link cg-more'; b.setAttribute('aria-expanded', 'false'); b.textContent = 'See all badges ↓';
+    b.addEventListener('click', function () { set(b.getAttribute('aria-expanded') !== 'true'); });
+    ul.parentNode.insertBefore(b, ul.nextSibling); btns.push(b);
   });
 })();
 
