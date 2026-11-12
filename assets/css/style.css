@@ -5511,3 +5511,6 @@ details.creds>summary span::before{animation-iteration-count:3}
 .talks .tk-top .tk-date{font:600 13px/1 var(--body);color:var(--muted)}
 @media (max-width:767px){.hl-tabs.is-tabbed .hl-tablist{gap:20px;flex-wrap:nowrap}.hl-tablist [role=tab]{font-size:15px;white-space:nowrap}.hl-tablist .tab-n{display:none}}
 .hl-tablist [role=tab].wave::after{top:0;bottom:3px}
+/* Space between the training card and the highlight tabs (13 Nov 2026) */
+#training .hl-tabs{margin-top:40px}
+@media (max-width:767px){#training .hl-tabs{margin-top:28px}}
