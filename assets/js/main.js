@@ -537,10 +537,11 @@ document.querySelectorAll('.copy-btn').forEach(function (b) {
   /* a sub-heading right at the cut stays hidden with the rest */
   lists.forEach(function (ul, k) { var n = +ul.getAttribute('data-show') || 6, li = ul.children[n]; if (li && li.classList.contains('cert-sub') && extras[k].indexOf(li) < 0) { li.hidden = true; extras[k].unshift(li); } });
   var btns = [];
+  lists.forEach(function (ul) { ul.addEventListener('scroll', function () { ul.classList.toggle('at-end', ul.scrollTop + ul.clientHeight >= ul.scrollHeight - 4); }, { passive: true }); });
   function set(open) {
     var h = 0; if (open) lists.forEach(function (ul) { h = Math.max(h, ul.getBoundingClientRect().height); });
     extras.forEach(function (ex) { ex.forEach(function (li) { li.hidden = !open; }); });
-    lists.forEach(function (ul) { ul.style.maxHeight = open ? Math.round(h) + 'px' : ''; ul.classList.toggle('cg-scroll', open); if (!open) ul.scrollTop = 0; if (open) ul.setAttribute('tabindex', '0'); else ul.removeAttribute('tabindex'); });
+    lists.forEach(function (ul) { ul.style.maxHeight = open ? Math.round(h) + 'px' : ''; ul.classList.toggle('cg-scroll', open); ul.classList.toggle('at-end', !open || ul.scrollHeight - ul.clientHeight < 4); if (!open) ul.scrollTop = 0; if (open) ul.setAttribute('tabindex', '0'); else ul.removeAttribute('tabindex'); });
     btns.forEach(function (b) { b.setAttribute('aria-expanded', String(open)); b.textContent = open ? 'Show fewer ↑' : 'See all badges ↓'; });
   }
   lists.forEach(function (ul, k) {
