@@ -445,7 +445,7 @@ certifications:
       - name: Microsoft Certified Trainer
         year: "2020"
         status: Active
-        badge: mct-2026.png
+        badge: mct-2026-credly.webp
         url: https://www.credly.com/badges/f5fd3e5a-519d-4d25-9cb0-ef6a57e7c3b0
       - name: Azure AI Engineer Associate
         year: "2021"
