@@ -5436,3 +5436,10 @@ details.creds>summary span::before{animation-iteration-count:3}
 /* Scroll fade only while more is below; clear at the end (12 Nov 2026) */
 #cert-more ul.cg-scroll{padding-bottom:12px;-webkit-mask-image:linear-gradient(#000 calc(100% - 20px),transparent);mask-image:linear-gradient(#000 calc(100% - 20px),transparent)}
 #cert-more ul.cg-scroll.at-end{-webkit-mask-image:none;mask-image:none}
+/* Tablet gets the laptop About treatment too (12 Nov 2026) */
+@media (min-width:768px) and (max-width:1099px){
+  html body #about .copy p{text-align:justify !important;hyphens:none !important;-webkit-hyphens:none !important}
+  html body #about .about-side .clients h3{margin-bottom:14px !important;padding-bottom:14px !important}
+  html body #about .about-side .clients li{padding-top:11px !important;padding-bottom:11px !important}
+  html body #about .about-side .quick{margin-top:22px !important}
+}

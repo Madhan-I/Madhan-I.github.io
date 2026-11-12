@@ -533,7 +533,7 @@ document.querySelectorAll('.copy-btn').forEach(function (b) {
 (function () {
   var wrap = document.getElementById('cert-more'); if (!wrap) return;
   var lists = [].slice.call(wrap.querySelectorAll('ul[data-show]')); if (!lists.length) return;
-  var phone = window.matchMedia && window.matchMedia('(max-width: 767px)').matches;
+  var phone = window.matchMedia && window.matchMedia('(max-width: 1099px)').matches; /* phones and tablets */
   var showN = function (ul) { var n = +ul.getAttribute('data-show') || 6; return phone ? Math.min(4, n) : n; };
   var extras = lists.map(function (ul) { var n = showN(ul), ex = []; [].slice.call(ul.children).forEach(function (li, k) { if (li.classList.contains('cert-sub') ? k > n : k >= n) ex.push(li); }); ex.forEach(function (li) { li.hidden = true; }); return ex; });
   /* a sub-heading right at the cut stays hidden with the rest */
@@ -557,10 +557,10 @@ document.querySelectorAll('.copy-btn').forEach(function (b) {
 /* Desktop: clients card starts level with the second About paragraph, not the lead line (12 Nov 2026) */
 (function () {
   var copy = document.querySelector('#about .copy'), side = document.querySelector('#about .about-side'); if (!copy || !side) return;
-  var mq = window.matchMedia('(min-width: 1100px)');
+  var mq = window.matchMedia('(min-width: 768px)');
   function place() {
     side.style.marginTop = '';
-    if (!mq.matches) return;
+    if (!mq.matches || side.getBoundingClientRect().left < copy.getBoundingClientRect().right - 4) return; /* only when side by side */
     /* level with the line that starts "an AI product" in the lead paragraph; falls back to the second paragraph */
     var lead = copy.querySelector('p'), top = null;
     if (lead && lead.firstChild && lead.firstChild.nodeType === 3) {
