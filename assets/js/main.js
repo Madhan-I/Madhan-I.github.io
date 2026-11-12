@@ -533,9 +533,11 @@ document.querySelectorAll('.copy-btn').forEach(function (b) {
 (function () {
   var wrap = document.getElementById('cert-more'); if (!wrap) return;
   var lists = [].slice.call(wrap.querySelectorAll('ul[data-show]')); if (!lists.length) return;
-  var extras = lists.map(function (ul) { var n = +ul.getAttribute('data-show') || 6, ex = []; [].slice.call(ul.children).forEach(function (li, k) { if (li.classList.contains('cert-sub') ? k > n : k >= n) ex.push(li); }); ex.forEach(function (li) { li.hidden = true; }); return ex; });
+  var phone = window.matchMedia && window.matchMedia('(max-width: 767px)').matches;
+  var showN = function (ul) { var n = +ul.getAttribute('data-show') || 6; return phone ? Math.min(4, n) : n; };
+  var extras = lists.map(function (ul) { var n = showN(ul), ex = []; [].slice.call(ul.children).forEach(function (li, k) { if (li.classList.contains('cert-sub') ? k > n : k >= n) ex.push(li); }); ex.forEach(function (li) { li.hidden = true; }); return ex; });
   /* a sub-heading right at the cut stays hidden with the rest */
-  lists.forEach(function (ul, k) { var n = +ul.getAttribute('data-show') || 6, li = ul.children[n]; if (li && li.classList.contains('cert-sub') && extras[k].indexOf(li) < 0) { li.hidden = true; extras[k].unshift(li); } });
+  lists.forEach(function (ul, k) { var n = showN(ul), li = ul.children[n]; if (li && li.classList.contains('cert-sub') && extras[k].indexOf(li) < 0) { li.hidden = true; extras[k].unshift(li); } });
   var btns = [];
   lists.forEach(function (ul) { ul.addEventListener('scroll', function () { ul.classList.toggle('at-end', ul.scrollTop + ul.clientHeight >= ul.scrollHeight - 4); }, { passive: true }); });
   function set(open) {

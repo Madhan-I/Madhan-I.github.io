@@ -619,16 +619,16 @@ certifications:
         status: Active
         badge: ibm-kubernetes.png
         url: https://www.credly.com/badges/fba182df-6cfe-4c45-90b1-dea7316b1e23
-      - name: "IBM Cloud Native Security · DevSecOps"
-        year: "2020"
-        status: Active
-        badge: ibm-devsecops.png
-        url: https://www.credly.com/badges/3c427773-44eb-4c9a-bea1-cd509c6ddbe9
       - name: Microsoft Cloud Skills Challenge Champion
         year: "2021"
         status: Active
         badge: msus-cloud-champion.webp
         url: https://www.credly.com/badges/77203471-1576-42f5-bef2-8d40f3c87593
+      - name: "IBM Cloud Native Security · DevSecOps"
+        year: "2020"
+        status: Active
+        badge: ibm-devsecops.png
+        url: https://www.credly.com/badges/3c427773-44eb-4c9a-bea1-cd509c6ddbe9
       - name: "IBM Hybrid Cloud · Microservices Architect"
         year: "2020"
         status: Active
@@ -758,11 +758,11 @@ certifications:
         badge: certiprof-sfpc.png
         url: https://www.credly.com/badges/b09aaae9-5b1f-49a7-9391-69d46730f809
         expired: "2022"
-      - name: Cyber Security Foundation (CertiProf CSFPC)
+      - name: Intermediate for Istio (Solo.io)
         year: "2021"
         status: Expired
-        badge: certiprof-csfpc.png
-        url: https://www.credly.com/badges/7603dff0-a874-4c8c-84e3-76b290b80a00
+        badge: istio.png
+        url: https://www.credly.com/badges/2f8a2132-6249-44fc-9a9e-0ef5103e7fdd
         expired: "2023"
       - name: Fundamentals for Istio (Solo.io)
         year: "2021"
@@ -770,11 +770,11 @@ certifications:
         badge: istio.png
         url: https://www.credly.com/badges/5959195a-68f1-4013-a8fd-db86283b5e99
         expired: "2023"
-      - name: Intermediate for Istio (Solo.io)
+      - name: Cyber Security Foundation (CertiProf CSFPC)
         year: "2021"
         status: Expired
-        badge: istio.png
-        url: https://www.credly.com/badges/2f8a2132-6249-44fc-9a9e-0ef5103e7fdd
+        badge: certiprof-csfpc.png
+        url: https://www.credly.com/badges/7603dff0-a874-4c8c-84e3-76b290b80a00
         expired: "2023"
 
 education:
