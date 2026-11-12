@@ -5514,3 +5514,8 @@ details.creds>summary span::before{animation-iteration-count:3}
 /* Space between the training card and the highlight tabs (13 Nov 2026) */
 #training .hl-tabs{margin-top:40px}
 @media (max-width:767px){#training .hl-tabs{margin-top:28px}}
+/* Highlight cards: type label on line 1; date, place and topic on line 2; titles only (13 Nov 2026) */
+.talks .tk-top{margin-bottom:8px}
+.talks .tk-sub{display:flex;align-items:center;justify-content:space-between;gap:8px;margin:0 0 10px}
+.talks .tk-sub .tk-date{font:600 13px/1.3 var(--body);color:var(--muted);white-space:nowrap;margin:0!important}
+.talks .tk-sub .tk-chip{margin-left:auto;flex:none}
