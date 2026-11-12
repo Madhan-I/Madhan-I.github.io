@@ -435,10 +435,6 @@ certifications:
         status: Active
         badge: scrum-institute.png
         url: https://www.scrum-institute.org/badges/51958587802480
-      - name: ITIL® Foundation in IT Service Management (EXIN)
-        year: "2016"
-        status: Active
-        badge: exin.png
   - group: Microsoft
     featured: true
     items:
@@ -517,36 +513,99 @@ certifications:
         url: https://www.credly.com/badges/999463e4-1a89-4991-a145-2e646e019843
   - group: Google Cloud · 29 badges
     show: 7
-    link: https://www.skills.google/public_profiles/f79f24ba-fe04-4792-b301-a8b152fd4dd5
+    more_link: https://www.skills.google/public_profiles/f79f24ba-fe04-4792-b301-a8b152fd4dd5
+    more_label: All 29 badges on Google
     items:
       - name: Implement DevOps Workflows in Google Cloud
         year: "2020"
         status: Active
         badge: google-cloud-logo.png
+        url: https://www.skills.google/public_profiles/f79f24ba-fe04-4792-b301-a8b152fd4dd5/badges/596335
       - name: Deploy Kubernetes Applications on Google Cloud
         year: "2020"
         status: Active
         badge: google-cloud-logo.png
+        url: https://www.skills.google/public_profiles/f79f24ba-fe04-4792-b301-a8b152fd4dd5/badges/581167
       - name: "Anthos: Service Mesh"
         year: "2020"
         status: Active
         badge: google-cloud-logo.png
+        url: https://www.skills.google/public_profiles/f79f24ba-fe04-4792-b301-a8b152fd4dd5/badges/604329
       - name: Prepare Data for ML APIs on Google Cloud
         year: "2020"
         status: Active
         badge: google-cloud-logo.png
+        url: https://www.skills.google/public_profiles/f79f24ba-fe04-4792-b301-a8b152fd4dd5/badges/581243
       - name: Develop Your Google Cloud Network
         year: "2021"
         status: Active
         badge: google-cloud-logo.png
+        url: https://www.skills.google/public_profiles/f79f24ba-fe04-4792-b301-a8b152fd4dd5/badges/618358
       - name: Monitor and Log with Google Cloud Observability
         year: "2020"
         status: Active
         badge: google-cloud-logo.png
+        url: https://www.skills.google/public_profiles/f79f24ba-fe04-4792-b301-a8b152fd4dd5/badges/580905
       - name: Security & Identity Fundamentals
         year: "2020"
         status: Active
         badge: google-cloud-logo.png
+        url: https://www.skills.google/public_profiles/f79f24ba-fe04-4792-b301-a8b152fd4dd5/badges/580065
+      - name: Automate Deployment and Manage Traffic on a Google Cloud Network
+        year: "2020"
+        status: Active
+        badge: google-cloud-logo.png
+        url: https://www.skills.google/public_profiles/f79f24ba-fe04-4792-b301-a8b152fd4dd5/badges/579266
+      - name: BigQuery for Machine Learning
+        year: "2020"
+        status: Active
+        badge: google-cloud-logo.png
+        url: https://www.skills.google/public_profiles/f79f24ba-fe04-4792-b301-a8b152fd4dd5/badges/295530
+      - name: Set Up an App Dev Environment on Google Cloud
+        year: "2020"
+        status: Active
+        badge: google-cloud-logo.png
+        url: https://www.skills.google/public_profiles/f79f24ba-fe04-4792-b301-a8b152fd4dd5/badges/376291
+      - name: Set Up a Google Cloud Network
+        year: "2020"
+        status: Active
+        badge: google-cloud-logo.png
+        url: https://www.skills.google/public_profiles/f79f24ba-fe04-4792-b301-a8b152fd4dd5/badges/333672
+      - name: Build a Website on Google Cloud
+        year: "2020"
+        status: Active
+        badge: google-cloud-logo.png
+        url: https://www.skills.google/public_profiles/f79f24ba-fe04-4792-b301-a8b152fd4dd5/badges/297226
+      - name: DevOps Essentials
+        year: "2020"
+        status: Active
+        badge: google-cloud-logo.png
+        url: https://www.skills.google/public_profiles/f79f24ba-fe04-4792-b301-a8b152fd4dd5/badges/333574
+      - name: "Intro to ML: Image Processing"
+        year: "2020"
+        status: Active
+        badge: google-cloud-logo.png
+        url: https://www.skills.google/public_profiles/f79f24ba-fe04-4792-b301-a8b152fd4dd5/badges/295584
+      - name: "Baseline: Data, ML, AI"
+        year: "2020"
+        status: Active
+        badge: google-cloud-logo.png
+        url: https://www.skills.google/public_profiles/f79f24ba-fe04-4792-b301-a8b152fd4dd5/badges/279737
+      - name: Cloud Engineering
+        year: "2020"
+        status: Active
+        badge: google-cloud-logo.png
+        url: https://www.skills.google/public_profiles/f79f24ba-fe04-4792-b301-a8b152fd4dd5/badges/279516
+      - name: Cloud Development
+        year: "2020"
+        status: Active
+        badge: google-cloud-logo.png
+        url: https://www.skills.google/public_profiles/f79f24ba-fe04-4792-b301-a8b152fd4dd5/badges/296337
+      - name: "Baseline: Infrastructure"
+        year: "2020"
+        status: Active
+        badge: google-cloud-logo.png
+        url: https://www.skills.google/public_profiles/f79f24ba-fe04-4792-b301-a8b152fd4dd5/badges/279576
   - group: Cloud, Data & AI
     show: 7
     items:
@@ -616,62 +675,78 @@ certifications:
         badge: cisco-iot.png
         url: https://www.credly.com/badges/2e25f340-a699-4b71-9e32-8be1d5a1e2ae
   - group: Earlier credentials
-    show: 7
+    show: 8
     items:
-      - name: Certified SAFe® 5 Scrum Master
-        year: "2022"
+      - name: ITIL® Foundation in IT Service Management (EXIN)
+        year: "2016"
         status: Active
-        badge: safe5-sm.png
-        url: https://www.credly.com/badges/1ee164d6-dbcc-4e69-9d6e-8c4ae247a18c
+        badge: exin.png
       - name: Certified SAFe® 5 Product Owner / Product Manager
         year: "2022"
         status: Active
         badge: safe5-popm.png
         url: https://www.credly.com/badges/b03046cc-22c9-41e7-a409-91bb60cf60ac
+      - name: Certified SAFe® 5 Scrum Master
+        year: "2022"
+        status: Active
+        badge: safe5-sm.png
+        url: https://www.credly.com/badges/1ee164d6-dbcc-4e69-9d6e-8c4ae247a18c
+      - name: Minecraft Education Teacher Academy
+        year: "2022"
+        status: Active
+        badge: minecraft-teacher.png
+        url: https://learn.microsoft.com/api/achievements/share/en-au/Madhan-irulandi/99LY6UVK?sharingId=5EED7EABB794DB0
+      - name: Foundations of Business and Entrepreneurship (SkillFront)
+        status: Active
+        badge: skillfront.webp
+        url: https://www.skillfront.com/Badges/58549251265576
+      - name: Scrum Fundamentals Certified (VMEdu)
+        year: "2020"
+        status: Active
+        badge: vmedu.png
+        url: https://c46e136a583f7e334124-ac22991740ab4ff17e21daf2ed577041.ssl.cf1.rackcdn.com/Certificate/ScrumFundamentalsCertified-MadhanI-804376.pdf
       - name: Aviatrix Multicloud Network Associate
         year: "2020"
         status: Expired
         badge: aviatrix.png
         url: https://www.credly.com/badges/caf2a25f-f886-438b-9aae-8e0397a051ef
         expired: "2024"
-      - name: Minecraft Education Teacher Academy
-        year: "2022"
-        status: Active
-        badge: minecraft-teacher.png
-        url: https://learn.microsoft.com/api/achievements/share/en-au/Madhan-irulandi/99LY6UVK?sharingId=5EED7EABB794DB0
-      - name: Alibaba Cloud Associate (ACA) · Cloud Computing
-        year: "2020"
-        status: Expired
-        badge: alibaba-cloud.png
-        expired: "2022"
-        url: https://aliyun-aps-cloud-public.oss-cn-hangzhou.aliyuncs.com/img_cef1d7090e881fce2272413855ee0a75.png
       - name: Alibaba Cloud Associate (ACA) · Cloud Security
         year: "2020"
         status: Expired
         badge: alibaba-cloud.png
         expired: "2022"
         url: https://aliyun-aps-cloud-public.oss-cn-hangzhou.aliyuncs.com/img_c737dfc3987cb7dd76fdd998e22308b8.png
-      - name: Scrum Fundamentals Certified (VMEdu)
-        year: "2020"
-        status: Active
-        badge: vmedu.png
-        url: https://c46e136a583f7e334124-ac22991740ab4ff17e21daf2ed577041.ssl.cf1.rackcdn.com/Certificate/ScrumFundamentalsCertified-MadhanI-804376.pdf
-      - name: Foundations of Business and Entrepreneurship (SkillFront)
-        status: Active
-        badge: skillfront.webp
-        url: https://www.skillfront.com/Badges/58549251265576
-      - name: Kanban Foundation (CertiProf KIKF)
+      - name: Alibaba Cloud Associate (ACA) · Cloud Native
         year: "2020"
         status: Expired
-        badge: certiprof-kikf.png
-        url: https://www.credly.com/badges/e5b0a069-7f56-4ed0-8aa8-07a7fe653347
+        badge: alibaba-cloud.png
         expired: "2022"
+        url: https://aliyun-aps-cloud-public.oss-cn-hangzhou.aliyuncs.com/img_b52d68e93f5f265bbae53ec32f95fdb0.png
+      - name: Alibaba Cloud Associate (ACA) · Cloud Computing
+        year: "2020"
+        status: Expired
+        badge: alibaba-cloud.png
+        expired: "2022"
+        url: https://aliyun-aps-cloud-public.oss-cn-hangzhou.aliyuncs.com/img_cef1d7090e881fce2272413855ee0a75.png
+      - name: Alibaba Cloud Associate (ACA) · Big Data
+        year: "2020"
+        status: Expired
+        badge: alibaba-cloud.png
+        expired: "2022"
+        url: https://aliyun-aps-cloud-public.oss-cn-hangzhou.aliyuncs.com/img_a5ef3bf7eff4377569be54c72cc89694.png
       - name: Scrum Master Professional Certificate (CertiProf SMPC)
         year: "2022"
         status: Expired
         badge: certiprof-smpc.png
         url: https://www.credly.com/badges/8364dc6a-146c-4a55-97a1-5714cfc5057b
         expired: "2024"
+      - name: Kanban Foundation (CertiProf KIKF)
+        year: "2020"
+        status: Expired
+        badge: certiprof-kikf.png
+        url: https://www.credly.com/badges/e5b0a069-7f56-4ed0-8aa8-07a7fe653347
+        expired: "2022"
       - name: Scrum Foundation Professional (CertiProf SFPC)
         year: "2020"
         status: Expired
@@ -690,18 +765,6 @@ certifications:
         badge: istio.png
         url: https://www.credly.com/badges/2f8a2132-6249-44fc-9a9e-0ef5103e7fdd
         expired: "2023"
-      - name: Alibaba Cloud Associate (ACA) · Big Data
-        year: "2020"
-        status: Expired
-        badge: alibaba-cloud.png
-        expired: "2022"
-        url: https://aliyun-aps-cloud-public.oss-cn-hangzhou.aliyuncs.com/img_a5ef3bf7eff4377569be54c72cc89694.png
-      - name: Alibaba Cloud Associate (ACA) · Cloud Native
-        year: "2020"
-        status: Expired
-        badge: alibaba-cloud.png
-        expired: "2022"
-        url: https://aliyun-aps-cloud-public.oss-cn-hangzhou.aliyuncs.com/img_b52d68e93f5f265bbae53ec32f95fdb0.png
 
 education:
   - title: Bachelor of Engineering
