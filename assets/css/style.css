@@ -5576,3 +5576,5 @@ html body .hero .where .w-loc{font-weight:700!important;color:var(--navy)}
 /* Lightbox: hidden detail lines stay hidden; award tiles: titles reserve two lines so org/date rows line up (13 Nov 2026) */
 .lightbox [hidden]{display:none!important}
 @media (min-width:768px){#recognition .rt-link b{min-height:2.6em}}
+.lightbox img{margin-left:auto;margin-right:auto}
+.lightbox .lb-cap{text-align:center}
