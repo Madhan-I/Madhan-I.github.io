@@ -5519,3 +5519,16 @@ details.creds>summary span::before{animation-iteration-count:3}
 .talks .tk-sub{display:flex;align-items:center;justify-content:space-between;gap:8px;margin:0 0 10px}
 .talks .tk-sub .tk-date{font:600 13px/1.3 var(--body);color:var(--muted);white-space:nowrap;margin:0!important}
 .talks .tk-sub .tk-chip{margin-left:auto;flex:none}
+/* Writing: newest post (under 3 weeks old) goes first with a New badge (13 Nov 2026) */
+#writing .writing-cards ul > li.is-new{order:-1}
+#writing .tk-new{font:700 11px/1 var(--body);letter-spacing:.06em;text-transform:uppercase;color:var(--navy);background:var(--accent);border-radius:999px;padding:5px 9px;margin-right:8px;white-space:nowrap}
+/* Hero: roles he is open to (13 Nov 2026) */
+.hero .open-to{display:flex;flex-wrap:wrap;align-items:center;gap:6px 8px;margin:10px 0 0;font:500 14px/1.3 var(--body)}
+.hero .open-to .ot-k{font:700 11px/1 var(--body);letter-spacing:.12em;text-transform:uppercase;color:var(--brand);margin-right:4px}
+.hero .open-to .ot-r{color:var(--text);padding:5px 10px;border:1px solid var(--line);border-radius:999px;background:#fff}
+.hero .open-to{display:block;font:500 14px/1.5 var(--body);color:var(--muted);margin:8px 0 0}
+.hero .open-to .ot-k{display:inline;margin-right:8px}
+.hero .open-to .ot-r{display:inline;white-space:nowrap;padding:0;border:0;background:none;color:var(--muted)}
+.hero .open-to .ot-r + .ot-r::before{content:"·";margin:0 7px;color:var(--muted)}
+.hero .open-to .ot-r + .ot-r::before{content:none}
+.hero .open-to .ot-r:not(:last-of-type)::after{content:"·";margin-left:7px;color:var(--muted)}

@@ -1,3 +1,6 @@
+/* Writing: move the newest post (marked is-new by the build) to the front, before any phone trimming runs. (13 Nov 2026) */
+(function () { var li = document.querySelector('#writing .writing-cards li.is-new'); if (li && li.parentNode.firstElementChild !== li) li.parentNode.insertBefore(li, li.parentNode.firstElementChild); })();
+
 document.querySelectorAll('.copy-btn').forEach(function (b) {
   b.addEventListener('click', function () {
     var text = b.getAttribute('data-copy');
