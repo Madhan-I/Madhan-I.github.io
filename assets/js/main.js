@@ -370,9 +370,9 @@ document.querySelectorAll('.copy-btn').forEach(function (b) {
   });
 })();
 
-/* Amber wave on "Show all certifications", "Show all earlier roles" and "All writing" until clicked */
+/* Amber wave on "Show all certifications", "Show all earlier roles", "All writing" and the "Volunteering & events" tab until clicked */
 (function () {
-  [].forEach.call(document.querySelectorAll('.cert-toggle, #earlier .e-all, #writing .wr-all'), function (b) {
+  [].forEach.call(document.querySelectorAll('.cert-toggle, #earlier .e-all, #writing .wr-all, #hl-t2'), function (b) {
     b.classList.add('wave');
     b.addEventListener('click', function () { b.classList.add('used'); });
     if ('IntersectionObserver' in window) { var io = new IntersectionObserver(function (es) { es.forEach(function (e) { if (e.isIntersecting) { b.classList.add('hint'); io.disconnect(); } }); }, { threshold: .1 }); io.observe(b); } else { b.classList.add('hint'); }
@@ -578,6 +578,22 @@ document.querySelectorAll('.copy-btn').forEach(function (b) {
   }
   window.addEventListener('resize', function () { clearTimeout(place.t); place.t = setTimeout(place, 150); });
   if (document.fonts && document.fonts.ready) document.fonts.ready.then(place); place();
+})();
+
+/* Speaking / Volunteering tabs: one row instead of two. Without JS both panels show with their own headings. (13 Nov 2026) */
+(function () {
+  var box = document.querySelector('.hl-tabs'); if (!box) return;
+  var tabs = [].slice.call(box.querySelectorAll('[role=tab]')), panels = tabs.map(function (t) { return document.getElementById(t.getAttribute('aria-controls')); });
+  box.classList.add('is-tabbed');
+  function pick(k, focus) {
+    tabs.forEach(function (t, i) { var on = i === k; t.setAttribute('aria-selected', String(on)); t.tabIndex = on ? 0 : -1; if (panels[i]) panels[i].hidden = !on; });
+    if (focus) tabs[k].focus();
+  }
+  tabs.forEach(function (t, i) {
+    t.addEventListener('click', function () { pick(i); });
+    t.addEventListener('keydown', function (e) { var n = e.key === 'ArrowRight' ? 1 : e.key === 'ArrowLeft' ? -1 : 0; if (n) { e.preventDefault(); pick((i + n + tabs.length) % tabs.length, true); } });
+  });
+  pick(0);
 })();
 
 /* Phones and tablets: trim repeated content (audit Nov 2026; tablets added 8 Nov 2026).

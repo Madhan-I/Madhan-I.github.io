@@ -5484,3 +5484,30 @@ details.creds>summary span::before{animation-iteration-count:3}
 .lightbox .lb-note{color:#D6DEEA}
 .lightbox .lb-extra{display:table;margin:10px auto 0;color:#F2A541}
 .lightbox img{max-height:66vh}
+/* Speaking / Volunteering tabs (13 Nov 2026) */
+.hl-tablist{display:none}
+.hl-tabs.is-tabbed .hl-tablist{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 16px}
+.hl-tabs.is-tabbed .hl-h{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.hl-tablist [role=tab]{font:700 12px/1.2 'IBM Plex Mono',ui-monospace,monospace;letter-spacing:.12em;text-transform:uppercase;padding:10px 16px;border-radius:999px;border:1px solid rgba(255,255,255,.28);background:transparent;color:#CFE0FF;cursor:pointer}
+.hl-tablist [role=tab][aria-selected=true]{background:var(--accent);border-color:var(--accent);color:var(--navy)}
+.hl-tablist [role=tab]:focus-visible{outline:2px solid #fff;outline-offset:2px}
+.hl-panel[hidden]{display:none!important}
+.talks .tk-kind{font:700 10px/1 var(--body);letter-spacing:.1em;text-transform:uppercase;color:#fff;background:var(--brand);border-radius:4px;padding:4px 6px;margin-right:8px}
+.talks .tk-kind.kv{background:#B85C00}
+.talks .tk-top .tk-date{white-space:nowrap}
+.talks .tk-where{font-weight:400;color:var(--muted)}
+.talks .tk-top{flex-wrap:wrap;row-gap:6px}
+.talks .tk-top .tk-chip{margin-left:auto}
+.talks .tk-top .tk-date{margin-left:0!important}
+.talks .tk-top{justify-content:flex-start!important;column-gap:8px}
+/* Highlights: calmer tabs and type labels (13 Nov 2026) */
+.hl-tabs.is-tabbed .hl-tablist{gap:28px;margin:0 0 20px;border-bottom:1px solid rgba(255,255,255,.16)}
+.hl-tablist [role=tab]{font:600 16px/1.2 var(--body);letter-spacing:0;text-transform:none;padding:0 0 12px;border:0;border-bottom:3px solid transparent;border-radius:0;margin-bottom:-1px;background:none;color:rgba(255,255,255,.62)}
+.hl-tablist [role=tab]:hover{color:#fff}
+.hl-tablist [role=tab][aria-selected=true]{background:none;color:#fff;border-bottom-color:var(--accent)}
+.talks .tk-kind{font:700 11px/1 var(--body);letter-spacing:.08em;text-transform:uppercase;padding:5px 8px;border-radius:999px;margin-right:0;background:#EAF1FD;color:var(--brand)}
+.talks .tk-kind.kv{background:#E7F5EE;color:#1B7A4B}
+.talks .tk-kind.ke{background:#FFF1DE;color:#8A4B00}
+.talks .tk-top .tk-date{font:600 13px/1 var(--body);color:var(--muted)}
+@media (max-width:767px){.hl-tabs.is-tabbed .hl-tablist{gap:20px;flex-wrap:nowrap}.hl-tablist [role=tab]{font-size:15px;white-space:nowrap}.hl-tablist .tab-n{display:none}}
+.hl-tablist [role=tab].wave::after{top:0;bottom:3px}

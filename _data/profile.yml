@@ -289,49 +289,63 @@ training_formats:
     items: [Exam-prep bootcamps, Certification webinars, Hands-on labs, Graduate programs, Mentoring]
   - group: Campus & community
     items: [Guest lectures, Career talks, CSR skilling programs, Online sessions, Volunteer onboarding]
-speaking_title: "Speaking engagements · 8 of 75+"
+speaking_title: "Talks & workshops"
+speaking_count: "9 of 75+"
 speaking:
   - who: Atos Graduate Programme
     topic: Cloud
     where: Online
     what: Cloud computing workshop for 215 graduates
     feedback_image: award-cloud-feedback.jpg
-  - who: NIIT Foundation & EduBridge India
+    when: Feb 2022
+  - who: NIIT Foundation
     topic: Cloud
     where: Online
     what: CSR training on Google Cloud and AWS
     linkedin: https://lnkd.in/p/gx7KkQ-y
+    when: Feb 2022
+  - who: EduBridge India
+    topic: Cloud
+    where: Online
+    what: CSR training on Google Cloud and AWS
+    linkedin: https://lnkd.in/p/gx7KkQ-y
+    when: Feb 2022
   - who: VIT Chennai
     topic: Azure AI
     where: Chennai
     what: Azure AI Custom Vision, hands-on lecture
     linkedin: https://lnkd.in/p/g72yVQ2z
+    when: Apr 2023
   - who: Microsoft Azure AI-900
     topic: Azure AI
     where: Online
     what: Webinar on Azure AI services for certification
     linkedin: https://lnkd.in/p/gSpgHPbM
+    when: Mar 2022
   - who: Vellore Institute of Technology
     topic: Azure AI
     where: Online
     what: Azure Conversational AI, my first university guest lecture
     linkedin: https://lnkd.in/p/gFPDgt-j
+    when: Sep 2021
   - who: Jeppiaar Engineering College
     topic: AI & ML
     where: Chennai
     what: Innovation methods for ML & AI, with an AutoML demo
     linkedin: https://lnkd.in/p/g9KBZvZD
+    when: Jan 2022
   - who: Sri Ramakrishna Engineering College
     topic: Azure AI
     where: Online
     what: Image classification and object detection with Azure Cognitive Services
     linkedin: https://lnkd.in/p/gvDjjK75
+    when: Dec 2021
   - who: College Rotaract Clubs
     topic: Careers
     where: Online
     what: Careers in IT services for final-year and third-year students
     linkedin: https://lnkd.in/p/gvKE9S_P
-
+    when: Nov 2021
 community_events_title: Code for Boston volunteering & Boston tech events
 community:
   - who: Urban League Heat Pump Accelerator
