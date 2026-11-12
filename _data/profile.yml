@@ -624,6 +624,11 @@ certifications:
         status: Active
         badge: ibm-devsecops.png
         url: https://www.credly.com/badges/3c427773-44eb-4c9a-bea1-cd509c6ddbe9
+      - name: Microsoft Cloud Skills Challenge Champion
+        year: "2021"
+        status: Active
+        badge: msus-cloud-champion.webp
+        url: https://www.credly.com/badges/77203471-1576-42f5-bef2-8d40f3c87593
       - name: "IBM Hybrid Cloud · Microservices Architect"
         year: "2020"
         status: Active
