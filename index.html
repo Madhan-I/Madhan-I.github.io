@@ -181,18 +181,8 @@ layout: default
 <section id="recognition" class="slide tone-tint">
   <div class="wrap">
     <div class="sec-head reveal"><span class="label"><svg class="ic" aria-hidden="true"><use href="#i-cap"/></svg>Education &amp; Recognition</span><h2>Learning that never stopped</h2></div>
-    <div class="three">
-      <div class="panel reveal">
-        <h3><svg class="ic" aria-hidden="true"><use href="#i-cap"/></svg>Education</h3>
-        <ul class="rows">{% for e in p.education %}{% assign parts = e.detail | split: " · " %}<li><b>{{ e.title }}</b>{% if e.subject %}<span class="subj">{{ e.subject }}</span>{% endif %}<span class="who">{{ parts[0] }}</span>{% if parts[1] %}<span class="d2 edu-when">{{ parts[1] }}</span>{% endif %}{% if parts.size > 2 %}<span class="d2">{% for x in parts offset:2 %}{{ x }}{% unless forloop.last %} · {% endunless %}{% endfor %}</span>{% endif %}</li>{% endfor %}</ul>
-      </div>
-      {% for g in p.award_groups %}
-      <div class="panel reveal">
-        <h3><svg class="ic" aria-hidden="true"><use href="#i-{{ g.icon | default: 'award' }}"/></svg>{{ g.group }}</h3>
-        <ul class="rows">{% for a in g.items %}{% if a.hidden %}{% continue %}{% endif %}<li class="award{% if a.image %} has-image{% endif %}">{% if a.image %}<a class="thumb" href="{{ '/assets/badges/' | append: a.image | relative_url }}" data-lightbox data-caption="{{ a.title }}">{% assign tb = a.image | split: "." | first %}<img src="{{ '/assets/badges/thumbs/' | append: tb | append: '.jpg' | relative_url }}" alt="{{ a.title }} certificate" loading="lazy" width="96" height="96"><span class="zoom">View</span></a>{% endif %}{% assign parts = a.detail | split: " · " %}<span class="abody"><b>{{ a.title }}</b><span class="who">{{ parts[0] }}{% if parts[1] %}<span class="sep"> · </span><span class="nw adate">{{ parts[1] }}</span>{% endif %}</span>{% if parts.size > 2 %}<span class="d2">{% for x in parts offset:2 %}{{ x }}{% unless forloop.last %} · {% endunless %}{% endfor %}</span>{% endif %}{% if a.extra_image %}<a class="extra" href="{{ '/assets/badges/' | append: a.extra_image | relative_url }}" data-lightbox data-caption="{{ a.title }}: session feedback">{{ a.extra_label }} ↗</a>{% endif %}{% if a.note %}<small class="anote">{{ a.note }}</small>{% endif %}</span></li>{% endfor %}</ul>
-      </div>
-      {% endfor %}
-    </div>
+    <div class="rec-edu reveal">{% for e in p.education %}{% assign parts = e.detail | split: " · " %}<span class="rk"><svg class="ic" aria-hidden="true"><use href="#i-cap"/></svg>Education</span><b>{{ e.title }}</b><span>{{ e.subject }}</span><span class="who">{{ parts[0] }}</span>{% if parts[1] %}<span class="adate">{{ parts[1] }}</span>{% endif %}{% if parts[2] %}<span class="d2">{{ parts[2] }}</span>{% endif %}{% endfor %}</div>
+    <ul class="rec-tiles reveal">{% for g in p.award_groups %}{% assign gslug = g.group | slugify %}{% for a in g.items %}{% if a.hidden %}{% continue %}{% endif %}{% assign parts = a.detail | split: " · " %}{% capture desc %}{% for x in parts offset:2 %}{{ x }}{% unless forloop.last %} · {% endunless %}{% endfor %}{% endcapture %}<li class="rt rt-{{ gslug }}"><a class="rt-link" href="{{ '/assets/badges/' | append: a.image | relative_url }}" data-lightbox data-caption="{{ a.title }}" data-meta="{{ g.group }} · {{ parts[0] }}{% if parts[1] %} · {{ parts[1] }}{% endif %}" data-desc="{{ desc | strip | escape }}"{% if a.note %} data-note="{{ a.note | escape }}"{% endif %}{% if a.extra_image %} data-extra="{{ '/assets/badges/' | append: a.extra_image | relative_url }}" data-extra-label="{{ a.extra_label }}"{% endif %}>{% assign tb = a.image | split: "." | first %}<span class="rt-img"><img src="{{ '/assets/badges/thumbs/' | append: tb | append: '.jpg' | relative_url }}" alt="" loading="lazy" width="96" height="96"></span><span class="rt-tag">{{ g.group }}</span><b>{{ a.title }}</b><span class="who">{{ parts[0] }}{% if parts[1] %} · <span class="adate">{{ parts[1] }}</span>{% endif %}</span><span class="rt-more">Details ↗</span></a></li>{% endfor %}{% endfor %}</ul>
   </div>
 </section>
 {% endunless %}

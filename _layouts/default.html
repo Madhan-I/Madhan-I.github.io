@@ -58,7 +58,7 @@
       </div>
     </div>
   </footer>
-  <dialog class="lightbox" id="lightbox" aria-label="Certificate"><button type="button" class="lb-close" aria-label="Close">×</button><img alt=""><p class="lb-cap"></p></dialog>
+  <dialog class="lightbox" id="lightbox" aria-label="Certificate"><button type="button" class="lb-close" aria-label="Close">×</button><img alt=""><p class="lb-cap"></p><p class="lb-meta" hidden></p><p class="lb-desc" hidden></p><p class="lb-note" hidden></p><a class="lb-extra" hidden></a></dialog>
   <script src="{{ '/assets/js/main.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
   {% if gc != "" %}<script data-goatcounter="{{ gc_host }}/count" async src="{{ '/assets/js/count.js' | relative_url }}"></script>{% endif %}
 </body>

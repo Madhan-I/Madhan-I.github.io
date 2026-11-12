@@ -25,6 +25,11 @@ document.querySelectorAll('.copy-btn').forEach(function (b) {
       img.src = a.getAttribute('href');
       img.alt = a.getAttribute('data-caption') || '';
       cap.textContent = a.getAttribute('data-caption') || '';
+      [['.lb-meta', 'data-meta'], ['.lb-desc', 'data-desc'], ['.lb-note', 'data-note']].forEach(function (f) {
+        var el = dlg.querySelector(f[0]), v = a.getAttribute(f[1]); if (!el) return; el.textContent = v || ''; el.hidden = !v;
+      });
+      var ex = dlg.querySelector('.lb-extra'), exh = a.getAttribute('data-extra');
+      if (ex) { ex.hidden = !exh; if (exh) { ex.textContent = (a.getAttribute('data-extra-label') || 'More') + ' ↗'; ex.onclick = function (ev) { ev.preventDefault(); img.src = exh; cap.textContent = (a.getAttribute('data-caption') || '') + ': ' + (a.getAttribute('data-extra-label') || ''); ex.hidden = true; }; } }
       dlg.showModal();
     });
   });
