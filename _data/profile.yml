@@ -282,13 +282,6 @@ training_topics:
   - name: Azure fundamentals
     note: AZ-900 · AI-900 · DP-900
 training_safe_note: "SAFe® sessions are practice coaching, not official Scaled Agile certification courses."
-training_formats:
-  - group: For teams
-    items: [PI planning facilitation, Corporate workshops, Team coaching, Technical sessions, Knowledge transfer]
-  - group: For learners
-    items: [Exam-prep bootcamps, Certification webinars, Hands-on labs, Graduate programs, Mentoring]
-  - group: Campus & community
-    items: [Guest lectures, Career talks, CSR skilling programs, Online sessions, Volunteer onboarding]
 speaking_title: "Talks & workshops"
 speaking_count: "9 of 75+"
 speaking:
