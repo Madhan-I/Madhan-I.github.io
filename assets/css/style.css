@@ -5673,3 +5673,22 @@ html body #contact h2 span{font-size:inherit!important}
 @media (min-width:1024px){html body #contact .contact-top > .reveal .lede{margin-top:12px!important;margin-bottom:0!important}}
 @media (max-width:767px){html body #contact .contact-top > .reveal .lede{margin-bottom:10px!important}}
 @media (min-width:768px) and (max-width:1023px){html body #contact .note br:nth-of-type(2){display:none}}
+/* upright tablet: tighter contact boxes */
+@media (min-width:768px) and (max-width:1023px){html body #contact .intent,html body #contact .email-card,html body #contact .res-btn{padding-top:13px!important;padding-bottom:13px!important}}
+/* phone: Email above the resume downloads */
+@media (max-width:767px){html body #contact .email-card{order:1}html body #contact .res-dd{order:2}}
+/* upright tablet: tighter boxes */
+@media (min-width:768px) and (max-width:1023px){html body #contact .intent,html body #contact .email-card{padding-top:10px!important;padding-bottom:10px!important}html body #contact .res-btn{padding-top:10px!important;padding-bottom:10px!important}html body #contact .wrap{gap:10px!important}}
+/* phone: email right after the three buttons; the button rows and email share one height; resume tiles stay compact */
+@media (max-width:767px){
+  html body #contact .wrap{grid-template-rows:auto repeat(4,1fr) auto auto!important;grid-auto-rows:auto!important}
+  html body #contact .contact-top > .reveal{grid-row:1}
+  html body #contact .intents > .intent:nth-child(1){grid-row:2}
+  html body #contact .intents > .intent:nth-child(2){grid-row:3}
+  html body #contact .intents > .intent:nth-child(3){grid-row:4}
+  html body #contact .email-card{grid-row:5}
+  html body #contact .res-dd:nth-of-type(1){grid-row:6}
+  html body #contact .res-dd:nth-of-type(2){grid-row:7}
+  html body #contact .res-btn{padding-top:9px!important;padding-bottom:9px!important;height:auto!important}
+}
+@media (max-width:767px){html body #contact .contact-bottom .email-card{margin-top:0!important;margin-bottom:0!important}}
