@@ -5692,3 +5692,14 @@ html body #contact h2 span{font-size:inherit!important}
   html body #contact .res-btn{padding-top:9px!important;padding-bottom:9px!important;height:auto!important}
 }
 @media (max-width:767px){html body #contact .contact-bottom .email-card{margin-top:0!important;margin-bottom:0!important}}
+/* footer: upright tablet brand row then three even columns; phone tighter link rows */
+@media (min-width:768px) and (max-width:1023px){html body footer .wrap.f-grid{grid-template-columns:1fr 1fr 1.4fr!important;column-gap:24px!important;row-gap:20px!important}html body footer .f-big{white-space:nowrap}html body footer .f-brand,html body footer .f-bottom{grid-column:1/-1!important}html body footer .f-col,html body footer .f-end{grid-column:auto!important}}
+@media (max-width:767px){html body footer .f-col a{padding-top:6px!important;padding-bottom:6px!important;min-height:32px;display:flex!important;align-items:center}html body footer .wrap.f-grid{row-gap:18px!important}}
+/* footer spacing: laptop and sideways tablet roomier rows */
+@media (min-width:1024px){html body footer .wrap.f-grid.f-grid.f-grid{padding-top:16px!important;padding-bottom:0!important;row-gap:14px!important}html body footer .wrap.f-grid > .f-bottom{padding-top:10px!important;padding-bottom:4px!important}html body footer .f-end{justify-self:end;text-align:right}html body footer .f-end .f-top{justify-content:flex-end}html body footer .f-big{white-space:nowrap}}
+@media (min-width:1024px) and (max-width:1199px){html body footer .f-big{font-size:22px!important}}
+/* upright tablet: copyright left, ownership note right, one row */
+@media (min-width:768px) and (max-width:1023px){html body footer .wrap.f-grid > .f-bottom{display:flex!important;justify-content:space-between!important;align-items:baseline;gap:16px}html body footer .wrap.f-grid > .f-bottom span{font-size:11px!important;margin:0!important;white-space:nowrap}}
+/* phone: trimmed footer spacing */
+@media (max-width:767px){html body footer .wrap.f-grid.f-grid.f-grid{padding-top:16px!important;padding-bottom:0!important;row-gap:14px!important}html body footer .wrap.f-grid > .f-bottom{padding-top:10px!important;padding-bottom:4px!important;row-gap:2px!important}html body footer .f-bottom span{margin:0!important}}
+@media (min-width:768px) and (max-width:1023px){html body footer .f-end{justify-self:end;text-align:right}html body footer .f-end .f-top{justify-content:flex-end}}
