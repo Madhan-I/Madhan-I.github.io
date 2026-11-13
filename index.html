@@ -12,7 +12,7 @@ layout: default
       {% if p.roles and p.show_roles %}<p class="roles">{% for r in p.roles %}<span>{{ r }}</span>{% endfor %}</p>{% endif %}
       <p class="role"><span class="role-1">{{ p.headline }}</span> <span class="role-2">{% if p.headline_join != "" %}{{ p.headline_join }} {% endif %}<em>{{ p.headline_highlight }}</em></span></p>
       {% if p.relocation %}<p class="where"><svg class="ic" aria-hidden="true"><use href="#i-globe"/></svg><span class="w-loc">{{ p.location }}</span> <span class="sep" aria-hidden="true">·</span> <span class="w-rel">{{ p.relocation }}{% if p.open_to_line %} and to{% endif %}</span>{% if p.open_to_line %} <span class="w-roles">{{ p.open_to_line | remove_first: "and to " }}</span>{% endif %}</p>{% endif %}
-      <p class="lede"><span class="ld-full">{{ p.intro | replace: "AI-enabled", '<span class="nw">AI-enabled</span>' }}</span>{% if p.intro_phone %}<span class="ld-phone">{{ p.intro_phone }}</span>{% endif %}</p>
+      <p class="lede"><span class="ld-full">{{ p.intro | replace: "AI-enabled", '<span class="nw">AI-enabled</span>' | replace: "stalled platforms,", "stalled&nbsp;platforms," }}</span>{% if p.intro_phone %}<span class="ld-phone">{{ p.intro_phone }}</span>{% endif %}</p>
       <div class="ctas">
         <a class="btn primary" data-goatcounter-click="click-hero-email" data-goatcounter-title="click-hero-email" href="mailto:{{ p.email }}?subject=Opportunity%20for%20{{ p.name_first }}">Let's work together <svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></a>
         {% if p.resume_file != "" %}<details class="res-menu">
