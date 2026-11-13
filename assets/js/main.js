@@ -562,22 +562,24 @@ document.querySelectorAll('.copy-btn').forEach(function (b) {
   });
 })();
 
-/* Desktop: clients card starts level with the second About paragraph, not the lead line (12 Nov 2026) */
+/* Laptop and tablet: clients card starts level with the first About line and ends level with the last (14 Nov 2026) */
 (function () {
   var copy = document.querySelector('#about .copy'), side = document.querySelector('#about .about-side'); if (!copy || !side) return;
   var mq = window.matchMedia('(min-width: 768px)');
+  function lineBox(p, atEnd) {
+    var t = atEnd ? p.lastChild : p.firstChild; if (!t || t.nodeType !== 3 || !t.data.length) return null;
+    var r = document.createRange(), i = atEnd ? t.data.length - 1 : 0; r.setStart(t, i); r.setEnd(t, i + 1);
+    var b = r.getClientRects()[0]; if (!b) return null;
+    var half = (parseFloat(getComputedStyle(p).lineHeight) - b.height) / 2;
+    return { top: b.top - half, bottom: b.bottom + half };
+  }
   function place() {
-    side.style.marginTop = '';
+    side.style.marginTop = ''; side.style.height = ''; side.classList.remove('fit');
     if (!mq.matches || side.getBoundingClientRect().left < copy.getBoundingClientRect().right - 4) return; /* only when side by side */
-    /* level with the line that starts "an AI product" in the lead paragraph; falls back to the second paragraph */
-    var lead = copy.querySelector('p'), top = null;
-    if (lead && lead.firstChild && lead.firstChild.nodeType === 3) {
-      var i = lead.firstChild.data.indexOf('an AI product');
-      if (i >= 0) { var r = document.createRange(); r.setStart(lead.firstChild, i); r.setEnd(lead.firstChild, i + 2); var b = r.getClientRects()[0]; if (b) top = b.top - (parseFloat(getComputedStyle(lead).lineHeight) - b.height) / 2; }
-    }
-    if (top === null) { var p = copy.querySelectorAll('p')[1]; if (!p) return; top = p.getBoundingClientRect().top; }
-    var d = top - side.getBoundingClientRect().top;
-    if (d > 0) side.style.marginTop = Math.round(d) + 'px';
+    var ps = copy.querySelectorAll('p'); if (!ps.length) return;
+    var f = lineBox(ps[0], false), l = lineBox(ps[ps.length - 1], true); if (!f || !l) return;
+    var d = f.top - side.getBoundingClientRect().top; side.style.marginTop = Math.round(d) + 'px';
+    side.classList.add('fit'); side.style.height = Math.round(l.bottom - f.top) + 'px';
   }
   window.addEventListener('resize', function () { clearTimeout(place.t); place.t = setTimeout(place, 150); });
   if (document.fonts && document.fonts.ready) document.fonts.ready.then(place); place();
