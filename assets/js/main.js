@@ -209,6 +209,10 @@ document.querySelectorAll('.copy-btn').forEach(function (b) {
   var box = document.getElementById('earlier'); if (!box) return;
   var items = [].slice.call(box.querySelectorAll('details.early')), btn = box.querySelector('.e-all'); if (!btn) return;
   var label = 'Show ' + items.length + ' earlier roles', state = 0; /* 0 hidden, 1 listed, 2 all open */
+  /* a second "Hide earlier roles" button after the last role, shown once every role is expanded */
+  var end = document.createElement('button'); end.type = 'button'; end.className = 'e-all e-end'; end.textContent = 'Hide earlier roles ↑'; end.hidden = true;
+  items[items.length - 1].insertAdjacentElement('afterend', end);
+  end.addEventListener('click', function () { set(0); requestAnimationFrame(function () { box.scrollIntoView({ behavior: 'smooth', block: 'start' }); }); });
   function set(k) {
     state = k;
     box.classList.toggle('e-shut', k === 0); box.classList.toggle('m-all', k > 0);
@@ -216,12 +220,13 @@ document.querySelectorAll('.copy-btn').forEach(function (b) {
     if (k === 2) { box.dataset.bulk = Date.now(); items.forEach(function (d) { d.open = true; }); }
     btn.textContent = k === 0 ? label : k === 1 ? 'Expand the roles' : 'Hide earlier roles';
     btn.setAttribute('aria-expanded', String(k > 0));
+    end.hidden = k !== 2;
   }
   items.forEach(function (d) { d.addEventListener('toggle', function () {
     if (state === 0) return;
     var every = items.every(function (x) { return x.open; });
-    if (every && state === 1) { state = 2; btn.textContent = 'Hide earlier roles'; }
-    else if (!every && state === 2) { state = 1; btn.textContent = 'Expand the roles'; }
+    if (every && state === 1) { state = 2; btn.textContent = 'Hide earlier roles'; end.hidden = false; }
+    else if (!every && state === 2) { state = 1; btn.textContent = 'Expand the roles'; end.hidden = true; }
   }); });
   btn.addEventListener('click', function () {
     set(state === 0 ? 1 : state === 1 ? 2 : 0);
