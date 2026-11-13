@@ -204,19 +204,30 @@ document.querySelectorAll('.copy-btn').forEach(function (b) {
   try { var v = new URLSearchParams(location.search).get('q'); if (v) { q.value = v.replace(/([a-z])([A-Z])/g, '$1 $2'); q.dispatchEvent(new Event('input')); } } catch (e) {}
 })();
 
-/* Earlier career: hidden on every screen until "Show earlier roles" is clicked; each role then opens on its own (14 Nov 2026) */
+/* Earlier career: hidden until "Show N earlier roles"; then "Expand the roles" opens every role; then "Hide earlier roles" (14 Nov 2026) */
 (function () {
   var box = document.getElementById('earlier'); if (!box) return;
   var items = [].slice.call(box.querySelectorAll('details.early')), btn = box.querySelector('.e-all'); if (!btn) return;
-  var n = items.length, label = 'Show ' + n + ' earlier roles';
-  box.classList.add('e-shut'); btn.textContent = label; btn.setAttribute('aria-expanded', 'false');
+  var label = 'Show ' + items.length + ' earlier roles', state = 0; /* 0 hidden, 1 listed, 2 all open */
+  function set(k) {
+    state = k;
+    box.classList.toggle('e-shut', k === 0); box.classList.toggle('m-all', k > 0);
+    if (k === 0) items.forEach(function (d) { d.open = false; });
+    if (k === 2) { box.dataset.bulk = Date.now(); items.forEach(function (d) { d.open = true; }); }
+    btn.textContent = k === 0 ? label : k === 1 ? 'Expand the roles' : 'Hide earlier roles';
+    btn.setAttribute('aria-expanded', String(k > 0));
+  }
+  items.forEach(function (d) { d.addEventListener('toggle', function () {
+    if (state === 0) return;
+    var every = items.every(function (x) { return x.open; });
+    if (every && state === 1) { state = 2; btn.textContent = 'Hide earlier roles'; }
+    else if (!every && state === 2) { state = 1; btn.textContent = 'Expand the roles'; }
+  }); });
   btn.addEventListener('click', function () {
-    var open = box.classList.toggle('e-shut') === false;
-    if (open) { box.classList.add('m-all'); } else { items.forEach(function (d) { d.open = false; }); box.classList.remove('m-all'); }
-    btn.textContent = open ? 'Hide earlier roles' : label;
-    btn.setAttribute('aria-expanded', String(open));
-    if (!open) requestAnimationFrame(function () { box.scrollIntoView({ behavior: 'smooth', block: 'start' }); });
+    set(state === 0 ? 1 : state === 1 ? 2 : 0);
+    if (state !== 1) requestAnimationFrame(function () { box.scrollIntoView({ behavior: 'smooth', block: 'start' }); });
   });
+  set(0);
 })();
 
 (function () {
