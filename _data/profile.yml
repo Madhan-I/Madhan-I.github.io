@@ -817,8 +817,7 @@ contact_highlight: AI program?
 contact_intro: Pick what fits, or email me directly.
 # Each line below is shown on its own line.
 contact_note:
-  - "Based in Chennai, India, and open to relocation, remote or hybrid roles."
-  - "I help with release trains, PI planning, taking AI products live, and teaching SAFe and Microsoft certification courses."
+  - "I lead release trains, programs, product portfolios and AI products, and I teach SAFe practice and Microsoft certification courses. Open to relocation, remote or hybrid roles."
 # Client feedback (no names, no client name; exact words from the client's email)
 feedback_highlight: "Overall, your professionalism, organizational skills, and commitment to agile excellence make a real difference to our delivery and team confidence."
 feedback_title: In my client's words
