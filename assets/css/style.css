@@ -5600,3 +5600,4 @@ html body #about .about-side.fit .quick{margin-top:18px!important}
 html body #about .about-side.fit .clients li{padding-top:4px!important;padding-bottom:4px!important}
 @media (min-width:768px){html body #about .copy p{text-align:left!important}}
 @media (min-width:768px){html body #about .copy p:last-child{margin-bottom:0!important}}
+html body .job .job-body h3{font-size:clamp(18px, calc(2vw - 2px), 24px)!important}
