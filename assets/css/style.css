@@ -5584,3 +5584,4 @@ html body .hero .where .w-loc{font-weight:700!important;color:var(--navy)}
 @media (min-width:1150px){html body .wrap.hero.has-photo{column-gap:64px!important}html body .hero .lede{max-width:800px!important}}
 @media (min-width:810px) and (max-width:1023px){html body .hero .lede{font-size:16px!important}}
 @media (min-width:768px) and (max-width:1023px){html body .hero .where .w-roles{margin-left:0!important}}
+@media (max-width:767px){html body .hero .where .w-roles{text-wrap:balance}}
