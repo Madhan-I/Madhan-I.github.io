@@ -5630,7 +5630,7 @@ html body .org.proj-down .client{grid-column:1/-1;grid-row:1}
 html body .org.proj-down .sector{grid-column:2;grid-row:2;text-align:right;white-space:nowrap;margin:0!important}
 html body .org.proj-down .proj{grid-column:1;grid-row:2}
 html body .org.proj-down .proj .sep{display:none}
-@media (min-width:768px) and (max-width:1023px){html body #training h2{font-size:min(4.2vw,38px)!important;white-space:nowrap}}
+@media (min-width:768px) and (max-width:1023px){html body #training h2{font-size:min(4.2vw,32px)!important;white-space:nowrap}}
 /* upright tablet: shorter contact card. No note, no button sub-lines, two-column grid with Email beside "Invite me to speak" */
 @media (min-width:768px) and (max-width:1023px){
   html body #contact .wrap{display:grid!important;grid-template-columns:1fr 1fr;gap:12px}
@@ -5647,3 +5647,29 @@ html body .org.proj-down .proj .sep{display:none}
 @media (min-width:768px) and (max-width:1023px){html body #contact .email-card .v{white-space:nowrap}}@media (min-width:768px) and (max-width:819px){html body #contact .email-card .v{font-size:14px!important}html body #contact .email-card .ec-body{min-width:0}}
 @media (min-width:768px) and (max-width:1023px){html body #contact .email-card{align-items:flex-start!important;align-content:flex-start!important;justify-content:flex-start!important}html body #contact .email-card > *{align-self:flex-start!important}}
 @media (min-width:768px) and (max-width:1023px){html body #contact .email-card{position:relative}html body #contact .email-card > svg{align-self:center!important}html body #contact .email-card .row{flex-direction:column!important;align-items:flex-start!important;gap:8px!important}html body #contact .email-card .copy-btn{margin:0!important}}
+/* section titles a step smaller everywhere: 32px laptop and tablet, 24px phone */
+@media (min-width:768px){html body #about .sec-head h2,html body #about h2,html body #experience h2,html body #certifications h2,html body #recognition h2,html body #writing h2,html body #contact h2{font-size:32px!important}}
+@media (min-width:1024px){html body #training h2{font-size:32px!important}}
+@media (max-width:767px){html body #about .sec-head h2,html body #about h2,html body #experience h2,html body #certifications h2,html body #recognition h2,html body #writing h2,html body #contact h2,html body #training h2{font-size:24px!important}}
+@media (min-width:1024px){html body #contact .contact-top > .reveal .note{margin-top:14px!important}}
+/* sideways tablet: wider right column so every button description stays on one line */
+@media (min-width:1024px) and (max-width:1199px){html body #contact .contact-top,html body #contact .contact-bottom{grid-template-columns:minmax(0,1fr) 452px!important}html body #contact .intent em{display:none!important}}
+/* upright tablet: the four boxes in rows 2-3 share one height */
+@media (min-width:768px) and (max-width:1023px){html body #contact .wrap{grid-template-rows:auto 1fr 1fr auto}}
+/* phone: every contact box the same height, trimmed padding */
+@media (max-width:767px){
+  html body #contact .wrap{display:grid!important;grid-template-columns:1fr;grid-template-rows:auto;grid-auto-rows:1fr;row-gap:10px}
+  html body #contact .contact-top,html body #contact .intents,html body #contact .contact-bottom,html body #contact .res-tiles{display:contents!important}
+  html body #contact .contact-top > .reveal{grid-row:auto;align-self:start;margin-bottom:6px}
+  html body #contact .intent,html body #contact .res-btn,html body #contact .email-card{padding-top:12px!important;padding-bottom:12px!important;margin:0!important;height:100%;box-sizing:border-box}
+  html body #contact .res-dd,html body #contact .email-card,html body #contact .intent{margin:0!important}
+}
+}
+@media (min-width:768px) and (max-width:1023px){html body #contact h2{max-width:none!important;width:auto!important}}
+@media (min-width:768px) and (max-width:799px){html body #contact h2{font-size:30px!important}}
+html body #contact h2 span{font-size:inherit!important}
+@media (max-width:767px){html body #contact .note br:first-of-type{display:none}}
+/* contact intro spacing: laptop and sideways tablet below the heading; phone gap after it; upright tablet joins sentences 2 and 3 */
+@media (min-width:1024px){html body #contact .contact-top > .reveal .lede{margin-top:12px!important;margin-bottom:0!important}}
+@media (max-width:767px){html body #contact .contact-top > .reveal .lede{margin-bottom:10px!important}}
+@media (min-width:768px) and (max-width:1023px){html body #contact .note br:nth-of-type(2){display:none}}

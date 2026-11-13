@@ -685,3 +685,21 @@ document.querySelectorAll('.copy-btn').forEach(function (b) {
   window.addEventListener('resize', function () { clearTimeout(all.t); all.t = setTimeout(all, 150); });
   if (document.fonts && document.fonts.ready) document.fonts.ready.then(all); all();
 })();
+
+/* Laptop and sideways tablet: the contact note sits midway between the heading and the resume buttons (14 Nov 2026) */
+(function () {
+  var box = document.querySelector('#contact .contact-top > .reveal'); if (!box) return;
+  var note = box.querySelector('.note'), res = document.querySelector('#contact .res-tiles'); if (!note || !res) return;
+  var mq = window.matchMedia('(min-width: 1024px)');
+  function place() {
+    note.style.marginTop = '';
+    if (!mq.matches) return;
+    var h = box.querySelector('h2'), l = box.querySelector('.lede');
+    var top = Math.max(h.getBoundingClientRect().bottom, l ? l.getBoundingClientRect().bottom : 0);
+    var n = note.getBoundingClientRect(), r = res.getBoundingClientRect();
+    var above = n.top - top, below = r.top - n.bottom;
+    if (below > above) note.style.setProperty('margin-top', Math.round(parseFloat(getComputedStyle(note).marginTop) + (below - above) / 2) + 'px', 'important');
+  }
+  window.addEventListener('resize', function () { clearTimeout(place.t); place.t = setTimeout(place, 150); });
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(place); place();
+})();
