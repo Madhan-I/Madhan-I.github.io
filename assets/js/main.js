@@ -204,30 +204,18 @@ document.querySelectorAll('.copy-btn').forEach(function (b) {
   try { var v = new URLSearchParams(location.search).get('q'); if (v) { q.value = v.replace(/([a-z])([A-Z])/g, '$1 $2'); q.dispatchEvent(new Event('input')); } } catch (e) {}
 })();
 
-/* Earlier career: open as many as you like, plus show/hide all */
+/* Earlier career: hidden on every screen until "Show earlier roles" is clicked; each role then opens on its own (14 Nov 2026) */
 (function () {
   var box = document.getElementById('earlier'); if (!box) return;
-  var items = [].slice.call(box.querySelectorAll('details.early')), btn = box.querySelector('.e-all'), all = false;
-  /* Opened roles stay open; each one closes only when clicked again.
-     When every earlier role is open (one by one or all at once), the button reads "Hide earlier roles" and its amber wave stops for good. */
-  function sync() {
-    var every = items.every(function (d) { return d.open; });
-    if (every) btn.classList.add('used');
-    if (every !== all) {
-      all = every;
-      btn.textContent = all ? 'Hide earlier roles' : 'Show all earlier roles';
-      btn.setAttribute('aria-expanded', all ? 'true' : 'false');
-    }
-  }
-  items.forEach(function (d) { d.addEventListener('toggle', sync); });
+  var items = [].slice.call(box.querySelectorAll('details.early')), btn = box.querySelector('.e-all'); if (!btn) return;
+  var n = items.length, label = 'Show ' + n + ' earlier roles';
+  box.classList.add('e-shut'); btn.textContent = label; btn.setAttribute('aria-expanded', 'false');
   btn.addEventListener('click', function () {
-    box.dataset.bulk = Date.now();
-    all = !all;
-    items.forEach(function (d) { d.open = all; });
-    btn.textContent = all ? 'Hide earlier roles' : 'Show all earlier roles';
-    btn.setAttribute('aria-expanded', all ? 'true' : 'false');
-    /* keep the list's top in view after opening or closing (otherwise the page lands on the last role) */
-    requestAnimationFrame(function () { box.scrollIntoView({ behavior: 'smooth', block: 'start' }); });
+    var open = box.classList.toggle('e-shut') === false;
+    if (open) { box.classList.add('m-all'); } else { items.forEach(function (d) { d.open = false; }); box.classList.remove('m-all'); }
+    btn.textContent = open ? 'Hide earlier roles' : label;
+    btn.setAttribute('aria-expanded', String(open));
+    if (!open) requestAnimationFrame(function () { box.scrollIntoView({ behavior: 'smooth', block: 'start' }); });
   });
 })();
 

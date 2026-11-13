@@ -5703,3 +5703,18 @@ html body #contact h2 span{font-size:inherit!important}
 /* phone: trimmed footer spacing */
 @media (max-width:767px){html body footer .wrap.f-grid.f-grid.f-grid{padding-top:16px!important;padding-bottom:0!important;row-gap:14px!important}html body footer .wrap.f-grid > .f-bottom{padding-top:10px!important;padding-bottom:4px!important;row-gap:2px!important}html body footer .f-bottom span{margin:0!important}}
 @media (min-width:768px) and (max-width:1023px){html body footer .f-end{justify-self:end;text-align:right}html body footer .f-end .f-top{justify-content:flex-end}}
+/* Earlier career collapsed until asked for, every screen */
+html body #earlier.e-shut details.early,html body #earlier.e-shut .m-more-roles{display:none!important}
+html body #earlier.e-shut .e-head{margin-bottom:0!important}
+/* Talks / Volunteering tabs: same pill + amber dot + amber sweep as the skill tabs */
+.hl-tabs.is-tabbed .hl-tablist{gap:8px!important;border-bottom:0!important;margin:0 0 18px!important}
+html body .hl-tablist [role=tab]{font:600 13px/1 var(--body)!important;padding:9px 14px!important;border-radius:999px!important;border:1px solid rgba(255,255,255,.3)!important;background:transparent!important;color:#fff!important;margin:0!important;position:relative;overflow:hidden}
+html body .hl-tablist [role=tab][aria-selected=true]{background:#fff!important;color:var(--navy)!important;border-color:#fff!important}
+html body .hl-tablist [role=tab][aria-selected=false]{border-color:#f2a541!important}
+html body .hl-tablist [role=tab][aria-selected=false]:not(.used)::before{content:"";display:inline-block;width:6px;height:6px;border-radius:50%;background:#f2a541;margin-right:7px;vertical-align:middle}
+html body .hl-tablist [role=tab].used[aria-selected=false]{border-color:rgba(255,255,255,.3)!important}
+html body .hl-tablist [role=tab].wave::after{top:0!important;bottom:0!important}
+/* footer line: break before "AI products." on laptop and sideways tablet only */
+footer .br-wide{display:none}
+@media (min-width:1024px){footer .br-wide{display:inline}html body footer .f-tag{max-width:none!important;white-space:nowrap}}
+@media (min-width:1024px) and (max-width:1199px){html body footer .wrap.f-grid{grid-template-columns:auto auto auto auto!important;justify-content:space-between!important;column-gap:28px!important}html body footer .f-col a{white-space:nowrap}html body footer .f-tag{font-size:14px!important}html body footer .f-bottom{grid-column:1/-1!important}}
