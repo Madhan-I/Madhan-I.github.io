@@ -5608,3 +5608,6 @@ html body .job .job-body h3{font-size:clamp(18px, calc(2vw - 2px), 24px)!importa
 /* upright tablet: photo above the name so the title runs full width on one line */
 @media (min-width:768px) and (max-width:1023px){html body .wrap.hero.has-photo{grid-template-columns:1fr!important}html body .hero .portrait{order:-1;justify-self:start;grid-column:1/-1}html body .hero .role,html body .hero .role-1,html body .hero .role-2{font-size:24px!important}html body .hero .role-1{white-space:nowrap}}
 @media (min-width:768px) and (max-width:1023px){html body .hero .portrait{justify-self:center!important}html body .hero h1{text-align:center}}
+/* upright tablet: "Open to" line on one line */
+@media (min-width:768px) and (max-width:1023px){html body .hero .where{flex-wrap:nowrap!important}html body .hero .where .w-rel,html body .hero .where .w-roles{flex-basis:auto!important;white-space:nowrap!important;padding-left:0!important}html body .hero .where .w-roles{margin-left:-4px!important}}
+@media (min-width:768px) and (max-width:879px){html body .hero .where{font-size:14px!important}html body .hero .where .w-loc,html body .hero .where .w-rel,html body .hero .where .w-roles{font-size:14px!important}}
