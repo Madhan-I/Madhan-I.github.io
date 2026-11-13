@@ -5622,3 +5622,4 @@ html body .job .job-body h3{font-size:clamp(18px, calc(2vw - 2px), 24px)!importa
   html body #earlier .e-when{grid-column:1/-1!important;text-align:left!important;justify-self:start!important}
   html body #earlier .e-head{flex-wrap:wrap}
 }
+@media (min-width:768px) and (max-width:1023px){#writing .writing-cards li:nth-child(n+3){display:none!important}}
