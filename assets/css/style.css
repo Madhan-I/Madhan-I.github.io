@@ -5623,3 +5623,11 @@ html body .job .job-body h3{font-size:clamp(18px, calc(2vw - 2px), 24px)!importa
   html body #earlier .e-head{flex-wrap:wrap}
 }
 @media (min-width:768px) and (max-width:1023px){#writing .writing-cards li:nth-child(n+3){display:none!important}}
+/* upright tablet: when the org line wraps, client on line 1; project (left) and sector (right) share line 2 */
+html body .org.proj-down{display:grid!important;grid-template-columns:minmax(0,1fr) auto;column-gap:16px;align-items:baseline}
+html body .org.proj-down .org-l{display:contents}
+html body .org.proj-down .client{grid-column:1/-1;grid-row:1}
+html body .org.proj-down .sector{grid-column:2;grid-row:2;text-align:right;white-space:nowrap;margin:0!important}
+html body .org.proj-down .proj{grid-column:1;grid-row:2}
+html body .org.proj-down .proj .sep{display:none}
+@media (min-width:768px) and (max-width:1023px){html body #training h2{font-size:min(4.2vw,38px)!important;white-space:nowrap}}

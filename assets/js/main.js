@@ -670,3 +670,18 @@ document.querySelectorAll('.copy-btn').forEach(function (b) {
     panel.appendChild(btn);
   });
 })();
+
+/* Upright tablet: if an org line wraps, put the project on its own line and keep the sector on the right (14 Nov 2026) */
+(function () {
+  var mq = window.matchMedia('(min-width: 768px) and (max-width: 1023px)');
+  function fix(org) {
+    org.classList.remove('proj-down');
+    if (!mq.matches || !org.querySelector('.proj') || !org.offsetParent) return;
+    var c = org.querySelector('.client'), s = org.querySelector('.sector'); if (!c || !s) return;
+    if (s.getBoundingClientRect().top > c.getBoundingClientRect().top + 4) org.classList.add('proj-down');
+  }
+  function all() { [].forEach.call(document.querySelectorAll('.org.has-client'), fix); }
+  [].forEach.call(document.querySelectorAll('details'), function (d) { d.addEventListener('toggle', function () { [].forEach.call(d.querySelectorAll('.org.has-client'), fix); }); });
+  window.addEventListener('resize', function () { clearTimeout(all.t); all.t = setTimeout(all, 150); });
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(all); all();
+})();
