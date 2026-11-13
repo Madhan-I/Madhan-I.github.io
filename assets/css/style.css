@@ -4933,11 +4933,11 @@ html body #training .skillbox .sk-panel[hidden], html body #training .skillbox .
   html body .hero .chip-row { display: flex !important; flex-wrap: wrap !important; }
   html body .hero .chip { flex: 1 1 auto !important; justify-content: center !important; text-align: center; }
   html body .hero .chip-row > .chip:nth-child(1) { order: 1; } /* Release Train Engineering */
-  html body .hero .chip-row > .chip:nth-child(6) { order: 2; } /* Agile Coaching */
+  html body .hero .chip-row > .chip:nth-child(5) { order: 2; } /* AI Delivery */
   html body .hero .chip-row > .chip:nth-child(3) { order: 3; } /* Portfolio Governance */
-  html body .hero .chip-row > .chip:nth-child(2) { order: 4; } /* PI Planning */
-  html body .hero .chip-row > .chip:nth-child(4) { order: 5; } /* Risk & Dependencies */
-  html body .hero .chip-row > .chip:nth-child(5) { order: 6; } /* Generative AI & RAG */
+  html body .hero .chip-row > .chip:nth-child(2) { order: 4; } /* Program Delivery */
+  html body .hero .chip-row > .chip:nth-child(4) { order: 5; } /* Product Roadmaps */
+  html body .hero .chip-row > .chip:nth-child(6) { order: 6; } /* Risk & Dependencies */
 }
 /* Phone: Clients card 22px from its edge to the heading and from the badge to its edge */
 @media (max-width: 767px) { html body #about .about-side { padding-top: 21px !important; padding-bottom: 21px !important; } }
@@ -5587,3 +5587,7 @@ html body .hero .where .w-loc{font-weight:700!important;color:var(--navy)}
 @media (max-width:767px){html body .hero .where .w-roles{text-wrap:balance}}
 @media (max-width:389px){html body .hero .where .w-rel,html body .hero .where .w-roles{font-size:14.5px}}
 @media (max-width:374px){html body .hero .where .w-rel,html body .hero .where .w-roles{font-size:13.8px}}
+@media (min-width:768px) and (max-width:1023px){html body .hero .chip-row{display:flex!important;flex-wrap:wrap!important}html body .hero .chip-row .chip,html body .hero .chip-row .chip:first-child{flex:0 0 calc((100% - 16px)/3)!important;justify-content:center!important;text-align:center}}
+@media (max-width:767px){html body .hero .chip-row{justify-content:space-between!important}html body .hero .chip-row .chip,html body .hero .chip-row .chip:first-child{flex:0 0 auto!important}}
+@media (min-width:360px) and (max-width:767px){html body .hero .chip-row{display:grid!important;grid-template-columns:auto auto;justify-content:space-between!important;column-gap:8px!important}html body .hero .chip-row>.chip:nth-child(1),html body .hero .chip-row>.chip:nth-child(3),html body .hero .chip-row>.chip:nth-child(4){justify-self:start}html body .hero .chip-row>.chip:nth-child(5),html body .hero .chip-row>.chip:nth-child(2),html body .hero .chip-row>.chip:nth-child(6){justify-self:end}}
+@media (max-width:767px){html body .hero .chip-row .chip{white-space:nowrap}}
