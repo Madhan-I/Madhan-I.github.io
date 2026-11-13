@@ -5598,3 +5598,5 @@ html body #about .about-side.fit .clients{flex:1 1 auto;display:flex;flex-direct
 html body #about .about-side.fit .clients ul{flex:1 1 auto;display:flex!important;flex-direction:column;justify-content:space-between}
 html body #about .about-side.fit .quick{margin-top:18px!important}
 html body #about .about-side.fit .clients li{padding-top:4px!important;padding-bottom:4px!important}
+@media (min-width:768px){html body #about .copy p{text-align:left!important}}
+@media (min-width:768px){html body #about .copy p:last-child{margin-bottom:0!important}}
