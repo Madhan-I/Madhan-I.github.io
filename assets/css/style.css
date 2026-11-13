@@ -5611,3 +5611,4 @@ html body .job .job-body h3{font-size:clamp(18px, calc(2vw - 2px), 24px)!importa
 /* upright tablet: "Open to" line on one line */
 @media (min-width:768px) and (max-width:1023px){html body .hero .where{flex-wrap:nowrap!important}html body .hero .where .w-rel,html body .hero .where .w-roles{flex-basis:auto!important;white-space:nowrap!important;padding-left:0!important}html body .hero .where .w-roles{margin-left:-4px!important}}
 @media (min-width:768px) and (max-width:879px){html body .hero .where{font-size:14px!important}html body .hero .where .w-loc,html body .hero .where .w-rel,html body .hero .where .w-roles{font-size:14px!important}}
+@media (min-width:768px) and (max-width:1023px){html body #about .about-side:not(.fit) .clients ul{display:grid!important;grid-template-columns:1fr 1fr;column-gap:16px}}
