@@ -5601,3 +5601,10 @@ html body #about .about-side.fit .clients li{padding-top:4px!important;padding-b
 @media (min-width:768px){html body #about .copy p{text-align:left!important}}
 @media (min-width:768px){html body #about .copy p:last-child{margin-bottom:0!important}}
 html body .job .job-body h3{font-size:clamp(18px, calc(2vw - 2px), 24px)!important}
+/* hero name: smaller on laptop and phone; upright tablet unchanged */
+@media (min-width:768px){html body .hero h1{font-size:min(5.6vw, calc(22.46px + 2.885vw), 64px)!important}}
+@media (max-width:767px){html body .hero h1{font-size:36px!important}}
+@media (max-width:767px){html body .hero .role,html body .hero .role-1,html body .hero .role-2{font-size:19px!important}}
+/* upright tablet: photo above the name so the title runs full width on one line */
+@media (min-width:768px) and (max-width:1023px){html body .wrap.hero.has-photo{grid-template-columns:1fr!important}html body .hero .portrait{order:-1;justify-self:start;grid-column:1/-1}html body .hero .role,html body .hero .role-1,html body .hero .role-2{font-size:24px!important}html body .hero .role-1{white-space:nowrap}}
+@media (min-width:768px) and (max-width:1023px){html body .hero .portrait{justify-self:center!important}html body .hero h1{text-align:center}}
