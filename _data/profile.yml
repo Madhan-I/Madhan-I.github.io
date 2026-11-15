@@ -248,19 +248,19 @@ skill_tabs:
   - label: Leadership & tools
     groups:
       - name: Delivery leadership
-        items: [Release Train Engineering, PI Planning, Release planning, Program & Portfolio Governance, Stakeholder management, "Risk, Dependency & RAID", ART Sync & Scrum-of-Scrums, Change Management, Function Point capacity planning, Budget ownership & estimation]
+        items: [Release Train Engineering, Program & Portfolio Governance, Product roadmaps & prioritization, PI Planning, Release management, Release planning, Legacy modernization & migration, "Risk, Dependency & RAID", Stakeholder management, Cost optimization, Budget ownership & estimation, Function Point capacity planning, Backlog management, Quality & test governance, ART Sync & Scrum-of-Scrums, Change Management, AI-Native SAFe, Kanban, ITIL service management]
       - name: Metrics & reporting
-        items: [Predictability, Executive reporting, Sprint variance, Data-driven decisions, Portfolio health dashboards, Flow efficiency, Velocity & burndown]
+        items: [Predictability, Executive reporting, Portfolio health dashboards, Sprint variance, Flow efficiency, Velocity & burndown]
       - name: Coaching & facilitation
-        items: [Agile Coaching, Mentoring Scrum Masters, Impediment removal, Onshore–offshore & cross-cultural teams, Servant leadership]
+        items: [People leadership, Mentoring Scrum Masters, Agile Coaching, Impediment removal, Onshore–offshore & cross-cultural teams]
       - name: Tools
         items: [Jira, Azure DevOps, Confluence, ServiceNow, Power BI, MS Project, Tableau, Miro, Lucidchart, Visio]
   - label: Technical
     groups:
       - name: AI & cloud
-        items: [Generative AI & RAG, Azure AI (AI-102), AKS / Kubernetes, Azure (AZ-104), Google Cloud, Istio / Service Mesh]
+        items: [Generative AI & RAG, Human-in-the-loop AI review, Azure AI (AI-102), Azure (AZ-104), AKS / Kubernetes, Google Cloud, AWS, Istio / Service Mesh]
       - name: DevOps & APIs
-        items: [GitLab CI/CD, "Apigee, OAuth 2.0 & JWT", Jenkins, SQL, PagerDuty & Chaos Engineering, API platforms]
+        items: [GitLab CI/CD, Jenkins, Gradle, Incident & problem management, PagerDuty & Chaos Engineering, Process automation, "Apigee, OAuth 2.0 & JWT", API platforms, SQL]
       - name: Mainframe
         items: [z/OS, COBOL, DB2, CICS, JCL, VSAM, CA-7]
       - name: Platforms
