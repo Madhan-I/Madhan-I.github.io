@@ -5737,3 +5737,5 @@ html body .lightbox .lb-meta{color:#f2c27a!important}
 @media (min-width:768px) and (max-width:799px){html body #recognition .rec-edu{column-gap:10px!important}}
 @media (max-width:767px){html body #about .copy.copy p:not(:first-child){font-size:16px!important}html body #about .copy.copy p{text-align:justify!important;hyphens:none!important;-webkit-hyphens:none!important;margin:0 0 22px!important}html body #about .copy.copy p:first-child{margin-bottom:22px!important}html body #about .copy.copy p:last-of-type{margin-bottom:18px!important}}
 html body .nw{white-space:nowrap}
+/* popup close button sits above the certificate, right-aligned, never on top of it */
+html body .lightbox .lb-close{position:static!important;display:flex!important;align-items:center;justify-content:center;margin:0 0 10px auto!important;top:auto!important;right:auto!important;transform:none!important}

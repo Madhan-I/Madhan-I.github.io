@@ -744,3 +744,13 @@ document.querySelectorAll('.copy-btn').forEach(function (b) {
   window.addEventListener('resize', function () { clearTimeout(place.t); place.t = setTimeout(place, 150); });
   place();
 })();
+
+/* Popup: close button lines up with the certificate's right edge (15 Nov 2026) */
+(function () {
+  var lb = document.getElementById('lightbox'); if (!lb) return;
+  var img = lb.querySelector('img'), x = lb.querySelector('.lb-close'); if (!img || !x) return;
+  function line() { x.style.marginRight = ''; if (!lb.open) return; var gap = lb.getBoundingClientRect().right - img.getBoundingClientRect().right; if (gap > 1) x.style.setProperty('margin-right', Math.round(gap) + 'px', 'important'); }
+  img.addEventListener('load', function () { requestAnimationFrame(line); });
+  new MutationObserver(function () { requestAnimationFrame(line); }).observe(lb, { attributes: true, attributeFilter: ['open'] });
+  window.addEventListener('resize', line);
+})();
