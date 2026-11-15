@@ -5739,3 +5739,13 @@ html body .lightbox .lb-meta{color:#f2c27a!important}
 html body .nw{white-space:nowrap}
 /* popup close button sits above the certificate, right-aligned, never on top of it */
 html body .lightbox .lb-close{position:static!important;display:flex!important;align-items:center;justify-content:center;margin:0 0 10px auto!important;top:auto!important;right:auto!important;transform:none!important}
+/* phone: every job card header the same. Line 1: icon, dates, Current tag or close button on the right. Line 2: employer · location */
+@media (max-width:767px){
+  html body .job .job-top{display:flex!important;flex-wrap:wrap!important;align-items:center!important;column-gap:12px!important;row-gap:5px!important;grid-template-columns:none!important}
+  html body .job .job-top .job-icon{order:0;margin:0!important}
+  html body .job .job-top .when{order:1;margin:0!important}
+  html body .job .job-top::after{content:"";order:2;flex:0 0 100%;height:0}
+  html body .job .job-top .via{order:3;flex:1 1 auto!important;margin:0!important;padding:0!important;white-space:normal}
+  html body .job .job-top .now-tag{order:4;margin:0 0 0 auto!important;position:static!important;align-self:center}
+  html body .job.e-card .job-top{padding-right:52px!important}
+}
