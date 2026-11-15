@@ -208,6 +208,7 @@ document.querySelectorAll('.copy-btn').forEach(function (b) {
 (function () {
   var box = document.getElementById('earlier'); if (!box) return;
   var items = [].slice.call(box.querySelectorAll('details.early')), btn = box.querySelector('.e-all'); if (!btn) return;
+  btn.id = 'e-main';
   var label = 'Show ' + items.length + ' earlier roles', state = 0; /* 0 hidden, 1 listed, 2 all open */
   /* a second "Hide earlier roles" button after the last role, shown once every role is expanded */
   var end = document.createElement('button'); end.type = 'button'; end.className = 'e-all e-end'; end.textContent = 'Hide earlier roles ↑'; end.hidden = true;
@@ -220,13 +221,14 @@ document.querySelectorAll('.copy-btn').forEach(function (b) {
     if (k === 2) { box.dataset.bulk = Date.now(); items.forEach(function (d) { d.open = true; }); }
     btn.textContent = k === 0 ? label : k === 1 ? 'Expand the roles' : 'Hide earlier roles';
     btn.setAttribute('aria-expanded', String(k > 0));
+    btn.classList.toggle('used', k === 2); /* amber sweep stays on "Show" and "Expand the roles" */
     end.hidden = k !== 2;
   }
   items.forEach(function (d) { d.addEventListener('toggle', function () {
     if (state === 0) return;
     var every = items.every(function (x) { return x.open; });
-    if (every && state === 1) { state = 2; btn.textContent = 'Hide earlier roles'; end.hidden = false; }
-    else if (!every && state === 2) { state = 1; btn.textContent = 'Expand the roles'; end.hidden = true; }
+    if (every && state === 1) { state = 2; btn.textContent = 'Hide earlier roles'; btn.classList.add('used'); end.hidden = false; }
+    else if (!every && state === 2) { state = 1; btn.textContent = 'Expand the roles'; btn.classList.remove('used'); end.hidden = true; }
   }); });
   btn.addEventListener('click', function () {
     set(state === 0 ? 1 : state === 1 ? 2 : 0);
@@ -381,7 +383,7 @@ document.querySelectorAll('.copy-btn').forEach(function (b) {
 (function () {
   [].forEach.call(document.querySelectorAll('.cert-toggle, #earlier .e-all, #writing .wr-all, #hl-t2'), function (b) {
     b.classList.add('wave');
-    b.addEventListener('click', function () { b.classList.add('used'); });
+    b.addEventListener('click', function () { if (b.id !== 'e-main') b.classList.add('used'); });
     if ('IntersectionObserver' in window) { var io = new IntersectionObserver(function (es) { es.forEach(function (e) { if (e.isIntersecting) { b.classList.add('hint'); io.disconnect(); } }); }, { threshold: .1 }); io.observe(b); } else { b.classList.add('hint'); }
   });
 })();
@@ -706,4 +708,20 @@ document.querySelectorAll('.copy-btn').forEach(function (b) {
   }
   window.addEventListener('resize', function () { clearTimeout(place.t); place.t = setTimeout(place, 150); });
   if (document.fonts && document.fonts.ready) document.fonts.ready.then(place); place();
+})();
+
+/* Upright tablet: when all certifications are shown, the first extra card fills the empty cell next to DevOps (15 Nov 2026) */
+(function () {
+  var more = document.getElementById('cert-more'); if (!more) return;
+  var top = document.querySelector('#certifications > .wrap > .cert-groups'), extra = more.querySelector('.cert-groups'); if (!top || !extra) return;
+  var first = extra.querySelector('.cg'); if (!first) return;
+  var mq = window.matchMedia('(min-width: 768px) and (max-width: 1023px)');
+  function place() {
+    var lift = mq.matches && !more.hidden;
+    if (lift && first.parentElement !== top) top.appendChild(first);
+    else if (!lift && first.parentElement !== extra) extra.insertBefore(first, extra.firstChild);
+  }
+  new MutationObserver(place).observe(more, { attributes: true, attributeFilter: ['hidden'] });
+  window.addEventListener('resize', function () { clearTimeout(place.t); place.t = setTimeout(place, 150); });
+  place();
 })();
