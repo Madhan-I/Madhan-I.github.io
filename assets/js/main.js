@@ -716,11 +716,30 @@ document.querySelectorAll('.copy-btn').forEach(function (b) {
   var top = document.querySelector('#certifications > .wrap > .cert-groups'), extra = more.querySelector('.cert-groups'); if (!top || !extra) return;
   var first = extra.querySelector('.cg'); if (!first) return;
   var mq = window.matchMedia('(min-width: 768px) and (max-width: 1023px)');
+  var ul = first.querySelector('ul');
+  /* with the Google card lifted beside DevOps, show as many Google badges as fit that row, so the card has no empty space */
+  function unfill() { [].forEach.call(ul.querySelectorAll('li[data-fill]'), function (li) { li.hidden = true; li.removeAttribute('data-fill'); }); }
+  function fill() {
+    unfill();
+    if (first.parentElement !== top || ul.classList.contains('cg-scroll')) return;
+    var mate = first.previousElementSibling; if (!mate) return;
+    var want = mate.getBoundingClientRect().height;
+    first.style.alignSelf = 'start';
+    var hidden = [].slice.call(ul.querySelectorAll('li[hidden]'));
+    for (var i = 0; i < hidden.length; i++) {
+      var li = hidden[i]; if (li.classList.contains('cert-sub')) break;
+      li.hidden = false; li.setAttribute('data-fill', '');
+      if (first.getBoundingClientRect().height > want + 24) { li.hidden = true; li.removeAttribute('data-fill'); break; }
+    }
+    first.style.alignSelf = '';
+  }
   function place() {
     var lift = mq.matches && !more.hidden;
     if (lift && first.parentElement !== top) top.appendChild(first);
     else if (!lift && first.parentElement !== extra) extra.insertBefore(first, extra.firstChild);
+    if (lift) requestAnimationFrame(fill); else unfill();
   }
+  [].forEach.call(more.querySelectorAll('.cg-more'), function (b) { b.addEventListener('click', function () { setTimeout(function () { if (b.getAttribute('aria-expanded') === 'false') fill(); }, 0); }); });
   new MutationObserver(place).observe(more, { attributes: true, attributeFilter: ['hidden'] });
   window.addEventListener('resize', function () { clearTimeout(place.t); place.t = setTimeout(place, 150); });
   place();
