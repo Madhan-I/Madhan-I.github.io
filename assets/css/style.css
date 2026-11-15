@@ -5749,3 +5749,5 @@ html body .lightbox .lb-close{position:static!important;display:flex!important;a
   html body .job .job-top .now-tag{order:4;margin:0 0 0 auto!important;position:static!important;align-self:center}
   html body .job.e-card .job-top{padding-right:52px!important}
 }
+/* phone: key badges as SAFe pair, MCT alone in the centre, Azure pair */
+@media (max-width:767px){html body .cred-peek ul{display:grid!important;grid-template-columns:1fr 1fr!important;justify-items:center}html body .cred-peek li:nth-child(3){grid-column:1/-1!important;justify-self:center!important}html body .cred-peek li{width:100%;max-width:none}}
