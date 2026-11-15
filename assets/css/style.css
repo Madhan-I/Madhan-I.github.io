@@ -5724,3 +5724,5 @@ html body #earlier .e-end{display:block;margin:18px auto 0!important}html body #
 html body .lightbox::backdrop{background:rgba(8,18,38,.92)!important;-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px)}
 html body .lightbox .lb-cap,html body .lightbox .lb-desc{color:#fff!important;text-shadow:none}
 html body .lightbox .lb-meta{color:#f2c27a!important}
+/* upright tablet: every section title the same size as the About title */
+@media (min-width:768px) and (max-width:1023px){html body #about h2,html body #about .sec-head h2,html body #experience h2,html body #experience .sec-head h2,html body #training h2,html body #training .sec-head h2,html body #certifications h2,html body #certifications .sec-head h2,html body #recognition h2,html body #recognition .sec-head h2,html body #writing h2,html body #writing .sec-head h2,html body #contact h2,html body #contact .sec-head h2{font-size:min(3.5vw,32px)!important}}
